@@ -2,7 +2,7 @@
 """Run an independent visible macOS player session; never mix screenshot and performance runs."""
 import argparse, datetime, json, pathlib, subprocess
 root=pathlib.Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser();p.add_argument('task',choices=['D5','D2','D3','D4','D6','O6']);p.add_argument('mode',choices=['route','performance','ambient']);p.add_argument('--seconds',type=int)
+p=argparse.ArgumentParser();p.add_argument('task',choices=['D5','D2','D3','D4','D6','O6','O7']);p.add_argument('mode',choices=['route','performance','ambient']);p.add_argument('--seconds',type=int)
 # O6: --label keeps extra sessions (e.g. wind A/B) apart; --wind off starts with wind motion disabled.
 p.add_argument('--label');p.add_argument('--wind',choices=['on','off'],default='on');a=p.parse_args()
 out=root/'Evidence/r07'/a.task;out.mkdir(parents=True,exist_ok=True)

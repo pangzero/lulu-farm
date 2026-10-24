@@ -362,6 +362,7 @@ namespace LuluFarm.Editor
             PolishLandscape(landscape);
             if(R07Opus)OpusGroundR04(landscape);
             if(R07Task=="D4"||R07Living)FarmDecorScatter.Build(world,landscape,Place);
+            if(R07Island)OpusSkyIslandR09(landscape);
             Lighting();
             if(R07Opus)OpusSkyR08();
             var player=new GameObject("LuluPlayer");player.transform.position=new Vector3(0,.05f,3.15f);

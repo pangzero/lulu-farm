@@ -76,7 +76,7 @@ namespace LuluFarm.Editor
         public static void InspectAPI()
         {
             // D5–D6 keep writing the delivered D7 listing; the Opus O6 stage writes its own copy.
-            string apiFolder=FarmProjectBuilder.R07Task=="O6"?"Evidence/r07/O6":"Evidence/r07/D7";
+            string apiFolder=FarmProjectBuilder.R07Opus?"Evidence/r07/"+FarmProjectBuilder.R07Task:"Evidence/r07/D7";
             Directory.CreateDirectory(apiFolder);
             using(var w=new StreamWriter(apiFolder+"/profiler-api.txt"))
             foreach(var type in new[]{typeof(ProfilerDriver),typeof(ProfilerDriver).GetMethod("GetRawFrameDataView")?.ReturnType,typeof(ProfilerDriver).Assembly.GetType("UnityEditorInternal.ProfilerUserSettings")}.Where(t=>t!=null))
