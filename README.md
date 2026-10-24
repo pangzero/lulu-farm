@@ -11,7 +11,16 @@ Unity 6.3 LTS + URP 的第三人称农场工程。当前交接候选 integration
 
 ## 获取与运行
 
-安装 Git LFS 后执行 `git lfs install`，再克隆仓库并执行 `git lfs pull`。通过 Unity Hub 使用 **6000.3.16f1 Apple Silicon** 打开 `lulu-farm-unity/`；不要升级 Packages/manifest.json 或 packages-lock.json 中的版本。场景为 `Assets/Farm/Scenes/FarmWorld.unity`。
+安装 Git LFS 后，用具有此私有仓库访问权限的 GitHub 账号执行：
+
+```sh
+git lfs install
+git clone https://github.com/pangzero/lulu-farm.git
+cd lulu-farm
+git lfs pull
+```
+
+通过 Unity Hub 使用 **6000.3.16f1 Apple Silicon** 打开 `lulu-farm-unity/`；不要升级 Packages/manifest.json 或 packages-lock.json 中的版本。场景为 `Assets/Farm/Scenes/FarmWorld.unity`。
 
 本机编辑器位置为 `.unity-install/Editors/6000.3.16f1/Unity.app`；编辑器本体不会提交。历史 CLI 包装脚本使用这个相对位置，其他机器可将同版本编辑器链接到这里再运行。应先读 Docs 中的分工与复现说明，避免重建覆盖其他 agent 的新工作。
 

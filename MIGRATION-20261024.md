@@ -24,7 +24,7 @@
 
 ## 远端与大文件
 
-用户选择 GitHub 私有仓库 `pangzero/lulu-farm`。创建、认证和实际推送状态将记入 Git 交付文档，不能把配置了 remote 当成已上传。
+用户选择 GitHub 私有仓库 `pangzero/lulu-farm`。已完成 GitHub CLI 授权及实际 Git/LFS 推送，仓库私有状态与独立下载校验已核实；详见 GIT-DELIVERY.md。
 
 Unity 缓存、Editor 安装、node_modules、生成的网站 dist、游戏包、历史交付和原始 Profiler 数据保留本地，不进入普通 Git。需要版本管理的二进制由 Git LFS 管理。首次暂按建议整理代码、文档、参考图与完整 Unity 运行资产约 2.1GB；完整美术历史范围等待用户选择，本地所有原件与历史文件均保留。
 
