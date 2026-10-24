@@ -1,0 +1,23 @@
+{
+  "startedUtc": "2026-10-24T17:59:41.391020+00:00",
+  "finishedUtc": "2026-10-24T18:04:39.931126+00:00",
+  "command": [
+    "/usr/bin/caffeinate",
+    "-di",
+    "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Builds/r07/O6/development/LuluFarm.app/Contents/MacOS/噜噜农场",
+    "-screen-width",
+    "1280",
+    "-screen-height",
+    "720",
+    "-screen-fullscreen",
+    "0",
+    "--farm-evidence",
+    "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/manual-02",
+    "--farm-quit-after",
+    "600",
+    "-logFile",
+    "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/manual-02.log"
+  ],
+  "exitCode": 0,
+  "intent": "Fresh native controller binding after stale-window errors; keyboard/mouse input only; no route automation. Recording will be toggled with F9 if native controls work."
+}

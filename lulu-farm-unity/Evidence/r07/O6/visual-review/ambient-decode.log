@@ -1,0 +1,10 @@
+Preflight/extract-encoded-vfr-frames.swift:33:35: warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]
+31 |         let target = CMTime(seconds: (rows[index]["elapsedSeconds"] as! Double) - first, preferredTimescale: 60000)
+32 |         var actual = CMTime.zero
+33 |         let image = try generator.copyCGImage(at: target, actualTime: &actual)
+   |                                   `- warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]
+34 |         let path = dest.appendingPathComponent(String(format: "decoded-frame-%06d.png", index))
+35 |         guard let writer = CGImageDestinationCreateWithURL(path as CFURL, UTType.png.identifier as CFString, 1, nil) else {
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+Decoded 12 actual video frames into /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/visual-review/ambient-decoded

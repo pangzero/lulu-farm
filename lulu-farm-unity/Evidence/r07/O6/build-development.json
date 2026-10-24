@@ -1,0 +1,10 @@
+{
+    "platform": "r07-O6-development",
+    "result": "Succeeded",
+    "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Builds/r07/O6/development/LuluFarm.app",
+    "device": "not_tested",
+    "bytes": 799222676,
+    "seconds": 22.446832999999999,
+    "errors": 0,
+    "warnings": 0
+}

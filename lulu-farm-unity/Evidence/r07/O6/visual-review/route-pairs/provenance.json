@@ -1,0 +1,218 @@
+{
+  "utc": "2026-10-24T17:09:08.176458+00:00",
+  "method": "D6 left, O6 right; original RGB pixels; no resize, crop, recolor, exposure or rendering; each half verified byte-for-byte",
+  "comparisonLimit": "Same named route event, not strict identical camera: use per-frame deltas. Screenshot JSON does not record full quaternion or fov.",
+  "records": [
+    {
+      "name": "015-auto-orbit-dock-90.png",
+      "before": "Evidence/r07/D6/route/20261024-032249-631/015-auto-orbit-dock-90.png",
+      "after": "Evidence/r07/O6/route/20261024-170546-385/015-auto-orbit-dock-90.png",
+      "beforeSHA256": "72862ddb198efe9f5a6a88197d9f8dd54d4fe26ceaf5289341af5e39cbd416bd",
+      "afterSHA256": "3111a451a6f1b958e789005ecc94a3f80b337ede592c30a4a6b9b04cb2c7a0be",
+      "pair": "Evidence/r07/O6/visual-review/route-pairs/015-auto-orbit-dock-90.png",
+      "pairSHA256": "22749358c213ce5702c6363c4c69686f80041315bff2132884d22494689ea5ec",
+      "originalDimensions": [
+        1280,
+        720
+      ],
+      "pairDimensions": [
+        2560,
+        720
+      ],
+      "pairLeftRGBMatchesBefore": true,
+      "pairRightRGBMatchesAfter": true,
+      "recordedFieldsExactlyEqual": false,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": 0.0016393661499023438,
+          "y": -2.384185791015625e-07,
+          "z": 0.004226028919219971
+        },
+        "playerPosition": {
+          "x": 0.0015888214111328125,
+          "y": -1.1920928955078125e-07,
+          "z": 0.0010671019554138184
+        },
+        "cameraYaw": 0.04332733154296875,
+        "cameraPitch": -3.814697265625e-06
+      },
+      "cameraPositionDistance": 0.00453286243519176
+    },
+    {
+      "name": "016-auto-orbit-dock-180.png",
+      "before": "Evidence/r07/D6/route/20261024-032249-631/016-auto-orbit-dock-180.png",
+      "after": "Evidence/r07/O6/route/20261024-170546-385/016-auto-orbit-dock-180.png",
+      "beforeSHA256": "52345af5fbf754cb25373feab36a865780062c78893134ef39e493dcb80d99e3",
+      "afterSHA256": "0455cd2a9f2bdd57c3419bd1bcc429a581bdfd761e778a419087191d367a555f",
+      "pair": "Evidence/r07/O6/visual-review/route-pairs/016-auto-orbit-dock-180.png",
+      "pairSHA256": "81f6237446fe3775cd5d5a7162df8a097e8578b0aad3a1101740e88f65f00f35",
+      "originalDimensions": [
+        1280,
+        720
+      ],
+      "pairDimensions": [
+        2560,
+        720
+      ],
+      "pairLeftRGBMatchesBefore": true,
+      "pairRightRGBMatchesAfter": true,
+      "recordedFieldsExactlyEqual": false,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": 0.010028839111328125,
+          "y": 0.0,
+          "z": 0.0009026527404785156
+        },
+        "playerPosition": {
+          "x": 0.0015888214111328125,
+          "y": -1.1920928955078125e-07,
+          "z": 0.0010671019554138184
+        },
+        "cameraYaw": 0.11578369140625
+      },
+      "cameraPositionDistance": 0.010069379121415485
+    },
+    {
+      "name": "021-auto-orbit-house-back-90.png",
+      "before": "Evidence/r07/D6/route/20261024-032249-631/021-auto-orbit-house-back-90.png",
+      "after": "Evidence/r07/O6/route/20261024-170546-385/021-auto-orbit-house-back-90.png",
+      "beforeSHA256": "dda9eec29e35ea47e04c53b7f21c8a9dad08d8087589c3d5643fcbf8b2eaa05b",
+      "afterSHA256": "75fd07e6a2acbe1dbc2c1bb3a38ffa102eaed5cc82de5784c32850f3b005748f",
+      "pair": "Evidence/r07/O6/visual-review/route-pairs/021-auto-orbit-house-back-90.png",
+      "pairSHA256": "72ed317e1f417fe1319d515efbd2ad9a039263587e3962167e23af9fafc0b879",
+      "originalDimensions": [
+        1280,
+        720
+      ],
+      "pairDimensions": [
+        2560,
+        720
+      ],
+      "pairLeftRGBMatchesBefore": true,
+      "pairRightRGBMatchesAfter": true,
+      "recordedFieldsExactlyEqual": false,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": -0.0003464221954345703,
+          "y": 0.00033974647521972656,
+          "z": -0.008103370666503906
+        },
+        "playerPosition": {
+          "x": 0.00045120716094970703,
+          "y": -5.960464477539063e-08,
+          "z": -0.00033473968505859375
+        },
+        "cameraYaw": -0.112518310546875,
+        "cameraActualDistance": 0.0005922317504882812
+      },
+      "cameraPositionDistance": 0.008117884709927204
+    },
+    {
+      "name": "022-auto-orbit-house-back-180.png",
+      "before": "Evidence/r07/D6/route/20261024-032249-631/022-auto-orbit-house-back-180.png",
+      "after": "Evidence/r07/O6/route/20261024-170546-385/022-auto-orbit-house-back-180.png",
+      "beforeSHA256": "613ad80a71541481abd7e524a52956520010b65e75c41de5b9d4e06996a362f9",
+      "afterSHA256": "45eda7f7b65dc6a415d9c632250ed23a2c94491c0ff6c05c31db88a508d5533b",
+      "pair": "Evidence/r07/O6/visual-review/route-pairs/022-auto-orbit-house-back-180.png",
+      "pairSHA256": "7609fd6053f8acee61244254e849b74c22c2b0077c7e0d074d7ea5bfd3053146",
+      "originalDimensions": [
+        1280,
+        720
+      ],
+      "pairDimensions": [
+        2560,
+        720
+      ],
+      "pairLeftRGBMatchesBefore": true,
+      "pairRightRGBMatchesAfter": true,
+      "recordedFieldsExactlyEqual": false,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": -0.004934102296829224,
+          "y": 0.0005054473876953125,
+          "z": 0.0006275177001953125
+        },
+        "playerPosition": {
+          "x": 0.00045120716094970703,
+          "y": -5.960464477539063e-08,
+          "z": -0.00033473968505859375
+        },
+        "cameraYaw": -0.109039306640625,
+        "cameraPitch": -7.62939453125e-06,
+        "cameraActualDistance": 0.0008814334869384766
+      },
+      "cameraPositionDistance": 0.004999462071199445
+    },
+    {
+      "name": "023-auto-orbit-house-back-270.png",
+      "before": "Evidence/r07/D6/route/20261024-032249-631/023-auto-orbit-house-back-270.png",
+      "after": "Evidence/r07/O6/route/20261024-170546-385/023-auto-orbit-house-back-270.png",
+      "beforeSHA256": "89cb933427950352fb4938c33c166b95516a49e9f4a0f7c498671dbbc54582d8",
+      "afterSHA256": "04ed4b01fe8dbf84ad99ce9629229a912bd8a658fbc2f5673233f7c7627f303a",
+      "pair": "Evidence/r07/O6/visual-review/route-pairs/023-auto-orbit-house-back-270.png",
+      "pairSHA256": "22cc8b227fd2f8f774b959881c6a8f72a463e890df433f06b089844d6cfcda6e",
+      "originalDimensions": [
+        1280,
+        720
+      ],
+      "pairDimensions": [
+        2560,
+        720
+      ],
+      "pairLeftRGBMatchesBefore": true,
+      "pairRightRGBMatchesAfter": true,
+      "recordedFieldsExactlyEqual": false,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": -1.049041748046875e-05,
+          "y": -0.0005850791931152344,
+          "z": 0.007426261901855469
+        },
+        "playerPosition": {
+          "x": 0.00045120716094970703,
+          "y": -5.960464477539063e-08,
+          "z": -0.00033473968505859375
+        },
+        "cameraYaw": -0.106201171875,
+        "cameraActualDistance": -0.0010199546813964844
+      },
+      "cameraPositionDistance": 0.007449281411386288
+    },
+    {
+      "name": "024-auto-orbit-house-back-360.png",
+      "before": "Evidence/r07/D6/route/20261024-032249-631/024-auto-orbit-house-back-360.png",
+      "after": "Evidence/r07/O6/route/20261024-170546-385/024-auto-orbit-house-back-360.png",
+      "beforeSHA256": "d1e0147b348a7fd6e953efebfa24f8403845d0170401c3bd1e4ec57c9e10dc31",
+      "afterSHA256": "04377eee5e416815d6cbd7084d9b041b9e3e1930a5e09c831aa0ea33170767b9",
+      "pair": "Evidence/r07/O6/visual-review/route-pairs/024-auto-orbit-house-back-360.png",
+      "pairSHA256": "84895e7dfd34b3218bc7b802567035536fb5f60f0a1c4e6d55e2126699ce455c",
+      "originalDimensions": [
+        1280,
+        720
+      ],
+      "pairDimensions": [
+        2560,
+        720
+      ],
+      "pairLeftRGBMatchesBefore": true,
+      "pairRightRGBMatchesAfter": true,
+      "recordedFieldsExactlyEqual": false,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": 0.013697318732738495,
+          "y": -6.9141387939453125e-06,
+          "z": -0.0008416175842285156
+        },
+        "playerPosition": {
+          "x": 0.00045120716094970703,
+          "y": -5.960464477539063e-08,
+          "z": -0.00033473968505859375
+        },
+        "cameraYaw": -0.18190598487854004,
+        "cameraPitch": 7.62939453125e-06,
+        "cameraActualDistance": -1.33514404296875e-05
+      },
+      "cameraPositionDistance": 0.013723152277433447
+    }
+  ]
+}

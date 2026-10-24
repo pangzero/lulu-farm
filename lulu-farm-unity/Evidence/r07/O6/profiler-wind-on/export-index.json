@@ -1,0 +1,326 @@
+{
+    "utc": "2026-10-24T17:57:31.8077000Z",
+    "method": "raw .data read by locked Unity ProfilerDriver; Chrome Trace gzip; samples >=0.1 ms plus roots; binary captures preserve all markers",
+    "chunks": [
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0000.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0000.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1169,
+            "frames": 1170,
+            "threads": 44,
+            "events": 142155
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0001.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0001.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1174,
+            "frames": 1175,
+            "threads": 44,
+            "events": 140519
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0002.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0002.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1169,
+            "frames": 1170,
+            "threads": 44,
+            "events": 145719
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0003.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0003.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1194,
+            "frames": 1195,
+            "threads": 44,
+            "events": 152000
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0004.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0004.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1200,
+            "frames": 1201,
+            "threads": 44,
+            "events": 144735
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0005.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0005.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1200,
+            "frames": 1201,
+            "threads": 44,
+            "events": 155119
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0006.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0006.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1196,
+            "frames": 1197,
+            "threads": 44,
+            "events": 163068
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0007.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0007.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1199,
+            "frames": 1200,
+            "threads": 44,
+            "events": 158489
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0008.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0008.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1199,
+            "frames": 1200,
+            "threads": 44,
+            "events": 148432
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0009.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0009.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1190,
+            "frames": 1191,
+            "threads": 44,
+            "events": 135141
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0010.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0010.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1200,
+            "frames": 1201,
+            "threads": 44,
+            "events": 155670
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0011.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0011.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1188,
+            "frames": 1189,
+            "threads": 44,
+            "events": 155957
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0012.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0012.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1152,
+            "frames": 1153,
+            "threads": 44,
+            "events": 143925
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0013.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0013.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1201,
+            "frames": 1202,
+            "threads": 44,
+            "events": 135548
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0014.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0014.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1200,
+            "frames": 1201,
+            "threads": 44,
+            "events": 145438
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0015.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0015.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 143254
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0016.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0016.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1199,
+            "frames": 1200,
+            "threads": 44,
+            "events": 158510
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0017.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0017.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1198,
+            "frames": 1199,
+            "threads": 44,
+            "events": 160260
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0018.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0018.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1187,
+            "frames": 1188,
+            "threads": 44,
+            "events": 147754
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0019.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0019.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1197,
+            "frames": 1198,
+            "threads": 44,
+            "events": 145676
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0020.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0020.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1198,
+            "frames": 1199,
+            "threads": 44,
+            "events": 146597
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0021.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0021.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1190,
+            "frames": 1191,
+            "threads": 44,
+            "events": 172748
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0022.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0022.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1199,
+            "frames": 1200,
+            "threads": 44,
+            "events": 156545
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0023.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0023.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 150238
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0024.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0024.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 155621
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0025.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0025.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1197,
+            "frames": 1198,
+            "threads": 44,
+            "events": 153954
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0026.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0026.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1197,
+            "frames": 1198,
+            "threads": 44,
+            "events": 162431
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0027.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0027.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 157966
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0028.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0028.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1167,
+            "frames": 1168,
+            "threads": 44,
+            "events": 152700
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0029.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0029.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1187,
+            "frames": 1188,
+            "threads": 44,
+            "events": 151335
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0030.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0030.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1193,
+            "frames": 1194,
+            "threads": 44,
+            "events": 147963
+        },
+        {
+            "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0031.data",
+            "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-on/cpu-0031.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 319,
+            "frames": 320,
+            "threads": 44,
+            "events": 45700
+        }
+    ]
+}

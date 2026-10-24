@@ -1,0 +1,653 @@
+{
+  "utc": "2026-10-24T17:59:18.476173+00:00",
+  "observer": "o6_resume_audit",
+  "status": "Completed; awaiting Opus review",
+  "acceptanceConclusion": null,
+  "scope": "22 originals actually opened: 12 O6 standard fixed, 5 O6 PP-on, 5 D6 snapshot PP-on. All 22 opened again immediately before writing. No rerendering, recoloring or source modification.",
+  "viewedCount": 22,
+  "images": [
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/overview.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ab4d049e7928ede539cba4774ac3008681bbb08598de4271629c8fdfb2a3c3a7",
+      "actuallyOpened": true,
+      "observation": "总场景区域关系可见；远处较淡，地面远边缘仍隐约形成直线/折角，不能描述为边界完全消失。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/overview-close-diagnostic.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c4cdc805d08c494b68796bc0679e408356981007a67b91e49ab09854c0251fd4",
+      "actuallyOpened": true,
+      "observation": "田地、主屋、中央牧场、池塘与门口可辨；谷仓在牧场右后，筒仓在其临池塘一侧。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/spawn.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "bc8fea1b30e717c768ee03d797a66e5332e6c052f7686ea941b883995fa7b521",
+      "actuallyOpened": true,
+      "observation": "Lulu、门口可见，谷仓仅从右下局部进入；路面有低对比浅圆点。标准图与 PP-on 呈现不同，不能混用作同设置对照。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/fields.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "82174ce63431b74b6c8d364ec93c48eff9cef935e08b3d60e685ee26a3436244",
+      "actuallyOpened": true,
+      "observation": "成熟作物与幼苗交错，果树/围栏遮挡边缘；不是每种作物独立检查图。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/pasture.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "7b5cc01b7a715d964e491a054696978b74ca8d891900dced186188d67290724b",
+      "actuallyOpened": true,
+      "observation": "牛羊猪鸡鸭可见；羊猪分离，主屋门露出；谷仓右后，白筒仓右侧临池塘。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/pond.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0d0b69359986bcb3e7404b7f4160658acfd462514c7b1f106d9c2ec7fa0f1e65",
+      "actuallyOpened": true,
+      "observation": "石岸、码头、小船、睡莲和芦苇可见；右下摊位棚顶遮挡局部。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/house-front.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "2cdd9975864f2dbaf89a54395b0a547a439727fc75740cda887be673314bc9b5",
+      "actuallyOpened": true,
+      "observation": "门窗、瓦顶、摊位可见，屋顶明暗分面与瓦片层次可辨；梨树遮挡左下立面。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/house-back.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "cfc0aee2659870b51f4725ca98476b57e43ad0608e9866333cc9eec6844c800f",
+      "actuallyOpened": true,
+      "observation": "背墙、烟囱、屋顶、侧窗可见，背墙轻微纵向明暗/接缝；近树遮挡下部，不能核对全部接地边。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/pond-east.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "de7383c16e9063b2555431b6943f495080382b5023200789885fe346881fcc98",
+      "actuallyOpened": true,
+      "observation": "池塘东侧可见码头、船、渔摊、主屋、谷仓及岸线；芦苇和树冠局部遮挡。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/field-fence.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "47cd98a1446b0e8fc1d6d4f8faee8c4db45905945d709bbc2b29d9e57a540c63",
+      "actuallyOpened": true,
+      "observation": "围栏、两阶段植物、主屋侧墙及谷仓可见；前景围栏遮挡部分田格。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/dock.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "303bda9139bd062905cceaa3752b38fff4f6be0cdd2be6e87d02c42c20a6176c",
+      "actuallyOpened": true,
+      "observation": "码头木板、立柱、船内横撑、芦苇及石岸可见；蓝色水面有浅色波纹斑。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed/landscape-back.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "4655d3f2458e5a91bf4c7d092d117631b9e3d901e1cfa8eb002958bb7ff72027",
+      "actuallyOpened": true,
+      "observation": "主屋背侧、果树、田地一角和动物可见；屋顶瓦片明暗分面可辨，近树遮挡局部。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/pasture.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ffacf961dcdddd67add747cba554d2d6c7b4fad603df20a764b15e28b7b424c3",
+      "actuallyOpened": true,
+      "observation": "谷仓较大居中，白筒仓在左，遮挡主屋门；羊在猪后方，投影位置较靠近。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/pasture.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3d12bfd6008ab482ff474f29c2baaac71eb8c1d48dee1da80666aacffee0a2f1",
+      "actuallyOpened": true,
+      "observation": "谷仓变小并向右后移动，筒仓右侧临池塘；门口露出，羊猪分开，槽和草捆位置变化。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/spawn.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c66cd371313604d10e89be044d71652305569248bfbfb9767c9c3f7b923dbc91",
+      "actuallyOpened": true,
+      "observation": "谷仓绿屋顶占右下较大范围；路面块状色差可辨。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/spawn.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "571cfbff8f5c3c5448780c42b659141eb75a906308f62c79937e1e5add9b1e2c",
+      "actuallyOpened": true,
+      "observation": "谷仓退到右下较小局部，草捆进入下方；路面较平整，PP-on 图的浅圆点不易辨认。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/house-front.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b9d58d3962fab1c38c4ae3c6922dc60a92b19b877b0377a4a912dc79c4a18d96",
+      "actuallyOpened": true,
+      "observation": "主屋瓦顶、门窗、花箱可见；右边缘较多谷仓屋顶。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/house-front.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6e70ce42a72f594df2320a68eadb37555157add7042aed2a73f783a5d01cd9a0",
+      "actuallyOpened": true,
+      "observation": "谷仓覆盖减少；屋顶明暗分面和瓦片层次可见，未见整片黑屋顶；梨树仍挡左下。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/overview.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "91feed0a37dc172e0cade7ee8e16b1938eb8b6409144b4fc3277aed93cde2d1e",
+      "actuallyOpened": true,
+      "observation": "远景地面与蓝天的直线/折角边界明显；远景雾化，谷仓较居中。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/overview.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "05216be109d8912c02693a80c060fed355e15555b4afa987bb19eec581c80ae3",
+      "actuallyOpened": true,
+      "observation": "边界对比减弱但仍能看见；谷仓更小靠池塘，远景仍有较强浅色雾化外观。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/close-house-road.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "78111f1f1aeae9ba6226ef836dab7f84268c7920948bf41768634e783946057b",
+      "actuallyOpened": true,
+      "observation": "路面有大块色阶/多边形色差；右边道路较大谷仓阴影。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/close-house-road.png",
+      "width": 1600,
+      "height": 900,
+      "sha256": "727559a84feb0115f7ca52a576b4aec14e4acd54c58a9d6ab363cdaba5040902",
+      "actuallyOpened": true,
+      "observation": "大块色差较不明显，栏杆影可辨；未清楚辨认零散碎石，不据此称碎石呈现充分。",
+      "blackFrameObserved": false,
+      "magentaFrameObserved": false
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "pasture",
+      "before": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/pasture.png",
+      "after": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/pasture.png",
+      "D6OriginalReference": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/fixed-pp-on/pasture.png",
+      "snapshotMatchesD6SHA256": true,
+      "cameraSettings": {
+        "position": {
+          "before": {
+            "x": 2.4000000953674316,
+            "y": 3.6500000953674316,
+            "z": -10.800000190734863
+          },
+          "after": {
+            "x": 2.4000000953674316,
+            "y": 3.6500000953674316,
+            "z": -10.800000190734863
+          },
+          "exactlyEqual": true
+        },
+        "target": {
+          "before": {
+            "x": 1.2000000476837158,
+            "y": 0.699999988079071,
+            "z": -2.5
+          },
+          "after": {
+            "x": 1.2000000476837158,
+            "y": 0.699999988079071,
+            "z": -2.5
+          },
+          "exactlyEqual": true
+        },
+        "fov": {
+          "before": 52.0,
+          "after": 52.0,
+          "exactlyEqual": true
+        },
+        "width": {
+          "before": 1600,
+          "after": 1600,
+          "exactlyEqual": true
+        },
+        "height": {
+          "before": 900,
+          "after": 900,
+          "exactlyEqual": true
+        }
+      },
+      "renderFields": {
+        "postProcessing": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "hdr": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "actualVignette": {
+          "before": 0.1599999964237213,
+          "after": 0.1599999964237213,
+          "exactlyEqual": true
+        },
+        "actualBloom": {
+          "before": 0.20000000298023224,
+          "after": 0.20000000298023224,
+          "exactlyEqual": true
+        },
+        "actualExposure": {
+          "before": 0.10000000149011612,
+          "after": 0.10000000149011612,
+          "exactlyEqual": true
+        },
+        "actualTonemapping": {
+          "before": "Neutral",
+          "after": "Neutral",
+          "exactlyEqual": true
+        }
+      },
+      "limit": "Recorded camera and listed post-processing fields only; changed layout, ground and sky do not establish identical lighting or complete render conditions."
+    },
+    {
+      "name": "spawn",
+      "before": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/spawn.png",
+      "after": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/spawn.png",
+      "D6OriginalReference": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/fixed-pp-on/spawn.png",
+      "snapshotMatchesD6SHA256": true,
+      "cameraSettings": {
+        "position": {
+          "before": {
+            "x": 0.0,
+            "y": 3.6500000953674316,
+            "z": -1.0299999713897705
+          },
+          "after": {
+            "x": 0.0,
+            "y": 3.6500000953674316,
+            "z": -1.0299999713897705
+          },
+          "exactlyEqual": true
+        },
+        "target": {
+          "before": {
+            "x": 0.0,
+            "y": 0.7450000047683716,
+            "z": 3.1500000953674316
+          },
+          "after": {
+            "x": 0.0,
+            "y": 0.7450000047683716,
+            "z": 3.1500000953674316
+          },
+          "exactlyEqual": true
+        },
+        "fov": {
+          "before": 52.0,
+          "after": 52.0,
+          "exactlyEqual": true
+        },
+        "width": {
+          "before": 1600,
+          "after": 1600,
+          "exactlyEqual": true
+        },
+        "height": {
+          "before": 900,
+          "after": 900,
+          "exactlyEqual": true
+        }
+      },
+      "renderFields": {
+        "postProcessing": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "hdr": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "actualVignette": {
+          "before": 0.1599999964237213,
+          "after": 0.1599999964237213,
+          "exactlyEqual": true
+        },
+        "actualBloom": {
+          "before": 0.20000000298023224,
+          "after": 0.20000000298023224,
+          "exactlyEqual": true
+        },
+        "actualExposure": {
+          "before": 0.10000000149011612,
+          "after": 0.10000000149011612,
+          "exactlyEqual": true
+        },
+        "actualTonemapping": {
+          "before": "Neutral",
+          "after": "Neutral",
+          "exactlyEqual": true
+        }
+      },
+      "limit": "Recorded camera and listed post-processing fields only; changed layout, ground and sky do not establish identical lighting or complete render conditions."
+    },
+    {
+      "name": "house-front",
+      "before": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/house-front.png",
+      "after": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/house-front.png",
+      "D6OriginalReference": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/fixed-pp-on/house-front.png",
+      "snapshotMatchesD6SHA256": true,
+      "cameraSettings": {
+        "position": {
+          "before": {
+            "x": -4.400000095367432,
+            "y": 3.700000047683716,
+            "z": -0.20000000298023224
+          },
+          "after": {
+            "x": -4.400000095367432,
+            "y": 3.700000047683716,
+            "z": -0.20000000298023224
+          },
+          "exactlyEqual": true
+        },
+        "target": {
+          "before": {
+            "x": 0.0,
+            "y": 1.899999976158142,
+            "z": 6.300000190734863
+          },
+          "after": {
+            "x": 0.0,
+            "y": 1.899999976158142,
+            "z": 6.300000190734863
+          },
+          "exactlyEqual": true
+        },
+        "fov": {
+          "before": 52.0,
+          "after": 52.0,
+          "exactlyEqual": true
+        },
+        "width": {
+          "before": 1600,
+          "after": 1600,
+          "exactlyEqual": true
+        },
+        "height": {
+          "before": 900,
+          "after": 900,
+          "exactlyEqual": true
+        }
+      },
+      "renderFields": {
+        "postProcessing": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "hdr": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "actualVignette": {
+          "before": 0.1599999964237213,
+          "after": 0.1599999964237213,
+          "exactlyEqual": true
+        },
+        "actualBloom": {
+          "before": 0.20000000298023224,
+          "after": 0.20000000298023224,
+          "exactlyEqual": true
+        },
+        "actualExposure": {
+          "before": 0.10000000149011612,
+          "after": 0.10000000149011612,
+          "exactlyEqual": true
+        },
+        "actualTonemapping": {
+          "before": "Neutral",
+          "after": "Neutral",
+          "exactlyEqual": true
+        }
+      },
+      "limit": "Recorded camera and listed post-processing fields only; changed layout, ground and sky do not establish identical lighting or complete render conditions."
+    },
+    {
+      "name": "overview",
+      "before": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/overview.png",
+      "after": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/overview.png",
+      "D6OriginalReference": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/fixed-pp-on/overview.png",
+      "snapshotMatchesD6SHA256": true,
+      "cameraSettings": {
+        "position": {
+          "before": {
+            "x": 24.0,
+            "y": 24.0,
+            "z": -30.0
+          },
+          "after": {
+            "x": 24.0,
+            "y": 24.0,
+            "z": -30.0
+          },
+          "exactlyEqual": true
+        },
+        "target": {
+          "before": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          },
+          "after": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          },
+          "exactlyEqual": true
+        },
+        "fov": {
+          "before": 52.0,
+          "after": 52.0,
+          "exactlyEqual": true
+        },
+        "width": {
+          "before": 1600,
+          "after": 1600,
+          "exactlyEqual": true
+        },
+        "height": {
+          "before": 900,
+          "after": 900,
+          "exactlyEqual": true
+        }
+      },
+      "renderFields": {
+        "postProcessing": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "hdr": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "actualVignette": {
+          "before": 0.1599999964237213,
+          "after": 0.1599999964237213,
+          "exactlyEqual": true
+        },
+        "actualBloom": {
+          "before": 0.20000000298023224,
+          "after": 0.20000000298023224,
+          "exactlyEqual": true
+        },
+        "actualExposure": {
+          "before": 0.10000000149011612,
+          "after": 0.10000000149011612,
+          "exactlyEqual": true
+        },
+        "actualTonemapping": {
+          "before": "Neutral",
+          "after": "Neutral",
+          "exactlyEqual": true
+        }
+      },
+      "limit": "Recorded camera and listed post-processing fields only; changed layout, ground and sky do not establish identical lighting or complete render conditions."
+    },
+    {
+      "name": "close-house-road",
+      "before": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/before/fixed-pp-on/close-house-road.png",
+      "after": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/fixed-pp-on/close-house-road.png",
+      "D6OriginalReference": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/fixed-pp-on/close-house-road.png",
+      "snapshotMatchesD6SHA256": true,
+      "cameraSettings": {
+        "position": {
+          "before": {
+            "x": -1.899999976158142,
+            "y": 1.5,
+            "z": 2.200000047683716
+          },
+          "after": {
+            "x": -1.899999976158142,
+            "y": 1.5,
+            "z": 2.200000047683716
+          },
+          "exactlyEqual": true
+        },
+        "target": {
+          "before": {
+            "x": 0.20000000298023224,
+            "y": 0.0,
+            "z": 3.299999952316284
+          },
+          "after": {
+            "x": 0.20000000298023224,
+            "y": 0.0,
+            "z": 3.299999952316284
+          },
+          "exactlyEqual": true
+        },
+        "fov": {
+          "before": 52.0,
+          "after": 52.0,
+          "exactlyEqual": true
+        },
+        "width": {
+          "before": 1600,
+          "after": 1600,
+          "exactlyEqual": true
+        },
+        "height": {
+          "before": 900,
+          "after": 900,
+          "exactlyEqual": true
+        }
+      },
+      "renderFields": {
+        "postProcessing": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "hdr": {
+          "before": true,
+          "after": true,
+          "exactlyEqual": true
+        },
+        "actualVignette": {
+          "before": 0.1599999964237213,
+          "after": 0.1599999964237213,
+          "exactlyEqual": true
+        },
+        "actualBloom": {
+          "before": 0.20000000298023224,
+          "after": 0.20000000298023224,
+          "exactlyEqual": true
+        },
+        "actualExposure": {
+          "before": 0.10000000149011612,
+          "after": 0.10000000149011612,
+          "exactlyEqual": true
+        },
+        "actualTonemapping": {
+          "before": "Neutral",
+          "after": "Neutral",
+          "exactlyEqual": true
+        }
+      },
+      "limit": "Recorded camera and listed post-processing fields only; changed layout, ground and sky do not establish identical lighting or complete render conditions."
+    }
+  ],
+  "globalObservation": "No fully black or magenta frames seen in these 22 images. Major scene objects visible; this is not an asset-completeness or art-acceptance conclusion.",
+  "limits": [
+    "Static images do not establish flicker, motion, sound, camera collision or interaction behavior.",
+    "Standard and PP-on are different presentation settings, not interchangeable comparison sets.",
+    "No Lulu, model, code, scene or existing evidence modified."
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "utc": "2026-10-24T17:11:47.458319+00:00",
+  "observer": "o6_resume_audit",
+  "scope": "仅实际查看指定六组 D6/O6 路线截图并描述，不作验收结论。",
+  "status": "已完成，待 Opus 验收",
+  "acceptanceConclusion": null,
+  "provenance": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/visual-review/route-pairs/provenance.json",
+  "pixelMethod": "D6 left, O6 right; original RGB pixels; no resize, crop, recolor, exposure or rendering; each half verified byte-for-byte",
+  "viewing": "实际打开 6 张 2560×720 并排图；显示工具将并排图显示为 2048×576。随后逐张实际打开全部 12 张 1280×720 原图查看细节；源文件与并排文件无缩放、裁切、调色或重渲染。",
+  "viewedFiles": [
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/route/20261024-032249-631/015-auto-orbit-dock-90.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/015-auto-orbit-dock-90.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/visual-review/route-pairs/015-auto-orbit-dock-90.png",
+      "dimensions": [
+        2560,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/route/20261024-032249-631/016-auto-orbit-dock-180.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/016-auto-orbit-dock-180.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/visual-review/route-pairs/016-auto-orbit-dock-180.png",
+      "dimensions": [
+        2560,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/route/20261024-032249-631/021-auto-orbit-house-back-90.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/021-auto-orbit-house-back-90.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/visual-review/route-pairs/021-auto-orbit-house-back-90.png",
+      "dimensions": [
+        2560,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/route/20261024-032249-631/022-auto-orbit-house-back-180.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/022-auto-orbit-house-back-180.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/visual-review/route-pairs/022-auto-orbit-house-back-180.png",
+      "dimensions": [
+        2560,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/route/20261024-032249-631/023-auto-orbit-house-back-270.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/023-auto-orbit-house-back-270.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/visual-review/route-pairs/023-auto-orbit-house-back-270.png",
+      "dimensions": [
+        2560,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/D6/route/20261024-032249-631/024-auto-orbit-house-back-360.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/024-auto-orbit-house-back-360.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "actuallyOpened": true
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/visual-review/route-pairs/024-auto-orbit-house-back-360.png",
+      "dimensions": [
+        2560,
+        720
+      ],
+      "actuallyOpened": true
+    }
+  ],
+  "cameraComparison": {
+    "allSixExactlyEqual": false,
+    "positionDeltaRange": [
+      0.00453286243519176,
+      0.013723152277433447
+    ],
+    "yawDeltaRangeDegrees": [
+      -0.18190598487854004,
+      0.11578369140625
+    ],
+    "sameRecordedFields": [
+      "1280×720",
+      "currentQuality=电脑",
+      "currentStage=mixed",
+      "wardrobe=原版短裤",
+      "requestedDistance=5.099999904632568"
+    ],
+    "notRecorded": [
+      "full camera quaternion",
+      "FOV"
+    ],
+    "statement": "这些是同名路线事件，不是严格同机位截图；精确差值见逐图记录与 provenance.json。"
+  },
+  "observations": [
+    {
+      "name": "015-auto-orbit-dock-90.png",
+      "observation": {
+        "before": "Lulu 站在码头上，池塘、右侧小船、芦苇与渔产摊位可见；这张没有明显大面积淡出遮挡层。",
+        "after": "相同路线事件中也未看到大面积发白遮罩或明显网格。右侧水面波纹的大小、位置与 D6 不同，画面不是同一动态相位。",
+        "limits": "此角度不是明显淡出遮挡压力画面，不能据此判断遮挡方法效果。"
+      },
+      "comparison": "同名路线事件，记录相机字段不完全一致；不能当作严格同机位对照。",
+      "cameraPositionDistance": 0.00453286243519176,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": 0.0016393661499023438,
+          "y": -2.384185791015625e-07,
+          "z": 0.004226028919219971
+        },
+        "playerPosition": {
+          "x": 0.0015888214111328125,
+          "y": -1.1920928955078125e-07,
+          "z": 0.0010671019554138184
+        },
+        "cameraYaw": 0.04332733154296875,
+        "cameraPitch": -3.814697265625e-06
+      }
+    },
+    {
+      "name": "016-auto-orbit-dock-180.png",
+      "observation": {
+        "before": "Lulu 侧身位于码头，小船在左，渔产摊位在后；主要画面没有明显半透明壳层。",
+        "after": "右侧可见调整后的谷仓/筒仓和不同的饲料槽位置；主要画面没有明显发白遮罩或规则网格。",
+        "limits": "布局存在变化；此角度不能代表淡出发生时的表现。"
+      },
+      "comparison": "同名路线事件，记录相机字段不完全一致；不能当作严格同机位对照。",
+      "cameraPositionDistance": 0.010069379121415485,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": 0.010028839111328125,
+          "y": 0.0,
+          "z": 0.0009026527404785156
+        },
+        "playerPosition": {
+          "x": 0.0015888214111328125,
+          "y": -1.1920928955078125e-07,
+          "z": 0.0010671019554138184
+        },
+        "cameraYaw": 0.11578369140625
+      }
+    },
+    {
+      "name": "021-auto-orbit-house-back-90.png",
+      "observation": {
+        "before": "主屋背侧墙体及屋顶占画面右侧，呈不透明状态；左侧为草地与树。屋顶边缘的直线段/分面可见。",
+        "after": "主屋仍呈不透明状态，未见大范围半透明叠层或网格。屋顶边缘的直线段/分面仍可见。",
+        "limits": "静态画面未显示明显淡出遮挡层。"
+      },
+      "comparison": "同名路线事件，记录相机字段不完全一致；不能当作严格同机位对照。",
+      "cameraPositionDistance": 0.008117884709927204,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": -0.0003464221954345703,
+          "y": 0.00033974647521972656,
+          "z": -0.008103370666503906
+        },
+        "playerPosition": {
+          "x": 0.00045120716094970703,
+          "y": -5.960464477539063e-08,
+          "z": -0.00033473968505859375
+        },
+        "cameraYaw": -0.112518310546875,
+        "cameraActualDistance": 0.0005922317504882812
+      }
+    },
+    {
+      "name": "022-auto-orbit-house-back-180.png",
+      "observation": {
+        "before": "Lulu 面向镜头，后面是主屋背墙，前景有白花；墙面为不透明。背墙轻微纵向明暗接缝可见。",
+        "after": "同一事件仍为不透明背墙；未见大范围发白遮罩或规则网格；背墙轻微纵向明暗接缝仍可见。",
+        "limits": "静态画面未显示明显淡出遮挡层。"
+      },
+      "comparison": "同名路线事件，记录相机字段不完全一致；不能当作严格同机位对照。",
+      "cameraPositionDistance": 0.004999462071199445,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": -0.004934102296829224,
+          "y": 0.0005054473876953125,
+          "z": 0.0006275177001953125
+        },
+        "playerPosition": {
+          "x": 0.00045120716094970703,
+          "y": -5.960464477539063e-08,
+          "z": -0.00033473968505859375
+        },
+        "cameraYaw": -0.109039306640625,
+        "cameraPitch": -7.62939453125e-06,
+        "cameraActualDistance": 0.0008814334869384766
+      }
+    },
+    {
+      "name": "023-auto-orbit-house-back-270.png",
+      "observation": {
+        "before": "右下覆盖草地和白花的浅绿色连续半透明壳/弧形叠层明显，可辨认大范围弧形边界。",
+        "after": "对应右下区域出现明显细密、规则的网点/网格，覆盖草地、白花及部分树干/树体。浅绿色覆盖区外缘仍清楚，局部带状或多边形形状边界仍可辨认。",
+        "limits": "这里只描述显示外观，不由此推断着色器根因；单帧不能判断闪烁或恢复过程。"
+      },
+      "comparison": "同名路线事件，记录相机字段不完全一致；不能当作严格同机位对照。",
+      "cameraPositionDistance": 0.007449281411386288,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": -1.049041748046875e-05,
+          "y": -0.0005850791931152344,
+          "z": 0.007426261901855469
+        },
+        "playerPosition": {
+          "x": 0.00045120716094970703,
+          "y": -5.960464477539063e-08,
+          "z": -0.00033473968505859375
+        },
+        "cameraYaw": -0.106201171875,
+        "cameraActualDistance": -0.0010199546813964844
+      }
+    },
+    {
+      "name": "024-auto-orbit-house-back-360.png",
+      "observation": {
+        "before": "三维场景大范围泛浅绿/浅黄，可见多层半透明面板/壳轮廓，右下窗框重影，Lulu 位于中央附近。",
+        "after": "UI 下方的三维场景几乎整体覆盖密集规则网格；实际打开 1280×720 原图时可见明显斜向明暗/彩色条带。仍有橙黄绿覆盖区、右下青色窗框轮廓和跨画面的直斜边界/多边形面板轮廓，Lulu 透过网格可见。",
+        "limits": "从连续浅色泛白转为高对比网格及条带的外观变化可见，不能据此称叠层或硬边已消除；不对条带成因或动态稳定性作结论。"
+      },
+      "comparison": "同名路线事件，记录相机字段不完全一致；不能当作严格同机位对照。",
+      "cameraPositionDistance": 0.013723152277433447,
+      "afterMinusBefore": {
+        "cameraPosition": {
+          "x": 0.013697318732738495,
+          "y": -6.9141387939453125e-06,
+          "z": -0.0008416175842285156
+        },
+        "playerPosition": {
+          "x": 0.00045120716094970703,
+          "y": -5.960464477539063e-08,
+          "z": -0.00033473968505859375
+        },
+        "cameraYaw": -0.18190598487854004,
+        "cameraPitch": 7.62939453125e-06,
+        "cameraActualDistance": -1.33514404296875e-05
+      }
+    }
+  ],
+  "globalObservation": "这 12 张原图中未看到全黑或洋红画面；本记录不推广到其他机位、着色器或运行阶段。",
+  "limitations": [
+    "只看这六组静态截图，不能判断时间上的闪烁、淡出恢复、镜头连续运动或风动连续性。",
+    "同名截图相机位置和 yaw 有小幅差异，动态水纹相位也可能不同。",
+    "没有运行渲染、修改代码、调整源图或测试性能。",
+    "这里只描述可见现象，不给出技术、美术或设备验收结论。"
+  ]
+}

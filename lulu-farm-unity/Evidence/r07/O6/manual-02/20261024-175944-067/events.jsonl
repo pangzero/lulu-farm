@@ -1,0 +1,11 @@
+{"utc":"2026-10-24T17:59:44.0718830Z","action":"session_started","sessionSeconds":0.0,"position":{"x":0.0,"y":0.05000000074505806,"z":3.1500000953674318}}
+{"utc":"2026-10-24T17:59:44.0772110Z","action":"r07_ui_normal","sessionSeconds":0.0,"position":{"x":0.0,"y":0.05000000074505806,"z":3.1500000953674318}}
+{"utc":"2026-10-24T17:59:44.0952810Z","action":"r07_ambient_wind_True_sound_True","sessionSeconds":0.0,"position":{"x":0.0,"y":0.042799998074769977,"z":3.1500000953674318}}
+{"utc":"2026-10-24T17:59:44.0967880Z","action":"route_proximity_主屋前","sessionSeconds":0.024788856506347657,"position":{"x":0.0,"y":0.042799998074769977,"z":3.1500000953674318}}
+{"utc":"2026-10-24T17:59:44.0968360Z","action":"ordered_route_marker_主屋前","sessionSeconds":0.024788856506347657,"position":{"x":0.0,"y":0.042799998074769977,"z":3.1500000953674318}}
+{"utc":"2026-10-24T17:59:44.0968770Z","action":"route_proximity_返回","sessionSeconds":0.024788856506347657,"position":{"x":0.0,"y":0.042799998074769977,"z":3.1500000953674318}}
+{"utc":"2026-10-24T17:59:44.2623090Z","action":"r07_ambient_wind_True_sound_True","sessionSeconds":0.18119549751281739,"position":{"x":0.0,"y":0.028399992734193803,"z":3.1500000953674318}}
+{"utc":"2026-10-24T18:03:05.5309210Z","action":"performance_run_invalidated_by_frame_sequence_started","sessionSeconds":201.45530700683595,"position":{"x":0.0,"y":0.024999845772981645,"z":3.1500000953674318}}
+{"utc":"2026-10-24T18:03:05.5311230Z","action":"frame_sequence_started_walkthrough-180305-530","sessionSeconds":201.45530700683595,"position":{"x":0.0,"y":0.024999845772981645,"z":3.1500000953674318}}
+{"utc":"2026-10-24T18:04:23.4488040Z","action":"route_proximity_主屋背面","sessionSeconds":279.3728942871094,"position":{"x":-0.5785158276557922,"y":0.02499990537762642,"z":10.270598411560059}}
+{"utc":"2026-10-24T18:04:33.7800070Z","action":"frame_sequence_stopped_by_operator","sessionSeconds":289.7033996582031,"position":{"x":-0.5785158276557922,"y":0.024999845772981645,"z":11.220000267028809}}

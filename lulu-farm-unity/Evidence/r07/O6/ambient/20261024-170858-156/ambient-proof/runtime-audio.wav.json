@@ -1,0 +1,11 @@
+{
+    "utc": "2026-10-24T17:09:57.8339790Z",
+    "status": "actual_listener_callback_samples_captured",
+    "source": "Actual Unity AudioListener output, float32 WAV. No microphone. No synthetic replacement of captured samples.",
+    "review": "Audible quality pending human/Opus review; video is separately captured and has no muxed audio track.",
+    "sampleRate": 48000,
+    "channels": 2,
+    "samples": 5390336,
+    "seconds": 56.14933333333333,
+    "peak": 0.045383453369140628
+}

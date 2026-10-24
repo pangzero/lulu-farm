@@ -1,0 +1,67 @@
+{
+    "utc": "2026-10-24T14:17:44.2897650Z",
+    "spec": "Docs/r07-ground-shading-spec.md C",
+    "status": "configured_requires_Opus_review",
+    "ambientSky": {
+        "r": 0.7647058963775635,
+        "g": 0.8627451062202454,
+        "b": 0.9490196108818054,
+        "a": 1.0
+    },
+    "ambientEquator": {
+        "r": 0.8627451062202454,
+        "g": 0.9098039269447327,
+        "b": 0.7882353067398071,
+        "a": 1.0
+    },
+    "ambientGround": {
+        "r": 0.5137255191802979,
+        "g": 0.6274510025978088,
+        "b": 0.3843137323856354,
+        "a": 1.0
+    },
+    "lightColor": {
+        "r": 1.0,
+        "g": 0.9411764740943909,
+        "b": 0.8549019694328308,
+        "a": 1.0
+    },
+    "fogColor": {
+        "r": 0.7882353067398071,
+        "g": 0.8784313797950745,
+        "b": 0.9019607901573181,
+        "a": 1.0
+    },
+    "ambientIntensity": 1.0499999523162842,
+    "lightIntensity": 1.25,
+    "shadowStrength": 0.550000011920929,
+    "fogStart": 32.0,
+    "fogEnd": 80.0,
+    "shadowCascades": 4,
+    "shadowDistance": 40,
+    "shadowQuality": "Medium",
+    "tonemapping": "Neutral",
+    "ssaoIntensity": 0.44999998807907107,
+    "ssaoRadius": 0.25,
+    "ssaoDirect": 0.15000000596046449,
+    "exposure": 0.10000000149011612,
+    "contrast": 6.0,
+    "saturation": 8.0,
+    "bloomThreshold": 1.0,
+    "bloomIntensity": 0.20000000298023225,
+    "bloomScatter": 0.6000000238418579,
+    "vignette": 0.1599999964237213,
+    "vignetteSmoothness": 0.4000000059604645,
+    "ssaoDownsample": false,
+    "ssaoAfterOpaque": false,
+    "desktopHDR": true,
+    "mainCameraPostProcessing": true,
+    "mobileSSAO": false,
+    "mobileBloom": false,
+    "shadows": {
+        "x": 0.9700000286102295,
+        "y": 1.0,
+        "z": 1.0499999523162842,
+        "w": 0.0
+    }
+}

@@ -1,0 +1,37 @@
+Source: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route.log
+SHA256: f7e23d4da39d2c90eca69974074d125823b7ac997d6cc8aaa246a09e98b0688d
+Lines: 50
+Read-only extraction: case-insensitive full matching lines and +/-20 lines of original context; overlapping blocks merged. No acceptance conclusion.
+
+CATEGORY Exception: 0 matched lines
+NO MATCH
+CATEGORY Error: 0 matched lines
+NO MATCH
+CATEGORY Shader: 1 matched lines
+MATCH 50: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792861719511,"processId":72278,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+CLASSIFICATION: EXIT_TELEMETRY: Shader is a memory label in MemoryLeaks telemetry, not a shader compilation error. No inference about memory leak or performance.
+--- CONTEXT Shader, lines 30-50 ---
+30: - Loaded All Assemblies, in  0.107 seconds
+31: - Finished resetting the current domain, in  0.003 seconds
+32: [Physics::Module] Selected backend.
+33: [Physics::Module] Name: PhysX
+34: [Physics::Module] Id: 0xf2b8ea05
+35: [Physics::Module] SDK Version: 4.1.2
+36: [Physics::Module] Integration Version: 1.0.0
+37: [Physics::Module] Threading Mode: Multi-Threaded
+38: UnloadTime: 0.767083 ms
+39: Thread 0x16d267000 may have been prematurely finalized
+40: [Physics::Module] Cleanup current backend.
+41: [Physics::Module] Id: 0xf2b8ea05
+42: Input System module state changed to: ShutdownInProgress.
+43: Input System polling thread exited.
+44: Input System module state changed to: Shutdown.
+45: Thread 0x16bf83000 may have been prematurely finalized
+46: Thread 0x16c00f000 may have been prematurely finalized
+47: Thread 0x16c09b000 may have been prematurely finalized
+48: Thread 0x16c1b3000 may have been prematurely finalized
+49: Thread 0x16c127000 may have been prematurely finalized
+50: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792861719511,"processId":72278,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+
+CATEGORY negative-scale-collision: 0 matched lines
+NO MATCH

@@ -1,10 +1,111 @@
 {
-  "utc": "2026-10-24T14:23:23.118756+00:00",
+  "utc": "2026-10-24T17:58:08.735330+00:00",
   "task": "O6",
   "status": "pending_Opus_review",
-  "builds": [],
-  "routes": [],
-  "performance": [],
+  "builds": [
+    {
+      "platform": "r07-O6-development",
+      "result": "Succeeded",
+      "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Builds/r07/O6/development/LuluFarm.app",
+      "device": "not_tested",
+      "bytes": 799222676,
+      "seconds": 22.446832999999998,
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "routes": [
+    {
+      "file": "Evidence/r07/O6/route/20261024-170546-385/automated-route.json",
+      "status": "completed_input_route_visual_and_manual_ui_pending",
+      "mode": "automated_input_events_not_manual_ui_or_device_acceptance",
+      "revision": "integration-r07-O6",
+      "reachedWaypoints": 31,
+      "plannedWaypoints": 31,
+      "finalPosition": {
+        "x": -0.24483929574489594,
+        "y": 0.02499990165233612,
+        "z": 3.1645538806915283
+      }
+    }
+  ],
+  "performance": [
+    {
+      "source": "Evidence/r07/O6/performance/20261024-172514-590/performance/summary.json",
+      "stoppedBecause": "application_quit",
+      "routeLoopRunningAtStop": true,
+      "configurationUnchanged": true,
+      "measurementSeconds": 912.6931762695312,
+      "laps": 8,
+      "frameTimeMs": {
+        "name": "Unity frame interval",
+        "category": "Time.unscaledDeltaTime",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 106807,
+        "unavailableFrames": 0,
+        "mean": 8.544973611811269,
+        "p95": 9.437499567866325,
+        "maximum": 90.65558761358261
+      },
+      "sampleWindowGapsOver3Seconds": [],
+      "sampleWindows": 914,
+      "unfocusedWindows": 0,
+      "conclusion": "recorded_values_only_Opus_analysis_pending"
+    },
+    {
+      "source": "Evidence/r07/O6/performance-wind-off/20261024-174348-326/performance/summary.json",
+      "stoppedBecause": "application_quit",
+      "routeLoopRunningAtStop": true,
+      "configurationUnchanged": true,
+      "measurementSeconds": 312.71258544921875,
+      "laps": 2,
+      "frameTimeMs": {
+        "name": "Unity frame interval",
+        "category": "Time.unscaledDeltaTime",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 36472,
+        "unavailableFrames": 0,
+        "mean": 8.572399966547135,
+        "p95": 8.373292163014412,
+        "maximum": 3727.3924350738525
+      },
+      "sampleWindowGapsOver3Seconds": [],
+      "sampleWindows": 316,
+      "unfocusedWindows": 0,
+      "conclusion": "recorded_values_only_Opus_analysis_pending"
+    },
+    {
+      "source": "Evidence/r07/O6/performance-wind-on/20261024-174923-101/performance/summary.json",
+      "stoppedBecause": "application_quit",
+      "routeLoopRunningAtStop": true,
+      "configurationUnchanged": true,
+      "measurementSeconds": 312.7342834472656,
+      "laps": 3,
+      "frameTimeMs": {
+        "name": "Unity frame interval",
+        "category": "Time.unscaledDeltaTime",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 37219,
+        "unavailableFrames": 0,
+        "mean": 8.402161524011044,
+        "p95": 8.92891176044941,
+        "maximum": 172.98449575901031
+      },
+      "sampleWindowGapsOver3Seconds": [],
+      "sampleWindows": 317,
+      "unfocusedWindows": 0,
+      "conclusion": "recorded_values_only_Opus_analysis_pending"
+    }
+  ],
   "fixedComparisons": [
     {
       "group": "fixed",
@@ -217,7 +318,11 @@
       "after": "Evidence/r07/O6/fixed-pp-on/close-field-shadow.png"
     }
   ],
-  "profilerExports": [],
+  "profilerExports": [
+    "Evidence/r07/O6/profiler-wind-off/export-index.json",
+    "Evidence/r07/O6/profiler-wind-on/export-index.json",
+    "Evidence/r07/O6/profiler/export-index.json"
+  ],
   "artAcceptance": "not_granted",
   "performanceAcceptance": "no_conclusion"
 }

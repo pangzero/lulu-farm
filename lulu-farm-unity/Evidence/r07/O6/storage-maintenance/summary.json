@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-24T17:11:29.661214+00:00",
+  "userAuthorization": "Lossless compression of historical Profiler raw; verify decompressed SHA256 before releasing uncompressed duplicate",
+  "archiveRoot": "/Users/haowen/GameProject/local-evidence-archives/r07-profiler-20261025",
+  "files": 385,
+  "removedUncompressedDuplicates": 385,
+  "originalBytes": 53755540402,
+  "archiveBytes": 15072357811,
+  "allVerified": true,
+  "freeBytesAfter": 42913460224,
+  "contentRecovery": "Each gzip contains the original raw bytes. Restore at original path and verify originalSha256 before Unity re-export. Archives intentionally outside Git."
+}

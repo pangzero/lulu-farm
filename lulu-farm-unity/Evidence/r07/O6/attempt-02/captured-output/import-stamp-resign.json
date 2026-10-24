@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-24T14:17:36.032977+00:00",
+  "apply": true,
+  "checks": {
+    "stampMatchesPreMigrationSnapshot": true,
+    "prefixReplacementOnly": true,
+    "stampStatusImported": true,
+    "stampHasNoIssues": true,
+    "stampNotAlreadyCurrent": true
+  },
+  "replacementOccurrences": 218,
+  "snapshotSHA256": "5f1de0afeb014c5cf9971745ab149f93dd43805520739f25f2c226017afe450b",
+  "currentSHA256": "308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34",
+  "originalStamp": {
+    "registrySHA256": "5f1de0afeb014c5cf9971745ab149f93dd43805520739f25f2c226017afe450b",
+    "utc": "2026-10-23T18:25:35.6027540Z",
+    "status": "imported_pending_visual_review",
+    "issues": []
+  },
+  "note": "Path-migration re-sign only; no import, prefab, scene or asset was rebuilt.",
+  "newStamp": {
+    "registrySHA256": "308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34",
+    "utc": "2026-10-24T14:17:36.032977+00:00",
+    "status": "imported_pending_visual_review",
+    "issues": [],
+    "pathMigrationResign": {
+      "from": "5f1de0afeb014c5cf9971745ab149f93dd43805520739f25f2c226017afe450b",
+      "originalUtc": "2026-10-23T18:25:35.6027540Z",
+      "tool": "Scripts/opus-r07-restamp-path-migration.py"
+    }
+  },
+  "backup": "Evidence/import-stamp-before-path-migration.json"
+}

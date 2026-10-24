@@ -1,0 +1,469 @@
+{
+    "utc": "2026-10-24T17:40:32.5184070Z",
+    "method": "Unity binary CPU Profiler; 10-second chunks; deep profiling off; rendering/memory counters remain in the separate runtime recorder",
+    "limitation": "Chunk rotation flush overhead is included in runtime measurements. Exported timeline is a filtered index; binary data is authoritative. No performance acceptance conclusion.",
+    "chunks": [
+        {
+            "file": "cpu-0000.data",
+            "fromSeconds": 0.0003638267517089844,
+            "toSeconds": 10.007247924804688
+        },
+        {
+            "file": "cpu-0001.data",
+            "fromSeconds": 10.007247924804688,
+            "toSeconds": 20.012859344482423
+        },
+        {
+            "file": "cpu-0002.data",
+            "fromSeconds": 20.012859344482423,
+            "toSeconds": 30.02113914489746
+        },
+        {
+            "file": "cpu-0003.data",
+            "fromSeconds": 30.02113914489746,
+            "toSeconds": 40.02405548095703
+        },
+        {
+            "file": "cpu-0004.data",
+            "fromSeconds": 40.02405548095703,
+            "toSeconds": 50.02735900878906
+        },
+        {
+            "file": "cpu-0005.data",
+            "fromSeconds": 50.02735900878906,
+            "toSeconds": 60.03910827636719
+        },
+        {
+            "file": "cpu-0006.data",
+            "fromSeconds": 60.03910827636719,
+            "toSeconds": 70.04544830322266
+        },
+        {
+            "file": "cpu-0007.data",
+            "fromSeconds": 70.04544830322266,
+            "toSeconds": 80.04908752441406
+        },
+        {
+            "file": "cpu-0008.data",
+            "fromSeconds": 80.04908752441406,
+            "toSeconds": 90.0577621459961
+        },
+        {
+            "file": "cpu-0009.data",
+            "fromSeconds": 90.0577621459961,
+            "toSeconds": 100.06230163574219
+        },
+        {
+            "file": "cpu-0010.data",
+            "fromSeconds": 100.06230163574219,
+            "toSeconds": 110.06592559814453
+        },
+        {
+            "file": "cpu-0011.data",
+            "fromSeconds": 110.06592559814453,
+            "toSeconds": 120.06920623779297
+        },
+        {
+            "file": "cpu-0012.data",
+            "fromSeconds": 120.06920623779297,
+            "toSeconds": 130.0747528076172
+        },
+        {
+            "file": "cpu-0013.data",
+            "fromSeconds": 130.0747528076172,
+            "toSeconds": 140.08193969726563
+        },
+        {
+            "file": "cpu-0014.data",
+            "fromSeconds": 140.08193969726563,
+            "toSeconds": 150.08346557617188
+        },
+        {
+            "file": "cpu-0015.data",
+            "fromSeconds": 150.08346557617188,
+            "toSeconds": 160.08477783203126
+        },
+        {
+            "file": "cpu-0016.data",
+            "fromSeconds": 160.08477783203126,
+            "toSeconds": 170.0911865234375
+        },
+        {
+            "file": "cpu-0017.data",
+            "fromSeconds": 170.0911865234375,
+            "toSeconds": 180.09999084472657
+        },
+        {
+            "file": "cpu-0018.data",
+            "fromSeconds": 180.09999084472657,
+            "toSeconds": 190.11203002929688
+        },
+        {
+            "file": "cpu-0019.data",
+            "fromSeconds": 190.11203002929688,
+            "toSeconds": 200.11968994140626
+        },
+        {
+            "file": "cpu-0020.data",
+            "fromSeconds": 200.11968994140626,
+            "toSeconds": 210.12466430664063
+        },
+        {
+            "file": "cpu-0021.data",
+            "fromSeconds": 210.12466430664063,
+            "toSeconds": 220.13250732421876
+        },
+        {
+            "file": "cpu-0022.data",
+            "fromSeconds": 220.13250732421876,
+            "toSeconds": 230.14352416992188
+        },
+        {
+            "file": "cpu-0023.data",
+            "fromSeconds": 230.14352416992188,
+            "toSeconds": 240.1493377685547
+        },
+        {
+            "file": "cpu-0024.data",
+            "fromSeconds": 240.1493377685547,
+            "toSeconds": 250.15765380859376
+        },
+        {
+            "file": "cpu-0025.data",
+            "fromSeconds": 250.15765380859376,
+            "toSeconds": 260.1659851074219
+        },
+        {
+            "file": "cpu-0026.data",
+            "fromSeconds": 260.1659851074219,
+            "toSeconds": 270.169677734375
+        },
+        {
+            "file": "cpu-0027.data",
+            "fromSeconds": 270.169677734375,
+            "toSeconds": 280.1751403808594
+        },
+        {
+            "file": "cpu-0028.data",
+            "fromSeconds": 280.1751403808594,
+            "toSeconds": 290.18280029296877
+        },
+        {
+            "file": "cpu-0029.data",
+            "fromSeconds": 290.18280029296877,
+            "toSeconds": 300.1909484863281
+        },
+        {
+            "file": "cpu-0030.data",
+            "fromSeconds": 300.1909484863281,
+            "toSeconds": 310.2013244628906
+        },
+        {
+            "file": "cpu-0031.data",
+            "fromSeconds": 310.2013244628906,
+            "toSeconds": 320.2091064453125
+        },
+        {
+            "file": "cpu-0032.data",
+            "fromSeconds": 320.2091064453125,
+            "toSeconds": 330.21051025390627
+        },
+        {
+            "file": "cpu-0033.data",
+            "fromSeconds": 330.21051025390627,
+            "toSeconds": 340.2130126953125
+        },
+        {
+            "file": "cpu-0034.data",
+            "fromSeconds": 340.2130126953125,
+            "toSeconds": 350.21917724609377
+        },
+        {
+            "file": "cpu-0035.data",
+            "fromSeconds": 350.21917724609377,
+            "toSeconds": 360.2193298339844
+        },
+        {
+            "file": "cpu-0036.data",
+            "fromSeconds": 360.2193298339844,
+            "toSeconds": 370.2203063964844
+        },
+        {
+            "file": "cpu-0037.data",
+            "fromSeconds": 370.2203063964844,
+            "toSeconds": 380.2304992675781
+        },
+        {
+            "file": "cpu-0038.data",
+            "fromSeconds": 380.23052978515627,
+            "toSeconds": 390.23504638671877
+        },
+        {
+            "file": "cpu-0039.data",
+            "fromSeconds": 390.23504638671877,
+            "toSeconds": 400.2364807128906
+        },
+        {
+            "file": "cpu-0040.data",
+            "fromSeconds": 400.2364807128906,
+            "toSeconds": 410.2392272949219
+        },
+        {
+            "file": "cpu-0041.data",
+            "fromSeconds": 410.2392272949219,
+            "toSeconds": 420.25128173828127
+        },
+        {
+            "file": "cpu-0042.data",
+            "fromSeconds": 420.25128173828127,
+            "toSeconds": 430.2519836425781
+        },
+        {
+            "file": "cpu-0043.data",
+            "fromSeconds": 430.2519836425781,
+            "toSeconds": 440.2611083984375
+        },
+        {
+            "file": "cpu-0044.data",
+            "fromSeconds": 440.2611083984375,
+            "toSeconds": 450.26715087890627
+        },
+        {
+            "file": "cpu-0045.data",
+            "fromSeconds": 450.26715087890627,
+            "toSeconds": 460.27337646484377
+        },
+        {
+            "file": "cpu-0046.data",
+            "fromSeconds": 460.27337646484377,
+            "toSeconds": 470.27716064453127
+        },
+        {
+            "file": "cpu-0047.data",
+            "fromSeconds": 470.27716064453127,
+            "toSeconds": 480.2870788574219
+        },
+        {
+            "file": "cpu-0048.data",
+            "fromSeconds": 480.2870788574219,
+            "toSeconds": 490.2933349609375
+        },
+        {
+            "file": "cpu-0049.data",
+            "fromSeconds": 490.2933349609375,
+            "toSeconds": 500.29986572265627
+        },
+        {
+            "file": "cpu-0050.data",
+            "fromSeconds": 500.29986572265627,
+            "toSeconds": 510.30401611328127
+        },
+        {
+            "file": "cpu-0051.data",
+            "fromSeconds": 510.30401611328127,
+            "toSeconds": 520.3101196289063
+        },
+        {
+            "file": "cpu-0052.data",
+            "fromSeconds": 520.3101196289063,
+            "toSeconds": 530.3179321289063
+        },
+        {
+            "file": "cpu-0053.data",
+            "fromSeconds": 530.3179321289063,
+            "toSeconds": 540.3245239257813
+        },
+        {
+            "file": "cpu-0054.data",
+            "fromSeconds": 540.3245239257813,
+            "toSeconds": 550.3324584960938
+        },
+        {
+            "file": "cpu-0055.data",
+            "fromSeconds": 550.3324584960938,
+            "toSeconds": 560.3380737304688
+        },
+        {
+            "file": "cpu-0056.data",
+            "fromSeconds": 560.3380737304688,
+            "toSeconds": 570.3424682617188
+        },
+        {
+            "file": "cpu-0057.data",
+            "fromSeconds": 570.3424682617188,
+            "toSeconds": 580.35205078125
+        },
+        {
+            "file": "cpu-0058.data",
+            "fromSeconds": 580.35205078125,
+            "toSeconds": 590.35888671875
+        },
+        {
+            "file": "cpu-0059.data",
+            "fromSeconds": 590.35888671875,
+            "toSeconds": 600.3658447265625
+        },
+        {
+            "file": "cpu-0060.data",
+            "fromSeconds": 600.3658447265625,
+            "toSeconds": 610.3743286132813
+        },
+        {
+            "file": "cpu-0061.data",
+            "fromSeconds": 610.3743286132813,
+            "toSeconds": 620.3826293945313
+        },
+        {
+            "file": "cpu-0062.data",
+            "fromSeconds": 620.3826293945313,
+            "toSeconds": 630.3941040039063
+        },
+        {
+            "file": "cpu-0063.data",
+            "fromSeconds": 630.3941040039063,
+            "toSeconds": 640.400146484375
+        },
+        {
+            "file": "cpu-0064.data",
+            "fromSeconds": 640.400146484375,
+            "toSeconds": 650.411376953125
+        },
+        {
+            "file": "cpu-0065.data",
+            "fromSeconds": 650.411376953125,
+            "toSeconds": 660.4175415039063
+        },
+        {
+            "file": "cpu-0066.data",
+            "fromSeconds": 660.4175415039063,
+            "toSeconds": 670.4183349609375
+        },
+        {
+            "file": "cpu-0067.data",
+            "fromSeconds": 670.4183349609375,
+            "toSeconds": 680.4267578125
+        },
+        {
+            "file": "cpu-0068.data",
+            "fromSeconds": 680.4267578125,
+            "toSeconds": 690.4451904296875
+        },
+        {
+            "file": "cpu-0069.data",
+            "fromSeconds": 690.4451904296875,
+            "toSeconds": 700.4517822265625
+        },
+        {
+            "file": "cpu-0070.data",
+            "fromSeconds": 700.4517822265625,
+            "toSeconds": 710.4576416015625
+        },
+        {
+            "file": "cpu-0071.data",
+            "fromSeconds": 710.4576416015625,
+            "toSeconds": 720.4660034179688
+        },
+        {
+            "file": "cpu-0072.data",
+            "fromSeconds": 720.4660034179688,
+            "toSeconds": 730.478759765625
+        },
+        {
+            "file": "cpu-0073.data",
+            "fromSeconds": 730.478759765625,
+            "toSeconds": 740.4848022460938
+        },
+        {
+            "file": "cpu-0074.data",
+            "fromSeconds": 740.4848022460938,
+            "toSeconds": 750.4918823242188
+        },
+        {
+            "file": "cpu-0075.data",
+            "fromSeconds": 750.4918823242188,
+            "toSeconds": 760.499755859375
+        },
+        {
+            "file": "cpu-0076.data",
+            "fromSeconds": 760.499755859375,
+            "toSeconds": 770.5069580078125
+        },
+        {
+            "file": "cpu-0077.data",
+            "fromSeconds": 770.5069580078125,
+            "toSeconds": 780.51611328125
+        },
+        {
+            "file": "cpu-0078.data",
+            "fromSeconds": 780.51611328125,
+            "toSeconds": 790.5174560546875
+        },
+        {
+            "file": "cpu-0079.data",
+            "fromSeconds": 790.5174560546875,
+            "toSeconds": 800.520751953125
+        },
+        {
+            "file": "cpu-0080.data",
+            "fromSeconds": 800.520751953125,
+            "toSeconds": 810.5283813476563
+        },
+        {
+            "file": "cpu-0081.data",
+            "fromSeconds": 810.5283813476563,
+            "toSeconds": 820.5381469726563
+        },
+        {
+            "file": "cpu-0082.data",
+            "fromSeconds": 820.5381469726563,
+            "toSeconds": 830.5426635742188
+        },
+        {
+            "file": "cpu-0083.data",
+            "fromSeconds": 830.5426635742188,
+            "toSeconds": 840.55078125
+        },
+        {
+            "file": "cpu-0084.data",
+            "fromSeconds": 840.55078125,
+            "toSeconds": 850.5545043945313
+        },
+        {
+            "file": "cpu-0085.data",
+            "fromSeconds": 850.5545043945313,
+            "toSeconds": 860.5588989257813
+        },
+        {
+            "file": "cpu-0086.data",
+            "fromSeconds": 860.5588989257813,
+            "toSeconds": 870.5682373046875
+        },
+        {
+            "file": "cpu-0087.data",
+            "fromSeconds": 870.5682373046875,
+            "toSeconds": 880.5711059570313
+        },
+        {
+            "file": "cpu-0088.data",
+            "fromSeconds": 880.5711059570313,
+            "toSeconds": 890.577880859375
+        },
+        {
+            "file": "cpu-0089.data",
+            "fromSeconds": 890.577880859375,
+            "toSeconds": 900.581787109375
+        },
+        {
+            "file": "cpu-0090.data",
+            "fromSeconds": 900.581787109375,
+            "toSeconds": 910.5892333984375
+        },
+        {
+            "file": "cpu-0091.data",
+            "fromSeconds": 910.5892333984375,
+            "toSeconds": 912.90673828125
+        }
+    ],
+    "developmentBuild": true,
+    "elapsedSeconds": 912.9067993164063
+}

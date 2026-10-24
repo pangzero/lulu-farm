@@ -1,18 +1,42 @@
 {
-  "phase": "O6 second attempt; no performance session",
+  "utc": "2026-10-24T18:08:57.990202+00:00",
+  "phase": "O6 third attempt, actual main and wind A/B captures",
+  "inputCommit": "3bc1b3e4a35b7e8ea3ac2c0ce14d1664e7a6cc16",
   "editorVersion": "6000.3.16f1",
-  "macOSVersion": "26.4",
-  "architecture": "arm64",
-  "preflightObservedPrograms": [
-    "Unity Hub/licensing clients",
-    "Codex/ChatGPT runtime processes",
-    "Vite/esbuild preview server"
+  "OS": "macOS 26.4 (25E246)",
+  "CPU": "Apple M5",
+  "memoryGiB": 24,
+  "graphicsAPI": "Metal",
+  "display": "built-in Color LCD; 3024x1964 pixels, logical 1512x982 @120Hz; no external display detected",
+  "captureResolution": [
+    1280,
+    720
   ],
-  "projectEditorOrPlayerPresentAtStart": false,
-  "performanceCaptureExecuted": false,
-  "playerLaunched": false,
-  "performancePowerStatus": null,
-  "performanceExternalDisplayStatus": null,
-  "performanceFullscreenStatus": null,
-  "previousPreparationObservation": "attempt-01/environment-observation.json"
+  "fullscreen": false,
+  "powerAtReady": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=7077987)\t28%; charging; 1:44 remaining present: true\n",
+  "programsPresent": [
+    "Codex and helpers",
+    "ChatGPT",
+    "Unity Hub and licensing clients",
+    "Google Chrome and helpers (idle, no browsing during capture)",
+    "Safari and helpers (idle)",
+    "Finder / macOS system processes",
+    "three claude processes observed at 0.3–0.4% CPU after user pause"
+  ],
+  "limitations": "Snapshots, not continuous OS CPU attribution; no temperature measurement; ordinary background processes remained. No performance conclusions.",
+  "heavyWorkDuringMeasurement": "No Unity Editor, Blender render, compression, encoding, screenshot viewing or parallel task agent work was run by this task. The own Vite server was stopped. User confirmed IDEA exited and other agent work paused.",
+  "startupFocus": "For valid wind-off/on, native Raise was performed during startup before measurement; no UI interaction during measurement. First unfocused wind-off attempt is separately archived.",
+  "preflightInterruption": "Initial battery 13%; waited for AC. One start was rejected by automatic approval because IDEA/system heavy load remained; after user exited IDEA and paused other agents, fresh samples recorded the reduction and a new request was approved.",
+  "records": [
+    "environment-attempt-03-before-performance.json",
+    "environment-attempt-03-performance-start.json",
+    "background-load-preflight.jsonl",
+    "background-load-after-user-pause.json"
+  ],
+  "performanceSessions": [
+    "performance-execution.json",
+    "performance-wind-off-execution.json",
+    "performance-wind-on-execution.json"
+  ],
+  "temperature": "未测"
 }

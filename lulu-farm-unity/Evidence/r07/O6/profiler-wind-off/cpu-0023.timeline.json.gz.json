@@ -1,0 +1,10 @@
+{
+    "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-off/cpu-0023.data",
+    "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/profiler-wind-off/cpu-0023.timeline.json.gz",
+    "status": "exported_filtered_timeline_binary_retained",
+    "firstFrame": 0,
+    "lastFrame": 1108,
+    "frames": 1109,
+    "threads": 44,
+    "events": 130228
+}

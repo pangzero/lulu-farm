@@ -1,0 +1,105 @@
+{
+  "utc": "2026-10-24T18:08:57.990202+00:00",
+  "interpretation": null,
+  "sessions": [
+    {
+      "session": "performance",
+      "summary": "performance/20261024-172514-590/performance/summary.json",
+      "measurementSeconds": 912.6931762695312,
+      "completedLaps": 8,
+      "frameTimeMs": {
+        "name": "Unity frame interval",
+        "category": "Time.unscaledDeltaTime",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 106807,
+        "unavailableFrames": 0,
+        "mean": 8.544973611811269,
+        "p95": 9.437499567866325,
+        "maximum": 90.65558761358261
+      },
+      "wallFrameTimeMs": {
+        "name": "Wall-clock LateUpdate interval",
+        "category": "Time.realtimeSinceStartupAsDouble",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 106807,
+        "unavailableFrames": 0,
+        "mean": 8.54513893050077,
+        "p95": 9.689125000001297,
+        "maximum": 91.54212499993264
+      },
+      "unscaledDeltaExceedsWallFrames": 0
+    },
+    {
+      "session": "performance-wind-off",
+      "summary": "performance-wind-off/20261024-174348-326/performance/summary.json",
+      "measurementSeconds": 312.71258544921875,
+      "completedLaps": 2,
+      "frameTimeMs": {
+        "name": "Unity frame interval",
+        "category": "Time.unscaledDeltaTime",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 36472,
+        "unavailableFrames": 0,
+        "mean": 8.572399966547135,
+        "p95": 8.373292163014412,
+        "maximum": 3727.3924350738525
+      },
+      "wallFrameTimeMs": {
+        "name": "Wall-clock LateUpdate interval",
+        "category": "Time.realtimeSinceStartupAsDouble",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 36472,
+        "unavailableFrames": 0,
+        "mean": 8.57399224520179,
+        "p95": 9.244041000016523,
+        "maximum": 1090.0317499999942
+      },
+      "unscaledDeltaExceedsWallFrames": 2
+    },
+    {
+      "session": "performance-wind-on",
+      "summary": "performance-wind-on/20261024-174923-101/performance/summary.json",
+      "measurementSeconds": 312.7342834472656,
+      "completedLaps": 3,
+      "frameTimeMs": {
+        "name": "Unity frame interval",
+        "category": "Time.unscaledDeltaTime",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 37219,
+        "unavailableFrames": 0,
+        "mean": 8.402161524011044,
+        "p95": 8.92891176044941,
+        "maximum": 172.98449575901031
+      },
+      "wallFrameTimeMs": {
+        "name": "Wall-clock LateUpdate interval",
+        "category": "Time.realtimeSinceStartupAsDouble",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 37219,
+        "unavailableFrames": 0,
+        "mean": 8.402414638141817,
+        "p95": 9.128833000005443,
+        "maximum": 158.71562499998504
+      },
+      "unscaledDeltaExceedsWallFrames": 0
+    }
+  ]
+}

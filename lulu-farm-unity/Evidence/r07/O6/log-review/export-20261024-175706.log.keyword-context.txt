@@ -1,0 +1,260 @@
+Source: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/export-20261024-175706.log
+SHA256: f4a2137b54b416e57d45c13a269fd3cb2fdcaf841c063cad9738fee380e6feb2
+Lines: 384
+Read-only extraction: case-insensitive full matching lines and +/-20 lines of original context; overlapping blocks merged. No acceptance conclusion.
+
+CATEGORY Exception: 0 matched lines
+NO MATCH
+CATEGORY Error: 5 matched lines
+MATCH 81: [Licensing::Client] Error: HandshakeResponse reported an error:
+CLASSIFICATION: REAL_LICENSING_DIAGNOSTIC: handshake or missing token; following context shows editor LicensingClient connection and initialized license; not a CSharp/Shader compiler error.
+MATCH 84: [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-haowen"
+CLASSIFICATION: REAL_LICENSING_DIAGNOSTIC: handshake or missing token; following context shows editor LicensingClient connection and initialized license; not a CSharp/Shader compiler error.
+MATCH 101: [Licensing::Module] Error: Access token is unavailable; failed to update
+CLASSIFICATION: REAL_LICENSING_DIAGNOSTIC: handshake or missing token; following context shows editor LicensingClient connection and initialized license; not a CSharp/Shader compiler error.
+MATCH 179: 			LogAssemblyErrors (0ms)
+CLASSIFICATION: NAME_MATCH: method/shader/source name such as LogAssemblyErrors or FallbackError; not an error diagnosis in this line.
+MATCH 303: 			LogAssemblyErrors (0ms)
+CLASSIFICATION: NAME_MATCH: method/shader/source name such as LogAssemblyErrors or FallbackError; not an error diagnosis in this line.
+--- CONTEXT Error, lines 61-121 ---
+61:     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+62:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+63:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+64:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+65:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+66:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+67:     "memorysetup-temp-allocator-size-gfx=262144"
+68: Player connection [8318097600]  Target information:
+69: 
+70: Player connection [8318097600]  * "[IP] 192.168.3.56 [Port] 55504 [Flags] 2 [Guid] 3575784168 [EditorId] 3575784168 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+71: 
+72: Player connection [8318097600]  * "[IP] 2.0.0.1 [Port] 55504 [Flags] 2 [Guid] 3575784168 [EditorId] 3575784168 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+73: 
+74: Player connection [8318097600] Host joined multi-casting on [225.0.0.222:54997]...
+75: Player connection [8318097600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+76: Input System module state changed to: Initialized.
+77: [Physics::Module] Initialized fallback backend.
+78: [Physics::Module] Id: 0xdecafbad
+79: [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 950, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+80: [Licensing::Module] LicensingClient has failed validation; ignoring
+81: [Licensing::Client] Error: HandshakeResponse reported an error:
+82: 	ResponseCode: 505
+83: 	ResponseStatus: Unsupported protocol version '1.18.1'.
+84: [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-haowen"
+85: [Licensing::IpcConnector] LicenseClient-haowen channel disconnected successfully.
+86: [Licensing::IpcConnector] Channel LicenseClient-haowen-6000.3.16 doesn't exist
+87: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client
+88: [Licensing::Module] Successfully launched the LicensingClient (PId: 92802)
+89: [Package Manager] Connected to IPC stream "Upm-92793" after 0.1 seconds.
+90: [Licensing::Module] Licensing is not yet initialized.
+91: [Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16" at "2026-10-24T17:57:06.720383Z"
+92: [Licensing::Client] Handshaking with LicensingClient:
+93:   Version:                 1.18.1+9fbee8e
+94:   Session Id:              138aa665dbca47acb633f4a8132fd8d3
+95:   Correlation Id:          89e36a978ea8b9abc3656439b8a46bca
+96:   External correlation Id: 5740481072132775909
+97:   Machine Id:              /Nupwpvn+B6eSAVQ3yApaC/kimk=
+98: [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-haowen-6000.3.16" (connect: 0.11s, validation: 0.03s, handshake: 0.19s)
+99: [Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16-notifications" at "2026-10-24T17:57:06.94308Z"
+100: [Licensing::Module] Connected to LicensingClient (PId: 92802, launch time: 0.00, total connection time: 0.33s)
+101: [Licensing::Module] Error: Access token is unavailable; failed to update
+102: [Licensing::Client] Successfully resolved entitlement details
+103: [Licensing::Module] License group:
+104:   Id: F4-NVMZ-M74F-8H5W-26YW-XXXX
+105:   Product: Unity Personal
+106:   Type: ULF
+107:   Expiration: 2026-11-03T18:56:40Z
+108: [Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+109: [Licensing::Client] Successfully resolved entitlement details
+110: [Licensing::Module] Licensing Background thread has ended after 0.58s
+111: [Licensing::Module] Licensing is initialized (took 0.32s).
+112: [Licensing::Client] Successfully resolved entitlement details
+113: Library Redirect Path: Library/
+114: [Physics::Module] Selected backend.
+115: [Physics::Module] Name: PhysX
+116: [Physics::Module] Id: 0xf2b8ea05
+117: [Physics::Module] SDK Version: 4.1.2
+118: [Physics::Module] Integration Version: 1.0.0
+119: [Physics::Module] Threading Mode: Multi-Threaded
+120: Targeting platform: StandaloneOSX
+121: Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+--- CONTEXT Error, lines 159-199 ---
+159: 		ExecutionOrderSort (0ms)
+160: 		DisableScriptedObjects (0ms)
+161: 		BackupInstance (0ms)
+162: 		ReleaseScriptingObjects (0ms)
+163: 		CreateAndSetChildDomain (19ms)
+164: 	RebuildCommonClasses (15ms)
+165: 	RebuildNativeTypeToScriptingClass (6ms)
+166: 	initialDomainReloadingComplete (17ms)
+167: 	LoadAllAssembliesAndSetupDomain (71ms)
+168: 		LoadAssemblies (70ms)
+169: 		RebuildTransferFunctionScriptingTraits (0ms)
+170: 		AnalyzeDomain (70ms)
+171: 			TypeCache.Refresh (69ms)
+172: 				TypeCache.ScanAssembly (63ms)
+173: 			BuildScriptInfoCaches (0ms)
+174: 			ResolveRequiredComponents (0ms)
+175: 	FinalizeReload (159ms)
+176: 		ReleaseScriptCaches (0ms)
+177: 		RebuildScriptCaches (0ms)
+178: 		SetupLoadedEditorAssemblies (142ms)
+179: 			LogAssemblyErrors (0ms)
+180: 			InitializePlatformSupportModulesInManaged (17ms)
+181: 			SetLoadedEditorAssemblies (2ms)
+182: 			BeforeProcessingInitializeOnLoad (34ms)
+183: 			ProcessInitializeOnLoadAttributes (50ms)
+184: 			ProcessInitializeOnLoadMethodAttributes (38ms)
+185: 			AfterProcessingInitializeOnLoad (0ms)
+186: 			EditorAssembliesLoaded (0ms)
+187: 		ExecutionOrderSort2 (0ms)
+188: 		AwakeInstancesAfterBackupRestoration (0ms)
+189: [Licensing::Client] Successfully resolved entitlement details
+190: Application.AssetDatabase Initial Refresh Start
+191: [Package Manager] Restoring resolved packages state from cache
+192: [Licensing::Client] Successfully resolved entitlement details
+193: [Package Manager] Registered 30 packages:
+194:   Packages from [https://packages.unity.com]:
+195:     com.unity.cinemachine@3.1.5 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cinemachine@5342685532bb)
+196:     com.unity.inputsystem@1.14.2 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5)
+197:     com.unity.cloud.gltfast@6.20.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cloud.gltfast@11ddc2436f97)
+198:     com.unity.burst@1.8.30 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.burst@2f3d916873ea)
+199:     com.unity.collections@2.6.8 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.collections@84e8eb3fc12e)
+--- CONTEXT Error, lines 283-323 ---
+283: 		ExecutionOrderSort (0ms)
+284: 		DisableScriptedObjects (6ms)
+285: 		BackupInstance (0ms)
+286: 		ReleaseScriptingObjects (0ms)
+287: 		CreateAndSetChildDomain (33ms)
+288: 	RebuildCommonClasses (15ms)
+289: 	RebuildNativeTypeToScriptingClass (6ms)
+290: 	initialDomainReloadingComplete (9ms)
+291: 	LoadAllAssembliesAndSetupDomain (147ms)
+292: 		LoadAssemblies (111ms)
+293: 		RebuildTransferFunctionScriptingTraits (0ms)
+294: 		AnalyzeDomain (63ms)
+295: 			TypeCache.Refresh (46ms)
+296: 				TypeCache.ScanAssembly (42ms)
+297: 			BuildScriptInfoCaches (12ms)
+298: 			ResolveRequiredComponents (4ms)
+299: 	FinalizeReload (986ms)
+300: 		ReleaseScriptCaches (0ms)
+301: 		RebuildScriptCaches (0ms)
+302: 		SetupLoadedEditorAssemblies (844ms)
+303: 			LogAssemblyErrors (0ms)
+304: 			InitializePlatformSupportModulesInManaged (7ms)
+305: 			SetLoadedEditorAssemblies (1ms)
+306: 			BeforeProcessingInitializeOnLoad (52ms)
+307: 			ProcessInitializeOnLoadAttributes (747ms)
+308: 			ProcessInitializeOnLoadMethodAttributes (35ms)
+309: 			AfterProcessingInitializeOnLoad (1ms)
+310: 			EditorAssembliesLoaded (0ms)
+311: 		ExecutionOrderSort2 (0ms)
+312: 		AwakeInstancesAfterBackupRestoration (7ms)
+313: Asset Pipeline Refresh (id=28b55066e3c034c8ab410bb97cb7639b): Total: 2.080 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+314: 	Summary:
+315: 		Imports: total=0 (actual=0, local cache=0, cache server=0)
+316: 		Asset DB Process Time: managed=0 ms, native=1270 ms
+317: 		Asset DB Callback time: managed=83 ms, native=3 ms
+318: 		Scripting: domain reloads=1, domain reload time=255 ms, compile time=453 ms, other=13 ms
+319: 		Project Asset Count: scripts=1112, non-scripts=3058
+320: 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+321: 		Scan Filter Count: 1
+322: 	InvokeCustomDependenciesCallbacks: 0.002ms
+323: 	InvokePackagesCallback: 4.380ms
+
+CATEGORY Shader: 3 matched lines
+MATCH 223:     com.unity.shadergraph@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.shadergraph@138213decc3c)
+CLASSIFICATION: SHADER_INFORMATION: compile, serialization, assembly/resource list, stripping or tooling; this line is not a shader compile error.
+MATCH 347: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: compile, serialization, assembly/resource list, stripping or tooling; this line is not a shader compile error.
+MATCH 348: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+CLASSIFICATION: SHADER_INFORMATION: compile, serialization, assembly/resource list, stripping or tooling; this line is not a shader compile error.
+--- CONTEXT Shader, lines 203-243 ---
+203:     com.unity.test-framework.performance@3.4.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework.performance@aa81a99c4a75)
+204:     com.unity.settings-manager@2.1.1 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.settings-manager@0b8638c5ce86)
+205:     com.unity.searcher@4.9.4 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.searcher@d45a78918735)
+206:   Built-in packages:
+207:     com.unity.render-pipelines.universal@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal@97f77d4dda9a)
+208:     com.unity.ugui@2.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ugui@23e8d17bfaf9)
+209:     com.unity.test-framework@1.6.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework@aebcb98460c6)
+210:     com.unity.modules.animation@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.animation)
+211:     com.unity.modules.audio@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.audio)
+212:     com.unity.modules.imageconversion@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imageconversion)
+213:     com.unity.modules.jsonserialize@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.jsonserialize)
+214:     com.unity.modules.physics@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.physics)
+215:     com.unity.modules.screencapture@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.screencapture)
+216:     com.unity.modules.ui@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.ui)
+217:     com.unity.modules.uielements@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.uielements)
+218:     com.unity.modules.unitywebrequest@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.unitywebrequest)
+219:     com.unity.modules.imgui@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imgui)
+220:     com.unity.modules.hierarchycore@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.hierarchycore)
+221:     com.unity.ext.nunit@2.0.5 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ext.nunit@d8c07649098d)
+222:     com.unity.render-pipelines.core@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.core@648b47f96bf1)
+223:     com.unity.shadergraph@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.shadergraph@138213decc3c)
+224:     com.unity.render-pipelines.universal-config@17.0.3 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+225:     com.unity.modules.terrain@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.terrain)
+226: [Subsystems] No new subsystems found in resolved package list.
+227: [Package Manager] Done registering packages in 0.00 seconds
+228: Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+229: Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+230: [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+231:       Now listening on: http://unix:/tmp/ilpp.sock-280f456360f2067f991e0d554bccba31
+232: [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+233:       Application started. Press Ctrl+C to shut down.
+234: [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+235:       Hosting environment: Production
+236: [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+237:       Content root path: /Users/haowen/GameProject/farm-game/lulu-farm-unity/
+238: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+239:       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+240: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+241:       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+242: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+243:       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+--- CONTEXT Shader, lines 327-368 ---
+327: 	CategorizeAssetsWithTransientArtifact: 11.437ms
+328: 	ProcessAssetsWithTransientArtifactChanges: 16.826ms
+329: 	CategorizeAssets: 28.344ms
+330: 	ImportOutOfDateAssets: 991.530ms (535.187ms without children)
+331: 		CompileScripts: 452.751ms
+332: 		ReloadNativeAssets: 0.015ms
+333: 		UnloadImportedAssets: 0.324ms
+334: 		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.294ms
+335: 		InitializingProgressBar: 0.000ms
+336: 		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+337: 		OnDemandSchedulerStart: 2.959ms
+338: 	PostProcessAllAssets: 83.768ms
+339: 	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+340: 	UnloadStreamsBegin: 0.784ms
+341: 	PersistCurrentRevisions: 0.077ms
+342: 	UnloadStreamsEnd: 0.001ms
+343: 	GenerateScriptTypeHashes: 1.097ms
+344: 	Untracked: 767.400ms
+345: 
+346: Application.AssetDatabase Initial Refresh End
+347: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+348: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+349: Scanning for USB devices : 0.024ms
+350: Initializing Unity extensions:
+351: [MODES] ModeService[none].Initialize
+352: [MODES] ModeService[none].LoadModes
+353: [MODES] Loading mode Default (0) for mode-current-id-噜噜农场
+354: 2026-10-25 01:57:09.885 Unity[92793:9037645] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xa17a6d360 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+355: Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+356: Unloading 4324 unused Assets / (3.8 MB). Loaded Objects now: 5192.
+357: Memory consumption went from 206.3 MB to 202.5 MB.
+358: Total: 4.262875 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.076125 ms MarkObjects: 3.272792 ms  DeleteObjects: 0.750750 ms)
+359: 
+360: Batchmode quit successfully invoked - shutting down!
+361: Thread 0x323c53000 may have been prematurely finalized
+362: Input System module state changed to: ShutdownInProgress.
+363: Input System polling thread exited.
+364: Input System module state changed to: Shutdown.
+365: [Physics::Module] Cleanup current backend.
+366: [Physics::Module] Id: 0xf2b8ea05
+367: [Licensing::IpcConnector] LicenseClient-haowen-6000.3.16-notifications channel disconnected successfully.
+368: [Licensing::IpcConnector] LicenseClient-haowen-6000.3.16 channel disconnected successfully.
+
+CATEGORY negative-scale-collision: 0 matched lines
+NO MATCH
