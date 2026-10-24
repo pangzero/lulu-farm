@@ -365,6 +365,7 @@ namespace LuluFarm.Editor
             if(R07Island)OpusSkyIslandR09(landscape);
             Lighting();
             if(R07Opus)OpusSkyR08();
+            if(R07Island)OpusSkyIslandSkyR10();
             var player=new GameObject("LuluPlayer");player.transform.position=new Vector3(0,.05f,3.15f);
             var orientation=new GameObject("PlayerOrientation");orientation.transform.SetParent(player.transform,false);
             var lulu=Place("Lulu",Vector3.zero,orientation.transform,0);
