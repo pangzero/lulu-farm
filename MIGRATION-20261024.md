@@ -26,7 +26,7 @@
 
 用户选择 GitHub 私有仓库 `pangzero/lulu-farm`。创建、认证和实际推送状态将记入 Git 交付文档，不能把配置了 remote 当成已上传。
 
-Unity 缓存、Editor 安装、node_modules、生成的网站 dist、游戏包、历史交付和原始 Profiler 数据保留本地，不进入普通 Git。需要版本管理的二进制由 Git LFS 管理。远端初次素材范围正在按用户选择整理；本地所有原件与历史文件均保留。
+Unity 缓存、Editor 安装、node_modules、生成的网站 dist、游戏包、历史交付和原始 Profiler 数据保留本地，不进入普通 Git。需要版本管理的二进制由 Git LFS 管理。首次暂按建议整理代码、文档、参考图与完整 Unity 运行资产约 2.1GB；完整美术历史范围等待用户选择，本地所有原件与历史文件均保留。
 
 本机原有 Git SSH 身份是 harveyPang，而连接器身份是 pangzero。不得为推送本项目改掉公司项目的 SSH 配置；使用项目自己的已授权认证。
 
