@@ -3,6 +3,7 @@
 import argparse, datetime, json, pathlib, subprocess
 root=pathlib.Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser();p.add_argument('task',choices=['D5','D2','D3','D4','D6','O6']);p.add_argument('mode',choices=['route','performance','ambient']);p.add_argument('--seconds',type=int)
+# O6: requiredDuration follows --seconds (20 s warm-up, as 920→900 / 320→300).
 # O6: --label keeps extra sessions (e.g. wind A/B) apart; --wind off starts with wind motion disabled.
 p.add_argument('--label');p.add_argument('--wind',choices=['on','off'],default='on');a=p.parse_args()
 out=root/'Evidence/r07'/a.task;out.mkdir(parents=True,exist_ok=True)
@@ -35,7 +36,7 @@ elif a.mode=='performance':
     results=sorted(session.glob('*/performance/summary.json'))
     result=json.loads(results[-1].read_text(encoding='utf-8-sig')) if results else {}
     windows=[json.loads(x) for x in results[-1].with_name('samples.jsonl').read_text(encoding='utf-8-sig').splitlines()] if results else []
-    checks={'summaryPresent':bool(results),'requiredDuration':result.get('measurementSeconds',0)>=(300 if a.task=='D3' else 900),'configurationUnchanged':result.get('configurationUnchanged') is True,'loopRunningAtStop':result.get('routeLoopRunningAtStop') is True,'allWindowsFocused':bool(windows) and all(x.get('applicationFocused') for x in windows)}
+    checks={'summaryPresent':bool(results),'requiredDuration':result.get('measurementSeconds',0)>=(300 if a.task=='D3' else a.seconds-20 if a.seconds else 900),'configurationUnchanged':result.get('configurationUnchanged') is True,'loopRunningAtStop':result.get('routeLoopRunningAtStop') is True,'allWindowsFocused':bool(windows) and all(x.get('applicationFocused') for x in windows)}
 (out/(name+'-execution.json')).write_text(json.dumps({'startedUtc':start,'finishedUtc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'command':cmd,'exitCode':r.returncode,'completionChecks':checks,'captureIntent':'actual visible player; caffeinate only for this process lifetime; profiler capture overhead is recorded separately from r06 no-profiler baseline'},ensure_ascii=False,indent=2))
 print('Finished',a.mode,'player exit',r.returncode,'completion checks',checks,flush=True)
 raise SystemExit(r.returncode or (2 if checks and not all(checks.values()) else 0))
