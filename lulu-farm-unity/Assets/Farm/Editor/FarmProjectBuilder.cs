@@ -382,6 +382,9 @@ namespace LuluFarm.Editor
                 if(R07Living)FarmLivingSetupR07.Build(world,rt);
                 // O3 r08: dithered occlusion fade built from the materials actually in use (incl. D6 living ones).
                 if(R07Opus)FarmOcclusionDitherR08.Apply(world);
+                // O4: D6 runtime output measured RMS -57 dBFS (bed ~-70, chirps ~-55): effectively inaudible.
+                // Candidate +10 dB birds / +8 dB water; listening comfort still needs the user's own review.
+                if(R07Opus){var ambient=world.GetComponentInChildren<FarmAmbientR07>(true);if(ambient!=null){if(ambient.birds!=null)ambient.birds.volume=.15f;if(ambient.water!=null)ambient.water.volume=.30f;EditorUtility.SetDirty(ambient);}}
                 rt.routeMarkers=new[]{Marker("主屋前",0,3.15f),Marker("田地",-6,2),Marker("牧场入口",2.4f,-7.2f),R07Opus?Marker("饲料槽",3.9f,-3.5f):Marker("饲料槽",4.3f,-2.8f),Marker("池塘",6.7f,DockZ),Marker("码头",8.6f,DockZ),Marker("渔产摊位",10,-5.7f),Marker("主屋背面",0,9.5f),Marker("返回",0,3.15f)};
                 if(R07Living)FarmRouteClearanceR07.Configure(rt);
             }
