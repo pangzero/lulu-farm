@@ -15,20 +15,24 @@ namespace LuluFarm.Editor
     /// </summary>
     public static class FarmOcclusionDitherR08
     {
-        const string Folder = "Assets/Farm/GeneratedR08/OcclusionDither";
+        // O7 uses the r09 revision (noise + keyhole, 15 % coverage) in its own folder; O6 output is unchanged.
+        static bool R09 => FarmProjectBuilder.R07Island;
+        static string Folder => R09 ? "Assets/Farm/GeneratedR09/OcclusionDither" : "Assets/Farm/GeneratedR08/OcclusionDither";
         const string Living = "LuluFarm/LivingSurface-"; // r07 (D6) or r08 (O6 amplitude revision)
-        public const float FadedCoverage = .25f;
+        public const float FadedCoverageR08 = .25f, FadedCoverageR09 = .15f;
+        static float FadedCoverage => R09 ? FadedCoverageR09 : FadedCoverageR08;
         static readonly string[] ColorProperties = { "_BaseColorFactor", "baseColorFactor", "_BaseColor", "baseColor", "_Color" };
         static readonly string[] TextureProperties = { "_BaseColorTexture", "baseColorTexture", "_BaseMap", "_MainTex", "_BaseColorMap" };
         static readonly string[] NormalProperties = { "normalTexture", "_NormalTexture", "_BumpMap" };
 
         [Serializable] sealed class Entry { public string occluder, renderer, source, sourceShader, derived; public bool livingCopy; }
-        [Serializable] sealed class Record { public string utc, method = "Opaque AlphaTest screen-door fade (4x4 ordered dither), ZWrite on, shadows kept; built from in-use materials"; public float fadedCoverage = FadedCoverage; public int occluders, bindings; public Entry[] materials; }
+        [Serializable] sealed class Record { public string utc, method, shader; public float fadedCoverage; public int occluders, bindings; public Entry[] materials; }
 
         public static void Apply(Transform world)
         {
-            var shader = Shader.Find("LuluFarm/OcclusionDither-r08");
-            if (shader == null) throw new InvalidOperationException("OcclusionDither-r08 shader missing");
+            string shaderName = R09 ? "LuluFarm/OcclusionDither-r09" : "LuluFarm/OcclusionDither-r08";
+            var shader = Shader.Find(shaderName);
+            if (shader == null) throw new InvalidOperationException(shaderName + " shader missing");
             Directory.CreateDirectory(Folder); AssetDatabase.Refresh();
             var entries = new List<Entry>(); var cache = new Dictionary<Material, Material>();
             var occluders = world.GetComponentsInChildren<FarmCameraOccluder>(true);
@@ -61,8 +65,9 @@ namespace LuluFarm.Editor
             }
             AssetDatabase.SaveAssets();
             string dir = "Evidence/r07/" + FarmProjectBuilder.R07Task; Directory.CreateDirectory(dir);
-            File.WriteAllText(dir + "/occlusion-dither-r08.json", JsonUtility.ToJson(new Record { utc = DateTime.UtcNow.ToString("o"),
-                occluders = occluders.Length, bindings = bindingCount, materials = entries.ToArray() }, true));
+            File.WriteAllText(dir + (R09 ? "/occlusion-dither-r09.json" : "/occlusion-dither-r08.json"), JsonUtility.ToJson(new Record { utc = DateTime.UtcNow.ToString("o"),
+                method = R09 ? "Opaque AlphaTest screen-door fade, interleaved gradient noise, clear keyhole around Lulu, ZWrite on, shadows kept; built from in-use materials" : "Opaque AlphaTest screen-door fade (4x4 ordered dither), ZWrite on, shadows kept; built from in-use materials",
+                shader = shaderName, fadedCoverage = FadedCoverage, occluders = occluders.Length, bindings = bindingCount, materials = entries.ToArray() }, true));
         }
 
         static Material MakeDither(Material source, Shader shader)
@@ -99,6 +104,7 @@ namespace LuluFarm.Editor
                 fade.SetFloat("_Cull", twoSided ? 0 : 2);
             }
             fade.SetFloat("_FadeOpacity", 1);
+            if (R09) fade.SetFloat("_FadeFloor", FadedCoverageR09);
             fade.renderQueue = (int)UnityEngine.Rendering.RenderQueue.AlphaTest;
             fade.enableInstancing = true;
             EditorUtility.SetDirty(fade);

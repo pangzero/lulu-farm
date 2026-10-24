@@ -117,6 +117,7 @@ namespace LuluFarm
             pitch = 35; distance = 5.1f;
         }
 
+        static readonly int FadeFocusId = Shader.PropertyToID("_FarmFadeFocusWS");
         void LateUpdate()
         {
             if (target == null || outputCamera == null || brain == null || thirdPersonFollow == null || orbitTarget == null) return;
@@ -131,6 +132,8 @@ namespace LuluFarm
             float dt = Mathf.Min(Time.unscaledDeltaTime, .05f);
             smoothedTarget = Vector3.SmoothDamp(smoothedTarget, target.position + targetOffset,
                 ref followVelocity, followSmoothTime, Mathf.Infinity, dt);
+            // OcclusionDither-r09 keeps a clear keyhole around this point; older fade shaders ignore it.
+            Shader.SetGlobalVector(FadeFocusId, smoothedTarget);
             Quaternion orbit = Quaternion.Euler(pitch, yaw, 0);
             Vector3 backward = orbit * Vector3.back;
             float nearHalfHeight = outputCamera.nearClipPlane * Mathf.Tan(outputCamera.fieldOfView * Mathf.Deg2Rad * .5f);
