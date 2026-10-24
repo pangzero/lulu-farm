@@ -145,6 +145,22 @@ cam = bpy.data.objects.new('cam', bpy.data.cameras.new('cam')); sc.collection.ob
 def shoot(name, pos, target, lens):
     cam.location = pos; cam.rotation_euler = (Vector(target) - Vector(pos)).to_track_quat('-Z', 'Y').to_euler(); cam.data.lens = lens; cam.data.clip_end = 600
     sc.render.filepath = f'{OUT}/{name}.png'; bpy.ops.render.render(write_still=True)
+def shoot_game(name, a, pitch=35, dist=5.1, turn=0, inset=2.0):
+    """Exact FarmThirdPersonCamera framing: vertical FOV 52, pitch/distance as in game, Lulu standing at the rim."""
+    r = radius(a) - inset; tx, tz = math.cos(a) * r, math.sin(a) * r; yaw = math.atan2(math.cos(a), math.sin(a)) + math.radians(turn)
+    p, fx, fz = math.radians(pitch), math.sin(yaw), math.cos(yaw)
+    pos = (tx - fx * math.cos(p) * dist, .8 + math.sin(p) * dist, tz - fz * math.cos(p) * dist)
+    cam.data.sensor_fit = 'VERTICAL'; cam.data.angle_y = math.radians(52); cam.data.clip_end = 600
+    cam.location = U(pos[0], pos[2], pos[1]); cam.rotation_euler = (U(tx, tz, .8) - cam.location).to_track_quat('-Z', 'Y').to_euler()
+    sc.render.filepath = f'{OUT}/{name}.png'; bpy.ops.render.render(write_still=True)
+if len(sys.argv) > sys.argv.index('--') + 3 and sys.argv[sys.argv.index('--') + 3] == 'game':
+    sc.render.resolution_x, sc.render.resolution_y = 1280, 720
+    shoot_game('g1-east-out', 0.15)                               # default zoom, walking straight at the east rim
+    shoot_game('g2-east-along', 0.15, turn=-70)                    # same spot, looking along the rim
+    shoot_game('g3-east-out-far', 0.15, pitch=15, dist=8.6)       # flattest pitch, furthest zoom
+    shoot_game('g4-south-out', -math.pi / 2 + .25)                 # south rim, looking out toward the camera side
+    shoot_game('g5-east-out-steep', 0.15, pitch=55, dist=8.6)     # steepest pitch
+    sys.exit(0)
 shoot('hero', U(34, -42, 15), U(0, 0, -5), 30)
 shoot('edge', U(14, -8, 2.8), U(30, -17, -4), 24)
 shoot('rim-north', U(-6, 4, 3.2), U(-14, 22, -1), 24)
