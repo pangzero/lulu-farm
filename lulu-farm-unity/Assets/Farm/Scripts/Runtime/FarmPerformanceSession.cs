@@ -27,6 +27,12 @@ namespace LuluFarm
         bool started, finished;
         readonly List<Counter> counters = new List<Counter>();
         readonly Series frameTimes = new Series();
+        // O2: r07 sessions showed Time.unscaledDeltaTime values (up to 19.8 s) longer than the wall-clock
+        // window that contained them and absent from the continuous Profiler capture. Keep the original
+        // series for comparability and add the real interval between consecutive LateUpdates.
+        readonly Series wallFrameTimes = new Series();
+        double lastWallTime = -1;
+        int deltaAnomalyFrames, windowDeltaAnomalyFrames;
 
         [Serializable] public sealed class Stats
         {
@@ -59,7 +65,8 @@ namespace LuluFarm
             public bool applicationFocused;
             public int completedLaps, waypoint;
             public Vector3 position;
-            public Stats frameTimeMs;
+            public Stats frameTimeMs, wallFrameTimeMs;
+            public int unscaledDeltaExceedsWallFrames;
             public Stats[] counters;
         }
         [Serializable] sealed class Summary
@@ -70,7 +77,8 @@ namespace LuluFarm
             public float elapsedSeconds, warmupSeconds, measurementSeconds;
             public int completedLaps, lastWaypoint;
             public bool routeLoopRunningAtStop, configurationUnchanged;
-            public Stats frameTimeMs;
+            public Stats frameTimeMs, wallFrameTimeMs;
+            public int unscaledDeltaExceedsWallFrames;
             public Stats[] counters;
         }
 
@@ -218,10 +226,17 @@ namespace LuluFarm
             if (runtime.Input.Paused) { Finish("interrupted_by_pause"); return; }
             if (route == null || !route.Running) { Finish("route_stopped_" + (route != null ? route.Status : "missing")); return; }
             float now = Time.realtimeSinceStartup;
+            double wallNow = Time.realtimeSinceStartupAsDouble, wallMs = lastWallTime >= 0 ? (wallNow - lastWallTime) * 1000.0 : -1;
+            lastWallTime = wallNow;
             if (now - startedAt >= warmupSeconds)
             {
                 if (frameTimes.all.Count >= MaximumFrameSamples) { Finish("sample_capacity_reached_incomplete_measurement"); return; }
                 if (Time.unscaledDeltaTime > 0) frameTimes.Add(Time.unscaledDeltaTime * 1000.0);
+                if (wallMs > 0)
+                {
+                    wallFrameTimes.Add(wallMs);
+                    if (Time.unscaledDeltaTime * 1000.0 > wallMs + 50) { deltaAnomalyFrames++; windowDeltaAnomalyFrames++; }
+                }
                 foreach (var counter in counters) counter.Read();
             }
             if (now < nextSampleAt) return;
@@ -246,9 +261,11 @@ namespace LuluFarm
                 routeStatus = route != null ? route.Status : "not_started", completedLaps = route != null ? route.CompletedLaps : 0,
                 waypoint = route != null ? route.WaypointIndex : 0, applicationFocused = Application.isFocused,
                 position = runtime.playerRoot.transform.position, counters = CounterStats(false),
-                frameTimeMs = frameTimes.Describe("Unity frame interval", "Time.unscaledDeltaTime", "ms", "warmup_or_no_frames", false) };
+                frameTimeMs = frameTimes.Describe("Unity frame interval", "Time.unscaledDeltaTime", "ms", "warmup_or_no_frames", false),
+                wallFrameTimeMs = wallFrameTimes.Describe("Wall-clock LateUpdate interval", "Time.realtimeSinceStartupAsDouble", "ms", "warmup_or_no_frames", false),
+                unscaledDeltaExceedsWallFrames = windowDeltaAnomalyFrames };
             samples.WriteLine(JsonUtility.ToJson(row));
-            frameTimes.ClearWindow(); foreach (var counter in counters) counter.values.ClearWindow();
+            frameTimes.ClearWindow(); wallFrameTimes.ClearWindow(); windowDeltaAnomalyFrames = 0; foreach (var counter in counters) counter.values.ClearWindow();
         }
         void WriteConfiguration()
         {
@@ -290,7 +307,9 @@ namespace LuluFarm
                         completedLaps = route != null ? route.CompletedLaps : 0, lastWaypoint = route != null ? route.WaypointIndex : 0,
                         routeStatus = route != null ? route.Status : "not_started", routeLoopRunningAtStop = route != null && route.Running,
                         configurationUnchanged = wasRunning && ConfigurationMatches(), counters = CounterStats(true),
-                        frameTimeMs = frameTimes.Describe("Unity frame interval", "Time.unscaledDeltaTime", "ms", "no_measured_frames", true) };
+                        frameTimeMs = frameTimes.Describe("Unity frame interval", "Time.unscaledDeltaTime", "ms", "no_measured_frames", true),
+                        wallFrameTimeMs = wallFrameTimes.Describe("Wall-clock LateUpdate interval", "Time.realtimeSinceStartupAsDouble", "ms", "no_measured_frames", true),
+                        unscaledDeltaExceedsWallFrames = deltaAnomalyFrames };
                     File.WriteAllText(Path.Combine(output, "summary.json"), JsonUtility.ToJson(summary, true));
                 }
             }
