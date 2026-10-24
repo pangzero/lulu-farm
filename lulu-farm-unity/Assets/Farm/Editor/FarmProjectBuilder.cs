@@ -386,6 +386,7 @@ namespace LuluFarm.Editor
                 if(R07Living)FarmLivingSetupR07.Build(world,rt);
                 // O3 r08: dithered occlusion fade built from the materials actually in use (incl. D6 living ones).
                 if(R07Opus)OpusLivingR08(world);
+                if(R07Island)OpusAnimalWalkR10(world,rt);
                 if(R07Opus)FarmOcclusionDitherR08.Apply(world);
                 // O4: D6 runtime output measured RMS -57 dBFS (bed ~-70, chirps ~-55): effectively inaudible.
                 // Candidate +10 dB birds / +8 dB water; listening comfort still needs the user's own review.
