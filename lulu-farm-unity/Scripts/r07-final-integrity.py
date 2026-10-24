@@ -2,7 +2,9 @@
 """Read-only verification of protected inputs; run after performance capture, not during it."""
 import datetime, hashlib, json, pathlib
 root=pathlib.Path(__file__).resolve().parents[1]
-out=root/'Evidence/r07/D7'
+import sys
+# Default keeps the delivered D7 location; O6 passes its own folder so D7 evidence is not overwritten.
+out=root/'Evidence/r07'/(sys.argv[1] if len(sys.argv)>1 else 'D7')
 out.mkdir(parents=True,exist_ok=True)
 load=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
 def sha(path):

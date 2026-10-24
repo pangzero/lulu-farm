@@ -17,6 +17,8 @@ namespace LuluFarm
         {
             anchors=new Vector3[butterflies.Length];for(int i=0;i<anchors.Length;i++)anchors[i]=butterflies[i].localPosition;
             block=new MaterialPropertyBlock();
+            // O6 performance A/B: start with wind motion off (the in-game toggle still works).
+            if(Array.IndexOf(Environment.GetCommandLineArgs(),"--r07-wind-off")>=0)windRequested=false;
             while(runtime==null||runtime.HUD==null)yield return null;
             var presentation=runtime.GetComponent<FarmPresentationModeR07>();while(!presentation.Ready)yield return null;
             var panel=runtime.transform.Find("FarmHUD/SafeArea/Inspection") as RectTransform;
