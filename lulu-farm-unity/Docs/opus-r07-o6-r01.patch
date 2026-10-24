@@ -1,0 +1,464 @@
+From dd5bddc9387a69341754e7358362a0af877a6d48 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sat, 24 Oct 2026 10:53:33 +0000
+Subject: [PATCH] r07 O6 stage: O5 barn r02 placement and O3 r08 dithered
+ occlusion fade (unverified in Unity)
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01LMYBvq2UzmrEpxoj5eRCWg
+---
+ .../Assets/Farm/Editor/FarmGroundPolishR07.cs |   2 +-
+ .../Farm/Editor/FarmOcclusionDitherR08.cs     | 108 ++++++++++++++++++
+ .../Assets/Farm/Editor/FarmProjectBuilder.cs  |  34 ++++--
+ .../Assets/Farm/Editor/FarmR07Execution.cs    |   6 +-
+ .../Scripts/Runtime/FarmCameraOccluder.cs     |  22 +++-
+ .../Shaders/FarmOcclusionDither-r08.shader    | 106 +++++++++++++++++
+ ...5\234\350\277\233\345\272\246-20261024.md" |  48 ++++++++
+ lulu-farm-unity/Scripts/r07-run-editor.py     |   2 +-
+ lulu-farm-unity/Scripts/r07-run-player.py     |   2 +-
+ 9 files changed, 312 insertions(+), 18 deletions(-)
+ create mode 100644 lulu-farm-unity/Assets/Farm/Editor/FarmOcclusionDitherR08.cs
+ create mode 100644 lulu-farm-unity/Assets/Farm/Shaders/FarmOcclusionDither-r08.shader
+ create mode 100644 "lulu-farm-unity/Docs/R07-Opus-\347\273\255\344\275\234\350\277\233\345\272\246-20261024.md"
+
+diff --git a/lulu-farm-unity/Assets/Farm/Editor/FarmGroundPolishR07.cs b/lulu-farm-unity/Assets/Farm/Editor/FarmGroundPolishR07.cs
+index b4c2e6a..60bcb33 100644
+--- a/lulu-farm-unity/Assets/Farm/Editor/FarmGroundPolishR07.cs
++++ b/lulu-farm-unity/Assets/Farm/Editor/FarmGroundPolishR07.cs
+@@ -7,7 +7,7 @@ using UnityEngine;
+ using Object = UnityEngine.Object;
+ namespace LuluFarm.Editor {
+  public static partial class FarmProjectBuilder {
+-    static bool R07Ground=>R07Task=="D3"||R07Task=="D4"||R07Task=="D6";
++    static bool R07Ground=>R07Task=="D3"||R07Task=="D4"||R07Living;
+     static string ConfigureGroundR03(Transform landscape) {
+         var targets=landscape.GetComponentsInChildren<MeshFilter>(true).Where(m=>m.sharedMesh!=null).ToArray();
+         var road=targets.Single(m=>m.sharedMesh.name=="RoadNetwork");
+diff --git a/lulu-farm-unity/Assets/Farm/Editor/FarmOcclusionDitherR08.cs b/lulu-farm-unity/Assets/Farm/Editor/FarmOcclusionDitherR08.cs
+new file mode 100644
+index 0000000..92ccb57
+--- /dev/null
++++ b/lulu-farm-unity/Assets/Farm/Editor/FarmOcclusionDitherR08.cs
+@@ -0,0 +1,108 @@
++using System;
++using System.Collections.Generic;
++using System.IO;
++using System.Linq;
++using UnityEditor;
++using UnityEngine;
++
++namespace LuluFarm.Editor
++{
++    /// <summary>
++    /// O3 r08. Replaces the transparent URP/Lit fade variants (ZWrite off, which layered roof / crown shells)
++    /// with opaque screen-door variants built from the materials the renderer actually uses after D6.
++    /// Plants keep the same wind deformation and lighting as LivingSurface-r07, so the swap does not pop.
++    /// Original/imported/D6 materials are read only; the old OcclusionFade assets stay on disk unchanged.
++    /// </summary>
++    public static class FarmOcclusionDitherR08
++    {
++        const string Folder = "Assets/Farm/GeneratedR08/OcclusionDither";
++        const string Living = "LuluFarm/LivingSurface-r07";
++        public const float FadedCoverage = .25f;
++        static readonly string[] ColorProperties = { "_BaseColorFactor", "baseColorFactor", "_BaseColor", "baseColor", "_Color" };
++        static readonly string[] TextureProperties = { "_BaseColorTexture", "baseColorTexture", "_BaseMap", "_MainTex", "_BaseColorMap" };
++        static readonly string[] NormalProperties = { "normalTexture", "_NormalTexture", "_BumpMap" };
++
++        [Serializable] sealed class Entry { public string occluder, renderer, source, sourceShader, derived; public bool livingCopy; }
++        [Serializable] sealed class Record { public string utc, method = "Opaque AlphaTest screen-door fade (4x4 ordered dither), ZWrite on, shadows kept; built from in-use materials"; public float fadedCoverage = FadedCoverage; public int occluders, bindings; public Entry[] materials; }
++
++        public static void Apply(Transform world)
++        {
++            var shader = Shader.Find("LuluFarm/OcclusionDither-r08");
++            if (shader == null) throw new InvalidOperationException("OcclusionDither-r08 shader missing");
++            Directory.CreateDirectory(Folder); AssetDatabase.Refresh();
++            var entries = new List<Entry>(); var cache = new Dictionary<Material, Material>();
++            var occluders = world.GetComponentsInChildren<FarmCameraOccluder>(true);
++            int bindingCount = 0;
++            foreach (var occluder in occluders)
++            {
++                if (occluder.bindings == null || occluder.bindings.Length == 0) continue;
++                foreach (var binding in occluder.bindings)
++                {
++                    if (binding?.renderer == null || binding.opaqueMaterials == null) continue;
++                    bindingCount++;
++                    binding.fadedMaterials = binding.opaqueMaterials.Select(source =>
++                    {
++                        if (!cache.TryGetValue(source, out var derived))
++                        {
++                            derived = MakeDither(source, shader);
++                            cache.Add(source, derived);
++                            entries.Add(new Entry { occluder = occluder.name, renderer = binding.renderer.name, source = AssetDatabase.GetAssetPath(source),
++                                sourceShader = source.shader.name, derived = AssetDatabase.GetAssetPath(derived), livingCopy = source.shader.name == Living });
++                        }
++                        return derived;
++                    }).ToArray();
++                }
++                occluder.targetRenderer = occluder.bindings[0].renderer;
++                occluder.opaqueMaterials = occluder.bindings[0].opaqueMaterials;
++                occluder.fadedMaterials = occluder.bindings[0].fadedMaterials;
++                occluder.fadedOpacity = FadedCoverage;
++                if (!occluder.HasSafeFadeMaterials) throw new InvalidOperationException("Dither fade binding rejected by occluder: " + occluder.name);
++                EditorUtility.SetDirty(occluder);
++            }
++            AssetDatabase.SaveAssets();
++            string dir = "Evidence/r07/" + FarmProjectBuilder.R07Task; Directory.CreateDirectory(dir);
++            File.WriteAllText(dir + "/occlusion-dither-r08.json", JsonUtility.ToJson(new Record { utc = DateTime.UtcNow.ToString("o"),
++                occluders = occluders.Length, bindings = bindingCount, materials = entries.ToArray() }, true));
++        }
++
++        static Material MakeDither(Material source, Shader shader)
++        {
++            if (!AssetDatabase.TryGetGUIDAndLocalFileIdentifier(source, out string guid, out long localId) || string.IsNullOrEmpty(guid))
++                throw new InvalidOperationException("Dither fade needs an asset-backed source material: " + source.name);
++            string location = Folder + "/" + guid + "-" + localId + ".mat";
++            var fade = AssetDatabase.LoadAssetAtPath<Material>(location);
++            if (fade == null) { fade = new Material(shader); AssetDatabase.CreateAsset(fade, location); }
++            fade.shader = shader; fade.name = source.name + " — dither fade r08";
++            if (source.shader.name == Living)
++            {
++                // Same property names: identical wind, phase, normal scale and specular as the D6 opaque material.
++                fade.CopyPropertiesFromMaterial(source);
++            }
++            else
++            {
++                string cp = ColorProperties.FirstOrDefault(source.HasProperty);
++                string tp = TextureProperties.FirstOrDefault(p => source.HasProperty(p) && source.GetTexture(p) != null);
++                string np = NormalProperties.FirstOrDefault(p => source.HasProperty(p) && source.GetTexture(p) != null);
++                string rough = new[] { "roughnessFactor", "_RoughnessFactor" }.FirstOrDefault(source.HasProperty);
++                if (cp == null && tp == null) Debug.LogWarning("Dither fade found no base colour on " + source.name + " / " + source.shader.name);
++                fade.SetColor("_BaseColor", cp == null ? Color.white : source.GetColor(cp));
++                fade.SetTexture("_BaseMap", tp == null ? Texture2D.whiteTexture : source.GetTexture(tp));
++                fade.SetTextureScale("_BaseMap", tp == null ? Vector2.one : source.GetTextureScale(tp));
++                fade.SetTextureOffset("_BaseMap", tp == null ? Vector2.zero : source.GetTextureOffset(tp));
++                fade.SetTexture("_NormalMap", np == null ? null : source.GetTexture(np));
++                fade.SetFloat("_NormalScale", np == null ? 0 : 1);
++                fade.SetFloat("_Smoothness", rough == null ? .08f : 1 - source.GetFloat(rough));
++                fade.SetFloat("_SpecularFactor", source.HasProperty("specularFactor") ? source.GetFloat("specularFactor") : .4f);
++                fade.SetFloat("_MotionMode", 0);
++                bool twoSided = source.doubleSidedGI || (source.HasProperty("_Cull") && Mathf.Approximately(source.GetFloat("_Cull"), 0)) ||
++                    (source.HasProperty("_CullMode") && Mathf.Approximately(source.GetFloat("_CullMode"), 0));
++                fade.SetFloat("_Cull", twoSided ? 0 : 2);
++            }
++            fade.SetFloat("_FadeOpacity", 1);
++            fade.renderQueue = (int)UnityEngine.Rendering.RenderQueue.AlphaTest;
++            fade.enableInstancing = true;
++            EditorUtility.SetDirty(fade);
++            return fade;
++        }
++    }
++}
+diff --git a/lulu-farm-unity/Assets/Farm/Editor/FarmProjectBuilder.cs b/lulu-farm-unity/Assets/Farm/Editor/FarmProjectBuilder.cs
+index f40c7aa..c9a7ef3 100644
+--- a/lulu-farm-unity/Assets/Farm/Editor/FarmProjectBuilder.cs
++++ b/lulu-farm-unity/Assets/Farm/Editor/FarmProjectBuilder.cs
+@@ -335,16 +335,32 @@ namespace LuluFarm.Editor
+             }
+             // S02 pasture barn sits in the north half, door to -Z toward the pasture gate.
+             // The whole footprint is solid: the modelled door is decorative and has no interior.
+-            var barn=Place("S02",new Vector3(1.8f,0,-.1f),pasture,180);Footprint(barn,.98f);
+-            Footprint(Place("S09",new Vector3(4.4f,0,-1.9f),pasture,90),.94f);Footprint(Place("E15",new Vector3(4.6f,0,.7f),pasture,25),.85f);
++            Vector3[] animalPositions;
++            if(R07Opus)
++            {
++                // O5 r02 (Docs/r07-D1-O5-谷仓验收-20261024.md): north-east corner clear of the house door,
++                // worldHeight 3.0→2.4 (×.8), visual X-mirrored so the silo faces the pond. The mirror sits only
++                // on the prefab instance; the solid footprint collider lives on the unmirrored holder.
++                var holder=new GameObject("S02-o5r02");holder.transform.SetParent(pasture,false);
++                holder.transform.localPosition=new Vector3(3.6f,0,.35f);holder.transform.localRotation=Quaternion.Euler(0,180,0);
++                var barn=Place("S02",Vector3.zero,holder.transform,0,.8f);
++                if(barn!=null){barn.transform.localScale=new Vector3(-.8f,.8f,.8f);Footprint(holder,.98f);}
++                Footprint(Place("S09",new Vector3(4.0f,0,-2.6f),pasture,90),.94f);Footprint(Place("E15",new Vector3(-.4f,0,1.0f),pasture,25),.85f);
++                animalPositions=new[]{new Vector3(-1.7f,0,-.3f),new Vector3(1f,0,-1.5f),new Vector3(-2.2f,0,-4.2f),new Vector3(.7f,0,-4.3f),new Vector3(3.8f,0,-4.4f)};
++            }
++            else
++            {
++                var barn=Place("S02",new Vector3(1.8f,0,-.1f),pasture,180);Footprint(barn,.98f);
++                Footprint(Place("S09",new Vector3(4.4f,0,-1.9f),pasture,90),.94f);Footprint(Place("E15",new Vector3(4.6f,0,.7f),pasture,25),.85f);
++                // The sheep moved south of the barn front; its r06 spot (1,0,-1.5) is inside the barn footprint.
++                animalPositions=new[]{new Vector3(-1.7f,0,-.3f),new Vector3(.6f,0,-2.9f),new Vector3(-2.2f,0,-4.2f),new Vector3(.7f,0,-4.3f),new Vector3(3.8f,0,-4.4f)};
++            }
+             string[] animals={"cow","sheep","chicken","pig","duck"};
+-            // The sheep moved south of the barn front; its r06 spot (1,0,-1.5) is inside the barn footprint.
+-            Vector3[] animalPositions={new Vector3(-1.7f,0,-.3f),new Vector3(.6f,0,-2.9f),new Vector3(-2.2f,0,-4.2f),new Vector3(.7f,0,-4.3f),new Vector3(3.8f,0,-4.4f)};
+             for(int i=0;i<animals.Length;i++){var a=Place(animals[i],animalPositions[i],pasture,150+i*35);Footprint(a,.7f);}
+             BuildPond(Group("Pond"));
+             LandscapeInstances(landscape);
+             PolishLandscape(landscape);
+-            if(R07Task=="D4"||R07Task=="D6")FarmDecorScatter.Build(world,landscape,Place);
++            if(R07Task=="D4"||R07Living)FarmDecorScatter.Build(world,landscape,Place);
+             Lighting();
+             var player=new GameObject("LuluPlayer");player.transform.position=new Vector3(0,.05f,3.15f);
+             var orientation=new GameObject("PlayerOrientation");orientation.transform.SetParent(player.transform,false);
+@@ -363,9 +379,11 @@ namespace LuluFarm.Editor
+                 rt.idleClip=clips.FirstOrDefault(c=>c.name.Contains("Idle"));rt.walkClip=clips.FirstOrDefault(c=>c.name.Contains("Walk"));rt.runClip=clips.FirstOrDefault(c=>c.name.Contains("Run"));
+                 if(rt.idleClip==null||rt.walkClip==null||rt.runClip==null)issues.Add("Full farm needs actual imported Idle/Walk/Run clips.");
+                 SetupWardrobe(lulu,rt);
+-                if(R07Task=="D6")FarmLivingSetupR07.Build(world,rt);
+-                rt.routeMarkers=new[]{Marker("主屋前",0,3.15f),Marker("田地",-6,2),Marker("牧场入口",2.4f,-7.2f),Marker("饲料槽",4.3f,-2.8f),Marker("池塘",6.7f,DockZ),Marker("码头",8.6f,DockZ),Marker("渔产摊位",10,-5.7f),Marker("主屋背面",0,9.5f),Marker("返回",0,3.15f)};
+-                if(R07Task=="D6")FarmRouteClearanceR07.Configure(rt);
++                if(R07Living)FarmLivingSetupR07.Build(world,rt);
++                // O3 r08: dithered occlusion fade built from the materials actually in use (incl. D6 living ones).
++                if(R07Opus)FarmOcclusionDitherR08.Apply(world);
++                rt.routeMarkers=new[]{Marker("主屋前",0,3.15f),Marker("田地",-6,2),Marker("牧场入口",2.4f,-7.2f),R07Opus?Marker("饲料槽",3.9f,-3.5f):Marker("饲料槽",4.3f,-2.8f),Marker("池塘",6.7f,DockZ),Marker("码头",8.6f,DockZ),Marker("渔产摊位",10,-5.7f),Marker("主屋背面",0,9.5f),Marker("返回",0,3.15f)};
++                if(R07Living)FarmRouteClearanceR07.Configure(rt);
+             }
+             foreach(var marker in issues)Debug.LogWarning(marker);
+             if(!EditorSceneManager.SaveScene(SceneManager.GetActiveScene(),Base+"Scenes/FarmWorld.unity"))issues.Add("Full farm scene save failed.");
+diff --git a/lulu-farm-unity/Assets/Farm/Editor/FarmR07Execution.cs b/lulu-farm-unity/Assets/Farm/Editor/FarmR07Execution.cs
+index 1529da1..101fa76 100644
+--- a/lulu-farm-unity/Assets/Farm/Editor/FarmR07Execution.cs
++++ b/lulu-farm-unity/Assets/Farm/Editor/FarmR07Execution.cs
+@@ -12,9 +12,13 @@ namespace LuluFarm.Editor
+         public static string R07Task {
+             get { var a=Environment.GetCommandLineArgs(); int i=Array.IndexOf(a,"--r07-task");
+                 string task=i>=0&&i+1<a.Length?a[i+1]:"D6";
+-                if(!new[]{"D5","D2","D3","D4","D6"}.Contains(task))throw new InvalidOperationException("Unexpected r07 task: "+task);
++                if(!new[]{"D5","D2","D3","D4","D6","O6"}.Contains(task))throw new InvalidOperationException("Unexpected r07 task: "+task);
+                 return task; }
+         }
++        // O6 is the Opus integration stage: everything D6 enables plus the O3/O5 revisions.
++        // D5–D6 remain reproducible exactly as delivered; nothing below changes when --r07-task is D*.
++        public static bool R07Living=>R07Task=="D6"||R07Task=="O6";
++        public static bool R07Opus=>R07Task=="O6";
+         public static void R07GenerateReview()
+         {
+             string folder="Evidence/r07/"+R07Task;Directory.CreateDirectory(folder);
+diff --git a/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmCameraOccluder.cs b/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmCameraOccluder.cs
+index cb3b05f..fe2d1ed 100644
+--- a/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmCameraOccluder.cs
++++ b/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmCameraOccluder.cs
+@@ -51,13 +51,22 @@ namespace LuluFarm
+         {
+             if (renderer == null || original == null || faded == null || original.Length == 0 || original.Length != faded.Length) return false;
+             for (int i = 0; i < original.Length; i++)
+-                if (original[i] == null || faded[i] == null || !faded[i].HasProperty("_BaseColor")
+-                    || !faded[i].HasProperty("_Surface") || faded[i].GetFloat("_Surface") < .5f
+-                    || !faded[i].HasProperty("_ZWrite") || faded[i].GetFloat("_ZWrite") > .5f
+-                    || faded[i].renderQueue < (int)UnityEngine.Rendering.RenderQueue.Transparent) return false;
++                if (original[i] == null || faded[i] == null || !(IsDither(faded[i]) || IsTransparentFade(faded[i]))) return false;
+             return true;
+         }
+ 
++        // O3 r08 screen-door variant: opaque AlphaTest with depth write; coverage driven by _FadeOpacity.
++        static bool IsDither(Material m) => m.HasProperty(FadeOpacityId) && m.renderQueue >= (int)UnityEngine.Rendering.RenderQueue.AlphaTest;
++        static bool IsTransparentFade(Material m)
++        {
++            if (!m.HasProperty("_BaseColor")
++                    || !m.HasProperty("_Surface") || m.GetFloat("_Surface") < .5f
++                    || !m.HasProperty("_ZWrite") || m.GetFloat("_ZWrite") > .5f
++                    || m.renderQueue < (int)UnityEngine.Rendering.RenderQueue.Transparent) return false;
++            return true;
++        }
++        static readonly int FadeOpacityId = Shader.PropertyToID("_FadeOpacity");
++
+         // Physical wall/trunk proxies intentionally omit decoration. Check the prepared renderers too,
+         // so a window box or a low crown cannot hide Lulu before a wall collider is encountered.
+         public bool IntersectsViewCorridor(Vector3 origin, Vector3 direction, float length, float radius, out float entry)
+@@ -148,8 +157,9 @@ namespace LuluFarm
+                 if (binding.renderer == null) continue;
+                 for (int slot = 0; slot < binding.fadedMaterials.Length; slot++)
+                 {
+-                    Color color = binding.fadedMaterials[slot].GetColor("_BaseColor"); color.a = opacity;
+-                    fadeBlocks[i][slot].SetColor("_BaseColor", color);
++                    var material = binding.fadedMaterials[slot];
++                    if (IsDither(material)) fadeBlocks[i][slot].SetFloat(FadeOpacityId, opacity);
++                    else { Color color = material.GetColor("_BaseColor"); color.a = opacity; fadeBlocks[i][slot].SetColor("_BaseColor", color); }
+                     binding.renderer.SetPropertyBlock(fadeBlocks[i][slot], slot);
+                 }
+             }
+diff --git a/lulu-farm-unity/Assets/Farm/Shaders/FarmOcclusionDither-r08.shader b/lulu-farm-unity/Assets/Farm/Shaders/FarmOcclusionDither-r08.shader
+new file mode 100644
+index 0000000..5022344
+--- /dev/null
++++ b/lulu-farm-unity/Assets/Farm/Shaders/FarmOcclusionDither-r08.shader
+@@ -0,0 +1,106 @@
++Shader "LuluFarm/OcclusionDither-r08"
++{
++ Properties {
++  _BaseMap("Existing base texture",2D)="white"{} _BaseColor("Existing base factor",Color)=(1,1,1,1)
++  _NormalMap("Existing RGB normal",2D)="bump"{} _NormalScale("Normal scale",Float)=0
++  _Smoothness("Existing smoothness",Range(0,1))=.1 _SpecularFactor("Existing specular factor",Range(0,1))=.4
++  _MotionMode("1 foliage, 2 animal",Float)=1 _WindStart("Rigid trunk height",Float)=1.15 _WindTop("Crown height",Float)=3.2 _Amplitude("World displacement",Float)=.025
++  _HeadPivot("Local neck pivot",Vector)=(0,.05,.25,0) _HeadLimits("Z blend and Y blend",Vector)=(.05,.5,-.15,.15)
++  _FloorY("Local feet",Float)=-.95 _Phase("Per animal phase",Float)=0 _Cull("Cull",Float)=0
++  _FadeOpacity("Camera fade coverage (set per renderer)",Range(0,1))=1
++ }
++ SubShader {
++  // O3 r08: opaque screen-door fade. Same lighting and vertex motion as LivingSurface-r07, but ZWrite stays on,
++  // so overlapping crown shells / roof layers never need transparent sorting. _MotionMode 0 = static (houses).
++  Tags {"RenderPipeline"="UniversalPipeline" "RenderType"="TransparentCutout" "Queue"="AlphaTest"}
++  HLSLINCLUDE
++  #define _SPECULAR_SETUP 1
++  #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
++  #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
++  CBUFFER_START(UnityPerMaterial)
++  float4 _BaseMap_ST,_BaseColor,_HeadPivot,_HeadLimits;
++  float _NormalScale,_Smoothness,_SpecularFactor,_MotionMode,_WindStart,_WindTop,_Amplitude,_FloorY,_Phase,_Cull,_FadeOpacity;
++  CBUFFER_END
++  float _FarmR07WindEnabled,_FarmR07MotionEnabled,_FarmR07Time;
++  TEXTURE2D(_BaseMap);SAMPLER(sampler_BaseMap);TEXTURE2D(_NormalMap);SAMPLER(sampler_NormalMap);
++  struct A {float4 positionOS:POSITION;float3 normalOS:NORMAL;float4 tangentOS:TANGENT;float2 uv:TEXCOORD0;};
++  struct V {float4 positionCS:SV_POSITION;float3 positionWS:TEXCOORD0;half3 normalWS:TEXCOORD1;half4 tangentWS:TEXCOORD2;float2 uv:TEXCOORD3;};
++  void Deform(inout float3 p,inout float3 n,inout float3 tangent) {
++   if(_FarmR07MotionEnabled<.5||_MotionMode<.5)return;
++   float t=_FarmR07Time;
++   if(_MotionMode<1.5){
++    float3 ws=TransformObjectToWorld(p);float w=smoothstep(_WindStart,_WindTop,ws.y)*_FarmR07WindEnabled;
++    float wave=sin(t*1.35+ws.x*.39+ws.z*.27)+.35*sin(t*2.2+ws.z*.7);
++    ws.xz+=float2(1,.36)*(_Amplitude*w*wave);p=TransformWorldToObject(ws);
++   }else{
++    float breath=sin(t*1.7+_Phase)*.003;
++    float upper=smoothstep(_FloorY+.12,_FloorY+.5,p.y);
++    p.y+=(p.y-_FloorY)*breath*upper;p.x*=1+breath*.55*upper;
++    // A small, smooth local neck bend; no skeleton, path finding or source-mesh edit.
++    float cycle=frac((t+_Phase*2)/13);float envelope=smoothstep(.58,.70,cycle)*(1-smoothstep(.84,.96,cycle));
++    float w=smoothstep(_HeadLimits.x,_HeadLimits.y,p.z)*smoothstep(_HeadLimits.z,_HeadLimits.w,p.y);
++    float angle=.035*sin((cycle-.58)*16)*envelope*w;float c=cos(angle),s=sin(angle);
++    float3 q=p-_HeadPivot.xyz;q.xz=float2(c*q.x+s*q.z,-s*q.x+c*q.z);p=q+_HeadPivot.xyz;
++    n.xz=float2(c*n.x+s*n.z,-s*n.x+c*n.z);tangent.xz=float2(c*tangent.x+s*tangent.z,-s*tangent.x+c*tangent.z);
++   }
++  }
++  // 4x4 ordered dither in screen pixels; coverage equals _FadeOpacity in 1/16 steps.
++  static const float FadeBayer[16]={0,8,2,10,12,4,14,6,3,11,1,9,15,7,13,5};
++  void FadeClip(float4 positionCS){
++   uint2 q=(uint2)positionCS.xy&3u;
++   clip(_FadeOpacity-(FadeBayer[q.y*4+q.x]+.5)/16);
++  }
++  V Vertex(A a){V v;float3 p=a.positionOS.xyz,n=a.normalOS,t=a.tangentOS.xyz;Deform(p,n,t);
++   v.positionWS=TransformObjectToWorld(p);v.positionCS=TransformWorldToHClip(v.positionWS);v.normalWS=TransformObjectToWorldNormal(n);
++   v.tangentWS=half4(TransformObjectToWorldDir(t),a.tangentOS.w*GetOddNegativeScale());v.uv=TRANSFORM_TEX(a.uv,_BaseMap);return v;}
++  ENDHLSL
++  Pass {
++   Name "ForwardLit" Tags {"LightMode"="UniversalForward"} Cull [_Cull] ZWrite On
++   HLSLPROGRAM
++   #pragma target 3.0
++   #pragma vertex Vertex
++   #pragma fragment Fragment
++   #pragma multi_compile_fog
++   #pragma multi_compile _ _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN
++   #pragma multi_compile_fragment _ _SHADOWS_SOFT _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM _SHADOWS_SOFT_HIGH
++   #pragma multi_compile_fragment _ _SCREEN_SPACE_OCCLUSION
++   half4 Fragment(V v, FRONT_FACE_TYPE facing:FRONT_FACE_SEMANTIC):SV_Target {
++    FadeClip(v.positionCS);
++    half3 normal=normalize(v.normalWS);half3 map=SAMPLE_TEXTURE2D(_NormalMap,sampler_NormalMap,v.uv).xyz*2-1;
++    map.xy*=_NormalScale;map.z=sqrt(1-saturate(dot(map.xy,map.xy)));
++    half3 bitangent=cross(normal,v.tangentWS.xyz)*v.tangentWS.w;
++    if(_NormalScale>0)normal=normalize(map.x*v.tangentWS.xyz+map.y*bitangent+map.z*normal);
++    normal*=IS_FRONT_VFACE(facing,1,-1);
++    InputData data=(InputData)0;data.positionWS=v.positionWS;data.normalWS=normal;data.viewDirectionWS=GetWorldSpaceNormalizeViewDir(v.positionWS);
++    data.shadowCoord=TransformWorldToShadowCoord(v.positionWS);data.bakedGI=SampleSH(normal);data.normalizedScreenSpaceUV=GetNormalizedScreenSpaceUV(v.positionCS);data.shadowMask=half4(1,1,1,1);
++    SurfaceData surface=(SurfaceData)0;surface.albedo=SAMPLE_TEXTURE2D(_BaseMap,sampler_BaseMap,v.uv).rgb*_BaseColor.rgb;surface.alpha=1;surface.occlusion=1;
++    surface.smoothness=_Smoothness;surface.normalTS=half3(0,0,1);surface.specular=half3(.04,.04,.04)*_SpecularFactor;
++    half4 result=UniversalFragmentPBR(data,surface);result.rgb=MixFog(result.rgb,ComputeFogFactor(TransformWorldToHClip(v.positionWS).z));return result;
++   }
++   ENDHLSL
++  }
++  Pass {Name "DepthOnly" Tags {"LightMode"="DepthOnly"} Cull [_Cull] ZWrite On ColorMask R
++   HLSLPROGRAM
++   #pragma vertex Vertex
++   #pragma fragment DepthFragment
++   half4 DepthFragment(V v):SV_Target{FadeClip(v.positionCS);return v.positionCS.z;}
++   ENDHLSL
++  }
++  Pass {Name "ShadowCaster" Tags {"LightMode"="ShadowCaster"} Cull [_Cull] ZWrite On ColorMask 0
++   HLSLPROGRAM
++   #pragma vertex ShadowVertex
++   #pragma fragment ShadowFragment
++   float3 _LightDirection;
++   V ShadowVertex(A a){V v=Vertex(a);v.positionCS=TransformWorldToHClip(ApplyShadowBias(v.positionWS,v.normalWS,_LightDirection));return v;}
++   half4 ShadowFragment(V v):SV_Target{return 0;}
++   ENDHLSL
++  }
++  Pass {Name "DepthNormals" Tags {"LightMode"="DepthNormals"} Cull [_Cull] ZWrite On
++   HLSLPROGRAM
++   #pragma vertex Vertex
++   #pragma fragment NormalFragment
++   half4 NormalFragment(V v):SV_Target{FadeClip(v.positionCS);return half4(normalize(v.normalWS),0);}
++   ENDHLSL
++  }
++ }
++}
+diff --git "a/lulu-farm-unity/Docs/R07-Opus-\347\273\255\344\275\234\350\277\233\345\272\246-20261024.md" "b/lulu-farm-unity/Docs/R07-Opus-\347\273\255\344\275\234\350\277\233\345\272\246-20261024.md"
+new file mode 100644
+index 0000000..9fc3e2e
+--- /dev/null
++++ "b/lulu-farm-unity/Docs/R07-Opus-\347\273\255\344\275\234\350\277\233\345\272\246-20261024.md"
+@@ -0,0 +1,48 @@
++# r07 Opus 续作进度（2026-10-24）
++
++本记录跨上下文接续用。技术检查、视觉初审、用户美术认可、设备实测分开记录；本文件没有任何用户认可。
++
++## 本次会话的环境与限制（必须先读）
++
++- 运行于云端 Linux 容器，不是用户的 Mac。仓库 `pangzero/lulu-farm` 克隆于提交 `3812600`，工作分支 `opus/r07-o6-continue`（本地）。
++- **LFS 对象无法下载**（GitHub 返回 "Resource not accessible by integration"，Claude GitHub App 未安装到该仓库）。所有 PNG/JPG/GLB/MP4/WAV/`.timeline.json.gz` 在本容器里只是指针文件。因此本会话**没有看过任何图片、模型、视频，也没有读过 Profiler 时间线**。
++- **无法推送**（push 检查被拒）。改动以补丁形式交付：`Docs/opus-r07-o6-r01.patch`。
++- 无 Unity、无 macOS：本会话的改动**未编译（仅 mcs 语法解析）、未生成场景、未构建、未运行**。
++- 仓库可被匿名读取（代理按公开仓库处理），与 GIT-DELIVERY.md 要求的私有状态不符，需用户核实。
++
++## O1–O6 状态（依据实际文件核对）
++
++| 项 | 状态 | 依据 |
++|---|---|---|
++| O1 新 Lulu 游戏化 | 部分完成：r01 WIP 已有，未完成 | `lulu-studio/review/lulu-game-r01/HANDOFF.md`；LOD0 WIP（约 2.92 万面）存在但仅 LFS 指针，本会话未能查看。跑步顶开短裤、LOD1、图集、三套换装、Unity 接入均未做。无 r02。 |
++| O2 长帧分析 | 未开始（Opus 侧） | 400 段原始数据与导出时间线由 DeepSeek 采集；`.data` 在用户本机，`.timeline.json.gz` 为 LFS，本会话无法读取。 |
++| O3 遮挡淡出 | 代码修订已写，未编译/未运行 | 见下文“O3 r08”。 |
++| O4 画面验收 | spec 已有（完成）；D2–D6 实图验收未做 | `Docs/r07-ground-shading-spec.md`；截图均为 LFS，本会话不能看图。 |
++| O5 谷仓验收 | 判断已完成；返工此前未落实，现已写进 Builder（未运行） | `Docs/r07-D1-O5-谷仓验收-20261024.md`；原 Builder 仍为 D1 位置 `(1.8,0,-.1)`，无 `Evidence/r07/D1-r02/`。 |
++| O6 最终整合 | 未开始，只加了 O6 生成阶段 | 需 Mac 上生成、构建、路线、录像、性能。 |
++
++## 本次改动（opus-r07-o6-r01，全部未经 Unity 验证）
++
++1. **新增阶段 `--r07-task O6`**：包含 D6 的全部内容，外加 O3/O5 修订。D5–D6 原复现行为不变（默认仍为 D6）。证据和构建输出到 `Evidence/r07/O6/`、`Builds/r07/O6/`，不会覆盖 DeepSeek 的 D6。两个运行脚本的 choices 已加 O6。
++2. **O5 r02**（仅 O6 生效）：S02 放在 `(3.6,0,.35)`，朝向 180，缩放 .8（相当于 worldHeight 2.4）；视觉实例 X 镜像，把筒仓放到东侧；碰撞盒放在未镜像的 holder 上。S09 改到 `(4.0,0,-2.6)`，E15 改到 `(-.4,0,1.0)`，羊回到 `(1,0,-1.5)`。“饲料槽”路线标记从 `(4.3,-2.8)` 改到 `(3.9,-3.5)`，因为旧标记会落进挪过的饲料槽里。sceneRevision 写为 `integration-r07-O6`。
++3. **O3 r08 原因（代码层确认）**：
++   - 叠层：`FarmOcclusionSetup.MakeFade` 生成的是 URP/Lit 透明材质，ZWrite 关闭，所以房屋和树冠多层壳之间没有深度排序，叠出淡色层。
++   - D6 不连续：淡出材质是从 D6 之前的导入材质生成的；`FarmLivingSetupR07` 只替换了 `opaqueMaterials`。树开始淡出时会换成没有风动的 URP/Lit：树冠位移瞬间归零（约 ±0.03m），光照模型也跟着变。
++4. **O3 r08 修订**：新增 `LuluFarm/OcclusionDither-r08`，从 LivingSurface-r07 复制，改为 AlphaTest 不透明加 4×4 屏幕抖动，ZWrite 保持开启，阴影保留，`_MotionMode 0` 用于静态房屋。新增 `FarmOcclusionDitherR08.Apply`：在 D6 之后，用渲染器**当前实际使用**的材质生成抖动淡出材质（D6 植物直接复制属性，风动和光照相同），淡出覆盖率设为 .25。`FarmCameraOccluder` 识别抖动材质后改驱动 `_FadeOpacity`；旧透明路径和回归测试保持不变。
++
++## 待验证（在 Mac 上按此执行）
++
++```sh
++git apply Docs/opus-r07-o6-r01.patch   # 在仓库根目录
++python3 Scripts/r07-run-editor.py O6 generate development
++python3 Scripts/r07-run-player.py O6 route
++python3 Scripts/r07-run-player.py O6 performance
++```
++
++需检查：编译与着色器（Metal）是否通过；S02 镜像后法线贴图光照方向是否正确；有没有负缩放警告；碰撞后沿与北围栏的距离；31 点路线有没有 blocked；房屋和树淡出是否还有叠层，抖动颗粒感是否可以接受；树淡出切换时有没有跳动；房屋切换瞬间的光照差异（glTF 着色器换成自定义 PBR 时可能有可见变化）；同机位对照 r06 / D6 / O6。
++
++## 下一步
++
++1. 用户处理访问：安装 Claude GitHub App 以读取 LFS，或在 Mac 上用 Claude Desktop / `claude remote-control` 接续。
++2. 拿到图片和时间线后：O2 时间线分析，O4 看 D2–D6 实图，O1 继续 r02（短裤穿插、LOD1、换装）。
++3. Mac 上验证 O6，再做最终整合、录像、试听 WAV、交付归档。
+diff --git a/lulu-farm-unity/Scripts/r07-run-editor.py b/lulu-farm-unity/Scripts/r07-run-editor.py
+index 2740e2b..ce33a40 100644
+--- a/lulu-farm-unity/Scripts/r07-run-editor.py
++++ b/lulu-farm-unity/Scripts/r07-run-editor.py
+@@ -2,7 +2,7 @@
+ """Serial r07 editor invocations. Run with the project closed; preserves locked inputs."""
+ import argparse, datetime, hashlib, json, pathlib, subprocess
+ root=pathlib.Path(__file__).resolve().parents[1]
+-parser=argparse.ArgumentParser();parser.add_argument('task',choices=['D5','D2','D3','D4','D6']);parser.add_argument('steps',nargs='+',choices=['generate','development','release','export'])
++parser=argparse.ArgumentParser();parser.add_argument('task',choices=['D5','D2','D3','D4','D6','O6']);parser.add_argument('steps',nargs='+',choices=['generate','development','release','export'])
+ parser.add_argument('--profiler-directory')
+ args=parser.parse_args()
+ editor=root.parent/'.unity-install/Editors/6000.3.16f1/Unity.app/Contents/MacOS/Unity'
+diff --git a/lulu-farm-unity/Scripts/r07-run-player.py b/lulu-farm-unity/Scripts/r07-run-player.py
+index 750c14d..da0a1ce 100644
+--- a/lulu-farm-unity/Scripts/r07-run-player.py
++++ b/lulu-farm-unity/Scripts/r07-run-player.py
+@@ -2,7 +2,7 @@
+ """Run an independent visible macOS player session; never mix screenshot and performance runs."""
+ import argparse, datetime, json, pathlib, subprocess
+ root=pathlib.Path(__file__).resolve().parents[1]
+-p=argparse.ArgumentParser();p.add_argument('task',choices=['D5','D2','D3','D4','D6']);p.add_argument('mode',choices=['route','performance','ambient']);p.add_argument('--seconds',type=int);a=p.parse_args()
++p=argparse.ArgumentParser();p.add_argument('task',choices=['D5','D2','D3','D4','D6','O6']);p.add_argument('mode',choices=['route','performance','ambient']);p.add_argument('--seconds',type=int);a=p.parse_args()
+ out=root/'Evidence/r07'/a.task;out.mkdir(parents=True,exist_ok=True)
+ exe=root/'Builds/r07'/a.task/'development/LuluFarm.app/Contents/MacOS/噜噜农场'
+ if not exe.exists():raise SystemExit('Build required: '+str(exe))
+-- 
+2.43.0
+
