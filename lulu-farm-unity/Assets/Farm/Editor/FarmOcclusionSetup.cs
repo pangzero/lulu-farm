@@ -80,6 +80,10 @@ namespace LuluFarm.Editor
                 throw new InvalidOperationException("Save the original material before creating a traceable fade variant: " + source.name);
             string location = Folder + "/" + guid + "-" + localId + ".mat";
             Material fade = AssetDatabase.LoadAssetAtPath<Material>(location);
+            // O6/O7: these transparent fades are superseded by the dither fades (FarmOcclusionDitherR08) and the files are
+            // protected D5–D6 outputs. Rewriting them here changed _SrcBlend/premultiply versus the stored, URP-validated
+            // bytes (O6 attempt-02). Reuse an existing file read-only; only a missing one is created.
+            if (fade != null && FarmProjectBuilder.R07Opus) return fade;
             if (fade == null)
             { fade = new Material(shader) { name = source.name + " — camera fade" }; AssetDatabase.CreateAsset(fade, location); }
             else fade.shader = shader;
