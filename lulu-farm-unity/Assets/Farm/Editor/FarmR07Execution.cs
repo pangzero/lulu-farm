@@ -12,9 +12,13 @@ namespace LuluFarm.Editor
         public static string R07Task {
             get { var a=Environment.GetCommandLineArgs(); int i=Array.IndexOf(a,"--r07-task");
                 string task=i>=0&&i+1<a.Length?a[i+1]:"D6";
-                if(!new[]{"D5","D2","D3","D4","D6"}.Contains(task))throw new InvalidOperationException("Unexpected r07 task: "+task);
+                if(!new[]{"D5","D2","D3","D4","D6","O6"}.Contains(task))throw new InvalidOperationException("Unexpected r07 task: "+task);
                 return task; }
         }
+        // O6 is the Opus integration stage: everything D6 enables plus the O3/O5 revisions.
+        // D5–D6 remain reproducible exactly as delivered; nothing below changes when --r07-task is D*.
+        public static bool R07Living=>R07Task=="D6"||R07Task=="O6";
+        public static bool R07Opus=>R07Task=="O6";
         public static void R07GenerateReview()
         {
             string folder="Evidence/r07/"+R07Task;Directory.CreateDirectory(folder);

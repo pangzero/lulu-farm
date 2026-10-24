@@ -7,7 +7,7 @@ using UnityEngine;
 using Object = UnityEngine.Object;
 namespace LuluFarm.Editor {
  public static partial class FarmProjectBuilder {
-    static bool R07Ground=>R07Task=="D3"||R07Task=="D4"||R07Task=="D6";
+    static bool R07Ground=>R07Task=="D3"||R07Task=="D4"||R07Living;
     static string ConfigureGroundR03(Transform landscape) {
         var targets=landscape.GetComponentsInChildren<MeshFilter>(true).Where(m=>m.sharedMesh!=null).ToArray();
         var road=targets.Single(m=>m.sharedMesh.name=="RoadNetwork");

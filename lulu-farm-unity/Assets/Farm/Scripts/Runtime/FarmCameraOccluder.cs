@@ -51,12 +51,21 @@ namespace LuluFarm
         {
             if (renderer == null || original == null || faded == null || original.Length == 0 || original.Length != faded.Length) return false;
             for (int i = 0; i < original.Length; i++)
-                if (original[i] == null || faded[i] == null || !faded[i].HasProperty("_BaseColor")
-                    || !faded[i].HasProperty("_Surface") || faded[i].GetFloat("_Surface") < .5f
-                    || !faded[i].HasProperty("_ZWrite") || faded[i].GetFloat("_ZWrite") > .5f
-                    || faded[i].renderQueue < (int)UnityEngine.Rendering.RenderQueue.Transparent) return false;
+                if (original[i] == null || faded[i] == null || !(IsDither(faded[i]) || IsTransparentFade(faded[i]))) return false;
             return true;
         }
+
+        // O3 r08 screen-door variant: opaque AlphaTest with depth write; coverage driven by _FadeOpacity.
+        static bool IsDither(Material m) => m.HasProperty(FadeOpacityId) && m.renderQueue >= (int)UnityEngine.Rendering.RenderQueue.AlphaTest;
+        static bool IsTransparentFade(Material m)
+        {
+            if (!m.HasProperty("_BaseColor")
+                    || !m.HasProperty("_Surface") || m.GetFloat("_Surface") < .5f
+                    || !m.HasProperty("_ZWrite") || m.GetFloat("_ZWrite") > .5f
+                    || m.renderQueue < (int)UnityEngine.Rendering.RenderQueue.Transparent) return false;
+            return true;
+        }
+        static readonly int FadeOpacityId = Shader.PropertyToID("_FadeOpacity");
 
         // Physical wall/trunk proxies intentionally omit decoration. Check the prepared renderers too,
         // so a window box or a low crown cannot hide Lulu before a wall collider is encountered.
@@ -148,8 +157,9 @@ namespace LuluFarm
                 if (binding.renderer == null) continue;
                 for (int slot = 0; slot < binding.fadedMaterials.Length; slot++)
                 {
-                    Color color = binding.fadedMaterials[slot].GetColor("_BaseColor"); color.a = opacity;
-                    fadeBlocks[i][slot].SetColor("_BaseColor", color);
+                    var material = binding.fadedMaterials[slot];
+                    if (IsDither(material)) fadeBlocks[i][slot].SetFloat(FadeOpacityId, opacity);
+                    else { Color color = material.GetColor("_BaseColor"); color.a = opacity; fadeBlocks[i][slot].SetColor("_BaseColor", color); }
                     binding.renderer.SetPropertyBlock(fadeBlocks[i][slot], slot);
                 }
             }

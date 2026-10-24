@@ -335,16 +335,32 @@ namespace LuluFarm.Editor
             }
             // S02 pasture barn sits in the north half, door to -Z toward the pasture gate.
             // The whole footprint is solid: the modelled door is decorative and has no interior.
-            var barn=Place("S02",new Vector3(1.8f,0,-.1f),pasture,180);Footprint(barn,.98f);
-            Footprint(Place("S09",new Vector3(4.4f,0,-1.9f),pasture,90),.94f);Footprint(Place("E15",new Vector3(4.6f,0,.7f),pasture,25),.85f);
+            Vector3[] animalPositions;
+            if(R07Opus)
+            {
+                // O5 r02 (Docs/r07-D1-O5-谷仓验收-20261024.md): north-east corner clear of the house door,
+                // worldHeight 3.0→2.4 (×.8), visual X-mirrored so the silo faces the pond. The mirror sits only
+                // on the prefab instance; the solid footprint collider lives on the unmirrored holder.
+                var holder=new GameObject("S02-o5r02");holder.transform.SetParent(pasture,false);
+                holder.transform.localPosition=new Vector3(3.6f,0,.35f);holder.transform.localRotation=Quaternion.Euler(0,180,0);
+                var barn=Place("S02",Vector3.zero,holder.transform,0,.8f);
+                if(barn!=null){barn.transform.localScale=new Vector3(-.8f,.8f,.8f);Footprint(holder,.98f);}
+                Footprint(Place("S09",new Vector3(4.0f,0,-2.6f),pasture,90),.94f);Footprint(Place("E15",new Vector3(-.4f,0,1.0f),pasture,25),.85f);
+                animalPositions=new[]{new Vector3(-1.7f,0,-.3f),new Vector3(1f,0,-1.5f),new Vector3(-2.2f,0,-4.2f),new Vector3(.7f,0,-4.3f),new Vector3(3.8f,0,-4.4f)};
+            }
+            else
+            {
+                var barn=Place("S02",new Vector3(1.8f,0,-.1f),pasture,180);Footprint(barn,.98f);
+                Footprint(Place("S09",new Vector3(4.4f,0,-1.9f),pasture,90),.94f);Footprint(Place("E15",new Vector3(4.6f,0,.7f),pasture,25),.85f);
+                // The sheep moved south of the barn front; its r06 spot (1,0,-1.5) is inside the barn footprint.
+                animalPositions=new[]{new Vector3(-1.7f,0,-.3f),new Vector3(.6f,0,-2.9f),new Vector3(-2.2f,0,-4.2f),new Vector3(.7f,0,-4.3f),new Vector3(3.8f,0,-4.4f)};
+            }
             string[] animals={"cow","sheep","chicken","pig","duck"};
-            // The sheep moved south of the barn front; its r06 spot (1,0,-1.5) is inside the barn footprint.
-            Vector3[] animalPositions={new Vector3(-1.7f,0,-.3f),new Vector3(.6f,0,-2.9f),new Vector3(-2.2f,0,-4.2f),new Vector3(.7f,0,-4.3f),new Vector3(3.8f,0,-4.4f)};
             for(int i=0;i<animals.Length;i++){var a=Place(animals[i],animalPositions[i],pasture,150+i*35);Footprint(a,.7f);}
             BuildPond(Group("Pond"));
             LandscapeInstances(landscape);
             PolishLandscape(landscape);
-            if(R07Task=="D4"||R07Task=="D6")FarmDecorScatter.Build(world,landscape,Place);
+            if(R07Task=="D4"||R07Living)FarmDecorScatter.Build(world,landscape,Place);
             Lighting();
             var player=new GameObject("LuluPlayer");player.transform.position=new Vector3(0,.05f,3.15f);
             var orientation=new GameObject("PlayerOrientation");orientation.transform.SetParent(player.transform,false);
@@ -363,9 +379,11 @@ namespace LuluFarm.Editor
                 rt.idleClip=clips.FirstOrDefault(c=>c.name.Contains("Idle"));rt.walkClip=clips.FirstOrDefault(c=>c.name.Contains("Walk"));rt.runClip=clips.FirstOrDefault(c=>c.name.Contains("Run"));
                 if(rt.idleClip==null||rt.walkClip==null||rt.runClip==null)issues.Add("Full farm needs actual imported Idle/Walk/Run clips.");
                 SetupWardrobe(lulu,rt);
-                if(R07Task=="D6")FarmLivingSetupR07.Build(world,rt);
-                rt.routeMarkers=new[]{Marker("主屋前",0,3.15f),Marker("田地",-6,2),Marker("牧场入口",2.4f,-7.2f),Marker("饲料槽",4.3f,-2.8f),Marker("池塘",6.7f,DockZ),Marker("码头",8.6f,DockZ),Marker("渔产摊位",10,-5.7f),Marker("主屋背面",0,9.5f),Marker("返回",0,3.15f)};
-                if(R07Task=="D6")FarmRouteClearanceR07.Configure(rt);
+                if(R07Living)FarmLivingSetupR07.Build(world,rt);
+                // O3 r08: dithered occlusion fade built from the materials actually in use (incl. D6 living ones).
+                if(R07Opus)FarmOcclusionDitherR08.Apply(world);
+                rt.routeMarkers=new[]{Marker("主屋前",0,3.15f),Marker("田地",-6,2),Marker("牧场入口",2.4f,-7.2f),R07Opus?Marker("饲料槽",3.9f,-3.5f):Marker("饲料槽",4.3f,-2.8f),Marker("池塘",6.7f,DockZ),Marker("码头",8.6f,DockZ),Marker("渔产摊位",10,-5.7f),Marker("主屋背面",0,9.5f),Marker("返回",0,3.15f)};
+                if(R07Living)FarmRouteClearanceR07.Configure(rt);
             }
             foreach(var marker in issues)Debug.LogWarning(marker);
             if(!EditorSceneManager.SaveScene(SceneManager.GetActiveScene(),Base+"Scenes/FarmWorld.unity"))issues.Add("Full farm scene save failed.");

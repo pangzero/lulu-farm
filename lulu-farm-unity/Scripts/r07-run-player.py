@@ -2,7 +2,7 @@
 """Run an independent visible macOS player session; never mix screenshot and performance runs."""
 import argparse, datetime, json, pathlib, subprocess
 root=pathlib.Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser();p.add_argument('task',choices=['D5','D2','D3','D4','D6']);p.add_argument('mode',choices=['route','performance','ambient']);p.add_argument('--seconds',type=int);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('task',choices=['D5','D2','D3','D4','D6','O6']);p.add_argument('mode',choices=['route','performance','ambient']);p.add_argument('--seconds',type=int);a=p.parse_args()
 out=root/'Evidence/r07'/a.task;out.mkdir(parents=True,exist_ok=True)
 exe=root/'Builds/r07'/a.task/'development/LuluFarm.app/Contents/MacOS/噜噜农场'
 if not exe.exists():raise SystemExit('Build required: '+str(exe))
