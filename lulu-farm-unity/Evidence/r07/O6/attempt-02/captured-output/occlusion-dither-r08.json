@@ -1,0 +1,57 @@
+{
+    "utc": "2026-10-24T14:17:46.6347820Z",
+    "method": "Opaque AlphaTest screen-door fade (4x4 ordered dither), ZWrite on, shadows kept; built from in-use materials",
+    "fadedCoverage": 0.25,
+    "occluders": 32,
+    "bindings": 64,
+    "materials": [
+        {
+            "occluder": "E08",
+            "renderer": "Visual",
+            "source": "Assets/Farm/GeneratedR08/Materials/E08-74ce7fbecc6d84a2883de5151921fe05--5697061326574116905-r08.mat",
+            "sourceShader": "LuluFarm/LivingSurface-r08",
+            "derived": "Assets/Farm/GeneratedR08/OcclusionDither/723c6050466a749668db0673016ece8b-2100000.mat",
+            "livingCopy": true
+        },
+        {
+            "occluder": "E08",
+            "renderer": "LOD1",
+            "source": "Assets/Farm/GeneratedR08/Materials/E08-8403be2f76de64eaeb17cec4afc8b121--5697061326574116905-r08.mat",
+            "sourceShader": "LuluFarm/LivingSurface-r08",
+            "derived": "Assets/Farm/GeneratedR08/OcclusionDither/cc5cca0e6db094d44a9b93d9f50768ab-2100000.mat",
+            "livingCopy": true
+        },
+        {
+            "occluder": "E09",
+            "renderer": "Visual",
+            "source": "Assets/Farm/GeneratedR08/Materials/E09-cc48e1406872f4a5f96d4b526b850aed-1966872565820863317-r08.mat",
+            "sourceShader": "LuluFarm/LivingSurface-r08",
+            "derived": "Assets/Farm/GeneratedR08/OcclusionDither/a3926582913fe4928b8e220305447b1f-2100000.mat",
+            "livingCopy": true
+        },
+        {
+            "occluder": "E09",
+            "renderer": "LOD1",
+            "source": "Assets/Farm/GeneratedR08/Materials/E09-13224fa0a356247299adc90ff8420048-1966872565820863317-r08.mat",
+            "sourceShader": "LuluFarm/LivingSurface-r08",
+            "derived": "Assets/Farm/GeneratedR08/OcclusionDither/16c41184e4a4840c381af09f26e01350-2100000.mat",
+            "livingCopy": true
+        },
+        {
+            "occluder": "S01",
+            "renderer": "Visual",
+            "source": "Assets/Farm/Art/S01/model.gltf",
+            "sourceShader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "derived": "Assets/Farm/GeneratedR08/OcclusionDither/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat",
+            "livingCopy": false
+        },
+        {
+            "occluder": "S01",
+            "renderer": "LOD1",
+            "source": "Assets/Farm/Art/S01/lod1/model.gltf",
+            "sourceShader": "Shader Graphs/glTF-pbrMetallicRoughness",
+            "derived": "Assets/Farm/GeneratedR08/OcclusionDither/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat",
+            "livingCopy": false
+        }
+    ]
+}

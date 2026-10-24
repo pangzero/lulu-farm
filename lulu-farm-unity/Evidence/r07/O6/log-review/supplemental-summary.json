@@ -1,0 +1,178 @@
+{
+  "utc": "2026-10-24T18:05:34.315983+00:00",
+  "observer": "o6_resume_audit",
+  "status": "Completed; awaiting Opus review",
+  "acceptanceConclusion": null,
+  "sourceLogCount": 4,
+  "patterns": {
+    "Exception": "Exception",
+    "Error": "Error",
+    "Shader": "Shader",
+    "negative-scale-collision": "negative.*scal|scal.*negative|collid|collision|convex|non.?convex",
+    "Warning": "warning"
+  },
+  "explicitDiagnosticSearchPatterns": {
+    "CSharpCompilerError": "\\berror\\s+CS\\d+",
+    "ShaderCompilerError": "Shader\\s+error|shader[^\\n]*(?:compil(?:ation|e)?\\s+(?:error|failed)|failed\\s+to\\s+compile)",
+    "ThrownExceptionMessage": "\\b(?:NullReference|Argument(?:Null|OutOfRange)?|InvalidOperation|MissingReference|IndexOutOfRange|TypeLoad|ReflectionTypeLoad|NotSupported|FileNotFound)Exception\\s*:",
+    "NegativeScaleWarning": "negative.*scal|scal.*negative",
+    "CollisionWarning": "(?:collid|collision|convex|non.?convex).*(?:warn|error|fail|not\\s+support|not\\s+allow)|(?:warn|error|fail|not\\s+support|not\\s+allow).*(?:collid|collision|convex|non.?convex)"
+  },
+  "contextLinesBeforeAfter": 20,
+  "records": [
+    {
+      "source": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/manual.log",
+      "scope": "First manual native-player session; log content only.",
+      "sourceSHA256": "e43c9adbcb6844e2721b15c5553189dea42699a5662b2fed6c75e0b4b311f514",
+      "sourceBytes": 3966,
+      "sourceLines": 50,
+      "contextFile": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/log-review/supplemental-manual.keyword-context.txt",
+      "keywordMatchCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 1,
+        "negative-scale-collision": 0,
+        "Warning": 0
+      },
+      "matches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [
+          {
+            "line": 50,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792862395391,\"processId\":76189,\"allocatedMemory\":2385440,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15095},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "EXIT_TELEMETRY: Shader is a memory label in MemoryLeaks telemetry, not a shader compiler error. No memory/performance conclusion."
+          }
+        ],
+        "negative-scale-collision": [],
+        "Warning": []
+      },
+      "explicitDiagnosticSearches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": []
+      },
+      "observation": "Exception, Error, explicit compilation diagnostics, negative scale and collision warning patterns have no matches; one Shader match is the exit MemoryLeaks memory label."
+    },
+    {
+      "source": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/manual-02.log",
+      "scope": "Second manual native-player session; log content only.",
+      "sourceSHA256": "8486f202920c48a2fecaba0190321b9d388d2f06721076d3dfeb16821a924192",
+      "sourceBytes": 3966,
+      "sourceLines": 50,
+      "contextFile": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/log-review/supplemental-manual-02.keyword-context.txt",
+      "keywordMatchCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 1,
+        "negative-scale-collision": 0,
+        "Warning": 0
+      },
+      "matches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [
+          {
+            "line": 50,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792865079911,\"processId\":93865,\"allocatedMemory\":2385440,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15095},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "EXIT_TELEMETRY: Shader is a memory label in MemoryLeaks telemetry, not a shader compiler error. No memory/performance conclusion."
+          }
+        ],
+        "negative-scale-collision": [],
+        "Warning": []
+      },
+      "explicitDiagnosticSearches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": []
+      },
+      "observation": "Exception, Error, explicit compilation diagnostics, negative scale and collision warning patterns have no matches; one Shader match is the exit MemoryLeaks memory label."
+    },
+    {
+      "source": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/attempt-03/route-01-input-stop/route.log",
+      "scope": "Archived first route attempt identified as input-stop; inspect its Player log, not the later completed route.",
+      "sourceSHA256": "8ecdb5a062c62df9dee5e7fce3ecb646658fd5a0ba0f4229cacc26dd411e51fa",
+      "sourceBytes": 4021,
+      "sourceLines": 51,
+      "contextFile": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/log-review/supplemental-attempt-03-route-01-input-stop.keyword-context.txt",
+      "keywordMatchCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 1,
+        "negative-scale-collision": 0,
+        "Warning": 0
+      },
+      "matches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [
+          {
+            "line": 51,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792861531137,\"processId\":70830,\"allocatedMemory\":2385440,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15095},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "EXIT_TELEMETRY: Shader is a memory label in MemoryLeaks telemetry, not a shader compiler error. No memory/performance conclusion."
+          }
+        ],
+        "negative-scale-collision": [],
+        "Warning": []
+      },
+      "explicitDiagnosticSearches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": []
+      },
+      "observation": "Exception, Error, explicit compilation diagnostics, negative scale and collision warning patterns have no matches; one Shader match is the exit MemoryLeaks memory label."
+    },
+    {
+      "source": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/attempt-03/wind-off-01-focus-loss/performance-wind-off.log",
+      "scope": "Archived wind-off attempt identified as focus-loss; inspect its Player log, not the later completed wind-off session.",
+      "sourceSHA256": "627ba992288e8160cbd64e633c291e07cb7bb29d3f5f52288e4c8e40d3916e00",
+      "sourceBytes": 4663,
+      "sourceLines": 58,
+      "contextFile": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/log-review/supplemental-attempt-03-wind-off-01-focus-loss.keyword-context.txt",
+      "keywordMatchCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 1,
+        "negative-scale-collision": 0,
+        "Warning": 0
+      },
+      "matches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [
+          {
+            "line": 58,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792863789023,\"processId\":86380,\"allocatedMemory\":2385464,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15119},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "EXIT_TELEMETRY: Shader is a memory label in MemoryLeaks telemetry, not a shader compiler error. No memory/performance conclusion."
+          }
+        ],
+        "negative-scale-collision": [],
+        "Warning": []
+      },
+      "explicitDiagnosticSearches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": []
+      },
+      "observation": "Exception, Error, explicit compilation diagnostics, negative scale and collision warning patterns have no matches; one Shader match is the exit MemoryLeaks memory label."
+    }
+  ],
+  "findings": [
+    "All four Player logs have no Exception/Error matches or explicit CSharp/Shader compilation error matches.",
+    "Negative-scale, collision-warning and warning patterns have no matches.",
+    "Each Player log has one Shader match in exit MemoryLeaks telemetry. It is not a shader error message; no leak or performance inference is made."
+  ],
+  "limits": [
+    "This is a supplemental review of only four logs. Existing summary.json and REPORT.md are untouched.",
+    "Archived route/input-stop and wind-off/focus-loss scopes are identified by their existing directory names; log keyword absence does not make interrupted attempts valid evidence for completed route/performance checks.",
+    "No-match claims are limited to listed patterns and these file contents. No acceptance conclusion."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "phase": "O6 second attempt; no performance session",
+  "editorVersion": "6000.3.16f1",
+  "macOSVersion": "26.4",
+  "architecture": "arm64",
+  "preflightObservedPrograms": [
+    "Unity Hub/licensing clients",
+    "Codex/ChatGPT runtime processes",
+    "Vite/esbuild preview server"
+  ],
+  "projectEditorOrPlayerPresentAtStart": false,
+  "performanceCaptureExecuted": false,
+  "playerLaunched": false,
+  "performancePowerStatus": null,
+  "performanceExternalDisplayStatus": null,
+  "performanceFullscreenStatus": null,
+  "previousPreparationObservation": "attempt-01/environment-observation.json"
+}

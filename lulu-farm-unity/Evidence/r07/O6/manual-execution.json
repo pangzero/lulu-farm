@@ -1,0 +1,24 @@
+{
+  "startedUtc": "2026-10-24T17:14:54.354688+00:00",
+  "finishedUtc": "2026-10-24T17:19:55.426162+00:00",
+  "command": [
+    "/usr/bin/caffeinate",
+    "-di",
+    "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Builds/r07/O6/development/LuluFarm.app/Contents/MacOS/噜噜农场",
+    "-screen-width",
+    "1280",
+    "-screen-height",
+    "720",
+    "-screen-fullscreen",
+    "0",
+    "--farm-evidence",
+    "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/manual",
+    "--farm-quit-after",
+    "300",
+    "--farm-record-frames",
+    "-logFile",
+    "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/manual.log"
+  ],
+  "exitCode": 0,
+  "intent": "Native CUA keyboard and mouse checks, no automated route. Advanced before performance while waiting for stable power; frame capture not a benchmark."
+}

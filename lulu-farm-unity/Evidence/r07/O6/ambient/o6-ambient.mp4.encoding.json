@@ -1,0 +1,38 @@
+{
+  "device_performance" : "not_a_benchmark_capture_overhead_present",
+  "empty_container_control_samples_excluded" : 4,
+  "encoded_dimensions" : [
+    1280,
+    720
+  ],
+  "encoded_duration_seconds" : 56.090899999999998,
+  "encoded_sample_count" : 384,
+  "expected_duration_seconds" : 56.090909004211426,
+  "input_directory" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O6\/ambient\/20261024-170858-156\/walkthrough-170901-694",
+  "maximum_sample_pts_error_seconds" : 1.665598551170433e-05,
+  "original_frames_modified" : false,
+  "output" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O6\/ambient\/o6-ambient.mp4",
+  "output_sha256" : "d2024baf4d4f298b7f6b2b21e9d57ffd9729a3eb7c50a163ad63bc3e1e80ca3b",
+  "sample_duration_range_seconds" : [
+    0.13173333333333334,
+    0.19236666666666666
+  ],
+  "scene_revision" : "integration-r07-O6",
+  "source_dimensions" : [
+    1280,
+    720
+  ],
+  "source_first_elapsed_seconds" : 0.046030998229980469,
+  "source_frame_count" : 384,
+  "source_frame_sha256_checks" : 384,
+  "source_frames_jsonl_sha256" : "25adc9e2590a935bf651d6648bd127bda686a66fffe639216f3fcdf2374f974e",
+  "source_platform" : "OSXPlayer",
+  "source_recording_sha256" : "17b4cb9669a9083ee40f7d1b9da47e57df7edec9e9780901b4914b451689c144",
+  "spatial_transformation" : "Native pixel size; pad at right\/bottom to even dimensions; no resize\/crop",
+  "technical_readback" : "passed_count_every_timestamp_and_duration",
+  "temporal_transformation" : "Subtract first captured timestamp; retain every relative wall-clock PTS; no duplication\/interpolation",
+  "timing_mode" : "VFR",
+  "tool" : "macOS system AVFoundation\/VideoToolbox; encode-vfr-recording.swift",
+  "video_codec" : "H264 High, 8Mbps minimum, no frame reordering",
+  "visual_review" : "pending_actual_video_frame_inspection"
+}

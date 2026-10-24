@@ -1,0 +1,38 @@
+{
+  "device_performance" : "not_a_benchmark_capture_overhead_present",
+  "empty_container_control_samples_excluded" : 4,
+  "encoded_dimensions" : [
+    1280,
+    720
+  ],
+  "encoded_duration_seconds" : 88.244900000000001,
+  "encoded_sample_count" : 590,
+  "expected_duration_seconds" : 88.244903564453125,
+  "input_directory" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O6\/manual-02\/20261024-175944-067\/walkthrough-180305-530",
+  "maximum_sample_pts_error_seconds" : 1.6650390620043254e-05,
+  "original_frames_modified" : false,
+  "output" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O6\/manual-02\/o6-native-keyboard-02.mp4",
+  "output_sha256" : "02bfd21eb98202b305465f7cde00b0d0954abd895e893563398b59dc8f346504",
+  "sample_duration_range_seconds" : [
+    0.13756666666666667,
+    0.17496666666666666
+  ],
+  "scene_revision" : "integration-r07-O6",
+  "source_dimensions" : [
+    1280,
+    720
+  ],
+  "source_first_elapsed_seconds" : 0.0028839111328125,
+  "source_frame_count" : 590,
+  "source_frame_sha256_checks" : 590,
+  "source_frames_jsonl_sha256" : "db3d0a0aaa5f49b9969e2bb5f3fd5fc73ac8bee75eb7c742c24f19662bb687d7",
+  "source_platform" : "OSXPlayer",
+  "source_recording_sha256" : "b5c10c81eb2571214fafb0ada8b50eeb6917662d0f5adebd9fdfa8a4f1079ae2",
+  "spatial_transformation" : "Native pixel size; pad at right\/bottom to even dimensions; no resize\/crop",
+  "technical_readback" : "passed_count_every_timestamp_and_duration",
+  "temporal_transformation" : "Subtract first captured timestamp; retain every relative wall-clock PTS; no duplication\/interpolation",
+  "timing_mode" : "VFR",
+  "tool" : "macOS system AVFoundation\/VideoToolbox; encode-vfr-recording.swift",
+  "video_codec" : "H264 High, 8Mbps minimum, no frame reordering",
+  "visual_review" : "pending_actual_video_frame_inspection"
+}

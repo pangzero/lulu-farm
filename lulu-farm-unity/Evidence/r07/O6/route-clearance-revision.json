@@ -1,5 +1,5 @@
 {
-    "utc": "2026-10-24T14:17:46.6376220Z",
+    "utc": "2026-10-24T16:54:22.4638890Z",
     "purpose": "One observed loop stop at (-5.500028,.025,6.280326); inherited route tracks the north fence endpoint. Preserve collider and move only two intermediate route x coordinates -5.5 to -4.9. No teleport or gameplay change.",
     "comparisonLimit": "D6 final route differs at two intermediate points from r06/D5/D2/D3/D4. Performance values are not a strictly identical-path A/B experiment.",
     "pointCount": 31,

@@ -1,0 +1,29 @@
+{
+  "observedUtc": "2026-10-24T14:07:23.033000+00:00",
+  "inputCommit": "cfb6818aff669655371e9e8fd4e13a68aef3cb8d",
+  "task": "O6",
+  "method": "read-only byte comparison and SHA256; no stamp, registry or source changes",
+  "registryFile": "Assets/Farm/Data/asset-registry.json",
+  "currentRegistrySHA256": "308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34",
+  "historicalRegistryFile": "Evidence/r07/D5/before/Assets/Farm/Data/asset-registry.json",
+  "historicalRegistrySHA256": "5f1de0afeb014c5cf9971745ab149f93dd43805520739f25f2c226017afe450b",
+  "observedImportStamp": {
+    "registrySHA256": "5f1de0afeb014c5cf9971745ab149f93dd43805520739f25f2c226017afe450b",
+    "utc": "2026-10-23T18:25:35.6027540Z",
+    "status": "imported_pending_visual_review",
+    "issues": []
+  },
+  "registryMatchesStamp": false,
+  "stampMatchesD5Registry": true,
+  "currentRegistryMatchesHEAD": true,
+  "pathMigration": {
+    "oldPrefix": "/Users/haowen/IdeaProjects/farm-game",
+    "newPrefix": "/Users/haowen/GameProject/farm-game",
+    "replacementOccurrences": 218,
+    "prefixReplacementOnlyEqualsCurrentBytes": true
+  },
+  "exceptionLogLine": 455,
+  "sourceCheck": "Assets/Farm/Editor/FarmProjectBuilder.cs:169",
+  "dependentStepsExecuted": false,
+  "attempts": 1
+}

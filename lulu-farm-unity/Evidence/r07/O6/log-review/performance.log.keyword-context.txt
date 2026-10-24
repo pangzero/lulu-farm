@@ -1,0 +1,37 @@
+Source: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/performance.log
+SHA256: 76bc2fd69acbb155e90f7eac457ef0178fabe0caee49add005778b6645736eca
+Lines: 75
+Read-only extraction: case-insensitive full matching lines and +/-20 lines of original context; overlapping blocks merged. No acceptance conclusion.
+
+CATEGORY Exception: 0 matched lines
+NO MATCH
+CATEGORY Error: 0 matched lines
+NO MATCH
+CATEGORY Shader: 1 matched lines
+MATCH 75: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792863632732,"processId":80482,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+CLASSIFICATION: EXIT_TELEMETRY: Shader is a memory label in MemoryLeaks telemetry, not a shader compilation error. No inference about memory leak or performance.
+--- CONTEXT Shader, lines 55-75 ---
+55: Releasing render texture that is set to be RenderTexture.active!
+56: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+57: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+58: LuluFarm.FarmProfilerCaptureR07:NextChunk () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:49)
+59: LuluFarm.FarmProfilerCaptureR07:Update () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:42)
+60: 
+61: [/Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs line 49]
+62: 
+63: Thread 0x16f32b000 may have been prematurely finalized
+64: Releasing render texture that is set to be RenderTexture.active!
+65: [Physics::Module] Cleanup current backend.
+66: [Physics::Module] Id: 0xf2b8ea05
+67: Input System module state changed to: ShutdownInProgress.
+68: Input System polling thread exited.
+69: Input System module state changed to: Shutdown.
+70: Thread 0x16e047000 may have been prematurely finalized
+71: Thread 0x16e0d3000 may have been prematurely finalized
+72: Thread 0x16e15f000 may have been prematurely finalized
+73: Thread 0x16e1eb000 may have been prematurely finalized
+74: Thread 0x16e277000 may have been prematurely finalized
+75: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792863632732,"processId":80482,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+
+CATEGORY negative-scale-collision: 0 matched lines
+NO MATCH

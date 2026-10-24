@@ -1,0 +1,38 @@
+{
+  "utc": "2026-10-24T18:08:57.990202+00:00",
+  "status": "已完成采集和抽帧观察，待 Opus 验收；连续动态感受未验证",
+  "acceptanceConclusion": null,
+  "video": "ambient/o6-ambient.mp4",
+  "actualViewing": "Decoded video frames 99,112,139,167 were opened individually. 12 frames were decoded, not all were actually viewed; no claim of continuous playback.",
+  "observations": "Same animal view: pink pig foreground rear/side, cow back centre and sheep right. Pig head/eye/ear silhouette changes subtly at frame139 compared with earlier/later samples. Cow/sheep differences in these sampled views are too small to confidently judge breathing/head-turn visibility or exaggeration.",
+  "unverified": [
+    "continuous perceived breathing/head turning for all three animals",
+    "whether motion looks exaggerated",
+    "audio audibility/harshness/looping"
+  ],
+  "audioAudition": "未试听",
+  "audioFile": "ambient/20261024-170858-156/ambient-proof/runtime-audio.wav",
+  "viewedFrames": [
+    {
+      "file": "visual-review/ambient-decoded/decoded-frame-000099.png",
+      "sha256": "89dab4ee159d7fcb7fbef0f3d1116a59cfb8f2dc71953ff1b2ac508442c56d86",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual-review/ambient-decoded/decoded-frame-000112.png",
+      "sha256": "f74584d8821c8e1dd5209d68463a382a4d5c4fc6b88a2ccea51da60568334715",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual-review/ambient-decoded/decoded-frame-000139.png",
+      "sha256": "15fcb7bb75fcdda1021350a0ecbbd68f37abf6a98b80820a62df1c3edd847aac",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual-review/ambient-decoded/decoded-frame-000167.png",
+      "sha256": "1879eea825fab2ec75db3ae752a4abcc09745006dd6989f37ff98eda07dd590a",
+      "actuallyViewed": true
+    }
+  ],
+  "utilityIssue": "Initial standalone Swift decode attempt hit duplicate-module cache errors (/tmp vs /private/tmp) and exited139. Repeated with fresh /private/tmp/lulu-o6-frame-inspection-cache succeeded; no Unity/Opus code change. Successful decode log retained."
+}

@@ -1,0 +1,79 @@
+{
+    "utc": "2026-10-24T17:43:08.8504760Z",
+    "method": "Unity binary CPU Profiler; 10-second chunks; deep profiling off; rendering/memory counters remain in the separate runtime recorder",
+    "limitation": "Chunk rotation flush overhead is included in runtime measurements. Exported timeline is a filtered index; binary data is authoritative. No performance acceptance conclusion.",
+    "chunks": [
+        {
+            "file": "cpu-0000.data",
+            "fromSeconds": 0.0004115104675292969,
+            "toSeconds": 10.001688003540039
+        },
+        {
+            "file": "cpu-0001.data",
+            "fromSeconds": 10.001688003540039,
+            "toSeconds": 20.008440017700197
+        },
+        {
+            "file": "cpu-0002.data",
+            "fromSeconds": 20.008440017700197,
+            "toSeconds": 30.016128540039064
+        },
+        {
+            "file": "cpu-0003.data",
+            "fromSeconds": 30.016128540039064,
+            "toSeconds": 40.01873016357422
+        },
+        {
+            "file": "cpu-0004.data",
+            "fromSeconds": 40.01873016357422,
+            "toSeconds": 50.0283088684082
+        },
+        {
+            "file": "cpu-0005.data",
+            "fromSeconds": 50.0283088684082,
+            "toSeconds": 60.03501892089844
+        },
+        {
+            "file": "cpu-0006.data",
+            "fromSeconds": 60.03501892089844,
+            "toSeconds": 70.0414810180664
+        },
+        {
+            "file": "cpu-0007.data",
+            "fromSeconds": 70.0414810180664,
+            "toSeconds": 80.04335021972656
+        },
+        {
+            "file": "cpu-0008.data",
+            "fromSeconds": 80.04335021972656,
+            "toSeconds": 90.04830932617188
+        },
+        {
+            "file": "cpu-0009.data",
+            "fromSeconds": 90.04830932617188,
+            "toSeconds": 100.05648803710938
+        },
+        {
+            "file": "cpu-0010.data",
+            "fromSeconds": 100.05648803710938,
+            "toSeconds": 110.0631332397461
+        },
+        {
+            "file": "cpu-0011.data",
+            "fromSeconds": 110.0631332397461,
+            "toSeconds": 120.0671157836914
+        },
+        {
+            "file": "cpu-0012.data",
+            "fromSeconds": 120.0671157836914,
+            "toSeconds": 130.07376098632813
+        },
+        {
+            "file": "cpu-0013.data",
+            "fromSeconds": 130.07376098632813,
+            "toSeconds": 132.55349731445313
+        }
+    ],
+    "developmentBuild": true,
+    "elapsedSeconds": 132.55355834960938
+}

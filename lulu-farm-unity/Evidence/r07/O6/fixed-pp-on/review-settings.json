@@ -1,5 +1,5 @@
 {
-    "utc": "2026-10-24T14:17:50.4399080Z",
+    "utc": "2026-10-24T16:54:25.0378170Z",
     "method": "Actual Unity StandardRequest (updates volume framework); HDR camera with post-processing into SDR sRGB ARGB32 target; diagnostic camera only",
     "postProcessing": true,
     "hdr": true,

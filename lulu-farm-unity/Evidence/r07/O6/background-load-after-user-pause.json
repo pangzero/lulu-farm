@@ -1,0 +1,4447 @@
+{
+  "utc": "2026-10-24T17:24:54.513298+00:00",
+  "userStatement": "User exited IDEA and paused other agents",
+  "processes": [
+    {
+      "pid": 1,
+      "cpuPercent": 0.8,
+      "executable": "launchd"
+    },
+    {
+      "pid": 94,
+      "cpuPercent": 0.9,
+      "executable": "logd"
+    },
+    {
+      "pid": 96,
+      "cpuPercent": 0.0,
+      "executable": "UserEventAgent"
+    },
+    {
+      "pid": 98,
+      "cpuPercent": 0.0,
+      "executable": "fseventsd"
+    },
+    {
+      "pid": 99,
+      "cpuPercent": 0.0,
+      "executable": "mediaremoted"
+    },
+    {
+      "pid": 102,
+      "cpuPercent": 0.0,
+      "executable": "systemstats"
+    },
+    {
+      "pid": 106,
+      "cpuPercent": 0.0,
+      "executable": "configd"
+    },
+    {
+      "pid": 108,
+      "cpuPercent": 0.1,
+      "executable": "powerd"
+    },
+    {
+      "pid": 109,
+      "cpuPercent": 0.0,
+      "executable": "IOMFB_bics_daemon"
+    },
+    {
+      "pid": 113,
+      "cpuPercent": 0.0,
+      "executable": "remoted"
+    },
+    {
+      "pid": 117,
+      "cpuPercent": 0.0,
+      "executable": "corespeechd_system"
+    },
+    {
+      "pid": 119,
+      "cpuPercent": 0.0,
+      "executable": "watchdogd"
+    },
+    {
+      "pid": 123,
+      "cpuPercent": 0.2,
+      "executable": "mds"
+    },
+    {
+      "pid": 125,
+      "cpuPercent": 0.0,
+      "executable": "kernelmanagerd"
+    },
+    {
+      "pid": 126,
+      "cpuPercent": 0.0,
+      "executable": "diskarbitrationd"
+    },
+    {
+      "pid": 130,
+      "cpuPercent": 0.0,
+      "executable": "syslogd"
+    },
+    {
+      "pid": 132,
+      "cpuPercent": 0.0,
+      "executable": "thermalmonitord"
+    },
+    {
+      "pid": 133,
+      "cpuPercent": 0.0,
+      "executable": "contextstored"
+    },
+    {
+      "pid": 134,
+      "cpuPercent": 0.0,
+      "executable": "xprotectd"
+    },
+    {
+      "pid": 135,
+      "cpuPercent": 0.2,
+      "executable": "opendirectoryd"
+    },
+    {
+      "pid": 136,
+      "cpuPercent": 0.0,
+      "executable": "apsd"
+    },
+    {
+      "pid": 137,
+      "cpuPercent": 0.0,
+      "executable": "launchservicesd"
+    },
+    {
+      "pid": 138,
+      "cpuPercent": 0.0,
+      "executable": "timed"
+    },
+    {
+      "pid": 139,
+      "cpuPercent": 0.0,
+      "executable": "usbmuxd"
+    },
+    {
+      "pid": 140,
+      "cpuPercent": 0.0,
+      "executable": "securityd"
+    },
+    {
+      "pid": 142,
+      "cpuPercent": 0.0,
+      "executable": "locationd"
+    },
+    {
+      "pid": 145,
+      "cpuPercent": 0.0,
+      "executable": "autofsd"
+    },
+    {
+      "pid": 146,
+      "cpuPercent": 0.0,
+      "executable": "dasd"
+    },
+    {
+      "pid": 147,
+      "cpuPercent": 0.0,
+      "executable": "corerepaird"
+    },
+    {
+      "pid": 149,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 153,
+      "cpuPercent": 0.0,
+      "executable": "logind"
+    },
+    {
+      "pid": 154,
+      "cpuPercent": 0.0,
+      "executable": "revisiond"
+    },
+    {
+      "pid": 155,
+      "cpuPercent": 0.0,
+      "executable": "KernelEventAgent"
+    },
+    {
+      "pid": 160,
+      "cpuPercent": 0.1,
+      "executable": "notifyd"
+    },
+    {
+      "pid": 162,
+      "cpuPercent": 0.0,
+      "executable": "corebrightnessd"
+    },
+    {
+      "pid": 163,
+      "cpuPercent": 0.0,
+      "executable": "AirPlayXPCHelper"
+    },
+    {
+      "pid": 164,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.cmio.registerassistantservice"
+    },
+    {
+      "pid": 166,
+      "cpuPercent": 1.2,
+      "executable": "WindowServer"
+    },
+    {
+      "pid": 167,
+      "cpuPercent": 0.0,
+      "executable": "tccd"
+    },
+    {
+      "pid": 168,
+      "cpuPercent": 0.0,
+      "executable": "cfprefsd"
+    },
+    {
+      "pid": 169,
+      "cpuPercent": 0.0,
+      "executable": "loginwindow"
+    },
+    {
+      "pid": 170,
+      "cpuPercent": 0.0,
+      "executable": "coreservicesd"
+    },
+    {
+      "pid": 177,
+      "cpuPercent": 0.5,
+      "executable": "runningboardd"
+    },
+    {
+      "pid": 181,
+      "cpuPercent": 0.0,
+      "executable": "nsurlsessiond"
+    },
+    {
+      "pid": 182,
+      "cpuPercent": 0.0,
+      "executable": "apfsd"
+    },
+    {
+      "pid": 185,
+      "cpuPercent": 0.0,
+      "executable": "analyticsd"
+    },
+    {
+      "pid": 187,
+      "cpuPercent": 0.0,
+      "executable": "lsd"
+    },
+    {
+      "pid": 193,
+      "cpuPercent": 0.0,
+      "executable": "socketfilterfw"
+    },
+    {
+      "pid": 197,
+      "cpuPercent": 0.0,
+      "executable": "eligibilityd"
+    },
+    {
+      "pid": 210,
+      "cpuPercent": 0.0,
+      "executable": "airportd"
+    },
+    {
+      "pid": 224,
+      "cpuPercent": 0.0,
+      "executable": "symptomsd"
+    },
+    {
+      "pid": 226,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 233,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 235,
+      "cpuPercent": 0.0,
+      "executable": "authd"
+    },
+    {
+      "pid": 239,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 240,
+      "cpuPercent": 0.0,
+      "executable": "syspolicyd"
+    },
+    {
+      "pid": 251,
+      "cpuPercent": 0.0,
+      "executable": "audiomxd"
+    },
+    {
+      "pid": 252,
+      "cpuPercent": 0.2,
+      "executable": "mDNSResponder"
+    },
+    {
+      "pid": 273,
+      "cpuPercent": 0.0,
+      "executable": "backupd"
+    },
+    {
+      "pid": 282,
+      "cpuPercent": 0.0,
+      "executable": "WirelessRadioManagerd"
+    },
+    {
+      "pid": 283,
+      "cpuPercent": 0.0,
+      "executable": "mDNSResponderHelper"
+    },
+    {
+      "pid": 288,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 289,
+      "cpuPercent": 0.0,
+      "executable": "audioclocksyncd"
+    },
+    {
+      "pid": 291,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 292,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.cmio.videodriverkithostextension"
+    },
+    {
+      "pid": 295,
+      "cpuPercent": 0.0,
+      "executable": "cameracaptured"
+    },
+    {
+      "pid": 296,
+      "cpuPercent": 0.0,
+      "executable": "UVCAssistant"
+    },
+    {
+      "pid": 306,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 309,
+      "cpuPercent": 0.0,
+      "executable": "modelmanagerd"
+    },
+    {
+      "pid": 310,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 314,
+      "cpuPercent": 0.0,
+      "executable": "appleeventsd"
+    },
+    {
+      "pid": 316,
+      "cpuPercent": 0.3,
+      "executable": "mds_stores"
+    },
+    {
+      "pid": 326,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 342,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 345,
+      "cpuPercent": 0.0,
+      "executable": "searchpartyd"
+    },
+    {
+      "pid": 352,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 354,
+      "cpuPercent": 0.0,
+      "executable": "SubmitDiagInfo"
+    },
+    {
+      "pid": 355,
+      "cpuPercent": 0.0,
+      "executable": "aTrustXtunnel"
+    },
+    {
+      "pid": 356,
+      "cpuPercent": 18.5,
+      "executable": "aTrustXtunnel"
+    },
+    {
+      "pid": 358,
+      "cpuPercent": 0.0,
+      "executable": "aTrustAgent"
+    },
+    {
+      "pid": 359,
+      "cpuPercent": 0.1,
+      "executable": "eaio_service"
+    },
+    {
+      "pid": 361,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 366,
+      "cpuPercent": 0.0,
+      "executable": "suhelperd"
+    },
+    {
+      "pid": 367,
+      "cpuPercent": 0.8,
+      "executable": "oahd"
+    },
+    {
+      "pid": 369,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 374,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.DriverKit-IOUserDockChannelSerial"
+    },
+    {
+      "pid": 375,
+      "cpuPercent": 1.6,
+      "executable": "com.apple.DriverKit-AppleBCMWLAN"
+    },
+    {
+      "pid": 378,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.AppleUserHIDDrivers"
+    },
+    {
+      "pid": 382,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 385,
+      "cpuPercent": 35.9,
+      "executable": "ecosystemanalyticsd"
+    },
+    {
+      "pid": 404,
+      "cpuPercent": 0.0,
+      "executable": "cfprefsd"
+    },
+    {
+      "pid": 410,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 413,
+      "cpuPercent": 0.0,
+      "executable": "lsd"
+    },
+    {
+      "pid": 414,
+      "cpuPercent": 0.0,
+      "executable": "systemstats"
+    },
+    {
+      "pid": 415,
+      "cpuPercent": 0.0,
+      "executable": "secd"
+    },
+    {
+      "pid": 417,
+      "cpuPercent": 0.0,
+      "executable": "filecoordinationd"
+    },
+    {
+      "pid": 420,
+      "cpuPercent": 0.0,
+      "executable": "ctkahp"
+    },
+    {
+      "pid": 429,
+      "cpuPercent": 0.0,
+      "executable": "ctkd"
+    },
+    {
+      "pid": 450,
+      "cpuPercent": 0.0,
+      "executable": "gamepolicyd"
+    },
+    {
+      "pid": 504,
+      "cpuPercent": 0.0,
+      "executable": "UserEventAgent"
+    },
+    {
+      "pid": 511,
+      "cpuPercent": 0.0,
+      "executable": "universalaccessd"
+    },
+    {
+      "pid": 512,
+      "cpuPercent": 0.0,
+      "executable": "imklaunchagent"
+    },
+    {
+      "pid": 515,
+      "cpuPercent": 0.0,
+      "executable": "pboard"
+    },
+    {
+      "pid": 516,
+      "cpuPercent": 0.0,
+      "executable": "BiomeAgent"
+    },
+    {
+      "pid": 525,
+      "cpuPercent": 0.0,
+      "executable": "nsurlsessiond"
+    },
+    {
+      "pid": 526,
+      "cpuPercent": 0.0,
+      "executable": "rapportd"
+    },
+    {
+      "pid": 527,
+      "cpuPercent": 0.0,
+      "executable": "usernoted"
+    },
+    {
+      "pid": 529,
+      "cpuPercent": 0.0,
+      "executable": "usernotificationsd"
+    },
+    {
+      "pid": 530,
+      "cpuPercent": 0.0,
+      "executable": "ContextStoreAgent"
+    },
+    {
+      "pid": 532,
+      "cpuPercent": 0.0,
+      "executable": "lockoutagent"
+    },
+    {
+      "pid": 533,
+      "cpuPercent": 0.0,
+      "executable": "talagentd"
+    },
+    {
+      "pid": 534,
+      "cpuPercent": 0.0,
+      "executable": "WindowManager"
+    },
+    {
+      "pid": 541,
+      "cpuPercent": 0.0,
+      "executable": "accountsd"
+    },
+    {
+      "pid": 542,
+      "cpuPercent": 0.0,
+      "executable": "identityservicesd"
+    },
+    {
+      "pid": 543,
+      "cpuPercent": 0.0,
+      "executable": "PAH_Extension"
+    },
+    {
+      "pid": 548,
+      "cpuPercent": 0.0,
+      "executable": "WiFiAgent"
+    },
+    {
+      "pid": 550,
+      "cpuPercent": 0.0,
+      "executable": "AccessibilityUIServer"
+    },
+    {
+      "pid": 556,
+      "cpuPercent": 0.0,
+      "executable": "cloudd"
+    },
+    {
+      "pid": 557,
+      "cpuPercent": 0.0,
+      "executable": "ContinuityCaptureAgent"
+    },
+    {
+      "pid": 558,
+      "cpuPercent": 0.0,
+      "executable": "coreauthd"
+    },
+    {
+      "pid": 567,
+      "cpuPercent": 0.0,
+      "executable": "fontd"
+    },
+    {
+      "pid": 570,
+      "cpuPercent": 0.0,
+      "executable": "fontworker"
+    },
+    {
+      "pid": 571,
+      "cpuPercent": 0.0,
+      "executable": "nearbyd"
+    },
+    {
+      "pid": 573,
+      "cpuPercent": 0.0,
+      "executable": "akd"
+    },
+    {
+      "pid": 574,
+      "cpuPercent": 0.0,
+      "executable": "sharedfilelistd"
+    },
+    {
+      "pid": 576,
+      "cpuPercent": 0.0,
+      "executable": "corespotlightd"
+    },
+    {
+      "pid": 577,
+      "cpuPercent": 0.0,
+      "executable": "StatusKitAgent"
+    },
+    {
+      "pid": 578,
+      "cpuPercent": 0.0,
+      "executable": "ViewBridgeAuxiliary"
+    },
+    {
+      "pid": 582,
+      "cpuPercent": 0.0,
+      "executable": "familycircled"
+    },
+    {
+      "pid": 593,
+      "cpuPercent": 0.0,
+      "executable": "SCIM_Extension"
+    },
+    {
+      "pid": 596,
+      "cpuPercent": 0.0,
+      "executable": "imagent"
+    },
+    {
+      "pid": 600,
+      "cpuPercent": 0.0,
+      "executable": "stable"
+    },
+    {
+      "pid": 604,
+      "cpuPercent": 0.0,
+      "executable": "dbx"
+    },
+    {
+      "pid": 614,
+      "cpuPercent": 0.0,
+      "executable": "mediaremoteagent"
+    },
+    {
+      "pid": 615,
+      "cpuPercent": 0.0,
+      "executable": "avconferenced"
+    },
+    {
+      "pid": 618,
+      "cpuPercent": 0.0,
+      "executable": "useractivityd"
+    },
+    {
+      "pid": 620,
+      "cpuPercent": 0.0,
+      "executable": "Unity Hub"
+    },
+    {
+      "pid": 624,
+      "cpuPercent": 0.0,
+      "executable": "Terminal"
+    },
+    {
+      "pid": 625,
+      "cpuPercent": 0.0,
+      "executable": "System Settings"
+    },
+    {
+      "pid": 628,
+      "cpuPercent": 0.5,
+      "executable": "aTrust"
+    },
+    {
+      "pid": 629,
+      "cpuPercent": 0.0,
+      "executable": "UsageTrackingAgent"
+    },
+    {
+      "pid": 630,
+      "cpuPercent": 0.0,
+      "executable": "Keychain Access"
+    },
+    {
+      "pid": 634,
+      "cpuPercent": 0.0,
+      "executable": "Music"
+    },
+    {
+      "pid": 637,
+      "cpuPercent": 0.0,
+      "executable": "Dock"
+    },
+    {
+      "pid": 638,
+      "cpuPercent": 0.0,
+      "executable": "ControlCenter"
+    },
+    {
+      "pid": 639,
+      "cpuPercent": 0.0,
+      "executable": "SystemUIServer"
+    },
+    {
+      "pid": 641,
+      "cpuPercent": 0.0,
+      "executable": "Finder"
+    },
+    {
+      "pid": 646,
+      "cpuPercent": 0.0,
+      "executable": "WallpaperAgent"
+    },
+    {
+      "pid": 653,
+      "cpuPercent": 0.0,
+      "executable": "automountd"
+    },
+    {
+      "pid": 657,
+      "cpuPercent": 0.0,
+      "executable": "AMPDeviceDiscoveryAgent"
+    },
+    {
+      "pid": 668,
+      "cpuPercent": 0.0,
+      "executable": "duetexpertd"
+    },
+    {
+      "pid": 673,
+      "cpuPercent": 0.0,
+      "executable": "CMFSyncAgent"
+    },
+    {
+      "pid": 707,
+      "cpuPercent": 0.0,
+      "executable": "WallpaperAerialsExtension"
+    },
+    {
+      "pid": 721,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.dock.extra"
+    },
+    {
+      "pid": 722,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.dock.external.extra.arm64"
+    },
+    {
+      "pid": 740,
+      "cpuPercent": 0.0,
+      "executable": "CursorUIViewService"
+    },
+    {
+      "pid": 742,
+      "cpuPercent": 0.0,
+      "executable": "stable"
+    },
+    {
+      "pid": 749,
+      "cpuPercent": 1.3,
+      "executable": "Feishu"
+    },
+    {
+      "pid": 779,
+      "cpuPercent": 0.0,
+      "executable": "GeneralSettings"
+    },
+    {
+      "pid": 815,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.GPU"
+    },
+    {
+      "pid": 816,
+      "cpuPercent": 0.0,
+      "executable": "CVMServer"
+    },
+    {
+      "pid": 820,
+      "cpuPercent": 0.0,
+      "executable": "passd"
+    },
+    {
+      "pid": 822,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.Networking"
+    },
+    {
+      "pid": 823,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.WebContent"
+    },
+    {
+      "pid": 835,
+      "cpuPercent": 0.0,
+      "executable": "icdd"
+    },
+    {
+      "pid": 846,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 907,
+      "cpuPercent": 0.0,
+      "executable": "AppleIDSettings"
+    },
+    {
+      "pid": 921,
+      "cpuPercent": 0.0,
+      "executable": "VPN"
+    },
+    {
+      "pid": 922,
+      "cpuPercent": 0.0,
+      "executable": "FamilySettings"
+    },
+    {
+      "pid": 923,
+      "cpuPercent": 0.0,
+      "executable": "FollowUpSettingsExtension"
+    },
+    {
+      "pid": 924,
+      "cpuPercent": 0.0,
+      "executable": "HeadphoneSettingsExtension"
+    },
+    {
+      "pid": 925,
+      "cpuPercent": 0.0,
+      "executable": "ClassroomSettings"
+    },
+    {
+      "pid": 927,
+      "cpuPercent": 0.0,
+      "executable": "mdbulkimport"
+    },
+    {
+      "pid": 930,
+      "cpuPercent": 0.0,
+      "executable": "fairplayd"
+    },
+    {
+      "pid": 932,
+      "cpuPercent": 0.0,
+      "executable": "remotepairingd"
+    },
+    {
+      "pid": 939,
+      "cpuPercent": 0.0,
+      "executable": "Unity Hub Helper (GPU)"
+    },
+    {
+      "pid": 946,
+      "cpuPercent": 0.0,
+      "executable": "Unity Hub Helper"
+    },
+    {
+      "pid": 950,
+      "cpuPercent": 0.0,
+      "executable": "Unity.Licensing.Client"
+    },
+    {
+      "pid": 956,
+      "cpuPercent": 0.0,
+      "executable": "heard"
+    },
+    {
+      "pid": 961,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper"
+    },
+    {
+      "pid": 962,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper"
+    },
+    {
+      "pid": 964,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper"
+    },
+    {
+      "pid": 967,
+      "cpuPercent": 0.1,
+      "executable": "Lark Helper"
+    },
+    {
+      "pid": 985,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper"
+    },
+    {
+      "pid": 1690,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 1807,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 2509,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 2866,
+      "cpuPercent": 0.0,
+      "executable": "QuickLookUIService"
+    },
+    {
+      "pid": 2947,
+      "cpuPercent": 0.0,
+      "executable": "aTrust Helper (Renderer)"
+    },
+    {
+      "pid": 3234,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 3776,
+      "cpuPercent": 0.0,
+      "executable": "Unity Hub Helper"
+    },
+    {
+      "pid": 3780,
+      "cpuPercent": 0.0,
+      "executable": "AMPLibraryAgent"
+    },
+    {
+      "pid": 3868,
+      "cpuPercent": 0.0,
+      "executable": "UtilityExtension"
+    },
+    {
+      "pid": 3913,
+      "cpuPercent": 0.0,
+      "executable": "su"
+    },
+    {
+      "pid": 3951,
+      "cpuPercent": 0.0,
+      "executable": "eaio_agent"
+    },
+    {
+      "pid": 3992,
+      "cpuPercent": 0.0,
+      "executable": "aTrustAgent"
+    },
+    {
+      "pid": 4009,
+      "cpuPercent": 0.0,
+      "executable": "eaio_agent"
+    },
+    {
+      "pid": 4017,
+      "cpuPercent": 0.0,
+      "executable": "aTrust Helper"
+    },
+    {
+      "pid": 4037,
+      "cpuPercent": 3.0,
+      "executable": "aTrust Helper (Renderer)"
+    },
+    {
+      "pid": 4040,
+      "cpuPercent": 0.9,
+      "executable": "aTrust Helper (GPU)"
+    },
+    {
+      "pid": 4050,
+      "cpuPercent": 0.0,
+      "executable": "diagnostics_agent"
+    },
+    {
+      "pid": 4064,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 4067,
+      "cpuPercent": 0.0,
+      "executable": "universalAccessAuthWarn"
+    },
+    {
+      "pid": 4077,
+      "cpuPercent": 0.0,
+      "executable": "CrashReporterSupportHelper"
+    },
+    {
+      "pid": 4081,
+      "cpuPercent": 0.0,
+      "executable": "chrome_crashpad_handler"
+    },
+    {
+      "pid": 4083,
+      "cpuPercent": 0.0,
+      "executable": "aTrust Helper (Renderer)"
+    },
+    {
+      "pid": 4092,
+      "cpuPercent": 0.0,
+      "executable": "AgentInfraService"
+    },
+    {
+      "pid": 4094,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper (Renderer)"
+    },
+    {
+      "pid": 4096,
+      "cpuPercent": 0.1,
+      "executable": "Lark Helper (Renderer)"
+    },
+    {
+      "pid": 4104,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 4110,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper"
+    },
+    {
+      "pid": 4196,
+      "cpuPercent": 0.0,
+      "executable": "corespeechd"
+    },
+    {
+      "pid": 4202,
+      "cpuPercent": 0.0,
+      "executable": "AirPlayUIAgent"
+    },
+    {
+      "pid": 4203,
+      "cpuPercent": 0.0,
+      "executable": "TextInputMenuAgent"
+    },
+    {
+      "pid": 4205,
+      "cpuPercent": 0.0,
+      "executable": "ctkahp"
+    },
+    {
+      "pid": 4274,
+      "cpuPercent": 0.0,
+      "executable": "spotlightknowledged"
+    },
+    {
+      "pid": 4446,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 4507,
+      "cpuPercent": 0.0,
+      "executable": "audioaccessoryd"
+    },
+    {
+      "pid": 4839,
+      "cpuPercent": 0.0,
+      "executable": "PasswordBreachAgent"
+    },
+    {
+      "pid": 4902,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper"
+    },
+    {
+      "pid": 5268,
+      "cpuPercent": 0.0,
+      "executable": "SafariBookmarksSyncAgent"
+    },
+    {
+      "pid": 5271,
+      "cpuPercent": 0.0,
+      "executable": "suggestd"
+    },
+    {
+      "pid": 5378,
+      "cpuPercent": 0.0,
+      "executable": "biomed"
+    },
+    {
+      "pid": 5381,
+      "cpuPercent": 0.0,
+      "executable": "proactived"
+    },
+    {
+      "pid": 5483,
+      "cpuPercent": 0.0,
+      "executable": "IntelligencePlatformComputeService"
+    },
+    {
+      "pid": 5576,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif)"
+    },
+    {
+      "pid": 5625,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 5628,
+      "cpuPercent": 0.2,
+      "executable": "WeChat"
+    },
+    {
+      "pid": 5631,
+      "cpuPercent": 0.0,
+      "executable": "crashpad_handler"
+    },
+    {
+      "pid": 5936,
+      "cpuPercent": 0.0,
+      "executable": "mobileassetd"
+    },
+    {
+      "pid": 5939,
+      "cpuPercent": 0.0,
+      "executable": "assistantd"
+    },
+    {
+      "pid": 5955,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 5958,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 6076,
+      "cpuPercent": 0.0,
+      "executable": "linkd"
+    },
+    {
+      "pid": 6079,
+      "cpuPercent": 0.0,
+      "executable": "DiskUnmountWatcher"
+    },
+    {
+      "pid": 6080,
+      "cpuPercent": 1.1,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 6250,
+      "cpuPercent": 0.0,
+      "executable": "systemstatusd"
+    },
+    {
+      "pid": 6463,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 6933,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 7111,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 7258,
+      "cpuPercent": 0.0,
+      "executable": "GamePolicyAgent"
+    },
+    {
+      "pid": 10456,
+      "cpuPercent": 0.0,
+      "executable": "mbuseragent"
+    },
+    {
+      "pid": 10783,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper (Renderer)"
+    },
+    {
+      "pid": 11317,
+      "cpuPercent": 0.0,
+      "executable": "Keychain Circle Notification"
+    },
+    {
+      "pid": 11360,
+      "cpuPercent": 0.0,
+      "executable": "CoreLocationAgent"
+    },
+    {
+      "pid": 11588,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.dock.external.extra.arm64"
+    },
+    {
+      "pid": 11699,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.hiservices-xpcservice"
+    },
+    {
+      "pid": 11744,
+      "cpuPercent": 0.0,
+      "executable": "CoreServicesUIAgent"
+    },
+    {
+      "pid": 11745,
+      "cpuPercent": 0.0,
+      "executable": "amsaccountsd"
+    },
+    {
+      "pid": 11790,
+      "cpuPercent": 0.0,
+      "executable": "ShortcutsViewService"
+    },
+    {
+      "pid": 12364,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 12365,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 12366,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 12367,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 12368,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 12369,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 12370,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 12718,
+      "cpuPercent": 0.0,
+      "executable": "AppleSpell"
+    },
+    {
+      "pid": 13064,
+      "cpuPercent": 0.0,
+      "executable": "corercd"
+    },
+    {
+      "pid": 13077,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.AmbientDisplayAgent"
+    },
+    {
+      "pid": 13081,
+      "cpuPercent": 0.0,
+      "executable": "PowerChime"
+    },
+    {
+      "pid": 13372,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 13574,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 14515,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14516,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14517,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14518,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14519,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14520,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14521,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14522,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14523,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14524,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14525,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14526,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14527,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14528,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14529,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14530,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14531,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14532,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14533,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14534,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14535,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14536,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14537,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14538,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14539,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14540,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14541,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14542,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14543,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 14544,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14561,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14562,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14563,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14570,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 14571,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 16222,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 17201,
+      "cpuPercent": 0.0,
+      "executable": "UserNotificationCenter"
+    },
+    {
+      "pid": 17548,
+      "cpuPercent": 0.0,
+      "executable": "ssh-agent"
+    },
+    {
+      "pid": 17649,
+      "cpuPercent": 0.0,
+      "executable": "coreautha"
+    },
+    {
+      "pid": 17650,
+      "cpuPercent": 0.0,
+      "executable": "TextInputSwitcher"
+    },
+    {
+      "pid": 17859,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 19740,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 19758,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 20681,
+      "cpuPercent": 0.0,
+      "executable": "cc-switch"
+    },
+    {
+      "pid": 20686,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.GPU"
+    },
+    {
+      "pid": 20688,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.Networking"
+    },
+    {
+      "pid": 20689,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.WebContent"
+    },
+    {
+      "pid": 21745,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 21797,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Service)"
+    },
+    {
+      "pid": 21825,
+      "cpuPercent": 0.0,
+      "executable": "diskimagesiod"
+    },
+    {
+      "pid": 21991,
+      "cpuPercent": 0.0,
+      "executable": "codex"
+    },
+    {
+      "pid": 22026,
+      "cpuPercent": 0.0,
+      "executable": "MaskFog Browser"
+    },
+    {
+      "pid": 22121,
+      "cpuPercent": 0.0,
+      "executable": "MaskFog Browser Helper (GPU)"
+    },
+    {
+      "pid": 22127,
+      "cpuPercent": 0.0,
+      "executable": "MaskFog Browser Helper"
+    },
+    {
+      "pid": 22193,
+      "cpuPercent": 0.0,
+      "executable": "MaskFog Browser Helper (Renderer)"
+    },
+    {
+      "pid": 22255,
+      "cpuPercent": 0.0,
+      "executable": "TextEdit"
+    },
+    {
+      "pid": 22256,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 22268,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.appkit.xpc.openAndSavePanelService"
+    },
+    {
+      "pid": 22269,
+      "cpuPercent": 0.0,
+      "executable": "QuickLookUIService"
+    },
+    {
+      "pid": 22924,
+      "cpuPercent": 0.0,
+      "executable": "MaskFog Browser Helper"
+    },
+    {
+      "pid": 23162,
+      "cpuPercent": 1.2,
+      "executable": "Unity Hub Helper (Renderer)"
+    },
+    {
+      "pid": 23164,
+      "cpuPercent": 0.0,
+      "executable": "ThemeWidgetControlViewService"
+    },
+    {
+      "pid": 23516,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 24303,
+      "cpuPercent": 0.0,
+      "executable": "Preview"
+    },
+    {
+      "pid": 24322,
+      "cpuPercent": 0.0,
+      "executable": "mscamerad-xpc"
+    },
+    {
+      "pid": 24323,
+      "cpuPercent": 0.0,
+      "executable": "ptpcamerad"
+    },
+    {
+      "pid": 27302,
+      "cpuPercent": 0.0,
+      "executable": "AuthenticationServicesAgent"
+    },
+    {
+      "pid": 28537,
+      "cpuPercent": 0.0,
+      "executable": "Unity Hub Helper (Renderer)"
+    },
+    {
+      "pid": 29275,
+      "cpuPercent": 0.0,
+      "executable": "UIKitSystem"
+    },
+    {
+      "pid": 29501,
+      "cpuPercent": 0.0,
+      "executable": "coreauthd"
+    },
+    {
+      "pid": 29506,
+      "cpuPercent": 0.0,
+      "executable": "biometrickitd"
+    },
+    {
+      "pid": 29568,
+      "cpuPercent": 0.0,
+      "executable": "replayd"
+    },
+    {
+      "pid": 30012,
+      "cpuPercent": 0.0,
+      "executable": "contentlinkingd"
+    },
+    {
+      "pid": 30053,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.quicklook.ThumbnailsAgent"
+    },
+    {
+      "pid": 30066,
+      "cpuPercent": 0.0,
+      "executable": "<defunct>"
+    },
+    {
+      "pid": 32132,
+      "cpuPercent": 0.0,
+      "executable": "rtcreportingd"
+    },
+    {
+      "pid": 32262,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 32264,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 32278,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 32482,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 32483,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 32484,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 32486,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 32487,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 32488,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 32504,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 33355,
+      "cpuPercent": 0.0,
+      "executable": "IMAutomaticHistoryDeletionAgent"
+    },
+    {
+      "pid": 33524,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper (Renderer)"
+    },
+    {
+      "pid": 33648,
+      "cpuPercent": 0.8,
+      "executable": "MaskFog Browser Helper"
+    },
+    {
+      "pid": 35253,
+      "cpuPercent": 0.0,
+      "executable": "wifivelocityd"
+    },
+    {
+      "pid": 37640,
+      "cpuPercent": 0.0,
+      "executable": "LinkedNotesUIService"
+    },
+    {
+      "pid": 37913,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 38103,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.GPU"
+    },
+    {
+      "pid": 38128,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.WebContent"
+    },
+    {
+      "pid": 38339,
+      "cpuPercent": 0.0,
+      "executable": "<defunct>"
+    },
+    {
+      "pid": 39235,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 39236,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 39237,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 39238,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 39239,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 39240,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 39242,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 39948,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper (Renderer)"
+    },
+    {
+      "pid": 40131,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 40132,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 40133,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 40134,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 40135,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 40136,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 40152,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 40494,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper"
+    },
+    {
+      "pid": 40635,
+      "cpuPercent": 0.0,
+      "executable": "Obsidian"
+    },
+    {
+      "pid": 40636,
+      "cpuPercent": 0.0,
+      "executable": "Obsidian Helper"
+    },
+    {
+      "pid": 40637,
+      "cpuPercent": 0.0,
+      "executable": "Obsidian Helper"
+    },
+    {
+      "pid": 40638,
+      "cpuPercent": 0.0,
+      "executable": "Obsidian Helper (Renderer)"
+    },
+    {
+      "pid": 40639,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 40729,
+      "cpuPercent": 0.0,
+      "executable": "callservicesd"
+    },
+    {
+      "pid": 40740,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 40804,
+      "cpuPercent": 0.0,
+      "executable": "codex"
+    },
+    {
+      "pid": 40805,
+      "cpuPercent": 0.0,
+      "executable": "codex"
+    },
+    {
+      "pid": 40808,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 40809,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 40811,
+      "cpuPercent": 0.0,
+      "executable": "codex"
+    },
+    {
+      "pid": 40872,
+      "cpuPercent": 0.0,
+      "executable": "Localization"
+    },
+    {
+      "pid": 41985,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 41986,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 41987,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 41990,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 42042,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 42252,
+      "cpuPercent": 0.0,
+      "executable": "Spotlight"
+    },
+    {
+      "pid": 42254,
+      "cpuPercent": 0.0,
+      "executable": "NotificationCenter"
+    },
+    {
+      "pid": 42256,
+      "cpuPercent": 0.0,
+      "executable": "studentd"
+    },
+    {
+      "pid": 42258,
+      "cpuPercent": 0.0,
+      "executable": "sharingd"
+    },
+    {
+      "pid": 42267,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 42268,
+      "cpuPercent": 0.0,
+      "executable": "chronod"
+    },
+    {
+      "pid": 42283,
+      "cpuPercent": 0.0,
+      "executable": "WindowManagerControlsExtension"
+    },
+    {
+      "pid": 42284,
+      "cpuPercent": 0.0,
+      "executable": "PeopleWidget_macOSExtension"
+    },
+    {
+      "pid": 42286,
+      "cpuPercent": 0.0,
+      "executable": "JournalWidgets"
+    },
+    {
+      "pid": 42287,
+      "cpuPercent": 0.0,
+      "executable": "AccessibilitySettingsWidgetExtension"
+    },
+    {
+      "pid": 42288,
+      "cpuPercent": 0.0,
+      "executable": "PhotosReliveWidget"
+    },
+    {
+      "pid": 42289,
+      "cpuPercent": 0.0,
+      "executable": "SelectPerson_iOS"
+    },
+    {
+      "pid": 42290,
+      "cpuPercent": 0.0,
+      "executable": "WeatherWidget"
+    },
+    {
+      "pid": 42291,
+      "cpuPercent": 0.0,
+      "executable": "CalendarWidgetExtension"
+    },
+    {
+      "pid": 42296,
+      "cpuPercent": 0.0,
+      "executable": "IntentsExtension"
+    },
+    {
+      "pid": 42299,
+      "cpuPercent": 0.0,
+      "executable": "HomeWidget"
+    },
+    {
+      "pid": 42302,
+      "cpuPercent": 0.0,
+      "executable": "WeatherIntents"
+    },
+    {
+      "pid": 42305,
+      "cpuPercent": 0.0,
+      "executable": "ShortcutsWidgetExtension"
+    },
+    {
+      "pid": 42307,
+      "cpuPercent": 0.0,
+      "executable": "DockControls"
+    },
+    {
+      "pid": 42309,
+      "cpuPercent": 0.0,
+      "executable": "FindMyWidgetItems"
+    },
+    {
+      "pid": 42310,
+      "cpuPercent": 0.0,
+      "executable": "ScreenshotControls"
+    },
+    {
+      "pid": 42313,
+      "cpuPercent": 0.0,
+      "executable": "RemindersWidgetExtension"
+    },
+    {
+      "pid": 42314,
+      "cpuPercent": 0.0,
+      "executable": "PrintCenterWidgetExtension.macOS"
+    },
+    {
+      "pid": 42315,
+      "cpuPercent": 0.0,
+      "executable": "CalculatorWidget"
+    },
+    {
+      "pid": 42316,
+      "cpuPercent": 0.0,
+      "executable": "BatteriesAvocadoWidgetExtension"
+    },
+    {
+      "pid": 42318,
+      "cpuPercent": 0.0,
+      "executable": "RemindersIntentsExtension"
+    },
+    {
+      "pid": 42319,
+      "cpuPercent": 0.0,
+      "executable": "FindMyWidgetPeople"
+    },
+    {
+      "pid": 42320,
+      "cpuPercent": 0.0,
+      "executable": "PodcastsWidget"
+    },
+    {
+      "pid": 42322,
+      "cpuPercent": 0.0,
+      "executable": "JournalWidgetsSecure"
+    },
+    {
+      "pid": 42323,
+      "cpuPercent": 0.0,
+      "executable": "SoundIntentsExtension"
+    },
+    {
+      "pid": 42325,
+      "cpuPercent": 0.0,
+      "executable": "HomeEnergyWidgetsExtension"
+    },
+    {
+      "pid": 42326,
+      "cpuPercent": 0.0,
+      "executable": "WorldClockWidget"
+    },
+    {
+      "pid": 42327,
+      "cpuPercent": 0.0,
+      "executable": "SafariWidgetExtension"
+    },
+    {
+      "pid": 42329,
+      "cpuPercent": 0.0,
+      "executable": "ScreenTimeWidgetExtension"
+    },
+    {
+      "pid": 42330,
+      "cpuPercent": 0.0,
+      "executable": "VoiceMemosSettingsWidgetExtension"
+    },
+    {
+      "pid": 42331,
+      "cpuPercent": 0.0,
+      "executable": "TipsWidgetExtension"
+    },
+    {
+      "pid": 42332,
+      "cpuPercent": 0.0,
+      "executable": "MobileTimerIntents"
+    },
+    {
+      "pid": 42333,
+      "cpuPercent": 0.0,
+      "executable": "DisplayControls"
+    },
+    {
+      "pid": 42334,
+      "cpuPercent": 0.0,
+      "executable": "RecordWidgetExtension"
+    },
+    {
+      "pid": 42335,
+      "cpuPercent": 0.0,
+      "executable": "ScreenTimeWidgetIntentsExtension"
+    },
+    {
+      "pid": 42336,
+      "cpuPercent": 0.0,
+      "executable": "ShortcutLiveActivityWidgetExtension"
+    },
+    {
+      "pid": 42391,
+      "cpuPercent": 0.0,
+      "executable": "warmd"
+    },
+    {
+      "pid": 42642,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 43317,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 43318,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 44297,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 44298,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 44299,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 44300,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 44301,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 44302,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 44304,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 44970,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 45373,
+      "cpuPercent": 0.0,
+      "executable": "osanalyticshelper"
+    },
+    {
+      "pid": 45379,
+      "cpuPercent": 0.0,
+      "executable": "ImageThumbnailExtension"
+    },
+    {
+      "pid": 45380,
+      "cpuPercent": 0.0,
+      "executable": "SceneKitQLThumbnailExtension"
+    },
+    {
+      "pid": 45535,
+      "cpuPercent": 0.0,
+      "executable": "AppSSOAgent"
+    },
+    {
+      "pid": 45563,
+      "cpuPercent": 0.0,
+      "executable": "netbiosd"
+    },
+    {
+      "pid": 45927,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 45928,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 45957,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 46423,
+      "cpuPercent": 0.4,
+      "executable": "Google Chrome"
+    },
+    {
+      "pid": 46426,
+      "cpuPercent": 0.0,
+      "executable": "chrome_crashpad_handler"
+    },
+    {
+      "pid": 46430,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif)"
+    },
+    {
+      "pid": 46431,
+      "cpuPercent": 0.1,
+      "executable": "Google Chrome Helper (Aperitif)"
+    },
+    {
+      "pid": 46432,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif)"
+    },
+    {
+      "pid": 46437,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 46444,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 46445,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 46454,
+      "cpuPercent": 0.0,
+      "executable": "ChatGPT for Chrome"
+    },
+    {
+      "pid": 46478,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 46506,
+      "cpuPercent": 0.0,
+      "executable": "deleted"
+    },
+    {
+      "pid": 46510,
+      "cpuPercent": 0.0,
+      "executable": "pkd"
+    },
+    {
+      "pid": 46518,
+      "cpuPercent": 0.0,
+      "executable": "deleted_helper"
+    },
+    {
+      "pid": 46519,
+      "cpuPercent": 0.0,
+      "executable": "triald_system"
+    },
+    {
+      "pid": 46520,
+      "cpuPercent": 0.0,
+      "executable": "backupd-helper"
+    },
+    {
+      "pid": 46521,
+      "cpuPercent": 0.0,
+      "executable": "AssetCache"
+    },
+    {
+      "pid": 46522,
+      "cpuPercent": 0.0,
+      "executable": "triald"
+    },
+    {
+      "pid": 46526,
+      "cpuPercent": 0.0,
+      "executable": "secinitd"
+    },
+    {
+      "pid": 46529,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.geod"
+    },
+    {
+      "pid": 46747,
+      "cpuPercent": 0.0,
+      "executable": "extensionkitservice"
+    },
+    {
+      "pid": 46750,
+      "cpuPercent": 0.0,
+      "executable": "neagent"
+    },
+    {
+      "pid": 46927,
+      "cpuPercent": 0.0,
+      "executable": "geodMachServiceBridge"
+    },
+    {
+      "pid": 46928,
+      "cpuPercent": 0.0,
+      "executable": "installd"
+    },
+    {
+      "pid": 46929,
+      "cpuPercent": 0.0,
+      "executable": "system_installd"
+    },
+    {
+      "pid": 46944,
+      "cpuPercent": 0.0,
+      "executable": "fileproviderd"
+    },
+    {
+      "pid": 46950,
+      "cpuPercent": 0.0,
+      "executable": "cloudd"
+    },
+    {
+      "pid": 46954,
+      "cpuPercent": 0.0,
+      "executable": "appstoreagent"
+    },
+    {
+      "pid": 46957,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.CodeSigningHelper"
+    },
+    {
+      "pid": 47314,
+      "cpuPercent": 0.0,
+      "executable": "donotdisturbd"
+    },
+    {
+      "pid": 47317,
+      "cpuPercent": 0.0,
+      "executable": "searchpartyuseragent"
+    },
+    {
+      "pid": 47409,
+      "cpuPercent": 0.0,
+      "executable": "distnoted"
+    },
+    {
+      "pid": 47470,
+      "cpuPercent": 0.0,
+      "executable": "wifip2pd"
+    },
+    {
+      "pid": 47569,
+      "cpuPercent": 0.0,
+      "executable": "bird"
+    },
+    {
+      "pid": 47572,
+      "cpuPercent": 0.0,
+      "executable": "mediaanalysisd"
+    },
+    {
+      "pid": 47575,
+      "cpuPercent": 0.0,
+      "executable": "liveactivitiesd"
+    },
+    {
+      "pid": 47588,
+      "cpuPercent": 0.0,
+      "executable": "coreduetd"
+    },
+    {
+      "pid": 48909,
+      "cpuPercent": 0.0,
+      "executable": "ScreenTimeAgent"
+    },
+    {
+      "pid": 48959,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 49197,
+      "cpuPercent": 0.0,
+      "executable": "bluetoothd"
+    },
+    {
+      "pid": 49383,
+      "cpuPercent": 0.0,
+      "executable": "IOUserBluetoothSerialDriver"
+    },
+    {
+      "pid": 50839,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 51731,
+      "cpuPercent": 0.0,
+      "executable": "coreaudiod"
+    },
+    {
+      "pid": 51740,
+      "cpuPercent": 0.0,
+      "executable": "Core Audio Driver (ParrotAudioPlugin.driver)"
+    },
+    {
+      "pid": 51824,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 52395,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 52813,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 54622,
+      "cpuPercent": 1.7,
+      "executable": "MoonBrowser"
+    },
+    {
+      "pid": 54624,
+      "cpuPercent": 0.0,
+      "executable": "chrome_crashpad_handler"
+    },
+    {
+      "pid": 54626,
+      "cpuPercent": 0.0,
+      "executable": "chrome_crashpad_handler"
+    },
+    {
+      "pid": 54642,
+      "cpuPercent": 1.3,
+      "executable": "ChatGPT"
+    },
+    {
+      "pid": 54644,
+      "cpuPercent": 0.0,
+      "executable": "browser_crashpad_handler"
+    },
+    {
+      "pid": 54646,
+      "cpuPercent": 0.0,
+      "executable": "browser_crashpad_handler"
+    },
+    {
+      "pid": 54651,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (GPU)"
+    },
+    {
+      "pid": 54652,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Service)"
+    },
+    {
+      "pid": 54653,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Service)"
+    },
+    {
+      "pid": 54654,
+      "cpuPercent": 0.3,
+      "executable": "MoonBrowser Helper"
+    },
+    {
+      "pid": 54655,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Service)"
+    },
+    {
+      "pid": 54656,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper"
+    },
+    {
+      "pid": 54659,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 54660,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 54662,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 54665,
+      "cpuPercent": 3.3,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 54672,
+      "cpuPercent": 0.0,
+      "executable": "bare-modifier-monitor"
+    },
+    {
+      "pid": 54673,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 54675,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 54676,
+      "cpuPercent": 3.3,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 54677,
+      "cpuPercent": 5.5,
+      "executable": "codex"
+    },
+    {
+      "pid": 54679,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Service)"
+    },
+    {
+      "pid": 54706,
+      "cpuPercent": 7.8,
+      "executable": "SkyComputerUseService"
+    },
+    {
+      "pid": 54708,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 54796,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 54811,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 54819,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 54841,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 54857,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 54862,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 54867,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper"
+    },
+    {
+      "pid": 54917,
+      "cpuPercent": 0.7,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 55189,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 55206,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 55207,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 55219,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 55269,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 55334,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 55602,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 55689,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.WebContent"
+    },
+    {
+      "pid": 55813,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 55839,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 55868,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 56244,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 56320,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 57494,
+      "cpuPercent": 0.0,
+      "executable": "codex-code-mode-host"
+    },
+    {
+      "pid": 57589,
+      "cpuPercent": 0.0,
+      "executable": "gamecontrollerd"
+    },
+    {
+      "pid": 57590,
+      "cpuPercent": 0.0,
+      "executable": "gamecontrolleragentd"
+    },
+    {
+      "pid": 58066,
+      "cpuPercent": 0.0,
+      "executable": "audioanalyticsd"
+    },
+    {
+      "pid": 59426,
+      "cpuPercent": 0.0,
+      "executable": "sandboxd"
+    },
+    {
+      "pid": 59500,
+      "cpuPercent": 0.0,
+      "executable": "storagekitd"
+    },
+    {
+      "pid": 59535,
+      "cpuPercent": 0.0,
+      "executable": "PowerUIAgent"
+    },
+    {
+      "pid": 59609,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.geod"
+    },
+    {
+      "pid": 59614,
+      "cpuPercent": 0.0,
+      "executable": "trustdFileHelper"
+    },
+    {
+      "pid": 59629,
+      "cpuPercent": 0.0,
+      "executable": "siriactionsd"
+    },
+    {
+      "pid": 59641,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 59672,
+      "cpuPercent": 0.0,
+      "executable": "syncdefaultsd"
+    },
+    {
+      "pid": 60297,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 60549,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 60959,
+      "cpuPercent": 37.5,
+      "executable": "ecosystemd"
+    },
+    {
+      "pid": 60963,
+      "cpuPercent": 0.0,
+      "executable": "coresymbolicationd"
+    },
+    {
+      "pid": 61481,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 61555,
+      "cpuPercent": 0.0,
+      "executable": "dmd"
+    },
+    {
+      "pid": 61570,
+      "cpuPercent": 0.0,
+      "executable": "mobileactivationd"
+    },
+    {
+      "pid": 62173,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 62573,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 63568,
+      "cpuPercent": 0.9,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 64632,
+      "cpuPercent": 0.0,
+      "executable": "amfid"
+    },
+    {
+      "pid": 65444,
+      "cpuPercent": 0.0,
+      "executable": "PerfPowerServices"
+    },
+    {
+      "pid": 65557,
+      "cpuPercent": 0.0,
+      "executable": "devicecheckd"
+    },
+    {
+      "pid": 66604,
+      "cpuPercent": 0.0,
+      "executable": "dbx"
+    },
+    {
+      "pid": 67036,
+      "cpuPercent": 0.0,
+      "executable": "AudioComponentRegistrar"
+    },
+    {
+      "pid": 67448,
+      "cpuPercent": 0.0,
+      "executable": "Safari"
+    },
+    {
+      "pid": 67483,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.WebKit.Networking"
+    },
+    {
+      "pid": 67492,
+      "cpuPercent": 0.0,
+      "executable": "webinspectord"
+    },
+    {
+      "pid": 67639,
+      "cpuPercent": 0.0,
+      "executable": "aned"
+    },
+    {
+      "pid": 67708,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 67709,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 67710,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 67745,
+      "cpuPercent": 0.0,
+      "executable": "BackgroundTaskManagementAgent"
+    },
+    {
+      "pid": 67872,
+      "cpuPercent": 0.0,
+      "executable": "iconservicesagent"
+    },
+    {
+      "pid": 67873,
+      "cpuPercent": 0.0,
+      "executable": "iconservicesd"
+    },
+    {
+      "pid": 68234,
+      "cpuPercent": 0.0,
+      "executable": "knowledge-agent"
+    },
+    {
+      "pid": 68237,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 68249,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 68284,
+      "cpuPercent": 0.0,
+      "executable": "maild"
+    },
+    {
+      "pid": 68304,
+      "cpuPercent": 0.0,
+      "executable": "parsecd"
+    },
+    {
+      "pid": 68399,
+      "cpuPercent": 0.0,
+      "executable": "WeChatAppEx"
+    },
+    {
+      "pid": 68403,
+      "cpuPercent": 0.0,
+      "executable": "WeChatAppEx Helper"
+    },
+    {
+      "pid": 68404,
+      "cpuPercent": 0.0,
+      "executable": "WeChatAppEx Helper (GPU)"
+    },
+    {
+      "pid": 68683,
+      "cpuPercent": 0.0,
+      "executable": "WeChatHelper"
+    },
+    {
+      "pid": 68684,
+      "cpuPercent": 0.0,
+      "executable": "WeChatAppEx Helper"
+    },
+    {
+      "pid": 68685,
+      "cpuPercent": 0.0,
+      "executable": "WeChatHelper"
+    },
+    {
+      "pid": 68686,
+      "cpuPercent": 0.0,
+      "executable": "XPlayer"
+    },
+    {
+      "pid": 68687,
+      "cpuPercent": 0.0,
+      "executable": "WeChatAppEx Helper (Renderer)"
+    },
+    {
+      "pid": 68692,
+      "cpuPercent": 0.0,
+      "executable": "WeChatAppEx Helper (Renderer)"
+    },
+    {
+      "pid": 69933,
+      "cpuPercent": 0.0,
+      "executable": "AudioComponentRegistrar"
+    },
+    {
+      "pid": 69971,
+      "cpuPercent": 0.6,
+      "executable": "v2rayN"
+    },
+    {
+      "pid": 69998,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.SafariPlatformSupport.Helper"
+    },
+    {
+      "pid": 70226,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70227,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70228,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70229,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70230,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70231,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70232,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70233,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70234,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70235,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70236,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70237,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70238,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70239,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70240,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70241,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70242,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70243,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70244,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70245,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70246,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70247,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70248,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70249,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70250,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70251,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70252,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70253,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70254,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70255,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70256,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70257,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70258,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70259,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70260,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70261,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 70262,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70263,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70264,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70265,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70266,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70270,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 70600,
+      "cpuPercent": 0.0,
+      "executable": "xray"
+    },
+    {
+      "pid": 70749,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.appkit.xpc.openAndSavePanelService"
+    },
+    {
+      "pid": 70750,
+      "cpuPercent": 0.0,
+      "executable": "QuickLookUIService"
+    },
+    {
+      "pid": 70752,
+      "cpuPercent": 0.0,
+      "executable": "extensionkitservice"
+    },
+    {
+      "pid": 70753,
+      "cpuPercent": 0.0,
+      "executable": "blender-thumbnailer"
+    },
+    {
+      "pid": 70817,
+      "cpuPercent": 0.0,
+      "executable": "AudiovisualThumbnailExtension"
+    },
+    {
+      "pid": 70819,
+      "cpuPercent": 0.0,
+      "executable": "VTDecoderXPCService"
+    },
+    {
+      "pid": 70914,
+      "cpuPercent": 0.0,
+      "executable": "XprotectService"
+    },
+    {
+      "pid": 70960,
+      "cpuPercent": 0.0,
+      "executable": "Autoupdate"
+    },
+    {
+      "pid": 70961,
+      "cpuPercent": 0.0,
+      "executable": "Updater"
+    },
+    {
+      "pid": 71567,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.accessibility.mediaaccessibilityd"
+    },
+    {
+      "pid": 71568,
+      "cpuPercent": 0.0,
+      "executable": "VTDecoderXPCService"
+    },
+    {
+      "pid": 71625,
+      "cpuPercent": 0.0,
+      "executable": "translationd"
+    },
+    {
+      "pid": 71851,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.appkit.xpc.openAndSavePanelService"
+    },
+    {
+      "pid": 71852,
+      "cpuPercent": 0.0,
+      "executable": "QuickLookUIService"
+    },
+    {
+      "pid": 71917,
+      "cpuPercent": 0.0,
+      "executable": "mdwrite"
+    },
+    {
+      "pid": 73033,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.appkit.xpc.openAndSavePanelService"
+    },
+    {
+      "pid": 73086,
+      "cpuPercent": 0.0,
+      "executable": "QLPreviewGenerationExtension"
+    },
+    {
+      "pid": 73641,
+      "cpuPercent": 0.0,
+      "executable": "trustd"
+    },
+    {
+      "pid": 74080,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 74293,
+      "cpuPercent": 0.0,
+      "executable": "tipsd"
+    },
+    {
+      "pid": 75042,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 75043,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 75044,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 75045,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 75046,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 75047,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 75048,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 75197,
+      "cpuPercent": 0.0,
+      "executable": "ReportCrash"
+    },
+    {
+      "pid": 75224,
+      "cpuPercent": 0.0,
+      "executable": "VTDecoderXPCService"
+    },
+    {
+      "pid": 75225,
+      "cpuPercent": 0.0,
+      "executable": "MTLCompilerService"
+    },
+    {
+      "pid": 75226,
+      "cpuPercent": 0.0,
+      "executable": "feedbackd"
+    },
+    {
+      "pid": 75238,
+      "cpuPercent": 0.0,
+      "executable": "diagnosticservicesd"
+    },
+    {
+      "pid": 75275,
+      "cpuPercent": 0.0,
+      "executable": "assessmentagent"
+    },
+    {
+      "pid": 75280,
+      "cpuPercent": 0.0,
+      "executable": "historicalaudiod"
+    },
+    {
+      "pid": 75289,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.Safari.History"
+    },
+    {
+      "pid": 75292,
+      "cpuPercent": 0.0,
+      "executable": "askpermissiond"
+    },
+    {
+      "pid": 75299,
+      "cpuPercent": 0.0,
+      "executable": "commerce"
+    },
+    {
+      "pid": 75307,
+      "cpuPercent": 0.0,
+      "executable": "nfcd"
+    },
+    {
+      "pid": 75308,
+      "cpuPercent": 0.0,
+      "executable": "NFStorageServer"
+    },
+    {
+      "pid": 75396,
+      "cpuPercent": 0.0,
+      "executable": "online-auth-agent"
+    },
+    {
+      "pid": 75511,
+      "cpuPercent": 0.0,
+      "executable": "ospredictiond"
+    },
+    {
+      "pid": 75703,
+      "cpuPercent": 0.0,
+      "executable": "homed"
+    },
+    {
+      "pid": 75704,
+      "cpuPercent": 0.0,
+      "executable": "CloudTelemetryService"
+    },
+    {
+      "pid": 75705,
+      "cpuPercent": 0.0,
+      "executable": "CoreThreadCommissionerServiced"
+    },
+    {
+      "pid": 75706,
+      "cpuPercent": 0.0,
+      "executable": "SetStoreUpdateService"
+    },
+    {
+      "pid": 75707,
+      "cpuPercent": 0.0,
+      "executable": "accessoryupdaterd"
+    },
+    {
+      "pid": 75708,
+      "cpuPercent": 0.0,
+      "executable": "contactsd"
+    },
+    {
+      "pid": 75709,
+      "cpuPercent": 0.0,
+      "executable": "CloudTelemetryService"
+    },
+    {
+      "pid": 75710,
+      "cpuPercent": 0.0,
+      "executable": "AssetCacheLocatorService"
+    },
+    {
+      "pid": 75757,
+      "cpuPercent": 0.0,
+      "executable": "taskgated"
+    },
+    {
+      "pid": 75784,
+      "cpuPercent": 0.0,
+      "executable": "CommCenter"
+    },
+    {
+      "pid": 75785,
+      "cpuPercent": 0.0,
+      "executable": "networkserviceproxy"
+    },
+    {
+      "pid": 75879,
+      "cpuPercent": 0.0,
+      "executable": "CloudTelemetryService"
+    },
+    {
+      "pid": 75880,
+      "cpuPercent": 0.0,
+      "executable": "XProtectBridgeService"
+    },
+    {
+      "pid": 75888,
+      "cpuPercent": 0.0,
+      "executable": "smd"
+    },
+    {
+      "pid": 75950,
+      "cpuPercent": 0.0,
+      "executable": "powerexperienced"
+    },
+    {
+      "pid": 76378,
+      "cpuPercent": 0.0,
+      "executable": "liquiddetectiond"
+    },
+    {
+      "pid": 76379,
+      "cpuPercent": 0.0,
+      "executable": "UARPUpdaterServiceUSBPD"
+    },
+    {
+      "pid": 76381,
+      "cpuPercent": 0.0,
+      "executable": "mobiletimerd"
+    },
+    {
+      "pid": 76385,
+      "cpuPercent": 0.0,
+      "executable": "CategoriesService"
+    },
+    {
+      "pid": 76388,
+      "cpuPercent": 0.0,
+      "executable": "ContextService"
+    },
+    {
+      "pid": 76393,
+      "cpuPercent": 0.0,
+      "executable": "ContextService"
+    },
+    {
+      "pid": 76399,
+      "cpuPercent": 0.0,
+      "executable": "frauddefensed"
+    },
+    {
+      "pid": 76401,
+      "cpuPercent": 0.0,
+      "executable": "homeenergyd"
+    },
+    {
+      "pid": 76402,
+      "cpuPercent": 0.0,
+      "executable": "assetsubscriptiond"
+    },
+    {
+      "pid": 76407,
+      "cpuPercent": 0.0,
+      "executable": "IMDPersistenceAgent"
+    },
+    {
+      "pid": 76419,
+      "cpuPercent": 0.0,
+      "executable": "siriknowledged"
+    },
+    {
+      "pid": 76449,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.geod"
+    },
+    {
+      "pid": 76450,
+      "cpuPercent": 0.0,
+      "executable": "secinitd"
+    },
+    {
+      "pid": 76451,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 76452,
+      "cpuPercent": 0.0,
+      "executable": "cfprefsd"
+    },
+    {
+      "pid": 76453,
+      "cpuPercent": 0.0,
+      "executable": "trustd"
+    },
+    {
+      "pid": 76454,
+      "cpuPercent": 0.0,
+      "executable": "containermanagerd"
+    },
+    {
+      "pid": 76455,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.geod"
+    },
+    {
+      "pid": 76456,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.geod"
+    },
+    {
+      "pid": 76457,
+      "cpuPercent": 0.0,
+      "executable": "secinitd"
+    },
+    {
+      "pid": 76458,
+      "cpuPercent": 0.0,
+      "executable": "secinitd"
+    },
+    {
+      "pid": 76459,
+      "cpuPercent": 0.0,
+      "executable": "cfprefsd"
+    },
+    {
+      "pid": 76460,
+      "cpuPercent": 0.0,
+      "executable": "containermanagerd_system"
+    },
+    {
+      "pid": 76461,
+      "cpuPercent": 0.0,
+      "executable": "trustd"
+    },
+    {
+      "pid": 76462,
+      "cpuPercent": 0.0,
+      "executable": "containermanagerd"
+    },
+    {
+      "pid": 76463,
+      "cpuPercent": 0.0,
+      "executable": "containermanagerd"
+    },
+    {
+      "pid": 76628,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 76876,
+      "cpuPercent": 0.0,
+      "executable": "pbs"
+    },
+    {
+      "pid": 77154,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 77250,
+      "cpuPercent": 0.0,
+      "executable": "sysmond"
+    },
+    {
+      "pid": 77372,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 77374,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 77375,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 77376,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 77377,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 77379,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 77393,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 77587,
+      "cpuPercent": 0.0,
+      "executable": "codex"
+    },
+    {
+      "pid": 77588,
+      "cpuPercent": 0.0,
+      "executable": "codex"
+    },
+    {
+      "pid": 77590,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 77591,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 77593,
+      "cpuPercent": 0.0,
+      "executable": "codex"
+    },
+    {
+      "pid": 77956,
+      "cpuPercent": 0.0,
+      "executable": "Codex (Renderer)"
+    },
+    {
+      "pid": 77986,
+      "cpuPercent": 0.0,
+      "executable": "EscrowSecurityAlert"
+    },
+    {
+      "pid": 77987,
+      "cpuPercent": 0.0,
+      "executable": "amsengagementd"
+    },
+    {
+      "pid": 77988,
+      "cpuPercent": 0.0,
+      "executable": "axassetsd"
+    },
+    {
+      "pid": 77989,
+      "cpuPercent": 0.0,
+      "executable": "voicebankingd"
+    },
+    {
+      "pid": 77990,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.audio.SandboxHelper"
+    },
+    {
+      "pid": 77991,
+      "cpuPercent": 0.0,
+      "executable": "MauiAUSP"
+    },
+    {
+      "pid": 77992,
+      "cpuPercent": 0.0,
+      "executable": "WardaSynthesizer"
+    },
+    {
+      "pid": 77997,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.audio.SandboxHelper"
+    },
+    {
+      "pid": 77998,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.audio.SandboxHelper"
+    },
+    {
+      "pid": 77999,
+      "cpuPercent": 0.0,
+      "executable": "AUCrashHandlerService"
+    },
+    {
+      "pid": 78007,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.sbd"
+    },
+    {
+      "pid": 78048,
+      "cpuPercent": 0.0,
+      "executable": "swcd"
+    },
+    {
+      "pid": 78070,
+      "cpuPercent": 0.0,
+      "executable": "adid"
+    },
+    {
+      "pid": 78154,
+      "cpuPercent": 0.0,
+      "executable": "followupd"
+    },
+    {
+      "pid": 78168,
+      "cpuPercent": 0.0,
+      "executable": "amsondevicestoraged"
+    },
+    {
+      "pid": 78205,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 78206,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 78207,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 78208,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 78209,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 78210,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 78211,
+      "cpuPercent": 0.0,
+      "executable": "node_repl"
+    },
+    {
+      "pid": 78548,
+      "cpuPercent": 0.0,
+      "executable": "calaccessd"
+    },
+    {
+      "pid": 78559,
+      "cpuPercent": 0.0,
+      "executable": "communicationtrustd"
+    },
+    {
+      "pid": 78765,
+      "cpuPercent": 0.0,
+      "executable": "mlhostd"
+    },
+    {
+      "pid": 78766,
+      "cpuPercent": 0.0,
+      "executable": "generativeexperiencesd"
+    },
+    {
+      "pid": 78767,
+      "cpuPercent": 0.0,
+      "executable": "photolibraryd"
+    },
+    {
+      "pid": 78768,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.Safari.SafeBrowsing.Service"
+    },
+    {
+      "pid": 78769,
+      "cpuPercent": 0.0,
+      "executable": "ndoagent"
+    },
+    {
+      "pid": 78770,
+      "cpuPercent": 0.0,
+      "executable": "cloudphotod"
+    },
+    {
+      "pid": 78772,
+      "cpuPercent": 0.0,
+      "executable": "photoanalysisd"
+    },
+    {
+      "pid": 78777,
+      "cpuPercent": 0.0,
+      "executable": "softwareupdated"
+    },
+    {
+      "pid": 78778,
+      "cpuPercent": 0.0,
+      "executable": "seputil"
+    },
+    {
+      "pid": 78779,
+      "cpuPercent": 0.0,
+      "executable": "ScopedBookmarkAgent"
+    },
+    {
+      "pid": 78783,
+      "cpuPercent": 0.0,
+      "executable": "PlugInLibraryService"
+    },
+    {
+      "pid": 78784,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.MobileAsset.DownloadService.Builtin"
+    },
+    {
+      "pid": 78785,
+      "cpuPercent": 0.0,
+      "executable": "textunderstandingd"
+    },
+    {
+      "pid": 78786,
+      "cpuPercent": 0.0,
+      "executable": "dataaccessd"
+    },
+    {
+      "pid": 78787,
+      "cpuPercent": 0.0,
+      "executable": "ManagedSettingsAgent"
+    },
+    {
+      "pid": 78788,
+      "cpuPercent": 0.0,
+      "executable": "privatecloudcomputed"
+    },
+    {
+      "pid": 78789,
+      "cpuPercent": 0.0,
+      "executable": "AppleIntelligenceReportingProcessingService"
+    },
+    {
+      "pid": 78790,
+      "cpuPercent": 0.0,
+      "executable": "extensionkitservice"
+    },
+    {
+      "pid": 78796,
+      "cpuPercent": 0.0,
+      "executable": "softwareupdated"
+    },
+    {
+      "pid": 78797,
+      "cpuPercent": 0.0,
+      "executable": "mapssyncd"
+    },
+    {
+      "pid": 78798,
+      "cpuPercent": 0.0,
+      "executable": "AssetCacheLocatorService"
+    },
+    {
+      "pid": 78799,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.MobileSoftwareUpdate.CleanupPreparePathService"
+    },
+    {
+      "pid": 78800,
+      "cpuPercent": 0.0,
+      "executable": "businessservicesd"
+    },
+    {
+      "pid": 78801,
+      "cpuPercent": 0.0,
+      "executable": "homeeventsd"
+    },
+    {
+      "pid": 78802,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.iCloudHelper"
+    },
+    {
+      "pid": 78803,
+      "cpuPercent": 0.0,
+      "executable": "microstackshot"
+    },
+    {
+      "pid": 78804,
+      "cpuPercent": 0.0,
+      "executable": "proactiveeventtrackerd"
+    },
+    {
+      "pid": 78806,
+      "cpuPercent": 0.0,
+      "executable": "PlugInLibraryService"
+    },
+    {
+      "pid": 78809,
+      "cpuPercent": 0.0,
+      "executable": "MessagesBlastDoorService"
+    },
+    {
+      "pid": 78821,
+      "cpuPercent": 0.0,
+      "executable": "powerdatad"
+    },
+    {
+      "pid": 78823,
+      "cpuPercent": 0.0,
+      "executable": "MTLAssetUpgraderD"
+    },
+    {
+      "pid": 78833,
+      "cpuPercent": 0.0,
+      "executable": "cdpd"
+    },
+    {
+      "pid": 78847,
+      "cpuPercent": 0.0,
+      "executable": "itunescloudd"
+    },
+    {
+      "pid": 78849,
+      "cpuPercent": 0.0,
+      "executable": "corekdld"
+    },
+    {
+      "pid": 78850,
+      "cpuPercent": 0.0,
+      "executable": "nbagent"
+    },
+    {
+      "pid": 78866,
+      "cpuPercent": 0.0,
+      "executable": "DistributionHelper"
+    },
+    {
+      "pid": 78886,
+      "cpuPercent": 0.0,
+      "executable": "ModelCatalogAgent"
+    },
+    {
+      "pid": 78910,
+      "cpuPercent": 0.0,
+      "executable": "CloudTelemetryService"
+    },
+    {
+      "pid": 78923,
+      "cpuPercent": 0.0,
+      "executable": "nbstated"
+    },
+    {
+      "pid": 78924,
+      "cpuPercent": 0.0,
+      "executable": "ImageIOXPCService"
+    },
+    {
+      "pid": 78926,
+      "cpuPercent": 0.0,
+      "executable": "swtransparencyd"
+    },
+    {
+      "pid": 78927,
+      "cpuPercent": 0.0,
+      "executable": "CloudTelemetryService"
+    },
+    {
+      "pid": 78928,
+      "cpuPercent": 0.0,
+      "executable": "spindump"
+    },
+    {
+      "pid": 78929,
+      "cpuPercent": 0.0,
+      "executable": "PerfPowerTelemetryClientRegistrationService"
+    },
+    {
+      "pid": 78941,
+      "cpuPercent": 0.0,
+      "executable": "SoftwareUpdateNotificationManager"
+    },
+    {
+      "pid": 79077,
+      "cpuPercent": 0.0,
+      "executable": "installerauthagent"
+    },
+    {
+      "pid": 79078,
+      "cpuPercent": 0.0,
+      "executable": "NRDUpdated"
+    },
+    {
+      "pid": 79118,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.NRD.UpdateBrainService"
+    },
+    {
+      "pid": 79133,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.StreamingUnzipService.privileged"
+    },
+    {
+      "pid": 79138,
+      "cpuPercent": 0.0,
+      "executable": "CloudTelemetryService"
+    },
+    {
+      "pid": 79146,
+      "cpuPercent": 0.0,
+      "executable": "nsattributedstringagent"
+    },
+    {
+      "pid": 79147,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.hiservices-xpcservice"
+    },
+    {
+      "pid": 79148,
+      "cpuPercent": 0.0,
+      "executable": "cfprefsd"
+    },
+    {
+      "pid": 79152,
+      "cpuPercent": 0.0,
+      "executable": "com.apple.accessibility.mediaaccessibilityd"
+    },
+    {
+      "pid": 79153,
+      "cpuPercent": 0.0,
+      "executable": "nsattributedstringagent"
+    },
+    {
+      "pid": 79154,
+      "cpuPercent": 0.0,
+      "executable": "nsattributedstringagent"
+    },
+    {
+      "pid": 79588,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 79599,
+      "cpuPercent": 0.0,
+      "executable": "mdworker_shared"
+    },
+    {
+      "pid": 79794,
+      "cpuPercent": 0.0,
+      "executable": "mdworker_shared"
+    },
+    {
+      "pid": 80101,
+      "cpuPercent": 0.0,
+      "executable": "mobilerepaird"
+    },
+    {
+      "pid": 80102,
+      "cpuPercent": 0.0,
+      "executable": "keybagd"
+    },
+    {
+      "pid": 80113,
+      "cpuPercent": 6.5,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 80182,
+      "cpuPercent": 0.0,
+      "executable": "mdworker_shared"
+    },
+    {
+      "pid": 80183,
+      "cpuPercent": 0.0,
+      "executable": "mdworker_shared"
+    },
+    {
+      "pid": 80196,
+      "cpuPercent": 0.0,
+      "executable": "ReportMemoryException"
+    },
+    {
+      "pid": 80324,
+      "cpuPercent": 0.0,
+      "executable": "mdworker_shared"
+    },
+    {
+      "pid": 80359,
+      "cpuPercent": 0.0,
+      "executable": "Python"
+    },
+    {
+      "pid": 80361,
+      "cpuPercent": 0.0,
+      "executable": "ps"
+    },
+    {
+      "pid": 80395,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 82021,
+      "cpuPercent": 0.0,
+      "executable": "milod"
+    },
+    {
+      "pid": 82156,
+      "cpuPercent": 0.0,
+      "executable": "Lark Helper (Renderer)"
+    },
+    {
+      "pid": 82190,
+      "cpuPercent": 0.0,
+      "executable": "securityd_system"
+    },
+    {
+      "pid": 82274,
+      "cpuPercent": 0.0,
+      "executable": "ctkd"
+    },
+    {
+      "pid": 82431,
+      "cpuPercent": 0.0,
+      "executable": "usermanagerd"
+    },
+    {
+      "pid": 82440,
+      "cpuPercent": 0.0,
+      "executable": "nehelper"
+    },
+    {
+      "pid": 85834,
+      "cpuPercent": 0.0,
+      "executable": "containermanagerd"
+    },
+    {
+      "pid": 86615,
+      "cpuPercent": 32.3,
+      "executable": "trustd"
+    },
+    {
+      "pid": 86622,
+      "cpuPercent": 0.0,
+      "executable": "trustd"
+    },
+    {
+      "pid": 87206,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 87677,
+      "cpuPercent": 0.0,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 87713,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 87744,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif)"
+    },
+    {
+      "pid": 88496,
+      "cpuPercent": 0.0,
+      "executable": "jetbrainsd"
+    },
+    {
+      "pid": 90753,
+      "cpuPercent": 5.4,
+      "executable": "MoonBrowser Helper (Renderer)"
+    },
+    {
+      "pid": 93995,
+      "cpuPercent": 0.0,
+      "executable": "tccd"
+    },
+    {
+      "pid": 94069,
+      "cpuPercent": 0.0,
+      "executable": "GameOverlayUI"
+    },
+    {
+      "pid": 94164,
+      "cpuPercent": 0.0,
+      "executable": "routined"
+    },
+    {
+      "pid": 95562,
+      "cpuPercent": 0.0,
+      "executable": "Network"
+    },
+    {
+      "pid": 95565,
+      "cpuPercent": 0.0,
+      "executable": "VPN"
+    },
+    {
+      "pid": 95598,
+      "cpuPercent": 0.0,
+      "executable": "Wi-Fi"
+    },
+    {
+      "pid": 95628,
+      "cpuPercent": 0.0,
+      "executable": "Wi-Fi"
+    },
+    {
+      "pid": 95634,
+      "cpuPercent": 0.0,
+      "executable": "spotlightknowledged.updater"
+    },
+    {
+      "pid": 98823,
+      "cpuPercent": 0.0,
+      "executable": "Google Chrome Helper (Aperitif Renderer)"
+    },
+    {
+      "pid": 14107,
+      "cpuPercent": 0.0,
+      "executable": "login"
+    },
+    {
+      "pid": 14108,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 972,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 973,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 974,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 38223,
+      "cpuPercent": 0.4,
+      "executable": "claude"
+    },
+    {
+      "pid": 38247,
+      "cpuPercent": 0.0,
+      "executable": "lark-mcp@0.5.1 mcp"
+    },
+    {
+      "pid": 38267,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 975,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 976,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 62205,
+      "cpuPercent": 0.4,
+      "executable": "claude"
+    },
+    {
+      "pid": 62309,
+      "cpuPercent": 0.0,
+      "executable": "lark-mcp@0.5.1 mcp"
+    },
+    {
+      "pid": 62323,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 980,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 64688,
+      "cpuPercent": 0.3,
+      "executable": "claude"
+    },
+    {
+      "pid": 64729,
+      "cpuPercent": 0.0,
+      "executable": "lark-mcp@0.5.1 mcp"
+    },
+    {
+      "pid": 64748,
+      "cpuPercent": 0.0,
+      "executable": "node"
+    },
+    {
+      "pid": 983,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 989,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 992,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 996,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1001,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1010,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1017,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1035,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1046,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1056,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1063,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1073,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1086,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    },
+    {
+      "pid": 1097,
+      "cpuPercent": 0.0,
+      "executable": "-zsh"
+    }
+  ],
+  "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=7077987)\t28%; charging; 1:44 remaining present: true\n"
+}

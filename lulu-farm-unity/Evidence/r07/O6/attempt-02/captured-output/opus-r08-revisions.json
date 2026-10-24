@@ -1,0 +1,23 @@
+{
+    "utc": "2026-10-24T14:17:46.6381090Z",
+    "groundMaterial": "Assets/Farm/GeneratedR08/Materials/Ground-polish-r04.mat",
+    "groundShader": "LuluFarm/FarmGround-r04",
+    "skyMaterial": "Assets/Farm/GeneratedR08/Materials/FarmSky-r08.mat",
+    "skyHorizon": {
+        "r": 0.7882353067398071,
+        "g": 0.8784313797950745,
+        "b": 0.9019607901573181,
+        "a": 1.0
+    },
+    "fogColor": {
+        "r": 0.7882353067398071,
+        "g": 0.8784313797950745,
+        "b": 0.9019607901573181,
+        "a": 1.0
+    },
+    "animalMaterials": 22,
+    "vegetationMaterials": 10,
+    "animalBreath": 0.009999999776482582,
+    "animalTurnRadians": 0.10000000149011612,
+    "note": "Unverified until generated, built and viewed on the Mac; not user art acceptance"
+}

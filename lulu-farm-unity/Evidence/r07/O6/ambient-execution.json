@@ -1,0 +1,25 @@
+{
+  "startedUtc": "2026-10-24T17:08:55.000011+00:00",
+  "finishedUtc": "2026-10-24T17:10:08.320563+00:00",
+  "command": [
+    "/usr/bin/caffeinate",
+    "-di",
+    "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Builds/r07/O6/development/LuluFarm.app/Contents/MacOS/噜噜农场",
+    "-screen-width",
+    "1280",
+    "-screen-height",
+    "720",
+    "-screen-fullscreen",
+    "0",
+    "--farm-evidence",
+    "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/ambient",
+    "--farm-quit-after",
+    "72",
+    "-logFile",
+    "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/ambient.log",
+    "--r07-ambient-evidence"
+  ],
+  "exitCode": 0,
+  "completionChecks": {},
+  "captureIntent": "actual visible player; caffeinate only for this process lifetime; profiler capture overhead is recorded separately from r06 no-profiler baseline"
+}

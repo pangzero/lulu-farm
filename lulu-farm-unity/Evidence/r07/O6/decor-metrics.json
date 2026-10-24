@@ -1,5 +1,5 @@
 {
-    "utc": "2026-10-24T14:17:44.2861230Z",
+    "utc": "2026-10-24T16:54:20.8360220Z",
     "status": "authored_pending_route_and_Opus_review",
     "rule": "Seed 240724; road center distance >= .9 + .4 + prop radius; fields/pasture/pond/building/dock exclusions + .4 + radius; existing placements retained",
     "seed": 240724,

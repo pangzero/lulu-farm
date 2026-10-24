@@ -1,0 +1,10 @@
+{
+    "file": "Evidence/r07/O6/profiler/cpu-0009.data",
+    "output": "Evidence/r07/O6/profiler/cpu-0009.timeline.json.gz",
+    "status": "exported_filtered_timeline_binary_retained",
+    "firstFrame": 0,
+    "lastFrame": 1149,
+    "frames": 1150,
+    "threads": 44,
+    "events": 141360
+}

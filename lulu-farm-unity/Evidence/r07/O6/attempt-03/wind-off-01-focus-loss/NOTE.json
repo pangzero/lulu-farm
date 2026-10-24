@@ -1,0 +1,5 @@
+{
+  "utc": "2026-10-24T17:43:45.767541+00:00",
+  "reason": "Measured windows reported applicationFocused false; ended with native Cmd+Q after preserving data. Player exit 0, wrapper exit 2. No art/performance conclusion.",
+  "retry": "Same command and settings, native window Raise during startup, before measurement; no later UI operations."
+}

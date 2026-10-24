@@ -1,0 +1,101 @@
+{
+    "timestampUtc": "2026-10-24T17:06:15.7581390Z",
+    "revision": "integration-r07-O6",
+    "assetRegistryRevision": "308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34",
+    "platform": "OSXPlayer",
+    "operatingSystem": "Mac OS X 26.4.0",
+    "deviceModel": "Mac17,2",
+    "cpu": "Apple M5",
+    "gpu": "Apple M5",
+    "graphicsAPI": "Metal",
+    "runtimeEvidence": "observed_runtime_state_not_art_or_device_acceptance",
+    "inputAutomation": "running_simulated_input",
+    "performanceRunClassification": "mixed_quality_or_resolution_not_a_valid_per_quality_device_performance_run",
+    "currentQuality": "电脑",
+    "performanceStatisticsScope": "whole_session_samples; a mixed-settings session is invalid for per-quality performance claims",
+    "performanceSettingsStable": false,
+    "performanceConfigurations": [
+        {
+            "utc": "2026-10-24T17:05:46.3946590Z",
+            "quality": "电脑",
+            "width": 1280,
+            "height": 720,
+            "sessionSeconds": 0.0019729137420654299
+        },
+        {
+            "utc": "2026-10-24T17:05:49.0377000Z",
+            "quality": "手机",
+            "width": 1280,
+            "height": 720,
+            "sessionSeconds": 2.6450188159942629
+        },
+        {
+            "utc": "2026-10-24T17:05:49.3655940Z",
+            "quality": "电脑",
+            "width": 1280,
+            "height": 720,
+            "sessionSeconds": 2.972912549972534
+        }
+    ],
+    "unityVersion": "6000.3.16f1",
+    "quality": "mixed_settings",
+    "animationStatus": "generic_real_clips_bound_visual_review_pending",
+    "motion": "Idle",
+    "inputSource": "keyboard_or_gamepad",
+    "currentStage": "mixed",
+    "wardrobe": "原版短裤",
+    "obstruction": "",
+    "width": 1280,
+    "height": 720,
+    "systemMemoryMB": 24576,
+    "graphicsMemoryMB": 18186,
+    "sampledFrames": 2666,
+    "routeProgress": 3,
+    "routeTotal": 9,
+    "cameraCollisionBufferOverflows": 0,
+    "performanceFramesExcluded": 594,
+    "durationSeconds": 29.28656005859375,
+    "medianFrameMs": 8.333793640136719,
+    "p95FrameMs": 9.223122596740723,
+    "meanFrameMs": 8.767457008361817,
+    "actualSpeed": 0.0,
+    "cameraYaw": 0.0,
+    "cameraPitch": 34.999996185302737,
+    "cameraRequestedDistance": 5.099999904632568,
+    "cameraActualDistance": 5.099998950958252,
+    "cpuFrameMs": 0.0,
+    "gpuFrameMs": 0.0,
+    "frameTimingAvailable": false,
+    "cpuTimingAvailable": false,
+    "gpuTimingAvailable": false,
+    "paused": false,
+    "grounded": true,
+    "targetInsideViewport": true,
+    "cinemachineLive": true,
+    "totalAllocatedBytes": 244193670,
+    "totalReservedBytes": 362217472,
+    "monoUsedBytes": 4911104,
+    "playerPosition": {
+        "x": 2.319957733154297,
+        "y": 0.024999845772981645,
+        "z": -7.4395751953125
+    },
+    "cameraPosition": {
+        "x": 2.319181203842163,
+        "y": 3.670238971710205,
+        "z": -11.619573593139649
+    },
+    "inputMove": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "collisionFlags": "Below",
+    "uiBlocked": false,
+    "applicationFocused": true,
+    "visitedRouteMarkers": [
+        "主屋前",
+        "返回",
+        "田地",
+        "牧场入口"
+    ]
+}

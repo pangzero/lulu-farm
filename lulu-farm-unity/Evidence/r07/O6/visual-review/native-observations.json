@@ -1,0 +1,64 @@
+{
+  "utc": "2026-10-24T18:08:57.990202+00:00",
+  "status": "部分完成；原生鼠标环绕失败，待 Opus 验收已采集部分",
+  "acceptanceConclusion": null,
+  "sessions": [
+    "manual/20261024-171457-235",
+    "manual-02/20261024-175944-067"
+  ],
+  "videos": [
+    "manual/o6-native-keyboard.mp4",
+    "manual-02/o6-native-keyboard-02.mp4"
+  ],
+  "realInput": "CUA native keyboard; no automated route, no camera API, no synthetic geometry or screenshot",
+  "manual02Actions": [
+    "F9 started recording at 18:03:05 UTC; subsequent drag returned noWindowsAvailable",
+    "Shift+A 3500ms",
+    "Shift+A 5500ms, Shift+W 13000ms",
+    "Shift+D 8000ms",
+    "Shift+W 5000ms",
+    "F9 stopped at 18:04:33 UTC",
+    "Cmd+Q, player exit0"
+  ],
+  "observed": "Lulu moved from house-front to the west side, trees and behind-house area. Tree trunks/crowns show dense small grid dots during obstruction. At the end nearly the entire world below the UI is a dense light/dark dot pattern with broad colour regions. Static decoded frames do not establish transient flicker or continuous wind.",
+  "manual02FinalPosition": {
+    "x": -0.5785158276557922,
+    "y": 0.024999845772981644,
+    "z": 11.220000267028809
+  },
+  "manual02FinalCameraYaw": 0.0,
+  "toolFailures": [
+    "First session: ScreenCaptureKit -3811 once, next screenshot succeeded; repeated drag noWindowsAvailable despite fresh AX and full-path app rebinding",
+    "Second session: CUA reset, fresh getApp and window Raise; drag([280,450],[1000,450]) again failed with Computer Use server error -10005: noWindowsAvailable; stopped this failing route",
+    "First session final shortcut requests met procNotFound after scheduled timeout; not claimed as successful input"
+  ],
+  "unverified": [
+    "full mouse orbit behind house and under trees",
+    "fade/restore flicker and jumping over a complete orbit",
+    "tree wind continuity exactly at fade switches",
+    "house brightness/colour jump at transition"
+  ],
+  "actualViewing": "Native screenshots after movements plus these four decoded PNG frames; did not watch the entire videos continuously",
+  "viewedFrames": [
+    {
+      "file": "visual-review/manual-02-decoded/decoded-frame-000320.png",
+      "sha256": "bbb16cf079135c4bd459c3bdb4e90f6415ba5b1465d62209134895798f1c86fd",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual-review/manual-02-decoded/decoded-frame-000400.png",
+      "sha256": "e3fcbaec7ffe1610d8c9ffd3d7f7e8fe98139fc6ca2e3663dd62b1eac91b3e6e",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual-review/manual-02-decoded/decoded-frame-000490.png",
+      "sha256": "8d1667bfb074e1b7a47571f13abd371fc5fca342d6e95214e42bd9cb62963d97",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual-review/manual-02-decoded/decoded-frame-000580.png",
+      "sha256": "45b1c541361d8c6c339f8db61657c3d7f28468d57be2f35814ae85b5b384f088",
+      "actuallyViewed": true
+    }
+  ]
+}

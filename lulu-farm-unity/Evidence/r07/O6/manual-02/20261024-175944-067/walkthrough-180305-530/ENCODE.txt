@@ -1,0 +1,7 @@
+Run from this directory after recording stops:
+ffmpeg -f concat -safe 0 -i frames.ffconcat -fps_mode vfr -c:v libx264 -pix_fmt yuv420p walkthrough.mp4
+
+The PNGs are actual Unity framebuffer captures. Variable frame durations preserve observed wall-clock timing.
+No fixed simulation clock, interpolated frames, or generated scenery is used.
+Capture and PNG encoding distort timing. Start a separate player session without frame/screenshot capture for device performance.
+frames.jsonl records whether route input was automated. Video alone does not prove manual UI review.
