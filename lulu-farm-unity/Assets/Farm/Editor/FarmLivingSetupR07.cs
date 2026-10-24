@@ -78,7 +78,7 @@ namespace LuluFarm.Editor
             ambient.water=Sound(root,"PondWater",new Vector3(11,0,1.6f),"soft-water.wav",.12f,true);
             Shader.SetGlobalFloat("_FarmR07WindEnabled",0);Shader.SetGlobalFloat("_FarmR07MotionEnabled",0);Shader.SetGlobalFloat("_FarmR07Time",0);
             AssetDatabase.SaveAssets();foreach(var entry in records)entry.derivedSHA256=Hash(entry.derived);
-            string output="Evidence/r07/D6";Directory.CreateDirectory(output);File.WriteAllText(output+"/ambient-metrics.json",JsonUtility.ToJson(new Record{utc=DateTime.UtcNow.ToString("o"),vegetationInstances=vegetation,animals=animals,materials=records.ToArray()},true));
+            string output="Evidence/r07/"+FarmProjectBuilder.R07Task;Directory.CreateDirectory(output);File.WriteAllText(output+"/ambient-metrics.json",JsonUtility.ToJson(new Record{utc=DateTime.UtcNow.ToString("o"),vegetationInstances=vegetation,animals=animals,materials=records.ToArray()},true));
         }
         static string Hash(string path){if(string.IsNullOrEmpty(path)||!File.Exists(path))return "not_file_backed";using(var sha=SHA256.Create())using(var file=File.OpenRead(path))return BitConverter.ToString(sha.ComputeHash(file)).Replace("-","").ToLowerInvariant();}
         static AudioSource Sound(Transform parent,string name,Vector3 pos,string file,float volume,bool spatial){

@@ -16,7 +16,7 @@ namespace LuluFarm.Editor
     public static class FarmOcclusionDitherR08
     {
         const string Folder = "Assets/Farm/GeneratedR08/OcclusionDither";
-        const string Living = "LuluFarm/LivingSurface-r07";
+        const string Living = "LuluFarm/LivingSurface-"; // r07 (D6) or r08 (O6 amplitude revision)
         public const float FadedCoverage = .25f;
         static readonly string[] ColorProperties = { "_BaseColorFactor", "baseColorFactor", "_BaseColor", "baseColor", "_Color" };
         static readonly string[] TextureProperties = { "_BaseColorTexture", "baseColorTexture", "_BaseMap", "_MainTex", "_BaseColorMap" };
@@ -47,7 +47,7 @@ namespace LuluFarm.Editor
                             derived = MakeDither(source, shader);
                             cache.Add(source, derived);
                             entries.Add(new Entry { occluder = occluder.name, renderer = binding.renderer.name, source = AssetDatabase.GetAssetPath(source),
-                                sourceShader = source.shader.name, derived = AssetDatabase.GetAssetPath(derived), livingCopy = source.shader.name == Living });
+                                sourceShader = source.shader.name, derived = AssetDatabase.GetAssetPath(derived), livingCopy = source.shader.name.StartsWith(Living) });
                         }
                         return derived;
                     }).ToArray();
@@ -73,7 +73,7 @@ namespace LuluFarm.Editor
             var fade = AssetDatabase.LoadAssetAtPath<Material>(location);
             if (fade == null) { fade = new Material(shader); AssetDatabase.CreateAsset(fade, location); }
             fade.shader = shader; fade.name = source.name + " — dither fade r08";
-            if (source.shader.name == Living)
+            if (source.shader.name.StartsWith(Living))
             {
                 // Same property names: identical wind, phase, normal scale and specular as the D6 opaque material.
                 fade.CopyPropertiesFromMaterial(source);

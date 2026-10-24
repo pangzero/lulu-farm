@@ -360,8 +360,10 @@ namespace LuluFarm.Editor
             BuildPond(Group("Pond"));
             LandscapeInstances(landscape);
             PolishLandscape(landscape);
+            if(R07Opus)OpusGroundR04(landscape);
             if(R07Task=="D4"||R07Living)FarmDecorScatter.Build(world,landscape,Place);
             Lighting();
+            if(R07Opus)OpusSkyR08();
             var player=new GameObject("LuluPlayer");player.transform.position=new Vector3(0,.05f,3.15f);
             var orientation=new GameObject("PlayerOrientation");orientation.transform.SetParent(player.transform,false);
             var lulu=Place("Lulu",Vector3.zero,orientation.transform,0);
@@ -381,6 +383,7 @@ namespace LuluFarm.Editor
                 SetupWardrobe(lulu,rt);
                 if(R07Living)FarmLivingSetupR07.Build(world,rt);
                 // O3 r08: dithered occlusion fade built from the materials actually in use (incl. D6 living ones).
+                if(R07Opus)OpusLivingR08(world);
                 if(R07Opus)FarmOcclusionDitherR08.Apply(world);
                 // O4: D6 runtime output measured RMS -57 dBFS (bed ~-70, chirps ~-55): effectively inaudible.
                 // Candidate +10 dB birds / +8 dB water; listening comfort still needs the user's own review.
@@ -388,6 +391,7 @@ namespace LuluFarm.Editor
                 rt.routeMarkers=new[]{Marker("主屋前",0,3.15f),Marker("田地",-6,2),Marker("牧场入口",2.4f,-7.2f),R07Opus?Marker("饲料槽",3.9f,-3.5f):Marker("饲料槽",4.3f,-2.8f),Marker("池塘",6.7f,DockZ),Marker("码头",8.6f,DockZ),Marker("渔产摊位",10,-5.7f),Marker("主屋背面",0,9.5f),Marker("返回",0,3.15f)};
                 if(R07Living)FarmRouteClearanceR07.Configure(rt);
             }
+            if(R07Opus)OpusWriteRecord();
             foreach(var marker in issues)Debug.LogWarning(marker);
             if(!EditorSceneManager.SaveScene(SceneManager.GetActiveScene(),Base+"Scenes/FarmWorld.unity"))issues.Add("Full farm scene save failed.");
             EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene(Base+"Scenes/FarmWorld.unity",true)};

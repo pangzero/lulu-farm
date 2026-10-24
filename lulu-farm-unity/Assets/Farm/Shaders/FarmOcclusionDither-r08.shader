@@ -7,6 +7,7 @@ Shader "LuluFarm/OcclusionDither-r08"
   _MotionMode("1 foliage, 2 animal",Float)=1 _WindStart("Rigid trunk height",Float)=1.15 _WindTop("Crown height",Float)=3.2 _Amplitude("World displacement",Float)=.025
   _HeadPivot("Local neck pivot",Vector)=(0,.05,.25,0) _HeadLimits("Z blend and Y blend",Vector)=(.05,.5,-.15,.15)
   _FloorY("Local feet",Float)=-.95 _Phase("Per animal phase",Float)=0 _Cull("Cull",Float)=0
+  _BreathAmp("Animal breath amplitude",Float)=.003 _TurnAmp("Animal head turn radians",Float)=.035
   _FadeOpacity("Camera fade coverage (set per renderer)",Range(0,1))=1
  }
  SubShader {
@@ -19,7 +20,7 @@ Shader "LuluFarm/OcclusionDither-r08"
   #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
   CBUFFER_START(UnityPerMaterial)
   float4 _BaseMap_ST,_BaseColor,_HeadPivot,_HeadLimits;
-  float _NormalScale,_Smoothness,_SpecularFactor,_MotionMode,_WindStart,_WindTop,_Amplitude,_FloorY,_Phase,_Cull,_FadeOpacity;
+  float _NormalScale,_Smoothness,_SpecularFactor,_MotionMode,_WindStart,_WindTop,_Amplitude,_FloorY,_Phase,_Cull,_FadeOpacity,_BreathAmp,_TurnAmp;
   CBUFFER_END
   float _FarmR07WindEnabled,_FarmR07MotionEnabled,_FarmR07Time;
   TEXTURE2D(_BaseMap);SAMPLER(sampler_BaseMap);TEXTURE2D(_NormalMap);SAMPLER(sampler_NormalMap);
@@ -33,13 +34,13 @@ Shader "LuluFarm/OcclusionDither-r08"
     float wave=sin(t*1.35+ws.x*.39+ws.z*.27)+.35*sin(t*2.2+ws.z*.7);
     ws.xz+=float2(1,.36)*(_Amplitude*w*wave);p=TransformWorldToObject(ws);
    }else{
-    float breath=sin(t*1.7+_Phase)*.003;
+    float breath=sin(t*1.7+_Phase)*_BreathAmp;
     float upper=smoothstep(_FloorY+.12,_FloorY+.5,p.y);
     p.y+=(p.y-_FloorY)*breath*upper;p.x*=1+breath*.55*upper;
     // A small, smooth local neck bend; no skeleton, path finding or source-mesh edit.
     float cycle=frac((t+_Phase*2)/13);float envelope=smoothstep(.58,.70,cycle)*(1-smoothstep(.84,.96,cycle));
     float w=smoothstep(_HeadLimits.x,_HeadLimits.y,p.z)*smoothstep(_HeadLimits.z,_HeadLimits.w,p.y);
-    float angle=.035*sin((cycle-.58)*16)*envelope*w;float c=cos(angle),s=sin(angle);
+    float angle=_TurnAmp*sin((cycle-.58)*16)*envelope*w;float c=cos(angle),s=sin(angle);
     float3 q=p-_HeadPivot.xyz;q.xz=float2(c*q.x+s*q.z,-s*q.x+c*q.z);p=q+_HeadPivot.xyz;
     n.xz=float2(c*n.x+s*n.z,-s*n.x+c*n.z);tangent.xz=float2(c*tangent.x+s*tangent.z,-s*tangent.x+c*tangent.z);
    }

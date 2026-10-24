@@ -75,8 +75,10 @@ namespace LuluFarm.Editor
         // Local locked-editor API inventory, used before implementing an exporter.
         public static void InspectAPI()
         {
-            Directory.CreateDirectory("Evidence/r07/D7");
-            using(var w=new StreamWriter("Evidence/r07/D7/profiler-api.txt"))
+            // D5–D6 keep writing the delivered D7 listing; the Opus O6 stage writes its own copy.
+            string apiFolder=FarmProjectBuilder.R07Task=="O6"?"Evidence/r07/O6":"Evidence/r07/D7";
+            Directory.CreateDirectory(apiFolder);
+            using(var w=new StreamWriter(apiFolder+"/profiler-api.txt"))
             foreach(var type in new[]{typeof(ProfilerDriver),typeof(ProfilerDriver).GetMethod("GetRawFrameDataView")?.ReturnType,typeof(ProfilerDriver).Assembly.GetType("UnityEditorInternal.ProfilerUserSettings")}.Where(t=>t!=null))
             {
                 w.WriteLine(type.FullName);

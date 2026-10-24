@@ -145,6 +145,9 @@ namespace LuluFarm
         public void StopRecording(string reason = "stopped_by_operator")
         {
             bool wasRecording = IsRecording;
+            // A second stop (e.g. ambient sequence finished, then command-line quit) must not rewrite the
+            // status or stretch elapsedSeconds past the real last frame (r07 D7 REPRODUCE.md).
+            if (!wasRecording && concat == null && frameIndex == null) return;
             IsRecording = false; Status = reason;
             try
             {
