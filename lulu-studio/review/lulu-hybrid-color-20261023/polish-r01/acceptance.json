@@ -1,0 +1,4 @@
+{"revision":"polish-r01","base":"eye-r01","status":"POLISH_CANDIDATE_USER_REVIEW_PENDING","art_accepted":false,"blender_copy":false,
+ "scope":["muzzle colour upper edge","mouth line","head crown plateau refill (topology unchanged)","crown fruit shape/seat + leaf gathered"],
+ "evidence":["screenshots/polish-r01-full-vs-reference.png","screenshots/polish-r01-head-vs-reference.png","screenshots/polish-r01-head-gray-rake.png","screenshots/polish-r01-quarter.png","screenshots/eye-r01-vs-polish-r01-full.png"],
+ "known_remaining":["shorts back tail-removal fan crease","front crotch shading (form)","head side volume/neck/body/ears untouched"]}

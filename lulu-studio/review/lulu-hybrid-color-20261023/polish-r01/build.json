@@ -1,0 +1,23 @@
+{
+  "revision": "polish-r01",
+  "base": "eye-r01",
+  "base_sha256": "164deed1f1572673dfdc716238e864361dcdb4f17906103b5562e13e251b0a1f",
+  "output_sha256": "a9bc5557684ca97365931b8ac3bcfb4784097e1aa47e35516c3f7733160c1473",
+  "gray_sha256": "bb7739af1e8a573ba66bb821785dcc19ea641a222d6000ac56f49ab88057eddc",
+  "checks": {
+    "base_buffer_prefix_identical": true,
+    "nodes_identical": true,
+    "source_accessors_identical": true,
+    "other_meshes_identical": true,
+    "indices_unchanged": true,
+    "head_vertices_moved": 5367,
+    "fruit_vertices_moved": 18286,
+    "crown_faces_edited": 10983,
+    "crown_faces_facing_down": 4,
+    "crown_faces_facing_down_area_max": 1.1290785114180515e-05,
+    "base_unchanged": true
+  },
+  "all_checks_pass": true,
+  "status": "POLISH_CANDIDATE_USER_REVIEW_PENDING",
+  "blender_copy": "NOT MADE (no Blender here)"
+}

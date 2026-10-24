@@ -1,0 +1,211 @@
+{
+  "revision": "locomotion-r08",
+  "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/wardrobe-rig/full-r02/lulu-rig.glb",
+  "source_sha256": "38a474b3a9f75c05debda10fb29f50a84f668481373e8c16653a20a835007057",
+  "source_blend": "/Users/haowen/GameProject/farm-game/lulu-studio/assets-source/wardrobe-rig/full-r02/lulu-rig.blend",
+  "source_blend_sha256": "aa3f74d538366b1d617672ffcf5c911c481c3fb1d9c4718bc4068d1cb3346f05",
+  "model": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-game-lod0.glb",
+  "fbx": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-game-lod0.fbx",
+  "native": "/Users/haowen/GameProject/farm-game/lulu-studio/assets-source/unity-lulu/locomotion-r08/lulu-game-lod0.blend",
+  "master": "/Users/haowen/GameProject/farm-game/lulu-studio/assets-source/unity-lulu/locomotion-r08/lulu-locomotion-master.blend",
+  "clips": [
+    {
+      "name": "Idle",
+      "frames": 90,
+      "duration": 3.0,
+      "source_speed": 0.0,
+      "world_speed_at_height_1_2": 0.0
+    },
+    {
+      "name": "Walk",
+      "frames": 18,
+      "duration": 0.6,
+      "source_speed": 0.8666666666666667,
+      "world_speed_at_height_1_2": 0.5471864095732367
+    },
+    {
+      "name": "Run",
+      "frames": 12,
+      "duration": 0.4,
+      "source_speed": 2.0238095238095237,
+      "world_speed_at_height_1_2": 1.277770461915525
+    }
+  ],
+  "geometry": [
+    {
+      "part": "Head",
+      "original_triangles": 115512,
+      "game_triangles": 31978,
+      "uv_layers": [
+        "GameAtlas"
+      ],
+      "texture_size": 2048,
+      "bake": "matching original full-r02 part only, DIFFUSE COLOR, no lighting"
+    },
+    {
+      "part": "Orange",
+      "original_triangles": 41526,
+      "game_triangles": 2193,
+      "uv_layers": [
+        "GameAtlas"
+      ],
+      "texture_size": 512,
+      "bake": "matching original full-r02 part only, DIFFUSE COLOR, no lighting"
+    },
+    {
+      "part": "Body",
+      "original_triangles": 199808,
+      "game_triangles": 8926,
+      "uv_layers": [
+        "GameAtlas"
+      ],
+      "texture_size": 1024,
+      "bake": "matching original full-r02 part only, DIFFUSE COLOR, no lighting"
+    },
+    {
+      "part": "Shorts",
+      "original_triangles": 134104,
+      "game_triangles": 10992,
+      "uv_layers": [
+        "GameAtlas",
+        "FabricUV"
+      ],
+      "texture_size": 1024,
+      "bake": "matching original full-r02 part only, DIFFUSE COLOR, no lighting"
+    },
+    {
+      "part": "Leg_R",
+      "original_triangles": 64352,
+      "game_triangles": 4498,
+      "uv_layers": [
+        "GameAtlas"
+      ],
+      "texture_size": 512,
+      "bake": "matching original full-r02 part only, DIFFUSE COLOR, no lighting"
+    },
+    {
+      "part": "Leg_L",
+      "original_triangles": 59370,
+      "game_triangles": 4496,
+      "uv_layers": [
+        "GameAtlas"
+      ],
+      "texture_size": 512,
+      "bake": "matching original full-r02 part only, DIFFUSE COLOR, no lighting"
+    },
+    {
+      "part": "Arm_R",
+      "original_triangles": 20110,
+      "game_triangles": 3500,
+      "uv_layers": [
+        "GameAtlas"
+      ],
+      "texture_size": 512,
+      "bake": "matching original full-r02 part only, DIFFUSE COLOR, no lighting"
+    },
+    {
+      "part": "Arm_L",
+      "original_triangles": 46040,
+      "game_triangles": 3500,
+      "uv_layers": [
+        "GameAtlas"
+      ],
+      "texture_size": 512,
+      "bake": "matching original full-r02 part only, DIFFUSE COLOR, no lighting"
+    }
+  ],
+  "triangles": 70082,
+  "bones": 23,
+  "parts": 8,
+  "coordinates": {
+    "blender_up": "+Z",
+    "blender_forward": "-Y",
+    "gltf_up": "+Y",
+    "gltf_forward": "+Z",
+    "raw_height": 1.900632,
+    "unity_scale_for_height_1_2": 0.6313689341229654,
+    "ground_origin_offset_y": 0.950609,
+    "root_motion": "in place; Root does not translate; only Hips move locally"
+  },
+  "wardrobe": {
+    "part": "Shorts",
+    "texCoord": 1,
+    "uv_layer": "FabricUV",
+    "registry": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/wardrobe-rig/wardrobe.json"
+  },
+  "runtime": {
+    "animator": "Generic or glTFast legacy Animation",
+    "crossfade_seconds": 0.12,
+    "speed_multiplier": "clip playback rate scales with actual controller speed divided by world_speed_at_height_1_2",
+    "recommended_world_speeds_at_1_2_height": {
+      "walk": 0.5471864095732367,
+      "run": 1.277770461915525
+    },
+    "clip_transition": "CrossFade 0.12s. Grounded controller translates only parent root; do not apply additional root motion.",
+    "wardrobe_shader": "original rebaked GameAtlas uses UV0; blue-stars/watermelon fabric uses UV1 (FabricUV). Switch one Shorts material only."
+  },
+  "status": {
+    "technical": "source_glb_fbx_lod0_and_glb_lod1_reopened_pass",
+    "visual": "not_passed_seam_leg_top_defects_retained",
+    "user_art": "not_approved",
+    "integration": "user_authorized_temporary_replaceable_motion_candidate_2026-10-19",
+    "optimization": "independent_candidates_not_phone_final",
+    "device": "unverified"
+  },
+  "normal_revision": "Original part normals except Head uses its smooth normals to avoid projection from folded underside; source geometry same as r02.",
+  "lods": [
+    {
+      "name": "game-lod0",
+      "model": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-game-lod0.glb",
+      "native": "/Users/haowen/GameProject/farm-game/lulu-studio/assets-source/unity-lulu/locomotion-r08/lulu-game-lod0.blend",
+      "sha256": "68c991478ce2f3058fe3bb0a393d1730d5a9664d11f70323e6c32b50c9b5ea8b",
+      "bytes": 7767908,
+      "triangles": 70082,
+      "meshes": 8,
+      "materials": 8,
+      "images": 8,
+      "status": "technical readback passed; allowed temporary motion integration; visual defects retained"
+    },
+    {
+      "name": "game-lod1",
+      "model": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-game-lod1.glb",
+      "native": "/Users/haowen/GameProject/farm-game/lulu-studio/assets-source/unity-lulu/locomotion-r08/lulu-game-lod1.blend",
+      "sha256": "e9044b23cf0164e762d15cf30606971d7e371eb337bf24b87e1411d68d83f090",
+      "bytes": 4802688,
+      "triangles": 37342,
+      "meshes": 8,
+      "materials": 8,
+      "images": 8,
+      "status": "technical readback passed; allowed temporary motion integration; visual defects retained"
+    }
+  ],
+  "limitations": [
+    "Original modular side waist seam remains visible in Run close-up. Two concealed-patch placement attempts still exposed new lumps and did not remove the original defect; that route stopped.",
+    "Run1/7 forward feet expose upper-leg detail/jagged transition; r09/r10 local cap repair created a visible band and was not adopted.",
+    "No jump, crouch, swim or high-cut clothing coverage.",
+    "Unity runtime transition/collision and mobile acceptance are separate from native motion checks.",
+    "70k LOD0 retains face shape; 37k LOD1 is a candidate, not a validated phone budget."
+  ],
+  "locomotion_repair": "Visible short legs rigid to Foot; original coordinates, normals, UV0 and FabricUV unchanged. No waist patch used; original waist seam remains unresolved.",
+  "latest_motion_changes": [
+    "All visible leg vertices rigid to respective Foot to preserve rounded foot volume; two-bone IK still drives knee/Shorts and foot movement.",
+    "Original surface vertex coordinates, source body shape, facial texture and FabricUV unchanged.",
+    "Failed waist band/patches are excluded from r08."
+  ],
+  "review": "/Users/haowen/GameProject/farm-game/lulu-studio/review/unity-integration-20261018/lulu/locomotion-r08",
+  "replacement_contract": {
+    "purpose": "Current Lulu is replaceable. Latest user instruction prioritizes moving inside farm, defers model art repair.",
+    "keep_api": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "root_motion": "in place; controller owns translation",
+    "character_height": 1.2,
+    "forward": "+Z in glTF/Unity",
+    "feet_origin": "use bounds minY; source y=-.950609 before scaling",
+    "material_slots": "Head, Orange, Body, Shorts, Leg_R, Leg_L, Arm_R, Arm_L",
+    "optional_wardrobe": "Shorts UV1 FabricUV",
+    "art_gate": "not passed; do not infer acceptance from use in runnable integration"
+  }
+}

@@ -49,3 +49,23 @@
 *.data.raw
 *.timeline.json.gz
 *.blend1
+
+# Current Opus O1 work and its exact source/rig/wardrobe dependencies.
+!/lulu-studio/review/
+/lulu-studio/review/*
+!/lulu-studio/review/lulu-game-r*/
+!/lulu-studio/review/lulu-hybrid-color-20261023/
+/lulu-studio/review/lulu-hybrid-color-20261023/*
+!/lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/
+!/lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/
+!/lulu-studio/review/lulu-hybrid-color-20261023/reference/
+!/lulu-studio/public/
+/lulu-studio/public/*
+!/lulu-studio/public/models/
+/lulu-studio/public/models/*
+!/lulu-studio/public/models/unity-lulu/
+/lulu-studio/public/models/unity-lulu/*
+!/lulu-studio/public/models/unity-lulu/locomotion-r08/
+!/lulu-studio/public/models/wardrobe-rig/
+/lulu-studio/public/models/wardrobe-rig/*
+!/lulu-studio/public/models/wardrobe-rig/materials-v2/

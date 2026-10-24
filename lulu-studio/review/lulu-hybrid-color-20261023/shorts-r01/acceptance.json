@@ -1,0 +1,6 @@
+{"revision":"shorts-r01","base":"polish-r01","status":"SHORTS_REPAIR_CANDIDATE_USER_REVIEW_PENDING","art_accepted":false,"blender_copy":false,
+ "user_decision_20261024":"Use polish-r01 as the new Lulu for the game; fix shorts back crease first.",
+ "scope":["shorts back tail-removal fan crease","waistband step continued across former gap"],
+ "evidence":["screenshots/shorts-r01-color-before-after.png","screenshots/shorts-r01-gray-rake-before-after.png","screenshots/shorts-r01-angles-before-after.png","build.json"],
+ "known_remaining":["faint patch boundary trace under extreme close rake light","side-of-shorts dark slit near arm and horizontal pocket-like groove (out of scope)","front crotch shading is form, unchanged"],
+ "next":"game derivative: decimate, bake vertex colour+face decal to texture, transfer skin weights to the 23-bone rig, rebuild FabricUV for wardrobe"}

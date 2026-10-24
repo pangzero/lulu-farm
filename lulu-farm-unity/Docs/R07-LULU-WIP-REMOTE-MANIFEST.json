@@ -1,0 +1,371 @@
+{
+  "purpose": "Preserve and hand off current Opus O1 work without modifying originals",
+  "date": "2026-10-24",
+  "scope": [
+    "lulu-studio/review/lulu-game-r01",
+    "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01",
+    "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01",
+    "lulu-studio/review/lulu-hybrid-color-20261023/reference",
+    "lulu-studio/public/models/unity-lulu/locomotion-r08",
+    "lulu-studio/public/models/wardrobe-rig/materials-v2"
+  ],
+  "status": "Work in progress; user art acceptance and Unity replacement pending",
+  "files": [
+    {
+      "path": "lulu-studio/review/lulu-game-r01/HANDOFF.md",
+      "bytes": 3790,
+      "sha256": "60d3757e813702aad5d2d9ed4fb4e16c737e7f9dbcfba37335a2537bd627c249"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/lulu-game-lod0-wip.glb",
+      "bytes": 1967252,
+      "sha256": "50f4a16bbf394f2c1320afb005f9f2a5e2da0b4466d1ea2f8ef2ed02677c1acc",
+      "externalURIs": [],
+      "animations": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "skinJointCounts": [
+        23
+      ]
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/screenshots/anim-walk-run-idle.png",
+      "bytes": 539667,
+      "sha256": "768f72ff296bf5dcd91fce8366d60b7b97bd374e888c0841b0d09502eb249c79"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/screenshots/run-shorts-r08-vs-new.png",
+      "bytes": 416785,
+      "sha256": "b2ef6d83178b3066d64fc6ce35574d4cc349aaad558ef56975f4b13eb4e41171"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/screenshots/static-source-vs-lod0.png",
+      "bytes": 458330,
+      "sha256": "3335102fc86eb95516ea4db7306ba26ddd93767995238a1fe3e8e1e72c8ee209"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/Simplify.h",
+      "bytes": 28821,
+      "sha256": "ecbab4df6be3aaac7b240577f96e32244d96b0ee7c63cc10d924eb7bf6aa46f9"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/build_game.py",
+      "bytes": 18427,
+      "sha256": "1c90009190882cbef75068480a6bdececb386ea63b5f8e66272b8a9b72cfbb5f"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/check_eyes.py",
+      "bytes": 3159,
+      "sha256": "f6fe3f7c6f89dd99bf174910d5be60c16dbe26718083fecb826ab5b3eefe58b1"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/clh.py",
+      "bytes": 9920,
+      "sha256": "58c27c490f651e8afe76269296389b5375d765a891724fe7476ca138d71df5ce"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/decim.py",
+      "bytes": 1529,
+      "sha256": "6c481a733532463bea6866c0961a0c5f180228a5050738da6db33c3c12822b05"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/gait.py",
+      "bytes": 3366,
+      "sha256": "8b0a1bb2b831ffe961c4c777c0502afd9e5da6d7d107ce8a24e4cddf60f9450c"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/geo.py",
+      "bytes": 3761,
+      "sha256": "9850b56570dd84cf7a304c3ac32c0d0c33d4547f49a105ffd945ac4f6d33f431"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/newparts.py",
+      "bytes": 1297,
+      "sha256": "6fd7763d2eb72d00d2cc0b119d5a15a005c6e615b0023b98e2e8dfa767388516"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/pose.py",
+      "bytes": 5171,
+      "sha256": "0538549487133a96c206b189a3411b45b1e34f096806c03417462792ec653be3"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/qem/qem",
+      "bytes": 59264,
+      "sha256": "d8fe039171a88d21899c82a597ccc350f5c9ec06bb9d4ba9f17765837d9493ce"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/qem.cpp",
+      "bytes": 1371,
+      "sha256": "5ad9be5384ebe6894e7ad20a6a6fd81dcbc1ac77236d9c3d4516d239a5d1cc1e"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/render_lulu.py",
+      "bytes": 5850,
+      "sha256": "b94a7c7fbdcef1953a9d77768bf178b1acd9f1cbaaca00d332bb1efabcac5387"
+    },
+    {
+      "path": "lulu-studio/review/lulu-game-r01/tools/run_edit.py",
+      "bytes": 8502,
+      "sha256": "3afe3972a9146ff02a079dee34e61d837ed25f0bc66b940511775d45752dc9ee"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/README.md",
+      "bytes": 2923,
+      "sha256": "c5b18690ff276bfdfd2b8b212ad592967810062e7d4badb90df210b5387733fb"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/acceptance.json",
+      "bytes": 880,
+      "sha256": "8ca211f60888b0304102ef252365eef07b7ee7ff5e30e3190408af738adcacfd"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/body-wrap-basecolor.png",
+      "bytes": 117383,
+      "sha256": "b6a3b8e6cdcfd06fcea094b132020b0d3355925e7c8edb5dcd8b41ed908970e4"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/build.json",
+      "bytes": 1112,
+      "sha256": "d717536afd32f269fc5a1fbdd879654002d195c31da5518a4748ae357bd608b6"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/lulu-colored-portable.glb",
+      "bytes": 69334784,
+      "sha256": "8537ae7e7a0a52343472f9b84d2959169f51ecac9725db8e76ffdbefb843a39a",
+      "externalURIs": [],
+      "animations": [],
+      "skinJointCounts": []
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/lulu-colored.glb",
+      "bytes": 64204640,
+      "sha256": "715dc35142aec27ec57cd28715c688fbda1b7b77aaad998185649f9ecf759803",
+      "externalURIs": [],
+      "animations": [],
+      "skinJointCounts": []
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/lulu-shorts-r01-neutral-gray.glb",
+      "bytes": 64204544,
+      "sha256": "4b17aa3965e6d95c41ef58704b65afbe2919e2b44d1f712b4dcb6d6074121b4a",
+      "externalURIs": [],
+      "animations": [],
+      "skinJointCounts": []
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/screenshots/shorts-r01-angles-before-after.png",
+      "bytes": 191307,
+      "sha256": "9146bf7753d8412968b1f5e5c6ee15630326677bcb7ea7b9ebca77945df2a221"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/screenshots/shorts-r01-color-before-after.png",
+      "bytes": 189598,
+      "sha256": "a6161d16292ea141538cbdb9a94a2955bc1cd365fbe7a4c3fe32a12c2021e4a4"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/screenshots/shorts-r01-gray-rake-before-after.png",
+      "bytes": 247754,
+      "sha256": "48a1ef5fe7dfb176564ee82fa9cdef9d0aba790278e762dc1e54493568da4de8"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/shorts-params.json",
+      "bytes": 673,
+      "sha256": "58caf4a986f984a34d575f75b2a9ad67c931abb5a9cbb4703deedc0ddcc720a6"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/shorts-r01/shorts-patch.npz",
+      "bytes": 101676,
+      "sha256": "317f2705fa8da8c7e1d5e2be69749c97ddbe5dd0124c7bf39333b6491fd551a6"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/README.md",
+      "bytes": 3155,
+      "sha256": "fd220c3721f9dde56322cb7d21e63e0b7771c0ce28e1832ea6c64ba34904a816"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/acceptance.json",
+      "bytes": 644,
+      "sha256": "4011fbb174495514dce238e3e0e50eacb0cfdbebffa22f4fb0dea506344cda73"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/body-wrap-basecolor.png",
+      "bytes": 117383,
+      "sha256": "b6a3b8e6cdcfd06fcea094b132020b0d3355925e7c8edb5dcd8b41ed908970e4"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/build.json",
+      "bytes": 858,
+      "sha256": "392e9c2b7d2fcfd39a2608ecfa0edf1699d146b02bc8864c23fcfcbf31893535"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/face-basecolor.png",
+      "bytes": 157208,
+      "sha256": "ee8d266a8219b10e6e3a5d7b0281e6c4c7ef52201af95beca21ef112e516f45d"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/face-metalrough.png",
+      "bytes": 18523,
+      "sha256": "907062033e4b70895d84ae134137d4ba36eebcb1b1672db9e20359029ca8550b"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/lulu-colored-portable.glb",
+      "bytes": 67717424,
+      "sha256": "48ef1d37e2f2d25f2ee2320981899a84a1f5677a684b5bf22fa78f4774c59aa6",
+      "externalURIs": [],
+      "animations": [],
+      "skinJointCounts": []
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/lulu-colored.glb",
+      "bytes": 62587272,
+      "sha256": "a9bc5557684ca97365931b8ac3bcfb4784097e1aa47e35516c3f7733160c1473",
+      "externalURIs": [],
+      "animations": [],
+      "skinJointCounts": []
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/lulu-polish-r01-neutral-gray.glb",
+      "bytes": 62587176,
+      "sha256": "bb7739af1e8a573ba66bb821785dcc19ea641a222d6000ac56f49ab88057eddc",
+      "externalURIs": [],
+      "animations": [],
+      "skinJointCounts": []
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/polish-params.json",
+      "bytes": 506,
+      "sha256": "9d0b5a60dd2653c02ce466e9809176acdeb1dd7f2dc0306569bf46f501ac251f"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/polish-patch.npz",
+      "bytes": 3322815,
+      "sha256": "7fdc6998152d94786047360018e4bbb36a019f799818292a97d1a885b9ed785b"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/screenshots/eye-r01-vs-polish-r01-full.png",
+      "bytes": 338524,
+      "sha256": "e47689cc536a6a987e306f25b26fdada66c6ce1c8adae9613295d602ca5bf163"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/screenshots/polish-r01-full-vs-reference.png",
+      "bytes": 661591,
+      "sha256": "82123c3e6f886e6bf4d5f6d680d1d42608656cd969919607be5f16b163669c69"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/screenshots/polish-r01-head-gray-rake.png",
+      "bytes": 313626,
+      "sha256": "19994954c390dceccc29336eda829abad6ca16d0a8aecd0bf986327d34343703"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/screenshots/polish-r01-head-vs-reference.png",
+      "bytes": 650868,
+      "sha256": "2d1893b5326e67a5c1a16cf1364f59c2b19d305bdf7cdcff91883d736bf2260b"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/polish-r01/screenshots/polish-r01-quarter.png",
+      "bytes": 116701,
+      "sha256": "40cf44d75a1651038dbd572c4fd59dc027b07b10b8961da53a223cf6dfa61c1d"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/reference/back.png",
+      "bytes": 104409,
+      "sha256": "d0ae6d0f5017d109adc4e58bbf381f486b23ecb1e64469d754db2a09151f513e"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/reference/front.png",
+      "bytes": 133443,
+      "sha256": "fc9e142e72db4b95b642a81beaae957da0ad17cb2ccb2ec02f2fd171ac36c444"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/reference/full-back.png",
+      "bytes": 237992,
+      "sha256": "f9d652db08fba05746b947a9918d22f3bfc830845b078973a57039ecd1fc7f9a"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/reference/full-front.png",
+      "bytes": 285009,
+      "sha256": "db144a80dcb56f25cf5b015f34b371d62718d55fda96b96d86281c35f2d70a75"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/reference/full-side.png",
+      "bytes": 238633,
+      "sha256": "0174dbfd8faba9b95a0fb852eb8fc88eac223a28e424ccf4a4881a1ca5aedba7"
+    },
+    {
+      "path": "lulu-studio/review/lulu-hybrid-color-20261023/reference/side.png",
+      "bytes": 105974,
+      "sha256": "fe9f624901454a9c792622ddeab93d705c87eb8ff0530173d42cf262ebff0b43"
+    },
+    {
+      "path": "lulu-studio/public/models/unity-lulu/locomotion-r08/README.md",
+      "bytes": 2340,
+      "sha256": "ff7a9168317da7563ec6de33dc6e3c719cf37683fd40a6e5f6746eae10358356"
+    },
+    {
+      "path": "lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-game-lod0.fbx",
+      "bytes": 7901148,
+      "sha256": "e01f8d09581f73ee44382cc9727cc6c975dd06045c224e3957f144110506a417"
+    },
+    {
+      "path": "lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-game-lod0.glb",
+      "bytes": 7767908,
+      "sha256": "68c991478ce2f3058fe3bb0a393d1730d5a9664d11f70323e6c32b50c9b5ea8b",
+      "externalURIs": [],
+      "animations": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "skinJointCounts": [
+        23
+      ]
+    },
+    {
+      "path": "lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-game-lod1.glb",
+      "bytes": 4802688,
+      "sha256": "e9044b23cf0164e762d15cf30606971d7e371eb337bf24b87e1411d68d83f090",
+      "externalURIs": [],
+      "animations": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "skinJointCounts": [
+        23
+      ]
+    },
+    {
+      "path": "lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-locomotion-master.glb",
+      "bytes": 38429348,
+      "sha256": "f15570a6fa62070b9e75567236b836326d8ba1159ea684a076228f351c0c6139",
+      "externalURIs": [],
+      "animations": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "skinJointCounts": [
+        23
+      ]
+    },
+    {
+      "path": "lulu-studio/public/models/unity-lulu/locomotion-r08/manifest.json",
+      "bytes": 8356,
+      "sha256": "fe93c4c44993473bc337e6833a82a3cfcf96b7fbe13f270371ea60ca9ef7fee5"
+    },
+    {
+      "path": "lulu-studio/public/models/wardrobe-rig/materials-v2/blue-stars.png",
+      "bytes": 18924,
+      "sha256": "1bc767f19aeba8104345df326b7844f846854ae694712b56c3aa6701ede3adb3"
+    },
+    {
+      "path": "lulu-studio/public/models/wardrobe-rig/materials-v2/watermelon.png",
+      "bytes": 25657,
+      "sha256": "6421b371636ea9b371c7e9206c343f7123d11bebe75f578e19e950f126a7f63f"
+    }
+  ],
+  "fileCount": 60,
+  "bytes": 460789639
+}

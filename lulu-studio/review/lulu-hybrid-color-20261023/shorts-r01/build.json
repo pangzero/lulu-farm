@@ -1,0 +1,30 @@
+{
+  "revision": "shorts-r01",
+  "base": "polish-r01",
+  "base_sha256": "a9bc5557684ca97365931b8ac3bcfb4784097e1aa47e35516c3f7733160c1473",
+  "output_sha256": "715dc35142aec27ec57cd28715c688fbda1b7b77aaad998185649f9ecf759803",
+  "gray_sha256": "4b17aa3965e6d95c41ef58704b65afbe2919e2b44d1f712b4dcb6d6074121b4a",
+  "checks": {
+    "base_buffer_prefix_identical": true,
+    "nodes_identical": true,
+    "materials_images_identical": true,
+    "source_accessors_identical": true,
+    "other_meshes_identical": true,
+    "shorts_primitive2_identical": true,
+    "patch_outer_triangles": 7124,
+    "patch_outer_vertices": 3619,
+    "patch_outer_edges_manifold": true,
+    "patch_boundary_edges": 112,
+    "patch_boundary_welded_to_main": true,
+    "patch_outer_faces_outward": true,
+    "patch_outer_degenerate_faces": 0,
+    "main_faces_removed": 181,
+    "patch_inner_faces_kept": 1903,
+    "inner_gap_min_local": 0.007469117641448975,
+    "inner_behind_outer": true,
+    "base_unchanged": true
+  },
+  "all_checks_pass": true,
+  "status": "SHORTS_REPAIR_CANDIDATE_USER_REVIEW_PENDING",
+  "blender_copy": "NOT MADE"
+}

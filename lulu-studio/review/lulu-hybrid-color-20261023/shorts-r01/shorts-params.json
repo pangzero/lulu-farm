@@ -1,0 +1,12 @@
+{
+  "method": "outer back patch re-triangulated (hex grid ~4 mm local + 1 mm band at waistband step, constrained Delaunay to existing hole boundary) with height from thin-plate spline fitted to surrounding shorts surface; waistband step continued across with smoothstep profile; boundary normals matched to main mesh where within 35 deg, 1 cm blend",
+  "local_units": "Shorts node local (assembly scale 0.57 -> world)",
+  "region_margin": 0.01,
+  "grid_spacing": 0.004,
+  "band_width_W": 0.003,
+  "step_height": 0.004318240839737886,
+  "step_centerline": "y = -0.457 + 0.0667 x^2 (local)",
+  "boundary_normal_match_deg": 35,
+  "boundary_blend": 0.01,
+  "tps_samples": 282
+}
