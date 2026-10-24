@@ -16,10 +16,11 @@ Shader "LuluFarm/Waterfall-r09"
  CBUFFER_START(UnityPerMaterial)
  half4 _Water; half4 _Foam; float _Speed;
  CBUFFER_END
+ float _FarmR07Time;   // r07 ambient clock (FarmAmbientR07): pauses with the game, 0 in fixed captures
  struct A {float4 p:POSITION;float2 uv:TEXCOORD0;}; struct V{float4 p:SV_POSITION;float2 uv:TEXCOORD0;float fog:TEXCOORD1;};
  V vert(A v){V o;o.p=TransformObjectToHClip(v.p.xyz);o.uv=v.uv;o.fog=ComputeFogFactor(o.p.z);return o;}
  half4 frag(V i):SV_Target {
-  float x=i.uv.x, y=i.uv.y, t=_Time.y*_Speed;
+  float x=i.uv.x, y=i.uv.y, t=_FarmR07Time*_Speed;
   float lane=floor(x*9.0);
   float offset=frac(sin(lane*12.9898)*43758.5453);
   float streak=frac((y-t)*.45+offset);

@@ -20,10 +20,11 @@ Shader "LuluFarm/SkyCloud-r09"
  CBUFFER_START(UnityPerMaterial)
  half4 _Lit; half4 _Shade; float _Drift; float _OwnFog; float _OwnFogStart; float _OwnFogEnd; half4 _OwnFogColor;
  CBUFFER_END
+ float _FarmR07Time;   // r07 ambient clock (FarmAmbientR07): pauses with the game, 0 in fixed captures
  struct A {float4 p:POSITION;float3 n:NORMAL;}; struct V{float4 p:SV_POSITION;float3 n:TEXCOORD0;float fog:TEXCOORD1;float dist:TEXCOORD2;};
  V vert(A v){
   V o;float3 w=TransformObjectToWorld(v.p.xyz);
-  float t=_Time.y;
+  float t=_FarmR07Time;
   w.xz+=float2(sin(t*.05+w.z*.03),cos(t*.04+w.x*.03))*_Drift;
   w.y+=sin(t*.07+w.x*.05+w.z*.04)*.25*_Drift;
   o.p=TransformWorldToHClip(w);o.n=TransformObjectToWorldNormal(v.n);o.fog=ComputeFogFactor(o.p.z);
