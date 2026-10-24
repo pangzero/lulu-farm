@@ -1,0 +1,470 @@
+{
+  "createdBy": "python3 Scripts/r07-evidence-index.py O6 --before D6",
+  "snapshotsCreatedOnce": true,
+  "files": [
+    {
+      "file": "before/Assets/Farm/Editor/FarmDecorScatter.cs",
+      "source": "Assets/Farm/Editor/FarmDecorScatter.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 9223,
+      "sha256": "c9db64258ef70b295f85908da922e65c17cff23a0ffd067995d4f66fe9887c8a",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmGroundPolishR07.cs",
+      "source": "Assets/Farm/Editor/FarmGroundPolishR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 6896,
+      "sha256": "9ee1138e72dddefc3560f34bd060fe474b847d428a84e2137c947a70fc5d7cb6",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmLandscapePolish.cs",
+      "source": "Assets/Farm/Editor/FarmLandscapePolish.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 21343,
+      "sha256": "7b0ba95a7b7e5d4756fd8396713b5ea7e103e667eecae52b566e2da5705aa2a4",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmLivingSetupR07.cs",
+      "source": "Assets/Farm/Editor/FarmLivingSetupR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 11507,
+      "sha256": "038d1d43a7dc7f08dc2304d1f787fae8557e2f7d6b48f9d40bc3faba23848d3b",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmProfilerExportR07.cs",
+      "source": "Assets/Farm/Editor/FarmProfilerExportR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 5942,
+      "sha256": "db43b73696277618312fc1e1aee773ec86f473cdc4b3c200c923c956426a6dc0",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmProjectBuilder.cs",
+      "source": "Assets/Farm/Editor/FarmProjectBuilder.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 54563,
+      "sha256": "ddd6d6b256b66a13e2b96102a8959826fcf66c80615ad859a0581eb0ad17d1fd",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmRenderSettingsR07.cs",
+      "source": "Assets/Farm/Editor/FarmRenderSettingsR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 4869,
+      "sha256": "c3ad0137e8aa9b18d2b69ce59bc66319e52a7c3b2ab9cd0a2f7af4944d4c306c",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmReviewShotsR07.cs",
+      "source": "Assets/Farm/Editor/FarmReviewShotsR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 4358,
+      "sha256": "abbdf635928ebb48a9c2786fb1729a4df257910b555595c39c1c5588ece30fae",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmRouteClearanceR07.cs",
+      "source": "Assets/Farm/Editor/FarmRouteClearanceR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 3185,
+      "sha256": "00275798d24f2d0066c93842c0c14ac2486d3b5060acad4b90ecdb6dcbf35a88",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Scenes/FarmWorld.unity",
+      "source": "Assets/Farm/Scenes/FarmWorld.unity",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 1583972,
+      "sha256": "50b3989b3c3b0a72fc9f904f0a37d4c0b5bec4b456cd0687f1b9aab86207cb04",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs",
+      "source": "Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 4697,
+      "sha256": "ae435f9f1d035b5203a2bbd9b052a3a6d6e9bf3f5c5b15b5eef7f266b7462728",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmAmbientR07.cs",
+      "source": "Assets/Farm/Scripts/Runtime/FarmAmbientR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 4154,
+      "sha256": "90dfc1a7876c5b567aa34f0f054deab76cb0254605cf81ea2badb5f0636ea1d9",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmOutputAudioCaptureR07.cs",
+      "source": "Assets/Farm/Scripts/Runtime/FarmOutputAudioCaptureR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 2588,
+      "sha256": "e851939a2e865dc83eefb397df20e93eea7ce1f423fbdc29e3ea4816d4cdf353",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmPresentationModeR07.cs",
+      "source": "Assets/Farm/Scripts/Runtime/FarmPresentationModeR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 6606,
+      "sha256": "9b1a2fa23f912ebf37a6d137896b8b6dd7d8f76973a6402bb4dbeb472ab92c9d",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs",
+      "source": "Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 3492,
+      "sha256": "8e98f87d9b767e29bbcc965996727b5d79a65fef658114bb956a7b5dc524bcd9",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmRenderQualityR07.cs",
+      "source": "Assets/Farm/Scripts/Runtime/FarmRenderQualityR07.cs",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 946,
+      "sha256": "45fcd0d2c7ee2fd2c22bd98c0b4f8cf0b14ae7b3efca27c38bedc336cf724d7e",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Settings/DesktopURP.asset",
+      "source": "Assets/Farm/Settings/DesktopURP.asset",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 4689,
+      "sha256": "766a385af6aecc663461083e3b8a2f1876890544ce0030e7b9dbab62a6ce3834",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Settings/FarmDesktopRenderer.asset",
+      "source": "Assets/Farm/Settings/FarmDesktopRenderer.asset",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 2690,
+      "sha256": "6601928772859f8a98eedac1a6539c59d917bbd5eccfa47908c4b4e5835f78e2",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Settings/FarmGlobalVolume-r03.asset",
+      "source": "Assets/Farm/Settings/FarmGlobalVolume-r03.asset",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 5232,
+      "sha256": "7eb68eac372455f0b7e5ad4f35ea2bc228ab6420884dfd65adffa0a3497dd00b",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Settings/FarmRenderer.asset",
+      "source": "Assets/Farm/Settings/FarmRenderer.asset",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 1917,
+      "sha256": "1054f597382e6d3c34d1ab1b5f0b89bc5282859d9b6423a424870e1ef1d361ff",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Settings/MobileURP.asset",
+      "source": "Assets/Farm/Settings/MobileURP.asset",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 4691,
+      "sha256": "c722adc0d0fc64775fc26053cd8875394716c91ec8ebb87f9d1e43a2f6cefa75",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmGround-r03.shader",
+      "source": "Assets/Farm/Shaders/FarmGround-r03.shader",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 6756,
+      "sha256": "34282f01a347a60a43c080b56255a713205547a5930a1787a833f84a4b46e5db",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmGround-r04.shader",
+      "source": "Assets/Farm/Shaders/FarmGround-r04.shader",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 7110,
+      "sha256": "70a111919320a6aee8cbc2b6397d52f4e40df599d92459ad7a89b2691dedb233",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmLivingSurface-r07.shader",
+      "source": "Assets/Farm/Shaders/FarmLivingSurface-r07.shader",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 5843,
+      "sha256": "700d7cdeb4efb950f1bb88f10414d63129f608694c99a78140cacc0b2b8f4800",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmLivingSurface-r08.shader",
+      "source": "Assets/Farm/Shaders/FarmLivingSurface-r08.shader",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 5972,
+      "sha256": "f2d4968a52b439d0ed1fa4752930c2e49e0e3216514d513c37105a7a1cd611cd",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmOcclusionDither-r08.shader",
+      "source": "Assets/Farm/Shaders/FarmOcclusionDither-r08.shader",
+      "sourceKind": "current_cfb6818_project_before_execution",
+      "bytes": 6675,
+      "sha256": "c8ac364e61a1d9f433762ff909dfc8cbb7bd0d9eef41fab741ba31a23999f98a",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/dock.png",
+      "source": "Evidence/r07/D6/fixed/dock.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1070696,
+      "sha256": "d26a54d31e55f46104084f2d045b10adf15f0c9da4f0b69bbb3364d0107d3cf8",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/field-fence.png",
+      "source": "Evidence/r07/D6/fixed/field-fence.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1171004,
+      "sha256": "479b6705e0d301590499b52140fb1734751306d5a2236491025d8acc495cef2d",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/fields.png",
+      "source": "Evidence/r07/D6/fixed/fields.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1235633,
+      "sha256": "25285b52b069c955a575661c7b8bcb4e16b4f1020aa73ca01112bc1316383450",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/house-back.png",
+      "source": "Evidence/r07/D6/fixed/house-back.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 958877,
+      "sha256": "131143e359e7f0ff9c1783f4ceb7be609fc6d209da169664651b0cf324daf6cf",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/house-front.png",
+      "source": "Evidence/r07/D6/fixed/house-front.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1054124,
+      "sha256": "d4806b5e4f3710d2da40222760c07a03946407483588000aa8afc48c2078ab9b",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/landscape-back.png",
+      "source": "Evidence/r07/D6/fixed/landscape-back.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 985387,
+      "sha256": "9f255b24c5c82a0393d838c6f90a21f75458043c3cd03fc2f0b2aef348084cc6",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/overview-close-diagnostic.png",
+      "source": "Evidence/r07/D6/fixed/overview-close-diagnostic.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1330283,
+      "sha256": "732a9bfa23b22ddfe2cae3ec9e26861a82d21f05bd2e3711518caba0f9b300e4",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/overview.png",
+      "source": "Evidence/r07/D6/fixed/overview.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 785702,
+      "sha256": "c04280c1ab6212c33fa0ce8940636504a80d8758276f79b4dd4b05480accb30d",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/pasture.png",
+      "source": "Evidence/r07/D6/fixed/pasture.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1154801,
+      "sha256": "650fe642b1cc255c8b886032b6bf5d0cc6e466bb7aac119c7a57d6d0b59ac23b",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/pond-east.png",
+      "source": "Evidence/r07/D6/fixed/pond-east.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1135462,
+      "sha256": "181242d2876ac182963aae3b4ce50528f50bf4e562fb9096818fcaccf009872c",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/pond.png",
+      "source": "Evidence/r07/D6/fixed/pond.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1087659,
+      "sha256": "88aeea4304bd99ced82e3ab41640ffad84cb37f6c81817585765844b621527f2",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/review-settings.json",
+      "source": "Evidence/r07/D6/fixed/review-settings.json",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 5966,
+      "sha256": "a890db6aa95221579b0c68bf0de7c5fcce35589c7024f31c8a0be80faf0fce1e",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed/spawn.png",
+      "source": "Evidence/r07/D6/fixed/spawn.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1286427,
+      "sha256": "a3751c76e70885596ff54d3de9c66bd716ba6032e46a4f5dc9b0a743c2ff6faa",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/close-field-shadow.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/close-field-shadow.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1698921,
+      "sha256": "bf6c384fc889c6eb631ce90d953b1f43c96935011927cc0b390533166a12ed72",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/close-house-road.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/close-house-road.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1065810,
+      "sha256": "78111f1f1aeae9ba6226ef836dab7f84268c7920948bf41768634e783946057b",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/close-house-shadow.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/close-house-shadow.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1026126,
+      "sha256": "2ee95cbba74d523433673891be331d7da750244a4ac6d1c68eb85fed9b7a4f2f",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/close-pasture-gate.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/close-pasture-gate.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 920750,
+      "sha256": "10ef13e2ad631c5d3d777ee59e8946117b057ea7cc1884dfcae7848cbd9e9aa2",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/close-pond-road.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/close-pond-road.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1116739,
+      "sha256": "fa5311d049bd0e3a1dc9b94cf31fd310e6bb555182b2bc6a66bcd311726ff9d3",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/close-tree-shadow.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/close-tree-shadow.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 960346,
+      "sha256": "082ada4bbbd9f00debfaa9899dc57cc9a26bedce678e2071775120c44bf4e374",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/dock.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/dock.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1122384,
+      "sha256": "ed5aa038ff292ad367daf7c9ba541b8a60e0c0c790163f654c19bba6eab0e414",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/field-fence.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/field-fence.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1225737,
+      "sha256": "589d4872135a346a910ca1f40858f9f77c935c77cc319389c2dd3599905e0544",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/fields.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/fields.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1279063,
+      "sha256": "45ec617e82f53ca5e5ad196fdc83d3e0689307a68a791732e03b6838169249ad",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/house-back.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/house-back.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1014135,
+      "sha256": "245871c537e72ff03bb5eba8e8aac7f86972c62d4f4a4a4ee72dce628e03e562",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/house-front.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/house-front.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1113954,
+      "sha256": "b9d58d3962fab1c38c4ae3c6922dc60a92b19b877b0377a4a912dc79c4a18d96",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/landscape-back.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/landscape-back.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1046921,
+      "sha256": "f9e0ef065e4c717587fb80a1dfec11346f0653d9b68c6168c366afe8a7e0edbf",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/overview-close-diagnostic.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/overview-close-diagnostic.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1357220,
+      "sha256": "167df0e3b6116b5c0bb1edaf3fae2afb406cf64809438ad12ba3363c8de41072",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/overview.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/overview.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 816033,
+      "sha256": "91feed0a37dc172e0cade7ee8e16b1938eb8b6409144b4fc3277aed93cde2d1e",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/pasture.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/pasture.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1196857,
+      "sha256": "ffacf961dcdddd67add747cba554d2d6c7b4fad603df20a764b15e28b7b424c3",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/pond-east.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/pond-east.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1185246,
+      "sha256": "5f0f2f38b2c436612edc62253e0cfbf732d143213a25c42db964772cc01b2cc2",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/pond.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/pond.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1144403,
+      "sha256": "2298641c267e739fac82ebea59e816c652ab9fd8521292db6b16b4a46d88cb8f",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/review-settings.json",
+      "source": "Evidence/r07/D6/fixed-pp-on/review-settings.json",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 9100,
+      "sha256": "32b2101156e007d1fbf37306ca1c5795f83ca9c70b8d599b7480b1416a64da27",
+      "sourceBytesIdentical": true
+    },
+    {
+      "file": "before/fixed-pp-on/spawn.png",
+      "source": "Evidence/r07/D6/fixed-pp-on/spawn.png",
+      "sourceKind": "historical_D6_evidence",
+      "bytes": 1324266,
+      "sha256": "c66cd371313604d10e89be044d71652305569248bfbfb9767c9c3f7b923dbc91",
+      "sourceBytesIdentical": true
+    }
+  ]
+}

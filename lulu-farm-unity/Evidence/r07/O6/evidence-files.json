@@ -1,0 +1,347 @@
+{
+  "scope": "All files in Evidence/r07/O6 except this manifest itself",
+  "fileCount": 68,
+  "totalBytes": 35891538,
+  "files": [
+    {
+      "file": "REPORT.md",
+      "bytes": 8751,
+      "sha256": "8d806c9869c348d2d7c6e29a2ee427e3085f09a4473fb45950615af0ad8724dc"
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmDecorScatter.cs",
+      "bytes": 9223,
+      "sha256": "c9db64258ef70b295f85908da922e65c17cff23a0ffd067995d4f66fe9887c8a"
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmGroundPolishR07.cs",
+      "bytes": 6896,
+      "sha256": "9ee1138e72dddefc3560f34bd060fe474b847d428a84e2137c947a70fc5d7cb6"
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmLandscapePolish.cs",
+      "bytes": 21343,
+      "sha256": "7b0ba95a7b7e5d4756fd8396713b5ea7e103e667eecae52b566e2da5705aa2a4"
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmLivingSetupR07.cs",
+      "bytes": 11507,
+      "sha256": "038d1d43a7dc7f08dc2304d1f787fae8557e2f7d6b48f9d40bc3faba23848d3b"
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmProfilerExportR07.cs",
+      "bytes": 5942,
+      "sha256": "db43b73696277618312fc1e1aee773ec86f473cdc4b3c200c923c956426a6dc0"
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmProjectBuilder.cs",
+      "bytes": 54563,
+      "sha256": "ddd6d6b256b66a13e2b96102a8959826fcf66c80615ad859a0581eb0ad17d1fd"
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmRenderSettingsR07.cs",
+      "bytes": 4869,
+      "sha256": "c3ad0137e8aa9b18d2b69ce59bc66319e52a7c3b2ab9cd0a2f7af4944d4c306c"
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmReviewShotsR07.cs",
+      "bytes": 4358,
+      "sha256": "abbdf635928ebb48a9c2786fb1729a4df257910b555595c39c1c5588ece30fae"
+    },
+    {
+      "file": "before/Assets/Farm/Editor/FarmRouteClearanceR07.cs",
+      "bytes": 3185,
+      "sha256": "00275798d24f2d0066c93842c0c14ac2486d3b5060acad4b90ecdb6dcbf35a88"
+    },
+    {
+      "file": "before/Assets/Farm/Scenes/FarmWorld.unity",
+      "bytes": 1583972,
+      "sha256": "50b3989b3c3b0a72fc9f904f0a37d4c0b5bec4b456cd0687f1b9aab86207cb04"
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs",
+      "bytes": 4697,
+      "sha256": "ae435f9f1d035b5203a2bbd9b052a3a6d6e9bf3f5c5b15b5eef7f266b7462728"
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmAmbientR07.cs",
+      "bytes": 4154,
+      "sha256": "90dfc1a7876c5b567aa34f0f054deab76cb0254605cf81ea2badb5f0636ea1d9"
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmOutputAudioCaptureR07.cs",
+      "bytes": 2588,
+      "sha256": "e851939a2e865dc83eefb397df20e93eea7ce1f423fbdc29e3ea4816d4cdf353"
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmPresentationModeR07.cs",
+      "bytes": 6606,
+      "sha256": "9b1a2fa23f912ebf37a6d137896b8b6dd7d8f76973a6402bb4dbeb472ab92c9d"
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs",
+      "bytes": 3492,
+      "sha256": "8e98f87d9b767e29bbcc965996727b5d79a65fef658114bb956a7b5dc524bcd9"
+    },
+    {
+      "file": "before/Assets/Farm/Scripts/Runtime/FarmRenderQualityR07.cs",
+      "bytes": 946,
+      "sha256": "45fcd0d2c7ee2fd2c22bd98c0b4f8cf0b14ae7b3efca27c38bedc336cf724d7e"
+    },
+    {
+      "file": "before/Assets/Farm/Settings/DesktopURP.asset",
+      "bytes": 4689,
+      "sha256": "766a385af6aecc663461083e3b8a2f1876890544ce0030e7b9dbab62a6ce3834"
+    },
+    {
+      "file": "before/Assets/Farm/Settings/FarmDesktopRenderer.asset",
+      "bytes": 2690,
+      "sha256": "6601928772859f8a98eedac1a6539c59d917bbd5eccfa47908c4b4e5835f78e2"
+    },
+    {
+      "file": "before/Assets/Farm/Settings/FarmGlobalVolume-r03.asset",
+      "bytes": 5232,
+      "sha256": "7eb68eac372455f0b7e5ad4f35ea2bc228ab6420884dfd65adffa0a3497dd00b"
+    },
+    {
+      "file": "before/Assets/Farm/Settings/FarmRenderer.asset",
+      "bytes": 1917,
+      "sha256": "1054f597382e6d3c34d1ab1b5f0b89bc5282859d9b6423a424870e1ef1d361ff"
+    },
+    {
+      "file": "before/Assets/Farm/Settings/MobileURP.asset",
+      "bytes": 4691,
+      "sha256": "c722adc0d0fc64775fc26053cd8875394716c91ec8ebb87f9d1e43a2f6cefa75"
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmGround-r03.shader",
+      "bytes": 6756,
+      "sha256": "34282f01a347a60a43c080b56255a713205547a5930a1787a833f84a4b46e5db"
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmGround-r04.shader",
+      "bytes": 7110,
+      "sha256": "70a111919320a6aee8cbc2b6397d52f4e40df599d92459ad7a89b2691dedb233"
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmLivingSurface-r07.shader",
+      "bytes": 5843,
+      "sha256": "700d7cdeb4efb950f1bb88f10414d63129f608694c99a78140cacc0b2b8f4800"
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmLivingSurface-r08.shader",
+      "bytes": 5972,
+      "sha256": "f2d4968a52b439d0ed1fa4752930c2e49e0e3216514d513c37105a7a1cd611cd"
+    },
+    {
+      "file": "before/Assets/Farm/Shaders/FarmOcclusionDither-r08.shader",
+      "bytes": 6675,
+      "sha256": "c8ac364e61a1d9f433762ff909dfc8cbb7bd0d9eef41fab741ba31a23999f98a"
+    },
+    {
+      "file": "before/fixed/dock.png",
+      "bytes": 1070696,
+      "sha256": "d26a54d31e55f46104084f2d045b10adf15f0c9da4f0b69bbb3364d0107d3cf8"
+    },
+    {
+      "file": "before/fixed/field-fence.png",
+      "bytes": 1171004,
+      "sha256": "479b6705e0d301590499b52140fb1734751306d5a2236491025d8acc495cef2d"
+    },
+    {
+      "file": "before/fixed/fields.png",
+      "bytes": 1235633,
+      "sha256": "25285b52b069c955a575661c7b8bcb4e16b4f1020aa73ca01112bc1316383450"
+    },
+    {
+      "file": "before/fixed/house-back.png",
+      "bytes": 958877,
+      "sha256": "131143e359e7f0ff9c1783f4ceb7be609fc6d209da169664651b0cf324daf6cf"
+    },
+    {
+      "file": "before/fixed/house-front.png",
+      "bytes": 1054124,
+      "sha256": "d4806b5e4f3710d2da40222760c07a03946407483588000aa8afc48c2078ab9b"
+    },
+    {
+      "file": "before/fixed/landscape-back.png",
+      "bytes": 985387,
+      "sha256": "9f255b24c5c82a0393d838c6f90a21f75458043c3cd03fc2f0b2aef348084cc6"
+    },
+    {
+      "file": "before/fixed/overview-close-diagnostic.png",
+      "bytes": 1330283,
+      "sha256": "732a9bfa23b22ddfe2cae3ec9e26861a82d21f05bd2e3711518caba0f9b300e4"
+    },
+    {
+      "file": "before/fixed/overview.png",
+      "bytes": 785702,
+      "sha256": "c04280c1ab6212c33fa0ce8940636504a80d8758276f79b4dd4b05480accb30d"
+    },
+    {
+      "file": "before/fixed/pasture.png",
+      "bytes": 1154801,
+      "sha256": "650fe642b1cc255c8b886032b6bf5d0cc6e466bb7aac119c7a57d6d0b59ac23b"
+    },
+    {
+      "file": "before/fixed/pond-east.png",
+      "bytes": 1135462,
+      "sha256": "181242d2876ac182963aae3b4ce50528f50bf4e562fb9096818fcaccf009872c"
+    },
+    {
+      "file": "before/fixed/pond.png",
+      "bytes": 1087659,
+      "sha256": "88aeea4304bd99ced82e3ab41640ffad84cb37f6c81817585765844b621527f2"
+    },
+    {
+      "file": "before/fixed/review-settings.json",
+      "bytes": 5966,
+      "sha256": "a890db6aa95221579b0c68bf0de7c5fcce35589c7024f31c8a0be80faf0fce1e"
+    },
+    {
+      "file": "before/fixed/spawn.png",
+      "bytes": 1286427,
+      "sha256": "a3751c76e70885596ff54d3de9c66bd716ba6032e46a4f5dc9b0a743c2ff6faa"
+    },
+    {
+      "file": "before/fixed-pp-on/close-field-shadow.png",
+      "bytes": 1698921,
+      "sha256": "bf6c384fc889c6eb631ce90d953b1f43c96935011927cc0b390533166a12ed72"
+    },
+    {
+      "file": "before/fixed-pp-on/close-house-road.png",
+      "bytes": 1065810,
+      "sha256": "78111f1f1aeae9ba6226ef836dab7f84268c7920948bf41768634e783946057b"
+    },
+    {
+      "file": "before/fixed-pp-on/close-house-shadow.png",
+      "bytes": 1026126,
+      "sha256": "2ee95cbba74d523433673891be331d7da750244a4ac6d1c68eb85fed9b7a4f2f"
+    },
+    {
+      "file": "before/fixed-pp-on/close-pasture-gate.png",
+      "bytes": 920750,
+      "sha256": "10ef13e2ad631c5d3d777ee59e8946117b057ea7cc1884dfcae7848cbd9e9aa2"
+    },
+    {
+      "file": "before/fixed-pp-on/close-pond-road.png",
+      "bytes": 1116739,
+      "sha256": "fa5311d049bd0e3a1dc9b94cf31fd310e6bb555182b2bc6a66bcd311726ff9d3"
+    },
+    {
+      "file": "before/fixed-pp-on/close-tree-shadow.png",
+      "bytes": 960346,
+      "sha256": "082ada4bbbd9f00debfaa9899dc57cc9a26bedce678e2071775120c44bf4e374"
+    },
+    {
+      "file": "before/fixed-pp-on/dock.png",
+      "bytes": 1122384,
+      "sha256": "ed5aa038ff292ad367daf7c9ba541b8a60e0c0c790163f654c19bba6eab0e414"
+    },
+    {
+      "file": "before/fixed-pp-on/field-fence.png",
+      "bytes": 1225737,
+      "sha256": "589d4872135a346a910ca1f40858f9f77c935c77cc319389c2dd3599905e0544"
+    },
+    {
+      "file": "before/fixed-pp-on/fields.png",
+      "bytes": 1279063,
+      "sha256": "45ec617e82f53ca5e5ad196fdc83d3e0689307a68a791732e03b6838169249ad"
+    },
+    {
+      "file": "before/fixed-pp-on/house-back.png",
+      "bytes": 1014135,
+      "sha256": "245871c537e72ff03bb5eba8e8aac7f86972c62d4f4a4a4ee72dce628e03e562"
+    },
+    {
+      "file": "before/fixed-pp-on/house-front.png",
+      "bytes": 1113954,
+      "sha256": "b9d58d3962fab1c38c4ae3c6922dc60a92b19b877b0377a4a912dc79c4a18d96"
+    },
+    {
+      "file": "before/fixed-pp-on/landscape-back.png",
+      "bytes": 1046921,
+      "sha256": "f9e0ef065e4c717587fb80a1dfec11346f0653d9b68c6168c366afe8a7e0edbf"
+    },
+    {
+      "file": "before/fixed-pp-on/overview-close-diagnostic.png",
+      "bytes": 1357220,
+      "sha256": "167df0e3b6116b5c0bb1edaf3fae2afb406cf64809438ad12ba3363c8de41072"
+    },
+    {
+      "file": "before/fixed-pp-on/overview.png",
+      "bytes": 816033,
+      "sha256": "91feed0a37dc172e0cade7ee8e16b1938eb8b6409144b4fc3277aed93cde2d1e"
+    },
+    {
+      "file": "before/fixed-pp-on/pasture.png",
+      "bytes": 1196857,
+      "sha256": "ffacf961dcdddd67add747cba554d2d6c7b4fad603df20a764b15e28b7b424c3"
+    },
+    {
+      "file": "before/fixed-pp-on/pond-east.png",
+      "bytes": 1185246,
+      "sha256": "5f0f2f38b2c436612edc62253e0cfbf732d143213a25c42db964772cc01b2cc2"
+    },
+    {
+      "file": "before/fixed-pp-on/pond.png",
+      "bytes": 1144403,
+      "sha256": "2298641c267e739fac82ebea59e816c652ab9fd8521292db6b16b4a46d88cb8f"
+    },
+    {
+      "file": "before/fixed-pp-on/review-settings.json",
+      "bytes": 9100,
+      "sha256": "32b2101156e007d1fbf37306ca1c5795f83ca9c70b8d599b7480b1416a64da27"
+    },
+    {
+      "file": "before/fixed-pp-on/spawn.png",
+      "bytes": 1324266,
+      "sha256": "c66cd371313604d10e89be044d71652305569248bfbfb9767c9c3f7b923dbc91"
+    },
+    {
+      "file": "command-record.json",
+      "bytes": 1895,
+      "sha256": "0389ac2b04ba43828846900c64026613a6bcab43e5bec209c54dcfae95de75bd"
+    },
+    {
+      "file": "environment-observation.json",
+      "bytes": 1405,
+      "sha256": "92626378d68f1b67cb4a328501727a19b0119d647282ba92698fdfdd5b4760dc"
+    },
+    {
+      "file": "failure-audit.json",
+      "bytes": 1270,
+      "sha256": "1b55db35e93221273f614af889139a3f569afa5c6927b159f7bf486f8c45c044"
+    },
+    {
+      "file": "failure-context.txt",
+      "bytes": 12887,
+      "sha256": "83a4c4220368caf3c684ad40bee414be7b21ba03a4bed4a06f1609d58d7c0030"
+    },
+    {
+      "file": "final-integrity.json",
+      "bytes": 143617,
+      "sha256": "0d47371f6c876c0b49fe9cab292189cf3647fcd883864ca55293857e9bc6c19b"
+    },
+    {
+      "file": "generate-20261024-140118-execution.json",
+      "bytes": 181,
+      "sha256": "97c5b11d7f1c955eb752ff0c2fb80f063e63deee61f8c3bdc4425eca01ce443a"
+    },
+    {
+      "file": "generate-20261024-140118.log",
+      "bytes": 36151,
+      "sha256": "0ca285fe91c5a846fed7a1d4f7bf09b859fd846a6ce8b4244146324c3af2b5ef"
+    },
+    {
+      "file": "import-stamp-observed.json",
+      "bytes": 201,
+      "sha256": "ed9b1eac25e591683d89986609f1c401e8a03ea9a0c603d7da4ef7f8278dfccd"
+    },
+    {
+      "file": "snapshot-manifest.json",
+      "bytes": 19232,
+      "sha256": "8012b3c3fa6a8cc5db0f4504652b9ec753e41a43f211847440bc3310468e57d7"
+    }
+  ]
+}
