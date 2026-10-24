@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-24",
+  "repository": "pangzero/lulu-farm",
+  "scope": "User-approved preservation of current Opus O1 work plus r07 non-raw evidence",
+  "lulu": {
+    "contentCommit": "8417f26e982eb589e198290899d7881c016b1a65",
+    "allFilesDownloadedAndHashVerified": 60,
+    "bytes": 460789639,
+    "independentPreparation": {
+      "verifiedFiles": 60,
+      "compiledQem": true,
+      "sourceFilesModified": false
+    }
+  },
+  "evidence": {
+    "repository": "pangzero/lulu-farm",
+    "verifiedCommit": "96519be3f15dc3ca04f59a1797e677dc6082c2d7",
+    "evidenceFilePaths": 3811,
+    "regularFileHashesVerified": 1259,
+    "lfsPointerHashesAndSizesVerified": 2552,
+    "remoteLfsSamples": [
+      {
+        "path": "lulu-farm-unity/Evidence/r07/D6/fixed/overview.png",
+        "bytes": 785702,
+        "sha256": "c04280c1ab6212c33fa0ce8940636504a80d8758276f79b4dd4b05480accb30d",
+        "downloadedAndVerified": true
+      },
+      {
+        "path": "lulu-farm-unity/Evidence/r07/D6/profiler/cpu-0091.timeline.json.gz",
+        "bytes": 334819,
+        "sha256": "15373d040f1742c639f644c14465d1276bceb39e65efa86089f8f8b222181e60",
+        "downloadedAndVerified": true
+      }
+    ],
+    "rawProfilerFilesKeptLocal": 554,
+    "scope": "Preservation/transfer verification only; existing artistic and performance states unchanged."
+  },
+  "localOriginalFileHashesRechecked": {
+    "lulu": 60,
+    "r07Evidence": 3811,
+    "mismatches": 0
+  },
+  "totalGitLfsUniqueObjects": 2796,
+  "totalGitLfsUniqueBytes": 4128680840,
+  "acceptance": "Transfer verification only. Existing WIP, artistic, performance and device acceptance states remain unchanged."
+}

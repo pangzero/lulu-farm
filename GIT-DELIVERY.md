@@ -4,7 +4,7 @@
 
 - 目标：`https://github.com/pangzero/lulu-farm`，必须为私有仓库。
 - 本地仓库：`/Users/haowen/GameProject/farm-game`，分支 main。
-- 当前状态：私有仓库已创建，首次 Git 与全部 766 个唯一 LFS 对象已实际推送成功。远端 main 与本地内容提交 `4e6d482f06831a34ff54503c3910b00aeb73b83f` 一致；后续提交仅补齐本交付记录。
+- 当前状态：Private remote delivery completed, including current Opus Lulu work and user-approved r07 non-raw evidence. See the supplement and R07-REMOTE-DELIVERY-CHECK-20261024.json for actual verification; the initial commit totals below are historical.
 - 首次内容：约 2.1GB 工作树；913 个 LFS 文件，去重后 766 个对象、1,613,152,049 字节。包含完整 Unity 已暂存运行资产、代码、文档和参考图。
 - 本机 165GB 工作区的历史原件、网页模型库、82GB Evidence、编辑器和缓存不在此首次上传范围；本地未删除。完整远端素材范围若调整，另做容量清单。
 - GitHub 连接器账号为 pangzero；现有 SSH 账号为 harveyPang。仓库使用 HTTPS 独立认证，不改公司项目 SSH。
@@ -33,3 +33,5 @@ New Lulu was omitted from the initial scope. Commit `8417f26` has now been pushe
 User separately approved the r07 evidence supplement: 3,811 existing files / 2,578,979,254 bytes, excluding 554 binary Profiler files / 80,346,057,052 bytes that remain local. Reports identify valid sessions and failure attempts. Filtered timelines do not replace full binary Profiler captures. The original initial-scope totals above are historical, not current repository totals.
 
 Use `lulu-farm-unity/Docs/R07-OPUS-CONTINUE-20261024.md` and both remote manifests for the updated scope and continuation.
+
+Supplement verification completed: all 60 Lulu files were downloaded from a fresh remote clone and matched SHA256. All 3,811 r07 paths were checked; 1,259 regular file hashes and 2,552 LFS pointer hashes/sizes matched. An actual D6 screenshot and compressed valid-session timeline were downloaded, hash-checked and decoded. All 3,871 local source/evidence file hashes were rechecked unchanged. No model, scene or art state was promoted by this transfer. Current LFS content: 2,796 unique objects / 4,128,680,840 bytes.

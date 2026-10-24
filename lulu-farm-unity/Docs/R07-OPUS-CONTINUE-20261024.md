@@ -48,3 +48,9 @@ python3 -m venv /tmp/lulu-opus-env
 The user approved versioning all 3,811 existing r07 non-raw evidence files (2,578,979,254 bytes). Files remain unchanged; `R07-EVIDENCE-REMOTE-MANIFEST.json` has per-file SHA256 plus an inventory of the 554 raw Profiler files kept locally (80,346,057,052 bytes). Use existing REPORT files to distinguish final sessions from failed attempts. Do not infer that filtered timelines contain full binary capture detail.
 
 Preparation was actually run in an independent temporary Python environment with NumPy/SciPy/Pillow. The preserved C++ source compiled, model input parsing found 11 source meshes, and the master has 23 joints and Idle/Run/Walk. A tiny tetrahedron QEM smoke produced finite geometry, but its old diagnostic `border` count printed a nonsensical value; investigate that diagnostic if relying on it. This check is tool preparation, not a new model build, animation validation or art acceptance.
+
+## Remote transfer verification complete
+
+Both supplements are now pushed and independently verified. New Lulu content is in commit 8417f26; r07 evidence content is in 96519be, followed by documentation-only validation. All 60 Lulu files were actually downloaded and SHA256 verified. The 3,811 evidence paths, 1,259 regular-file hashes and 2,552 LFS pointer hashes/sizes matched; screenshot and valid-session timeline downloads also matched. All 3,871 local preserved file hashes remain unchanged. See R07-REMOTE-DELIVERY-CHECK-20261024.json. Continue from these existing results; do not discard or regenerate completed work.
+
+On a new environment run git lfs install (or git lfs install --local inside the clone) before git lfs pull; download success without checkout can still leave pointer files if the filter was never installed. The preparation tool deliberately detects missing/unexpanded inputs by hash.
