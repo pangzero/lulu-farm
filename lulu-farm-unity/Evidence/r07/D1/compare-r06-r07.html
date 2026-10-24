@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>r07 D1 S02 barn — r06 vs r07 same-camera</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0; padding: 24px 32px 64px; background: #f6f4ee; color: #22302a;
+         font: 14px/1.5 -apple-system, "PingFang SC", "Noto Sans CJK SC", sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p.meta { margin: 0 0 24px; color: #55655b; }
+  .pair { margin: 0 0 28px; }
+  .pair h2 { font-size: 15px; margin: 0 0 8px; font-weight: 600; }
+  .shots { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  figure { margin: 0; }
+  figure img { width: 100%; display: block; border-radius: 6px; border: 1px solid #d8d3c6; background: #fff; }
+  figcaption { font-size: 12px; color: #66766c; margin-top: 4px; }
+</style>
+</head>
+<body>
+<h1>r07 D1 · S02 牧场谷仓入场 · 同机位对比</h1>
+<p class="meta">左：r06（2026-10-23 15:04 世界检查机位）。右：r07 D1（2026-10-23 18:25，S02 已入场）。
+两张都是 Unity 离屏场景渲染，不是玩法截图；不代表美术认可。</p>
+<div id="pairs"></div>
+<script>
+const names = [
+  ["overview", "总览"],
+  ["overview-close-diagnostic", "总览近距（诊断）"],
+  ["spawn", "出生点"],
+  ["fields", "田地"],
+  ["pasture", "牧场"],
+  ["pond", "池塘"],
+  ["house-front", "主屋正面"],
+  ["house-back", "主屋背面"],
+  ["pond-east", "池塘东侧"],
+  ["field-fence", "田边围栏"],
+  ["dock", "码头"],
+  ["landscape-back", "景观背面"]
+];
+const root = document.getElementById('pairs');
+for (const [key, label] of names) {
+  const div = document.createElement('div');
+  div.className = 'pair';
+  div.innerHTML = `<h2>${label} · ${key}</h2>
+    <div class="shots">
+      <figure><img loading="lazy" src="r06-baseline/${key}.png" alt="r06 ${key}"><figcaption>r06（无 S02）</figcaption></figure>
+      <figure><img loading="lazy" src="unity/world-review-r07/${key}.png" alt="r07 ${key}"><figcaption>r07 D1（S02 已入场）</figcaption></figure>
+    </div>`;
+  root.appendChild(div);
+}
+</script>
+</body>
+</html>

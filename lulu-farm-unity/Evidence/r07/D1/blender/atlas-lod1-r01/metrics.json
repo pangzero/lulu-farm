@@ -1,0 +1,106 @@
+{
+  "bytes": 2385996,
+  "sha256": "fb501baade520e98f3b53ccd7a23021ab01b91ef172aec5b08f05d2b1c5a0f58",
+  "triangles": 11498,
+  "mesh_nodes": 1,
+  "materials": 1,
+  "textures": 2,
+  "bounds_z_up": [
+    [
+      -0.9412913918495178,
+      -0.859369158744812,
+      -0.8271505832672119
+    ],
+    [
+      0.9503993988037109,
+      0.8641167879104614,
+      0.8268042206764221
+    ]
+  ],
+  "size": [
+    1.8916907906532288,
+    1.7234859466552734,
+    1.653954803943634
+  ],
+  "nonfinite_vertices": 0,
+  "zero_area_faces": 0,
+  "boundary_edges": 12638,
+  "roundtrip_import": "success",
+  "external_uris": [],
+  "id": "S02",
+  "version": "atlas-lod1-r01",
+  "source": "/Users/haowen/IdeaProjects/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r02/s02-pasture-barn.glb",
+  "source_sha256": "d4299d1ea171c7970fbabd7266e2cd6af93f0b8726ff0e5c5003a6bf00a1b095",
+  "editable_source": "/Users/haowen/IdeaProjects/farm-game/lulu-studio/assets-source/unity-integration/atlas-lod1-r01/S02.blend",
+  "editable_source_sha256": "a844271644a31e08af512a3bf0f6b9dd505c535f214e98a7a1701c0cf30f0325",
+  "file": "/Users/haowen/IdeaProjects/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S02.glb",
+  "source_reopened": true,
+  "export_reimported": true,
+  "original_unchanged": true,
+  "original_triangles": 707180,
+  "target_triangles": 11500,
+  "actual_triangles": 11498,
+  "source_geometry": [
+    {
+      "name": "Mesh_0",
+      "vertices": 380095,
+      "triangles": 707180,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "finite": true,
+      "zero_area": 0,
+      "uv_layers": 1
+    }
+  ],
+  "geometry": [
+    {
+      "name": "S02 game mesh",
+      "vertices": 13275,
+      "triangles": 11498,
+      "boundary": 0,
+      "nonmanifold": 0,
+      "finite": true,
+      "zero_area": 0,
+      "uv_layers": 1
+    }
+  ],
+  "bounds_zup": {
+    "min": [
+      -0.9412913918495178,
+      -0.859369158744812,
+      -0.8271505832672119
+    ],
+    "max": [
+      0.9503993988037109,
+      0.8641167879104614,
+      0.8268042206764221
+    ],
+    "size": [
+      1.891690731048584,
+      1.7234859466552734,
+      1.6539547443389893
+    ]
+  },
+  "images": [
+    {
+      "name": "basecolor",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "normal",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "broad_route": "fresh UV + BVH nearest-surface barycentric color/normal transfer; source high mesh retained",
+  "visual": "pending_actual_inspection",
+  "user_art": "pending",
+  "device": "not_tested"
+}

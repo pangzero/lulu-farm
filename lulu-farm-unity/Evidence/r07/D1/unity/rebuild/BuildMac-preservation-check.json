@@ -1,0 +1,113 @@
+{
+  "scope": "file/configuration checks only; not visual or runtime acceptance",
+  "lulu_payload_and_metadata_unchanged": true,
+  "normal_encoding": "Default_and_linear",
+  "normal_metadata_count": 203,
+  "resolved_direct_packages": [
+    {
+      "name": "com.unity.render-pipelines.universal",
+      "version": "17.3.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.render-pipelines.universal@97f77d4dda9a/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.cinemachine",
+      "version": "3.1.5",
+      "package_json": [
+        "Library/PackageCache/com.unity.cinemachine@5342685532bb/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.inputsystem",
+      "version": "1.14.2",
+      "package_json": [
+        "Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.cloud.gltfast",
+      "version": "6.20.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.cloud.gltfast@11ddc2436f97/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.ugui",
+      "version": "2.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.ugui@23e8d17bfaf9/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.test-framework",
+      "version": "1.6.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.test-framework@aebcb98460c6/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.modules.animation",
+      "version": "1.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.modules.animation/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.modules.audio",
+      "version": "1.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.modules.audio/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.modules.imageconversion/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.modules.jsonserialize/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.modules.physics",
+      "version": "1.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.modules.physics/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.modules.screencapture",
+      "version": "1.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.modules.screencapture/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.modules.ui",
+      "version": "1.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.modules.ui/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.modules.uielements",
+      "version": "1.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.modules.uielements/package.json"
+      ]
+    },
+    {
+      "name": "com.unity.modules.unitywebrequest",
+      "version": "1.0.0",
+      "package_json": [
+        "Library/PackageCache/com.unity.modules.unitywebrequest/package.json"
+      ]
+    }
+  ]
+}

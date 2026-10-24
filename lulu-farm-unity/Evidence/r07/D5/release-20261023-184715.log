@@ -1,0 +1,955 @@
+Unity Editor version:    6000.3.16f1 (a56f230f6470)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.4 (Build 25E246)
+Darwin version:          25.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        24576 MB
+Date:                    2026-10-23T18:47:16Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen" at "2026-10-23T18:47:16.192432Z"
+Launching external process: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/MacOS/Unity
+-batchmode
+-quit
+-projectPath
+/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+-buildTarget
+StandaloneOSX
+-executeMethod
+LuluFarm.Editor.FarmProjectBuilder.R07BuildRelease
+--r07-task
+D5
+-logFile
+/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D5/release-20261023-184715.log
+Successfully changed project path to: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8318097600]  Target information:
+
+Player connection [8318097600]  * "[IP] 192.168.3.56 [Port] 55504 [Flags] 2 [Guid] 476467076 [EditorId] 476467076 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8318097600]  * "[IP] 2.0.0.1 [Port] 55504 [Flags] 2 [Guid] 476467076 [EditorId] 476467076 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8318097600] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8318097600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 950, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-haowen"
+[Licensing::IpcConnector] LicenseClient-haowen channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-haowen-6000.3.16 doesn't exist
+Launching external process: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client
+[Licensing::Module] Successfully launched the LicensingClient (PId: 76442)
+[Package Manager] Connected to IPC stream "Upm-76432" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16" at "2026-10-23T18:47:16.826399Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              ad1e0ef518b1422da4a2bb9cd51aea46
+  Correlation Id:          6d9e47bb4862504aff82937141d9c2db
+  External correlation Id: 8691468438951268671
+  Machine Id:              /Nupwpvn+B6eSAVQ3yApaC/kimk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-haowen-6000.3.16" (connect: 0.38s, validation: 0.05s, handshake: 0.24s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16-notifications" at "2026-10-23T18:47:17.116896Z"
+[Licensing::Module] Connected to LicensingClient (PId: 76442, launch time: 0.00, total connection time: 0.67s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-NVMZ-M74F-8H5W-26YW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-11-02T19:46:35Z
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.94s
+[Licensing::Module] Licensing is initialized (took 0.61s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Targeting platform: StandaloneOSX
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.16f1 (a56f230f6470)
+[Subsystems] Discovering subsystems at path /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M5 (high power)
+Metal devices available: 1
+0: Apple M5 (high power)
+Using device Apple M5 (high power)
+Initializing Metal device caps: Apple M5
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000277 seconds.
+- Loaded All Assemblies, in  0.257 seconds
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.197 seconds
+Domain Reload Profiling: 455ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (84ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (61ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 30 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.cinemachine@3.1.5 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cinemachine@5342685532bb)
+    com.unity.inputsystem@1.14.2 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5)
+    com.unity.cloud.gltfast@6.20.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cloud.gltfast@11ddc2436f97)
+    com.unity.burst@1.8.30 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.burst@2f3d916873ea)
+    com.unity.collections@2.6.8 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.collections@84e8eb3fc12e)
+    com.unity.mathematics@1.3.3 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.mathematics@19a9377c4ffa)
+    com.unity.splines@2.8.4 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.splines@9b00833aca09)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.4.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework.performance@aa81a99c4a75)
+    com.unity.settings-manager@2.1.1 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.settings-manager@0b8638c5ce86)
+    com.unity.searcher@4.9.4 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.searcher@d45a78918735)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.3.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal@97f77d4dda9a)
+    com.unity.ugui@2.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ugui@23e8d17bfaf9)
+    com.unity.test-framework@1.6.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework@aebcb98460c6)
+    com.unity.modules.animation@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.audio@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.physics@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.ui@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.imgui@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.hierarchycore@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.core@648b47f96bf1)
+    com.unity.shadergraph@17.3.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.shadergraph@138213decc3c)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+    com.unity.modules.terrain@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.terrain)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://unix:/tmp/ilpp.sock-df064cba68c90e181bcc0b0282b9827c
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 31.6581ms
+Starting: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+DisplayProgressbar: Compiling Scripts
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 15.8805ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 131 defines and 313 references
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library/Bee/artifacts/200b0aE.dag/Unity.Collections.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.CoreModule.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.CoreModule.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 186.0162ms
+ExitCode: 0 Duration: 1s386ms
+[537/698    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[694/698    1s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[695/698    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 131 defines and 313 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[696/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[697/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (1.37 seconds), 5 items updated, 698 evaluated
+AssetDatabase: script compilation time: 1.834751s
+Total cache size 104196944
+Total cache size after purge 104196944, took 00:00:00.0379993
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.292 seconds
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 769ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (49ms)
+				TypeCache.ScanAssembly (43ms)
+			BuildScriptInfoCaches (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (343ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=07ad390cfbadf4d7b9dc4dbc92d96430): Total: 3.117 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=809 ms
+		Asset DB Callback time: managed=151 ms, native=16 ms
+		Scripting: domain reloads=1, domain reload time=292 ms, compile time=1835 ms, other=12 ms
+		Project Asset Count: scripts=1105, non-scripts=2968
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 14.032ms
+	ApplyChangesToAssetFolders: 0.104ms
+	Scan: 187.501ms
+	OnSourceAssetsModified: 0.390ms
+	CategorizeAssetsWithTransientArtifact: 12.144ms
+	ProcessAssetsWithTransientArtifactChanges: 22.390ms
+	CategorizeAssets: 51.673ms
+	ImportOutOfDateAssets: 480.994ms (-1355.389ms without children)
+		CompileScripts: 1835.384ms
+		ReloadNativeAssets: 0.021ms
+		UnloadImportedAssets: 0.432ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.303ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.243ms
+	PostProcessAllAssets: 152.119ms
+	Hotreload: 1.752ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 1.279ms
+	PersistCurrentRevisions: 0.074ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 6.248ms
+	Untracked: 2192.978ms
+
+Application.AssetDatabase Initial Refresh End
+Launching external process: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Scanning for USB devices : 0.031ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-噜噜农场
+2026-10-24 02:47:21.381 Unity[76432:6804912] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xc9f790e60 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4310 unused Assets / (3.3 MB). Loaded Objects now: 5178.
+Memory consumption went from 210.3 MB to 207.0 MB.
+Total: 4.713584 ms (FindLiveObjects: 0.161167 ms CreateObjectMapping: 0.073709 ms MarkObjects: 3.623875 ms  DeleteObjects: 0.854459 ms)
+
+2026-10-24 02:47:21.458 Unity[76432:6804912] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xc9f78e1c0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Start importing Assets/Farm/Settings/MobileURP.asset using Guid(6b53708d841bb47498d2f91dc07f5879) (NativeFormatImporter) -> (artifact id: '2aa66c53284809b4c8e88d388a3865bf') in 0.011702333 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=39ef53d9fd8254a83beb500ad1f36c05): Total: 0.041 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Settings/DesktopURP.asset using Guid(c9e41bd9296f145a0b3ba7f8aad6a41c) (NativeFormatImporter) -> (artifact id: '4fd3b993f2054a9bb7869754567b8324') in 0.001434542 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4c0312b70c4024613b9dc59e41321b4a): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+2 URP assets included in build
+- MobileURP - Assets/Farm/Settings/MobileURP.asset
+	 - FarmRenderer - Assets/Farm/Settings/FarmRenderer.asset - UnityEngine.Rendering.Universal.UniversalRendererData
+- DesktopURP - Assets/Farm/Settings/DesktopURP.asset
+	 - FarmDesktopRenderer - Assets/Farm/Settings/FarmDesktopRenderer.asset - UnityEngine.Rendering.Universal.UniversalRendererData
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.Rendering.Universal.URPPreprocessBuild:LogIncludedAssets (System.Collections.Generic.List`1<UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@97f77d4dda9a/Editor/BuildProcessors/URPPreprocessBuild.cs:73)
+UnityEditor.Rendering.Universal.URPPreprocessBuild:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.unity.render-pipelines.universal@97f77d4dda9a/Editor/BuildProcessors/URPPreprocessBuild.cs:32)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport) (at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:526)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:492)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport) (at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:524)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline.bindings.cs:494)
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline.bindings.cs:410)
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions) (at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline.bindings.cs:356)
+LuluFarm.Editor.FarmProjectBuilder:R07Build (bool) (at Assets/Farm/Editor/FarmR07Execution.cs:37)
+LuluFarm.Editor.FarmProjectBuilder:R07BuildRelease () (at Assets/Farm/Editor/FarmR07Execution.cs:30)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@97f77d4dda9a/Editor/BuildProcessors/URPPreprocessBuild.cs Line: 73)
+
+Start importing Assets/Farm/Settings/MobileURP.asset using Guid(6b53708d841bb47498d2f91dc07f5879) (NativeFormatImporter) -> (artifact id: '2aa66c53284809b4c8e88d388a3865bf') in 0.000678 seconds
+Refreshing native plugins compatible for Editor in 0.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9ebcfc4a7aec34205b95f047146dee14): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Settings/DesktopURP.asset using Guid(c9e41bd9296f145a0b3ba7f8aad6a41c) (NativeFormatImporter) -> (artifact id: '4fd3b993f2054a9bb7869754567b8324') in 0.000781542 seconds
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6181adf4873d348ceb414d8e3fd3a810): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: '442bb494e1147f635b296dc32a28995a') in 0.000763334 seconds
+Start importing ProjectSettings/GraphicsSettings.asset using Guid(00000000000000006100000000000000) (LibraryAssetImporter) -> (artifact id: '06eb22b912fb7562fa90e7a3163c7c63') in 0.000437417 seconds
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(fe4cdf5d600494daf96f6af2051b2144) (NativeFormatImporter) -> (artifact id: '381d90b21819777d46260e2714ab88be') in 0.000561042 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e3c51e4dc32b74d9194f8fe06324ddb2): Total: 0.010 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Found installed macOS SDK 26.5.
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 0.1626ms
+Starting: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aESkipCompile.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+ExitCode: 0 Duration: 0s44ms
+*** Tundra build success (0.03 seconds), 0 items updated, 3 evaluated
+Total cache size 104196944
+Total cache size after purge 104196944, took 00:00:00.0504727
+Asset Pipeline Refresh (id=499a96ba59b234a25b2d7ea33cb80a98): Total: 0.037 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[ScriptCompilation] Requested script compilation because: Recompiling scripts for player build.
+BuildPlayer: start building target 2
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 0.1526ms
+Starting: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aP.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      ALC ILPP context 1 is unloading
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 14.9936ms
+ExitCode: 0 Duration: 0s237ms
+[446/530    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[466/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+[469/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.Newtonsoft.dll
+[470/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Cinemachine.dll
+[471/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll
+[472/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.dll
+[473/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+[475/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Splines.dll
+[476/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.Export.dll
+[477/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll
+[478/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll
+[479/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+[480/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll
+[481/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll
+[482/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll
+[483/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll
+[484/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.dots.dll
+[485/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+[486/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll
+[487/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll
+[488/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.Documentation.Examples.dll
+[489/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll
+[490/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll
+[491/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.pdb
+[497/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+[498/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Cinemachine.pdb
+[499/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Splines.pdb
+[500/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.Export.pdb
+[501/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.UnifiedRayTracing.Runtime.pdb
+[502/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.pdb
+[503/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.pdb
+[504/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll
+[505/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll
+[506/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.004.pdb
+[507/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.UnifiedRayTracing.Runtime.dll
+[508/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.004.dll
+[509/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.pdb
+[510/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Burst.pdb
+[511/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb
+[512/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.dots.pdb
+[513/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.pdb
+[514/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll
+[515/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.pdb
+[516/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb
+[517/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.pdb
+[518/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.pdb
+[519/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb
+[520/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.Newtonsoft.pdb
+[521/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.pdb
+[522/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.pdb
+[523/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb
+[524/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Collections.pdb
+[525/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/glTFast.Documentation.Examples.pdb
+[526/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.pdb
+[527/530    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb
+*** Tundra build success (0.22 seconds), 55 items updated, 530 evaluated
+Total cache size 104196944
+Total cache size after purge 104196944, took 00:00:00.1265251
+Not rebuilding Data files -- no changes
+2026-10-24 02:47:22.645 Unity[76432:6804912] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xc9f78cfa0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+
+
+Mono dependencies included in the build
+Dependency assembly - System.ComponentModel.Composition.dll
+Dependency assembly - System.Threading.Timer.dll
+Dependency assembly - System.Diagnostics.TraceEvent.dll
+Dependency assembly - System.Runtime.Serialization.Json.dll
+Dependency assembly - System.Security.Principal.Windows.dll
+Dependency assembly - System.Diagnostics.TraceSource.dll
+Dependency assembly - System.Diagnostics.Contracts.dll
+Dependency assembly - System.IO.FileSystem.DriveInfo.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDiffieHellman.dll
+Dependency assembly - System.Security.Cryptography.RSA.dll
+Dependency assembly - System.Runtime.Loader.dll
+Dependency assembly - System.Windows.Forms.DataVisualization.dll
+Dependency assembly - System.Web.ApplicationServices.dll
+Dependency assembly - Unity.InternalAPIEngineBridge.004.dll
+Dependency assembly - Unity.RenderPipelines.Core.ShaderLibrary.dll
+Dependency assembly - System.Security.Cryptography.Csp.dll
+Dependency assembly - System.Web.WebPages.dll
+Dependency assembly - Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Dependency assembly - System.IO.Compression.dll
+Dependency assembly - System.ComponentModel.TypeConverter.dll
+Dependency assembly - System.Xml.XDocument.dll
+Dependency assembly - System.IO.IsolatedStorage.dll
+Dependency assembly - RabbitMQ.Client.dll
+Dependency assembly - Mono.Http.dll
+Dependency assembly - System.ServiceProcess.ServiceController.dll
+Dependency assembly - System.Runtime.Serialization.Xml.dll
+Dependency assembly - glTFast.Export.dll
+Dependency assembly - System.Security.AccessControl.dll
+Dependency assembly - System.Web.WebPages.Deployment.dll
+Dependency assembly - Unity.RenderPipelines.GPUDriven.Runtime.dll
+Dependency assembly - System.Resources.Reader.dll
+Dependency assembly - I18N.Other.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - Microsoft.Win32.Registry.AccessControl.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - glTFast.dll
+Dependency assembly - System.IO.Compression.ZipFile.dll
+Dependency assembly - System.Security.Principal.dll
+Dependency assembly - System.Reactive.Linq.dll
+Dependency assembly - System.Web.Razor.dll
+Dependency assembly - System.Runtime.Handles.dll
+Dependency assembly - System.Security.Claims.dll
+Dependency assembly - System.ServiceModel.Duplex.dll
+Dependency assembly - IBM.Data.DB2.dll
+Dependency assembly - System.DirectoryServices.dll
+Dependency assembly - Novell.Directory.Ldap.dll
+Dependency assembly - System.Configuration.dll
+Dependency assembly - Assembly-CSharp.dll
+Dependency assembly - cscompmgd.dll
+Dependency assembly - System.ServiceModel.NetTcp.dll
+Dependency assembly - System.Data.SqlClient.dll
+Dependency assembly - System.Net.WebSockets.Client.dll
+Dependency assembly - System.Runtime.Serialization.dll
+Dependency assembly - System.ServiceModel.Security.dll
+Dependency assembly - Unity.Splines.dll
+Dependency assembly - System.AppContext.dll
+Dependency assembly - I18N.Rare.dll
+Dependency assembly - Mono.WebBrowser.dll
+Dependency assembly - System.ServiceProcess.dll
+Dependency assembly - System.Runtime.DurableInstancing.dll
+Dependency assembly - System.Security.Cryptography.Primitives.dll
+Dependency assembly - System.Text.RegularExpressions.dll
+Dependency assembly - System.Linq.dll
+Dependency assembly - System.Xml.Serialization.dll
+Dependency assembly - System.Console.dll
+Dependency assembly - Mono.Cairo.dll
+Dependency assembly - System.Web.Extensions.Design.dll
+Dependency assembly - System.Security.Cryptography.Hashing.dll
+Dependency assembly - System.Workflow.ComponentModel.dll
+Dependency assembly - System.Resources.ResourceManager.dll
+Dependency assembly - Microsoft.Build.dll
+Dependency assembly - System.Resources.ReaderWriter.dll
+Dependency assembly - System.Threading.AccessControl.dll
+Dependency assembly - I18N.dll
+Dependency assembly - System.Linq.Queryable.dll
+Dependency assembly - System.Web.dll
+Dependency assembly - System.IO.dll
+Dependency assembly - Microsoft.Build.Framework.dll
+Dependency assembly - System.Collections.NonGeneric.dll
+Dependency assembly - System.Runtime.InteropServices.dll
+Dependency assembly - System.Data.Services.dll
+Dependency assembly - Mono.Management.dll
+Dependency assembly - System.Reactive.Providers.dll
+Dependency assembly - Microsoft.Win32.Registry.dll
+Dependency assembly - System.Xml.Xsl.Primitives.dll
+Dependency assembly - System.ServiceModel.Internals.dll
+Dependency assembly - System.Net.Http.Formatting.dll
+Dependency assembly - System.ObjectModel.dll
+Dependency assembly - I18N.West.dll
+Dependency assembly - Mono.Simd.dll
+Dependency assembly - glTFast.dots.dll
+Dependency assembly - System.IdentityModel.dll
+Dependency assembly - System.Workflow.Runtime.dll
+Dependency assembly - System.Web.WebPages.Razor.dll
+Dependency assembly - System.Globalization.Calendars.dll
+Dependency assembly - monodoc.dll
+Dependency assembly - Unity.UnifiedRayTracing.Runtime.dll
+Dependency assembly - System.Dynamic.Runtime.dll
+Dependency assembly - System.Runtime.Remoting.dll
+Dependency assembly - System.Threading.Thread.dll
+Dependency assembly - Microsoft.CSharp.dll
+Dependency assembly - Mono.Data.Tds.dll
+Dependency assembly - Microsoft.Win32.Primitives.dll
+Dependency assembly - System.Net.Utilities.dll
+Dependency assembly - System.Collections.dll
+Dependency assembly - Unity.RenderPipelines.Core.Runtime.Shared.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Runtime.dll
+Dependency assembly - System.Diagnostics.Tracing.dll
+Dependency assembly - System.Web.Abstractions.dll
+Dependency assembly - System.Xml.XmlSerializer.dll
+Dependency assembly - System.Runtime.InteropServices.RuntimeInformation.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Shaders.dll
+Dependency assembly - System.Data.OracleClient.dll
+Dependency assembly - System.Security.Cryptography.Encryption.dll
+Dependency assembly - Mono.Btls.Interface.dll
+Dependency assembly - PEAPI.dll
+Dependency assembly - Mono.Messaging.dll
+Dependency assembly - Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Dependency assembly - System.IO.FileSystem.Watcher.dll
+Dependency assembly - System.Dynamic.dll
+Dependency assembly - System.Web.Extensions.dll
+Dependency assembly - System.Web.DynamicData.dll
+Dependency assembly - System.Net.Requests.dll
+Dependency assembly - Unity.Burst.Unsafe.dll
+Dependency assembly - System.ComponentModel.dll
+Dependency assembly - Mono.Options.dll
+Dependency assembly - System.Globalization.Extensions.dll
+Dependency assembly - System.Net.NameResolution.dll
+Dependency assembly - System.Net.Http.Rtc.dll
+Dependency assembly - System.Reflection.Primitives.dll
+Dependency assembly - System.Reflection.Emit.dll
+Dependency assembly - System.Security.Cryptography.Algorithms.dll
+Dependency assembly - System.Xml.XPath.dll
+Dependency assembly - WindowsBase.dll
+Dependency assembly - Microsoft.Build.Engine.dll
+Dependency assembly - System.Xml.ReaderWriter.dll
+Dependency assembly - System.Text.Encoding.Extensions.dll
+Dependency assembly - Accessibility.dll
+Dependency assembly - System.Xml.XmlDocument.dll
+Dependency assembly - Mono.Profiler.Log.dll
+Dependency assembly - Mono.Data.Sqlite.dll
+Dependency assembly - System.Diagnostics.TextWriterTraceListener.dll
+Dependency assembly - System.Data.dll
+Dependency assembly - SMDiagnostics.dll
+Dependency assembly - System.Drawing.Design.dll
+Dependency assembly - System.Deployment.dll
+Dependency assembly - System.Security.Cryptography.OpenSsl.dll
+Dependency assembly - System.Reactive.Core.dll
+Dependency assembly - System.Runtime.InteropServices.WindowsRuntime.dll
+Dependency assembly - System.Messaging.dll
+Dependency assembly - Mono.Posix.dll
+Dependency assembly - System.Net.NetworkInformation.dll
+Dependency assembly - System.Threading.Tasks.Dataflow.dll
+Dependency assembly - System.Reactive.Interfaces.dll
+Dependency assembly - System.Reactive.Runtime.Remoting.dll
+Dependency assembly - SystemWebTestShim.dll
+Dependency assembly - System.IO.FileSystem.AccessControl.dll
+Dependency assembly - System.Web.Services.dll
+Dependency assembly - System.Data.Common.dll
+Dependency assembly - System.ComponentModel.Annotations.dll
+Dependency assembly - System.Reflection.DispatchProxy.dll
+Dependency assembly - System.ComponentModel.DataAnnotations.dll
+Dependency assembly - System.Buffers.dll
+Dependency assembly - System.Data.Entity.dll
+Dependency assembly - System.Windows.Forms.dll
+Dependency assembly - System.IO.FileSystem.Primitives.dll
+Dependency assembly - System.ServiceModel.Http.dll
+Dependency assembly - System.Drawing.Primitives.dll
+Dependency assembly - System.IO.FileSystem.dll
+Dependency assembly - System.ServiceModel.Activation.dll
+Dependency assembly - System.Reflection.Emit.ILGeneration.dll
+Dependency assembly - System.Management.dll
+Dependency assembly - System.Transactions.dll
+Dependency assembly - I18N.CJK.dll
+Dependency assembly - System.Reactive.Observable.Aliases.dll
+Dependency assembly - System.Security.Cryptography.DeriveBytes.dll
+Dependency assembly - System.Diagnostics.Debug.dll
+Dependency assembly - Microsoft.Build.Utilities.v4.0.dll
+Dependency assembly - System.Threading.ThreadPool.dll
+Dependency assembly - System.Text.Encoding.CodePages.dll
+Dependency assembly - WebMatrix.Data.dll
+Dependency assembly - Microsoft.VisualC.dll
+Dependency assembly - System.Net.WebSockets.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.dll
+Dependency assembly - CustomMarshalers.dll
+Dependency assembly - System.Net.dll
+Dependency assembly - System.Workflow.Activities.dll
+Dependency assembly - System.IO.UnmanagedMemoryStream.dll
+Dependency assembly - System.Web.Http.dll
+Dependency assembly - System.Numerics.Vectors.dll
+Dependency assembly - System.Net.Cache.dll
+Dependency assembly - System.Xaml.dll
+Dependency assembly - Mono.Tasklets.dll
+Dependency assembly - System.ComponentModel.Primitives.dll
+Dependency assembly - System.Web.Http.WebHost.dll
+Dependency assembly - System.Data.Linq.dll
+Dependency assembly - System.Web.Http.SelfHost.dll
+Dependency assembly - System.Web.RegularExpressions.dll
+Dependency assembly - System.Net.WebHeaderCollection.dll
+Dependency assembly - System.Reflection.Context.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - System.Xml.XPath.XmlDocument.dll
+Dependency assembly - Mono.CSharp.dll
+Dependency assembly - System.Reactive.Experimental.dll
+Dependency assembly - I18N.MidEast.dll
+Dependency assembly - System.Net.Primitives.dll
+Dependency assembly - System.Web.Mvc.dll
+Dependency assembly - Unity.Collections.dll
+Dependency assembly - System.Reactive.Windows.Forms.dll
+Dependency assembly - System.Json.dll
+Dependency assembly - System.Runtime.dll
+Dependency assembly - System.Memory.dll
+Dependency assembly - System.Diagnostics.FileVersionInfo.dll
+Dependency assembly - System.Threading.Tasks.dll
+Dependency assembly - System.Net.Mail.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Config.Runtime.dll
+Dependency assembly - System.Runtime.Numerics.dll
+Dependency assembly - System.Xml.XPath.XDocument.dll
+Dependency assembly - Mono.Security.Win32.dll
+Dependency assembly - System.Web.Routing.dll
+Dependency assembly - System.Net.ServicePoint.dll
+Dependency assembly - System.ServiceModel.dll
+Dependency assembly - System.IO.Compression.FileSystem.dll
+Dependency assembly - System.Numerics.dll
+Dependency assembly - System.Xml.dll
+Dependency assembly - System.Linq.Parallel.dll
+Dependency assembly - Unity.TextMeshPro.dll
+Dependency assembly - System.Runtime.Caching.dll
+Dependency assembly - System.Net.HttpListener.dll
+Dependency assembly - System.Globalization.dll
+Dependency assembly - System.Security.Cryptography.Hashing.Algorithms.dll
+Dependency assembly - System.Xml.Linq.dll
+Dependency assembly - Mono.Messaging.RabbitMQ.dll
+Dependency assembly - System.dll
+Dependency assembly - Unity.InputSystem.ForUI.dll
+Dependency assembly - Microsoft.Web.Infrastructure.dll
+Dependency assembly - System.Net.Security.dll
+Dependency assembly - System.Runtime.Extensions.dll
+Dependency assembly - System.Data.Services.Client.dll
+Dependency assembly - Unity.Cinemachine.dll
+Dependency assembly - System.Threading.Overlapped.dll
+Dependency assembly - System.ComponentModel.EventBasedAsync.dll
+Dependency assembly - glTFast.Documentation.Examples.dll
+Dependency assembly - System.Threading.Tasks.Extensions.dll
+Dependency assembly - Commons.Xml.Relaxng.dll
+Dependency assembly - System.EnterpriseServices.dll
+Dependency assembly - System.Reactive.Windows.Threading.dll
+Dependency assembly - Microsoft.Build.Tasks.v4.0.dll
+Dependency assembly - System.ValueTuple.dll
+Dependency assembly - Unity.Burst.dll
+Dependency assembly - System.Net.Sockets.dll
+Dependency assembly - System.Threading.dll
+Dependency assembly - System.Drawing.dll
+Dependency assembly - System.Runtime.CompilerServices.VisualC.dll
+Dependency assembly - Unity.RenderPipelines.Universal.2D.Runtime.dll
+Dependency assembly - System.ServiceModel.Routing.dll
+Dependency assembly - System.Security.Cryptography.ProtectedData.dll
+Dependency assembly - System.Reflection.dll
+Dependency assembly - System.Configuration.Install.dll
+Dependency assembly - Mono.CompilerServices.SymbolWriter.dll
+Dependency assembly - System.Security.Cryptography.X509Certificates.dll
+Dependency assembly - System.Reflection.Emit.Lightweight.dll
+Dependency assembly - glTFast.Newtonsoft.dll
+Dependency assembly - System.Windows.dll
+Dependency assembly - System.Security.Cryptography.Encoding.dll
+Dependency assembly - System.DirectoryServices.Protocols.dll
+Dependency assembly - System.Diagnostics.Process.dll
+Dependency assembly - Mono.C5.dll
+Dependency assembly - Unity.Collections.LowLevel.ILSupport.dll
+Dependency assembly - System.Text.Encoding.dll
+Dependency assembly - System.Json.Microsoft.dll
+Dependency assembly - System.Net.Ping.dll
+Dependency assembly - System.ServiceModel.Primitives.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.Soap.dll
+Dependency assembly - System.Runtime.Serialization.Primitives.dll
+Dependency assembly - System.Security.Cryptography.Cng.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDsa.dll
+Dependency assembly - System.Design.dll
+Dependency assembly - System.Security.dll
+Dependency assembly - System.Collections.Concurrent.dll
+Dependency assembly - System.Reactive.PlatformServices.dll
+Dependency assembly - System.IO.Pipes.dll
+Dependency assembly - Unity.RenderPipelines.Core.Runtime.dll
+Dependency assembly - Unity.Mathematics.dll
+Dependency assembly - System.Diagnostics.StackTrace.dll
+Dependency assembly - System.Diagnostics.Tools.dll
+Dependency assembly - System.Reflection.TypeExtensions.dll
+Dependency assembly - System.Security.SecureString.dll
+Dependency assembly - System.Net.AuthenticationManager.dll
+Dependency assembly - System.Reactive.Debugger.dll
+Dependency assembly - System.IdentityModel.Selectors.dll
+Dependency assembly - System.ServiceModel.Discovery.dll
+Dependency assembly - netstandard.dll
+Dependency assembly - System.ServiceModel.Web.dll
+Dependency assembly - Mono.Parallel.dll
+Dependency assembly - System.Security.Cryptography.RandomNumberGenerator.dll
+Dependency assembly - System.Net.Http.WebRequest.dll
+Dependency assembly - Mono.XBuild.Tasks.dll
+Dependency assembly - System.Data.DataSetExtensions.dll
+Dependency assembly - System.Security.Cryptography.Encryption.Aes.dll
+Dependency assembly - System.Security.Cryptography.Pkcs.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Web.Mobile.dll
+Dependency assembly - System.Collections.Specialized.dll
+Dependency assembly - System.Resources.Writer.dll
+Dependency assembly - Unity.InputSystem.dll
+Dependency assembly - System.IO.MemoryMappedFiles.dll
+Dependency assembly - System.Threading.Tasks.Parallel.dll
+Dependency assembly - ICSharpCode.SharpZipLib.dll
+Dependency assembly - System.Reflection.Extensions.dll
+Dependency assembly - System.Linq.Expressions.dll
+Dependency assembly - System.Net.Http.dll
+
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 0.2626ms
+Starting: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --dagfile="Library/Bee/Player290fd7ff.dag" --profile="Library/Bee/backend1.traceevents" Player
+WorkingDir: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+DisplayProgressbar: Incremental Player Build
+/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.burst@2f3d916873ea/.Runtime/bcl.exe exited after 2883 ms.
+stdout:
+Starting 1 library requests
+Done
+stderr:
+
+/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.burst@2f3d916873ea/.Runtime/bcl.exe exited after 4351 ms.
+stdout:
+Starting 1 library requests
+Done
+stderr:
+
+/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.burst@2f3d916873ea/.Runtime/hostmac/llvm-lipo exited after 26 ms.
+stdout:
+stderr:
+
+[444/447    7s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/MacStandalonePlayerBuildProgram/AsyncPluginsFromLinker
+[445/447    0s] MacOSCodeSignDylibCopy Builds/r07/D5/release/LuluFarm.app/Contents/PlugIns/lib_burst_generated.bundle
+[446/447    0s] MacOSCodeSignBundleInPlace Builds/r07/D5/release/LuluFarm.app/Contents/MacOS/噜噜农场 (+1 other)
+*** Tundra build success (7.88 seconds), 3 items updated, 447 evaluated
+Total cache size 104196944
+Total cache size after purge 104196944, took 00:00:00.0173185
+ExitCode: 0 Duration: 7s999ms
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=eea884e5110f34cac97befbd850fba58): Total: 0.091 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+-------------------------------------------------------------------------------
+Build Report
+Information on used Assets is not available, since player data was not rebuilt.
+Do a clean build to view the Asset build report information.
+-------------------------------------------------------------------------------
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (0.5 MB). Loaded Objects now: 5196.
+Memory consumption went from 289.7 MB to 289.2 MB.
+Total: 10.942459 ms (FindLiveObjects: 0.381542 ms CreateObjectMapping: 0.044958 ms MarkObjects: 9.789333 ms  DeleteObjects: 0.726292 ms)
+
+Build Finished, Result: Success.
+##utp:{"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1792781251023,"processId":76432,"steps":[{"description":"Preprocess Player","duration":228},{"description":"Prepare For Build","duration":29},{"description":"ProducePlayerScriptAssemblies","duration":585},{"description":"Verify Build setup","duration":309},{"description":"Prepare assets for target platform","duration":3},{"description":"Prepare splash screen","duration":1},{"description":"Run script only build","duration":24},{"description":"Postprocess built player","duration":8330}],"duration":9509}
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.375 ms
+	Integration:            189.511 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   189.895 ms
+Unloading 0 unused Assets / (6.5 KB). Loaded Objects now: 5195.
+Memory consumption went from 289.1 MB to 289.1 MB.
+Total: 3.965833 ms (FindLiveObjects: 0.098625 ms CreateObjectMapping: 0.036416 ms MarkObjects: 3.823625 ms  DeleteObjects: 0.007000 ms)
+
+Launching external process: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/il2cpp/build/deploy/Analytics
+Batchmode quit successfully invoked - shutting down!
+Thread 0x31a6c3000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-haowen-6000.3.16-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-haowen-6000.3.16 channel disconnected successfully.
+Thread 0x16dd93000 may have been prematurely finalized
+Thread 0x16de1f000 may have been prematurely finalized
+Thread 0x16deab000 may have been prematurely finalized
+Thread 0x16e04f000 may have been prematurely finalized
+Thread 0x16df37000 may have been prematurely finalized
+Thread 0x16e0db000 may have been prematurely finalized
+Thread 0x16e167000 may have been prematurely finalized
+Thread 0x16e1f3000 may have been prematurely finalized
+Thread 0x16dfc3000 may have been prematurely finalized
+AcceleratorClientConnectionCallback - disconnected - :0
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+Cleanup mono
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      ALC ILPP context 2 is unloading
+debugger-agent: Unable to listen on 43
+Exiting batchmode successfully now!
+[Package Manager] Server process was shutdown

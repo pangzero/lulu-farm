@@ -1,0 +1,22 @@
+{
+  "authored": [
+    "Assets/Farm/Editor/FarmProjectBuilder.cs",
+    "Assets/Farm/Scripts/Runtime/FarmPresentationModeR07.cs",
+    "Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs",
+    "Assets/Farm/Editor/FarmR07Execution.cs",
+    "Assets/Farm/Editor/FarmProfilerExportR07.cs",
+    "Assets/Farm/Editor/FarmReviewShotsR07.cs",
+    "Scripts/r07-run-editor.py",
+    "Scripts/r07-run-player.py",
+    "Scripts/r07-evidence-index.py",
+    "Scripts/r07-contact-sheet.py"
+  ],
+  "generated": [
+    "Assets/Farm/Scenes/FarmWorld.unity"
+  ],
+  "scope": "D5 activates presentation only; later D2/D3/D4/D6 sources are task-gated and were not active in this D5 scene. Lulu, existing runtime controllers, original assets and locked packages unchanged.",
+  "builds": [
+    "Builds/r07/D5/development/LuluFarm.app",
+    "Builds/r07/D5/release/LuluFarm.app"
+  ]
+}

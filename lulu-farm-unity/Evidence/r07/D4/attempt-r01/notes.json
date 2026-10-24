@@ -1,0 +1,6 @@
+{
+  "issue": "All fence_outer proposals rejected by exact model radius plus .4 clearance; direction preserved, positions need footprint-aware offset.",
+  "viewed": "All twelve fixed screenshots via fixed-contact-r01.",
+  "buildRelocatedTo": "Builds/r07/D4/attempt-r01/development",
+  "status": "superseded_candidate_retained"
+}

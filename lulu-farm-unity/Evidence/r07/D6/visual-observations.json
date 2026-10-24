@@ -1,0 +1,100 @@
+{
+  "utc": "2026-10-24T03:30:57.614473+00:00",
+  "status": "pending_Opus_review",
+  "actualOpened": {
+    "fixed": [
+      "fixed-contact/01.jpg",
+      "fixed-contact/02.jpg",
+      "fixed-contact/03.jpg"
+    ],
+    "postProcess": [
+      "pp-contact/01.jpg",
+      "pp-contact/02.jpg",
+      "pp-contact/03.jpg",
+      "pp-contact/04.jpg",
+      "pp-contact/05.jpg"
+    ],
+    "ambient": [
+      "ambient-contact/01.jpg",
+      "ambient-contact/02.jpg",
+      "ambient-contact/03.jpg"
+    ],
+    "decodedVideo": [
+      "video-contact/01.jpg",
+      "video-contact/02.jpg"
+    ],
+    "route": [
+      "route-contact/01.jpg",
+      "route-contact/02.jpg",
+      "route-contact/03.jpg",
+      "route-contact/04.jpg",
+      "route-contact/05.jpg",
+      "route-contact/06.jpg",
+      "route-contact/07.jpg"
+    ]
+  },
+  "observations": [
+    "30 fixed screenshots retain source silhouettes and color; no newly observed magenta material",
+    "Four option UI screenshots show wind/sound off, mobile wind forced off, and desktop restored. First-frame opening hint overlap is absent after immediate SetDebug alpha update. These invoke actual UI callbacks, not native human clicks.",
+    "Butterfly position and water ripple size/fade visibly vary in actual captured/decoded frames. Animal breathing/head motion is deliberately subtle; image pairs do not justify an artistic motion acceptance. Full continuous-motion feel pending Opus.",
+    "House seam, distant ground edge and transparent occlusion layering remain; D6 does not fix O3. Faded vegetation currently uses original static fade material; potential motion discontinuity during fade is declared.",
+    "Revised actual Player route reached 31/31; all 25 route screenshots opened. House-back orbit still shows inherited translucent house/tree layers. At fields, original thin bright crop veins remain.",
+    "Route stage callbacks occur at spawn with crops outside the picture, so these screenshots alone do not establish stage visual acceptance. Wardrobe callback screenshots can lag a frame: original shorts are visible again in the later desktop/house-front capture. Lulu source and existing runtime implementation are frozen in this lane.",
+    "After the independent two-waypoint route revision, all 12 standard and 18 post-process screenshots were rendered again and opened via newly regenerated contact sheets. No new visual structural change observed. Five images were byte-identical; remaining images were not presumed identical.",
+    "Final ambient video precedes route-only revision: motion/audio and rendering implementation unchanged, two intermediate automated route coordinates differ."
+  ],
+  "audio": {
+    "offSamples": 2,
+    "allOffSamplesMutedAndZero": true,
+    "onRmsMaximum": 0.004776032641530037,
+    "actualOutput": {
+      "utc": "2026-10-24T02:35:12.1102770Z",
+      "status": "actual_listener_callback_samples_captured",
+      "source": "Actual Unity AudioListener output, float32 WAV. No microphone. No synthetic replacement of captured samples.",
+      "review": "Audible quality pending human/Opus review; video is separately captured and has no muxed audio track.",
+      "sampleRate": 48000,
+      "channels": 2,
+      "samples": 5382144,
+      "seconds": 56.064,
+      "peak": 0.01782497949898243
+    },
+    "audibleQuality": "not_listened_by_agent_human_Opus_review_pending"
+  },
+  "video": {
+    "encodedFrames": 379,
+    "durationSeconds": 56.048766666666666,
+    "decodedFramesOpened": [
+      15,
+      80,
+      115,
+      170,
+      205,
+      265,
+      300,
+      370
+    ],
+    "reviewExtent": "8 decoded frames opened, not full real-time video watched; no synthesized frames",
+    "audio": "separate actual AudioListener WAV; video silent"
+  },
+  "finalRouteReview": {
+    "session": "route/20261024-032249-631",
+    "reached": 31,
+    "planned": 31,
+    "actualImagesOpened": 25,
+    "contactSheets": [
+      "route-contact/01.jpg",
+      "route-contact/02.jpg",
+      "route-contact/03.jpg",
+      "route-contact/04.jpg",
+      "route-contact/05.jpg",
+      "route-contact/06.jpg",
+      "route-contact/07.jpg"
+    ],
+    "method": "actual view_image opens in four tool calls after final route finished",
+    "observations": [
+      "Pasture gate, trough, shore, dock orbit, fish stall and return images viewed; no new magenta material observed.",
+      "House-back orbit still shows transparent overlapping house and tree surfaces; retained O3 issue.",
+      "Stage callback screenshots at house entrance do not display crops; no stage visual acceptance inferred."
+    ]
+  }
+}

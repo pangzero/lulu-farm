@@ -1,0 +1,1 @@
+Premature process exit with only 1/31 waypoints. Root cause of early quit was not established. Exit-time SaveResult NullReferenceException retained. Contact sheets 01-03 reflect nine current frames; 04-07 were stale from previous run and must not be treated as this attempt evidence. No acceptance.

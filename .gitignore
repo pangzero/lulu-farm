@@ -69,3 +69,10 @@
 !/lulu-studio/public/models/wardrobe-rig/
 /lulu-studio/public/models/wardrobe-rig/*
 !/lulu-studio/public/models/wardrobe-rig/materials-v2/
+
+# Preserve current r07 evidence; raw .data remains local.
+!/lulu-farm-unity/Evidence/
+/lulu-farm-unity/Evidence/*
+!/lulu-farm-unity/Evidence/r07/
+!/lulu-farm-unity/Evidence/r07/**/*.timeline.json.gz
+!/lulu-farm-unity/Evidence/r07/**/*.mp4

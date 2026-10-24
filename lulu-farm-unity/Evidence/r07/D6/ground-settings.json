@@ -1,0 +1,25 @@
+{
+    "utc": "2026-10-24T02:59:17.8420470Z",
+    "spec": "Docs/r07-ground-shading-spec.md B",
+    "shader": "LuluFarm/FarmGround-r03",
+    "material": "Ground-polish-r03",
+    "mask": "RoadEdgeMask-r03.png",
+    "roadRendererEnabled": false,
+    "roadGeometryRetained": true,
+    "segments": 9,
+    "roadVertices": 504,
+    "groundVertices": 228,
+    "width": 2048,
+    "height": 1024,
+    "maskRect": {
+        "x": -15.899999618530274,
+        "y": -10.199999809265137,
+        "z": 0.030030030757188798,
+        "w": 0.05494505539536476
+    },
+    "transitionStart": 0.6600000262260437,
+    "transitionEnd": 0.9800000190734863,
+    "wander1": 0.04500000178813934,
+    "wander2": 0.02500000037252903,
+    "fineGrain": 0.012000000104308129
+}

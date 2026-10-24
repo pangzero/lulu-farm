@@ -1,0 +1,213 @@
+{
+    "utc": "2026-10-23T18:42:46.0497240Z",
+    "engine": "6000.3.16f1",
+    "scene": "FarmWorld",
+    "status": "rendered_pending_visual_review",
+    "scope": "actual_Unity_offscreen_scene_render_not_manual_gameplay",
+    "shots": [
+        {
+            "name": "overview",
+            "position": {
+                "x": 24.0,
+                "y": 24.0,
+                "z": -30.0
+            },
+            "target": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "file": "Evidence/world-review-20261023-184245/overview.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "overview-close-diagnostic",
+            "position": {
+                "x": 8.0,
+                "y": 15.0,
+                "z": -16.0
+            },
+            "target": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "file": "Evidence/world-review-20261023-184245/overview-close-diagnostic.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "spawn",
+            "position": {
+                "x": 0.0,
+                "y": 3.6500000953674318,
+                "z": -1.0299999713897706
+            },
+            "target": {
+                "x": 0.0,
+                "y": 0.7450000047683716,
+                "z": 3.1500000953674318
+            },
+            "file": "Evidence/world-review-20261023-184245/spawn.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "fields",
+            "position": {
+                "x": -5.0,
+                "y": 4.0,
+                "z": -6.0
+            },
+            "target": {
+                "x": -8.0,
+                "y": 0.5,
+                "z": 1.7000000476837159
+            },
+            "file": "Evidence/world-review-20261023-184245/fields.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "pasture",
+            "position": {
+                "x": 2.4000000953674318,
+                "y": 3.6500000953674318,
+                "z": -10.800000190734864
+            },
+            "target": {
+                "x": 1.2000000476837159,
+                "y": 0.699999988079071,
+                "z": -2.5
+            },
+            "file": "Evidence/world-review-20261023-184245/pasture.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "pond",
+            "position": {
+                "x": 6.199999809265137,
+                "y": 4.0,
+                "z": -5.099999904632568
+            },
+            "target": {
+                "x": 11.0,
+                "y": 0.10000000149011612,
+                "z": 1.7000000476837159
+            },
+            "file": "Evidence/world-review-20261023-184245/pond.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "house-front",
+            "position": {
+                "x": -4.400000095367432,
+                "y": 3.700000047683716,
+                "z": -0.20000000298023225
+            },
+            "target": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": 6.300000190734863
+            },
+            "file": "Evidence/world-review-20261023-184245/house-front.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "house-back",
+            "position": {
+                "x": 4.400000095367432,
+                "y": 4.0,
+                "z": 12.0
+            },
+            "target": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": 6.300000190734863
+            },
+            "file": "Evidence/world-review-20261023-184245/house-back.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "pond-east",
+            "position": {
+                "x": 19.0,
+                "y": 3.700000047683716,
+                "z": 4.0
+            },
+            "target": {
+                "x": 10.0,
+                "y": 0.5,
+                "z": 1.0
+            },
+            "file": "Evidence/world-review-20261023-184245/pond-east.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "field-fence",
+            "position": {
+                "x": -14.0,
+                "y": 2.5999999046325685,
+                "z": -4.0
+            },
+            "target": {
+                "x": -8.0,
+                "y": 0.5,
+                "z": 2.0
+            },
+            "file": "Evidence/world-review-20261023-184245/field-fence.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "dock",
+            "position": {
+                "x": 6.699999809265137,
+                "y": 2.799999952316284,
+                "z": -3.0
+            },
+            "target": {
+                "x": 9.0,
+                "y": 0.4000000059604645,
+                "z": 0.5
+            },
+            "file": "Evidence/world-review-20261023-184245/dock.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "landscape-back",
+            "position": {
+                "x": -8.0,
+                "y": 4.0,
+                "z": 13.0
+            },
+            "target": {
+                "x": 0.0,
+                "y": 0.5,
+                "z": 1.0
+            },
+            "file": "Evidence/world-review-20261023-184245/landscape-back.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        }
+    ]
+}

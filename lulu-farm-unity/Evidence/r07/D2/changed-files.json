@@ -1,0 +1,22 @@
+{
+  "authored": [
+    "Assets/Farm/Editor/FarmProjectBuilder.cs",
+    "Assets/Farm/Editor/FarmRenderSettingsR07.cs",
+    "Assets/Farm/Scripts/Runtime/FarmRenderQualityR07.cs",
+    "Assets/Farm/Editor/FarmReviewShotsR07.cs"
+  ],
+  "generated": [
+    "Assets/Farm/Settings/DesktopURP.asset",
+    "Assets/Farm/Settings/FarmDesktopRenderer.asset",
+    "Assets/Farm/Settings/FarmGlobalVolume-r03.asset",
+    "Assets/Farm/Scenes/FarmWorld.unity"
+  ],
+  "preserved": [
+    "FarmSky shader",
+    "Mobile renderer has no SSAO",
+    "Original FarmAcceptanceRunner camera logic",
+    "Lulu files",
+    "Package versions"
+  ],
+  "scope": "Spec C only; D3/D4/D6 task gates inactive."
+}

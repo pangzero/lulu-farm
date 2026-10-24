@@ -1,0 +1,12 @@
+{
+    "utc": "2026-10-23T18:46:08.9051440Z",
+    "method": "standalone_UI_button_callbacks_scripted_not_human_click",
+    "debugMode": false,
+    "inspectionVisible": false,
+    "inspectButtonVisible": false,
+    "bottomDebugVisible": false,
+    "developmentBuild": true,
+    "introAlpha": 1.0,
+    "width": 1280,
+    "height": 720
+}

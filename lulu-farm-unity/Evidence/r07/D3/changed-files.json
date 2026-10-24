@@ -1,0 +1,23 @@
+{
+  "authored": [
+    "Assets/Farm/Editor/FarmLandscapePolish.cs",
+    "Assets/Farm/Editor/FarmGroundPolishR07.cs",
+    "Assets/Farm/Shaders/FarmGround-r03.shader",
+    "Scripts/r07-r06-overlay.py"
+  ],
+  "generated": [
+    "Assets/Farm/Materials/LandscapePolish/Ground-polish-r03.mat",
+    "Assets/Farm/Materials/LandscapePolish/RoadEdgeMask-r03.png",
+    "Assets/Farm/Scenes/FarmWorld.unity"
+  ],
+  "preserved": [
+    "GroundWithSoilAndPondOpenings.asset and meta",
+    "RoadNetwork.asset and meta",
+    "CreatePaths",
+    "PolishRoadMask original function",
+    "FarmGround original shader",
+    "Lulu 388 frozen files",
+    "r06 delivery and package locks"
+  ],
+  "scope": "Spec B; D2 settings retained; D4/D6 disabled"
+}

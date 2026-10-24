@@ -1,0 +1,777 @@
+Unity Editor version:    6000.3.16f1 (a56f230f6470)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.4 (Build 25E246)
+Darwin version:          25.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        24576 MB
+Date:                    2026-10-24T02:00:03Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen" at "2026-10-24T02:00:03.989504Z"
+Launching external process: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/MacOS/Unity
+-batchmode
+-quit
+-projectPath
+/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+-buildTarget
+StandaloneOSX
+-executeMethod
+LuluFarm.Editor.FarmProjectBuilder.R07GenerateReview
+--r07-task
+D4
+-logFile
+/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D4/generate-20261024-020003.log
+Successfully changed project path to: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8318097600]  Target information:
+
+Player connection [8318097600]  * "[IP] 192.168.3.56 [Port] 55504 [Flags] 2 [Guid] 1567993644 [EditorId] 1567993644 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8318097600]  * "[IP] 2.0.0.1 [Port] 55504 [Flags] 2 [Guid] 1567993644 [EditorId] 1567993644 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8318097600] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8318097600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 950, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-haowen"
+[Licensing::IpcConnector] LicenseClient-haowen channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-haowen-6000.3.16 doesn't exist
+Launching external process: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client
+[Licensing::Module] Successfully launched the LicensingClient (PId: 18212)
+[Package Manager] Connected to IPC stream "Upm-18210" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16" at "2026-10-24T02:00:04.826841Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              9abb0ae8d52d43849579af5528cb4744
+  Correlation Id:          04cc245ad155d0a92a83731dc2084d38
+  External correlation Id: 8763192221359880513
+  Machine Id:              /Nupwpvn+B6eSAVQ3yApaC/kimk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-haowen-6000.3.16" (connect: 0.58s, validation: 0.06s, handshake: 0.21s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16-notifications" at "2026-10-24T02:00:05.093293Z"
+[Licensing::Module] Connected to LicensingClient (PId: 18212, launch time: 0.00, total connection time: 0.84s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-NVMZ-M74F-8H5W-26YW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-11-03T02:58:55Z
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.11s
+[Licensing::Module] Licensing is initialized (took 0.66s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Targeting platform: StandaloneOSX
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.16f1 (a56f230f6470)
+[Subsystems] Discovering subsystems at path /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M5 (high power)
+Metal devices available: 1
+0: Apple M5 (high power)
+Using device Apple M5 (high power)
+Initializing Metal device caps: Apple M5
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56210
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000637 seconds.
+- Loaded All Assemblies, in  0.236 seconds
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.179 seconds
+Domain Reload Profiling: 415ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (81ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (179ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (161ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (59ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 30 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.cinemachine@3.1.5 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cinemachine@5342685532bb)
+    com.unity.inputsystem@1.14.2 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5)
+    com.unity.cloud.gltfast@6.20.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cloud.gltfast@11ddc2436f97)
+    com.unity.burst@1.8.30 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.burst@2f3d916873ea)
+    com.unity.collections@2.6.8 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.collections@84e8eb3fc12e)
+    com.unity.mathematics@1.3.3 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.mathematics@19a9377c4ffa)
+    com.unity.splines@2.8.4 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.splines@9b00833aca09)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.4.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework.performance@aa81a99c4a75)
+    com.unity.settings-manager@2.1.1 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.settings-manager@0b8638c5ce86)
+    com.unity.searcher@4.9.4 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.searcher@d45a78918735)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.3.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal@97f77d4dda9a)
+    com.unity.ugui@2.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ugui@23e8d17bfaf9)
+    com.unity.test-framework@1.6.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework@aebcb98460c6)
+    com.unity.modules.animation@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.audio@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.physics@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.ui@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.imgui@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.hierarchycore@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.core@648b47f96bf1)
+    com.unity.shadergraph@17.3.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.shadergraph@138213decc3c)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+    com.unity.modules.terrain@1.0.0 (location: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.terrain)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://unix:/tmp/ilpp.sock-df064cba68c90e181bcc0b0282b9827c
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 33.4393ms
+Starting: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity
+DisplayProgressbar: Compiling Scripts
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 13.0324ms
+ExitCode: 0 Duration: 0s204ms
+[538/698    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.19 seconds), 1 items updated, 698 evaluated
+AssetDatabase: script compilation time: 0.588571s
+Begin MonoManager ReloadAssembly
+Total cache size 104196944
+Total cache size after purge 104196944, took 00:00:00.0499224
+- Loaded All Assemblies, in  0.260 seconds
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.219 seconds
+Domain Reload Profiling: 1479ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (62ms)
+			TypeCache.Refresh (45ms)
+				TypeCache.ScanAssembly (39ms)
+			BuildScriptInfoCaches (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1093ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (916ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Asset Pipeline Refresh (id=2a40b71a8961f42adaaf8fb8fc9f1774): Total: 2.474 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1584 ms
+		Asset DB Callback time: managed=12 ms, native=4 ms
+		Scripting: domain reloads=1, domain reload time=260 ms, compile time=599 ms, other=12 ms
+		Project Asset Count: scripts=1107, non-scripts=2974
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 5.340ms
+	ApplyChangesToAssetFolders: 0.123ms
+	Scan: 233.303ms
+	OnSourceAssetsModified: 0.000ms
+	CategorizeAssetsWithTransientArtifact: 14.245ms
+	ProcessAssetsWithTransientArtifactChanges: 18.396ms
+	CategorizeAssets: 42.269ms
+	ImportOutOfDateAssets: 1222.255ms (622.144ms without children)
+		CompileScripts: 599.214ms
+		ReloadNativeAssets: 0.015ms
+		UnloadImportedAssets: 0.318ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.286ms
+		InitializingProgressBar: 0.000ms
+		OnDemandSchedulerStart: 0.277ms
+	PostProcessAllAssets: 12.267ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 1.265ms
+	PersistCurrentRevisions: 0.078ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 1.099ms
+	Untracked: 924.094ms
+
+Application.AssetDatabase Initial Refresh End
+Launching external process: /Users/haowen/IdeaProjects/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Scanning for USB devices : 0.025ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-噜噜农场
+2026-10-24 10:00:08.911 Unity[18210:7118711] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xc06995360 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4320 unused Assets / (3.3 MB). Loaded Objects now: 5187.
+Memory consumption went from 207.7 MB to 204.4 MB.
+Total: 4.828125 ms (FindLiveObjects: 0.161625 ms CreateObjectMapping: 0.075083 ms MarkObjects: 3.701375 ms  DeleteObjects: 0.889917 ms)
+
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (22.4 KB). Loaded Objects now: 5197.
+Memory consumption went from 198.5 MB to 198.5 MB.
+Total: 3.515333 ms (FindLiveObjects: 0.066208 ms CreateObjectMapping: 0.036125 ms MarkObjects: 3.399084 ms  DeleteObjects: 0.013708 ms)
+
+Asset Pipeline Refresh (id=46536d6e472594647a2bf48f1e0332f8): Total: 0.096 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing ProjectSettings/QualitySettings.asset using Guid(00000000000000009000000000000000) (LibraryAssetImporter) -> (artifact id: 'd84099bcb0c383ef597f7f6b5113e4d4') in 0.00231075 seconds
+Start importing ProjectSettings/GraphicsSettings.asset using Guid(00000000000000006100000000000000) (LibraryAssetImporter) -> (artifact id: '06eb22b912fb7562fa90e7a3163c7c63') in 0.0003945 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat using Guid(b4bbe309871064f0d873eb6fb697db67) (NativeFormatImporter) -> (artifact id: '91ab7e46ce7a4f1a0b999ab3501eec29') in 0.000393333 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat using Guid(17fdd7179ce574f1bb3035215ef8fa18) (NativeFormatImporter) -> (artifact id: '1f6b4c0070b3add0407ff6382fea3e81') in 0.00031925 seconds
+Start importing Assets/Farm/Settings/FarmRenderer.asset using Guid(400db62e26c93446696f369a817f4872) (NativeFormatImporter) -> (artifact id: 'd07c7327fc4d4d5fc6b94aa6f03568cd') in 0.000299375 seconds
+Start importing Assets/Farm/Settings/FarmDesktopRenderer.asset using Guid(1524cc0f1da364d169bdd1f7374cd1a6) (NativeFormatImporter) -> (artifact id: 'e2b9f81cbca8966fc2c9bcc811ae10b5') in 0.000379542 seconds
+Start importing Assets/Farm/Data/GroundWithSoilAndPondOpenings.asset using Guid(75973a469004d4475b7870d03a92a5fc) (NativeFormatImporter) -> (artifact id: '143460ce5f40035a9264c796d7a7fc1c') in 0.000555541 seconds
+Start importing Assets/Farm/Data/RoadNetwork.asset using Guid(87f58620d4e26457d811938d59533f69) (NativeFormatImporter) -> (artifact id: '27b3ab7cd7972e4550a7ff4f8d49f6ba') in 0.000378042 seconds
+Start importing Assets/Farm/Settings/DesktopURP.asset using Guid(c9e41bd9296f145a0b3ba7f8aad6a41c) (NativeFormatImporter) -> (artifact id: '8ac221259ff67c08c6a7fb42a2cee68a') in 0.000316209 seconds
+Start importing Assets/Farm/Settings/MobileURP.asset using Guid(6b53708d841bb47498d2f91dc07f5879) (NativeFormatImporter) -> (artifact id: '2aa66c53284809b4c8e88d388a3865bf') in 0.000306958 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c654d52d4805d4f3883be3f9cccad0e4): Total: 0.074 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=12dc1931dc9034eddbd3a433774975c3): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.00068025 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000416041 seconds
+Start importing Assets/Farm/Data/PondSurface.asset using Guid(770750ca8e8134ff4a18a654d481bdec) (NativeFormatImporter) -> (artifact id: 'c777f5713e197f3259438f302bb67a70') in 0.000361 seconds
+Start importing Assets/Farm/Data/UpperBankWalkCollision.asset using Guid(1b1e56d4c0b0f4f23b7bf7823a1bb80f) (NativeFormatImporter) -> (artifact id: '44946cda1a1e54ea54675c1b9a23f1f7') in 0.000354417 seconds
+Start importing Assets/Farm/Data/BankBacking.asset using Guid(9d33be82647c54528a1a52847399138f) (NativeFormatImporter) -> (artifact id: '89f6b8c2a8c96493ffb91cedb3d70cb6') in 0.000346542 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4126b16d4b3724d0db370306ea22fdbf): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4ba74031b9bc54930b210f2f48deb3ed): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '0ec1319df02e3a400df19cdf6ad5bded') in 0.000704625 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: '57a4b4365baa8d914801f96641f724b2') in 0.00037625 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2af2a4820626349568fc7c6ead1e318a): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=f44addaaeedc64665abad2eef40ef673): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000534292 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000356417 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=40f2ab4a1fcd14e428430d82c8036766): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=2b347c85406f241d38343c6d251fe5f3): Total: 0.038 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000480291 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000295709 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f3e69bbe77902480095f3ef9eb58f183): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=147ecc91b9c8a4dd79f8f7731d9efd8b): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000431875 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000272542 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a04c7bd4f666c4f279405727acf1af8a): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4b8e8003a98d243e2853242d30aa8a53): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '0ec1319df02e3a400df19cdf6ad5bded') in 0.000421 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: '57a4b4365baa8d914801f96641f724b2') in 0.000259792 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=585009ee2dd294c98b143c5b3248809f): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=3ddc7a70d6fa14f3abe451e717cd6ce7): Total: 0.038 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000443042 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000278292 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=566cc17c36b0b44bebdbbc9fbfdaa115): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=6753a6ef4405d48b0b4d291526ae00e8): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000387542 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000254125 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5671aa6bf12e344b3bd44092677b663d): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=8ba758c68c17944e38fe46aabdca5376): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.00042125 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000260375 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c20cdb27e60a94419b818a445c8def07): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=1156cab69cbe1414c9855eb61f4f76fe): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '0ec1319df02e3a400df19cdf6ad5bded') in 0.0004005 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: '57a4b4365baa8d914801f96641f724b2') in 0.000255458 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=eb554a5a6c3634b6da434ca8d0ef6a4c): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=424887480c44e4d208a6443b5c9a6c69): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000411042 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000284459 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b68ff2d17f04c48dca0adb6584e1021f): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9b972bf24b8954fadb9967a0f2ca858e): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000382333 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000249292 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=438f25814ff6b41a5b27767ab9e988f7): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=8a11f297b876e4e608d2a8d89b53cd12): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000435292 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000276333 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ca107c115280f4fad9a1170d327b9afa): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=6b7a0937de61347af8c054aefe5c1709): Total: 0.039 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '0ec1319df02e3a400df19cdf6ad5bded') in 0.000422833 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: '57a4b4365baa8d914801f96641f724b2') in 0.000338334 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=447551a15133149efab50dd48c792fe4): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/LandscapePolish/RoadEdgeMask-r03.png using Guid(cd6e00d9ab65d475caca3296d51d67f1) (TextureImporter) -> (artifact id: '7719202f05ecf86f9e8b83bf7f5dd4fd') in 0.020033834 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a583a836fc2d84278abdddb01049fd54): Total: 0.027 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/LandscapePolish/RoadEdgeMask-r03.png using Guid(cd6e00d9ab65d475caca3296d51d67f1) (TextureImporter) -> (artifact id: '7719202f05ecf86f9e8b83bf7f5dd4fd') in 0.014189625 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=838ac54049d2c4c2e9fab9ce10ba9285): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Landscape polish authored: 39 instances, 180500 summed peak triangles (not measured visibility). Actual scene review pending.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LuluFarm.Editor.FarmProjectBuilder:PolishLandscape (UnityEngine.Transform) (at Assets/Farm/Editor/FarmLandscapePolish.cs:127)
+LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:346)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:21)
+
+(Filename: Assets/Farm/Editor/FarmLandscapePolish.cs Line: 127)
+
+Asset Pipeline Refresh (id=00eb6d9e1f05b4c02a460d4393b000af): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '0ec1319df02e3a400df19cdf6ad5bded') in 0.000425208 seconds
+Start importing Assets/Farm/Materials/LandscapePolish/Ground-polish-r03.mat using Guid(913a6eeab1f914ced84d6594f3415b57) (NativeFormatImporter) -> (artifact id: '9db0e12d79d774bdc602638c452cd6af') in 0.00042875 seconds
+Start importing Assets/Farm/Materials/FarmSky-r01.mat using Guid(77cce56b3d989482db753d9510f382e2) (NativeFormatImporter) -> (artifact id: 'e4f5c1f8b3504418e4cdbe629e6ced6b') in 0.000405625 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: '57a4b4365baa8d914801f96641f724b2') in 0.000264208 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=1ee3616062be94f48b79d64f290d930c): Total: 0.008 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=11723f837508a46619753e1f6c2a2923): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000397958 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000259666 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=1f2e56105b50d4bb182cefac9fc07897): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=de6d13ea6eb294aafaf7489e7c940066): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '0ec1319df02e3a400df19cdf6ad5bded') in 0.000393917 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: '57a4b4365baa8d914801f96641f724b2') in 0.000252792 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3f2ef2b21e5b54cf3bbcc9f215300c99): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=07f537b0101e34b82bb0afa5b6170d98): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000402833 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.00027125 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9ed14a85791d04674bf96c6645446daa): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=cf89f1725ecae4f1aa962814d0db4eaa): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000442666 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000323542 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=23bb586b1dc2d417a8308e7f3772d7ad): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=cedb14d9f88d443dd85696674494e885): Total: 0.037 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000404125 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000279167 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9a2e72654d3a14b518fc4e6f3c7b3f83): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=8b21cd994b946476bae954de1ca127f7): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000477917 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000308708 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=46566b628c23c4300b9e5f276433fa97): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4acbe107e3592464ea697027ef6b8cc8): Total: 0.038 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.00043575 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000299958 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=db3cf3e96648544168a167d410a2ec1d): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=ed3545dea2d9b48a8a0133d20c9ab9ca): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000515625 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000340334 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=fdda8f229d8814f62a3235911c67b914): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=a7e2a351e60864fec88345fe230fbe0d): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000544834 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000294041 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c4b062ce5813d4a5e869e1b9bbc72c7c): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4f3b79aef37614cb291dbbb066485386): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '0ec1319df02e3a400df19cdf6ad5bded') in 0.00045725 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: '57a4b4365baa8d914801f96641f724b2') in 0.000283292 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=821d166838ee54b27abd85952e90da69): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=44b261f1e4b38444a84ba8807017aea9): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000434791 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000332792 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ab95093df1bdc4ffa8e33256e4cbd316): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=3905d9c9c2d6f4e29af80d2a269507ec): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000491375 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000300375 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=33995b4d4c5ec4dd3a8cb9747a75bb16): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e9efa2f4a95c94ddf9fd6a889d081d30): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000442375 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000336208 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=11bd5aafd69e64e7881a9b8134ad1de7): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=3e59d55838eb344eeaa554c64cd5de8c): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '0ec1319df02e3a400df19cdf6ad5bded') in 0.000371416 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: '57a4b4365baa8d914801f96641f724b2') in 0.000252125 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b903ad6f09dfc43c0bc680bc76b5da92): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=eda4c129b89f8444a8a249fa2e041069): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '0ec1319df02e3a400df19cdf6ad5bded') in 0.00043925 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: '57a4b4365baa8d914801f96641f724b2') in 0.00029625 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8dfa2ea36c99c4fde9de6b144c8a55db): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=b73e100739f2e430d85166b8fc2b64bb): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '70287e972fc0a9d2127132749ae883ce') in 0.000430084 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '051031c2349d206441fd8b53150df361') in 0.000260708 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5af2f2945d3934451aa356b8bb6fc780): Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Settings/FarmGlobalVolume-r03.asset using Guid(8424a72e9759d4eb6af407a5ed317508) (NativeFormatImporter) -> (artifact id: 'edca583542fb17f4f707456b7c667849') in 0.001056917 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=92f6795d751bc4ac2ba1ee9beaf19e0e): Total: 0.010 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Scenes/FarmWorld.unity using Guid(c773f15021150444e93c815a8bcb7504) (DefaultImporter) -> (artifact id: '8c30b475a4962a02a0b6db09eb4f1934') in 0.000786292 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3b4e10b6eb5014fd09d8d310737b4714): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Farm/Scenes/FarmWorld.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Farm/Scenes/FarmWorld.unity'
+	Deserialize:            12.907 ms
+	Integration:            79.776 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   92.689 ms
+Unloading 179 unused Assets / (57.6 KB). Loaded Objects now: 15187.
+Memory consumption went from 350.6 MB to 350.6 MB.
+Total: 3.855666 ms (FindLiveObjects: 0.289458 ms CreateObjectMapping: 0.124000 ms MarkObjects: 3.320291 ms  DeleteObjects: 0.121542 ms)
+
+Unloading 160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (29.6 KB). Loaded Objects now: 15489.
+Memory consumption went from 485.2 MB to 485.2 MB.
+Total: 4.777125 ms (FindLiveObjects: 0.441417 ms CreateObjectMapping: 0.111083 ms MarkObjects: 4.181084 ms  DeleteObjects: 0.042583 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.7 KB). Loaded Objects now: 15518.
+Memory consumption went from 479.5 MB to 479.4 MB.
+Total: 4.397208 ms (FindLiveObjects: 0.363417 ms CreateObjectMapping: 0.129083 ms MarkObjects: 3.873292 ms  DeleteObjects: 0.031125 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (39.5 KB). Loaded Objects now: 15628.
+Memory consumption went from 478.5 MB to 478.4 MB.
+Total: 3.796833 ms (FindLiveObjects: 0.319375 ms CreateObjectMapping: 0.101375 ms MarkObjects: 3.352750 ms  DeleteObjects: 0.023083 ms)
+
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (43.8 KB). Loaded Objects now: 15676.
+Memory consumption went from 499.0 MB to 498.9 MB.
+Total: 4.292459 ms (FindLiveObjects: 0.362583 ms CreateObjectMapping: 0.097375 ms MarkObjects: 3.744459 ms  DeleteObjects: 0.087959 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 15740.
+Memory consumption went from 505.5 MB to 505.4 MB.
+Total: 4.261250 ms (FindLiveObjects: 0.350875 ms CreateObjectMapping: 0.118083 ms MarkObjects: 3.767667 ms  DeleteObjects: 0.024417 ms)
+
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 15775.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 4.186583 ms (FindLiveObjects: 0.388416 ms CreateObjectMapping: 0.092459 ms MarkObjects: 3.683916 ms  DeleteObjects: 0.021541 ms)
+
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 15810.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 4.292500 ms (FindLiveObjects: 0.387042 ms CreateObjectMapping: 0.105125 ms MarkObjects: 3.776083 ms  DeleteObjects: 0.024000 ms)
+
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.5 KB). Loaded Objects now: 15848.
+Memory consumption went from 0.55 GB to 0.55 GB.
+Total: 4.327833 ms (FindLiveObjects: 0.375958 ms CreateObjectMapping: 0.096417 ms MarkObjects: 3.828166 ms  DeleteObjects: 0.027250 ms)
+
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 15886.
+Memory consumption went from 0.57 GB to 0.57 GB.
+Total: 4.288667 ms (FindLiveObjects: 0.472583 ms CreateObjectMapping: 0.136375 ms MarkObjects: 3.657542 ms  DeleteObjects: 0.022000 ms)
+
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 15921.
+Memory consumption went from 0.58 GB to 0.58 GB.
+Total: 4.392416 ms (FindLiveObjects: 0.400375 ms CreateObjectMapping: 0.097750 ms MarkObjects: 3.873666 ms  DeleteObjects: 0.020542 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 15954.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 4.430458 ms (FindLiveObjects: 0.434208 ms CreateObjectMapping: 0.098583 ms MarkObjects: 3.875167 ms  DeleteObjects: 0.022208 ms)
+
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (94.9 KB). Loaded Objects now: 15962.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 4.849333 ms (FindLiveObjects: 0.421834 ms CreateObjectMapping: 0.106666 ms MarkObjects: 3.869209 ms  DeleteObjects: 0.451459 ms)
+
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 119 unused Assets / (116.6 KB). Loaded Objects now: 15962.
+Memory consumption went from 0.64 GB to 0.64 GB.
+Total: 4.960625 ms (FindLiveObjects: 0.430125 ms CreateObjectMapping: 0.105625 ms MarkObjects: 3.795833 ms  DeleteObjects: 0.628625 ms)
+
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (95.3 KB). Loaded Objects now: 15967.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 4.533834 ms (FindLiveObjects: 0.375625 ms CreateObjectMapping: 0.089750 ms MarkObjects: 3.687625 ms  DeleteObjects: 0.380542 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 15996.
+Memory consumption went from 0.61 GB to 0.61 GB.
+Total: 4.108166 ms (FindLiveObjects: 0.382000 ms CreateObjectMapping: 0.098083 ms MarkObjects: 3.609334 ms  DeleteObjects: 0.018666 ms)
+
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (61.3 KB). Loaded Objects now: 16012.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 4.589834 ms (FindLiveObjects: 0.416417 ms CreateObjectMapping: 0.104167 ms MarkObjects: 3.869375 ms  DeleteObjects: 0.199708 ms)
+
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (38.9 KB). Loaded Objects now: 16033.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 4.447833 ms (FindLiveObjects: 0.385250 ms CreateObjectMapping: 0.093250 ms MarkObjects: 3.665500 ms  DeleteObjects: 0.303583 ms)
+
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.5 KB). Loaded Objects now: 16065.
+Memory consumption went from 0.64 GB to 0.64 GB.
+Total: 4.241458 ms (FindLiveObjects: 0.400334 ms CreateObjectMapping: 0.104750 ms MarkObjects: 3.713833 ms  DeleteObjects: 0.022500 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (22.6 KB). Loaded Objects now: 16078.
+Memory consumption went from 0.64 GB to 0.64 GB.
+Total: 3.794500 ms (FindLiveObjects: 0.316833 ms CreateObjectMapping: 0.089750 ms MarkObjects: 3.370917 ms  DeleteObjects: 0.016875 ms)
+
+Farm static validation written: /Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/acceptance/20261024-020013-290 (static_checks_pass_runtime_and_visual_pending)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LuluFarm.Editor.FarmAcceptanceRunner:ValidateSceneAndAssets () (at Assets/Farm/Editor/FarmAcceptanceRunner.cs:220)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:20)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:21)
+
+(Filename: Assets/Farm/Editor/FarmAcceptanceRunner.cs Line: 220)
+
+Scene contact audit: technical_probes_pass_manual_visual_pending
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LuluFarm.Editor.FarmSceneContactAudit:Run () (at Assets/Farm/Editor/FarmSceneContactAudit.cs:94)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:21)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:21)
+
+(Filename: Assets/Farm/Editor/FarmSceneContactAudit.cs Line: 94)
+
+Opening scene 'Assets/Farm/Scenes/FarmWorld.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Farm/Scenes/FarmWorld.unity'
+	Deserialize:            9.935 ms
+	Integration:            74.670 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   84.611 ms
+Unloading 2 unused Assets / (0.5 KB). Loaded Objects now: 16036.
+Memory consumption went from 0.64 GB to 0.64 GB.
+Total: 4.132750 ms (FindLiveObjects: 0.329125 ms CreateObjectMapping: 0.133291 ms MarkObjects: 3.659542 ms  DeleteObjects: 0.010625 ms)
+
+Batchmode quit successfully invoked - shutting down!
+Start importing ProjectSettings/EditorSettings.asset using Guid(0000000000000000c000000000000000) (LibraryAssetImporter) -> (artifact id: '88a81b0cd41f2e6791b296dbea0c2761') in 0.000888333 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(414a889f9a09f499fae091cd36d40b9f) (NativeFormatImporter) -> (artifact id: '7cef07895afa48f4e0bd8a1f9678e347') in 0.000375084 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(445221983cb9f4717b3c9cc97f3e3c3e) (NativeFormatImporter) -> (artifact id: '697dfcdde9347fe275ae3afc1181b832') in 0.000273584 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat using Guid(b4bbe309871064f0d873eb6fb697db67) (NativeFormatImporter) -> (artifact id: 'e3f326e9fc475b24fe94150d985f92d5') in 0.000360292 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat using Guid(17fdd7179ce574f1bb3035215ef8fa18) (NativeFormatImporter) -> (artifact id: '532b352cabd2256b599377a4aad7b97c') in 0.00035375 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(3be5f8cec5aa2420f92cd801388b16eb) (NativeFormatImporter) -> (artifact id: 'ee068dd7021c6c03a19881d3d3d50da0') in 0.0002925 seconds
+Start importing Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(9c287b1db575146efad2b9d77288a6da) (NativeFormatImporter) -> (artifact id: '14745fc8eb8516941986f4157610ac04') in 0.000243834 seconds
+Refreshing native plugins compatible for Editor in 0.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=612925a072f1d4e2c9f4d4d69b1eaffd): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Thread 0x32b853000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-haowen-6000.3.16-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-haowen-6000.3.16 channel disconnected successfully.
+Thread 0x16e103000 may have been prematurely finalized
+Thread 0x16e18f000 may have been prematurely finalized
+Thread 0x16e2a7000 may have been prematurely finalized
+Thread 0x16e21b000 may have been prematurely finalized
+Thread 0x16e44b000 may have been prematurely finalized
+Thread 0x16e4d7000 may have been prematurely finalized
+Thread 0x16e333000 may have been prematurely finalized
+Thread 0x16e3bf000 may have been prematurely finalized
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      ALC ILPP context 1 is unloading
+debugger-agent: Unable to listen on 43
+Exiting batchmode successfully now!
+[Package Manager] Server process was shutdown

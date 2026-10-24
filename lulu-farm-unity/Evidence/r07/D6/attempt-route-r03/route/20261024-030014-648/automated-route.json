@@ -1,0 +1,333 @@
+{
+    "utc": "2026-10-24T03:00:18.4078710Z",
+    "status": "running_simulated_input",
+    "mode": "automated_input_events_not_manual_ui_or_device_acceptance",
+    "revision": "integration-r07-D6",
+    "reachedWaypoints": 1,
+    "plannedWaypoints": 31,
+    "completedLaps": 0,
+    "performanceMode": false,
+    "loopingWithoutTeleport": false,
+    "screenshotsSuppressed": false,
+    "applicationFocused": true,
+    "virtualGamepadPresent": true,
+    "virtualGamepadEnabled": true,
+    "virtualGamepadCanRunInBackground": true,
+    "finalPosition": {
+        "x": 0.0,
+        "y": 0.024999845772981645,
+        "z": 3.1500000953674318
+    },
+    "waypoints": [
+        {
+            "name": "house-front",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.1500000953674318
+            },
+            "screenshot": true,
+            "orbit": false
+        },
+        {
+            "name": "field-approach",
+            "position": {
+                "x": -5.5,
+                "y": 0.0,
+                "z": 3.1500000953674318
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "fields",
+            "position": {
+                "x": -6.0,
+                "y": 0.0,
+                "z": 2.0
+            },
+            "screenshot": true,
+            "orbit": false
+        },
+        {
+            "name": "field-lane",
+            "position": {
+                "x": -5.199999809265137,
+                "y": 0.0,
+                "z": 2.0
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "south-west-path",
+            "position": {
+                "x": -5.199999809265137,
+                "y": 0.0,
+                "z": -8.199999809265137
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "gate-approach",
+            "position": {
+                "x": 2.4000000953674318,
+                "y": 0.0,
+                "z": -8.199999809265137
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "pasture-gate",
+            "position": {
+                "x": 2.4000000953674318,
+                "y": 0.0,
+                "z": -7.199999809265137
+            },
+            "screenshot": true,
+            "orbit": false
+        },
+        {
+            "name": "inside-gate",
+            "position": {
+                "x": 2.4000000953674318,
+                "y": 0.0,
+                "z": -5.399999618530273
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "trough",
+            "position": {
+                "x": 4.300000190734863,
+                "y": 0.0,
+                "z": -2.799999952316284
+            },
+            "screenshot": true,
+            "orbit": false
+        },
+        {
+            "name": "exit-pasture",
+            "position": {
+                "x": 2.4000000953674318,
+                "y": 0.0,
+                "z": -5.399999618530273
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "outside-gate",
+            "position": {
+                "x": 2.4000000953674318,
+                "y": 0.0,
+                "z": -8.199999809265137
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "east-path",
+            "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -8.199999809265137
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "shore-approach",
+            "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -3.799999952316284
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "shore",
+            "position": {
+                "x": 6.699999809265137,
+                "y": 0.0,
+                "z": 0.4639437794685364
+            },
+            "screenshot": true,
+            "orbit": false
+        },
+        {
+            "name": "dock",
+            "position": {
+                "x": 8.600000381469727,
+                "y": 0.0,
+                "z": 0.4639437794685364
+            },
+            "screenshot": true,
+            "orbit": true
+        },
+        {
+            "name": "leave-dock",
+            "position": {
+                "x": 6.699999809265137,
+                "y": 0.0,
+                "z": 0.4639437794685364
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "fish-path",
+            "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -4.300000190734863
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "fish-front-approach",
+            "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -5.699999809265137
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "fish-stall",
+            "position": {
+                "x": 10.0,
+                "y": 0.0,
+                "z": -5.699999809265137
+            },
+            "screenshot": true,
+            "orbit": false
+        },
+        {
+            "name": "fish-front-exit",
+            "position": {
+                "x": 12.0,
+                "y": 0.0,
+                "z": -5.699999809265137
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "pond-east-approach",
+            "position": {
+                "x": 16.100000381469728,
+                "y": 0.0,
+                "z": -4.5
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "pond-east-path",
+            "position": {
+                "x": 16.100000381469728,
+                "y": 0.0,
+                "z": 7.199999809265137
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "north-landscape",
+            "position": {
+                "x": 11.0,
+                "y": 0.0,
+                "z": 8.199999809265137
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "north-house-approach",
+            "position": {
+                "x": 4.5,
+                "y": 0.0,
+                "z": 8.399999618530274
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "house-back-approach",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 8.399999618530274
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "house-back",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 9.5
+            },
+            "screenshot": true,
+            "orbit": true
+        },
+        {
+            "name": "house-back-exit",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 8.399999618530274
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "house-west-back",
+            "position": {
+                "x": -4.900000095367432,
+                "y": 0.0,
+                "z": 8.399999618530274
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "house-west-path",
+            "position": {
+                "x": -4.900000095367432,
+                "y": 0.0,
+                "z": 5.400000095367432
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "house-front-return",
+            "position": {
+                "x": -3.5999999046325685,
+                "y": 0.0,
+                "z": 3.1500000953674318
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "returned",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.1500000953674318
+            },
+            "screenshot": true,
+            "orbit": false
+        }
+    ]
+}

@@ -25,3 +25,11 @@
 - E01/model.bin：321,408 字节，SHA256 `dd1c46e04b8c2c0cb98dea77cfbc3d93f97ecafdb891a4e866a1251f335051c8`。
 - 首次大文件上传后普通 Git 请求出现 HTTP 401/Broken pipe；改用 HTTP/1.1 与 50MiB 请求缓冲后，同一分支推送成功，没有强推或重写历史。这两项网络配置只在本仓库保存。
 - 证据：本机 `migration/20261024-080422/remote-verification.json`、`git-push-http1.log` 和网页截图。
+
+## Current Opus work supplement (2026-10-24)
+
+New Lulu was omitted from the initial scope. Commit `8417f26` has now been pushed with 60 exact existing work files (460,789,639 bytes), including source, portable/clay versions, patches, WIP, all existing O1 tools, comparisons, polish baseline, original references, locomotion master and wardrobe textures. SHA256 is recorded per file; no preserved source was edited.
+
+User separately approved the r07 evidence supplement: 3,811 existing files / 2,578,979,254 bytes, excluding 554 binary Profiler files / 80,346,057,052 bytes that remain local. Reports identify valid sessions and failure attempts. Filtered timelines do not replace full binary Profiler captures. The original initial-scope totals above are historical, not current repository totals.
+
+Use `lulu-farm-unity/Docs/R07-OPUS-CONTINUE-20261024.md` and both remote manifests for the updated scope and continuation.

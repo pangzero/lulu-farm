@@ -39,3 +39,9 @@ Unity Library、编辑器安装、node_modules、dist、游戏包、Delivery、�
 - `MIGRATION-20261024.md`
 
 本机规范路径：`/Users/haowen/GameProject/farm-game`。旧 IdeaProjects 地址是兼容软链接。
+
+## Opus r07 current work
+
+The current new-Lulu sources, O1 WIP, tools, screenshots, rig master and wardrobe dependencies are now versioned at their original relative paths. Start at `lulu-farm-unity/Docs/R07-OPUS-CONTINUE-20261024.md`; do not restart or overwrite completed work. The Unity scene still uses the older replaceable character until the new candidate is validated.
+
+The user also approved preserving r07 reports, images, logs, short recordings and exported timelines under `lulu-farm-unity/Evidence/r07/`. Full raw Profiler `.data` files remain local and are indexed separately in `R07-EVIDENCE-REMOTE-MANIFEST.json`. This is a limited exception to the broader local art/history archive exclusion described above.

@@ -1,0 +1,6 @@
+{
+  "observed": "Extra PP-on diagnostic screenshots saved linear ARGBHalf values into RGB24 PNG and appeared darker than SDR runtime. Standard fixed screenshots and real player screenshots unaffected.",
+  "correction": "Capture same camera and lighting into explicit sRGB ARGB32 output. HDR camera and PP enabled; no exposure or lighting change.",
+  "preserved": "fixed-pp-on-linear-readback-r01",
+  "status": "actual corrected 18-view capture completed; camera lighting exposure unchanged"
+}

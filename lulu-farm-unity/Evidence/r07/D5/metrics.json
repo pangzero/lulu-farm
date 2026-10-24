@@ -1,0 +1,188 @@
+{
+  "utc": "2026-10-24T00:29:20.337147+00:00",
+  "task": "D5",
+  "status": "pending_Opus_review",
+  "builds": [
+    {
+      "platform": "r07-D5-development",
+      "result": "Succeeded",
+      "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Builds/r07/D5/development/LuluFarm.app",
+      "device": "not_tested",
+      "bytes": 792409431,
+      "seconds": 11.82489,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "platform": "r07-D5-release",
+      "result": "Succeeded",
+      "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Builds/r07/D5/release/LuluFarm.app",
+      "device": "not_tested",
+      "bytes": 586551330,
+      "seconds": 9.749873,
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "routes": [
+    {
+      "file": "Evidence/r07/D5/route/20261023-184645-328/automated-route.json",
+      "status": "completed_input_route_visual_and_manual_ui_pending",
+      "mode": "automated_input_events_not_manual_ui_or_device_acceptance",
+      "revision": "integration-r07-D5",
+      "reachedWaypoints": 31,
+      "plannedWaypoints": 31,
+      "finalPosition": {
+        "x": -0.3285643756389618,
+        "y": 0.024999842047691345,
+        "z": 3.1678860187530518
+      }
+    }
+  ],
+  "performance": [
+    {
+      "source": "Evidence/r07/D5/performance/20261023-185147-650/performance/summary.json",
+      "configurationUnchanged": true,
+      "measurementSeconds": 1462.2393798828125,
+      "laps": 4,
+      "frameTimeMs": {
+        "name": "Unity frame interval",
+        "category": "Time.unscaledDeltaTime",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 64552,
+        "unavailableFrames": 0,
+        "mean": 8.492449457408867,
+        "p95": 8.536082692444324,
+        "maximum": 4183.8579177856445
+      },
+      "sampleWindowGapsOver3Seconds": [
+        {
+          "fromElapsed": 564.6957397460938,
+          "toElapsed": 1467.218994140625,
+          "gapSeconds": 902.5232543945312
+        }
+      ],
+      "sampleWindows": 564,
+      "unfocusedWindows": 0,
+      "conclusion": "recorded_values_only_Opus_analysis_pending"
+    },
+    {
+      "source": "Evidence/r07/D5/performance-r02/20261024-001055-043/performance/summary.json",
+      "configurationUnchanged": true,
+      "measurementSeconds": 912.7228393554688,
+      "laps": 7,
+      "frameTimeMs": {
+        "name": "Unity frame interval",
+        "category": "Time.unscaledDeltaTime",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 102399,
+        "unavailableFrames": 0,
+        "mean": 8.701022135845767,
+        "p95": 8.509998209774494,
+        "maximum": 19762.544631958008
+      },
+      "sampleWindowGapsOver3Seconds": [],
+      "sampleWindows": 911,
+      "unfocusedWindows": 0,
+      "conclusion": "recorded_values_only_Opus_analysis_pending"
+    }
+  ],
+  "fixedComparisons": [
+    {
+      "group": "fixed",
+      "name": "overview",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/overview.png",
+      "after": "Evidence/r07/D5/fixed/overview.png"
+    },
+    {
+      "group": "fixed",
+      "name": "overview-close-diagnostic",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/overview-close-diagnostic.png",
+      "after": "Evidence/r07/D5/fixed/overview-close-diagnostic.png"
+    },
+    {
+      "group": "fixed",
+      "name": "spawn",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/spawn.png",
+      "after": "Evidence/r07/D5/fixed/spawn.png"
+    },
+    {
+      "group": "fixed",
+      "name": "fields",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/fields.png",
+      "after": "Evidence/r07/D5/fixed/fields.png"
+    },
+    {
+      "group": "fixed",
+      "name": "pasture",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/pasture.png",
+      "after": "Evidence/r07/D5/fixed/pasture.png"
+    },
+    {
+      "group": "fixed",
+      "name": "pond",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/pond.png",
+      "after": "Evidence/r07/D5/fixed/pond.png"
+    },
+    {
+      "group": "fixed",
+      "name": "house-front",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/house-front.png",
+      "after": "Evidence/r07/D5/fixed/house-front.png"
+    },
+    {
+      "group": "fixed",
+      "name": "house-back",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/house-back.png",
+      "after": "Evidence/r07/D5/fixed/house-back.png"
+    },
+    {
+      "group": "fixed",
+      "name": "pond-east",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/pond-east.png",
+      "after": "Evidence/r07/D5/fixed/pond-east.png"
+    },
+    {
+      "group": "fixed",
+      "name": "field-fence",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/field-fence.png",
+      "after": "Evidence/r07/D5/fixed/field-fence.png"
+    },
+    {
+      "group": "fixed",
+      "name": "dock",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/dock.png",
+      "after": "Evidence/r07/D5/fixed/dock.png"
+    },
+    {
+      "group": "fixed",
+      "name": "landscape-back",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D5/before/fixed/landscape-back.png",
+      "after": "Evidence/r07/D5/fixed/landscape-back.png"
+    }
+  ],
+  "profilerExports": [
+    "Evidence/r07/D5/profiler-r02/export-index.json",
+    "Evidence/r07/D5/profiler/export-index.json"
+  ],
+  "artAcceptance": "not_granted",
+  "performanceAcceptance": "no_conclusion"
+}

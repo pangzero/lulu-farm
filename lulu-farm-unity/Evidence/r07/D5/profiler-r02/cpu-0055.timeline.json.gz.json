@@ -1,0 +1,10 @@
+{
+    "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D5/profiler-r02/cpu-0055.data",
+    "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D5/profiler-r02/cpu-0055.timeline.json.gz",
+    "status": "exported_filtered_timeline_binary_retained",
+    "firstFrame": 0,
+    "lastFrame": 1170,
+    "frames": 1171,
+    "threads": 44,
+    "events": 157517
+}

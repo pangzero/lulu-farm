@@ -1,0 +1,977 @@
+{
+    "utc": "2026-10-23T18:25:43.2889170Z",
+    "scene": "Assets/Farm/Scenes/FarmWorld.unity",
+    "editor": "6000.3.16f1",
+    "status": "technical_probes_pass_manual_visual_pending",
+    "visual": "not_viewed",
+    "manualRoute": "not_executed_by_this_check",
+    "device": "not_tested",
+    "probes": [
+        {
+            "id": "Plot_01_cabbage_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_01_cabbage_cabbage-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_01_cabbage_cabbage-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "-0.00037",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": -0.0003708302974700928
+        },
+        {
+            "id": "Plot_02_tomato_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_02_tomato_tomato-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_02_tomato_tomato-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_03_corn_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_03_corn_corn-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_03_corn_corn-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_04_cucumber_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_04_cucumber_cucumber-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_04_cucumber_cucumber-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 4.099999904632568
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_05_pumpkin_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_05_pumpkin_pumpkin-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_05_pumpkin_pumpkin-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_06_sunflower_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_06_sunflower_sunflower-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_06_sunflower_sunflower-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "-0.00009",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": -0.00009423494338989258
+        },
+        {
+            "id": "Plot_07_wheat_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_07_wheat_wheat-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_07_wheat_wheat-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "-0.00014",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": -0.00013908743858337402
+        },
+        {
+            "id": "Plot_08_bokchoy_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_08_bokchoy_bokchoy-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_08_bokchoy_bokchoy-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 2.8999998569488527
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": -2.9802322387695315e-8
+        },
+        {
+            "id": "Plot_09_rose_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_09_rose_rose-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_09_rose_rose-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "-0.00010",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": -0.0000998079776763916
+        },
+        {
+            "id": "Plot_10_strawberry_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_10_strawberry_strawberry-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_10_strawberry_strawberry-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_11_cauliflower_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_11_cauliflower_cauliflower-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_11_cauliflower_cauliflower-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_12_watermelon_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_12_watermelon_watermelon-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_12_watermelon_watermelon-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 1.6999998092651368
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_13_tulip_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_13_tulip_tulip-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_13_tulip_tulip-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_14_lettuce_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_14_lettuce_lettuce-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_14_lettuce_lettuce-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_15_cabbage_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_15_cabbage_cabbage-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_15_cabbage_cabbage-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "-0.00037",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": -0.0003708302974700928
+        },
+        {
+            "id": "Plot_16_tomato_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_16_tomato_tomato-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_16_tomato_tomato-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": 0.4999997615814209
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_17_corn_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_17_corn_corn-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_17_corn_corn-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_18_pumpkin_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_18_pumpkin_pumpkin-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_18_pumpkin_pumpkin-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -9.100000381469727,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_19_wheat_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_19_wheat_wheat-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_19_wheat_wheat-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "-0.00014",
+            "position": {
+                "x": -7.900000095367432,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": -0.00013908743858337402
+        },
+        {
+            "id": "Plot_20_lettuce_soil",
+            "status": "pass",
+            "expected": "SoilWalkSurface",
+            "actual": "SoilWalkSurface",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": -0.004999998956918716,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_20_lettuce_lettuce-seedling_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "Plot_20_lettuce_lettuce-mature_root",
+            "status": "pass",
+            "expected": "Root at the soil datum within 0.01 units",
+            "actual": "0.00000",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 0.0,
+                "z": -0.7000002861022949
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "continuous_ground_(-12.00, 0.00, 0.00)",
+            "status": "pass",
+            "expected": "ContinuousGroundWithSoilAndPondOpenings",
+            "actual": "ContinuousGroundWithSoilAndPondOpenings",
+            "position": {
+                "x": -12.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "continuous_ground_(-5.00, 0.00, 3.00)",
+            "status": "pass",
+            "expected": "ContinuousGroundWithSoilAndPondOpenings",
+            "actual": "ContinuousGroundWithSoilAndPondOpenings",
+            "position": {
+                "x": -5.0,
+                "y": 0.0,
+                "z": 3.0
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "continuous_ground_(0.00, 0.00, -8.30)",
+            "status": "pass",
+            "expected": "ContinuousGroundWithSoilAndPondOpenings",
+            "actual": "ContinuousGroundWithSoilAndPondOpenings",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -8.300000190734864
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "pond_not_walkable",
+            "status": "pass",
+            "expected": "No ground collider below pond centre",
+            "actual": "no collider",
+            "position": {
+                "x": 11.163944244384766,
+                "y": -0.10499999672174454,
+                "z": 1.6639436483383179
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "gate_capsule_clearance",
+            "status": "pass",
+            "expected": "Clear actual player capsule, diameter 0.560 height 1.140",
+            "actual": "",
+            "position": {
+                "x": 2.4000000953674318,
+                "y": 0.0,
+                "z": -6.5
+            },
+            "collisionY": 0.0,
+            "visualY": 0.0,
+            "separation": 0.0
+        },
+        {
+            "id": "dock_deck_7.5",
+            "status": "pass",
+            "expected": "Collision follows visible deck within 0.04 units",
+            "actual": "DockDeckCollision",
+            "position": {
+                "x": 7.5,
+                "y": 0.0,
+                "z": 0.4639437794685364
+            },
+            "collisionY": 0.07499999552965164,
+            "visualY": 0.07745375484228134,
+            "separation": -0.0024537593126296999
+        },
+        {
+            "id": "dock_deck_8.1",
+            "status": "pass",
+            "expected": "Collision follows visible deck within 0.04 units",
+            "actual": "DockDeckCollision",
+            "position": {
+                "x": 8.100000381469727,
+                "y": 0.0,
+                "z": 0.4639437794685364
+            },
+            "collisionY": 0.07499999552965164,
+            "visualY": 0.07801524549722672,
+            "separation": -0.0030152499675750734
+        },
+        {
+            "id": "dock_deck_8.6",
+            "status": "pass",
+            "expected": "Collision follows visible deck within 0.04 units",
+            "actual": "DockDeckCollision",
+            "position": {
+                "x": 8.600000381469727,
+                "y": 0.0,
+                "z": 0.4639437794685364
+            },
+            "collisionY": 0.07499999552965164,
+            "visualY": 0.07317276298999787,
+            "separation": 0.001827232539653778
+        },
+        {
+            "id": "dock_deck_9.2",
+            "status": "pass",
+            "expected": "Collision follows visible deck within 0.04 units",
+            "actual": "DockDeckCollision",
+            "position": {
+                "x": 9.199999809265137,
+                "y": 0.0,
+                "z": 0.4639437794685364
+            },
+            "collisionY": 0.07499999552965164,
+            "visualY": 0.07788852602243424,
+            "separation": -0.0028885304927825929
+        }
+    ]
+}

@@ -1,0 +1,274 @@
+{
+  "utc": "2026-10-24T00:50:42.202534+00:00",
+  "task": "D2",
+  "status": "pending_Opus_review",
+  "builds": [
+    {
+      "platform": "r07-D2-development",
+      "result": "Succeeded",
+      "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Builds/r07/D2/development/LuluFarm.app",
+      "device": "not_tested",
+      "bytes": 792610944,
+      "seconds": 23.785066999999998,
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "routes": [
+    {
+      "file": "Evidence/r07/D2/route/20261024-002949-544/automated-route.json",
+      "status": "completed_input_route_visual_and_manual_ui_pending",
+      "mode": "automated_input_events_not_manual_ui_or_device_acceptance",
+      "revision": "integration-r07-D2",
+      "reachedWaypoints": 31,
+      "plannedWaypoints": 31,
+      "finalPosition": {
+        "x": -0.24254365265369415,
+        "y": 0.02499990165233612,
+        "z": 3.16282057762146
+      }
+    }
+  ],
+  "performance": [
+    {
+      "source": "Evidence/r07/D2/performance/20261024-003339-040/performance/summary.json",
+      "configurationUnchanged": true,
+      "measurementSeconds": 912.7251586914062,
+      "laps": 7,
+      "frameTimeMs": {
+        "name": "Unity frame interval",
+        "category": "Time.unscaledDeltaTime",
+        "unit": "ms",
+        "status": "available_measured",
+        "unavailableReason": "",
+        "available": true,
+        "sampleCount": 103695,
+        "unavailableFrames": 0,
+        "mean": 8.801283817484123,
+        "p95": 8.856002241373062,
+        "maximum": 19056.659698486328
+      },
+      "sampleWindowGapsOver3Seconds": [],
+      "sampleWindows": 913,
+      "unfocusedWindows": 0,
+      "conclusion": "recorded_values_only_Opus_analysis_pending"
+    }
+  ],
+  "fixedComparisons": [
+    {
+      "group": "fixed",
+      "name": "overview",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/overview.png",
+      "after": "Evidence/r07/D2/fixed/overview.png"
+    },
+    {
+      "group": "fixed",
+      "name": "overview-close-diagnostic",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/overview-close-diagnostic.png",
+      "after": "Evidence/r07/D2/fixed/overview-close-diagnostic.png"
+    },
+    {
+      "group": "fixed",
+      "name": "spawn",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/spawn.png",
+      "after": "Evidence/r07/D2/fixed/spawn.png"
+    },
+    {
+      "group": "fixed",
+      "name": "fields",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/fields.png",
+      "after": "Evidence/r07/D2/fixed/fields.png"
+    },
+    {
+      "group": "fixed",
+      "name": "pasture",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/pasture.png",
+      "after": "Evidence/r07/D2/fixed/pasture.png"
+    },
+    {
+      "group": "fixed",
+      "name": "pond",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/pond.png",
+      "after": "Evidence/r07/D2/fixed/pond.png"
+    },
+    {
+      "group": "fixed",
+      "name": "house-front",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/house-front.png",
+      "after": "Evidence/r07/D2/fixed/house-front.png"
+    },
+    {
+      "group": "fixed",
+      "name": "house-back",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/house-back.png",
+      "after": "Evidence/r07/D2/fixed/house-back.png"
+    },
+    {
+      "group": "fixed",
+      "name": "pond-east",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/pond-east.png",
+      "after": "Evidence/r07/D2/fixed/pond-east.png"
+    },
+    {
+      "group": "fixed",
+      "name": "field-fence",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/field-fence.png",
+      "after": "Evidence/r07/D2/fixed/field-fence.png"
+    },
+    {
+      "group": "fixed",
+      "name": "dock",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/dock.png",
+      "after": "Evidence/r07/D2/fixed/dock.png"
+    },
+    {
+      "group": "fixed",
+      "name": "landscape-back",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed/landscape-back.png",
+      "after": "Evidence/r07/D2/fixed/landscape-back.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "overview",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/overview.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/overview.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "overview-close-diagnostic",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/overview-close-diagnostic.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/overview-close-diagnostic.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "spawn",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/spawn.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/spawn.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "fields",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/fields.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/fields.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "pasture",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/pasture.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/pasture.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "pond",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/pond.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/pond.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "house-front",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/house-front.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/house-front.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "house-back",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/house-back.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/house-back.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "pond-east",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/pond-east.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/pond-east.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "field-fence",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/field-fence.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/field-fence.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "dock",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/dock.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/dock.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "landscape-back",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/landscape-back.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/landscape-back.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "close-house-road",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/close-house-road.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/close-house-road.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "close-pasture-gate",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/close-pasture-gate.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/close-pasture-gate.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "close-pond-road",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/close-pond-road.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/close-pond-road.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "close-house-shadow",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/close-house-shadow.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/close-house-shadow.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "close-tree-shadow",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/close-tree-shadow.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/close-tree-shadow.png"
+    },
+    {
+      "group": "fixed-pp-on",
+      "name": "close-field-shadow",
+      "cameraAndResolutionIdentical": true,
+      "before": "Evidence/r07/D2/before/fixed-pp-on/close-field-shadow.png",
+      "after": "Evidence/r07/D2/fixed-pp-on/close-field-shadow.png"
+    }
+  ],
+  "profilerExports": [
+    "Evidence/r07/D2/profiler/export-index.json"
+  ],
+  "artAcceptance": "not_granted",
+  "performanceAcceptance": "no_conclusion"
+}

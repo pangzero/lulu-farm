@@ -42,3 +42,9 @@ python3 -m venv /tmp/lulu-opus-env
 - 当前报告、截图、日志与导出的 Profiler 时间线另外补入证据交付。约 80GB 原始 .data 继续保存在本机，未伪称全部上传。完整模型历史和冻结 r06 包也保留本机。
 
 沿用固定版本、Builder 持久修改、原件保护、两轮失败停止和 D7 实际复验要求。技术、视觉初审、用户美术、资源优化、设备验证分别记录。Android 真机暂缓，不扩展玩法。
+
+## Evidence supplement and preparation check
+
+The user approved versioning all 3,811 existing r07 non-raw evidence files (2,578,979,254 bytes). Files remain unchanged; `R07-EVIDENCE-REMOTE-MANIFEST.json` has per-file SHA256 plus an inventory of the 554 raw Profiler files kept locally (80,346,057,052 bytes). Use existing REPORT files to distinguish final sessions from failed attempts. Do not infer that filtered timelines contain full binary capture detail.
+
+Preparation was actually run in an independent temporary Python environment with NumPy/SciPy/Pillow. The preserved C++ source compiled, model input parsing found 11 source meshes, and the master has 23 joints and Idle/Run/Walk. A tiny tetrahedron QEM smoke produced finite geometry, but its old diagnostic `border` count printed a nonsensical value; investigate that diagnostic if relying on it. This check is tool preparation, not a new model build, animation validation or art acceptance.

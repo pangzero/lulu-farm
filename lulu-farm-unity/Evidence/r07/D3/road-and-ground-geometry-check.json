@@ -1,0 +1,30 @@
+[
+  {
+    "file": "Assets/Farm/Data/GroundWithSoilAndPondOpenings.asset.meta",
+    "sha256": "08eb5872fdd87d607966c9e1fb8a1a44bca5ec2db1ebce8fbf4c894568ef9bf7",
+    "bytes": 188,
+    "afterSHA256": "08eb5872fdd87d607966c9e1fb8a1a44bca5ec2db1ebce8fbf4c894568ef9bf7",
+    "identical": true
+  },
+  {
+    "file": "Assets/Farm/Data/GroundWithSoilAndPondOpenings.asset",
+    "sha256": "d379b87e4d3a4ae2a51723d6c5b62b77f20421fe3689359f45275656d343e08d",
+    "bytes": 19385,
+    "afterSHA256": "d379b87e4d3a4ae2a51723d6c5b62b77f20421fe3689359f45275656d343e08d",
+    "identical": true
+  },
+  {
+    "file": "Assets/Farm/Data/RoadNetwork.asset",
+    "sha256": "bafbb6e4541763030d3633b97d9270d6b2fd17c67783ec83feac36590f5f985e",
+    "bytes": 41131,
+    "afterSHA256": "bafbb6e4541763030d3633b97d9270d6b2fd17c67783ec83feac36590f5f985e",
+    "identical": true
+  },
+  {
+    "file": "Assets/Farm/Data/RoadNetwork.asset.meta",
+    "sha256": "0a31b8fbcf97ceb44d46bb22a7963b51ae97e9a24b7602f3004bfa5689289a34",
+    "bytes": 188,
+    "afterSHA256": "0a31b8fbcf97ceb44d46bb22a7963b51ae97e9a24b7602f3004bfa5689289a34",
+    "identical": true
+  }
+]

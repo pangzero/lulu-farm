@@ -1,0 +1,89 @@
+{
+    "utc": "2026-10-24T03:02:22.8436460Z",
+    "sceneRevision": "integration-r07-D6",
+    "registryRevision": "5f1de0afeb014c5cf9971745ab149f93dd43805520739f25f2c226017afe450b",
+    "platform": "OSXPlayer",
+    "unity": "6000.3.16f1",
+    "os": "Mac OS X 26.4.0",
+    "device": "Mac17,2",
+    "cpu": "Apple M5",
+    "gpu": "Apple M5",
+    "graphicsAPI": "Metal",
+    "stage": "mature",
+    "quality": "电脑",
+    "renderPipeline": "DesktopURP",
+    "wardrobe": "原版短裤",
+    "width": 1280,
+    "height": 720,
+    "cropPlots": 20,
+    "activeMaturePlots": 20,
+    "activeSeedlingPlots": 0,
+    "vSyncCount": 1,
+    "targetFrameRate": 60,
+    "warmupSeconds": 5.0,
+    "screenshots": false,
+    "frameRecording": false,
+    "stateExercise": false,
+    "loopingRoute": true,
+    "thermal": "unavailable_not_measured_no_portable_temperature_API",
+    "sampling": "one ProfilerRecorder completed-frame sample per LateUpdate; one JSONL aggregate per second; no video or screenshot capture",
+    "limitations": "Automated route, not manual UI acceptance. Logging/recorders have overhead. Counters may be unavailable; no inferred zeros. No thermal or performance pass is asserted.",
+    "counters": [
+        {
+            "name": "Main Thread",
+            "category": "Internal",
+            "nativeUnit": "TimeNanoseconds",
+            "outputUnit": "ms",
+            "unavailableReason": "unexpected_native_unit_TimeNanoseconds",
+            "recorderValid": false
+        },
+        {
+            "name": "Render Thread",
+            "category": "unavailable",
+            "nativeUnit": "unavailable",
+            "outputUnit": "ms",
+            "unavailableReason": "counter_not_available_on_this_player",
+            "recorderValid": false
+        },
+        {
+            "name": "Draw Calls Count",
+            "category": "Render",
+            "nativeUnit": "Count",
+            "outputUnit": "count",
+            "unavailableReason": "waiting_for_completed_sample",
+            "recorderValid": true
+        },
+        {
+            "name": "Triangles Count",
+            "category": "Render",
+            "nativeUnit": "Count",
+            "outputUnit": "count",
+            "unavailableReason": "waiting_for_completed_sample",
+            "recorderValid": true
+        },
+        {
+            "name": "SetPass Calls Count",
+            "category": "Render",
+            "nativeUnit": "Count",
+            "outputUnit": "count",
+            "unavailableReason": "waiting_for_completed_sample",
+            "recorderValid": true
+        },
+        {
+            "name": "GC Allocated In Frame",
+            "category": "Memory",
+            "nativeUnit": "Bytes",
+            "outputUnit": "bytes",
+            "unavailableReason": "waiting_for_completed_sample",
+            "recorderValid": true
+        },
+        {
+            "name": "GC Used Memory",
+            "category": "Memory",
+            "nativeUnit": "Bytes",
+            "outputUnit": "bytes",
+            "unavailableReason": "waiting_for_completed_sample",
+            "recorderValid": true
+        }
+    ]
+}

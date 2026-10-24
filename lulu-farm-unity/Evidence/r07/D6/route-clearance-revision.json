@@ -1,0 +1,32 @@
+{
+    "utc": "2026-10-24T02:59:19.1559440Z",
+    "purpose": "One observed loop stop at (-5.500028,.025,6.280326); inherited route tracks the north fence endpoint. Preserve collider and move only two intermediate route x coordinates -5.5 to -4.9. No teleport or gameplay change.",
+    "comparisonLimit": "D6 final route differs at two intermediate points from r06/D5/D2/D3/D4. Performance values are not a strictly identical-path A/B experiment.",
+    "pointCount": 31,
+    "inheritedContact": [
+        "FarmWorld — overview layout r01/FieldBoundary/FenceCollision"
+    ],
+    "revisedSegmentContacts": [],
+    "changed": [
+        {
+            "name": "house-west-back",
+            "position": {
+                "x": -4.900000095367432,
+                "y": 0.0,
+                "z": 8.399999618530274
+            },
+            "screenshot": false,
+            "orbit": false
+        },
+        {
+            "name": "house-west-path",
+            "position": {
+                "x": -4.900000095367432,
+                "y": 0.0,
+                "z": 5.400000095367432
+            },
+            "screenshot": false,
+            "orbit": false
+        }
+    ]
+}

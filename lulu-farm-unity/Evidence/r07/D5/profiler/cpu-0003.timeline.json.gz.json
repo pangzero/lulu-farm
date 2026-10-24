@@ -1,0 +1,9 @@
+{
+    "file": "Evidence/r07/D5/profiler/cpu-0003.data",
+    "output": "Evidence/r07/D5/profiler/cpu-0003.timeline.json.gz",
+    "firstFrame": 0,
+    "lastFrame": 1156,
+    "frames": 1157,
+    "threads": 44,
+    "events": 152789
+}

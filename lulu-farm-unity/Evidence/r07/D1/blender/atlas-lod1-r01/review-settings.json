@@ -1,0 +1,45 @@
+{
+  "source_sha256": "d4299d1ea171c7970fbabd7266e2cd6af93f0b8726ff0e5c5003a6bf00a1b095",
+  "target": [
+    0.004160016775131226,
+    0.0027790069580078125,
+    -0.0009725093841552734
+  ],
+  "ortho_scale": 2.689440126419067,
+  "views": {
+    "front": [
+      0,
+      -1,
+      0.025
+    ],
+    "side": [
+      1,
+      0,
+      0.025
+    ],
+    "back": [
+      0,
+      1,
+      0.025
+    ],
+    "quarter": [
+      1.35,
+      -4,
+      2.25
+    ],
+    "top": [
+      0,
+      -0.001,
+      1
+    ]
+  },
+  "resolution": [
+    768,
+    768
+  ],
+  "color": "Standard / exposure0 / gamma1",
+  "renderer": "Cycles CPU 8 samples denoised",
+  "lights": "B01 fixed area/key/fill/rim, scaled only by asset span for non-crop calibration",
+  "no_candidate_scale_change": true,
+  "no_height_normalization": true
+}

@@ -1,0 +1,26 @@
+{
+  "status": "observed_pending_Opus_review",
+  "viewed": [
+    "fixed-contact/01–03.jpg (all 12)",
+    "pp-contact/01–05.jpg (all 18)",
+    "route-contact/01–07.jpg (all 25)",
+    "fixed-pp-on/close-house-road.png original",
+    "fixed-pp-on/close-pasture-gate.png original",
+    "fixed-pp-on/close-pond-road.png original",
+    "r06-baseline/pasture.png original",
+    "r06-contact/01–03.jpg (all 12)"
+  ],
+  "observations": [
+    "牧场门口原路面叠层的直角深浅矩形不再可见；房前和池塘道路在连续地面上融合。",
+    "给定 pebble floor(p*4) 逻辑近看有细小方形亮斑；按 spec 原值保留，交 Opus 判断。",
+    "道路中心位置与几何哈希不变，视觉边缘按照 spec 放宽为 .66–.98。",
+    "主屋背面竖线、透明树和房屋淡出叠层继续可见；未更改 O3 范围。",
+    "远总览外侧地平面边界仍可见，D2 雾与灯光数值不自行改变。"
+  ],
+  "notClaimed": [
+    "美术验收",
+    "人工完整路线",
+    "Android 真机",
+    "性能原因"
+  ]
+}

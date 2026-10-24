@@ -1,0 +1,152 @@
+[
+  {
+    "group": "fixed",
+    "file": "dock.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "field-fence.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "fields.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "house-back.png",
+    "identicalToActuallyViewedR02": true
+  },
+  {
+    "group": "fixed",
+    "file": "house-front.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "landscape-back.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "overview-close-diagnostic.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "overview.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "pasture.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "pond-east.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "pond.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed",
+    "file": "spawn.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "close-field-shadow.png",
+    "identicalToActuallyViewedR02": true
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "close-house-road.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "close-house-shadow.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "close-pasture-gate.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "close-pond-road.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "close-tree-shadow.png",
+    "identicalToActuallyViewedR02": true
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "dock.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "field-fence.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "fields.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "house-back.png",
+    "identicalToActuallyViewedR02": true
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "house-front.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "landscape-back.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "overview-close-diagnostic.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "overview.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "pasture.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "pond-east.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "pond.png",
+    "identicalToActuallyViewedR02": false
+  },
+  {
+    "group": "fixed-pp-on",
+    "file": "spawn.png",
+    "identicalToActuallyViewedR02": true
+  }
+]

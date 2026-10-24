@@ -1,0 +1,416 @@
+{
+  "authoredAndDerived": [
+    {
+      "file": "Assets/Farm/Editor/FarmLivingSetupR07.cs",
+      "sha256": "9eee78bedcff82a36011612fe3034152529995921aa6d887fa52336130293394"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmR07Execution.cs",
+      "sha256": "0fc6264dda8de8b959370ef97dda998e0f5b3aa1d3d32ef506afb1f616b7cea7"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmProjectBuilder.cs",
+      "sha256": "7cc7db60c9e704cf2c3d183875629e2e6e82118054f2c0e846bbd55c5cbb668c"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmAmbientR07.cs",
+      "sha256": "e9b067cfe8041e64c16ae3f28f52107ea14ebf4b2563ed524aa5d78330c9d67a"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs",
+      "sha256": "ae435f9f1d035b5203a2bbd9b052a3a6d6e9bf3f5c5b15b5eef7f266b7462728"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmOutputAudioCaptureR07.cs",
+      "sha256": "e851939a2e865dc83eefb397df20e93eea7ce1f423fbdc29e3ea4816d4cdf353"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmPresentationModeR07.cs",
+      "sha256": "9b1a2fa23f912ebf37a6d137896b8b6dd7d8f76973a6402bb4dbeb472ab92c9d"
+    },
+    {
+      "file": "Assets/Farm/Shaders/FarmLivingSurface-r07.shader",
+      "sha256": "700d7cdeb4efb950f1bb88f10414d63129f608694c99a78140cacc0b2b8f4800"
+    },
+    {
+      "file": "Scripts/r07-synthesize-audio.py",
+      "sha256": "d361d2b05d986c78651866fab5e7d09809cb90594c5ae3f5e14163bbb5f1fa2d"
+    },
+    {
+      "file": "Scripts/r07-run-player.py",
+      "sha256": "b6ff2c4f6cb52746a2eb2cd0885f969ace59438fa0b53f117cb188abd99a8d5b"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/soft-water.wav.meta",
+      "sha256": "b2a07f32cc4e6695e77c72f088b1dace19ed22bfd3f74fc99330d2beb8376f57"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/audio-source.json",
+      "sha256": "4c9fb60d2a22836f7a29c9f8df003bcd33b1df701267f745f1e6b829a1c53283"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/audio-source.json.meta",
+      "sha256": "3275a49083bd021d01ad6232e8caf452dfa2f75cc897574f7e2aa940fe5d5d8d"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/bird-chirps.wav.meta",
+      "sha256": "8ae421fb15c1b5750c63841fbc6fa44596886cc095774b7df80d18f843dde9b8"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/bird-chirps.wav",
+      "sha256": "6c78c272047a1ff7dfdeb825328b05a6256d8d90f7d385b91be0f2594b4c9d88"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/soft-water.wav",
+      "sha256": "c16e3660c8665636685a532ac023734478f909aac1816884956024b4cf8471e2"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E10-a4dd1d96188d343e5b8d4c5b66c84acb-4797550335513968313.mat",
+      "sha256": "5493e2c9cb7dfe5038b73df8c637d5e928dc9b983046a7dbdce331622891da68"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/duck-306e2f7dced204d8f8f10a386c127268-402979158967242270.mat.meta",
+      "sha256": "97d0ba110d25d4bb502ebe8f139b32a9b2ac89f4264aa81a79bc5ce6f86ebe96"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-398857732b1cf41228818d420e0c76cd-1917265764123730628.mat",
+      "sha256": "25e0a5aa93f020c4382b86907ef1394d692abda80d61941de0a7dd247f714162"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/ButterflyBody.mat",
+      "sha256": "ea7ae85b32e522e3eaee095077bec63657fa5d9bb65795a341e048d2a9dbba8b"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/Butterfly_3.mat.meta",
+      "sha256": "e1c9cf362a76678acd6faddb5215165da5441f2fd508f667175bcd84118fd1af"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/Butterfly_2.mat.meta",
+      "sha256": "c89481c53b30d129f3e6b6fe548d3d605086d4d8dafb586b902c2580ec565b9f"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/ButterflyBody.asset",
+      "sha256": "512f83faeb5246d663ba86bf97930019b7c82bd9b056401b4af97fed3e87991e"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/duck-a7e3b054ffbea409f986567bf850466e--6601293727016772069.mat",
+      "sha256": "6ac043c71f077a9a4b5ca95131c6509847ab9f36b4795c49f28bc84638ed0566"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-055ad5dd9aa3d48e49475f950c07e56c-4156454276907913278.mat.meta",
+      "sha256": "30170d5b780859d9a0a6ebf79585eb0761f67f55efc64063f22c866ebb117043"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E12-121e6922a02204740908ef9e9e5bdd52-7673121673746883117.mat",
+      "sha256": "da2da409e9f6a26252ca328df63fb0307fe7e483999d49eb6c0703cce6d962c8"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/SoftWaterRing.mat.meta",
+      "sha256": "2830fd237837681ebac964368715efd2e47138389436c9c9d7125111d2d63369"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E12-9000efc517ad640b8a28e308876ddf5b-7673121673746883117.mat.meta",
+      "sha256": "7a766e820cc0e40bac3ece2506d104151cb7fef7f149c86596206481978fb61a"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/duck-306e2f7dced204d8f8f10a386c127268--2750781780128890884.mat.meta",
+      "sha256": "e760563966f447ecc51313aa51bd0e81eb7d3e62cd74a645ebcaa0f2797fc49f"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/pig-0fa41d531d0bd40a4b947e2cadd2227a--1059805551187397979.mat.meta",
+      "sha256": "05020385484a6d37490de657e617e2eb7cda9fc614b60fcf7cbdff6b470ceff0"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E08-74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat.meta",
+      "sha256": "9c4b4adf61c45549bcb2bb3197ccf2e536f160f52721987b4c97dde38a6c308e"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E11-435add5f76a084dacba286fe636711f4-4291540115698530152.mat.meta",
+      "sha256": "6d6548276a84a8057e244f0d6b088995aa25df7865bac237e7b07a64f140f801"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/chicken-0a46fbb224914408cbf3b1329facbf63--5294847220729325008.mat.meta",
+      "sha256": "eb610f73039db7ecc3e0cf69721987158b47c7ef2517cfe28552b74b1b417bdf"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/pig-da88bb05c88684ecba95444ff4fc2a15-2683991794064962121.mat.meta",
+      "sha256": "6330f2cd697e2f6f5ff57111f92276f3ba215982ba20bd7284dc2ccfee97e6b3"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E10-e5657a105d0bc483b88163c7ca0babf4-4797550335513968313.mat",
+      "sha256": "1db97c710e38796dde9d53b4a834f3a56844c238093d195ae9aca8e6863fd903"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/WaterRippleRing.asset.meta",
+      "sha256": "4157ff895556613686cb755a199548d33f157698e6c68e0a5db382a120cbda20"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E10-a4dd1d96188d343e5b8d4c5b66c84acb-4797550335513968313.mat.meta",
+      "sha256": "872ff2d12de04aba601139612bc5681f21550093136134a7d3fac78ea1bfd30e"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E09-cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat",
+      "sha256": "4bf21020415d17d815a3565053536959b915aed01de4eb71cce2fc630c3b2ceb"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/pig-0fa41d531d0bd40a4b947e2cadd2227a--1059805551187397979.mat",
+      "sha256": "44a8576550a162416aaa7a74c5f649973ab2631e772857db79d709d64a5febec"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-398857732b1cf41228818d420e0c76cd-6004639175844578710.mat.meta",
+      "sha256": "7182ef4d8e0c614763d1f0903a49331847375802a1e17214ecfa6f8f8e695cb0"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E12-121e6922a02204740908ef9e9e5bdd52-7673121673746883117.mat.meta",
+      "sha256": "c33278307b5c472a548aec3d850a2c0d0d3454b3db22b1e3c451c425ec81be37"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-055ad5dd9aa3d48e49475f950c07e56c-4547091758117064556.mat.meta",
+      "sha256": "f57b6ac97a2c8faab69d96013c8ab65bd3b20d1eac658956d5fd78b19f18652d"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/sheep-8e7fd5577a47546659b1e36137fd833c-282075598463810040.mat",
+      "sha256": "a857a09008a1afeb38a0e70b259560845ecbea2110dce91ba23065446d31e8b6"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/chicken-939da1be848b347b78ad1aaa7a558538-130322820583838218.mat.meta",
+      "sha256": "1475ebc3d5ea6254f1819ce313e15c6d9a10d54eaa94b820ef1da13116c18f28"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E10-e5657a105d0bc483b88163c7ca0babf4-4797550335513968313.mat.meta",
+      "sha256": "ebc1b4d2a01b653539e4ce34685484a3ee63f62d8a5e4ef53ca0262ac3e2580e"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/pig-da88bb05c88684ecba95444ff4fc2a15-3234776088310061174.mat.meta",
+      "sha256": "fcea47e6f1525e0bb7f5cc70298c401a63135f29c891c28077a11a0bdd48bb73"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-055ad5dd9aa3d48e49475f950c07e56c-7812879823591200411.mat",
+      "sha256": "fc3eb28a4d4b9293aa88b4c0a89163d0c7825503083c645fe5fc182ea5316cce"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/duck-a7e3b054ffbea409f986567bf850466e--6601293727016772069.mat.meta",
+      "sha256": "2ceb4c7be8935ce37bcbf9b1fc7b229e9bb661ae10cd3f2a2316bd904e9eae37"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-2051146946026651743.mat.meta",
+      "sha256": "19b941fc02e4f3798307dcbfa8b34ca321058f6578784abf4c486f5f928fb0f4"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E12-9000efc517ad640b8a28e308876ddf5b-7673121673746883117.mat",
+      "sha256": "87b084fa4a401cbe8bcd25ba19fec6753186a01e0efcc23cdeda01e29f06e8b7"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E11-435add5f76a084dacba286fe636711f4-4291540115698530152.mat",
+      "sha256": "25e02bae54d7c71647d28cce49bc7ce531b2ab72a90a229cf08bf17d831e9f03"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/pig-0fa41d531d0bd40a4b947e2cadd2227a-3925320162787337200.mat.meta",
+      "sha256": "3cc6b39834136a1ceb873dd10bac249b724b9851fcd3aa263232a53eeb78e90e"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/pig-0fa41d531d0bd40a4b947e2cadd2227a-3925320162787337200.mat",
+      "sha256": "511e538da2655c933410346b0a7eab139630c4861a052e81ead0244119947e27"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-055ad5dd9aa3d48e49475f950c07e56c-7812879823591200411.mat.meta",
+      "sha256": "4983c92d94a90b6a2eaac1690643dc7254aa4592be0764773703eee73f892aa0"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E08-74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat",
+      "sha256": "22ed53479d36ccb176f6af45c0f5934e5321500ac373684f168007b6913e56fa"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/chicken-0a46fbb224914408cbf3b1329facbf63-9067459898399497607.mat.meta",
+      "sha256": "07500c0473b939f3cebd254a83569ee05e02dbabea3d5549e5cf11ccfb9187da"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/chicken-0a46fbb224914408cbf3b1329facbf63--5294847220729325008.mat",
+      "sha256": "0e6b2bc6f6d14db4cea88a5625da5b885e9994c52700753e83afac96797fa224"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/SoftWaterRing.mat",
+      "sha256": "8ffbdb60986da4ae1558567d81fe60338db27fa74caa6294129977a05c9dc36a"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/Butterfly_0.mat.meta",
+      "sha256": "8347a6ec9f8d61bc0e6cae4875f34173d59ecebb72e68fcb165bd84b11ff6a7e"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/Butterfly_1.mat.meta",
+      "sha256": "fc5842a25fde99f20e6adacd5ab8ce4fc6d8653e196841ba069bb39a1f50b37c"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E09-13224fa0a356247299adc90ff8420048-1966872565820863317.mat.meta",
+      "sha256": "4c7c90dd04d57cfe182bf7939ed55a724fd242cc45a02d18717a68d743cb0413"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/ButterflyWing.asset",
+      "sha256": "b5e5bbb98415c9bfc883f2e7c0a3d7de9dde9505f208f4c5fee9450aa48f6273"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/WaterRippleRing.asset",
+      "sha256": "391aa1fee50493398c36605a7d5318c4e5dc240fa109b88e797a0e2855be1356"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-2051146946026651743.mat",
+      "sha256": "afbecc9d3838536f60288d5df09372a21070cf52361a62340d85a1b15697bee7"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/pig-da88bb05c88684ecba95444ff4fc2a15-2683991794064962121.mat",
+      "sha256": "968efdc4d1bc856fd2bbe15dbb97e57e2e96b300777674dbf0b57ed71a3bc69d"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E11-3a4730c076d724fa384eb03a1ca54f43-4291540115698530152.mat.meta",
+      "sha256": "fe3179d5dce5b2b6fb9d604cac83daaf1d3a432e4343e147d870aa8fa8bb4331"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/ButterflyWing.asset.meta",
+      "sha256": "b02458685660965e4411f766346f21c3fddc22ad11a58fb9cb2e3ae6ed4445c1"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/chicken-939da1be848b347b78ad1aaa7a558538--4590802230340785185.mat",
+      "sha256": "df4f68fa0fdbbc689bd891bf18bd7b3fb514eb1cb317ad8084db4636e87a7e56"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-3250658316546735122.mat.meta",
+      "sha256": "7ba6d517d23f5c5285a1383038ba7051967c978a98b5f4914852d172cd35814a"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/sheep-8e7fd5577a47546659b1e36137fd833c-4022378295979664319.mat",
+      "sha256": "8e9bd14b17e957e40ba53a101ac34639d817ba74e7ab5a2b5ba26db7d9e5dcef"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/duck-a7e3b054ffbea409f986567bf850466e--5402444432533554046.mat",
+      "sha256": "8db322395655d31798cb5eb5d88e62c468bb28655614aa045e1f677308496118"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-398857732b1cf41228818d420e0c76cd--5660369277443133323.mat",
+      "sha256": "a2d7ad862f20db228ba40d568016d72f01b9996a5e97133f6561bdec983991c2"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/chicken-939da1be848b347b78ad1aaa7a558538-130322820583838218.mat",
+      "sha256": "a032b441f82114bc482f1760de2c141eef8b21f07c2ca2d35b96085c1880a9b7"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/Butterfly_2.mat",
+      "sha256": "f7773f9d2f6a47fec69d89a032da2a09a0ad15f1aff202d5766966d9578c0e28"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/ButterflyBody.mat.meta",
+      "sha256": "e263cf5706902bc682b1e8d3ed5148b9941ed3850474096df99beb10a61e61d5"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/duck-306e2f7dced204d8f8f10a386c127268--2750781780128890884.mat",
+      "sha256": "efb80faf7b47651d2bb6f2fe9b0388c80088f6a2cf52b346a2c0d2ae22f1c610"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E09-13224fa0a356247299adc90ff8420048-1966872565820863317.mat",
+      "sha256": "520187ac627d508f1bad3eab248eaf7438389071f796b59ce1a0ab64bfd8800b"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/Butterfly_3.mat",
+      "sha256": "f80cac34a887cb3470225ce7f025f595f097797a3821704dff8a14f8dbd9bb91"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/duck-306e2f7dced204d8f8f10a386c127268-402979158967242270.mat",
+      "sha256": "28c7de09ad8993f3d17361309723de8bcc5a7c0d74f514378c6c51f1d7f04c89"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/pig-da88bb05c88684ecba95444ff4fc2a15-3234776088310061174.mat",
+      "sha256": "a0227a2b9403bd426ed31f1f7bf35a9ce9c31de88ce725f54032d94571a40115"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/chicken-0a46fbb224914408cbf3b1329facbf63-9067459898399497607.mat",
+      "sha256": "4c7df9bb9612e8afa7a0ce12b4fbfd1b4c9caccb3164f4c0d7a7fa1a46277e27"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-3250658316546735122.mat",
+      "sha256": "32c4d7356542d653ddb453efc43e52ccd28c2fa7bc4633517a74fc243c78db93"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-398857732b1cf41228818d420e0c76cd-1917265764123730628.mat.meta",
+      "sha256": "6502cdc526cba2a29666e3c67f0282ee228a1d989d0c4d26f0b21fc6403fee86"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/chicken-939da1be848b347b78ad1aaa7a558538--4590802230340785185.mat.meta",
+      "sha256": "d8ea6188da6837842e297be51b61bc58efccd947c7c3f020027df3e28796a9ce"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/Butterfly_1.mat",
+      "sha256": "059c7ae6937bf6ec627c676e9321596680247c2b1ea979b265f08c17edbd8a83"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-055ad5dd9aa3d48e49475f950c07e56c-4156454276907913278.mat",
+      "sha256": "83a181d09a4f3a3f36a5b7ecde0b033c5e2ab16834f6596b6bed4c1bf02aa8d0"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E08-8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat",
+      "sha256": "9a0c13bffe9736d405a43c538fd75fb30ce58fdd1136fba5f6869cdac2cad92a"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/Butterfly_0.mat",
+      "sha256": "1dd0c2d7154660699ac2c012741c1729e056158bb68dcfe8054b0bb46ea0bfb0"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/sheep-8e7fd5577a47546659b1e36137fd833c-4022378295979664319.mat.meta",
+      "sha256": "8d4f5e434f983661d80ed2ba3ce357c2c324dcaea6b420998f1be54c5fafbb4a"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/ButterflyBody.asset.meta",
+      "sha256": "7c4ebf559711d6fd6eee994c97730f8ed92028a6a0ab0f3e893cafbb18aee3d4"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/sheep-8e7fd5577a47546659b1e36137fd833c-282075598463810040.mat.meta",
+      "sha256": "cdf2a60c36cb11974fcf1c832bf1eb9375233a4d9b8d28f25d77727f9f4cf975"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E11-3a4730c076d724fa384eb03a1ca54f43-4291540115698530152.mat",
+      "sha256": "7bb4c797ef5e2329ad4c577db5077fd815ff4c809a9a167a0ebd85bb618bd6d4"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-398857732b1cf41228818d420e0c76cd--5660369277443133323.mat.meta",
+      "sha256": "9aba8070eec348a84de43ae68876b6fd0eb2183e7b28a5f0847300a5e390446c"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/duck-a7e3b054ffbea409f986567bf850466e--5402444432533554046.mat.meta",
+      "sha256": "457511bcb7ee8b0b6dbf215705a73985b95002adf45dab8fff35daeb4cb7884e"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-055ad5dd9aa3d48e49475f950c07e56c-4547091758117064556.mat",
+      "sha256": "8b7d5acdb9f7d9e240dcf197e8d01415e964787bc32220736da333a8bb684f0f"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E09-cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat.meta",
+      "sha256": "7ce02533451ea16fb864de560cc5b8b8ec2d857eb829896a8eb66d73d580944f"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/E08-8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat.meta",
+      "sha256": "a33b072451cd7e10d8fdea852d98d36b4bad338d9250368ed3c272fc03896934"
+    },
+    {
+      "file": "Assets/Farm/GeneratedR07/Ambient/cow-398857732b1cf41228818d420e0c76cd-6004639175844578710.mat",
+      "sha256": "7cf0679ed3e0765b5fc86834e83c794859fb644f1bfeab56ef0e16bc279b6710"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmRouteClearanceR07.cs",
+      "sha256": "00275798d24f2d0066c93842c0c14ac2486d3b5060acad4b90ecdb6dcbf35a88"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmRouteClearanceR07.cs.meta",
+      "sha256": "0ba94a948e7708aa55cb229c776ebed771411ca725dd2fa68df75407a4d0aaa7"
+    },
+    {
+      "file": "Scripts/r07-evidence-index.py",
+      "sha256": "0c09583fd590c3bf1627b37d9804069dc5a46e0aa7c9e5758f13562b47b04ed8"
+    },
+    {
+      "file": "Scripts/r07-compare-performance.py",
+      "sha256": "cbe0306cece2c26d5e2f6f4f1b93aeb02457efa04c2426eeeba49bb7fd8cdbd3"
+    }
+  ],
+  "generatedByBuilder": [
+    "Assets/Farm/Scenes/FarmWorld.unity"
+  ],
+  "notes": "Current D6 third build adds only independent route profile with two auxiliary x coordinates adjusted. Ambient video is from second build; motion/audio/rendering source code unchanged by route revision. Originals unchanged. Default builder task D6."
+}

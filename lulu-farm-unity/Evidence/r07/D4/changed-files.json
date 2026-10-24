@@ -1,0 +1,11 @@
+{
+  "authored": [
+    "Assets/Farm/Editor/FarmDecorScatter.cs",
+    "Assets/Farm/Editor/FarmProjectBuilder.cs"
+  ],
+  "generated": [
+    "Assets/Farm/Scenes/FarmWorld.unity"
+  ],
+  "sourceAssets": "Existing E08/E09/E10/E11/E13 prefab mesh/material references; no source asset edits.",
+  "retainedAttempt": "attempt-r01"
+}

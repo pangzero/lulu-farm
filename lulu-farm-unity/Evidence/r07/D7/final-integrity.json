@@ -1,0 +1,2829 @@
+{
+  "utc": "2026-10-24T03:18:59.726498+00:00",
+  "method": "actual SHA256 of protected local files; no writes to inputs",
+  "checkedFiles": 403,
+  "changedFiles": [],
+  "records": [
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Delivery/r06-20261023/LuluFarm-macOS-r06.zip",
+      "category": "r06-delivery",
+      "expected": "3df88e85596860f6143400a46fe24e5ff88b7dcad4b8aa86245d2a340964e9f6",
+      "actual": "3df88e85596860f6143400a46fe24e5ff88b7dcad4b8aa86245d2a340964e9f6",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Delivery/r06-20261023/LuluFarm-Unity-source-r06.zip",
+      "category": "r06-delivery",
+      "expected": "b8890423ff93fefd2e5654164e3c9f043254da9386dbf674ccfe914bb001062f",
+      "actual": "b8890423ff93fefd2e5654164e3c9f043254da9386dbf674ccfe914bb001062f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Delivery/r06-20261023/LuluFarm-evidence-r06.zip",
+      "category": "r06-delivery",
+      "expected": "b4ac32371985923e7fac5b9706a4c13facc6a7b68851a48ef33767b65798b8f0",
+      "actual": "b4ac32371985923e7fac5b9706a4c13facc6a7b68851a48ef33767b65798b8f0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Delivery/r06-20261023/LuluFarm-walkthrough-r06.mp4",
+      "category": "r06-delivery",
+      "expected": "4ac2e94f10884f1357076118a246b91293f57bac648be9017be69bd73ee99579",
+      "actual": "4ac2e94f10884f1357076118a246b91293f57bac648be9017be69bd73ee99579",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Delivery/r06-20261023/先读我.md",
+      "category": "r06-delivery",
+      "expected": "f4183b8fc054c96cf83cde492154603004482335b24c3ea2f10af21571bfa60f",
+      "actual": "f4183b8fc054c96cf83cde492154603004482335b24c3ea2f10af21571bfa60f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Delivery/r06-20261023/app-archive-verification.json",
+      "category": "r06-delivery",
+      "expected": "137acc5514d478290b891456ef395917d0510c11fbb7f775fb3d300fc4460d85",
+      "actual": "137acc5514d478290b891456ef395917d0510c11fbb7f775fb3d300fc4460d85",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Delivery/r06-20261023/evidence-archive-verification.json",
+      "category": "r06-delivery",
+      "expected": "1ff51dcf181bfab5f7eef9dc560c06add6e28d6de563ab43bce17ece668f3253",
+      "actual": "1ff51dcf181bfab5f7eef9dc560c06add6e28d6de563ab43bce17ece668f3253",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Delivery/r06-20261023/LuluFarm-Unity-source-r06.manifest.json",
+      "category": "r06-delivery",
+      "expected": "da74d304243cd094ad737677c5f72567ef12a0c666d0282e48de4bc010673705",
+      "actual": "da74d304243cd094ad737677c5f72567ef12a0c666d0282e48de4bc010673705",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r02/s02-pasture-barn.glb",
+      "category": "S02-original",
+      "expected": "d4299d1ea171c7970fbabd7266e2cd6af93f0b8726ff0e5c5003a6bf00a1b095",
+      "actual": "d4299d1ea171c7970fbabd7266e2cd6af93f0b8726ff0e5c5003a6bf00a1b095",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Packages/manifest.json",
+      "category": "locked-packages",
+      "expected": "69c99a7c427250abc9b8e66f0f4fa6a4d3905ff24eb4fd5ef5f773a8c549895b",
+      "actual": "69c99a7c427250abc9b8e66f0f4fa6a4d3905ff24eb4fd5ef5f773a8c549895b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Packages/packages-lock.json",
+      "category": "locked-packages",
+      "expected": "e0fb1029942e5bf87771859d4ef6976d48395b86804c5578cb306ddad9ce8288",
+      "actual": "e0fb1029942e5bf87771859d4ef6976d48395b86804c5578cb306ddad9ce8288",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/07_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "869bb55856f393446ebc71d68a6cd882232f2e756dbe7d69f8927f1bb7ccc426",
+      "actual": "869bb55856f393446ebc71d68a6cd882232f2e756dbe7d69f8927f1bb7ccc426",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/model.bin",
+      "category": "frozen-Lulu",
+      "expected": "923434435d229b3bec370140acf6d3b1e96927358862842d8fbb37cb50ef49e5",
+      "actual": "923434435d229b3bec370140acf6d3b1e96927358862842d8fbb37cb50ef49e5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/04_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "7df9eb915bef11d5312469855c8e40227f674c23f18ade371680d7b938ba802c",
+      "actual": "7df9eb915bef11d5312469855c8e40227f674c23f18ade371680d7b938ba802c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/02_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "3214dcb002dc8a545b23f01bb0d888b48502fc8e07483d9ebf52665fd85f4999",
+      "actual": "3214dcb002dc8a545b23f01bb0d888b48502fc8e07483d9ebf52665fd85f4999",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/02_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "7f20bd93a7d064729c1cfd0042857427c465adbd06bdb15a9943db49fdbbe3d4",
+      "actual": "7f20bd93a7d064729c1cfd0042857427c465adbd06bdb15a9943db49fdbbe3d4",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/06_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "fc787002dd8ece27795a3bdb2d7ddfe34038c2b0542152c70993af11b43c23b3",
+      "actual": "fc787002dd8ece27795a3bdb2d7ddfe34038c2b0542152c70993af11b43c23b3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/model.bin.meta",
+      "category": "frozen-Lulu",
+      "expected": "551518ac2fd6b14eda4b6cfa2111e265817fe1d293ca4bc63858f7b1c833dd2f",
+      "actual": "551518ac2fd6b14eda4b6cfa2111e265817fe1d293ca4bc63858f7b1c833dd2f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1.meta",
+      "category": "frozen-Lulu",
+      "expected": "83618bf5d08f61331516717d4689fa9e5882bdb9275d1f9e3a738b17447ff355",
+      "actual": "83618bf5d08f61331516717d4689fa9e5882bdb9275d1f9e3a738b17447ff355",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/model.gltf.meta",
+      "category": "frozen-Lulu",
+      "expected": "1a5f857fa24bf2b4728d2cbc1c9e89a16b1bdf80217ba8bf7b10a1184dcdde29",
+      "actual": "1a5f857fa24bf2b4728d2cbc1c9e89a16b1bdf80217ba8bf7b10a1184dcdde29",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/01_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "6fd0b7fd2ac99e3338f12ce2921082284c5a63cc53ab4f1cdedda8328eaea881",
+      "actual": "6fd0b7fd2ac99e3338f12ce2921082284c5a63cc53ab4f1cdedda8328eaea881",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/01_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "63bfcebaf07576f79fe300407adad1521f286c230ffc68021ad0e7d026d8f419",
+      "actual": "63bfcebaf07576f79fe300407adad1521f286c230ffc68021ad0e7d026d8f419",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/05_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "7a885e1256645b2051c0f1323e0d8fe2cbaab69fd3569ade99b6236ea5f56ed1",
+      "actual": "7a885e1256645b2051c0f1323e0d8fe2cbaab69fd3569ade99b6236ea5f56ed1",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/04_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "db4400b9c3594d0ff681055bf403d169111764287591e2d54ea0bee45e8d382c",
+      "actual": "db4400b9c3594d0ff681055bf403d169111764287591e2d54ea0bee45e8d382c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/00_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "3f636ab55454e6e2390c84c7060f9fe7bd027e5b49a8c0e6ad40e7cc4db0f2fd",
+      "actual": "3f636ab55454e6e2390c84c7060f9fe7bd027e5b49a8c0e6ad40e7cc4db0f2fd",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/00_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "710188fb26104b5062c7801610413ef0444b8d54ce5b651e335a33e9bacb9ce9",
+      "actual": "710188fb26104b5062c7801610413ef0444b8d54ce5b651e335a33e9bacb9ce9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/03_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "369e90905c8327abf93d1f651300fd32acee856101c3cf69fa24392b828e2717",
+      "actual": "369e90905c8327abf93d1f651300fd32acee856101c3cf69fa24392b828e2717",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/07_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "97c06ccc4cdaaa5ad75ef5f8660535800bfe45a5ee123c8e21e930693c27fff8",
+      "actual": "97c06ccc4cdaaa5ad75ef5f8660535800bfe45a5ee123c8e21e930693c27fff8",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/03_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "b39d697df65e97f3457c13ebd4af933ed544fd295faf837faa27f5ddb1b68e1b",
+      "actual": "b39d697df65e97f3457c13ebd4af933ed544fd295faf837faa27f5ddb1b68e1b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/05_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "02f32de0c92e7484c37f6cdc19443f530fcd681143cf1ba4c2416e87614a8709",
+      "actual": "02f32de0c92e7484c37f6cdc19443f530fcd681143cf1ba4c2416e87614a8709",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/06_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "8980e929179c8df0dedd341478a281951986487efa7bc1fe349c6d02ae17847e",
+      "actual": "8980e929179c8df0dedd341478a281951986487efa7bc1fe349c6d02ae17847e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/model.gltf",
+      "category": "frozen-Lulu",
+      "expected": "10e79b27c3bb21907c09c6c2b9e46e8c15773dc2f1baa1e7f009560db3707e43",
+      "actual": "10e79b27c3bb21907c09c6c2b9e46e8c15773dc2f1baa1e7f009560db3707e43",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/07_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "50daf7fe09c4fe75ed8f48b49406b38e38315691e75c76d1c30a0b5b664b4bf1",
+      "actual": "50daf7fe09c4fe75ed8f48b49406b38e38315691e75c76d1c30a0b5b664b4bf1",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/model.bin",
+      "category": "frozen-Lulu",
+      "expected": "0c31e9eb5e6fafc1e1d2c8dcefac0be7afd63f9116f649f6a5a343c49d1be1b9",
+      "actual": "0c31e9eb5e6fafc1e1d2c8dcefac0be7afd63f9116f649f6a5a343c49d1be1b9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/04_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "6dce9c06f70afa9bfa450e9fcc6cd0ca7194b5e9ca43e0878909ebb636b85450",
+      "actual": "6dce9c06f70afa9bfa450e9fcc6cd0ca7194b5e9ca43e0878909ebb636b85450",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/02_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "08e90971c3bdde655d93506bcb8bb49cbc05cb1c4279ed3ca784da1ebd71fd8c",
+      "actual": "08e90971c3bdde655d93506bcb8bb49cbc05cb1c4279ed3ca784da1ebd71fd8c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/02_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "97e1f975d8910bd0aae021103dd6419b0c744a19c926d1e4720ba1b34815d153",
+      "actual": "97e1f975d8910bd0aae021103dd6419b0c744a19c926d1e4720ba1b34815d153",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/06_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "61681c29407e943562c1691a024cfaa6b7585f9e88573d0c46c15eb094029721",
+      "actual": "61681c29407e943562c1691a024cfaa6b7585f9e88573d0c46c15eb094029721",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/model.bin.meta",
+      "category": "frozen-Lulu",
+      "expected": "d03c89b4f773081c3d3c0df8e05e7531f284cdc39af40adcf74a089b422d565f",
+      "actual": "d03c89b4f773081c3d3c0df8e05e7531f284cdc39af40adcf74a089b422d565f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/model.gltf.meta",
+      "category": "frozen-Lulu",
+      "expected": "0752125e8acd6c738a1649e7d9fc68aad1637af4e44a6f8209cced278890cc7c",
+      "actual": "0752125e8acd6c738a1649e7d9fc68aad1637af4e44a6f8209cced278890cc7c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/01_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "5dada18ccf57656a7f08e732d906b5716d13657ebc5698643e4006152448c65f",
+      "actual": "5dada18ccf57656a7f08e732d906b5716d13657ebc5698643e4006152448c65f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/01_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "101e9949696fb27ef80f9eeadbbf5fa61bf3a9850c8873a3884fca001e02aafe",
+      "actual": "101e9949696fb27ef80f9eeadbbf5fa61bf3a9850c8873a3884fca001e02aafe",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/05_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "d70a9f0cfffffa28abd4d39f698a93e5f55f229db24a99bbee8dea14bd31ccfd",
+      "actual": "d70a9f0cfffffa28abd4d39f698a93e5f55f229db24a99bbee8dea14bd31ccfd",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/04_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "21555a9397e65e009fc6f622e8a571c9e6d2e095a106f51fdbb79f01fcb3ecb6",
+      "actual": "21555a9397e65e009fc6f622e8a571c9e6d2e095a106f51fdbb79f01fcb3ecb6",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/00_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "541d0c734bef7f9e9ba9da9ac41633b1f355afc4c4bd703d7c4a0dddb4ac6933",
+      "actual": "541d0c734bef7f9e9ba9da9ac41633b1f355afc4c4bd703d7c4a0dddb4ac6933",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/00_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "e60cc0d59077ee7b44273f97d7c460828d3bb4a7510acdf48194982a1e9bdd08",
+      "actual": "e60cc0d59077ee7b44273f97d7c460828d3bb4a7510acdf48194982a1e9bdd08",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/03_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "6d48621204fd12da13d6125cd0fe63a4d851ce4be321a351c621861fcb1b0676",
+      "actual": "6d48621204fd12da13d6125cd0fe63a4d851ce4be321a351c621861fcb1b0676",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/07_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "77ade16643947ac4c2bbe669afcbc48e24c40a36dbcde4fca0ed469627cd1bad",
+      "actual": "77ade16643947ac4c2bbe669afcbc48e24c40a36dbcde4fca0ed469627cd1bad",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/03_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "385c83b0c159da2b68a6ba6eea35192f0accd34357b27d4f723196509ac71f72",
+      "actual": "385c83b0c159da2b68a6ba6eea35192f0accd34357b27d4f723196509ac71f72",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/05_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "a9cd1b87f06938006f7cb6f03ba2125de2cd1ec2d7a7a6f981f9edd530a999a5",
+      "actual": "a9cd1b87f06938006f7cb6f03ba2125de2cd1ec2d7a7a6f981f9edd530a999a5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/06_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "20598cdc10445981009b5a7f7001847d4ef262d9d50500a7ea9d144716c2a2be",
+      "actual": "20598cdc10445981009b5a7f7001847d4ef262d9d50500a7ea9d144716c2a2be",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Lulu/game-lod1/model.gltf",
+      "category": "frozen-Lulu",
+      "expected": "1bb700985a92ad5333fccff2ac4b77d680c9256ffc2bd863dd4c609727f0d49c",
+      "actual": "1bb700985a92ad5333fccff2ac4b77d680c9256ffc2bd863dd4c609727f0d49c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/03_image.png",
+      "category": "frozen-Lulu",
+      "expected": "665edfe5f54d3352669ce0fc87a3e12b85e7d96fe2ee740f879789d331b717f7",
+      "actual": "665edfe5f54d3352669ce0fc87a3e12b85e7d96fe2ee740f879789d331b717f7",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/model.bin",
+      "category": "frozen-Lulu",
+      "expected": "edc766ad1a453838de67efc77a07bdf97d152644ee4e08a80d0b702347edd308",
+      "actual": "edc766ad1a453838de67efc77a07bdf97d152644ee4e08a80d0b702347edd308",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/01_mask.png",
+      "category": "frozen-Lulu",
+      "expected": "7dd33acb0343d4ce78910c589561abf35701513cf071926c8f15d543838f878c",
+      "actual": "7dd33acb0343d4ce78910c589561abf35701513cf071926c8f15d543838f878c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/04_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "13e310298b8d99630cdc596388bdca4a86a2c326d42e3ffa05f772fdfb1ecd31",
+      "actual": "13e310298b8d99630cdc596388bdca4a86a2c326d42e3ffa05f772fdfb1ecd31",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/model.bin.meta",
+      "category": "frozen-Lulu",
+      "expected": "301ef3625bdc10fef784ca5b3118da4ed13c9aa01983e9fe086ad20eae66e6f7",
+      "actual": "301ef3625bdc10fef784ca5b3118da4ed13c9aa01983e9fe086ad20eae66e6f7",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/model.gltf.meta",
+      "category": "frozen-Lulu",
+      "expected": "4f71ae9e8837259d6fecdbe1c1daef73eb484e9bde0d8ead80b920281cb83df2",
+      "actual": "4f71ae9e8837259d6fecdbe1c1daef73eb484e9bde0d8ead80b920281cb83df2",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/01_mask.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "5c3d32cc9cdce79031b95f8b8eca9dc458508f86e8c28fdca1364d180d453223",
+      "actual": "5c3d32cc9cdce79031b95f8b8eca9dc458508f86e8c28fdca1364d180d453223",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/02_normal.jpg",
+      "category": "frozen-Lulu",
+      "expected": "60bed533663c950df9b923ae461807dcc8b7b6f525f85e5f83cac9d55c973c90",
+      "actual": "60bed533663c950df9b923ae461807dcc8b7b6f525f85e5f83cac9d55c973c90",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/04_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "71aabe830bca31883daa3b4907bbd57e2f24b9058865e149b0ddbdba97a99921",
+      "actual": "71aabe830bca31883daa3b4907bbd57e2f24b9058865e149b0ddbdba97a99921",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/00_basecolor.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "7079e400d0c84164a338d760680127f0e3bf1b2d8444293d1778abc750f5c225",
+      "actual": "7079e400d0c84164a338d760680127f0e3bf1b2d8444293d1778abc750f5c225",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/00_basecolor.png",
+      "category": "frozen-Lulu",
+      "expected": "d2813e67cdb5ff0ba2a8c70a69a4da32519604f389844f7cb29b34c58f1a4f25",
+      "actual": "d2813e67cdb5ff0ba2a8c70a69a4da32519604f389844f7cb29b34c58f1a4f25",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/03_image.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "8b25c57d9b2ab491c747f2f11070c990613217be4e31c4d1cf7821de9742c089",
+      "actual": "8b25c57d9b2ab491c747f2f11070c990613217be4e31c4d1cf7821de9742c089",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/model.gltf",
+      "category": "frozen-Lulu",
+      "expected": "660a657809bae348b5c15d9eac8f2b88261f388129ab92f9ebea2b04a62c3b6f",
+      "actual": "660a657809bae348b5c15d9eac8f2b88261f388129ab92f9ebea2b04a62c3b6f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Art/Comparisons/Lulu/02_normal.jpg.meta",
+      "category": "frozen-Lulu",
+      "expected": "8e3830586b190e9888bf16f21a27b1c34b88bd71822aaac603b894225e82ddad",
+      "actual": "8e3830586b190e9888bf16f21a27b1c34b88bd71822aaac603b894225e82ddad",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S04.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a356c4fb681fcbb0b4a510462864d4a79eaa3a95f7e6de0e9e9165429c22ca7e",
+      "actual": "a356c4fb681fcbb0b4a510462864d4a79eaa3a95f7e6de0e9e9165429c22ca7e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E14.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "6f8b2b793b101f947b046328679999cc5f2441810bf2bacfa2e72639dba23f88",
+      "actual": "6f8b2b793b101f947b046328679999cc5f2441810bf2bacfa2e72639dba23f88",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/pony.prefab",
+      "category": "frozen-Lulu",
+      "expected": "94548bbd8e57832f0fb6cce495f15872688357ac0874c4a8084a9f7ab5360757",
+      "actual": "94548bbd8e57832f0fb6cce495f15872688357ac0874c4a8084a9f7ab5360757",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/watermelon-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "44d4a23d0913037dc4a22b933f43dab2c84e4507728cb721a5b23a4c51d488fe",
+      "actual": "44d4a23d0913037dc4a22b933f43dab2c84e4507728cb721a5b23a4c51d488fe",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/tulip-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "8fd6ab4f9ae592b5ec9ca7edafcd8a26941f0e1d673ad63146063209aae11db3",
+      "actual": "8fd6ab4f9ae592b5ec9ca7edafcd8a26941f0e1d673ad63146063209aae11db3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/pony.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "7365398d0d7ed63170440ccaed1ca389875a709c584f3536b993b0e21bc113ed",
+      "actual": "7365398d0d7ed63170440ccaed1ca389875a709c584f3536b993b0e21bc113ed",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/deer.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "14af4aa8d24b481ebb2db6c9af33ccb80a1f32ae3b28e99563f6c02ec04eef8b",
+      "actual": "14af4aa8d24b481ebb2db6c9af33ccb80a1f32ae3b28e99563f6c02ec04eef8b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E08.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "84c6f91af4389d894cca20794ca75d4571f06c32fb04838f1bf656d04e4364cb",
+      "actual": "84c6f91af4389d894cca20794ca75d4571f06c32fb04838f1bf656d04e4364cb",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/watermelon-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "c3cf8ae0de4ebfd233fd5f2a3bf0467d4831ade38e5a48fbd91f1f9baab6b409",
+      "actual": "c3cf8ae0de4ebfd233fd5f2a3bf0467d4831ade38e5a48fbd91f1f9baab6b409",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E08.prefab",
+      "category": "frozen-Lulu",
+      "expected": "9570a88cfefa8bf032f69a8427c0fe33292a4c510a9046c429c614bc09a1ff2d",
+      "actual": "9570a88cfefa8bf032f69a8427c0fe33292a4c510a9046c429c614bc09a1ff2d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/pumpkin-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "4b06c982c0f71e576a0facdcde428360a77aa35f4388d5addb4444b99be26eb0",
+      "actual": "4b06c982c0f71e576a0facdcde428360a77aa35f4388d5addb4444b99be26eb0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E16.prefab",
+      "category": "frozen-Lulu",
+      "expected": "eaac0317371e7e5e6ea311f54ba1cc836a66ba8fab7392275fe194a8f04ae913",
+      "actual": "eaac0317371e7e5e6ea311f54ba1cc836a66ba8fab7392275fe194a8f04ae913",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S05.prefab",
+      "category": "frozen-Lulu",
+      "expected": "389ff776489c0c35d50c83c1c102a297a13d8396cf024cb8ccf9bb932790ddf1",
+      "actual": "389ff776489c0c35d50c83c1c102a297a13d8396cf024cb8ccf9bb932790ddf1",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S09.prefab",
+      "category": "frozen-Lulu",
+      "expected": "c9de9f658b723803c2914e19d93b12f62700917e2f8994d62ecc87f0a7c7f843",
+      "actual": "c9de9f658b723803c2914e19d93b12f62700917e2f8994d62ecc87f0a7c7f843",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/pumpkin-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "c800786d0a5ed0852cb15df9b4239ab1ed70f9fab22ec34129fd9431d01fb161",
+      "actual": "c800786d0a5ed0852cb15df9b4239ab1ed70f9fab22ec34129fd9431d01fb161",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cucumber-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "40d75c24560fa78452d887e32a44074e18ca3e1261b2fcc40d64c4e8ad75a162",
+      "actual": "40d75c24560fa78452d887e32a44074e18ca3e1261b2fcc40d64c4e8ad75a162",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E04.prefab",
+      "category": "frozen-Lulu",
+      "expected": "1bc1d88cba2aedb05dd12a37aa5d22ae13a8ae97cdcbda1b92705bacd19d94aa",
+      "actual": "1bc1d88cba2aedb05dd12a37aa5d22ae13a8ae97cdcbda1b92705bacd19d94aa",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/watermelon-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "7ec8b184d2faaf91a9ec5b54758e0ccaccb3e30d27b060fa0d996937c3bdb38a",
+      "actual": "7ec8b184d2faaf91a9ec5b54758e0ccaccb3e30d27b060fa0d996937c3bdb38a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S11.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "25405c93dda7d935b9524fc0c02e3c1f8147a2ce10ee179a67eeb8d69e733a88",
+      "actual": "25405c93dda7d935b9524fc0c02e3c1f8147a2ce10ee179a67eeb8d69e733a88",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E01.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "6e914ba9f9672047f9f0e07a79e69b37d3ad7a127edef57e01bf30a2bdc43f18",
+      "actual": "6e914ba9f9672047f9f0e07a79e69b37d3ad7a127edef57e01bf30a2bdc43f18",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/chicken.prefab",
+      "category": "frozen-Lulu",
+      "expected": "70f7b5a26dd4b939889242af6780421a3bfa85552d713d609a8343df0c443df9",
+      "actual": "70f7b5a26dd4b939889242af6780421a3bfa85552d713d609a8343df0c443df9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E06.prefab",
+      "category": "frozen-Lulu",
+      "expected": "abc9d72433324f0a9f0b78317020b9251a6acada832f50a988a0029f29e757b5",
+      "actual": "abc9d72433324f0a9f0b78317020b9251a6acada832f50a988a0029f29e757b5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/rose-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "5e105d9ef0a16e562be650557c942465afd34e3e20c4806e86f2c945d2417ff7",
+      "actual": "5e105d9ef0a16e562be650557c942465afd34e3e20c4806e86f2c945d2417ff7",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/wheat-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "75eb2d82b2e3ebf7a7174efdd338b698bd558a9ab49cafb9560164d642e544e7",
+      "actual": "75eb2d82b2e3ebf7a7174efdd338b698bd558a9ab49cafb9560164d642e544e7",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/pig.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "ed67593f92999f3ed2312f0faccf72fa7d70acff71fb25d842ac632434a0adda",
+      "actual": "ed67593f92999f3ed2312f0faccf72fa7d70acff71fb25d842ac632434a0adda",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/wheat-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "85a148eae1d11fb57e7c584dd82ae46f089ed0666c655cc09de6815e0b915aee",
+      "actual": "85a148eae1d11fb57e7c584dd82ae46f089ed0666c655cc09de6815e0b915aee",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S08.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "2b4d007f69feb51ad851cae1e983d34710749a7f8e05243bf025dd65b34bdb0b",
+      "actual": "2b4d007f69feb51ad851cae1e983d34710749a7f8e05243bf025dd65b34bdb0b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E14.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e003d00e57b3c71d4be80c6d5b131d3d6fe7da15698807b3a5f9189aee0018be",
+      "actual": "e003d00e57b3c71d4be80c6d5b131d3d6fe7da15698807b3a5f9189aee0018be",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S07.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e01bdc7899c449a68438c3c060aa9c2652e8b9f4ec7d2e6f849f00968cc3dc8c",
+      "actual": "e01bdc7899c449a68438c3c060aa9c2652e8b9f4ec7d2e6f849f00968cc3dc8c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cow.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e7d3609a0d232237a3f25e28c5e46b7e5686c8e79bb8ef89c293eb8bcae82cd0",
+      "actual": "e7d3609a0d232237a3f25e28c5e46b7e5686c8e79bb8ef89c293eb8bcae82cd0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/duck.prefab",
+      "category": "frozen-Lulu",
+      "expected": "51a55859693098211f4e0598d11cc235828f9a4eeac7da8edfbd09c2351dd397",
+      "actual": "51a55859693098211f4e0598d11cc235828f9a4eeac7da8edfbd09c2351dd397",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E05-corner.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a233663401a1cec3f69b520223b550f6354af9b944c09ebfb4f0d9c5b3477999",
+      "actual": "a233663401a1cec3f69b520223b550f6354af9b944c09ebfb4f0d9c5b3477999",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cabbage-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "cb2ace1b97145872387c08803f8c0fe1b7f022778a984a8fbf06454792f890dc",
+      "actual": "cb2ace1b97145872387c08803f8c0fe1b7f022778a984a8fbf06454792f890dc",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E04.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "530484f722c1b90f2e1300a102b36234288d52b38f591f16e9c1021804847758",
+      "actual": "530484f722c1b90f2e1300a102b36234288d52b38f591f16e9c1021804847758",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/alpaca.prefab",
+      "category": "frozen-Lulu",
+      "expected": "0cb3f6be9f24c456afc5e5e32c7e118d6cd14e2a74197e960981bf5b53c46ca5",
+      "actual": "0cb3f6be9f24c456afc5e5e32c7e118d6cd14e2a74197e960981bf5b53c46ca5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cauliflower-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "99136332e6da84c48b42473dbedb3d3d580497c9aff63004f6d7963d732d2a54",
+      "actual": "99136332e6da84c48b42473dbedb3d3d580497c9aff63004f6d7963d732d2a54",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Lulu.prefab",
+      "category": "frozen-Lulu",
+      "expected": "27d0efe9bff0dd3e6364de1f12805faaf5091b52f71af0e271073d6594a1852f",
+      "actual": "27d0efe9bff0dd3e6364de1f12805faaf5091b52f71af0e271073d6594a1852f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E11.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "56fed45e35f22a4414ad48a6e48c1734cddce2d8d1bfd573d763dcb87b4009ac",
+      "actual": "56fed45e35f22a4414ad48a6e48c1734cddce2d8d1bfd573d763dcb87b4009ac",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S01.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "2cfce019ca2aa6286fe5c5de1231fadf972cdc355fe0c1dd1ff81a016986d8a3",
+      "actual": "2cfce019ca2aa6286fe5c5de1231fadf972cdc355fe0c1dd1ff81a016986d8a3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cucumber-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "ef3018f1f204e7d26eefd7e602ba0d85beea0781d57658834e9a1abb5df9cbab",
+      "actual": "ef3018f1f204e7d26eefd7e602ba0d85beea0781d57658834e9a1abb5df9cbab",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cabbage-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "2e939beeaae78f40f907b5485d782b645c0c30e6d2a23a234764fa05c9dfa7c4",
+      "actual": "2e939beeaae78f40f907b5485d782b645c0c30e6d2a23a234764fa05c9dfa7c4",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/rose-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "5371a26ffbb84e3bb791ce66fbba453beac4fb24ab0e3d4799bf6173361004f4",
+      "actual": "5371a26ffbb84e3bb791ce66fbba453beac4fb24ab0e3d4799bf6173361004f4",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cabbage-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "d4095f26c2858cf2d77c6726e372e472be1023ea2d45be2169e5e4011a8a9a3e",
+      "actual": "d4095f26c2858cf2d77c6726e372e472be1023ea2d45be2169e5e4011a8a9a3e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/tulip-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "8c8115d42c562afcbc44173b8f8c16bd76cfa140647368e7866a9d853eeb695c",
+      "actual": "8c8115d42c562afcbc44173b8f8c16bd76cfa140647368e7866a9d853eeb695c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/hamster.prefab",
+      "category": "frozen-Lulu",
+      "expected": "db51579e1dd631a7a390a1014fbb56526a18f440969ca9459bf9ea5beab1fc62",
+      "actual": "db51579e1dd631a7a390a1014fbb56526a18f440969ca9459bf9ea5beab1fc62",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E10.prefab",
+      "category": "frozen-Lulu",
+      "expected": "0c94abeb215e8ceb704d254cf130e3e4300f0e4ce661f839275dd16c3ed57060",
+      "actual": "0c94abeb215e8ceb704d254cf130e3e4300f0e4ce661f839275dd16c3ed57060",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S03.prefab",
+      "category": "frozen-Lulu",
+      "expected": "3a248425ccbba4f3555632e0cc72b2187d0690dd4b818198adeddb30f9b3e4c0",
+      "actual": "3a248425ccbba4f3555632e0cc72b2187d0690dd4b818198adeddb30f9b3e4c0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S02.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "8844c3f3ddc86a22503b892c2e6240c68350574985458821c40a555779cfcc04",
+      "actual": "8844c3f3ddc86a22503b892c2e6240c68350574985458821c40a555779cfcc04",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/sunflower-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "25d38d46d1104252ecaecf9948e3e75c44b11f67bc3998a79b4da4ab9e746b86",
+      "actual": "25d38d46d1104252ecaecf9948e3e75c44b11f67bc3998a79b4da4ab9e746b86",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E12.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "ce14d8339227dfac1e2d6a5b16d2cecfa8ab785dbbd7d3556c65e15cea1682f0",
+      "actual": "ce14d8339227dfac1e2d6a5b16d2cecfa8ab785dbbd7d3556c65e15cea1682f0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S11.prefab",
+      "category": "frozen-Lulu",
+      "expected": "9d2bf8396c83454f46b6aacaccd5830d7e2c8fa660a16a8b56df20854408083f",
+      "actual": "9d2bf8396c83454f46b6aacaccd5830d7e2c8fa660a16a8b56df20854408083f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/tulip-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "bbb10033de6b71a7951869b192096dd2c54d2c3ffcfd6f077c170223acf2912d",
+      "actual": "bbb10033de6b71a7951869b192096dd2c54d2c3ffcfd6f077c170223acf2912d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/corn-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "b1a187e46ac39c771b776a614a0f35aa4986eab085a89736b2e62468baa61ca7",
+      "actual": "b1a187e46ac39c771b776a614a0f35aa4986eab085a89736b2e62468baa61ca7",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/tulip-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "6cbba977f6250361fd57ab68db7c75cc46cf3f5ff43eb83f9acbea4c7307974f",
+      "actual": "6cbba977f6250361fd57ab68db7c75cc46cf3f5ff43eb83f9acbea4c7307974f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/bokchoy-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "5300cbebb8192d2467e51bd614570e1b864c3f9731a0dd3374a2bb59d73ab019",
+      "actual": "5300cbebb8192d2467e51bd614570e1b864c3f9731a0dd3374a2bb59d73ab019",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E07.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "d7fc0ceec6509a5bd7a3fdf3dcccbe991da9240facf57856d0bd6bcf8b3e7edb",
+      "actual": "d7fc0ceec6509a5bd7a3fdf3dcccbe991da9240facf57856d0bd6bcf8b3e7edb",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/lettuce-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "1ba6a5326fd873baa76b58b7244080c19c8e124227d4832a033beef6226ee599",
+      "actual": "1ba6a5326fd873baa76b58b7244080c19c8e124227d4832a033beef6226ee599",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/sheep.prefab",
+      "category": "frozen-Lulu",
+      "expected": "6275bde087046f99e7e60e95633cc7640ae6562e749677100aba612e715493df",
+      "actual": "6275bde087046f99e7e60e95633cc7640ae6562e749677100aba612e715493df",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/bokchoy-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "fa389ee0c6528e67e534e7c0c39687772642b223059ffceb719142cdd1dc7e85",
+      "actual": "fa389ee0c6528e67e534e7c0c39687772642b223059ffceb719142cdd1dc7e85",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/pumpkin-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "8801840a1b9656f9adc6982957f7e25e9e84374cc849f59944ded4960d4fba6f",
+      "actual": "8801840a1b9656f9adc6982957f7e25e9e84374cc849f59944ded4960d4fba6f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S12.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "778c4bb27ed5b2aa214ef567d57b1957db0a22d5c7bff0b602b691a5c606d09b",
+      "actual": "778c4bb27ed5b2aa214ef567d57b1957db0a22d5c7bff0b602b691a5c606d09b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/pumpkin-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "e5e93d9a3c2b03695c24e83b35ee18ddaaf0cec2ff271c097ddeb4462316f26c",
+      "actual": "e5e93d9a3c2b03695c24e83b35ee18ddaaf0cec2ff271c097ddeb4462316f26c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/goose.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "f8b5c60b6a63a73c7d42935d81d98268933264044714adf8a577aa34475cac7f",
+      "actual": "f8b5c60b6a63a73c7d42935d81d98268933264044714adf8a577aa34475cac7f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/ostrich.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "71f20634cb8db6b68ca96062a5d58db2f92ec01f1058904e59bc348dcb3714d4",
+      "actual": "71f20634cb8db6b68ca96062a5d58db2f92ec01f1058904e59bc348dcb3714d4",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/donkey.prefab",
+      "category": "frozen-Lulu",
+      "expected": "db15e2ca8ecb3b4b0248f35812d06605a9ed50cda89284ee686899370b52b10a",
+      "actual": "db15e2ca8ecb3b4b0248f35812d06605a9ed50cda89284ee686899370b52b10a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/tomato-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "0ff37ff78c2ee0cf59030a1ef4800230baf783965ee618f3912cc5b61c5f2098",
+      "actual": "0ff37ff78c2ee0cf59030a1ef4800230baf783965ee618f3912cc5b61c5f2098",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cauliflower-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "144d0f94428c3d937b10777fe0111934b53bf791a2857c7c23654c978c000786",
+      "actual": "144d0f94428c3d937b10777fe0111934b53bf791a2857c7c23654c978c000786",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/lettuce-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "f56aee75802733e4c9236cd9c69eac53e39bee2ba428f9fd35abbabc2d4d9ab8",
+      "actual": "f56aee75802733e4c9236cd9c69eac53e39bee2ba428f9fd35abbabc2d4d9ab8",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/donkey.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "9f3d4077a99121236a71bd048b237b0c560938343b22da6cee1064605158f170",
+      "actual": "9f3d4077a99121236a71bd048b237b0c560938343b22da6cee1064605158f170",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S07.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "164aca1dd246e535910363f223c6cc253ce9b6fee4904577c6873e4b65ac52a0",
+      "actual": "164aca1dd246e535910363f223c6cc253ce9b6fee4904577c6873e4b65ac52a0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/tomato-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "a4c3f333e7998ab9d60cf88b9565c10e6762a293a92c98461b1c029914ee3894",
+      "actual": "a4c3f333e7998ab9d60cf88b9565c10e6762a293a92c98461b1c029914ee3894",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cucumber-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "b8a35db72a9a6b178dc23e38e8be2894fbc5f11828289ab07005b8308dc37e7e",
+      "actual": "b8a35db72a9a6b178dc23e38e8be2894fbc5f11828289ab07005b8308dc37e7e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E12.prefab",
+      "category": "frozen-Lulu",
+      "expected": "16071e52340a89742e38ee787ed4fc91340a2aadfc776fb0d5d6549c7aa7375b",
+      "actual": "16071e52340a89742e38ee787ed4fc91340a2aadfc776fb0d5d6549c7aa7375b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S01.prefab",
+      "category": "frozen-Lulu",
+      "expected": "6fc421651a55a32384837493790616c8d1a9ebadbfedcc8a4f362ac32b6be764",
+      "actual": "6fc421651a55a32384837493790616c8d1a9ebadbfedcc8a4f362ac32b6be764",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/alpaca.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "18e9ee017af547c4664757392415044ffa35019c74c69cc20f88997bb3c78fbd",
+      "actual": "18e9ee017af547c4664757392415044ffa35019c74c69cc20f88997bb3c78fbd",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/goose.prefab",
+      "category": "frozen-Lulu",
+      "expected": "3849e255c922c01ad2667c222587836229d1f20e5dddc9bfa653f76fdcbf3fbb",
+      "actual": "3849e255c922c01ad2667c222587836229d1f20e5dddc9bfa653f76fdcbf3fbb",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cucumber-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "2d46972e501819791098a1e3f566f7870c5bc26dae02a7009ca2e4661c23f8eb",
+      "actual": "2d46972e501819791098a1e3f566f7870c5bc26dae02a7009ca2e4661c23f8eb",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/sunflower-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "af9f243b325eff385ec95b5f6897ee8ece662219d268a212ce28d841be616208",
+      "actual": "af9f243b325eff385ec95b5f6897ee8ece662219d268a212ce28d841be616208",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/lettuce-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "09327302108b2f20bf74f47d4f03d08e90ad31376bf6aaab2e288c8b1a56aadc",
+      "actual": "09327302108b2f20bf74f47d4f03d08e90ad31376bf6aaab2e288c8b1a56aadc",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S04.prefab",
+      "category": "frozen-Lulu",
+      "expected": "85e6e2f2f840b941aea226f2f309a6c129d5236d2ddd671189573ae82462a714",
+      "actual": "85e6e2f2f840b941aea226f2f309a6c129d5236d2ddd671189573ae82462a714",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons.meta",
+      "category": "frozen-Lulu",
+      "expected": "fa25d71ffe1462dd3af31e690077359fb10cb8de08541cb3e68604ba832cfe62",
+      "actual": "fa25d71ffe1462dd3af31e690077359fb10cb8de08541cb3e68604ba832cfe62",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E09.prefab",
+      "category": "frozen-Lulu",
+      "expected": "bf3c883837c7dd86f8bb10bfb062378998a98004397cf231ef85267f04bfbf6d",
+      "actual": "bf3c883837c7dd86f8bb10bfb062378998a98004397cf231ef85267f04bfbf6d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E05.prefab",
+      "category": "frozen-Lulu",
+      "expected": "678c988e0c92ac5ccbf8720a6d5c8cdacab3bfde77a729dce98694ff43c1a17b",
+      "actual": "678c988e0c92ac5ccbf8720a6d5c8cdacab3bfde77a729dce98694ff43c1a17b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E10.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "935003c45d3daf3a78ba2d9c9863331490fd8e3599ba5f1dad6b07062875d8fa",
+      "actual": "935003c45d3daf3a78ba2d9c9863331490fd8e3599ba5f1dad6b07062875d8fa",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/rose-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "09f97118bf5bbdc4eb1070d3c9579e3b10c49ae25a95f8a2c3fdfcdbb9312785",
+      "actual": "09f97118bf5bbdc4eb1070d3c9579e3b10c49ae25a95f8a2c3fdfcdbb9312785",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S08.prefab",
+      "category": "frozen-Lulu",
+      "expected": "f9eb08938284bc093f0795c83283b5de91788fc7e3a58982653a526dc7c60907",
+      "actual": "f9eb08938284bc093f0795c83283b5de91788fc7e3a58982653a526dc7c60907",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S05-rail-connector.prefab",
+      "category": "frozen-Lulu",
+      "expected": "d0e35cdcedee40177ee0a08ba914082711fee18a3aa426c54b7107661cdd5f93",
+      "actual": "d0e35cdcedee40177ee0a08ba914082711fee18a3aa426c54b7107661cdd5f93",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E05.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "25c3b1fccf2886a2b9673dc3e470cac4c57a718b5516204668f9b7efbad255b2",
+      "actual": "25c3b1fccf2886a2b9673dc3e470cac4c57a718b5516204668f9b7efbad255b2",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/lettuce-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "fbd1d8855b8f105732590623f7dc9007256682bd85c9b98a8e9360cde1a6af93",
+      "actual": "fbd1d8855b8f105732590623f7dc9007256682bd85c9b98a8e9360cde1a6af93",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cow.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "8369ef7029e51a6c05fda06f8c9ec7f9a7386cd985829b9614994db9f54f6d01",
+      "actual": "8369ef7029e51a6c05fda06f8c9ec7f9a7386cd985829b9614994db9f54f6d01",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/corn-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "e2888ecc626750fc16650f41b3d16cccbadc80dfcf6a7ae9bba4e449bb45d475",
+      "actual": "e2888ecc626750fc16650f41b3d16cccbadc80dfcf6a7ae9bba4e449bb45d475",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/duck.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "7876bc80768ccb732ad2e05e5c76921b9eed247d4ebfa439553e3773d39dbd51",
+      "actual": "7876bc80768ccb732ad2e05e5c76921b9eed247d4ebfa439553e3773d39dbd51",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S09.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "ab0f3b89a58297d8c8f4647d843e91e310523956355fdc3ee6c00dbd5911be0c",
+      "actual": "ab0f3b89a58297d8c8f4647d843e91e310523956355fdc3ee6c00dbd5911be0c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S05-rail-connector.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a1a951821a1eeedd9b02a5e9ed6a9629103ac8148a19ed0113a4a12d2403eaf2",
+      "actual": "a1a951821a1eeedd9b02a5e9ed6a9629103ac8148a19ed0113a4a12d2403eaf2",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/pig.prefab",
+      "category": "frozen-Lulu",
+      "expected": "2bb6e777ce573bb81576625f29c387877b00359546a0e0872b67ab737870a4c3",
+      "actual": "2bb6e777ce573bb81576625f29c387877b00359546a0e0872b67ab737870a4c3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/black-pig.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "f6a6978fea3415cf893363d4d4c52188070d226811c4138bee95cc3012e5eb96",
+      "actual": "f6a6978fea3415cf893363d4d4c52188070d226811c4138bee95cc3012e5eb96",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S10.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a1ff157b1a3678b7a9c023b247c79de7f6b7035cdd9a66ef6e5843cf4083136f",
+      "actual": "a1ff157b1a3678b7a9c023b247c79de7f6b7035cdd9a66ef6e5843cf4083136f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S05-endcap.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "2ee0580ef802767a58f4217064a8bb4091c9b32dffa14fcacb18d4c83381cd92",
+      "actual": "2ee0580ef802767a58f4217064a8bb4091c9b32dffa14fcacb18d4c83381cd92",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/goat.prefab",
+      "category": "frozen-Lulu",
+      "expected": "9116d45d13854457422d1618a627328cd90a0b7ca23a081d5ba910a8b88d63ea",
+      "actual": "9116d45d13854457422d1618a627328cd90a0b7ca23a081d5ba910a8b88d63ea",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/bokchoy-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "2fac1cfade11f50921fb40b42b69ddefc4a6d624c4b278b3e4de39ec1f407e65",
+      "actual": "2fac1cfade11f50921fb40b42b69ddefc4a6d624c4b278b3e4de39ec1f407e65",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/hamster.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "ca884808f36450f657eec760c914db94df8b4ede600b7768c8cb807d5abe1cb5",
+      "actual": "ca884808f36450f657eec760c914db94df8b4ede600b7768c8cb807d5abe1cb5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/sheep.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "0c842a2bde5aea222295f2b37a684464e2120a150fa9dd7990628f33011e123e",
+      "actual": "0c842a2bde5aea222295f2b37a684464e2120a150fa9dd7990628f33011e123e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E09.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "3da860ea644ac6fc2747963770e455f4a113f58d583559d67ba05c3644d29f6e",
+      "actual": "3da860ea644ac6fc2747963770e455f4a113f58d583559d67ba05c3644d29f6e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/sunflower-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "29e7cddd0e0958b0f716db09abdd65cb3b801c11051e32c7d680c2fcddb0def8",
+      "actual": "29e7cddd0e0958b0f716db09abdd65cb3b801c11051e32c7d680c2fcddb0def8",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/goat.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "d4400326a2bb54130ef9bbae1ce5b95e17bf22920165a3e56dc7c4af2fc3ac05",
+      "actual": "d4400326a2bb54130ef9bbae1ce5b95e17bf22920165a3e56dc7c4af2fc3ac05",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E15.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "e33be25fe06a701adb3e5fd8996ce7feee15d266905c6274fcda8193d1ae645e",
+      "actual": "e33be25fe06a701adb3e5fd8996ce7feee15d266905c6274fcda8193d1ae645e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E07.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e6fc29c970c62b56a463fc2443827ef59b28a57dcf7b12087ca6a91caf8ba4da",
+      "actual": "e6fc29c970c62b56a463fc2443827ef59b28a57dcf7b12087ca6a91caf8ba4da",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S05.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "2466c722df1b314e050186a55fa8d70e527832ded9b022e1fb50c0338793bf41",
+      "actual": "2466c722df1b314e050186a55fa8d70e527832ded9b022e1fb50c0338793bf41",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/chicken.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "71b88061ab3b30ab2f3bb9bfa9f1c6f5c06276dc88ed0a6d24440663a2d5f517",
+      "actual": "71b88061ab3b30ab2f3bb9bfa9f1c6f5c06276dc88ed0a6d24440663a2d5f517",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Lulu.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "03b60e89cabefeedbaf02637a32d49596a1fd16dd533380ebcf8dff87fb2c739",
+      "actual": "03b60e89cabefeedbaf02637a32d49596a1fd16dd533380ebcf8dff87fb2c739",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S06.prefab",
+      "category": "frozen-Lulu",
+      "expected": "8b9f7013c8666395ca81aee7daae3213e80bbac899c35693e53b1973ba734301",
+      "actual": "8b9f7013c8666395ca81aee7daae3213e80bbac899c35693e53b1973ba734301",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E15.prefab",
+      "category": "frozen-Lulu",
+      "expected": "2e740c12294cec4a05436c5ff91f2e8f74be46fa02187297157e11393cc57c73",
+      "actual": "2e740c12294cec4a05436c5ff91f2e8f74be46fa02187297157e11393cc57c73",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cauliflower-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "938ee7cf1c2363759f14b69a5a5203d1d363e67f047e95de18501a9ab627a271",
+      "actual": "938ee7cf1c2363759f14b69a5a5203d1d363e67f047e95de18501a9ab627a271",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S06.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "5b926889b28ec13fa8be94e28911c40dea5178a7c20be52ee4e9d2c526b0990d",
+      "actual": "5b926889b28ec13fa8be94e28911c40dea5178a7c20be52ee4e9d2c526b0990d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E16.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "ca612ada3b957fd6e344662b822f5db03393c9b7bf6c685f6f6b3d2fff78c5e9",
+      "actual": "ca612ada3b957fd6e344662b822f5db03393c9b7bf6c685f6f6b3d2fff78c5e9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/sunflower-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "dc4d706465a3ce189f8102cc7f50ee60f64d6d194ba00034e83da0cabb7dcec3",
+      "actual": "dc4d706465a3ce189f8102cc7f50ee60f64d6d194ba00034e83da0cabb7dcec3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S05-endcap.prefab",
+      "category": "frozen-Lulu",
+      "expected": "5c3c9b441adeee7207742fdf63fd5495deb5f1731c1e3ca282ea458e6f27cc44",
+      "actual": "5c3c9b441adeee7207742fdf63fd5495deb5f1731c1e3ca282ea458e6f27cc44",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E05-corner.prefab",
+      "category": "frozen-Lulu",
+      "expected": "05ded48d82e3db7a9dbb4636f1dc34a00fd03bbccb6d381297eb2055caf82881",
+      "actual": "05ded48d82e3db7a9dbb4636f1dc34a00fd03bbccb6d381297eb2055caf82881",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/strawberry-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "41a9811cd6995778c818b9f18fd4c55f2b1673a0a3b73f61a52e40165535fa7a",
+      "actual": "41a9811cd6995778c818b9f18fd4c55f2b1673a0a3b73f61a52e40165535fa7a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/black-pig.prefab",
+      "category": "frozen-Lulu",
+      "expected": "2d4f9cf8d2d1e76d9fadb949aa1cc18e475ecba50c9190706238a3f87fba0ac9",
+      "actual": "2d4f9cf8d2d1e76d9fadb949aa1cc18e475ecba50c9190706238a3f87fba0ac9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/strawberry-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "60333a3abf0c9a1dd3fd71e43e7e63da313503063ba2df83f17ad6f63041da2e",
+      "actual": "60333a3abf0c9a1dd3fd71e43e7e63da313503063ba2df83f17ad6f63041da2e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S02.prefab",
+      "category": "frozen-Lulu",
+      "expected": "629d09bebb42a202e61d4f64302da3e2027331c9826f09639510512d23f3c093",
+      "actual": "629d09bebb42a202e61d4f64302da3e2027331c9826f09639510512d23f3c093",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/capybara.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "345b573f71b565636cf833ef65c2578eeb64659352a4345c63197443647b1215",
+      "actual": "345b573f71b565636cf833ef65c2578eeb64659352a4345c63197443647b1215",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E11.prefab",
+      "category": "frozen-Lulu",
+      "expected": "46e44549fe61ae72376de2ad0d3f40cb2c9f77be1f47380413d3f5c5f6de4972",
+      "actual": "46e44549fe61ae72376de2ad0d3f40cb2c9f77be1f47380413d3f5c5f6de4972",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E03.prefab",
+      "category": "frozen-Lulu",
+      "expected": "0524af34a9b72d21d74aa5fed049e0709e94281ee9666f3f7a3d24a7deca7c2a",
+      "actual": "0524af34a9b72d21d74aa5fed049e0709e94281ee9666f3f7a3d24a7deca7c2a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S10.prefab",
+      "category": "frozen-Lulu",
+      "expected": "d7d7494e9bc616230bef27193536eda850a10f05cac33fe90632f432102b6fc8",
+      "actual": "d7d7494e9bc616230bef27193536eda850a10f05cac33fe90632f432102b6fc8",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/strawberry-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "e12de97fe704a1a864f37481728c79da19d93e8e121c0002cb092675bf207186",
+      "actual": "e12de97fe704a1a864f37481728c79da19d93e8e121c0002cb092675bf207186",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E03.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "3d281c024fcaf86f8cbe5f068d982df0678bebbc1bfd72dbdb90ae095acccc57",
+      "actual": "3d281c024fcaf86f8cbe5f068d982df0678bebbc1bfd72dbdb90ae095acccc57",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/tomato-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "07b35a9ba3d3396e6f1963681bcfe26c700f4ff89890055b365e0942fdbdf88c",
+      "actual": "07b35a9ba3d3396e6f1963681bcfe26c700f4ff89890055b365e0942fdbdf88c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E01.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e252542ee40d71f07ca219d146b71bf556963e1c7b944448a1b9ff6207d484ec",
+      "actual": "e252542ee40d71f07ca219d146b71bf556963e1c7b944448a1b9ff6207d484ec",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S12.prefab",
+      "category": "frozen-Lulu",
+      "expected": "40f0cd559f66a89323399710604607f7ef7840e27f08da085b1fbadb59a687b3",
+      "actual": "40f0cd559f66a89323399710604607f7ef7840e27f08da085b1fbadb59a687b3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/rose-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "ff676e9a947a4c6dec53b85431631962686106a71ae3fca347971403e3c3bbad",
+      "actual": "ff676e9a947a4c6dec53b85431631962686106a71ae3fca347971403e3c3bbad",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/wheat-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "ceb5c7c6f2b93ff5cf1e4e0d8245869feda7adf02529ef8c9c19fa3daeaad96e",
+      "actual": "ceb5c7c6f2b93ff5cf1e4e0d8245869feda7adf02529ef8c9c19fa3daeaad96e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/watermelon-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e6477c7b728492638de8b1ed4e0b96643bedb12731c9ab79afc86cd6f267ee75",
+      "actual": "e6477c7b728492638de8b1ed4e0b96643bedb12731c9ab79afc86cd6f267ee75",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E13.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e2f7cfdce73128bab57942fb0016b08d9d43d815b265ff5d72da4a5146579243",
+      "actual": "e2f7cfdce73128bab57942fb0016b08d9d43d815b265ff5d72da4a5146579243",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/corn-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "684d406ebb713963d2bc542d9cf86f29e8eb104b05468b2db75ae6f83e3d5ea9",
+      "actual": "684d406ebb713963d2bc542d9cf86f29e8eb104b05468b2db75ae6f83e3d5ea9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cabbage-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "db5b46c023858db01e3abdb0daa8621f311b8de1f0fb3bbdfa47713b6e643b05",
+      "actual": "db5b46c023858db01e3abdb0daa8621f311b8de1f0fb3bbdfa47713b6e643b05",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/capybara.prefab",
+      "category": "frozen-Lulu",
+      "expected": "32ce4aea797be5a21985c65aadf84d158da78faae9898dac1f476f7c4c421b8a",
+      "actual": "32ce4aea797be5a21985c65aadf84d158da78faae9898dac1f476f7c4c421b8a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E06.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "4943f3a5ffe47fc3f71866274dc7f62d7947b4f6590c10edc4fc16f7afdc9244",
+      "actual": "4943f3a5ffe47fc3f71866274dc7f62d7947b4f6590c10edc4fc16f7afdc9244",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/deer.prefab",
+      "category": "frozen-Lulu",
+      "expected": "eeb693984f81666ced63af3b00524a5cfc8a0a9aeb816cabb9f300bd88e635e2",
+      "actual": "eeb693984f81666ced63af3b00524a5cfc8a0a9aeb816cabb9f300bd88e635e2",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/cauliflower-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a52147763261c4765d640f0b147831ffdd0f0ec90629cb6ccddeb53c497431ea",
+      "actual": "a52147763261c4765d640f0b147831ffdd0f0ec90629cb6ccddeb53c497431ea",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/E13.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "29fe5446377a128f277ee4d6b856a1ae53198db32234385abe0a2749196e13c3",
+      "actual": "29fe5446377a128f277ee4d6b856a1ae53198db32234385abe0a2749196e13c3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S03.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "2edff3140bfa2bb586d9c94ce8a1a447fe691dd44a04ab6a45a728f17a8e4ada",
+      "actual": "2edff3140bfa2bb586d9c94ce8a1a447fe691dd44a04ab6a45a728f17a8e4ada",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/bokchoy-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "42d722bf025e54850efb3fabe7e597afb213dc0235f0c773e30f42fb05b5a3e9",
+      "actual": "42d722bf025e54850efb3fabe7e597afb213dc0235f0c773e30f42fb05b5a3e9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/tomato-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "73250fdf1ff94ab1771d4614b975ef7799154c3a4c6ff63afbcdb54fd7497538",
+      "actual": "73250fdf1ff94ab1771d4614b975ef7799154c3a4c6ff63afbcdb54fd7497538",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/corn-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "308c8fe38e094a186e3897efb9fca12e33a33bac8e89a2cdd94b8ce09cefeda5",
+      "actual": "308c8fe38e094a186e3897efb9fca12e33a33bac8e89a2cdd94b8ce09cefeda5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/ostrich.prefab",
+      "category": "frozen-Lulu",
+      "expected": "91dda20b0fb64405a511c9d0176b6d5c98472ad964b7bba008bb793b88866f22",
+      "actual": "91dda20b0fb64405a511c9d0176b6d5c98472ad964b7bba008bb793b88866f22",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/wheat-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "f007fa4758b1a39fb93ce43c653b16d17ccb0696c91675d1428d7b3e20b0ce8f",
+      "actual": "f007fa4758b1a39fb93ce43c653b16d17ccb0696c91675d1428d7b3e20b0ce8f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/strawberry-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "38b1a58fff3e5ad12f6031bd4e25d63be2dfe12f052c62818fb4c5b05975d004",
+      "actual": "38b1a58fff3e5ad12f6031bd4e25d63be2dfe12f052c62818fb4c5b05975d004",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S04.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "d7f2d65d02b17f08738c00db7c5d8892db6ddc4b50e15837da4e72dde6af60b6",
+      "actual": "d7f2d65d02b17f08738c00db7c5d8892db6ddc4b50e15837da4e72dde6af60b6",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E14.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "e80526b2f337307694de1e4c091ad2b10eb00617705659d64bffc4f180b27e5d",
+      "actual": "e80526b2f337307694de1e4c091ad2b10eb00617705659d64bffc4f180b27e5d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/pony.prefab",
+      "category": "frozen-Lulu",
+      "expected": "36ffd18e2fce0891b0b7eded422876ec03702ecbbb1a85e9457c2af5aaff28ed",
+      "actual": "36ffd18e2fce0891b0b7eded422876ec03702ecbbb1a85e9457c2af5aaff28ed",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/watermelon-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "21c60c72f6d9d4e46acbdeda573394cb10387d4edd74aca38a8255000fe218cb",
+      "actual": "21c60c72f6d9d4e46acbdeda573394cb10387d4edd74aca38a8255000fe218cb",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/tulip-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "0d7bb34c8b8b198059b5a062dc1967973cf249b38249bccd3b96c338dd4f67d0",
+      "actual": "0d7bb34c8b8b198059b5a062dc1967973cf249b38249bccd3b96c338dd4f67d0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/pony.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "fe08f0afc83f5da2738e441a2ed6d226a3e344ce0a06855efb6db7c2dd3f55f0",
+      "actual": "fe08f0afc83f5da2738e441a2ed6d226a3e344ce0a06855efb6db7c2dd3f55f0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/deer.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "c810f16fae23d3b907691d29f1349dd31f9b103899c6c834d8d84fc31dad44ca",
+      "actual": "c810f16fae23d3b907691d29f1349dd31f9b103899c6c834d8d84fc31dad44ca",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E08.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "7019b2223448bd2fb1ee01054a225be9117ed71b62e200a2973368dc862a650a",
+      "actual": "7019b2223448bd2fb1ee01054a225be9117ed71b62e200a2973368dc862a650a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/watermelon-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "5610141229bdf7444a721960d4974a0b8e512c467a1845ebe3f5a6821cdb5bfd",
+      "actual": "5610141229bdf7444a721960d4974a0b8e512c467a1845ebe3f5a6821cdb5bfd",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E08.prefab",
+      "category": "frozen-Lulu",
+      "expected": "9e4c71cebf6750edec5f9f7acca19c4b60225c1a2355fcf693fae76864a8595f",
+      "actual": "9e4c71cebf6750edec5f9f7acca19c4b60225c1a2355fcf693fae76864a8595f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/pumpkin-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "83fe07e79cce8ca41e1138805c9d1b3a3e011f4d0aa4bee9ad7cbafb69bffc9f",
+      "actual": "83fe07e79cce8ca41e1138805c9d1b3a3e011f4d0aa4bee9ad7cbafb69bffc9f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E16.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e43fcac91caf97ec2a15fdc186b4a6d08bc46c7ff6b568c75b461f56e525dcb2",
+      "actual": "e43fcac91caf97ec2a15fdc186b4a6d08bc46c7ff6b568c75b461f56e525dcb2",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S05.prefab",
+      "category": "frozen-Lulu",
+      "expected": "0d7c73a20b2dbf2f9ab7273e116af478e1efd8f5e69d84b6c84368696debc2fe",
+      "actual": "0d7c73a20b2dbf2f9ab7273e116af478e1efd8f5e69d84b6c84368696debc2fe",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S09.prefab",
+      "category": "frozen-Lulu",
+      "expected": "641fe2b375486555b52ceb1f1dedf80f6a5c8d4a07361fa50c44044aa21a8f8a",
+      "actual": "641fe2b375486555b52ceb1f1dedf80f6a5c8d4a07361fa50c44044aa21a8f8a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/pumpkin-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "8ee848596c786634782e6473b929d511d45d139fb02cfa5680109956ef9910f7",
+      "actual": "8ee848596c786634782e6473b929d511d45d139fb02cfa5680109956ef9910f7",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cucumber-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "ba6d34f667eaf5b3c538c74fce506f38acc68b52b9c7ccddcb22661a4c77a082",
+      "actual": "ba6d34f667eaf5b3c538c74fce506f38acc68b52b9c7ccddcb22661a4c77a082",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E04.prefab",
+      "category": "frozen-Lulu",
+      "expected": "27a1c22e34ab8930893f861e792d77a8159273bcb74f35df8b33adeb6259db16",
+      "actual": "27a1c22e34ab8930893f861e792d77a8159273bcb74f35df8b33adeb6259db16",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/watermelon-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "55907d9be36ba83919872e43cb7f654bd3e0fd6618b8357a5fdeff69aba8bd58",
+      "actual": "55907d9be36ba83919872e43cb7f654bd3e0fd6618b8357a5fdeff69aba8bd58",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S11.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "3e152fb41e7a0c1c43549241d511d3d1816ef1e082c25aefa59407c0bcc4c64f",
+      "actual": "3e152fb41e7a0c1c43549241d511d3d1816ef1e082c25aefa59407c0bcc4c64f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E01.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "c19edccb401c1e8cb854a84a42808837a4cc7ae10ab8ecc14d5818e0ac4721a4",
+      "actual": "c19edccb401c1e8cb854a84a42808837a4cc7ae10ab8ecc14d5818e0ac4721a4",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/chicken.prefab",
+      "category": "frozen-Lulu",
+      "expected": "3aaf1b9eec603f5d6d7d0707084cc8e93af5c3dcce81d54d39a2c8d2df1fd676",
+      "actual": "3aaf1b9eec603f5d6d7d0707084cc8e93af5c3dcce81d54d39a2c8d2df1fd676",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E06.prefab",
+      "category": "frozen-Lulu",
+      "expected": "4fc0c44ce4ac5bc8ef820f7369d8e16cac7f6cb6999f463907e9684ae118a582",
+      "actual": "4fc0c44ce4ac5bc8ef820f7369d8e16cac7f6cb6999f463907e9684ae118a582",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/rose-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "68b959d6c1c27c19b6422012d0a394f4a3466e045e1e1b042b3b8712425b3306",
+      "actual": "68b959d6c1c27c19b6422012d0a394f4a3466e045e1e1b042b3b8712425b3306",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/wheat-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e624d04b5617582132e8f4f248b780d93498ac1903f8c757606d1dbe9b239bd5",
+      "actual": "e624d04b5617582132e8f4f248b780d93498ac1903f8c757606d1dbe9b239bd5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/pig.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "099d27dfdbb22616ea0b9a9b697945590a8dc874d494b442566058c6c4ceb5e7",
+      "actual": "099d27dfdbb22616ea0b9a9b697945590a8dc874d494b442566058c6c4ceb5e7",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/wheat-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "52d684c43bd93b199d7a15097ba04cea232beaeb4331806dec4fae9e60e09c56",
+      "actual": "52d684c43bd93b199d7a15097ba04cea232beaeb4331806dec4fae9e60e09c56",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S08.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "8708a450b58ff6af0122a8705e227a0a44b96926c2af58783b9122930e8b000e",
+      "actual": "8708a450b58ff6af0122a8705e227a0a44b96926c2af58783b9122930e8b000e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E14.prefab",
+      "category": "frozen-Lulu",
+      "expected": "9244e1eecd072b09f6d088be9d19ffda2068dd539aea239af53424dd1cab3cf2",
+      "actual": "9244e1eecd072b09f6d088be9d19ffda2068dd539aea239af53424dd1cab3cf2",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S07.prefab",
+      "category": "frozen-Lulu",
+      "expected": "ef98bb7017fb6841416b5dfcd1abd813c772d455e5a74f1be1067c0296ec87d8",
+      "actual": "ef98bb7017fb6841416b5dfcd1abd813c772d455e5a74f1be1067c0296ec87d8",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cow.prefab",
+      "category": "frozen-Lulu",
+      "expected": "4c13628ba8c7f49eadc58798b95ce8b15534c704490b75caf1411cedb7ec06cc",
+      "actual": "4c13628ba8c7f49eadc58798b95ce8b15534c704490b75caf1411cedb7ec06cc",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/duck.prefab",
+      "category": "frozen-Lulu",
+      "expected": "f3fc82d5d12018c953a66c3d570d885e926087b8cf129309ed4c610d95a0ca45",
+      "actual": "f3fc82d5d12018c953a66c3d570d885e926087b8cf129309ed4c610d95a0ca45",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E05-corner.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "187cb5e0febe238260ef044204a621327f440b8fe1cb0ca6581f4576895007f5",
+      "actual": "187cb5e0febe238260ef044204a621327f440b8fe1cb0ca6581f4576895007f5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cabbage-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "0b23784d002b93c4701592bf760056e187548a7b7a4441f1a3d600cdfb1d27ed",
+      "actual": "0b23784d002b93c4701592bf760056e187548a7b7a4441f1a3d600cdfb1d27ed",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E04.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "d58e99936e0b892657b6ee1b5450c57ed9b7328df71e13a65b77a4a3dbe5ef56",
+      "actual": "d58e99936e0b892657b6ee1b5450c57ed9b7328df71e13a65b77a4a3dbe5ef56",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/alpaca.prefab",
+      "category": "frozen-Lulu",
+      "expected": "12402cfd17f68a90307d722ce3bf33cc338eda88d9f170d16477f7ffadab0360",
+      "actual": "12402cfd17f68a90307d722ce3bf33cc338eda88d9f170d16477f7ffadab0360",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cauliflower-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "6af2b34bd959f6f4fad34aaace2458149876b0e294f7113d72a1807c3e41c08d",
+      "actual": "6af2b34bd959f6f4fad34aaace2458149876b0e294f7113d72a1807c3e41c08d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/Lulu.prefab",
+      "category": "frozen-Lulu",
+      "expected": "001b4598bed73b8d15dc624d65b6448fb61b68b320b64ec5f841ca9be1350e30",
+      "actual": "001b4598bed73b8d15dc624d65b6448fb61b68b320b64ec5f841ca9be1350e30",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E11.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "e2fa4cf792d0d55afc7f286b8dcb4c3c7d402f989d4af3131557d28b85e6423a",
+      "actual": "e2fa4cf792d0d55afc7f286b8dcb4c3c7d402f989d4af3131557d28b85e6423a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S01.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "8fc66959ba80df0913b58403c7e990c69e5ea6897caff85a5ea82035e2c5cd29",
+      "actual": "8fc66959ba80df0913b58403c7e990c69e5ea6897caff85a5ea82035e2c5cd29",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cucumber-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a50ae4db5efe00da0261dd11f0ca309b6fb38dfe7431a85a3c2e9075eb010e81",
+      "actual": "a50ae4db5efe00da0261dd11f0ca309b6fb38dfe7431a85a3c2e9075eb010e81",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cabbage-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "716c9bcc29ac9e45fb33be13e1df2d0486c8ca5b5149bbfcc4ffc45ead283df9",
+      "actual": "716c9bcc29ac9e45fb33be13e1df2d0486c8ca5b5149bbfcc4ffc45ead283df9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/rose-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e2dd75b07b745d89b5b34a191c10ca24eb5268acdb9003cfa948cbb02fe175c8",
+      "actual": "e2dd75b07b745d89b5b34a191c10ca24eb5268acdb9003cfa948cbb02fe175c8",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cabbage-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "a4f140c6b11837f584bfab55f646817e322fdae7201428a773af1b2a25df6f2f",
+      "actual": "a4f140c6b11837f584bfab55f646817e322fdae7201428a773af1b2a25df6f2f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/tulip-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "f2033182972a5e1bbd7d3d5ef43bfed1e2c2ecf56c270782218fbfebabeadb24",
+      "actual": "f2033182972a5e1bbd7d3d5ef43bfed1e2c2ecf56c270782218fbfebabeadb24",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/hamster.prefab",
+      "category": "frozen-Lulu",
+      "expected": "b64ea5abdfaadce181071717d5470e741d94ba606f37c01bda4709c210bbb309",
+      "actual": "b64ea5abdfaadce181071717d5470e741d94ba606f37c01bda4709c210bbb309",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E10.prefab",
+      "category": "frozen-Lulu",
+      "expected": "064bcd4ee645294affb3c1c6ee13ecfa4101fb8b1059dc3ec5bb9013e330dadf",
+      "actual": "064bcd4ee645294affb3c1c6ee13ecfa4101fb8b1059dc3ec5bb9013e330dadf",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S03.prefab",
+      "category": "frozen-Lulu",
+      "expected": "b4a19ae2cfe29d453445792fc3b321e3175e65f31c2daaeccd67b9bc0102143d",
+      "actual": "b4a19ae2cfe29d453445792fc3b321e3175e65f31c2daaeccd67b9bc0102143d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/sunflower-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "4fd4a2b7fce9642f0d437af3b92cc38ab1a0dcbcbd529b9f708ce1305e8a0f3c",
+      "actual": "4fd4a2b7fce9642f0d437af3b92cc38ab1a0dcbcbd529b9f708ce1305e8a0f3c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E12.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "652e42640d353a07d1dc220d472d9d7ca32a0625c9bb798785ace4d14f353c46",
+      "actual": "652e42640d353a07d1dc220d472d9d7ca32a0625c9bb798785ace4d14f353c46",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S11.prefab",
+      "category": "frozen-Lulu",
+      "expected": "4f3643e9a59b671e7f7ea4d05518f57cd7c4a075ad3a67bcef445d554ce2f8ff",
+      "actual": "4f3643e9a59b671e7f7ea4d05518f57cd7c4a075ad3a67bcef445d554ce2f8ff",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/tulip-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "73472c66f16c044392e4ebad8253bdefb294dbc2d63a589d60f80039b50dcf9a",
+      "actual": "73472c66f16c044392e4ebad8253bdefb294dbc2d63a589d60f80039b50dcf9a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/corn-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "349d5c446e162bb3cfd8bedc5dd93e9665e197ca3badfd3bca9ee2a450ead7f6",
+      "actual": "349d5c446e162bb3cfd8bedc5dd93e9665e197ca3badfd3bca9ee2a450ead7f6",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/tulip-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "774baac96e9780e6340ffb17d12bb77ff21de5d0c7846da2da05154bdbe544d5",
+      "actual": "774baac96e9780e6340ffb17d12bb77ff21de5d0c7846da2da05154bdbe544d5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/bokchoy-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "b213aa06bfbaf42b568b8c9b294908ff9fed70fc8f6b9b28b79b6e7f1e971103",
+      "actual": "b213aa06bfbaf42b568b8c9b294908ff9fed70fc8f6b9b28b79b6e7f1e971103",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E07.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "09f5a26933f597b263d5e1cfc863070960857b788afc9f1a1cf971e0ac39d01d",
+      "actual": "09f5a26933f597b263d5e1cfc863070960857b788afc9f1a1cf971e0ac39d01d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/lettuce-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "3c5282efe9502da172008bee726919c00dbdc552ba04c1aa54538ee8e4d9562a",
+      "actual": "3c5282efe9502da172008bee726919c00dbdc552ba04c1aa54538ee8e4d9562a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/sheep.prefab",
+      "category": "frozen-Lulu",
+      "expected": "de5626fa611ab351f11d9ada1d995d7f6d845cf3a12e5e8ff4bdf900c0e21c29",
+      "actual": "de5626fa611ab351f11d9ada1d995d7f6d845cf3a12e5e8ff4bdf900c0e21c29",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/bokchoy-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "312d4e812d2fb176ed1733c111e9c3097b08f00ad85f1a18479c86495dfe106b",
+      "actual": "312d4e812d2fb176ed1733c111e9c3097b08f00ad85f1a18479c86495dfe106b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/pumpkin-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "ab93bcd08ab1bee4559561dc13a7aca174023dc9b6f78e476463e5cfbd05fb4f",
+      "actual": "ab93bcd08ab1bee4559561dc13a7aca174023dc9b6f78e476463e5cfbd05fb4f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S12.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "1d263e209272f0d66baf9f342df83604252d0e4b7596fc824ccb4b74723d128b",
+      "actual": "1d263e209272f0d66baf9f342df83604252d0e4b7596fc824ccb4b74723d128b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/pumpkin-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "719af92e7e25a5532256420f86d44e15198658eacf30952a1be9f2bdfc5f219b",
+      "actual": "719af92e7e25a5532256420f86d44e15198658eacf30952a1be9f2bdfc5f219b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/goose.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "95029527f94cf0a7d837fa727b0dde9c31b037a39d6d80e3ee64cddb78a5ca5b",
+      "actual": "95029527f94cf0a7d837fa727b0dde9c31b037a39d6d80e3ee64cddb78a5ca5b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/ostrich.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "38d4b9999fbec0e45031c33fc3632278ec9370e471211f71d71b2687fa4acd90",
+      "actual": "38d4b9999fbec0e45031c33fc3632278ec9370e471211f71d71b2687fa4acd90",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/donkey.prefab",
+      "category": "frozen-Lulu",
+      "expected": "0a0e533f5847f8f83ddf585364b7ec90a58865dfab77bb4b72864bae1379279d",
+      "actual": "0a0e533f5847f8f83ddf585364b7ec90a58865dfab77bb4b72864bae1379279d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/tomato-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "16fd2293bb7568d908e880068e58be6a9306f9eb4c5bbdd7a0959feca9ab011a",
+      "actual": "16fd2293bb7568d908e880068e58be6a9306f9eb4c5bbdd7a0959feca9ab011a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cauliflower-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a80f56c7ebf066c0a8baca0eba1fe5a6d17c89d26b49229a5d13e9027f0e4b94",
+      "actual": "a80f56c7ebf066c0a8baca0eba1fe5a6d17c89d26b49229a5d13e9027f0e4b94",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/lettuce-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "6ec8ee81a22b55495eda94262ef5b83503ef2d36335336da882c8ffcab1aba74",
+      "actual": "6ec8ee81a22b55495eda94262ef5b83503ef2d36335336da882c8ffcab1aba74",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/donkey.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "946e16d3fae159c2ee75008ceb321aa0c9ec4a2061d434bd1db91a2d4cf5dbe1",
+      "actual": "946e16d3fae159c2ee75008ceb321aa0c9ec4a2061d434bd1db91a2d4cf5dbe1",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S07.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "d78becd2ae07c2a200c2f2369587a09dd1a32ad055743dc2dc51e21646e15726",
+      "actual": "d78becd2ae07c2a200c2f2369587a09dd1a32ad055743dc2dc51e21646e15726",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/tomato-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "59e996c00efe9e16a80c4d839a00abca314dd922308c81686135e2dc3d88697a",
+      "actual": "59e996c00efe9e16a80c4d839a00abca314dd922308c81686135e2dc3d88697a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cucumber-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "c8193b1e5fd2248ae5d037a65d28ec1843bf4a82add1a4858badb6c0a221f29e",
+      "actual": "c8193b1e5fd2248ae5d037a65d28ec1843bf4a82add1a4858badb6c0a221f29e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E12.prefab",
+      "category": "frozen-Lulu",
+      "expected": "b66891874961a5eccfc3246bc64e1b8cfcce7a793bdb590e3207a6ebb98d1d35",
+      "actual": "b66891874961a5eccfc3246bc64e1b8cfcce7a793bdb590e3207a6ebb98d1d35",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S01.prefab",
+      "category": "frozen-Lulu",
+      "expected": "16303f828f9a4db945852e347333191a009b66010acfb69a7b31aee1b56dbb4b",
+      "actual": "16303f828f9a4db945852e347333191a009b66010acfb69a7b31aee1b56dbb4b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/alpaca.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "6a1e90ffc2e3cda3ba108b0d3872f3a9a8ae3c8b860c6a6c1a047916a2a797fb",
+      "actual": "6a1e90ffc2e3cda3ba108b0d3872f3a9a8ae3c8b860c6a6c1a047916a2a797fb",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/goose.prefab",
+      "category": "frozen-Lulu",
+      "expected": "ffa12f42d0c30990ff6aa77de52944d97f6f90b729f538d6c2fadda1a8adfa04",
+      "actual": "ffa12f42d0c30990ff6aa77de52944d97f6f90b729f538d6c2fadda1a8adfa04",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cucumber-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "4d1d1929613d1cc0e78bf0fe04d5ae021b195af662568e686a8aefebb17bdde9",
+      "actual": "4d1d1929613d1cc0e78bf0fe04d5ae021b195af662568e686a8aefebb17bdde9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/sunflower-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "a5b5c4245baea702cc3925c00327bb1c5c41ec8208d4f9cdc758668e8d7c6266",
+      "actual": "a5b5c4245baea702cc3925c00327bb1c5c41ec8208d4f9cdc758668e8d7c6266",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/lettuce-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "a44f81549fc562de7b72c2cdd7d66328b84766e99e1ba9c7f89a7eb76895dbc1",
+      "actual": "a44f81549fc562de7b72c2cdd7d66328b84766e99e1ba9c7f89a7eb76895dbc1",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S04.prefab",
+      "category": "frozen-Lulu",
+      "expected": "9125e02e9453dec6f0eb74d459d8149657c99a94db468efe7395a0055da5002e",
+      "actual": "9125e02e9453dec6f0eb74d459d8149657c99a94db468efe7395a0055da5002e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E09.prefab",
+      "category": "frozen-Lulu",
+      "expected": "75cd1e6f823aaae2403288702c91307d49ee27f0844cc4cf48e21cd388354c6d",
+      "actual": "75cd1e6f823aaae2403288702c91307d49ee27f0844cc4cf48e21cd388354c6d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E05.prefab",
+      "category": "frozen-Lulu",
+      "expected": "774e1569f8a300a37cd08b1f3daa90cfed763e3169f0012f04dfb65ef0ccb323",
+      "actual": "774e1569f8a300a37cd08b1f3daa90cfed763e3169f0012f04dfb65ef0ccb323",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E10.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "8865a60c4e4ea36454d672accddca3e59af9668152445ecf851b9459ebc2fd89",
+      "actual": "8865a60c4e4ea36454d672accddca3e59af9668152445ecf851b9459ebc2fd89",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/rose-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "37628cd79ddab76447a53f24fd75b813c5f98ef42c6bc332bf2285c768e1c953",
+      "actual": "37628cd79ddab76447a53f24fd75b813c5f98ef42c6bc332bf2285c768e1c953",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S08.prefab",
+      "category": "frozen-Lulu",
+      "expected": "887fe90a0dd40472591bd27256c10d73efcd1a1f76afa0da8647eb84ec6aff81",
+      "actual": "887fe90a0dd40472591bd27256c10d73efcd1a1f76afa0da8647eb84ec6aff81",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E05.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "0665b33d9a6cfe6cc13d0d3f563156a3622b0973c559672dde629f02428c6412",
+      "actual": "0665b33d9a6cfe6cc13d0d3f563156a3622b0973c559672dde629f02428c6412",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/lettuce-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "a7e49c6355882726623751287e556d20d1c759a42144862fd7fa643fb6e22515",
+      "actual": "a7e49c6355882726623751287e556d20d1c759a42144862fd7fa643fb6e22515",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cow.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a2bb3facecb914519342f3f429ba082eec5231b7e1f32ce3fb42dc87dcc4bad9",
+      "actual": "a2bb3facecb914519342f3f429ba082eec5231b7e1f32ce3fb42dc87dcc4bad9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/corn-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "18ddc209c6a4a1553e0958860196508aaaca89063922ed3c1f1cc4e4742da794",
+      "actual": "18ddc209c6a4a1553e0958860196508aaaca89063922ed3c1f1cc4e4742da794",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/duck.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "5c5e6000d550812b7537e9e879c0e3c37e24dd79a6d165bf4138b96acc8ce221",
+      "actual": "5c5e6000d550812b7537e9e879c0e3c37e24dd79a6d165bf4138b96acc8ce221",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S09.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "047906ab6345993a3be87fb81e4e58e2c6c2761bcf1f31f725c2c30a4ef0c03d",
+      "actual": "047906ab6345993a3be87fb81e4e58e2c6c2761bcf1f31f725c2c30a4ef0c03d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/pig.prefab",
+      "category": "frozen-Lulu",
+      "expected": "48b912bc82ea6ea9977141e67364d1fa00775792c23337adff0319437bde7888",
+      "actual": "48b912bc82ea6ea9977141e67364d1fa00775792c23337adff0319437bde7888",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/black-pig.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "7d1a82985f1ab301995da03c8a1da49503771d7391dbd6228e518df487380794",
+      "actual": "7d1a82985f1ab301995da03c8a1da49503771d7391dbd6228e518df487380794",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S10.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "3ec377f382594c1919c860e45118c79032288a37fdbe04192dd2938da72f6808",
+      "actual": "3ec377f382594c1919c860e45118c79032288a37fdbe04192dd2938da72f6808",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S05-endcap.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "9d19ac167f1450cc2f96b827a5cd92d2b6691474dae880331aebce89325afedb",
+      "actual": "9d19ac167f1450cc2f96b827a5cd92d2b6691474dae880331aebce89325afedb",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/goat.prefab",
+      "category": "frozen-Lulu",
+      "expected": "6b830f0e403399f00d238b0fc7d6698b0dbf687b9469ee6bff0b3512fd7b4b6a",
+      "actual": "6b830f0e403399f00d238b0fc7d6698b0dbf687b9469ee6bff0b3512fd7b4b6a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/bokchoy-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "1b17be6097bd3a836ce8e87630b10102f0e511cfe62bb8826c6179ebf291a175",
+      "actual": "1b17be6097bd3a836ce8e87630b10102f0e511cfe62bb8826c6179ebf291a175",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/hamster.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "18dc4b559ccaecd868d54baa8d2bd7af539c9f1de84d371ca9c253907a7a4b5b",
+      "actual": "18dc4b559ccaecd868d54baa8d2bd7af539c9f1de84d371ca9c253907a7a4b5b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/sheep.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "aa045b7cda6d0380b6fdf705e04216fe8c9cf07785166a664da175709a77fb0d",
+      "actual": "aa045b7cda6d0380b6fdf705e04216fe8c9cf07785166a664da175709a77fb0d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E09.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "b887671b33209f6b4fdb824e08d31a9ae11ca9663a084fcb2123491aa4befe3c",
+      "actual": "b887671b33209f6b4fdb824e08d31a9ae11ca9663a084fcb2123491aa4befe3c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/sunflower-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "d5d298b0db5ba140e41e7090a31d4d827ae208f1eaab8212b061f751acb2d248",
+      "actual": "d5d298b0db5ba140e41e7090a31d4d827ae208f1eaab8212b061f751acb2d248",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/goat.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "5580b48ae55903c50f7d3a0d985e083f5f1fb348fd7399f179cc8cc2ad16be3c",
+      "actual": "5580b48ae55903c50f7d3a0d985e083f5f1fb348fd7399f179cc8cc2ad16be3c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E15.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "c12665ab2a2c05647006e4047c461eefedaa30da9bd47d6c11e52c20bc0c0a54",
+      "actual": "c12665ab2a2c05647006e4047c461eefedaa30da9bd47d6c11e52c20bc0c0a54",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E07.prefab",
+      "category": "frozen-Lulu",
+      "expected": "e73dea247ec1ed26ce3175a2ee60f9be690ea53f31c34914bfa177114170ad11",
+      "actual": "e73dea247ec1ed26ce3175a2ee60f9be690ea53f31c34914bfa177114170ad11",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S05.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "48d8365274b4dff9fc38e307c677fea602abc4211a8da24113889d794248dee3",
+      "actual": "48d8365274b4dff9fc38e307c677fea602abc4211a8da24113889d794248dee3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/chicken.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "0a65b47bb75d541df67e66ea68e0e12afed6483a108113351804833b8e778750",
+      "actual": "0a65b47bb75d541df67e66ea68e0e12afed6483a108113351804833b8e778750",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/Lulu.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a695b01db3c45db8a3d21c6fc7df125969b942d775c5c7aceffb4b88b3d13ed3",
+      "actual": "a695b01db3c45db8a3d21c6fc7df125969b942d775c5c7aceffb4b88b3d13ed3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S06.prefab",
+      "category": "frozen-Lulu",
+      "expected": "3ffa969c614a6d3af5a825c2702844fb875d733b726b4e41497e281d21bfc0f9",
+      "actual": "3ffa969c614a6d3af5a825c2702844fb875d733b726b4e41497e281d21bfc0f9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E15.prefab",
+      "category": "frozen-Lulu",
+      "expected": "03ecf6161e483485ed64d2a3999a45169586f7abc6a39bc5bd9200eadfc80207",
+      "actual": "03ecf6161e483485ed64d2a3999a45169586f7abc6a39bc5bd9200eadfc80207",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cauliflower-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "2433b96a920de7c58a58cd18983a52896a0345f7f1772b3ca6d1c1619dbef686",
+      "actual": "2433b96a920de7c58a58cd18983a52896a0345f7f1772b3ca6d1c1619dbef686",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S06.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "e15f18abab4cabcdd51cc205e540cf8b0c18f6bf76448a67fd2b2a7b2eede7f5",
+      "actual": "e15f18abab4cabcdd51cc205e540cf8b0c18f6bf76448a67fd2b2a7b2eede7f5",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E16.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "bf8519c8f067ec994a8c0f93e25ea82cd53cb5a25d5655024cad4c1e82f5ae9f",
+      "actual": "bf8519c8f067ec994a8c0f93e25ea82cd53cb5a25d5655024cad4c1e82f5ae9f",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/sunflower-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "cf576443fcc0d4a96be56ed41fef95528ef59263bb01e460c9d97edcea41b134",
+      "actual": "cf576443fcc0d4a96be56ed41fef95528ef59263bb01e460c9d97edcea41b134",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S05-endcap.prefab",
+      "category": "frozen-Lulu",
+      "expected": "311a1b2d9e3171bb72adbbaa3366233fd6ed30fbb14a394e9e33813e23839337",
+      "actual": "311a1b2d9e3171bb72adbbaa3366233fd6ed30fbb14a394e9e33813e23839337",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E05-corner.prefab",
+      "category": "frozen-Lulu",
+      "expected": "ae006c4e44aa195c881e6c360de1022607b3bd6bb11584652de91866034f762d",
+      "actual": "ae006c4e44aa195c881e6c360de1022607b3bd6bb11584652de91866034f762d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/strawberry-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "17b3a5b09bb52c5edc88fd9d9038c65582e320325ef39ab06a5a7cba28afccf4",
+      "actual": "17b3a5b09bb52c5edc88fd9d9038c65582e320325ef39ab06a5a7cba28afccf4",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/black-pig.prefab",
+      "category": "frozen-Lulu",
+      "expected": "69a10448c45945d8edb7de68e89cc6d52d32657cc4dc2baa93fff7ae92d5e9ea",
+      "actual": "69a10448c45945d8edb7de68e89cc6d52d32657cc4dc2baa93fff7ae92d5e9ea",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/strawberry-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "e28502d2211ef4cc282605f42ea0cc0cf9f32d76b3fba89ac239a7332ddbb31b",
+      "actual": "e28502d2211ef4cc282605f42ea0cc0cf9f32d76b3fba89ac239a7332ddbb31b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/capybara.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "81814ff54be87d2df5ad68c9f136bccaef7f55a1f9e632c91b7b387e2229cd9c",
+      "actual": "81814ff54be87d2df5ad68c9f136bccaef7f55a1f9e632c91b7b387e2229cd9c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E11.prefab",
+      "category": "frozen-Lulu",
+      "expected": "909e4e54ee00bc4d14b0491bc1ee86bd8d341dd944380293f10f7a6c3b6b8ecc",
+      "actual": "909e4e54ee00bc4d14b0491bc1ee86bd8d341dd944380293f10f7a6c3b6b8ecc",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E03.prefab",
+      "category": "frozen-Lulu",
+      "expected": "7543864a683a0c73936a85c0df95e2bb881645bf8fb7e496c525e0d34174523d",
+      "actual": "7543864a683a0c73936a85c0df95e2bb881645bf8fb7e496c525e0d34174523d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S10.prefab",
+      "category": "frozen-Lulu",
+      "expected": "902c2c9f74c27d82e4c4574bdbd96c4955b45389f352bb184a649f67017444fb",
+      "actual": "902c2c9f74c27d82e4c4574bdbd96c4955b45389f352bb184a649f67017444fb",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/strawberry-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "5c2d606ff941f99cf9c28fc8aa1fa67490d811a20560a8c015eb613acf762664",
+      "actual": "5c2d606ff941f99cf9c28fc8aa1fa67490d811a20560a8c015eb613acf762664",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E03.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "91c8adef801012e374c4f6ef6bcc04fbb120f2cbad69084a9a29fbe414897a5b",
+      "actual": "91c8adef801012e374c4f6ef6bcc04fbb120f2cbad69084a9a29fbe414897a5b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/tomato-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "56ac28014ac46b178bde6a692ad359701548ed475f96042b17dfdcaa62f9edde",
+      "actual": "56ac28014ac46b178bde6a692ad359701548ed475f96042b17dfdcaa62f9edde",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E01.prefab",
+      "category": "frozen-Lulu",
+      "expected": "c1b891bee95e72810e6b73bdfd44f292de505159d5a5de8e5dcbcf564ccbcd5c",
+      "actual": "c1b891bee95e72810e6b73bdfd44f292de505159d5a5de8e5dcbcf564ccbcd5c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S12.prefab",
+      "category": "frozen-Lulu",
+      "expected": "2016c24a9d4fdc27c39cdd0dbb11c43ac315fe7445996ed2c0ada1c78a8d91b9",
+      "actual": "2016c24a9d4fdc27c39cdd0dbb11c43ac315fe7445996ed2c0ada1c78a8d91b9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/rose-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "a3241095fc6cbef07b4147b1a96225ed870fb1be7098816e9b3a705e7399e9f0",
+      "actual": "a3241095fc6cbef07b4147b1a96225ed870fb1be7098816e9b3a705e7399e9f0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/wheat-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "1dacb763c59aebfe5acc9f0bc9e6f8c4493c0780cca2dac56c0ed4b63600a04a",
+      "actual": "1dacb763c59aebfe5acc9f0bc9e6f8c4493c0780cca2dac56c0ed4b63600a04a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/watermelon-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "7ecfffd10c2691158f9a5e95b8694c963d38d2adc5518b5284f645bfb592e2e0",
+      "actual": "7ecfffd10c2691158f9a5e95b8694c963d38d2adc5518b5284f645bfb592e2e0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E13.prefab",
+      "category": "frozen-Lulu",
+      "expected": "ab0962c8e21bb90ea5798b2f78da0a612311b57830b2e97b7b61d22a05f49173",
+      "actual": "ab0962c8e21bb90ea5798b2f78da0a612311b57830b2e97b7b61d22a05f49173",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/corn-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "cbe041011dbabe98f2c7c93c487ae1d4791945ac92d3026761882b43719bdaae",
+      "actual": "cbe041011dbabe98f2c7c93c487ae1d4791945ac92d3026761882b43719bdaae",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cabbage-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "0862a45bf56a57f5c581da65acf2090256a8b614bed8af6bbf3a1c6db86ad652",
+      "actual": "0862a45bf56a57f5c581da65acf2090256a8b614bed8af6bbf3a1c6db86ad652",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/capybara.prefab",
+      "category": "frozen-Lulu",
+      "expected": "d646b0ae0de0374fa8606ab840774fb62a5b6cc69923d91475bbe34688ad391c",
+      "actual": "d646b0ae0de0374fa8606ab840774fb62a5b6cc69923d91475bbe34688ad391c",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E06.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "44a966273482f4b81e4cd950560588324039713b90628804eedaa9f78271abdb",
+      "actual": "44a966273482f4b81e4cd950560588324039713b90628804eedaa9f78271abdb",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/deer.prefab",
+      "category": "frozen-Lulu",
+      "expected": "80daee4a21964abc435c010a14ee0ff0722e5eef9fd1e9b0c41e0721d354a893",
+      "actual": "80daee4a21964abc435c010a14ee0ff0722e5eef9fd1e9b0c41e0721d354a893",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/cauliflower-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "028392898d8dbe9b324e6474fbdb1311d9f45543c15dd410629c94622acd2012",
+      "actual": "028392898d8dbe9b324e6474fbdb1311d9f45543c15dd410629c94622acd2012",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/E13.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "179e3b02ff8fd9b95bb7378203b2cbd10c99455cead30c33ac6ed65d93d3c350",
+      "actual": "179e3b02ff8fd9b95bb7378203b2cbd10c99455cead30c33ac6ed65d93d3c350",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/S03.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "b1ad372edc0cbc478b99422c48ae4d07e304959789c6c7ab8c975d0d7ecce952",
+      "actual": "b1ad372edc0cbc478b99422c48ae4d07e304959789c6c7ab8c975d0d7ecce952",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/bokchoy-seedling.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "9932ece2e90c764ca6051de785cf11f88c99d292a3d37812be251e1b36376579",
+      "actual": "9932ece2e90c764ca6051de785cf11f88c99d292a3d37812be251e1b36376579",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/tomato-mature.prefab.meta",
+      "category": "frozen-Lulu",
+      "expected": "e8568eb7186ecbb01b0a405dd40d569079ff23f4872332e64a1c1124cd519d12",
+      "actual": "e8568eb7186ecbb01b0a405dd40d569079ff23f4872332e64a1c1124cd519d12",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/corn-seedling.prefab",
+      "category": "frozen-Lulu",
+      "expected": "4185bd97f6a61a9bec68be7433a44c6e6a3e6c6168cab625c606da4e4e589a23",
+      "actual": "4185bd97f6a61a9bec68be7433a44c6e6a3e6c6168cab625c606da4e4e589a23",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/ostrich.prefab",
+      "category": "frozen-Lulu",
+      "expected": "f3bbb7bf5cb5236cc11f95cd1f710584b088cb4c9198a8ef2c5b3785a38665ea",
+      "actual": "f3bbb7bf5cb5236cc11f95cd1f710584b088cb4c9198a8ef2c5b3785a38665ea",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/wheat-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "332304cf83dd808325f5484274bd1ebb6cb77bf3df814d6abc3ac7ee28486ee8",
+      "actual": "332304cf83dd808325f5484274bd1ebb6cb77bf3df814d6abc3ac7ee28486ee8",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/Comparisons/strawberry-mature.prefab",
+      "category": "frozen-Lulu",
+      "expected": "a4c2a820fd0c8ce8eb73b0ba044b27b1caab90e41d18463130cddc6d1080a368",
+      "actual": "a4c2a820fd0c8ce8eb73b0ba044b27b1caab90e41d18463130cddc6d1080a368",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/BlueStars.mat",
+      "category": "frozen-Lulu",
+      "expected": "9e0a3716cbe7e2cccebea08b1ccc8d452937e51a8769eb1c6108b8963c7e36ef",
+      "actual": "9e0a3716cbe7e2cccebea08b1ccc8d452937e51a8769eb1c6108b8963c7e36ef",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/BankBacking.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "c7fe59d74f7c799b8f343d2d555081e564d55601fb85746bb1a76e580683cfbf",
+      "actual": "c7fe59d74f7c799b8f343d2d555081e564d55601fb85746bb1a76e580683cfbf",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/PondWater.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "68e141cc82694c2bcfd1db523b17e314848c6855adb93cc6bee44764a0eebaff",
+      "actual": "68e141cc82694c2bcfd1db523b17e314848c6855adb93cc6bee44764a0eebaff",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/NeutralClay.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "801a237562d04da0579f92d820cd0f6dcd5bfbf18c75a4f097e99963e956fd6b",
+      "actual": "801a237562d04da0579f92d820cd0f6dcd5bfbf18c75a4f097e99963e956fd6b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/Watermelon.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "427bcd1bf0293d3b4bed3de0099f5c3521662ceab27fb62886a6b7ed7b0e7b03",
+      "actual": "427bcd1bf0293d3b4bed3de0099f5c3521662ceab27fb62886a6b7ed7b0e7b03",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade.meta",
+      "category": "frozen-Lulu",
+      "expected": "40cd9c186301e9eff87cca4318e8b8fd13320b263336567ae12b9b217cab6cd1",
+      "actual": "40cd9c186301e9eff87cca4318e8b8fd13320b263336567ae12b9b217cab6cd1",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/WarmPath.mat",
+      "category": "frozen-Lulu",
+      "expected": "977e3b55702326055cfa8358f3dcec9198e41dbd70a97289b26f8b3b777b6a86",
+      "actual": "977e3b55702326055cfa8358f3dcec9198e41dbd70a97289b26f8b3b777b6a86",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/Grass.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "a1ba5f111798ac71441de59e4a50a03f80d58535b81bf337674b41cdf59d5192",
+      "actual": "a1ba5f111798ac71441de59e4a50a03f80d58535b81bf337674b41cdf59d5192",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish.meta",
+      "category": "frozen-Lulu",
+      "expected": "4ab9963c7e44c33fb8c098b20881617d1d94510361897b845b88977e460b38e2",
+      "actual": "4ab9963c7e44c33fb8c098b20881617d1d94510361897b845b88977e460b38e2",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/BlueStars.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "c6a12fd891041a1bc2e58182ac8366cde788c2c15229ec447d9f52f1d9b706b2",
+      "actual": "c6a12fd891041a1bc2e58182ac8366cde788c2c15229ec447d9f52f1d9b706b2",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/PondWater.mat",
+      "category": "frozen-Lulu",
+      "expected": "ebc8b6fc86bec98c6bb673ddf4139d4951f859f9c849900ca2e7da11a272d15d",
+      "actual": "ebc8b6fc86bec98c6bb673ddf4139d4951f859f9c849900ca2e7da11a272d15d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/FarmSky-r01.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "31ae7ab144a5a558df693c39ed77db505cc6f6149fbc28a0913b7a08976a80d4",
+      "actual": "31ae7ab144a5a558df693c39ed77db505cc6f6149fbc28a0913b7a08976a80d4",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/NeutralClay.mat",
+      "category": "frozen-Lulu",
+      "expected": "5fd9debde369863ff50597e90f842d2bf0331982617c969d5a5b69a6ad67be1a",
+      "actual": "5fd9debde369863ff50597e90f842d2bf0331982617c969d5a5b69a6ad67be1a",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/Watermelon.mat",
+      "category": "frozen-Lulu",
+      "expected": "4dd8217531d36a95e2fb84761661def839b08634ccd1e4e19207918cbb899a47",
+      "actual": "4dd8217531d36a95e2fb84761661def839b08634ccd1e4e19207918cbb899a47",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/Grass.mat",
+      "category": "frozen-Lulu",
+      "expected": "23c0faff85ddfee80256b5a5495ac02eb11a4cc3984d3a02735981a59670c190",
+      "actual": "23c0faff85ddfee80256b5a5495ac02eb11a4cc3984d3a02735981a59670c190",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/BankBacking.mat",
+      "category": "frozen-Lulu",
+      "expected": "7c472143d3e1a18c73e19711aac9002ac47544bbb76bc3108d94ca650d5da408",
+      "actual": "7c472143d3e1a18c73e19711aac9002ac47544bbb76bc3108d94ca650d5da408",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/WarmPath.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "ecf31c83a26b1329f7f129a5b07c8e237e370d2717d67af38c20b8e4ef4de5bd",
+      "actual": "ecf31c83a26b1329f7f129a5b07c8e237e370d2717d67af38c20b8e4ef4de5bd",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/FarmSky-r01.mat",
+      "category": "frozen-Lulu",
+      "expected": "b37d7aeb900947248f45e5bbaf87ee13c837a2842f7db1c15329df3bc059778e",
+      "actual": "b37d7aeb900947248f45e5bbaf87ee13c837a2842f7db1c15329df3bc059778e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat",
+      "category": "frozen-Lulu",
+      "expected": "259a4c21261b0039a2b5816dd529ca8b3b3afb5a80798223547490dabdde0f41",
+      "actual": "259a4c21261b0039a2b5816dd529ca8b3b3afb5a80798223547490dabdde0f41",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat",
+      "category": "frozen-Lulu",
+      "expected": "e25965e946f95ffd9b818e67a946440d4933159fe75f0dee381a634b0f4d08a4",
+      "actual": "e25965e946f95ffd9b818e67a946440d4933159fe75f0dee381a634b0f4d08a4",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "00e140fdd08fca89795f0fb899ad2435782759222c81964a558b051aa91a3232",
+      "actual": "00e140fdd08fca89795f0fb899ad2435782759222c81964a558b051aa91a3232",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "8ef5d5223b9d2b288da11dce8b778bbfad50310b594c808445cb20434bbfff6b",
+      "actual": "8ef5d5223b9d2b288da11dce8b778bbfad50310b594c808445cb20434bbfff6b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat",
+      "category": "frozen-Lulu",
+      "expected": "e98a8ecc4fefe5bd79ea433841784f7fbd298d8a1d5d38c91c6c5e9423eabdbf",
+      "actual": "e98a8ecc4fefe5bd79ea433841784f7fbd298d8a1d5d38c91c6c5e9423eabdbf",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat",
+      "category": "frozen-Lulu",
+      "expected": "afef82e63e269918baf2b1c81ae89b4956cc8a7eea47d5f9d532d25f4ce096d9",
+      "actual": "afef82e63e269918baf2b1c81ae89b4956cc8a7eea47d5f9d532d25f4ce096d9",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat",
+      "category": "frozen-Lulu",
+      "expected": "8c536bde54b9d600252ef8a9e0f3134cb413096553ea0a93ae36db28ba05bd86",
+      "actual": "8c536bde54b9d600252ef8a9e0f3134cb413096553ea0a93ae36db28ba05bd86",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "d95143c45dfd66baa9c7cd7b5db7405df6f7cd3f763bc87e3383b36dd4c70fda",
+      "actual": "d95143c45dfd66baa9c7cd7b5db7405df6f7cd3f763bc87e3383b36dd4c70fda",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat",
+      "category": "frozen-Lulu",
+      "expected": "d5ec7d291538f873710304e8678a959b2722e709fcacec30a85d0c53551bbe86",
+      "actual": "d5ec7d291538f873710304e8678a959b2722e709fcacec30a85d0c53551bbe86",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "b630fb7d91bcc68ad8df1a4fef48f810a068afea5991710b37211942c6cfbe65",
+      "actual": "b630fb7d91bcc68ad8df1a4fef48f810a068afea5991710b37211942c6cfbe65",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "e961435ae22dd29cdc4ac2ac8eca29434058b824e0ce521455c79c9a58a22470",
+      "actual": "e961435ae22dd29cdc4ac2ac8eca29434058b824e0ce521455c79c9a58a22470",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "468755c418262280f4cd06f2b5345768c6fafb39cdb908ffa62d2d247398e52e",
+      "actual": "468755c418262280f4cd06f2b5345768c6fafb39cdb908ffa62d2d247398e52e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/WarmPath-polish-r02.mat",
+      "category": "frozen-Lulu",
+      "expected": "20cefab067b1639c81701ff85139c3a0ad9f72ceb93228e929dab01f3bcaf20b",
+      "actual": "20cefab067b1639c81701ff85139c3a0ad9f72ceb93228e929dab01f3bcaf20b",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/Grass-polish-r02.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "56ad471c148cae4d1398ab248985b3c085bd14f58f6e02c8ecfa44a24ca695ad",
+      "actual": "56ad471c148cae4d1398ab248985b3c085bd14f58f6e02c8ecfa44a24ca695ad",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/GrassVariation-r01.png",
+      "category": "frozen-Lulu",
+      "expected": "f81b25cf26a74dc3cf5ae0e04c1fa3e6de6c8a6dfbb5692b46d8f168abd3c9b3",
+      "actual": "f81b25cf26a74dc3cf5ae0e04c1fa3e6de6c8a6dfbb5692b46d8f168abd3c9b3",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/RoadEdgeMask-r02.png",
+      "category": "frozen-Lulu",
+      "expected": "9019405bcea5ecad7d2aa692b7152b9313142d4bfb0329151e4616d6e62d5137",
+      "actual": "9019405bcea5ecad7d2aa692b7152b9313142d4bfb0329151e4616d6e62d5137",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/RoadEdgeMask-r02.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "bec527081c640ce529c227276b14758b37bc99f59f1adfc6175127bae8fe7dae",
+      "actual": "bec527081c640ce529c227276b14758b37bc99f59f1adfc6175127bae8fe7dae",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/WarmPath-polish-r02.mat.meta",
+      "category": "frozen-Lulu",
+      "expected": "0e00c8bcd64ff6f420c92aa23dc31c67ca5ed70645dd6d7a1b1c8042fc15d1b4",
+      "actual": "0e00c8bcd64ff6f420c92aa23dc31c67ca5ed70645dd6d7a1b1c8042fc15d1b4",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/PathVariation-r01.png",
+      "category": "frozen-Lulu",
+      "expected": "8045be299747a464dfb1ef316556966d41c6e91587b39a58c51168f9a7cd7189",
+      "actual": "8045be299747a464dfb1ef316556966d41c6e91587b39a58c51168f9a7cd7189",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/Grass-polish-r02.mat",
+      "category": "frozen-Lulu",
+      "expected": "89de87fdc5b3a07b8078d24b67a8e80d8f94bdc708992cd496922121faba3da0",
+      "actual": "89de87fdc5b3a07b8078d24b67a8e80d8f94bdc708992cd496922121faba3da0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/PathVariation-r01.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "91917ea961ae8f180328073aa34a2370aa9320f93ccb432960c1fe32e1c5caf6",
+      "actual": "91917ea961ae8f180328073aa34a2370aa9320f93ccb432960c1fe32e1c5caf6",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Materials/LandscapePolish/GrassVariation-r01.png.meta",
+      "category": "frozen-Lulu",
+      "expected": "abe99b2d4e62053caa6ac51f8579c4d4ce4cb32f44fcc455c839d4285e208df0",
+      "actual": "abe99b2d4e62053caa6ac51f8579c4d4ce4cb32f44fcc455c839d4285e208df0",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Data/GroundWithSoilAndPondOpenings.asset.meta",
+      "category": "retained-road-ground-geometry",
+      "expected": "08eb5872fdd87d607966c9e1fb8a1a44bca5ec2db1ebce8fbf4c894568ef9bf7",
+      "actual": "08eb5872fdd87d607966c9e1fb8a1a44bca5ec2db1ebce8fbf4c894568ef9bf7",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Data/GroundWithSoilAndPondOpenings.asset",
+      "category": "retained-road-ground-geometry",
+      "expected": "d379b87e4d3a4ae2a51723d6c5b62b77f20421fe3689359f45275656d343e08d",
+      "actual": "d379b87e4d3a4ae2a51723d6c5b62b77f20421fe3689359f45275656d343e08d",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Data/RoadNetwork.asset",
+      "category": "retained-road-ground-geometry",
+      "expected": "bafbb6e4541763030d3633b97d9270d6b2fd17c67783ec83feac36590f5f985e",
+      "actual": "bafbb6e4541763030d3633b97d9270d6b2fd17c67783ec83feac36590f5f985e",
+      "identical": true
+    },
+    {
+      "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Data/RoadNetwork.asset.meta",
+      "category": "retained-road-ground-geometry",
+      "expected": "0a31b8fbcf97ceb44d46bb22a7963b51ae97e9a24b7602f3004bfa5689289a34",
+      "actual": "0a31b8fbcf97ceb44d46bb22a7963b51ae97e9a24b7602f3004bfa5689289a34",
+      "identical": true
+    }
+  ]
+}

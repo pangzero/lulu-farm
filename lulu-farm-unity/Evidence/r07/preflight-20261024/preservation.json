@@ -1,0 +1,70 @@
+{
+  "utc": "2026-10-23T18:41:01.714693+00:00",
+  "delivery": [
+    {
+      "file": "LuluFarm-macOS-r06.zip",
+      "actual": "3df88e85596860f6143400a46fe24e5ff88b7dcad4b8aa86245d2a340964e9f6",
+      "expected": "3df88e85596860f6143400a46fe24e5ff88b7dcad4b8aa86245d2a340964e9f6",
+      "matches": true,
+      "bytes": 378701641
+    },
+    {
+      "file": "LuluFarm-Unity-source-r06.zip",
+      "actual": "b8890423ff93fefd2e5654164e3c9f043254da9386dbf674ccfe914bb001062f",
+      "expected": "b8890423ff93fefd2e5654164e3c9f043254da9386dbf674ccfe914bb001062f",
+      "matches": true,
+      "bytes": 1728186755
+    },
+    {
+      "file": "LuluFarm-evidence-r06.zip",
+      "actual": "b4ac32371985923e7fac5b9706a4c13facc6a7b68851a48ef33767b65798b8f0",
+      "expected": "b4ac32371985923e7fac5b9706a4c13facc6a7b68851a48ef33767b65798b8f0",
+      "matches": true,
+      "bytes": 40329606
+    },
+    {
+      "file": "LuluFarm-walkthrough-r06.mp4",
+      "actual": "4ac2e94f10884f1357076118a246b91293f57bac648be9017be69bd73ee99579",
+      "expected": "4ac2e94f10884f1357076118a246b91293f57bac648be9017be69bd73ee99579",
+      "matches": true,
+      "bytes": 164853213
+    },
+    {
+      "file": "先读我.md",
+      "actual": "f4183b8fc054c96cf83cde492154603004482335b24c3ea2f10af21571bfa60f",
+      "expected": "f4183b8fc054c96cf83cde492154603004482335b24c3ea2f10af21571bfa60f",
+      "matches": true,
+      "bytes": 2222
+    },
+    {
+      "file": "app-archive-verification.json",
+      "actual": "137acc5514d478290b891456ef395917d0510c11fbb7f775fb3d300fc4460d85",
+      "expected": "137acc5514d478290b891456ef395917d0510c11fbb7f775fb3d300fc4460d85",
+      "matches": true,
+      "bytes": 55761
+    },
+    {
+      "file": "evidence-archive-verification.json",
+      "actual": "1ff51dcf181bfab5f7eef9dc560c06add6e28d6de563ab43bce17ece668f3253",
+      "expected": "1ff51dcf181bfab5f7eef9dc560c06add6e28d6de563ab43bce17ece668f3253",
+      "matches": true,
+      "bytes": 165
+    },
+    {
+      "file": "LuluFarm-Unity-source-r06.manifest.json",
+      "actual": "da74d304243cd094ad737677c5f72567ef12a0c666d0282e48de4bc010673705",
+      "expected": "da74d304243cd094ad737677c5f72567ef12a0c666d0282e48de4bc010673705",
+      "matches": true,
+      "bytes": 628
+    }
+  ],
+  "barn": {
+    "path": "/Users/haowen/IdeaProjects/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r02/s02-pasture-barn.glb",
+    "sha256": "d4299d1ea171c7970fbabd7266e2cd6af93f0b8726ff0e5c5003a6bf00a1b095",
+    "expected": "d4299d1ea171c7970fbabd7266e2cd6af93f0b8726ff0e5c5003a6bf00a1b095"
+  },
+  "locks": {
+    "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Packages/manifest.json": "69c99a7c427250abc9b8e66f0f4fa6a4d3905ff24eb4fd5ef5f773a8c549895b",
+    "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Packages/packages-lock.json": "e0fb1029942e5bf87771859d4ef6976d48395b86804c5578cb306ddad9ce8288"
+  }
+}

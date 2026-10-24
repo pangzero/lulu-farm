@@ -1,0 +1,7 @@
+{
+  "observed": "SingleCameraRequest in URP 17.3.0 does not run UpdateVolumeFramework. Extra offscreen screenshots initially lacked the configured Volume; actual runtime route already uses the normal full pipeline.",
+  "correction": "StandardRequest refreshes the actual Volume stack. Final extra screenshots record actualVignette=.16, actualBloom=.2, actualExposure=.1 and Neutral; standard historical fixed-camera code untouched.",
+  "preserved": "fixed-pp-on-no-volume-update-r01",
+  "final": "fixed-pp-on",
+  "status": "final 18 screenshots actually reviewed as pp-contact-volume-r02/01-05.jpg"
+}

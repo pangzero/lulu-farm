@@ -1,0 +1,10 @@
+{
+    "platform": "r07-D5-release",
+    "result": "Succeeded",
+    "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Builds/r07/D5/release/LuluFarm.app",
+    "device": "not_tested",
+    "bytes": 586551330,
+    "seconds": 9.749873,
+    "errors": 0,
+    "warnings": 0
+}

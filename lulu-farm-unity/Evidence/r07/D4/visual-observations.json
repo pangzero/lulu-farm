@@ -1,0 +1,23 @@
+{
+  "status": "observed_pending_Opus_review",
+  "viewed": [
+    "attempt-r01/fixed-contact-r01/01–03.jpg (all 12 first attempt)",
+    "fixed-contact/01–03.jpg (all 12 current)",
+    "pp-contact/01–05.jpg (all 18 current)",
+    "route-contact/01–07.jpg (all 25 current)"
+  ],
+  "observations": [
+    "外围新增树形成更连续背景，主屋、田地、牧场、池塘关系保留。",
+    "田地外围新增灌木和花，房屋背面两朵新增花在返回路线中可见。",
+    "31/31 模拟输入路线走完，无因新增树干碰撞而停止的路线点。",
+    "池塘东侧固定诊断机位左下角被新树冠占据一部分，池塘和码头仍可见；整体构图由 Opus 判断。",
+    "主屋前保持源模型已有花饰；保留窄道路区域，不用密集花丛占满可通行空间。",
+    "透明叠层仍是 O3 的既存问题，新增树沿用旧遮挡行为。"
+  ],
+  "notClaimed": [
+    "美术验收",
+    "全部可行走区域逐点验证",
+    "人工 UI 检查",
+    "性能结论"
+  ]
+}

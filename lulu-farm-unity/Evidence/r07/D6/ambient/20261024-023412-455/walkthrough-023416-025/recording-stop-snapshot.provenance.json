@@ -1,0 +1,6 @@
+{
+  "method": "byte-identical snapshot of actual Unity recording summary at explicit StopRecording, before command-line shutdown can rewrite summary elapsed time",
+  "sha256": "e9a7fa7bbf9e8d87c9f3e1b93dbcd6f519c18a1ef8d7cd4363052b3b8f49c35e",
+  "original": "Evidence/r07/D6/ambient/20261024-023412-455/walkthrough-023416-025/recording.json",
+  "status": "ambient_diagnostic_sequence_finished"
+}

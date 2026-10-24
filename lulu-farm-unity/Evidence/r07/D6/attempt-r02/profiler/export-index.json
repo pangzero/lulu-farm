@@ -1,0 +1,726 @@
+{
+    "utc": "2026-10-24T03:21:56.9165400Z",
+    "method": "raw .data read by locked Unity ProfilerDriver; Chrome Trace gzip; samples >=0.1 ms plus roots; binary captures preserve all markers",
+    "chunks": [
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0000.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0000.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1197,
+            "frames": 1198,
+            "threads": 44,
+            "events": 165058
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0001.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0001.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1199,
+            "frames": 1200,
+            "threads": 44,
+            "events": 172979
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0002.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0002.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1113,
+            "frames": 1114,
+            "threads": 44,
+            "events": 155220
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0003.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0003.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1177,
+            "frames": 1178,
+            "threads": 44,
+            "events": 163257
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0004.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0004.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1178,
+            "frames": 1179,
+            "threads": 44,
+            "events": 164072
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0005.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0005.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1175,
+            "frames": 1176,
+            "threads": 44,
+            "events": 156145
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0006.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0006.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1184,
+            "frames": 1185,
+            "threads": 44,
+            "events": 161418
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0007.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0007.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1186,
+            "frames": 1187,
+            "threads": 44,
+            "events": 150305
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0008.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0008.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1193,
+            "frames": 1194,
+            "threads": 44,
+            "events": 144712
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0009.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0009.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1181,
+            "frames": 1182,
+            "threads": 44,
+            "events": 139049
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0010.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0010.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1171,
+            "frames": 1172,
+            "threads": 44,
+            "events": 158413
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0011.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0011.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1088,
+            "frames": 1089,
+            "threads": 44,
+            "events": 140402
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0012.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0012.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1194,
+            "frames": 1195,
+            "threads": 44,
+            "events": 151218
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0013.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0013.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1153,
+            "frames": 1154,
+            "threads": 44,
+            "events": 148392
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0014.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0014.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1162,
+            "frames": 1163,
+            "threads": 44,
+            "events": 151452
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0015.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0015.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1194,
+            "frames": 1195,
+            "threads": 44,
+            "events": 151695
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0016.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0016.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1190,
+            "frames": 1191,
+            "threads": 44,
+            "events": 155200
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0017.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0017.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1185,
+            "frames": 1186,
+            "threads": 44,
+            "events": 163942
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0018.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0018.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1198,
+            "frames": 1199,
+            "threads": 44,
+            "events": 145625
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0019.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0019.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1199,
+            "frames": 1200,
+            "threads": 44,
+            "events": 147687
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0020.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0020.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1122,
+            "frames": 1123,
+            "threads": 44,
+            "events": 138182
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0021.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0021.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1185,
+            "frames": 1186,
+            "threads": 44,
+            "events": 158941
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0022.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0022.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1120,
+            "frames": 1121,
+            "threads": 44,
+            "events": 145885
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0023.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0023.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1103,
+            "frames": 1104,
+            "threads": 44,
+            "events": 140598
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0024.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0024.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1200,
+            "frames": 1201,
+            "threads": 44,
+            "events": 157796
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0025.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0025.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1126,
+            "frames": 1127,
+            "threads": 44,
+            "events": 147141
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0026.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0026.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1148,
+            "frames": 1149,
+            "threads": 44,
+            "events": 152351
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0027.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0027.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1197,
+            "frames": 1198,
+            "threads": 44,
+            "events": 160328
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0028.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0028.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 152277
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0029.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0029.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1190,
+            "frames": 1191,
+            "threads": 44,
+            "events": 152455
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0030.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0030.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1200,
+            "frames": 1201,
+            "threads": 44,
+            "events": 141633
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0031.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0031.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1112,
+            "frames": 1113,
+            "threads": 44,
+            "events": 153426
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0032.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0032.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1098,
+            "frames": 1099,
+            "threads": 44,
+            "events": 144642
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0033.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0033.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1190,
+            "frames": 1191,
+            "threads": 44,
+            "events": 149740
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0034.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0034.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1124,
+            "frames": 1125,
+            "threads": 44,
+            "events": 145151
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0035.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0035.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1081,
+            "frames": 1082,
+            "threads": 44,
+            "events": 146978
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0036.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0036.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1189,
+            "frames": 1190,
+            "threads": 44,
+            "events": 157113
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0037.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0037.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1170,
+            "frames": 1171,
+            "threads": 44,
+            "events": 160448
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0038.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0038.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1120,
+            "frames": 1121,
+            "threads": 44,
+            "events": 152764
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0039.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0039.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1178,
+            "frames": 1179,
+            "threads": 44,
+            "events": 155347
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0040.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0040.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1097,
+            "frames": 1098,
+            "threads": 44,
+            "events": 146663
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0041.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0041.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1083,
+            "frames": 1084,
+            "threads": 44,
+            "events": 132187
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0042.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0042.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1185,
+            "frames": 1186,
+            "threads": 44,
+            "events": 146775
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0043.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0043.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1040,
+            "frames": 1041,
+            "threads": 44,
+            "events": 136228
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0044.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0044.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 955,
+            "frames": 956,
+            "threads": 44,
+            "events": 131781
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0045.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0045.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1179,
+            "frames": 1180,
+            "threads": 44,
+            "events": 153410
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0046.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0046.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1169,
+            "frames": 1170,
+            "threads": 44,
+            "events": 156772
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0047.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0047.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 149353
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0048.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0048.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1194,
+            "frames": 1195,
+            "threads": 44,
+            "events": 151873
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0049.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0049.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1137,
+            "frames": 1138,
+            "threads": 44,
+            "events": 149281
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0050.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0050.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1149,
+            "frames": 1150,
+            "threads": 44,
+            "events": 145036
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0051.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0051.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1181,
+            "frames": 1182,
+            "threads": 44,
+            "events": 148151
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0052.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0052.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1135,
+            "frames": 1136,
+            "threads": 44,
+            "events": 147782
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0053.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0053.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1018,
+            "frames": 1019,
+            "threads": 44,
+            "events": 141765
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0054.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0054.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1058,
+            "frames": 1059,
+            "threads": 44,
+            "events": 132715
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0055.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0055.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1191,
+            "frames": 1192,
+            "threads": 44,
+            "events": 153541
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0056.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0056.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1196,
+            "frames": 1197,
+            "threads": 44,
+            "events": 146846
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0057.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0057.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1191,
+            "frames": 1192,
+            "threads": 44,
+            "events": 147478
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0058.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0058.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1151,
+            "frames": 1152,
+            "threads": 44,
+            "events": 143960
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0059.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0059.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1140,
+            "frames": 1141,
+            "threads": 44,
+            "events": 141329
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0060.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0060.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1181,
+            "frames": 1182,
+            "threads": 44,
+            "events": 146734
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0061.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0061.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1166,
+            "frames": 1167,
+            "threads": 44,
+            "events": 145365
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0062.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0062.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1159,
+            "frames": 1160,
+            "threads": 44,
+            "events": 144305
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0063.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0063.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 145358
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0064.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0064.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1051,
+            "frames": 1052,
+            "threads": 44,
+            "events": 144240
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0065.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0065.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1199,
+            "frames": 1200,
+            "threads": 44,
+            "events": 157674
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0066.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0066.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 158329
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0067.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0067.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1198,
+            "frames": 1199,
+            "threads": 44,
+            "events": 159088
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0068.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0068.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1197,
+            "frames": 1198,
+            "threads": 44,
+            "events": 157849
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0069.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0069.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1185,
+            "frames": 1186,
+            "threads": 44,
+            "events": 162201
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0070.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0070.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1196,
+            "frames": 1197,
+            "threads": 44,
+            "events": 156640
+        },
+        {
+            "file": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0071.data",
+            "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Evidence/r07/D6/attempt-r02/profiler/cpu-0071.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 38,
+            "frames": 39,
+            "threads": 44,
+            "events": 5014
+        }
+    ]
+}

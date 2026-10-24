@@ -1,0 +1,61 @@
+--- D1-baseline/Assets/Farm/Editor/FarmProjectBuilder.cs
++++ working/Assets/Farm/Editor/FarmProjectBuilder.cs
+@@ -207,6 +207,7 @@
+             if(renderer.postProcessData==null)throw new InvalidOperationException("URP renderer post-process resources were not resolved.");
+             EditorUtility.SetDirty(renderer);
+             var desktop=Pipeline("DesktopURP",DesktopContactRenderer(renderer),1f,4,40,2048);
++            if(R07Rendering)ConfigureR07Desktop(desktop);
+             var mobile=Pipeline("MobileURP",renderer,.85f,2,24,1024);
+             GraphicsSettings.defaultRenderPipeline=desktop;
+             QualitySettings.SetQualityLevel(0,false);QualitySettings.renderPipeline=mobile;
+@@ -343,6 +344,7 @@
+             BuildPond(Group("Pond"));
+             LandscapeInstances(landscape);
+             PolishLandscape(landscape);
++            if(R07Task=="D4"||R07Task=="D6")FarmDecorScatter.Build(world,landscape,Place);
+             Lighting();
+             var player=new GameObject("LuluPlayer");player.transform.position=new Vector3(0,.05f,3.15f);
+             var orientation=new GameObject("PlayerOrientation");orientation.transform.SetParent(player.transform,false);
+@@ -353,13 +355,17 @@
+             if(lulu!=null)
+             {
+                 var rt=FarmRuntimeBootstrap.Attach(player,orientation.transform,camera,new Bounds(Vector3.zero,new Vector3(33,20,23)));
+-                rt.crops=crops.ToArray();rt.sceneRevision="integration-r06";rt.assetRegistryRevision=RegistryHash();rt.uiFont=AssetDatabase.LoadAssetAtPath<Font>(Base+"Fonts/NotoSansCJKsc-Regular.otf");
++                rt.crops=crops.ToArray();rt.sceneRevision="integration-r07-"+R07Task;rt.assetRegistryRevision=RegistryHash();rt.uiFont=AssetDatabase.LoadAssetAtPath<Font>(Base+"Fonts/NotoSansCJKsc-Regular.otf");
++                rt.gameObject.AddComponent<FarmPresentationModeR07>().runtime=rt;
++                if(R07Rendering){var renderQuality=rt.gameObject.AddComponent<FarmRenderQualityR07>();renderQuality.runtime=rt;renderQuality.globalVolume=UnityEngine.Object.FindFirstObjectByType<Volume>();camera.allowHDR=true;camera.GetUniversalAdditionalCameraData().renderPostProcessing=true;}
+                 rt.mobilePipeline=AssetDatabase.LoadAssetAtPath<UniversalRenderPipelineAsset>(Base+"Settings/MobileURP.asset");rt.desktopPipeline=AssetDatabase.LoadAssetAtPath<UniversalRenderPipelineAsset>(Base+"Settings/DesktopURP.asset");
+                 var clips=AssetDatabase.LoadAllAssetsAtPath(Record("Lulu").path).OfType<AnimationClip>().ToArray();
+                 rt.idleClip=clips.FirstOrDefault(c=>c.name.Contains("Idle"));rt.walkClip=clips.FirstOrDefault(c=>c.name.Contains("Walk"));rt.runClip=clips.FirstOrDefault(c=>c.name.Contains("Run"));
+                 if(rt.idleClip==null||rt.walkClip==null||rt.runClip==null)issues.Add("Full farm needs actual imported Idle/Walk/Run clips.");
+                 SetupWardrobe(lulu,rt);
++                if(R07Task=="D6")FarmLivingSetupR07.Build(world,rt);
+                 rt.routeMarkers=new[]{Marker("主屋前",0,3.15f),Marker("田地",-6,2),Marker("牧场入口",2.4f,-7.2f),Marker("饲料槽",4.3f,-2.8f),Marker("池塘",6.7f,DockZ),Marker("码头",8.6f,DockZ),Marker("渔产摊位",10,-5.7f),Marker("主屋背面",0,9.5f),Marker("返回",0,3.15f)};
++                if(R07Task=="D6")FarmRouteClearanceR07.Configure(rt);
+             }
+             foreach(var marker in issues)Debug.LogWarning(marker);
+             if(!EditorSceneManager.SaveScene(SceneManager.GetActiveScene(),Base+"Scenes/FarmWorld.unity"))issues.Add("Full farm scene save failed.");
+@@ -548,6 +554,12 @@
+             RenderSettings.fog=true;RenderSettings.fogMode=FogMode.Linear;RenderSettings.fogStartDistance=30;RenderSettings.fogEndDistance=75;RenderSettings.fogColor=new Color(.62f,.80f,.85f);
+             var sun=new GameObject("WarmDaylight",typeof(Light));sun.transform.rotation=Quaternion.Euler(48,-35,0);var light=sun.GetComponent<Light>();light.type=LightType.Directional;light.color=new Color(1,.95f,.85f);light.intensity=1.15f;light.shadows=LightShadows.Soft;light.shadowStrength=.65f;light.shadowBias=.05f;light.shadowNormalBias=.2f;RenderSettings.sun=light;
+             var probes=new GameObject("FarmLightProbes",typeof(LightProbeGroup)).GetComponent<LightProbeGroup>();var pos=new List<Vector3>();for(int x=-14;x<=14;x+=4)for(int z=-10;z<=10;z+=4){pos.Add(new Vector3(x,.6f,z));pos.Add(new Vector3(x,2.4f,z));}probes.probePositions=pos.ToArray();
++            if(R07Rendering){
++                RenderSettings.ambientSkyColor=Hex("#C3DCF2");RenderSettings.ambientEquatorColor=Hex("#DCE8C9");RenderSettings.ambientGroundColor=Hex("#83A062");RenderSettings.ambientIntensity=1.05f;
++                light.color=Hex("#FFF0DA");light.intensity=1.25f;light.shadowStrength=.55f;
++                RenderSettings.fogColor=Hex("#C9E0E6");RenderSettings.fogStartDistance=32;RenderSettings.fogEndDistance=80;
++                CreateR07Volume();WriteR07RenderSettings();
++            }
+         }
+         [MenuItem("Farm/03 Build macOS development package")]
+         public static void BuildMac()
+--- D1-baseline/Assets/Farm/Editor/FarmLandscapePolish.cs
++++ working/Assets/Farm/Editor/FarmLandscapePolish.cs
+@@ -113,7 +113,7 @@
+                 records.Add(PolishRecord(lily, "E14", "water_lily", "existing_lod_chain", scale, 50 + i * 113, meshSet));
+             }
+ 
+-            string textureStatus = ConfigurePolishGroundTextures(landscape);
++            string textureStatus = R07Ground ? ConfigureGroundR03(landscape) : ConfigurePolishGroundTextures(landscape);
+             string skyPath = ConfigurePolishSky();
+             var budget = new PolishBudget {
+                 utc = DateTime.UtcNow.ToString("o"), addedInstances = records.Count, distantTrees = farPositions.Length,

@@ -1,0 +1,308 @@
+{
+  "utc": "2026-10-24T03:29:05.308291+00:00",
+  "scope": "DeepSeek continuation D5-D6; inherited D1 has its own changed-files list",
+  "defaultBuilderTask": "D6",
+  "sceneRevision": "integration-r07-D6",
+  "generatedOutputs": [
+    "Assets/Farm/Scenes/FarmWorld.unity",
+    "Assets/Farm/Settings/",
+    "Assets/Farm/GeneratedR07/"
+  ],
+  "note": "Generated scene/settings/assets are Builder outputs. Do not hand-edit the scene. All reports and evidence remain under Evidence/r07; no acceptance claim.",
+  "files": [
+    {
+      "file": "Assets/Farm/Audio/R07/audio-source.json",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 995,
+      "sha256": "4c9fb60d2a22836f7a29c9f8df003bcd33b1df701267f745f1e6b829a1c53283"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/audio-source.json.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 158,
+      "sha256": "3275a49083bd021d01ad6232e8caf452dfa2f75cc897574f7e2aa940fe5d5d8d"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/bird-chirps.wav",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 1152044,
+      "sha256": "6c78c272047a1ff7dfdeb825328b05a6256d8d90f7d385b91be0f2594b4c9d88"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/bird-chirps.wav.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 485,
+      "sha256": "8ae421fb15c1b5750c63841fbc6fa44596886cc095774b7df80d18f843dde9b8"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/soft-water.wav",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 1152044,
+      "sha256": "c16e3660c8665636685a532ac023734478f909aac1816884956024b4cf8471e2"
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/soft-water.wav.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 485,
+      "sha256": "b2a07f32cc4e6695e77c72f088b1dace19ed22bfd3f74fc99330d2beb8376f57"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmDecorScatter.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 9223,
+      "sha256": "c9db64258ef70b295f85908da922e65c17cff23a0ffd067995d4f66fe9887c8a"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmDecorScatter.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "1e9659f8cdb421125666dcc98048de8bf2f7468d883dee07c780bd6b53cc1211"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmGroundPolishR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 6900,
+      "sha256": "e213b71cd03f9cb27d645324c50181a88dbf16a4183478d01ae7fe3c0dbf1390"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmGroundPolishR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "d24b96649cd00540701f3204f0e313cb6074b285312cf8801e0faec832f230ce"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmLandscapePolish.cs",
+      "classification": "edited_existing_builder",
+      "bytes": 21343,
+      "sha256": "7b0ba95a7b7e5d4756fd8396713b5ea7e103e667eecae52b566e2da5705aa2a4"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmLandscapePolish.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "5ff65586b7a5fd48611cc3dcc6c16e58767e0b7ba5a586def4d397e6909a4ac6"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmLivingSetupR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 11482,
+      "sha256": "9eee78bedcff82a36011612fe3034152529995921aa6d887fa52336130293394"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmLivingSetupR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "50a96699fccabbfeb3bb9a7f20c3df65c36311f9a3e25264ba000bd68f921663"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmProfilerExportR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 5755,
+      "sha256": "be36b4a4377e06dd77bf0629dfc02102a0c111d24c2b8a3bc8f0556116f59674"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmProfilerExportR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "f4c4f1c5cc7c211f5b73f6c8fdf3983472ed7d2bc70224cbff4b01b2198a57a5"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmProjectBuilder.cs",
+      "classification": "edited_existing_builder",
+      "bytes": 52510,
+      "sha256": "7cc7db60c9e704cf2c3d183875629e2e6e82118054f2c0e846bbd55c5cbb668c"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmProjectBuilder.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "75abb8e386fa0df37edafaca540ff0343d2c704f994e2aab25be8af60e738478"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmRenderSettingsR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 4869,
+      "sha256": "c3ad0137e8aa9b18d2b69ce59bc66319e52a7c3b2ab9cd0a2f7af4944d4c306c"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmRenderSettingsR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "3324b049d78d801f01186fe18e872f825059f67df17c0a7d1098e467e5d76ac3"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmReviewShotsR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 4358,
+      "sha256": "abbdf635928ebb48a9c2786fb1729a4df257910b555595c39c1c5588ece30fae"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmReviewShotsR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "ac3d99696ef7e518a4e9b926acb96bf9676d220df50e77a5efe0fa34c40b9e1a"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmRouteClearanceR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 3185,
+      "sha256": "00275798d24f2d0066c93842c0c14ac2486d3b5060acad4b90ecdb6dcbf35a88"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmRouteClearanceR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "0ba94a948e7708aa55cb229c776ebed771411ca725dd2fa68df75407a4d0aaa7"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 4697,
+      "sha256": "ae435f9f1d035b5203a2bbd9b052a3a6d6e9bf3f5c5b15b5eef7f266b7462728"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "36d1abc2e37c9debe78988804fcf37e1a2d981ea3b6b495bfda6f6a2f1701279"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmAmbientR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 3954,
+      "sha256": "e9b067cfe8041e64c16ae3f28f52107ea14ebf4b2563ed524aa5d78330c9d67a"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmAmbientR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "f7bf433d2cdf83b332b0d1abb2f86789f0397157212e7067c0ba94b3aeb73a99"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmOutputAudioCaptureR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 2588,
+      "sha256": "e851939a2e865dc83eefb397df20e93eea7ce1f423fbdc29e3ea4816d4cdf353"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmOutputAudioCaptureR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "7a0a740538096beed711c2aff9ba56c9110562a29cfb16846ea4b210f18aaa3b"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmPresentationModeR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 6606,
+      "sha256": "9b1a2fa23f912ebf37a6d137896b8b6dd7d8f76973a6402bb4dbeb472ab92c9d"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmPresentationModeR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "e30931caffbbc9c97ebf84046d14db2f19b093afc5795ea231e02be99da02f5e"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 3492,
+      "sha256": "8e98f87d9b767e29bbcc965996727b5d79a65fef658114bb956a7b5dc524bcd9"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "c79b15993a9f5117e9c43e066c8753da025d4f33f55d61d25160ead0aba07b9e"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmRenderQualityR07.cs",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 946,
+      "sha256": "45fcd0d2c7ee2fd2c22bd98c0b4f8cf0b14ae7b3efca27c38bedc336cf724d7e"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmRenderQualityR07.cs.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 59,
+      "sha256": "c4ebfc97b7454cebfd03c678456c5027379b45c9ee8008986029d232aae7f0f0"
+    },
+    {
+      "file": "Assets/Farm/Shaders/FarmGround-r03.shader",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 6756,
+      "sha256": "34282f01a347a60a43c080b56255a713205547a5930a1787a833f84a4b46e5db"
+    },
+    {
+      "file": "Assets/Farm/Shaders/FarmGround-r03.shader.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 204,
+      "sha256": "fd267f5a1de0722f549afeb9656dbff50b75e0f1bd704e2eed8a5232e147fc43"
+    },
+    {
+      "file": "Assets/Farm/Shaders/FarmLivingSurface-r07.shader",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 5843,
+      "sha256": "700d7cdeb4efb950f1bb88f10414d63129f608694c99a78140cacc0b2b8f4800"
+    },
+    {
+      "file": "Assets/Farm/Shaders/FarmLivingSurface-r07.shader.meta",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 204,
+      "sha256": "cc19eecc8ce3e5f9401fb5cffea3538fc44d78a62de7ca74eb3fa3cdd6ef842d"
+    },
+    {
+      "file": "Scripts/r07-compare-performance.py",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 2333,
+      "sha256": "cbe0306cece2c26d5e2f6f4f1b93aeb02457efa04c2426eeeba49bb7fd8cdbd3"
+    },
+    {
+      "file": "Scripts/r07-contact-sheet.py",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 808,
+      "sha256": "e51aefac5e4eca7dcefb875051a1390c5e9843d5c854c20c5ebea4910f46de7f"
+    },
+    {
+      "file": "Scripts/r07-evidence-index.py",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 4349,
+      "sha256": "0c09583fd590c3bf1627b37d9804069dc5a46e0aa7c9e5758f13562b47b04ed8"
+    },
+    {
+      "file": "Scripts/r07-final-integrity.py",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 1836,
+      "sha256": "ef81b996cd950a5ddbbb34608ee71e45409aa4d5ee2e7358d0f509fc19acba9d"
+    },
+    {
+      "file": "Scripts/r07-r06-overlay.py",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 1747,
+      "sha256": "56b6936ab6976297cceb4ba4f6de1d2b0abce3586de256f646d45b23c53f142e"
+    },
+    {
+      "file": "Scripts/r07-run-editor.py",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 2061,
+      "sha256": "28908f6edd0027063a2324b68ce42a9c712a57d91e146d00034a03b1009e17af"
+    },
+    {
+      "file": "Scripts/r07-run-player.py",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 3575,
+      "sha256": "b6ff2c4f6cb52746a2eb2cd0885f969ace59438fa0b53f117cb188abd99a8d5b"
+    },
+    {
+      "file": "Scripts/r07-source-index.py",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 1957,
+      "sha256": "f8d58c207b6ceb5b3c1de36ec66f48af5154fe246f2349c8f66fc880d55ba26b"
+    },
+    {
+      "file": "Scripts/r07-synthesize-audio.py",
+      "classification": "new_r07_file_or_meta",
+      "bytes": 2265,
+      "sha256": "d361d2b05d986c78651866fab5e7d09809cb90594c5ae3f5e14163bbb5f1fa2d"
+    }
+  ]
+}

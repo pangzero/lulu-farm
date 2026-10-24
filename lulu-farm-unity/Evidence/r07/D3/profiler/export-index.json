@@ -1,0 +1,326 @@
+{
+    "utc": "2026-10-24T01:59:20.6669830Z",
+    "method": "raw .data read by locked Unity ProfilerDriver; Chrome Trace gzip; samples >=0.1 ms plus roots; binary captures preserve all markers",
+    "chunks": [
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0000.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0000.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 145418
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0001.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0001.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1200,
+            "frames": 1201,
+            "threads": 44,
+            "events": 138285
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0002.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0002.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1195,
+            "frames": 1196,
+            "threads": 44,
+            "events": 143500
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0003.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0003.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1153,
+            "frames": 1154,
+            "threads": 44,
+            "events": 139967
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0004.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0004.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1181,
+            "frames": 1182,
+            "threads": 44,
+            "events": 142934
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0005.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0005.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1153,
+            "frames": 1154,
+            "threads": 44,
+            "events": 150375
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0006.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0006.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1189,
+            "frames": 1190,
+            "threads": 44,
+            "events": 155321
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0007.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0007.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1184,
+            "frames": 1185,
+            "threads": 44,
+            "events": 152591
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0008.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0008.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1142,
+            "frames": 1143,
+            "threads": 44,
+            "events": 142832
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0009.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0009.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1135,
+            "frames": 1136,
+            "threads": 44,
+            "events": 143350
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0010.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0010.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1176,
+            "frames": 1177,
+            "threads": 44,
+            "events": 138149
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0011.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0011.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1107,
+            "frames": 1108,
+            "threads": 44,
+            "events": 137686
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0012.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0012.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1151,
+            "frames": 1152,
+            "threads": 44,
+            "events": 141387
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0013.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0013.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1191,
+            "frames": 1192,
+            "threads": 44,
+            "events": 140337
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0014.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0014.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1178,
+            "frames": 1179,
+            "threads": 44,
+            "events": 153143
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0015.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0015.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1098,
+            "frames": 1099,
+            "threads": 44,
+            "events": 138568
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0016.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0016.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1164,
+            "frames": 1165,
+            "threads": 44,
+            "events": 153648
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0017.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0017.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1171,
+            "frames": 1172,
+            "threads": 44,
+            "events": 153647
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0018.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0018.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1150,
+            "frames": 1151,
+            "threads": 44,
+            "events": 146428
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0019.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0019.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1188,
+            "frames": 1189,
+            "threads": 44,
+            "events": 144014
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0020.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0020.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1143,
+            "frames": 1144,
+            "threads": 44,
+            "events": 136730
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0021.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0021.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1108,
+            "frames": 1109,
+            "threads": 44,
+            "events": 132514
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0022.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0022.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1176,
+            "frames": 1177,
+            "threads": 44,
+            "events": 134832
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0023.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0023.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1093,
+            "frames": 1094,
+            "threads": 44,
+            "events": 138249
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0024.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0024.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1107,
+            "frames": 1108,
+            "threads": 44,
+            "events": 134589
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0025.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0025.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1161,
+            "frames": 1162,
+            "threads": 44,
+            "events": 146354
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0026.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0026.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1102,
+            "frames": 1103,
+            "threads": 44,
+            "events": 140768
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0027.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0027.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1127,
+            "frames": 1128,
+            "threads": 44,
+            "events": 139599
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0028.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0028.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1168,
+            "frames": 1169,
+            "threads": 44,
+            "events": 155650
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0029.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0029.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1166,
+            "frames": 1167,
+            "threads": 44,
+            "events": 142911
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0030.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0030.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 1192,
+            "frames": 1193,
+            "threads": 44,
+            "events": 142470
+        },
+        {
+            "file": "Evidence/r07/D3/profiler/cpu-0031.data",
+            "output": "Evidence/r07/D3/profiler/cpu-0031.timeline.json.gz",
+            "status": "exported_filtered_timeline_binary_retained",
+            "firstFrame": 0,
+            "lastFrame": 311,
+            "frames": 312,
+            "threads": 44,
+            "events": 33489
+        }
+    ]
+}

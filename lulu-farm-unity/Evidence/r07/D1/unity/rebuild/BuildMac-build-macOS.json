@@ -1,0 +1,10 @@
+{
+    "platform": "macOS",
+    "result": "Succeeded",
+    "output": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Builds/macOS/LuluFarm.app",
+    "device": "not_tested",
+    "bytes": 792397119,
+    "seconds": 4.018619,
+    "errors": 0,
+    "warnings": 0
+}

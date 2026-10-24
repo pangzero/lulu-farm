@@ -1,0 +1,25 @@
+{
+  "status": "measured_pending_Opus_review",
+  "countsByRole": {
+    "road_edge": 14,
+    "fence_outer": 5,
+    "outer_tree": 17,
+    "grass_scatter": 13,
+    "house_flowers": 2
+  },
+  "minimumRoadEdgeToCircularFootprint": 0.4990105628967285,
+  "smallPropColliders": 0,
+  "treeColliderCounts": [
+    2
+  ],
+  "treeColliderExplanation": "one trunk CapsuleCollider plus existing camera-occlusion blocker on layer 28",
+  "scaleRange": [
+    0.8518280982971191,
+    1.1376564502716064
+  ],
+  "notes": [
+    "Nominal proposals .3–.5/m; final count lower where road/field/pond/building clearance prevents placement.",
+    "Pasture outer west/south corridors overlap existing roads; keep these excluded. Five new fence_outer props accepted near fields.",
+    "Front of house retains source flower decorations; two additional standalone house flowers accepted behind/to the sides."
+  ]
+}

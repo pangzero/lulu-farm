@@ -1,0 +1,7 @@
+{
+  "reason": "Application lost foreground focus; explicitly quit with native Command-Q, data preserved. Not the required fifteen-minute same-condition result.",
+  "sampleWindows": 240,
+  "unfocusedWindows": 204,
+  "duration": 241.25479125976562,
+  "next": "One retry after native window Raise; do not change renderer or performance conditions."
+}

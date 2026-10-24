@@ -1,0 +1,316 @@
+{
+    "utc": "2026-10-23T18:51:27.7102970Z",
+    "method": "Actual Unity offscreen rendering; diagnostic camera only",
+    "postProcessing": true,
+    "hdr": true,
+    "width": 1600,
+    "height": 900,
+    "shots": [
+        {
+            "name": "overview",
+            "position": {
+                "x": 24.0,
+                "y": 24.0,
+                "z": -30.0
+            },
+            "target": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/overview.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "overview-close-diagnostic",
+            "position": {
+                "x": 8.0,
+                "y": 15.0,
+                "z": -16.0
+            },
+            "target": {
+                "x": 1.5,
+                "y": 0.0,
+                "z": 0.5
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/overview-close-diagnostic.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "spawn",
+            "position": {
+                "x": 0.0,
+                "y": 3.6500000953674318,
+                "z": -1.0299999713897706
+            },
+            "target": {
+                "x": 0.0,
+                "y": 0.7450000047683716,
+                "z": 3.1500000953674318
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/spawn.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "fields",
+            "position": {
+                "x": -5.0,
+                "y": 4.0,
+                "z": -6.0
+            },
+            "target": {
+                "x": -8.0,
+                "y": 0.5,
+                "z": 1.7000000476837159
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/fields.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "pasture",
+            "position": {
+                "x": 2.4000000953674318,
+                "y": 3.6500000953674318,
+                "z": -10.800000190734864
+            },
+            "target": {
+                "x": 1.2000000476837159,
+                "y": 0.699999988079071,
+                "z": -2.5
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/pasture.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "pond",
+            "position": {
+                "x": 6.199999809265137,
+                "y": 4.0,
+                "z": -5.099999904632568
+            },
+            "target": {
+                "x": 11.0,
+                "y": 0.10000000149011612,
+                "z": 1.7000000476837159
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/pond.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "house-front",
+            "position": {
+                "x": -4.400000095367432,
+                "y": 3.700000047683716,
+                "z": -0.20000000298023225
+            },
+            "target": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": 6.300000190734863
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/house-front.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "house-back",
+            "position": {
+                "x": 4.400000095367432,
+                "y": 4.0,
+                "z": 12.0
+            },
+            "target": {
+                "x": 0.0,
+                "y": 1.899999976158142,
+                "z": 6.300000190734863
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/house-back.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "pond-east",
+            "position": {
+                "x": 19.0,
+                "y": 3.700000047683716,
+                "z": 4.0
+            },
+            "target": {
+                "x": 10.0,
+                "y": 0.5,
+                "z": 1.0
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/pond-east.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "field-fence",
+            "position": {
+                "x": -14.0,
+                "y": 2.5999999046325685,
+                "z": -4.0
+            },
+            "target": {
+                "x": -8.0,
+                "y": 0.5,
+                "z": 2.0
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/field-fence.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "dock",
+            "position": {
+                "x": 6.699999809265137,
+                "y": 2.799999952316284,
+                "z": -3.0
+            },
+            "target": {
+                "x": 9.0,
+                "y": 0.4000000059604645,
+                "z": 0.5
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/dock.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "landscape-back",
+            "position": {
+                "x": -8.0,
+                "y": 4.0,
+                "z": 13.0
+            },
+            "target": {
+                "x": 0.0,
+                "y": 0.5,
+                "z": 1.0
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/landscape-back.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "close-house-road",
+            "position": {
+                "x": -1.899999976158142,
+                "y": 1.5,
+                "z": 2.200000047683716
+            },
+            "target": {
+                "x": 0.20000000298023225,
+                "y": 0.0,
+                "z": 3.299999952316284
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/close-house-road.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "close-pasture-gate",
+            "position": {
+                "x": 3.5,
+                "y": 1.5,
+                "z": -9.300000190734864
+            },
+            "target": {
+                "x": 2.4000000953674318,
+                "y": 0.0,
+                "z": -6.599999904632568
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/close-pasture-gate.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "close-pond-road",
+            "position": {
+                "x": 6.0,
+                "y": 1.5,
+                "z": -2.200000047683716
+            },
+            "target": {
+                "x": 6.900000095367432,
+                "y": 0.0,
+                "z": 0.30000001192092898
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/close-pond-road.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "close-house-shadow",
+            "position": {
+                "x": 2.799999952316284,
+                "y": 2.799999952316284,
+                "z": 10.399999618530274
+            },
+            "target": {
+                "x": 0.4000000059604645,
+                "y": 1.2000000476837159,
+                "z": 7.599999904632568
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/close-house-shadow.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "close-tree-shadow",
+            "position": {
+                "x": -2.5999999046325685,
+                "y": 2.0,
+                "z": -0.4000000059604645
+            },
+            "target": {
+                "x": -4.0,
+                "y": 0.0,
+                "z": 1.2000000476837159
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/close-tree-shadow.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        },
+        {
+            "name": "close-field-shadow",
+            "position": {
+                "x": -6.5,
+                "y": 1.600000023841858,
+                "z": 1.0
+            },
+            "target": {
+                "x": -8.199999809265137,
+                "y": 0.20000000298023225,
+                "z": 1.7000000476837159
+            },
+            "file": "Evidence/r07/D5/fixed-pp-on/close-field-shadow.png",
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+        }
+    ]
+}

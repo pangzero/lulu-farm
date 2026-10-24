@@ -1,0 +1,74 @@
+[
+  {
+    "shot": "dock",
+    "before": "Evidence/r07/D1/unity/world-review-r07/dock.png",
+    "after": "Evidence/r07/D5/fixed/dock.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "field-fence",
+    "before": "Evidence/r07/D1/unity/world-review-r07/field-fence.png",
+    "after": "Evidence/r07/D5/fixed/field-fence.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "fields",
+    "before": "Evidence/r07/D1/unity/world-review-r07/fields.png",
+    "after": "Evidence/r07/D5/fixed/fields.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "house-back",
+    "before": "Evidence/r07/D1/unity/world-review-r07/house-back.png",
+    "after": "Evidence/r07/D5/fixed/house-back.png",
+    "sameBytes": true
+  },
+  {
+    "shot": "house-front",
+    "before": "Evidence/r07/D1/unity/world-review-r07/house-front.png",
+    "after": "Evidence/r07/D5/fixed/house-front.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "landscape-back",
+    "before": "Evidence/r07/D1/unity/world-review-r07/landscape-back.png",
+    "after": "Evidence/r07/D5/fixed/landscape-back.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "overview-close-diagnostic",
+    "before": "Evidence/r07/D1/unity/world-review-r07/overview-close-diagnostic.png",
+    "after": "Evidence/r07/D5/fixed/overview-close-diagnostic.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "overview",
+    "before": "Evidence/r07/D1/unity/world-review-r07/overview.png",
+    "after": "Evidence/r07/D5/fixed/overview.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "pasture",
+    "before": "Evidence/r07/D1/unity/world-review-r07/pasture.png",
+    "after": "Evidence/r07/D5/fixed/pasture.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "pond-east",
+    "before": "Evidence/r07/D1/unity/world-review-r07/pond-east.png",
+    "after": "Evidence/r07/D5/fixed/pond-east.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "pond",
+    "before": "Evidence/r07/D1/unity/world-review-r07/pond.png",
+    "after": "Evidence/r07/D5/fixed/pond.png",
+    "sameBytes": false
+  },
+  {
+    "shot": "spawn",
+    "before": "Evidence/r07/D1/unity/world-review-r07/spawn.png",
+    "after": "Evidence/r07/D5/fixed/spawn.png",
+    "sameBytes": false
+  }
+]
