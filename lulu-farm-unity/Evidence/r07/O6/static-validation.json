@@ -1,0 +1,4914 @@
+{
+    "utc": "2026-10-24T14:17:49.2754450Z",
+    "unityVersion": "6000.3.16f1",
+    "scene": "Assets/Farm/Scenes/FarmWorld.unity",
+    "status": "static_checks_pass_runtime_and_visual_pending",
+    "scope": "static_scene_and_asset_observations_only",
+    "visual": "pending_actual_image_review",
+    "input": "not_run",
+    "device": "not_tested",
+    "assets": [
+        {
+            "id": "cabbage-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/cabbage-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/cabbage-seedling/model.gltf",
+            "sourceSHA256": "1dde977a59b8f11250d166d355e0db1b6d7ed10feb92e5f3227826151008326a",
+            "importSHA256": "a175aaa6fa5e73285ecfaa5567becef008c71a43f38705bf7ac2169e567d8c51",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 14000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.09000000357627869,
+                "z": 0.00003055855631828308
+            },
+            "boundsSize": {
+                "x": 0.25918543338775637,
+                "y": 0.18000000715255738,
+                "z": 0.09587320685386658
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cabbage-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cabbage-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cabbage-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cabbage-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "cabbage-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        8000,
+                        6000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tomato-mature",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/tomato-mature.prefab",
+            "importedPath": "Assets/Farm/Art/tomato-mature/model.gltf",
+            "sourceSHA256": "134e406a6258813404975a84b0794352bbb08b95a22e0aad964564b03fe2ec3a",
+            "importSHA256": "b410846ff3f1f999c0aa4b8f81737a3fe1a4d947362c202e80b54e542f778794",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 29000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.44724413752555849,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.8315282464027405,
+                "y": 0.8944882750511169,
+                "z": 0.42673471570014956
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/tomato-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/tomato-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/tomato-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/tomato-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "tomato-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        18000,
+                        11000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tomato-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/tomato-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/tomato-seedling/model.gltf",
+            "sourceSHA256": "a8a8b2284dd38c01b10bb4989ce3336c082e20d5bb3a401111ece98b360b24d4",
+            "importSHA256": "ed09327f9449b65206e2f0643c3e500059fb27b17f66539f3e3363f7ccec7049",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.11498242616653443,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.4256055951118469,
+                "y": 0.22996485233306886,
+                "z": 0.21010172367095948
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/tomato-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/tomato-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/tomato-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/tomato-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "tomato-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "corn-mature",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/corn-mature.prefab",
+            "importedPath": "Assets/Farm/Art/corn-mature/model.gltf",
+            "sourceSHA256": "93cf03eec72645bc3163328cde7e64cde9810c966c148aa558c92f67a1a80280",
+            "importSHA256": "6e1ef29f3d75f2440296e0059f20be31ea0d85b44dd51a9c2e537317a46e3e42",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 19498,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0002231001853942871,
+                "y": 0.44744744896888735,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.7439361214637756,
+                "y": 0.8948948979377747,
+                "z": 0.5522600412368774
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/corn-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/corn-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/corn-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/corn-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "corn-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        12000,
+                        7498
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "corn-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/corn-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/corn-seedling/model.gltf",
+            "sourceSHA256": "068afdfe6eccb82a1da5b1e73c21e8d556b84837d626cda89b518daa5e3f41c7",
+            "importSHA256": "a26fc26ab0038b4050fbfe356a7074a272602069ac14b82d2825cb80a7c62140",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.00001755356788635254,
+                "y": 0.14999006688594819,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.23648609220981599,
+                "y": 0.29998013377189639,
+                "z": 0.21353764832019807
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/corn-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/corn-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/corn-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/corn-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "corn-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S01",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/S01.prefab",
+            "importedPath": "Assets/Farm/Art/S01/model.gltf",
+            "sourceSHA256": "ab42ddfa342645b28b682481a197951f6cb9827030ec671c03d610218778dade",
+            "importSHA256": "fdee949130dd6794c5581f0d29e59125fe92cf46b331b9dbe489e2647739ebc8",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 90000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.00047898292541503906,
+                "y": 2.4505951404571535,
+                "z": 0.00016927719116210938
+            },
+            "boundsSize": {
+                "x": 5.306705951690674,
+                "y": 4.901190757751465,
+                "z": 4.062243461608887
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S01/01_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S01/00_normal.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S01/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S01/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S01(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        55000,
+                        35000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S03",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/S03.prefab",
+            "importedPath": "Assets/Farm/Art/S03/model.gltf",
+            "sourceSHA256": "9f0a99eb510fb2631e47f5680c2d908d1efc54b11ca72f0af1eb2411100aa25b",
+            "importSHA256": "c43634f2c158497c6a9a3e9ea3b79e1735d0edd9048147f39c578b566385ae09",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 47996,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.0013818740844726563,
+                "y": 1.125,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 3.29608154296875,
+                "y": 2.25,
+                "z": 2.3088903427124025
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S03/01_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S03/00_normal.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S03/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S03/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S03(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        29998,
+                        17998
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E08",
+            "version": "bvh-r02",
+            "prefab": "Assets/Farm/Prefabs/E08.prefab",
+            "importedPath": "Assets/Farm/Art/E08/model.gltf",
+            "sourceSHA256": "74171be5f0c15b9312b0b0b1a89e6e27993eb2a9aada030d5cf62bcf499b6f8e",
+            "importSHA256": "20130074b6986f52a8dbfe8668c191845431983289402fa3b8c98581dc2cff66",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 10000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.00008213520050048828,
+                "y": 1.600000023841858,
+                "z": -0.00004124641418457031
+            },
+            "boundsSize": {
+                "x": 2.9007468223571779,
+                "y": 3.200000047683716,
+                "z": 2.8900110721588136
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E08/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E08/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E08/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E08/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E08(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        6500,
+                        3500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S05",
+            "version": "existing-input",
+            "prefab": "Assets/Farm/Prefabs/S05.prefab",
+            "importedPath": "Assets/Farm/Art/S05/model.gltf",
+            "sourceSHA256": "e2076a2c88fc06f42e6ff7ee645af73111d2e6e1206782c9ba4967e7831d1510",
+            "importSHA256": "e2076a2c88fc06f42e6ff7ee645af73111d2e6e1206782c9ba4967e7831d1510",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 3048,
+            "renderers": 1,
+            "distinctMeshes": 1,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.49000000953674319,
+                "y": 0.4699999988079071,
+                "z": -4.283716137365445e-8
+            },
+            "boundsSize": {
+                "x": 1.2000000476837159,
+                "y": 0.9399999976158142,
+                "z": 0.2520001232624054
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [],
+            "lodGroups": []
+        },
+        {
+            "id": "S05-endcap",
+            "version": "existing-input",
+            "prefab": "Assets/Farm/Prefabs/S05-endcap.prefab",
+            "importedPath": "Assets/Farm/Art/S05-endcap/model.gltf",
+            "sourceSHA256": "90f4b3bb60523b0f817c3c1a0fff30f0cded8ef9726a0df46fe7686dc53ac0bd",
+            "importSHA256": "90f4b3bb60523b0f817c3c1a0fff30f0cded8ef9726a0df46fe7686dc53ac0bd",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 2104,
+            "renderers": 1,
+            "distinctMeshes": 1,
+            "materials": 3,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.4699999988079071,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.2199999988079071,
+                "y": 0.9399999976158142,
+                "z": 0.25200000405311587
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [],
+            "lodGroups": []
+        },
+        {
+            "id": "E01",
+            "version": "native-r01",
+            "prefab": "Assets/Farm/Prefabs/E01.prefab",
+            "importedPath": "Assets/Farm/Art/E01/model.gltf",
+            "sourceSHA256": "781fd514340df57dbd23bcb12b3ff63dd82094746a7f24ba1d1207730316f823",
+            "importSHA256": "edc0c573e1bdb54f2dad59c62afb8426a98f3ac4726beb12b6736be8c1ea7538",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 16688,
+            "renderers": 30,
+            "distinctMeshes": 30,
+            "materials": 6,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": -0.05035315454006195,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 1.2000000476837159,
+                "y": 0.25929367542266848,
+                "z": 1.2000000476837159
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [
+                "Mesh has no UV0: E01 continuous soil / shallow cross furrow.001",
+                "Mesh has no UV0: E01 continuous soil / shallow cross furrow.001"
+            ],
+            "textures": [],
+            "lodGroups": [
+                {
+                    "group": "E01(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        10636,
+                        6052
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E05",
+            "version": "native-r01",
+            "prefab": "Assets/Farm/Prefabs/E05.prefab",
+            "importedPath": "Assets/Farm/Art/E05/model.gltf",
+            "sourceSHA256": "9b67dcaa070a96b358c010dff2856ab625e50814b17d1cf123f48d49eab1f22e",
+            "importSHA256": "1c269d1ebf9461edc31780fed02ecebe65f5e4c34ba5f8eb627153b2a4f910bb",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5190,
+            "renderers": 14,
+            "distinctMeshes": 14,
+            "materials": 6,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": -0.06997957825660706,
+                "z": -0.11000001430511475
+            },
+            "boundsSize": {
+                "x": 1.2000000476837159,
+                "y": 0.4200408458709717,
+                "z": 0.9800000190734863
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [
+                "Mesh has no UV0: E05 solid bank core.001",
+                "Mesh has no UV0: E05 continuous level turf cap.001",
+                "Mesh has no UV0: E05 solid bank core.001",
+                "Mesh has no UV0: E05 continuous level turf cap.001"
+            ],
+            "textures": [],
+            "lodGroups": [
+                {
+                    "group": "E05(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        3340,
+                        1850
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E07",
+            "version": "existing-input",
+            "prefab": "Assets/Farm/Prefabs/E07.prefab",
+            "importedPath": "Assets/Farm/Art/E07/model.gltf",
+            "sourceSHA256": "8fef04192e7ade7e18de21ceaf3989adeca1dc249db7e6c1004df05b4b233010",
+            "importSHA256": "8fef04192e7ade7e18de21ceaf3989adeca1dc249db7e6c1004df05b4b233010",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 288,
+            "renderers": 1,
+            "distinctMeshes": 1,
+            "materials": 1,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": -0.10499999672174454,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 1.2000000476837159,
+                "y": 0.0,
+                "z": 1.2000000476837159
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor",
+                    "assetPath": "Assets/Farm/Art/E07/00_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": []
+        },
+        {
+            "id": "E13",
+            "version": "native-r01",
+            "prefab": "Assets/Farm/Prefabs/E13.prefab",
+            "importedPath": "Assets/Farm/Art/E13/model.gltf",
+            "sourceSHA256": "4971a513fa3f377b6ca26ea8f838208a37776cac766f40f5845958d36917cbb8",
+            "importSHA256": "438b8249fefb99157463bf2a4371e66e6deaed658932ed214e4424e4efcfb418",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 2940,
+            "renderers": 6,
+            "distinctMeshes": 6,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0064206719398498539,
+                "y": 0.19508197903633119,
+                "z": 0.06854391098022461
+            },
+            "boundsSize": {
+                "x": 0.931733250617981,
+                "y": 0.391920268535614,
+                "z": 0.7363069653511047
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [],
+            "lodGroups": [
+                {
+                    "group": "E13(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        2100,
+                        840
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Lulu",
+            "version": "locomotion-r08",
+            "prefab": "Assets/Farm/Prefabs/Lulu.prefab",
+            "importedPath": "Assets/Farm/Art/Lulu/model.gltf",
+            "sourceSHA256": "38a474b3a9f75c05debda10fb29f50a84f668481373e8c16653a20a835007057",
+            "importSHA256": "68c991478ce2f3058fe3bb0a393d1730d5a9664d11f70323e6c32b50c9b5ea8b",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 107424,
+            "renderers": 16,
+            "distinctMeshes": 16,
+            "materials": 16,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.00001895427703857422,
+                "y": 0.613538920879364,
+                "z": -0.029880762100219728
+            },
+            "boundsSize": {
+                "x": 0.7605891227722168,
+                "y": 1.227077841758728,
+                "z": 0.6836556196212769
+            },
+            "animationClips": [
+                "Idle",
+                "Run",
+                "Walk"
+            ],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/00_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "02_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/02_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "03_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/03_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "04_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/04_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "05_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/05_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "06_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/06_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "07_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/07_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/game-lod1/00_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/game-lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "02_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/game-lod1/02_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "03_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/game-lod1/03_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "04_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/game-lod1/04_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "05_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/game-lod1/05_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "06_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/game-lod1/06_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "07_basecolor",
+                    "assetPath": "Assets/Farm/Art/Lulu/game-lod1/07_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "Lulu(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        70082,
+                        37342
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S06",
+            "version": "gate-game-r01",
+            "prefab": "Assets/Farm/Prefabs/S06.prefab",
+            "importedPath": "Assets/Farm/Art/S06/model.gltf",
+            "sourceSHA256": "fc4d10038c788ba262db873306fc933184392359c4c64f9af45379d0c62c39b7",
+            "importSHA256": "777fb61dd88dd4dd25be38d956e9474fa34b8183042a6af43606f867628bbc54",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 11496,
+            "renderers": 6,
+            "distinctMeshes": 6,
+            "materials": 6,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.00015693902969360352,
+                "y": 0.4099653661251068,
+                "z": -0.4496537446975708
+            },
+            "boundsSize": {
+                "x": 1.6138476133346558,
+                "y": 0.8196693658828735,
+                "z": 1.1732873916625977
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S06/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S06/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "03_basecolor",
+                    "assetPath": "Assets/Farm/Art/S06/03_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "02_normal",
+                    "assetPath": "Assets/Farm/Art/S06/02_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "05_basecolor",
+                    "assetPath": "Assets/Farm/Art/S06/05_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "04_normal",
+                    "assetPath": "Assets/Farm/Art/S06/04_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S06/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S06/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "03_basecolor",
+                    "assetPath": "Assets/Farm/Art/S06/lod1/03_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "02_normal",
+                    "assetPath": "Assets/Farm/Art/S06/lod1/02_normal.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "05_basecolor",
+                    "assetPath": "Assets/Farm/Art/S06/lod1/05_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "04_normal",
+                    "assetPath": "Assets/Farm/Art/S06/lod1/04_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S06(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        6998,
+                        4498
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E05-corner",
+            "version": "native-r01",
+            "prefab": "Assets/Farm/Prefabs/E05-corner.prefab",
+            "importedPath": "Assets/Farm/Art/E05-corner/model.gltf",
+            "sourceSHA256": "9b67dcaa070a96b358c010dff2856ab625e50814b17d1cf123f48d49eab1f22e",
+            "importSHA256": "1d17031e3aa5c69f043a1fbcda97f967a880cbe020d0d6949cb2e56fa20288db",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5190,
+            "renderers": 14,
+            "distinctMeshes": 14,
+            "materials": 6,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.6678195595741272,
+                "y": -0.06997957825660706,
+                "z": -0.6792299151420593
+            },
+            "boundsSize": {
+                "x": 1.392248272895813,
+                "y": 0.4200408458709717,
+                "z": 1.3694275617599488
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [
+                "Mesh has no UV0: E05 solid bank core.001",
+                "Mesh has no UV0: E05 continuous level turf cap.001",
+                "Mesh has no UV0: E05 solid bank core.001",
+                "Mesh has no UV0: E05 continuous level turf cap.001"
+            ],
+            "textures": [],
+            "lodGroups": [
+                {
+                    "group": "E05-corner(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        3340,
+                        1850
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S05-rail-connector",
+            "version": "interface-r01",
+            "prefab": "Assets/Farm/Prefabs/S05-rail-connector.prefab",
+            "importedPath": "Assets/Farm/Art/S05-rail-connector/model.gltf",
+            "sourceSHA256": "12db4f0b78f7e7c9b11be252ed80b33246e9147ecef7a80790e85759a83c8a65",
+            "importSHA256": "f8e1b5efe0f8023788d77cab76a5f7c8516a3e6b2b3389c0b517675b0ed72fb0",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 152,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 1,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.4950000047683716,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 1.2000000476837159,
+                "y": 0.5,
+                "z": 0.10999999940395355
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [
+                "Mesh has no UV0: S05 continuous rounded rail 1",
+                "Mesh has no UV0: S05 continuous rounded rail 2"
+            ],
+            "textures": [],
+            "lodGroups": []
+        },
+        {
+            "id": "cucumber-mature",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/cucumber-mature.prefab",
+            "importedPath": "Assets/Farm/Art/cucumber-mature/model.gltf",
+            "sourceSHA256": "58321add3077859120a2e0af3b4fe76f174b9b6a3522f0ebbb737931c76440fe",
+            "importSHA256": "b66e793f204fb4e636e915dbd60e44c052cd33e58941a46ac63d663e2bcca749",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 23000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.44725561141967776,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.8447471857070923,
+                "y": 0.8945112228393555,
+                "z": 0.6892898678779602
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cucumber-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cucumber-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cucumber-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cucumber-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "cucumber-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        14000,
+                        9000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cucumber-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/cucumber-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/cucumber-seedling/model.gltf",
+            "sourceSHA256": "861dca20068ea6dd8ff96787208792f7d5eb4bdaa20b185abb325359d74f4771",
+            "importSHA256": "9589320852c0a7876353bc3f20281526b3dee8ac49ab49dc89b5615232aa4c1b",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.08998612314462662,
+                "z": -7.450580596923828e-9
+            },
+            "boundsSize": {
+                "x": 0.3643621802330017,
+                "y": 0.17997224628925324,
+                "z": 0.16740858554840089
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cucumber-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cucumber-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cucumber-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cucumber-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "cucumber-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "pumpkin-mature",
+            "version": "surface-r01",
+            "prefab": "Assets/Farm/Prefabs/pumpkin-mature.prefab",
+            "importedPath": "Assets/Farm/Art/pumpkin-mature/model.gltf",
+            "sourceSHA256": "806f205681c1b7b8ac9d35b7cdbb4a20e949e3e816520400b99f4a55e5857f8d",
+            "importSHA256": "b7f0d4e78220511d24ccbe2deb0486f658a33c02aa7a82fc69ac1e610ce4283a",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 216670,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.28352218866348269,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.8942824602127075,
+                "y": 0.5670443773269653,
+                "z": 0.6268371343612671
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/pumpkin-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/pumpkin-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/pumpkin-mature/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/pumpkin-mature/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "pumpkin-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        108708,
+                        107962
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "pumpkin-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/pumpkin-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/pumpkin-seedling/model.gltf",
+            "sourceSHA256": "b62322d415a46a66b9b2f4382f60d246d6028133d79c22ef03928a34e47da2ce",
+            "importSHA256": "657779d7da89cfb724b94cb5355f87684adfecef97a02db9db43412157644ae2",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.08504782617092133,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.36618107557296755,
+                "y": 0.17009565234184266,
+                "z": 0.16902734339237214
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/pumpkin-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/pumpkin-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/pumpkin-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/pumpkin-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "pumpkin-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sunflower-mature",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/sunflower-mature.prefab",
+            "importedPath": "Assets/Farm/Art/sunflower-mature/model.gltf",
+            "sourceSHA256": "db43a41ace65a24679e502cae87f69f1bb420bdbde33ecc1459889f1b06abd83",
+            "importSHA256": "551f80059f9d31142fa758e72a303bf8909fb259bb849b0c616c57b0a7cfb390",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 22500,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.4475499987602234,
+                "z": -0.000017464160919189453
+            },
+            "boundsSize": {
+                "x": 0.6865348815917969,
+                "y": 0.8952884674072266,
+                "z": 0.5797484517097473
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/sunflower-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/sunflower-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/sunflower-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/sunflower-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "sunflower-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        14000,
+                        8500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sunflower-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/sunflower-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/sunflower-seedling/model.gltf",
+            "sourceSHA256": "298842a44d16a23937c4841abc850ae7daeb6d81b3124c015aeeeb762c1faa79",
+            "importSHA256": "13e47fe0af684dbcceeeca543597933bd8a5dc185a73d37349f49430a119cec7",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.11015798896551132,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.4307907223701477,
+                "y": 0.22031597793102265,
+                "z": 0.2052159607410431
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/sunflower-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/sunflower-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/sunflower-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/sunflower-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "sunflower-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wheat-mature",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/wheat-mature.prefab",
+            "importedPath": "Assets/Farm/Art/wheat-mature/model.gltf",
+            "sourceSHA256": "d8c5ac9e8b2c2c21ab91f7a8a6a36adc7d36cd557090182b5b1c55d69080b189",
+            "importSHA256": "923139f55817060c6b042959ea79104fd3eb87de0ffe541a35229f74ac716fa3",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 16500,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.44766566157341006,
+                "z": -0.0007011145353317261
+            },
+            "boundsSize": {
+                "x": 0.6388934850692749,
+                "y": 0.8956094980239868,
+                "z": 0.3850208520889282
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/wheat-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/wheat-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/wheat-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/wheat-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "wheat-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        10000,
+                        6500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wheat-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/wheat-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/wheat-seedling/model.gltf",
+            "sourceSHA256": "5f46e93395b7bbcbdbdaee134b921845a25e17d4532e5b7c866da76c064b797c",
+            "importSHA256": "e60e1ca5bf9371829b67bb9273c1f2a622e9dc969c40cef057aae29bec38a38b",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.00014591217041015625,
+                "y": 0.1100226566195488,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.13687565922737122,
+                "y": 0.2200453132390976,
+                "z": 0.15123163163661958
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/wheat-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/wheat-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/wheat-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/wheat-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "wheat-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bokchoy-mature",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/bokchoy-mature.prefab",
+            "importedPath": "Assets/Farm/Art/bokchoy-mature/model.gltf",
+            "sourceSHA256": "7f1eca0e3560197b1aa23792bb484c3e21d77767c8754090a42401bbb49d001c",
+            "importSHA256": "438d467a79f784e8e1e5fefd9720b454ae39746ad662cabbb56ac35a3d9dee13",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 16500,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.372037798166275,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.8950240015983582,
+                "y": 0.7440756559371948,
+                "z": 0.4338947832584381
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/bokchoy-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/bokchoy-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/bokchoy-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/bokchoy-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "bokchoy-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        10000,
+                        6500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bokchoy-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/bokchoy-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/bokchoy-seedling/model.gltf",
+            "sourceSHA256": "b4bb3fe6fcb4926984ccc91dcc215fbb5f7e271b7361c2dabb601bf221c52990",
+            "importSHA256": "b0e47483ab28a23e9beab699e8df9652a9bf12cac4c8f9853e1d4dad2b3709b7",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 14000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.0950000062584877,
+                "z": -0.00004102662205696106
+            },
+            "boundsSize": {
+                "x": 0.2582061290740967,
+                "y": 0.1900000125169754,
+                "z": 0.10473416745662689
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/bokchoy-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/bokchoy-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/bokchoy-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/bokchoy-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "bokchoy-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        8000,
+                        6000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "rose-mature",
+            "version": "atlas-semantic-r06",
+            "prefab": "Assets/Farm/Prefabs/rose-mature.prefab",
+            "importedPath": "Assets/Farm/Art/rose-mature/model.gltf",
+            "sourceSHA256": "2cd8483d2f5cca2fda3b8969b642a718b0eda34b729f5b70b6d87f7dc5f96a91",
+            "importSHA256": "e94be1e839b29a41dc2cd24ff7776dede01ca2eae6c9700d01bfe5f3a13bbad8",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 40000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.4471968114376068,
+                "z": -0.0007188916206359863
+            },
+            "boundsSize": {
+                "x": 0.758255660533905,
+                "y": 0.8945932388305664,
+                "z": 0.5487414002418518
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/rose-mature/01_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/rose-mature/00_normal.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/rose-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/rose-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "rose-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        24000,
+                        16000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "rose-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/rose-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/rose-seedling/model.gltf",
+            "sourceSHA256": "fa3719470cae764e3d6c54be0b042318263bcf43d645315770f801995c2e0809",
+            "importSHA256": "b50627b26d258a374b27504f7bde85c410c475e22f26f53a86c2989dc0eb6c23",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.00003844499588012695,
+                "y": 0.09998756647109986,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.3785193860530853,
+                "y": 0.1999751329421997,
+                "z": 0.19711466133594514
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/rose-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/rose-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/rose-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/rose-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "rose-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "strawberry-mature",
+            "version": "surface-r02",
+            "prefab": "Assets/Farm/Prefabs/strawberry-mature.prefab",
+            "importedPath": "Assets/Farm/Art/strawberry-mature/model.gltf",
+            "sourceSHA256": "191662fed6b975968d3a13dfe77ec18e0eca70410709fa66e6e9d0e91e9886d5",
+            "importSHA256": "561cb356a094f2b53f632ee8a05931a53290c7742dfb1ae928414e4934a139eb",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 859768,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.3168448209762573,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.8945042490959168,
+                "y": 0.6336896419525147,
+                "z": 0.8571443557739258
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/strawberry-mature/01_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/strawberry-mature/00_normal.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/strawberry-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/strawberry-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "strawberry-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        429884,
+                        429884
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "strawberry-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/strawberry-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/strawberry-seedling/model.gltf",
+            "sourceSHA256": "690811bab0ddd26e1d3b2748893ddf230f6eac06382886a9666f3495cde4a73f",
+            "importSHA256": "e9880ed1c4a3f0eba95c012608ca7aa0f68c0c19a35495321230e32de8ce0e3c",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.07998760044574738,
+                "z": 7.450580596923828e-9
+            },
+            "boundsSize": {
+                "x": 0.34915807843208315,
+                "y": 0.15997520089149476,
+                "z": 0.16186946630477906
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/strawberry-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/strawberry-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/strawberry-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/strawberry-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "strawberry-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cauliflower-mature",
+            "version": "atlas-detail-r01",
+            "prefab": "Assets/Farm/Prefabs/cauliflower-mature.prefab",
+            "importedPath": "Assets/Farm/Art/cauliflower-mature/model.gltf",
+            "sourceSHA256": "4232cab6133a7984cc91ba6edd1b1a2abd70cfdf8c6032043fc7229419221095",
+            "importSHA256": "f0e8db71963e12612d4ad735ca9927c1d35aa103537538ba1798676fd16bc3f9",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 52000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.2656314969062805,
+                "z": 0.000247269868850708
+            },
+            "boundsSize": {
+                "x": 0.8942353129386902,
+                "y": 0.531262993812561,
+                "z": 0.837780237197876
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cauliflower-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cauliflower-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cauliflower-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cauliflower-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "cauliflower-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        32000,
+                        20000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cauliflower-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/cauliflower-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/cauliflower-seedling/model.gltf",
+            "sourceSHA256": "12dbe97ca11b854cfd0ac280171468564e23730b14519cf4014492045de7b037",
+            "importSHA256": "6194f85788682e3fd1797b1a5162cf1e9e862f63bb02765ff171017e658e7eb6",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 14000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.09999999403953552,
+                "z": 0.000006165355443954468
+            },
+            "boundsSize": {
+                "x": 0.2975340187549591,
+                "y": 0.19999998807907105,
+                "z": 0.11179689317941666
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cauliflower-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cauliflower-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cauliflower-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cauliflower-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "cauliflower-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        8000,
+                        6000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "watermelon-mature",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/watermelon-mature.prefab",
+            "importedPath": "Assets/Farm/Art/watermelon-mature/model.gltf",
+            "sourceSHA256": "26f661a9bfed53e6184f5fcc75dd68ef0463e7b69246d526a15617d42ecde4fb",
+            "importSHA256": "279e5dce8c537ba3f5d32100f1ac4027cbdac427245d82f28956250b0fbf586e",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 16500,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.32617077231407168,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.895296037197113,
+                "y": 0.6523415446281433,
+                "z": 0.7602356672286987
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/watermelon-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/watermelon-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/watermelon-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/watermelon-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "watermelon-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        10000,
+                        6500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "watermelon-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/watermelon-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/watermelon-seedling/model.gltf",
+            "sourceSHA256": "ea3a07154bcfad42ddf87bf04a353b4ebd5d08ab882f4aefc72059ca58889174",
+            "importSHA256": "e5d1df4e189a15388e6e2db9540bf7c1fc17d54262175d05974fef29e4212389",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0001004934310913086,
+                "y": 0.08004508167505264,
+                "z": 0.0001256689429283142
+            },
+            "boundsSize": {
+                "x": 0.3401539623737335,
+                "y": 0.16009016335010529,
+                "z": 0.1528816819190979
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/watermelon-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/watermelon-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/watermelon-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/watermelon-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "watermelon-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tulip-mature",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/tulip-mature.prefab",
+            "importedPath": "Assets/Farm/Art/tulip-mature/model.gltf",
+            "sourceSHA256": "83635f20d05a71ccafc5be22970082937d055b3daf5d3c649775aba09f4d2711",
+            "importSHA256": "b616cb4243b586a41a5a4ef9c200be104a74ec786e4ca61fd691f09bc5cf3a9e",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 13000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.0005105733871459961,
+                "y": 0.4471092224121094,
+                "z": -0.0007872879505157471
+            },
+            "boundsSize": {
+                "x": 0.7148354053497315,
+                "y": 0.8942184448242188,
+                "z": 0.5639997720718384
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/tulip-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/tulip-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/tulip-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/tulip-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "tulip-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        8000,
+                        5000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tulip-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/tulip-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/tulip-seedling/model.gltf",
+            "sourceSHA256": "877af2515f95139ab6f08a36d47e621c2241d7830df43b7999d33985c48484b2",
+            "importSHA256": "c18bebfea6968f85950927b4aaa5056428137b3ede021c1937f75322a2bde210",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 5800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.00007992982864379883,
+                "y": 0.09999531507492066,
+                "z": -0.00009174644947052002
+            },
+            "boundsSize": {
+                "x": 0.32451263070106509,
+                "y": 0.1999906301498413,
+                "z": 0.16610178351402284
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/tulip-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/tulip-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/tulip-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/tulip-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "tulip-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        3500,
+                        2300
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lettuce-mature",
+            "version": "atlas-detail-r01",
+            "prefab": "Assets/Farm/Prefabs/lettuce-mature.prefab",
+            "importedPath": "Assets/Farm/Art/lettuce-mature/model.gltf",
+            "sourceSHA256": "44b7cf3a7cd2fa5bc19a58f8eabfb825a0fb1f34ff991849cf286306ee5461ed",
+            "importSHA256": "c84871a10a31116a801585961a23fabc4a348a104f0e094c3be03a5542c0b20b",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 48000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.00038436055183410645,
+                "y": 0.31501808762550356,
+                "z": -0.0003313720226287842
+            },
+            "boundsSize": {
+                "x": 0.8965641260147095,
+                "y": 0.6300361752510071,
+                "z": 0.8589473366737366
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/lettuce-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/lettuce-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/lettuce-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/lettuce-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "lettuce-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        30000,
+                        18000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lettuce-seedling",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/lettuce-seedling.prefab",
+            "importedPath": "Assets/Farm/Art/lettuce-seedling/model.gltf",
+            "sourceSHA256": "a9272ff8e9fb37452af7916d90112b8edc7c86cf276702cb773f2eb00b3edbc1",
+            "importSHA256": "d4f298759104bf3824634fe5ece84342ec7a497d98da165e7d14957201786f95",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 14000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 2.384185791015625e-7,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.254954993724823,
+                "y": 0.1599999964237213,
+                "z": 0.0941011980175972
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/lettuce-seedling/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/lettuce-seedling/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/lettuce-seedling/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/lettuce-seedling/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "lettuce-seedling(Clone)",
+                    "screenRelativeHeights": [
+                        0.03500000014901161,
+                        0.003000000026077032
+                    ],
+                    "trianglesByLevel": [
+                        8000,
+                        6000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cow",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/cow.prefab",
+            "importedPath": "Assets/Farm/Art/cow/model.gltf",
+            "sourceSHA256": "3a09e330319317f8a0856792530f63e06d83e7b357bc3ffb344e7c89eb800b0b",
+            "importSHA256": "bc8f5997df2a85602a4827b64f6274eff647e7e3e6227f28a53166224fa2296e",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 31000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 6,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.00006216764450073242,
+                "y": 0.5100047588348389,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.7773138284683228,
+                "y": 1.0200095176696778,
+                "z": 1.3087223768234254
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/cow/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/cow/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "cow(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        20000,
+                        11000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sheep",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/sheep.prefab",
+            "importedPath": "Assets/Farm/Art/sheep/model.gltf",
+            "sourceSHA256": "708ed083f02797e11f1a7b5b5d1219e3272389ddbbc23b2022e92bcb65dc6679",
+            "importSHA256": "287e5586ddc03086c9a7cce42f964e08b32b8ed4519a72199c80aeba731f039b",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 37200,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.00009301304817199707,
+                "y": 0.36000001430511477,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.6205819845199585,
+                "y": 0.7200000286102295,
+                "z": 0.8327580094337463
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/sheep/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/sheep/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "sheep(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        24000,
+                        13200
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "duck",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/duck.prefab",
+            "importedPath": "Assets/Farm/Art/duck/model.gltf",
+            "sourceSHA256": "4f7942c5cdaa13584220eb5f100f345f2fef8ca9205dad4d92d57a44f07fdb44",
+            "importSHA256": "09093ea4987765c4086aed7299f0b6a02ef7c673e2aad2675b7eeb1c8e2fa710",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 24800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.000010669231414794922,
+                "y": 0.24000000953674317,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.33690857887268069,
+                "y": 0.48000001907348635,
+                "z": 0.42347899079322817
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/duck/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/duck/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "duck(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        16000,
+                        8800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chicken",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/chicken.prefab",
+            "importedPath": "Assets/Farm/Art/chicken/model.gltf",
+            "sourceSHA256": "b970b39e6f77b8350ab49bbc3a8ffb2d8c27fcc7e5f54076b94e63da3b878b16",
+            "importSHA256": "ee812c02d99c57c4905c6e4e5ca7f0ab7b242db50f81b0a0f4055527d8a9070b",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 24800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.00001963973045349121,
+                "y": 0.2500015199184418,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.3761889338493347,
+                "y": 0.5000030398368836,
+                "z": 0.4764336049556732
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/chicken/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/chicken/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "chicken(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        16000,
+                        8800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "pig",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/pig.prefab",
+            "importedPath": "Assets/Farm/Art/pig/model.gltf",
+            "sourceSHA256": "c85bf23b3df0450e5df72f9feee9df09dc6993e63e9c42773bf5b95666ea3bb4",
+            "importSHA256": "7101228cac8e624e34d6db355a2acab5477fb5f677c2690402f93ea8844a7bf1",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 24800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.00005415081977844238,
+                "y": 0.3302595019340515,
+                "z": 0.00009840726852416992
+            },
+            "boundsSize": {
+                "x": 0.722212553024292,
+                "y": 0.660519003868103,
+                "z": 1.0144307613372803
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/pig/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/pig/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "pig(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        16000,
+                        8800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "alpaca",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/alpaca.prefab",
+            "importedPath": "Assets/Farm/Art/alpaca/model.gltf",
+            "sourceSHA256": "9ed13a58a3373f24c17aba958c452f74332a6f7344dc39a52e0580687690d5b4",
+            "importSHA256": "a9919649040a774b6a1897ee1760cfe6fee4eb366806ab04ec4f2a678658ed1a",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 37200,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.5752068758010864,
+                "z": -0.0000635981559753418
+            },
+            "boundsSize": {
+                "x": 0.5257619619369507,
+                "y": 1.1504137516021729,
+                "z": 0.8604657053947449
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/alpaca/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/alpaca/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "alpaca(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        24000,
+                        13200
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hamster",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/hamster.prefab",
+            "importedPath": "Assets/Farm/Art/hamster/model.gltf",
+            "sourceSHA256": "b34effc0a674bfc4768d41b2c1a506fd58737a67b6f7f65d80e076a2a99f5b7d",
+            "importSHA256": "8f07b0fdc751070d39a93469a661be6fc2d64b7e89467efd2cc08f8a08625533",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 24798,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.000014767050743103027,
+                "y": 0.1700247824192047,
+                "z": -0.0000022351741790771486
+            },
+            "boundsSize": {
+                "x": 0.2840862274169922,
+                "y": 0.3400495648384094,
+                "z": 0.29807910323143008
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/hamster/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/hamster/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "hamster(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        15998,
+                        8800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "donkey",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/donkey.prefab",
+            "importedPath": "Assets/Farm/Art/donkey/model.gltf",
+            "sourceSHA256": "d8a43102a4840d15636ba33ad1f3a6e4c29868a08b6005da657b39dab807527e",
+            "importSHA256": "db391abec7ac2398c1187c6550e267c71104c18de7c0afbddfcaca6c114e937f",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 24800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.00011081993579864502,
+                "y": 0.5252180099487305,
+                "z": 0.000007569789886474609
+            },
+            "boundsSize": {
+                "x": 0.4679539203643799,
+                "y": 1.050436019897461,
+                "z": 1.0814275741577149
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/donkey/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/donkey/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "donkey(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        16000,
+                        8800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "capybara",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/capybara.prefab",
+            "importedPath": "Assets/Farm/Art/capybara/model.gltf",
+            "sourceSHA256": "916ca7391821c8c97a88e801d57f50e284aa55b7633389707d280cc480af40f4",
+            "importSHA256": "150487527a724526a3bb5007b0b1b8ff7b94d65771d9b62dd19d3db860f4b855",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 24800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.000014767050743103027,
+                "y": 0.32007670402526858,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.48963257670402529,
+                "y": 0.6401534080505371,
+                "z": 0.9883233308792114
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/capybara/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/capybara/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "capybara(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        16000,
+                        8800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ostrich",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/ostrich.prefab",
+            "importedPath": "Assets/Farm/Art/ostrich/model.gltf",
+            "sourceSHA256": "cfb9d34b6217401f30588514d844df9a37015ba98c3f52a46007e8ebe3facd26",
+            "importSHA256": "bf499e272926bf312c85282a8d530a95c74a406abadf1737ed7511d03da93edc",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 27900,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.00024318695068359375,
+                "y": 0.6748748421669006,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.7122049331665039,
+                "y": 1.350250482559204,
+                "z": 1.1048309803009034
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/ostrich/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/ostrich/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "ostrich(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        18000,
+                        9900
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "pony",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/pony.prefab",
+            "importedPath": "Assets/Farm/Art/pony/model.gltf",
+            "sourceSHA256": "c3e7acc7dd2deae0d70191cdd28105820b019e6575bffb8382c87b0d4b0d1b9f",
+            "importSHA256": "b19ce38e1ae91c81fd557fa4e70744a4437b5345e102e7fb07a368551034c740",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 31000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.00010028481483459473,
+                "y": 0.5500505566596985,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.6015316247940064,
+                "y": 1.100101113319397,
+                "z": 1.2657196521759034
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/pony/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/pony/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "pony(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        20000,
+                        11000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "goat",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/goat.prefab",
+            "importedPath": "Assets/Farm/Art/goat/model.gltf",
+            "sourceSHA256": "da23daa5370388dd2f4fcad98ed7b24a973b0d2a0faadfc5d70cf4bd84e8b40e",
+            "importSHA256": "7cc72a14f83a8bf7a8e6fd221c9475ef1f9d7d40897ea48259ace24009821725",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 24798,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.00012120604515075684,
+                "y": 0.42500001192092898,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.766888439655304,
+                "y": 0.8500000238418579,
+                "z": 0.9096518158912659
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/goat/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/goat/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "goat(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        15998,
+                        8800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "goose",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/goose.prefab",
+            "importedPath": "Assets/Farm/Art/goose/model.gltf",
+            "sourceSHA256": "a3163d51628791583db4b69a752f6229ddef03933a041c888d109e53852a6995",
+            "importSHA256": "00d2249b5d74578917c439d5df4c0b6dda562ae3f184711880ce7427ca5d5247",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 24800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.3400000035762787,
+                "z": 0.000026494264602661133
+            },
+            "boundsSize": {
+                "x": 0.4027613401412964,
+                "y": 0.6800000071525574,
+                "z": 0.5672709941864014
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/goose/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/goose/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "goose(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        16000,
+                        8800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "black-pig",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/black-pig.prefab",
+            "importedPath": "Assets/Farm/Art/black-pig/model.gltf",
+            "sourceSHA256": "2c483917129c26355b6f5098ac2e3de84f6c5fa2771bf55c635989abf050cf63",
+            "importSHA256": "ab2aee23bf6a7d802195d01c44d054166d527aea630a2b5e38d73d21f57637ad",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 24800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.000027954578399658203,
+                "y": 0.33009642362594607,
+                "z": 0.0002262592315673828
+            },
+            "boundsSize": {
+                "x": 0.7087023258209229,
+                "y": 0.6601928472518921,
+                "z": 1.0312328338623047
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/black-pig/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/black-pig/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "black-pig(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        16000,
+                        8800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "deer",
+            "version": "game-r04",
+            "prefab": "Assets/Farm/Prefabs/deer.prefab",
+            "importedPath": "Assets/Farm/Art/deer/model.gltf",
+            "sourceSHA256": "e7edefb997c75a512d33067e2227d1cfb6a4445ba9ca9906e9f99b11f306df30",
+            "importSHA256": "5b636960c4ad2cca1bd87b3b0817485eee31213018189a96185371d0ef153898",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 27900,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 4,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0000775456428527832,
+                "y": 0.5400751233100891,
+                "z": 0.00019109249114990234
+            },
+            "boundsSize": {
+                "x": 0.6344479918479919,
+                "y": 1.0801502466201783,
+                "z": 0.9639414548873901
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/deer/00_basecolor_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_basecolor_basecolor",
+                    "assetPath": "Assets/Farm/Art/deer/lod1/00_basecolor_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "deer(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        18000,
+                        9900
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S04",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/S04.prefab",
+            "importedPath": "Assets/Farm/Art/S04/model.gltf",
+            "sourceSHA256": "2a01f89fdbd372e11fcd09efb41141c45f0fb03626b9bffc8124399460412ed5",
+            "importSHA256": "c001990c388bd2b82cedfb8658de46710c093bf65de4fde47f74b9b39c49f760",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 44000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0002167224884033203,
+                "y": 1.0993703603744507,
+                "z": 1.1920928955078126e-7
+            },
+            "boundsSize": {
+                "x": 3.2659130096435549,
+                "y": 2.201259136199951,
+                "z": 2.5886998176574709
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S04/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S04/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S04/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S04/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S04(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        26000,
+                        18000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S07",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/S07.prefab",
+            "importedPath": "Assets/Farm/Art/S07/model.gltf",
+            "sourceSHA256": "f23274e03f3a4a51bf2fb8eac0adfa1bde3f737e5f0d86b37e758a8647073ace",
+            "importSHA256": "b7e4518805a00e751b0643697ca3d75266873fd70941da237da722e1cfee042e",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 18000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.0001475811004638672,
+                "y": 0.3499999940395355,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 1.6234403848648072,
+                "y": 0.699999988079071,
+                "z": 1.3116040229797364
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S07/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S07/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S07/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S07/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S07(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        12000,
+                        6000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S08",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/S08.prefab",
+            "importedPath": "Assets/Farm/Art/S08/model.gltf",
+            "sourceSHA256": "c2df3b7d7ebea35c92e6ed3e3cd5dadb351917d858d42cb5b8f0efdaffd74ec3",
+            "importSHA256": "b1259703753b79f90043f28a4fcb0350e89877de9b2bd40f509db1728d454439",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 18500,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.30000001192092898,
+                "z": -0.0001576542854309082
+            },
+            "boundsSize": {
+                "x": 1.7052817344665528,
+                "y": 0.6000000238418579,
+                "z": 0.9355850219726563
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S08/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S08/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S08/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S08/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S08(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        12000,
+                        6500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S09",
+            "version": "bvh-r02",
+            "prefab": "Assets/Farm/Prefabs/S09.prefab",
+            "importedPath": "Assets/Farm/Art/S09/model.gltf",
+            "sourceSHA256": "849892d06f64a37bc37df3861a7565df8f51de0f735f0c39af9e3affea3f81c2",
+            "importSHA256": "db12a788b3434db773cf364a72ca64920fb2bcdc18f98867692ece6a6944828d",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 10996,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.25999999046325686,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 1.5423002243041993,
+                "y": 0.5199999809265137,
+                "z": 0.8301289081573486
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S09/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S09/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S09/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S09/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S09(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        6998,
+                        3998
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S10",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/S10.prefab",
+            "importedPath": "Assets/Farm/Art/S10/model.gltf",
+            "sourceSHA256": "f8d34b86785155a8e89a0d9abae7ac59faa96673135e3065193c11ef7520cd56",
+            "importSHA256": "88b28316fb71b65b2ceb18b524b03063038d9f6b37544e7976d1b62dcb299610",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 12000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 1.0499999523162842,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 1.1895866394042969,
+                "y": 2.0999999046325685,
+                "z": 0.853560209274292
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S10/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S10/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S10/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S10/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S10(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        8000,
+                        4000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S11",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/S11.prefab",
+            "importedPath": "Assets/Farm/Art/S11/model.gltf",
+            "sourceSHA256": "842ae1f7b39ac5eaeac25fe4ee6aa989b860e6f8a9f2d2171e34736f56ae18cb",
+            "importSHA256": "a915974c47424f7b852c146f4ee8ac57a9ed8ef436417155fd54a1734f9b9e0c",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 18500,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.000016868114471435547,
+                "y": 0.29999229311943056,
+                "z": -0.00007832050323486328
+            },
+            "boundsSize": {
+                "x": 1.19254732131958,
+                "y": 0.6000155210494995,
+                "z": 0.9808793663978577
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S11/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S11/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S11/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S11/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S11(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        12000,
+                        6500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S12",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/S12.prefab",
+            "importedPath": "Assets/Farm/Art/S12/model.gltf",
+            "sourceSHA256": "6026e497a1f450e86433e42643f4d509fed470f26d7ebb992285278f8ba453b0",
+            "importSHA256": "155688fadcc2428a8bf0b22be2eb7aea238103a6dcb3b264741faa644051b539",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 9000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": -0.0001214742660522461,
+                "y": 0.2150000035762787,
+                "z": -0.0001605600118637085
+            },
+            "boundsSize": {
+                "x": 0.6714819073677063,
+                "y": 0.4300000071525574,
+                "z": 0.33992770314216616
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S12/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S12/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S12/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S12/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S12(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        6000,
+                        3000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E03",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/E03.prefab",
+            "importedPath": "Assets/Farm/Art/E03/model.gltf",
+            "sourceSHA256": "b19254e6f5479d88ead8ee79bd25a187a68d4c07a035e51fa9092f0da6290921",
+            "importSHA256": "cfeb3f99db00e27de68b658850e0cdbb6ec41c0a1daeebd81287df3c54f06290",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 4798,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.08949873596429825,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.5622252225875855,
+                "y": 0.18198633193969727,
+                "z": 0.5619242191314697
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E03/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E03/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E03/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E03/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E03(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        3000,
+                        1798
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E04",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/E04.prefab",
+            "importedPath": "Assets/Farm/Art/E04/model.gltf",
+            "sourceSHA256": "8792a194b79fe6cb073e48c865215e29fb3957654a3594ea96aba13018fab01b",
+            "importSHA256": "eaeafd521c46c72f4f140ac801827d16b37f616f6e22237ed457895423c4e6b1",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 4000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.000006973743438720703,
+                "y": 0.05998919531702995,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.5106106996536255,
+                "y": 0.12002161145210266,
+                "z": 0.5111355781555176
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E04/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E04/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E04/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E04/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E04(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        2500,
+                        1500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E06",
+            "version": "existing-input",
+            "prefab": "Assets/Farm/Prefabs/E06.prefab",
+            "importedPath": "Assets/Farm/Art/E06/model.gltf",
+            "sourceSHA256": "763e2e7bda7d81a138734d29594fd2e58a2d798aba84403a58ed1772b1011c5e",
+            "importSHA256": "763e2e7bda7d81a138734d29594fd2e58a2d798aba84403a58ed1772b1011c5e",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 166072,
+            "renderers": 1,
+            "distinctMeshes": 1,
+            "materials": 1,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.22499999403953553,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 1.2785223722457886,
+                "y": 0.44999998807907107,
+                "z": 1.08830988407135
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [
+                "No LODGroup; quality lodBias alone does not reduce this asset's geometry"
+            ],
+            "textures": [
+                {
+                    "name": "00_basecolor",
+                    "assetPath": "Assets/Farm/Art/E06/00_basecolor.jpg",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "01_mask",
+                    "assetPath": "Assets/Farm/Art/E06/01_mask.jpg",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "02_normal",
+                    "assetPath": "Assets/Farm/Art/E06/02_normal.jpg",
+                    "width": 2048,
+                    "height": 2048
+                }
+            ],
+            "lodGroups": []
+        },
+        {
+            "id": "E09",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/E09.prefab",
+            "importedPath": "Assets/Farm/Art/E09/model.gltf",
+            "sourceSHA256": "6c29342cef0ddee4c91491251b4698e94d8cb41fcad9c89ba514c4bd7e2dec9f",
+            "importSHA256": "d38b077b90404eab834b1719327de63fb108831663c175b268263fe94dacbf5c",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 12500,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0019402503967285157,
+                "y": 1.7000000476837159,
+                "z": -0.0010821819305419922
+            },
+            "boundsSize": {
+                "x": 2.94230055809021,
+                "y": 3.4000000953674318,
+                "z": 2.593595027923584
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E09/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E09/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E09/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E09/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E09(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        8000,
+                        4500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E10",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/E10.prefab",
+            "importedPath": "Assets/Farm/Art/E10/model.gltf",
+            "sourceSHA256": "d1a7ac94aa13521830a487b39f84c35c79be1bc73ed18ba7b1ab8786d19bcb61",
+            "importSHA256": "7dc3b3e4825af68422d20ce322851905c4ae0b982c7e1698871d5cfb8d4a3a25",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 7500,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0008655190467834473,
+                "y": 0.375,
+                "z": -0.000043898820877075195
+            },
+            "boundsSize": {
+                "x": 0.9968946576118469,
+                "y": 0.75,
+                "z": 0.7221153974533081
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E10/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E10/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E10/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E10/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E10(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        5000,
+                        2500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E11",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/E11.prefab",
+            "importedPath": "Assets/Farm/Art/E11/model.gltf",
+            "sourceSHA256": "07ef99bb5c65ec81b69807052f59a744d8bb461d15489f58a5828b6c58e471d2",
+            "importSHA256": "8cbc3f1fc5ac3413c60c4336b033cd8335dcd34ce16b73b4dc63831a47e32452",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 12000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.00007003545761108398,
+                "y": 0.2249772697687149,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.785576343536377,
+                "y": 0.45117732882499697,
+                "z": 0.6483564972877502
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E11/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E11/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E11/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E11/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E11(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        7500,
+                        4500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E12",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/E12.prefab",
+            "importedPath": "Assets/Farm/Art/E12/model.gltf",
+            "sourceSHA256": "0afb139fdc31b78582d787196baa36a965cc27fe162a66010060f1c451472042",
+            "importSHA256": "569f79edcf6791160c0d16fdc2386290b060aade95e1f9fd59ef3d3c42261042",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 9496,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.5499933958053589,
+                "z": 1.4901161193847657e-8
+            },
+            "boundsSize": {
+                "x": 0.8913868069648743,
+                "y": 1.100013256072998,
+                "z": 0.4576154947280884
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E12/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E12/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E12/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E12/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E12(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        5998,
+                        3498
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E14",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/E14.prefab",
+            "importedPath": "Assets/Farm/Art/E14/model.gltf",
+            "sourceSHA256": "53888fc327018a011b42fa47b46066364902aea90012fa9921193faa40c32d37",
+            "importSHA256": "6da4dfafafb106820a34d2d8edd743391189f759b0c5419b6e522fc21aca8fb8",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 7800,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.000003546476364135742,
+                "y": 0.07999999821186066,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.6895249485969544,
+                "y": 0.1599999964237213,
+                "z": 0.6727378964424133
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E14/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E14/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E14/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E14/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E14(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        5000,
+                        2800
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E15",
+            "version": "bvh-r01",
+            "prefab": "Assets/Farm/Prefabs/E15.prefab",
+            "importedPath": "Assets/Farm/Art/E15/model.gltf",
+            "sourceSHA256": "55ea9358ff6529835b9a2f11473ace9d47a08b35716b720c3b37494d4bd4e6f9",
+            "importSHA256": "a2e80fc4782fa8e8a52154deac9a459b794658d2cef22c2bf3be9c88f6bc5b3b",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 8000,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.3261331021785736,
+                "z": 0.0005086362361907959
+            },
+            "boundsSize": {
+                "x": 1.0055172443389893,
+                "y": 0.6522662043571472,
+                "z": 0.788545548915863
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E15/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E15/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E15/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E15/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E15(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        5000,
+                        3000
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "E16",
+            "version": "surface-r01",
+            "prefab": "Assets/Farm/Prefabs/E16.prefab",
+            "importedPath": "Assets/Farm/Art/E16/model.gltf",
+            "sourceSHA256": "b3044eacc519dbbdfd5bf107163d8a14c0c003fd9a094703193b3abeb851e016",
+            "importSHA256": "19993497208679dfddbb2de4580fbdc292b6b321d636e9a048fc05bfe8ad8aba",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 239182,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.15000000596046449,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.24726557731628419,
+                "y": 0.30000001192092898,
+                "z": 0.495248943567276
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E16/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E16/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/E16/lod1/01_basecolor.png",
+                    "width": 512,
+                    "height": 512
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/E16/lod1/00_normal.png",
+                    "width": 512,
+                    "height": 512
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "E16(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        126600,
+                        112582
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cabbage-mature",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/cabbage-mature.prefab",
+            "importedPath": "Assets/Farm/Art/cabbage-mature/model.gltf",
+            "sourceSHA256": "21fd0f3ea18cb34d1f84f6f90d36d35b17a4cbbc7a6d37e638593f374748b379",
+            "importSHA256": "cf2855fff21c5a0936ba227115baa50fbb7a8b1130f7df52a27b97d3208edcda",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 16500,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 0.2790548503398895,
+                "z": 0.0
+            },
+            "boundsSize": {
+                "x": 0.8956380486488342,
+                "y": 0.5588513612747192,
+                "z": 0.7959457039833069
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cabbage-mature/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cabbage-mature/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/cabbage-mature/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/cabbage-mature/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "cabbage-mature(Clone)",
+                    "screenRelativeHeights": [
+                        0.14000000059604646,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        10000,
+                        6500
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "S02",
+            "version": "atlas-r01",
+            "prefab": "Assets/Farm/Prefabs/S02.prefab",
+            "importedPath": "Assets/Farm/Art/S02/model.gltf",
+            "sourceSHA256": "d4299d1ea171c7970fbabd7266e2cd6af93f0b8726ff0e5c5003a6bf00a1b095",
+            "importSHA256": "f38c4d057022e5ed5ee6731137735fe439773e17fca8b927b1f71e16ded0ec1d",
+            "technical": "static_import_attributes_pass_runtime_pending",
+            "visual": "not_viewed",
+            "userArt": "pending",
+            "device": "not_tested",
+            "triangles": 49498,
+            "renderers": 2,
+            "distinctMeshes": 2,
+            "materials": 2,
+            "colliders": 0,
+            "missingScripts": 0,
+            "boundsCenter": {
+                "x": 0.0,
+                "y": 1.5017991065979005,
+                "z": 0.001070261001586914
+            },
+            "boundsSize": {
+                "x": 3.439074754714966,
+                "y": 3.003598213195801,
+                "z": 3.1297268867492677
+            },
+            "animationClips": [],
+            "errors": [],
+            "warnings": [],
+            "textures": [
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S02/01_basecolor.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S02/00_normal.png",
+                    "width": 2048,
+                    "height": 2048
+                },
+                {
+                    "name": "01_basecolor",
+                    "assetPath": "Assets/Farm/Art/S02/lod1/01_basecolor.png",
+                    "width": 1024,
+                    "height": 1024
+                },
+                {
+                    "name": "00_normal",
+                    "assetPath": "Assets/Farm/Art/S02/lod1/00_normal.png",
+                    "width": 1024,
+                    "height": 1024
+                }
+            ],
+            "lodGroups": [
+                {
+                    "group": "S02(Clone)",
+                    "screenRelativeHeights": [
+                        0.2199999988079071,
+                        0.00800000037997961
+                    ],
+                    "trianglesByLevel": [
+                        38000,
+                        11498
+                    ]
+                }
+            ]
+        }
+    ],
+    "staticColliders": 350,
+    "cameras": 1,
+    "luluRoots": 1,
+    "centralHouseRoots": 1,
+    "registeredCropStages": 20,
+    "sceneErrors": [],
+    "sceneWarnings": [
+        "Animation curve paths checked; shoulder/hip deformation, stride and transitions still require actual playback.",
+        "Static collider existence does not validate walkability, shoreline gaps or camera occlusion; run the real route."
+    ],
+    "groups": [
+        "Landscape",
+        "HouseAndProduce",
+        "Fields",
+        "FieldBoundary",
+        "Pasture",
+        "Pond",
+        "R07_AmbientMotion"
+    ]
+}

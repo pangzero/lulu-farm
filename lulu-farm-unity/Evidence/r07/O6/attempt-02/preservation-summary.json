@@ -1,0 +1,12 @@
+{
+  "originalBeforeSnapshotFiles": 58,
+  "snapshotHashesStillIdentical": true,
+  "restoredProtectedMaterialCount": 6,
+  "restoredHashesMatchBaseline": true,
+  "generatedOutputsRetainedLocally": [
+    "Assets/Farm/Scenes/FarmWorld.unity",
+    "Assets/Farm/GeneratedR08.meta",
+    "Assets/Farm/GeneratedR08/"
+  ],
+  "generatedOutputCopies": "attempt-02/generated/"
+}

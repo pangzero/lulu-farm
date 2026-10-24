@@ -1,0 +1,57 @@
+[
+  {
+    "file": "attempt-02/same-camera-pairs/pasture.png",
+    "left": "before/fixed-pp-on/pasture.png",
+    "right": "fixed-pp-on/pasture.png",
+    "sourceSize": [
+      1600,
+      900
+    ],
+    "method": "Lossless side-by-side RGB pixel placement; no resizing, exposure, light or color edits; both halves verified identical to source RGB pixels",
+    "sha256": "81554e8ebc817756f5f557a08904b8b3e0759bf78cd9ca79ea4ffe1d268bcef9"
+  },
+  {
+    "file": "attempt-02/same-camera-pairs/spawn.png",
+    "left": "before/fixed-pp-on/spawn.png",
+    "right": "fixed-pp-on/spawn.png",
+    "sourceSize": [
+      1600,
+      900
+    ],
+    "method": "Lossless side-by-side RGB pixel placement; no resizing, exposure, light or color edits; both halves verified identical to source RGB pixels",
+    "sha256": "e2efeca3f3c5d5df415df664f11677de36a4f98fab18ca44a0c22b7d8e3d2516"
+  },
+  {
+    "file": "attempt-02/same-camera-pairs/house-front.png",
+    "left": "before/fixed-pp-on/house-front.png",
+    "right": "fixed-pp-on/house-front.png",
+    "sourceSize": [
+      1600,
+      900
+    ],
+    "method": "Lossless side-by-side RGB pixel placement; no resizing, exposure, light or color edits; both halves verified identical to source RGB pixels",
+    "sha256": "0603cad7ce5ff7d18a33448a22b9b852cc49262562a7c5db87e696042c25b1c9"
+  },
+  {
+    "file": "attempt-02/same-camera-pairs/overview.png",
+    "left": "before/fixed-pp-on/overview.png",
+    "right": "fixed-pp-on/overview.png",
+    "sourceSize": [
+      1600,
+      900
+    ],
+    "method": "Lossless side-by-side RGB pixel placement; no resizing, exposure, light or color edits; both halves verified identical to source RGB pixels",
+    "sha256": "b6e9f73cb561725fa16b3ca81ff3633f6d7ed9fad74669f4c21dea9309a61796"
+  },
+  {
+    "file": "attempt-02/same-camera-pairs/close-house-road.png",
+    "left": "before/fixed-pp-on/close-house-road.png",
+    "right": "fixed-pp-on/close-house-road.png",
+    "sourceSize": [
+      1600,
+      900
+    ],
+    "method": "Lossless side-by-side RGB pixel placement; no resizing, exposure, light or color edits; both halves verified identical to source RGB pixels",
+    "sha256": "18227018ff85a8defa892f3f5e24a95fbdad07bd7e76b080face4af453b87e28"
+  }
+]

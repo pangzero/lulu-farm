@@ -1,0 +1,49 @@
+{
+  "observer": "Codex root; actual view_image inspection",
+  "viewedOriginalFiles": [
+    "before/fixed-pp-on/pasture.png",
+    "fixed-pp-on/pasture.png",
+    "before/fixed-pp-on/spawn.png",
+    "fixed-pp-on/spawn.png",
+    "before/fixed-pp-on/house-front.png",
+    "fixed-pp-on/house-front.png",
+    "before/fixed-pp-on/overview.png",
+    "fixed-pp-on/overview.png",
+    "before/fixed-pp-on/close-house-road.png",
+    "fixed-pp-on/close-house-road.png"
+  ],
+  "viewedSideBySideFiles": [
+    "attempt-02/same-camera-pairs/pasture.png",
+    "attempt-02/same-camera-pairs/spawn.png",
+    "attempt-02/same-camera-pairs/house-front.png",
+    "attempt-02/same-camera-pairs/overview.png",
+    "attempt-02/same-camera-pairs/close-house-road.png"
+  ],
+  "layout": "D6 left / O6 right; 1600x900 originals inspected individually; 3200x900 lossless pairs displayed at 2048x576",
+  "observations": [
+    {
+      "shot": "pasture",
+      "observed": "O6谷仓在画面右侧，主屋门和一层正面露出，前方仍有围栏与Lulu。羊与猪轮廓分离，可见羊脚。筒仓在谷仓画面右侧、靠池塘。绿色瓦面和深色瓦缝可见；镜像法线与多角度主光关系未验证。"
+    },
+    {
+      "shot": "spawn",
+      "observed": "D6右下大片绿色谷仓屋顶占据前景；O6仅右下边缘保留一部分谷仓屋顶/墙面，中间围栏及道路露出，前下方可见移位草捆。"
+    },
+    {
+      "shot": "house-front",
+      "observed": "两版主屋门、灯和台阶均可见；O6右边缘谷仓占画面面积减少。左前梨树树冠仍遮住部分画面。"
+    },
+    {
+      "shot": "overview",
+      "observed": "O6谷仓更小且更靠右。D6顶部浅色地面尖角和直边对蓝色天空较明显；O6天空更灰白、顶部边缘对比较低，但左右地面/天空分界仍可辨认，未记录为完全消失。"
+    },
+    {
+      "shot": "close-house-road",
+      "observed": "两版道路呈大块浅黄色。D6靠台阶的轻微方块色差较易辨认，O6该处色差较弱；原图中未能清楚辨认独立圆点，圆点形状未确认。右侧阴影位置有变化。"
+    }
+  ],
+  "other25O6Images": "saved, not visually inspected",
+  "runtimeReviewed": false,
+  "audio": "not listened",
+  "acceptanceConclusion": "none"
+}

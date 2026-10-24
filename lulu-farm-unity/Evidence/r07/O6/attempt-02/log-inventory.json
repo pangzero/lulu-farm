@@ -1,0 +1,18 @@
+[
+  {
+    "file": "generate-20261024-140118.log",
+    "bytes": 36151,
+    "sha256": "0ca285fe91c5a846fed7a1d4f7bf09b859fd846a6ce8b4244146324c3af2b5ef",
+    "lines": 468,
+    "compileShaderStopMatches": [
+      "executeMethod method LuluFarm.Editor.FarmProjectBuilder.R07GenerateReview threw exception."
+    ]
+  },
+  {
+    "file": "generate-20261024-141736.log",
+    "bytes": 122902,
+    "sha256": "3d7fccf8923e8c169ef47acd24ca7570519a7fec07163156212e913b82a9ce2d",
+    "lines": 1119,
+    "compileShaderStopMatches": []
+  }
+]

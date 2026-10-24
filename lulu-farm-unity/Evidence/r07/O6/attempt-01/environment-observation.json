@@ -1,0 +1,22 @@
+{
+  "observedUtc": "2026-10-24T14:07:23.033000+00:00",
+  "platform": "macOS",
+  "macOSVersion": "26.4",
+  "macOSBuild": "25E246",
+  "architecture": "arm64",
+  "powerCommand": "pmset -g batt",
+  "powerOutput": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=7077987)\t41%; discharging; 4:03 remaining present: true\n",
+  "displayCommand": "system_profiler SPDisplaysDataType",
+  "displayOutput": "Graphics/Displays:\n\n    Apple M5:\n\n      Chipset Model: Apple M5\n      Type: GPU\n      Bus: Built-In\n      Total Number of Cores: 10\n      Vendor: Apple (0x106b)\n      Metal Support: Metal 4\n      Displays:\n        Color LCD:\n          Display Type: Built-in Liquid Retina XDR Display\n          Resolution: 3024 x 1964 Retina\n          Main Display: Yes\n          Mirror: Off\n          Online: Yes\n          Automatically Adjust Brightness: Yes\n          Connection Type: Internal\n\n",
+  "externalDisplayStatus": "not determined: display command did not enumerate attached screens",
+  "performanceCaptureExecuted": false,
+  "playerLaunched": false,
+  "fullscreen": "not applicable: O6 Player not launched",
+  "preflightProgramsObserved": [
+    "Unity Hub and licensing clients",
+    "Codex",
+    "Vite preview server",
+    "esbuild"
+  ],
+  "note": "Program observations were preparation checks, not a performance-session inventory. No performance measurements were collected."
+}

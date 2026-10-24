@@ -1,97 +1,106 @@
-# r07 O6 Mac 执行记录 — 2026-10-24
+# r07 O6 Mac 执行记录 — 第二轮（2026-10-24）
 
-本轮状态：**失败**。第 3.1 节 generate 实际执行一次，退出码为 1；开发构建及依赖它的检查未执行。本记录只描述执行结果，不作技术、视觉、美术或性能验收结论。
+本轮状态：**失败**。按新增第 2.5 节完成空跑和正式重签后，从 3.1 执行一次生成。Unity generate 退出 0，已生成固定图；但包装脚本检出 6 个受保护旧材质被改写，退出 1，**development 未启动**。本记录仅描述执行和画面，不作验收结论。
 
-## 基线与执行范围
+第一轮基于 cfb6818 的导入哈希失败记录保留在 [attempt-01/REPORT.md](attempt-01/REPORT.md)，其原始日志仍在本目录。此次输入为后续提交，不能将两轮失败混为同一原因。
+
+## 基线与已执行命令
 
 - 仓库：`pangzero/lulu-farm`；分支：`opus/r07-o6-continue`。
-- 输入提交：`cfb6818aff669655371e9e8fd4e13a68aef3cb8d`。
-- 本机目录：`/Users/haowen/GameProject/farm-game/lulu-farm-unity`。
-- 编辑器：锁定的 `6000.3.16f1`，使用 `../.unity-install/Editors/6000.3.16f1/Unity.app`。未修改版本或包锁。
-- 已完整阅读根目录、两个子工程 AGENTS.md，O6 执行计划、Opus 续作进度，以及计划要求的 O2/O4 报告、D7 复现说明。
-- fetch、checkout、LFS pull 已执行；执行前工作树干净。未发现打开本工程的 Unity Editor 或 LuluFarm 游戏进程。
-- 本轮没有修改 Opus 代码、场景、资产、导入 stamp 或仓库可见性。
+- 输入提交：`7e1571104ae68c77fb7474652654456b602703d9`。
+- `git fetch origin opus/r07-o6-continue`、`git merge --ff-only origin/opus/r07-o6-continue`、`git lfs pull` 均退出 0。执行前工作树干净，原有 O6 快照已存在。
+- Unity 仍为 `6000.3.16f1`，包锁和 Opus 源码未改。
+- **未重做第 2 节快照，未运行 ConfigureAndImport。**
 
-## 实际命令与结果
-
-准备阶段状态：**已完成，待 Opus 验收**。`git fetch origin opus/r07-o6-continue`、`git checkout opus/r07-o6-continue`、`git lfs pull` 的退出码均为 0。
-
-`git lfs install --local` 首次退出码为 2：已有 filter 使用本机 git-lfs 绝对路径，工具要求使用 `--force` 重设。随后执行 `git lfs install --local --skip-repo --force`，仅更新本仓库 Git filter，保留现有 hook；退出码为 0。再次 `git lfs pull` 退出码为 0。未因此修改 Unity 文件。
-
-| 计划项 | 命令 | 状态 | 实际结果 / exitCode |
+| 步骤 | 命令 | 状态 | 实际结果 |
 |---|---|---|---|
-| 第 2 节快照 | `python3 Scripts/r07-evidence-index.py O6 --before D6` | 已完成，待 Opus 验收 | 0；仅执行一次。58 个快照文件与各自来源逐字节相同 |
-| 3.1 生成及开发包 | `python3 Scripts/r07-run-editor.py O6 generate development` | 失败 | 包装脚本 1；generate 1；development 未执行，无退出码 |
-| 3.2 路线 | `python3 Scripts/r07-run-player.py O6 route` | 失败 | 前置生成失败，未执行；无 31 点路线结果 |
-| 3.3 动效与声音 | `python3 Scripts/r07-run-player.py O6 ambient` | 失败 | 前置生成失败，未执行 |
-| 3.4 主性能会话 | `python3 Scripts/r07-run-player.py O6 performance` | 失败 | 前置生成失败，未执行 |
-| 3.5 风动关闭 | `python3 Scripts/r07-run-player.py O6 performance --label wind-off --wind off --seconds 320` | 失败 | 前置生成失败，未执行 |
-| 3.5 风动开启 | `python3 Scripts/r07-run-player.py O6 performance --label wind-on --seconds 320` | 失败 | 前置生成失败，未执行 |
-| 3.6 时间线 | `python3 Scripts/r07-run-editor.py O6 export`，及分别追加 `--profiler-directory Evidence/r07/O6/profiler-wind-off` / `Evidence/r07/O6/profiler-wind-on` | 失败 | 三次均未执行，没有本轮 Profiler 原始采样或导出 |
-| 3.7 画面和性能汇总 | `python3 Scripts/r07-evidence-index.py O6`、`python3 Scripts/r07-compare-performance.py O6` | 失败 | 没有 O6 画面、构建或性能结果，未运行；未生成空结果代替实测 |
-| 3.7 独立保护校验 | `python3 Scripts/r07-final-integrity.py O6` | 已完成，待 Opus 验收 | 0；实际校验 403 项，`changedFiles=[]` |
-| 3.8 原生窗口检查 | 打开 O6 开发包并操作键鼠 | 失败 | 没有本轮开发包，未执行 |
+| 2.5 空跑 | `python3 Scripts/opus-r07-restamp-path-migration.py` | 已完成，待 Opus 验收 | exit 0；五项 checks 全 true；applied=false |
+| 2.5 正式 | `python3 Scripts/opus-r07-restamp-path-migration.py --apply` | 已完成，待 Opus 验收 | exit 0；五项 checks 全 true；applied=true；原记录已备份 |
+| 3.1 | `python3 Scripts/r07-run-editor.py O6 generate development` | 失败 | Unity generate exit 0；包装器 exit 1，6 个 changedProtectedFiles；development 未执行 |
+| 3.2 | `python3 Scripts/r07-run-player.py O6 route` | 失败 | 前置检查失败，未执行 |
+| 3.3 | `python3 Scripts/r07-run-player.py O6 ambient` | 失败 | 前置检查失败，未执行 |
+| 3.4 | `python3 Scripts/r07-run-player.py O6 performance` | 失败 | 前置检查失败，未执行 |
+| 3.5 | `python3 Scripts/r07-run-player.py O6 performance --label wind-off --wind off --seconds 320`，然后 `python3 Scripts/r07-run-player.py O6 performance --label wind-on --seconds 320` | 失败 | 两个会话均未执行 |
+| 3.6 | `python3 Scripts/r07-run-editor.py O6 export`，以及分别追加 `--profiler-directory Evidence/r07/O6/profiler-wind-off` / `Evidence/r07/O6/profiler-wind-on` | 失败 | 无采样，三次均未执行 |
+| 3.7 固定图索引 | `python3 Scripts/r07-evidence-index.py O6` | 已完成，待 Opus 验收 | exit 0；30 组固定图相机/分辨率记录一致；路线 0、性能会话 0；生成 metrics.json、compare.html |
+| 3.7 保护校验，恢复前 | `python3 Scripts/r07-final-integrity.py O6` | 失败 | exit 1；403 项中 6 个旧材质变化，结果保存在 attempt-02/final-integrity-generated.json |
+| 保护内容恢复 | 对六个变更材质保存前后字节，再恢复至执行前 HEAD | 已完成，待 Opus 验收 | 六件恢复 SHA 均等于冻结清单基准；没有继续构建 |
+| 3.7 保护校验，恢复后 | `python3 Scripts/r07-final-integrity.py O6` | 已完成，待 Opus 验收 | exit 0；403 项，changedFiles=[]；这是清理后的状态，不覆盖生成时失败事实 |
+| 3.7 性能表 | `python3 Scripts/r07-compare-performance.py O6` | 失败 | 未采集性能，未执行 |
+| 3.8 原生窗口 | 打开 O6 开发包并用键鼠检查 | 失败 | 本轮无开发包，未执行 |
 
-表中后续项的“失败”表示因前置步骤失败而未执行，不表示这些检查实际运行后出现了错误。完整结构化命令记录见 [command-record.json](command-record.json)。
+后续“失败”项均因前置检查失败而未执行，没有对应的进程退出码，也没有运行后的错误判断。
 
-## 停止位置与只读核对
+## 2.5 重签事实
 
-北京时间 2026-10-24 22:01 执行 generate。完整日志 [generate-20261024-140118.log](generate-20261024-140118.log) 第 455 行：
+空跑和 apply 的五个检查全部为 true：
 
-```text
-InvalidOperationException: Integration step is stale or has errors: Evidence/import-stamp.json. Rerun the preceding Farm menu step.
-```
+`stampMatchesPreMigrationSnapshot`、`prefixReplacementOnly`、`stampStatusImported`、`stampHasNoIssues`、`stampNotAlreadyCurrent`。
 
-调用链为：
+旧 registry SHA 为 `5f1de0afeb014c5cf9971745ab149f93dd43805520739f25f2c226017afe450b`，现 SHA 为 `308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34`，218 处路径前缀迁移。工具备份了原始 stamp；实测备份与第一轮只读副本逐字节相同。重签没有重建模型或 Prefab。
 
-- `FarmProjectBuilder.RequireCurrentStamp`：`Assets/Farm/Editor/FarmProjectBuilder.cs:169`。
-- `FarmProjectBuilder.BuildFarm`：同文件第 279 行，在生成场景之前检查 stamp。
-- `FarmWorldReview.GenerateAndReview`：`Assets/Farm/Editor/FarmWorldReview.cs:18`。
-- `FarmProjectBuilder.R07GenerateReview`：`Assets/Farm/Editor/FarmR07Execution.cs:25`。
+证据：[空跑](import-stamp-resign-dryrun.json)、[正式重签](import-stamp-resign.json)、[旧 stamp 副本](attempt-02/import-stamp-before-path-migration.json)、[重签后副本](attempt-02/import-stamp.json)。正式 apply 只运行一次。
 
-实际执行 JSON 中 `exitCode=1`、`changedProtectedFiles=[]`。本次日志未发现 `error CS` 或 `Shader error`，但本轮没有完成构建和实际渲染，不能由此推定编译或 Shader 验证完成。日志中的启动期 Licensing Error 行也完整保留，未删除或改写。
+## 本次保护检查失败
 
-| 对象 | 实测 SHA256 |
+完整日志：[generate-20261024-141736.log](generate-20261024-141736.log)，122,902 bytes、1,119 行；SHA256 为 `3d7fccf8923e8c169ef47acd24ca7570519a7fec07163156212e913b82a9ce2d`。
+
+[执行 JSON](generate-20261024-141736-execution.json) 中 Unity exitCode=0，但 changedProtectedFiles 有六件。包装器随即退出 1，没有进入 development。该生成日志未找到 C# 编译错误或 Shader error，也未找到负缩放/碰撞相关警告；运行时和开发构建尚未检查。启动期 Licensing Error 保留在完整日志及 [上下文](attempt-02/generate-error-context.txt)。
+
+六件均位于 `Assets/Farm/Materials/OcclusionFade/`：
+
+| 文件 GUID 前缀 | 来源 |
 |---|---|
-| `Evidence/import-stamp.json` 内记录的 registry SHA | `5f1de0afeb014c5cf9971745ab149f93dd43805520739f25f2c226017afe450b` |
-| 当前 `Assets/Farm/Data/asset-registry.json` | `308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34` |
-| D5 before 中历史 registry | `5f1de0afeb014c5cf9971745ab149f93dd43805520739f25f2c226017afe450b` |
+| 73284d9… | S01 主屋 |
+| cf6c92d… | S01 主屋 LOD1 |
+| 74ce7fb… | E08 树 |
+| 8403be2… | E08 树 LOD1 |
+| cc48e14… | E09 树 |
+| 13224fa… | E09 树 LOD1 |
 
-stamp 的状态为 `imported_pending_visual_review`，`issues=[]`，时间为 `2026-10-23T18:25:35.6027540Z`。当前 registry 与本轮输入提交中的文件逐字节相同。
+它们均列入 `Evidence/r07/D5/before/protected-lulu.json`，但语义上是**主屋和树的淡出材质**，不是 Lulu 模型本体。六件文本差异都只有两项：删除 `_ALPHAPREMULTIPLY_ON`，以及 `_SrcBlend: 1 → 5`。没有对应材质纹理引用、颜色或模型几何的差异。
 
-只读比较显示：将历史 registry 中 218 处 `/Users/haowen/IdeaProjects/farm-game` 前缀替换为 `/Users/haowen/GameProject/farm-game` 后，整个文件与当前 registry 逐字节相同。阻塞对应路径迁移后的 registry 哈希变化，而本地导入 stamp 保留迁移前哈希。比较只在内存中进行，没有写回 registry 或 stamp。
+只读代码对应：Builder 第 289/563 行先调用旧 `FarmOcclusionSetup.Configure`；该方法读取已有材质，在第 102 行写 SrcAlpha、第 108 行关闭 premultiply、第 114 行置脏，并在第 72 行 SaveAssets。随后 Builder 第 387 行才调用新 Dither Apply；新方法另存 GeneratedR08，不撤销前面的旧材质写入。本轮未修改这条生成链，也未改保护清单。
 
-O6 第 2–3 节没有重新导入步骤。现有 `ConfigureAndImport()` 会改项目设置、渲染配置并重建全部 Prefab，包含 Lulu；D7 复现说明也要求勿无条件重跑历史导入流程。因此本轮未改 stamp、未重跑该流程、未修改 Opus 代码、未重复同一失败命令。请 Opus 据日志确定适用的导入记录更新或恢复步骤，再接续 O6。
+证据：[变更分析](attempt-02/protected-change-analysis.json)、[生成后保护校验](attempt-02/final-integrity-generated.json)、[完整生成差异](attempt-02/generated-working-tree.patch)、[恢复记录](attempt-02/protected-restoration.json)。六件前后原始文件位于 attempt-02/protected-before 和 protected-after。
 
-## 第 5 节检查与缺项
+为保留旧资源，已在留证后将**仅这六件**恢复为执行前 HEAD 字节；未把恢复后的空变化结果当成生成成功，未绕过检查启动包。请 Opus 修订旧淡出材质的写入路径或明确保护策略后再接续。
 
-| 检查对象 | 本轮实际情况 |
+## 实际查看的图像
+
+生成了 12 张标准图及 18 张后期开启图。索引中 30 组新旧 position/target/fov/width/height 全部相同。实际打开查看了后期组下列五张 O6 原图、五张 D6 原图，并查看了五组并排图：
+
+| Shot | Observed image content |
 |---|---|
-| O3 路线 021–024、015/016 与 D6 同机位 | 未产生 O6 路线截图，未查看新旧对照 |
-| O3 原生窗口房后、树下旋转与恢复 | 未运行 Player，未检查闪烁、风动连续性或亮度变化 |
-| O5 牧场、出生点、总览、主屋正面 | 未产生 O6 固定截图，未检查谷仓遮挡、动物重叠、筒仓方位或镜像光照 |
-| O4 近景碎石、远景边界、动物动作 | 未产生对应 O6 图像或录像，未检查 |
-| 环境声 | **未试听**；本轮未产生 `runtime-audio.wav` |
-| 主会话性能表与墙钟数值 | 未采集；没有 `performance-table.md`、`wallFrameTimeMs` mean/p95/maximum 或 `unscaledDeltaExceedsWallFrames` 数值 |
-| 风动 A/B | 两个会话均未执行 |
-| 实际打开查看的图片 | 本轮没有打开图片。只按计划保存 D6 图像快照，未把历史图像作为 O6 执行证据 |
-| 安装包与人工键鼠操作 | 本轮没有生成或启动 O6 包 |
+| `pasture` | O6谷仓在画面右侧，主屋门和一层正面露出，前方仍有围栏与Lulu。羊与猪轮廓分离，可见羊脚。筒仓在谷仓画面右侧、靠池塘。绿色瓦面和深色瓦缝可见；镜像法线与多角度主光关系未验证。 |
+| `spawn` | D6右下大片绿色谷仓屋顶占据前景；O6仅右下边缘保留一部分谷仓屋顶/墙面，中间围栏及道路露出，前下方可见移位草捆。 |
+| `house-front` | 两版主屋门、灯和台阶均可见；O6右边缘谷仓占画面面积减少。左前梨树树冠仍遮住部分画面。 |
+| `overview` | O6谷仓更小且更靠右。D6顶部浅色地面尖角和直边对蓝色天空较明显；O6天空更灰白、顶部边缘对比较低，但左右地面/天空分界仍可辨认，未记录为完全消失。 |
+| `close-house-road` | 两版道路呈大块浅黄色。D6靠台阶的轻微方块色差较易辨认，O6该处色差较弱；原图中未能清楚辨认独立圆点，圆点形状未确认。右侧阴影位置有变化。 |
 
-## 本机状态
+[查看五组并排证据](attempt-02/same-camera-pairs/)；D6 在左、O6 在右。单张原图 1600×900，拼接图 3200×900；工具显示拼接图时缩至 2048×576，原图也已分别查看。拼接仅原像素并排，未调整曝光、色彩、尺度或灯光，左右半图与原 RGB 像素逐字节核对。其余 25 张 O6 图已保存，**未实际查看**。
 
-macOS 26.4（25E246），arm64；显示信息命令报告 Apple M5。失败后 `pmset -g batt` 报告 `Now drawing from 'AC Power'`，同时电池行显示 `41%; discharging`；原文保存在 [environment-observation.json](environment-observation.json)，未作电源状态推断。显示命令没有枚举连接屏幕，外接显示器情况未验证。
+这些是编辑器固定机位输出，不能替代 Player 路线、原生窗口操作或动态判断。未作美术、法线或渲染验收结论。
 
-准备检查中观察到 Unity Hub/许可证客户端、Codex、Vite 预览服务及 esbuild。没有进行任何性能采集，因此不存在本轮性能会话的并发负载或全屏状态记录；O6 Player 未启动。上述信息不是设备性能结论。
+## 尚未执行与未验证
 
-## 证据与改动范围
+- O3 路线 021–024、015/016：没有本轮路线截图，未检查抖动淡出、半透明叠层或网点。
+- 原生窗口房后与树下旋转：未执行；闪烁、风动连续性、淡入淡出颜色/亮度跳变未验证。
+- 动效录像、环境声：未采集；**未试听**。
+- 31 点路线、碰撞、镜头、人工键鼠：未执行。
+- 主会话及风动 A/B：未执行；没有 wallFrameTimeMs mean/p95/maximum 或 unscaledDeltaExceedsWallFrames 数值，没有性能表、Profiler .data 或时间线。
+- macOS 开发包未构建，其他平台未测。没有设备性能结论。
 
-- [完整生成日志](generate-20261024-140118.log)：36,151 bytes，468 行；SHA256 `0ca285fe91c5a846fed7a1d4f7bf09b859fd846a6ce8b4244146324c3af2b5ef`。
-- [脚本原始执行结果](generate-20261024-140118-execution.json)。
-- [所有 Error / Exception 命中及前后 20 行](failure-context.txt)，保留原日志行号。
-- [导入前置条件的只读审查](failure-audit.json) 与 [原始 stamp 的只读副本](import-stamp-observed.json)。
-- [执行命令记录](command-record.json)、[机器状态](environment-observation.json)。
-- [快照来源与 SHA256](snapshot-manifest.json)：D6 的固定图与后期图来自 D6；代码、Shader、场景及设置快照来自本轮 cfb6818 执行前工作区，不能统称 D6 代码。
-- [保护文件校验](final-integrity.json)：403 项，`changedFiles=[]`，包括校验清单覆盖的 r06 交付、S02 原件、包锁、冻结 Lulu、地面和道路几何。
-- `evidence-files.json` 提供本目录文件体积和 SHA256（不含清单自身）。
+## 环境与工作区
 
-提交范围仅 `lulu-farm-unity/Evidence/r07/O6/`；没有修改工程源代码、生成场景或任何已有证据。没有作验收结论。
+本轮使用同一 Mac 和锁定编辑器。开始前未发现同工程 Editor 或游戏进程；观察到 Hub/许可证客户端、Codex、Vite/esbuild 等进程。因流程未到性能采集，没有性能期间的电源、外接显示器、全屏或并发程序记录，不能借用首轮准备记录冒充性能现场。没有同时采集与编码、看图的情况，因为本轮根本未采性能。
+
+当前本地 `FarmWorld.unity` 和新 `GeneratedR08/` 仍保留 Builder 输出；六个旧材质已恢复。生成时的场景、新材质和 meta 的精确副本在 [attempt-02/generated/](attempt-02/generated/)，旧材质生成后状态另存在 protected-after。未把这些变更直接提交到正式 Assets；没有手工修改场景或 Opus 代码。Unity/包版本、原始模型、r06、旧 Lulu 源文件均未主动修改。
+
+第 2 节 before 快照保留原字节，未重建。第一轮 REPORT、命令记录、机器记录、保护校验和文件清单已归档到 attempt-01，完整首轮日志保留原路径。当前提交范围仅 O6 证据目录。
+
+## 供 Opus 接续的脚本记录
+
+只读查看 `r07-run-player.py` 时发现：O6 的 requiredDuration 当前固定为 900 秒，未根据 `--seconds 320` 改为 300 秒。按计划跑 A/B 时可能得到 requiredDuration=false；此项是**代码条件检查，尚无实跑结果**。本轮未修改脚本或运行更长会话绕过条件。
+
+本次完成的是重签执行、生成尝试、失败留证和部分固定图观察。3.1 保护关卡仍失败；3.2–3.6、性能汇总及 3.8 未完成，交由 Opus 处理后接续。
