@@ -1,0 +1,13 @@
+{
+  "step": "generate",
+  "exitCode": 0,
+  "changedProtectedFiles": [
+    "Assets/Farm/Materials/OcclusionFade/cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat",
+    "Assets/Farm/Materials/OcclusionFade/8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat",
+    "Assets/Farm/Materials/OcclusionFade/74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat",
+    "Assets/Farm/Materials/OcclusionFade/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat",
+    "Assets/Farm/Materials/OcclusionFade/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat",
+    "Assets/Farm/Materials/OcclusionFade/13224fa0a356247299adc90ff8420048-1966872565820863317.mat"
+  ],
+  "log": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/generate-20261024-141736.log"
+}

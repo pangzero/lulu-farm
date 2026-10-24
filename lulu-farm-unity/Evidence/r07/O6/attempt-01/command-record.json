@@ -1,0 +1,69 @@
+{
+  "inputCommit": "cfb6818aff669655371e9e8fd4e13a68aef3cb8d",
+  "commands": [
+    {
+      "step": "preparation",
+      "command": "git fetch origin opus/r07-o6-continue",
+      "exitCode": 0
+    },
+    {
+      "step": "preparation",
+      "command": "git checkout opus/r07-o6-continue",
+      "exitCode": 0
+    },
+    {
+      "step": "preparation",
+      "command": "git lfs pull",
+      "exitCode": 0
+    },
+    {
+      "step": "preparation",
+      "command": "git lfs install --local",
+      "exitCode": 2,
+      "observation": "Existing absolute-path filter configuration caused git-lfs to request --force. No Unity step ran in this invocation."
+    },
+    {
+      "step": "preparation",
+      "command": "git lfs install --local --skip-repo --force",
+      "exitCode": 0,
+      "scope": "local Git filters only; existing hooks retained"
+    },
+    {
+      "step": "preparation",
+      "command": "git lfs pull",
+      "exitCode": 0
+    },
+    {
+      "step": "2",
+      "command": "python3 Scripts/r07-evidence-index.py O6 --before D6",
+      "exitCode": 0
+    },
+    {
+      "step": "3.1",
+      "command": "python3 Scripts/r07-run-editor.py O6 generate development",
+      "exitCode": 1,
+      "generateExitCode": 1,
+      "developmentExitCode": null,
+      "executionFile": "generate-20261024-140118-execution.json"
+    },
+    {
+      "step": "post-failure-protection-check",
+      "command": "python3 Scripts/r07-final-integrity.py O6",
+      "exitCode": 0,
+      "checkedFiles": 403,
+      "changedFiles": []
+    }
+  ],
+  "notExecuted": [
+    "development",
+    "route",
+    "ambient",
+    "performance",
+    "performance --label wind-off --wind off --seconds 320",
+    "performance --label wind-on --seconds 320",
+    "export (main, wind-off, wind-on)",
+    "r07-evidence-index.py O6 (after results)",
+    "r07-compare-performance.py O6",
+    "native keyboard/mouse inspection"
+  ]
+}

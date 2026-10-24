@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "E08-8403be2f76de64eaeb17cec4afc8b121--5697061326574116905-r08 \u2014 dither
+    fade r08"
+  m_Shader: {fileID: 4800000, guid: b9ca25d6d7f348b090f4f346a37149af, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: f7a84a4a929564b4db23a2078af09218, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 9cf3721ad144649d0ba4413e2290dc23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Amplitude: 0.025
+    - _BreathAmp: 0.003
+    - _Cull: 0
+    - _FadeOpacity: 1
+    - _FloorY: -0.9516207
+    - _MotionMode: 1
+    - _NormalScale: 0.25
+    - _Phase: 0.23609783
+    - _Smoothness: 0.16000003
+    - _SpecularFactor: 0.48
+    - _TurnAmp: 0.035
+    - _WindStart: 1.15
+    - _WindTop: 3.2
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HeadLimits: {r: 0.05, g: 0.5, b: -0.15, a: 0.15}
+    - _HeadPivot: {r: 0, g: 0.05, b: 0.25, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

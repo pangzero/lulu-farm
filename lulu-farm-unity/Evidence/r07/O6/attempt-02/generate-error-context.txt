@@ -1,0 +1,144 @@
+Complete Error/Exception contexts (+/-20 lines); original full log retained at parent.
+59:     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+60:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+61:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+62:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+63:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+64:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+65:     "memorysetup-temp-allocator-size-gfx=262144"
+66: Player connection [8318097600]  Target information:
+67: 
+68: Player connection [8318097600]  * "[IP] 192.168.3.56 [Port] 55504 [Flags] 2 [Guid] 998374036 [EditorId] 998374036 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+69: 
+70: Player connection [8318097600]  * "[IP] 2.0.0.1 [Port] 55504 [Flags] 2 [Guid] 998374036 [EditorId] 998374036 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+71: 
+72: Player connection [8318097600] Host joined multi-casting on [225.0.0.222:54997]...
+73: Player connection [8318097600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+74: Input System module state changed to: Initialized.
+75: [Physics::Module] Initialized fallback backend.
+76: [Physics::Module] Id: 0xdecafbad
+77: [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 950, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+78: [Licensing::Module] LicensingClient has failed validation; ignoring
+79: [Licensing::Client] Error: HandshakeResponse reported an error:
+80: 	ResponseCode: 505
+81: 	ResponseStatus: Unsupported protocol version '1.18.1'.
+82: [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-haowen"
+83: [Licensing::IpcConnector] LicenseClient-haowen channel disconnected successfully.
+84: [Licensing::IpcConnector] Channel LicenseClient-haowen-6000.3.16 doesn't exist
+85: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client
+86: [Licensing::Module] Successfully launched the LicensingClient (PId: 26772)
+87: [Package Manager] Connected to IPC stream "Upm-26759" after 0.2 seconds.
+88: [Licensing::Module] Licensing is not yet initialized.
+89: [Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16" at "2026-10-24T14:17:36.926869Z"
+90: [Licensing::Client] Handshaking with LicensingClient:
+91:   Version:                 1.18.1+9fbee8e
+92:   Session Id:              9b72a42d2e8745b58d08020cdd98dd86
+93:   Correlation Id:          7d4227e0007f3a6ce61ed3916ce9120b
+94:   External correlation Id: 2817956682139185632
+95:   Machine Id:              /Nupwpvn+B6eSAVQ3yApaC/kimk=
+96: [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-haowen-6000.3.16" (connect: 0.38s, validation: 0.06s, handshake: 0.21s)
+97: [Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16-notifications" at "2026-10-24T14:17:37.191968Z"
+98: [Licensing::Module] Connected to LicensingClient (PId: 26772, launch time: 0.00, total connection time: 0.65s)
+99: [Licensing::Module] Error: Access token is unavailable; failed to update
+100: [Licensing::Client] Successfully resolved entitlement details
+101: [Licensing::Module] License group:
+102:   Id: F4-NVMZ-M74F-8H5W-26YW-XXXX
+103:   Product: Unity Personal
+104:   Type: ULF
+105:   Expiration: 2026-11-03T10:23:04Z
+106: [Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+107: [Licensing::Client] Successfully resolved entitlement details
+108: [Licensing::Module] Licensing Background thread has ended after 0.93s
+109: [Licensing::Module] Licensing is initialized (took 0.51s).
+110: [Licensing::Client] Successfully resolved entitlement details
+111: Library Redirect Path: Library/
+112: [Physics::Module] Selected backend.
+113: [Physics::Module] Name: PhysX
+114: [Physics::Module] Id: 0xf2b8ea05
+115: [Physics::Module] SDK Version: 4.1.2
+116: [Physics::Module] Integration Version: 1.0.0
+117: [Physics::Module] Threading Mode: Multi-Threaded
+118: Artifact Garbage Collection - Removed 1 unused hashed content files
+119: Targeting platform: StandaloneOSX
+158: 		ExecutionOrderSort (0ms)
+159: 		DisableScriptedObjects (0ms)
+160: 		BackupInstance (0ms)
+161: 		ReleaseScriptingObjects (0ms)
+162: 		CreateAndSetChildDomain (1ms)
+163: 	RebuildCommonClasses (21ms)
+164: 	RebuildNativeTypeToScriptingClass (6ms)
+165: 	initialDomainReloadingComplete (20ms)
+166: 	LoadAllAssembliesAndSetupDomain (82ms)
+167: 		LoadAssemblies (81ms)
+168: 		RebuildTransferFunctionScriptingTraits (0ms)
+169: 		AnalyzeDomain (80ms)
+170: 			TypeCache.Refresh (79ms)
+171: 				TypeCache.ScanAssembly (70ms)
+172: 			BuildScriptInfoCaches (0ms)
+173: 			ResolveRequiredComponents (0ms)
+174: 	FinalizeReload (164ms)
+175: 		ReleaseScriptCaches (0ms)
+176: 		RebuildScriptCaches (0ms)
+177: 		SetupLoadedEditorAssemblies (146ms)
+178: 			LogAssemblyErrors (0ms)
+179: 			InitializePlatformSupportModulesInManaged (19ms)
+180: 			SetLoadedEditorAssemblies (2ms)
+181: 			BeforeProcessingInitializeOnLoad (33ms)
+182: 			ProcessInitializeOnLoadAttributes (53ms)
+183: 			ProcessInitializeOnLoadMethodAttributes (39ms)
+184: 			AfterProcessingInitializeOnLoad (0ms)
+185: 			EditorAssembliesLoaded (0ms)
+186: 		ExecutionOrderSort2 (0ms)
+187: 		AwakeInstancesAfterBackupRestoration (0ms)
+188: [Licensing::Client] Successfully resolved entitlement details
+189: Application.AssetDatabase Initial Refresh Start
+190: [Package Manager] Restoring resolved packages state from cache
+191: [Licensing::Client] Successfully resolved entitlement details
+192: [Package Manager] Registered 30 packages:
+193:   Packages from [https://packages.unity.com]:
+194:     com.unity.cinemachine@3.1.5 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cinemachine@5342685532bb)
+195:     com.unity.inputsystem@1.14.2 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5)
+196:     com.unity.cloud.gltfast@6.20.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cloud.gltfast@11ddc2436f97)
+197:     com.unity.burst@1.8.30 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.burst@2f3d916873ea)
+198:     com.unity.collections@2.6.8 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.collections@84e8eb3fc12e)
+282: 		ExecutionOrderSort (0ms)
+283: 		DisableScriptedObjects (7ms)
+284: 		BackupInstance (0ms)
+285: 		ReleaseScriptingObjects (0ms)
+286: 		CreateAndSetChildDomain (14ms)
+287: 	RebuildCommonClasses (15ms)
+288: 	RebuildNativeTypeToScriptingClass (6ms)
+289: 	initialDomainReloadingComplete (8ms)
+290: 	LoadAllAssembliesAndSetupDomain (156ms)
+291: 		LoadAssemblies (120ms)
+292: 		RebuildTransferFunctionScriptingTraits (0ms)
+293: 		AnalyzeDomain (63ms)
+294: 			TypeCache.Refresh (46ms)
+295: 				TypeCache.ScanAssembly (40ms)
+296: 			BuildScriptInfoCaches (12ms)
+297: 			ResolveRequiredComponents (4ms)
+298: 	FinalizeReload (1217ms)
+299: 		ReleaseScriptCaches (0ms)
+300: 		RebuildScriptCaches (0ms)
+301: 		SetupLoadedEditorAssemblies (1085ms)
+302: 			LogAssemblyErrors (0ms)
+303: 			InitializePlatformSupportModulesInManaged (7ms)
+304: 			SetLoadedEditorAssemblies (1ms)
+305: 			BeforeProcessingInitializeOnLoad (56ms)
+306: 			ProcessInitializeOnLoadAttributes (938ms)
+307: 			ProcessInitializeOnLoadMethodAttributes (81ms)
+308: 			AfterProcessingInitializeOnLoad (1ms)
+309: 			EditorAssembliesLoaded (0ms)
+310: 		ExecutionOrderSort2 (0ms)
+311: 		AwakeInstancesAfterBackupRestoration (7ms)
+312: Asset Pipeline Refresh (id=c08e1480556274c2088027eceabc6d6f): Total: 2.439 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+313: 	Summary:
+314: 		Imports: total=0 (actual=0, local cache=0, cache server=0)
+315: 		Asset DB Process Time: managed=0 ms, native=1542 ms
+316: 		Asset DB Callback time: managed=11 ms, native=4 ms
+317: 		Scripting: domain reloads=1, domain reload time=246 ms, compile time=621 ms, other=12 ms
+318: 		Project Asset Count: scripts=1109, non-scripts=3018
+319: 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+320: 		Scan Filter Count: 1
+321: 	InvokeCustomDependenciesCallbacks: 0.000ms
+322: 	InvokePackagesCallback: 4.566ms
