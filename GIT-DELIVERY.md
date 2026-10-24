@@ -4,7 +4,7 @@
 
 - 目标：`https://github.com/pangzero/lulu-farm`，必须为私有仓库。
 - 本地仓库：`/Users/haowen/GameProject/farm-game`，分支 main。
-- 当前状态：本地 Git/LFS 已建立；远端创建及首次推送等待 pangzero 登录授权，尚未声称已上传。
+- 当前状态：本地 Git/LFS 已建立；远端私有仓库已创建，连接器核实 visibility=private、push=true。首次推送尚未执行：GitHub CLI 登录页面列出覆盖全部私有仓库、公钥、Gist 和组织信息的既有权限，自动审批拒绝代点授权，等待用户明确选择授权范围。
 - 首次内容：约 2.1GB 工作树；776 个 LFS 文件，去重后 766 个对象、1,613,152,049 字节。包含完整 Unity 已暂存运行资产、代码、文档和参考图。
 - 本机 165GB 工作区的历史原件、网页模型库、82GB Evidence、编辑器和缓存不在此首次上传范围；本地未删除。完整远端素材范围若调整，另做容量清单。
 - GitHub 连接器账号为 pangzero；现有 SSH 账号为 harveyPang。仓库使用 HTTPS 独立认证，不改公司项目 SSH。
