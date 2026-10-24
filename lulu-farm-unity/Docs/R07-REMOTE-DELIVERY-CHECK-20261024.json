@@ -42,5 +42,13 @@
   },
   "totalGitLfsUniqueObjects": 2796,
   "totalGitLfsUniqueBytes": 4128680840,
-  "acceptance": "Transfer verification only. Existing WIP, artistic, performance and device acceptance states remain unchanged."
+  "acceptance": "Transfer verification only. Existing WIP, artistic, performance and device acceptance states remain unchanged.",
+  "visibilityCheck": {
+    "observedDuringFinalCheck": "public",
+    "restoredTo": "private",
+    "restoreConfirmedAtUtc": "2026-10-24T10:44:07Z",
+    "independentConnectorConfirmed": "private",
+    "actorAndDuration": "not determined",
+    "accessWhilePublic": "not determined"
+  }
 }

@@ -35,3 +35,5 @@ User separately approved the r07 evidence supplement: 3,811 existing files / 2,5
 Use `lulu-farm-unity/Docs/R07-OPUS-CONTINUE-20261024.md` and both remote manifests for the updated scope and continuation.
 
 Supplement verification completed: all 60 Lulu files were downloaded from a fresh remote clone and matched SHA256. All 3,811 r07 paths were checked; 1,259 regular file hashes and 2,552 LFS pointer hashes/sizes matched. An actual D6 screenshot and compressed valid-session timeline were downloaded, hash-checked and decoded. All 3,871 local source/evidence file hashes were rechecked unchanged. No model, scene or art state was promoted by this transfer. Current LFS content: 2,796 unique objects / 4,128,680,840 bytes.
+
+Visibility incident: the final API check unexpectedly returned public. The repository was restored to the user-required private visibility at 2026-10-24T10:44:07Z and independently confirmed private through the GitHub connector. The actor, duration and any access while public are unknown. Do not make the repository public to give another agent access; configure that agent with authorized private-repository access.
