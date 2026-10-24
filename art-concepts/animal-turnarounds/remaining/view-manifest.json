@@ -1,0 +1,624 @@
+{
+  "date": "2026-10-17",
+  "generator": "Codex built-in ImageGen",
+  "extraction": "Native sips crop; RGB pixels verified identical to source panels, no resampling or view repainting.",
+  "view_order": [
+    "front",
+    "side",
+    "back"
+  ],
+  "side_convention": "Animal left side, nose facing image left.",
+  "assets": [
+    {
+      "id": "A01",
+      "name": "鸡",
+      "slug": "chicken",
+      "preview": "A01-chicken/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A01-chicken/front.png",
+          "width": 650,
+          "height": 799,
+          "source_box": [
+            1,
+            0,
+            651,
+            799
+          ],
+          "sha256": "5ce2d74b48f0a54ece95a3bbc040901acf964d3f12b920060ba8e17ba86ffd8c"
+        },
+        {
+          "view": "side",
+          "file": "A01-chicken/side.png",
+          "width": 645,
+          "height": 799,
+          "source_box": [
+            661,
+            0,
+            1306,
+            799
+          ],
+          "sha256": "28bd791eb143eae0bbc0e10319374eb1fb8a8cf1582a46e7993a3bf561772642"
+        },
+        {
+          "view": "back",
+          "file": "A01-chicken/back.png",
+          "width": 652,
+          "height": 799,
+          "source_box": [
+            1316,
+            0,
+            1968,
+            799
+          ],
+          "sha256": "720f72e352aa48c915239dd9095fda30bb0b83a7625a237f7f5cf2f203e3dc8f"
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "name": "粉猪",
+      "slug": "pig",
+      "preview": "A02-pig/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A02-pig/front.png",
+          "width": 720,
+          "height": 724,
+          "source_box": [
+            1,
+            0,
+            721,
+            724
+          ],
+          "sha256": "838a5bc74a1e0db02a317c27126dece0ffaf31ef22e6fa9ba01ee259e2bd7210"
+        },
+        {
+          "view": "side",
+          "file": "A02-pig/side.png",
+          "width": 718,
+          "height": 724,
+          "source_box": [
+            727,
+            0,
+            1445,
+            724
+          ],
+          "sha256": "e89c0cc1c11d4d5d68329d3a9971a23645a2bc27f6631af8e4454e3bcf95024d"
+        },
+        {
+          "view": "back",
+          "file": "A02-pig/back.png",
+          "width": 721,
+          "height": 724,
+          "source_box": [
+            1451,
+            0,
+            2172,
+            724
+          ],
+          "sha256": "73da688be9669fc5455099d57dca6940fded8b3d0d96805cb65d3fcbc73d77db"
+        }
+      ]
+    },
+    {
+      "id": "A04",
+      "name": "羊驼",
+      "slug": "alpaca",
+      "preview": "A04-alpaca/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A04-alpaca/front.png",
+          "width": 642,
+          "height": 809,
+          "source_box": [
+            1,
+            0,
+            643,
+            809
+          ],
+          "sha256": "856f089bf2ab1d0d65642c7dca3af2a09d3ffa3657b2fd5f0ad377ee73dc0c60"
+        },
+        {
+          "view": "side",
+          "file": "A04-alpaca/side.png",
+          "width": 641,
+          "height": 809,
+          "source_box": [
+            651,
+            0,
+            1292,
+            809
+          ],
+          "sha256": "a7f37b961dcdcd634b34b3e7265cd9cbd3e022108df1b8c80c70b7230e6c0ff0"
+        },
+        {
+          "view": "back",
+          "file": "A04-alpaca/back.png",
+          "width": 643,
+          "height": 809,
+          "source_box": [
+            1299,
+            0,
+            1942,
+            809
+          ],
+          "sha256": "ddd677999b31a619651f692f6bb77725ac5258a25c591b4e70fb90a28be34cce"
+        }
+      ]
+    },
+    {
+      "id": "A05",
+      "name": "仓鼠",
+      "slug": "hamster",
+      "preview": "A05-hamster/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A05-hamster/front.png",
+          "width": 653,
+          "height": 793,
+          "source_box": [
+            1,
+            0,
+            654,
+            793
+          ],
+          "sha256": "07938034e02cf82eb0b4090c19762926c74bd37948daef5a1539016e2bbde94a"
+        },
+        {
+          "view": "side",
+          "file": "A05-hamster/side.png",
+          "width": 654,
+          "height": 793,
+          "source_box": [
+            662,
+            0,
+            1316,
+            793
+          ],
+          "sha256": "3f6c45a51f002b7da6cf107f20443db061e021994cfd43d28266db99ec38a36e"
+        },
+        {
+          "view": "back",
+          "file": "A05-hamster/back.png",
+          "width": 659,
+          "height": 793,
+          "source_box": [
+            1324,
+            0,
+            1983,
+            793
+          ],
+          "sha256": "3106dc99e98e516136652c83aa7fc8e39597aace7b1ee89ff4ca8e5d11eb5d47"
+        }
+      ]
+    },
+    {
+      "id": "A08",
+      "name": "兔子",
+      "slug": "rabbit",
+      "preview": "A08-rabbit/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A08-rabbit/front.png",
+          "width": 646,
+          "height": 809,
+          "source_box": [
+            1,
+            0,
+            647,
+            809
+          ],
+          "sha256": "017758026379f40e32191e55943eb9e1c8ab7a33198a9140812d3860f5f5240f"
+        },
+        {
+          "view": "side",
+          "file": "A08-rabbit/side.png",
+          "width": 636,
+          "height": 809,
+          "source_box": [
+            653,
+            0,
+            1289,
+            809
+          ],
+          "sha256": "477bcc4e5bdb661bbf155d8595b8fd84b591e6f08e55072781a90be33de625ac"
+        },
+        {
+          "view": "back",
+          "file": "A08-rabbit/back.png",
+          "width": 647,
+          "height": 809,
+          "source_box": [
+            1295,
+            0,
+            1942,
+            809
+          ],
+          "sha256": "54e94691d76c0d4253c4727bd2f87610f690f25fa5b4bdc84fc7bc7c1d6d4e65"
+        }
+      ]
+    },
+    {
+      "id": "A09",
+      "name": "驴",
+      "slug": "donkey",
+      "preview": "A09-donkey/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A09-donkey/front.png",
+          "width": 650,
+          "height": 793,
+          "source_box": [
+            1,
+            0,
+            651,
+            793
+          ],
+          "sha256": "0f5ac3bf01e57120f2aa913b9c3b6c477d635d78f88555e2be6bdefeb4461673"
+        },
+        {
+          "view": "side",
+          "file": "A09-donkey/side.png",
+          "width": 665,
+          "height": 793,
+          "source_box": [
+            659,
+            0,
+            1324,
+            793
+          ],
+          "sha256": "a9fa533b1d642bf292e974795c9d65d872eec394b067d38e37237b92649519b0"
+        },
+        {
+          "view": "back",
+          "file": "A09-donkey/back.png",
+          "width": 651,
+          "height": 793,
+          "source_box": [
+            1332,
+            0,
+            1983,
+            793
+          ],
+          "sha256": "6fc27f1479bcaf9c2629d8a5270060020d8ba69c14a1ed6ce34cd6476d70e0c2"
+        }
+      ]
+    },
+    {
+      "id": "A10",
+      "name": "普通水豚",
+      "slug": "capybara",
+      "preview": "A10-capybara/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A10-capybara/front.png",
+          "width": 658,
+          "height": 724,
+          "source_box": [
+            1,
+            0,
+            659,
+            724
+          ],
+          "sha256": "66a53d77e47e8f9a3835f5be0ce17d54e57d37abe1901d038223d6e52697557b"
+        },
+        {
+          "view": "side",
+          "file": "A10-capybara/side.png",
+          "width": 840,
+          "height": 724,
+          "source_box": [
+            666,
+            0,
+            1506,
+            724
+          ],
+          "sha256": "e373ea2002dabd95655274deeaf2903e049a5ff450ecae457f2680d6549acfef"
+        },
+        {
+          "view": "back",
+          "file": "A10-capybara/back.png",
+          "width": 659,
+          "height": 724,
+          "source_box": [
+            1513,
+            0,
+            2172,
+            724
+          ],
+          "sha256": "7bace938dd522aa8fe4511f0286884684f7eb97e3ee49c29460e8a4e7cd396a6"
+        }
+      ]
+    },
+    {
+      "id": "A11",
+      "name": "鸵鸟",
+      "slug": "ostrich",
+      "preview": "A11-ostrich/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A11-ostrich/front.png",
+          "width": 586,
+          "height": 887,
+          "source_box": [
+            1,
+            0,
+            587,
+            887
+          ],
+          "sha256": "d06fa21b5e83c631513c90bc4fdb498416fa78a76eee7576b99049e64f16fd90"
+        },
+        {
+          "view": "side",
+          "file": "A11-ostrich/side.png",
+          "width": 585,
+          "height": 887,
+          "source_box": [
+            594,
+            0,
+            1179,
+            887
+          ],
+          "sha256": "e8711086141f7389a1ecbb26a426bad4daa70b690f96cb2c017ce74995a2ad4d"
+        },
+        {
+          "view": "back",
+          "file": "A11-ostrich/back.png",
+          "width": 588,
+          "height": 887,
+          "source_box": [
+            1186,
+            0,
+            1774,
+            887
+          ],
+          "sha256": "65ee85ccce312a89e8cba9701833f83c8ab8ccf70180dd464261c97f91d010c6"
+        }
+      ]
+    },
+    {
+      "id": "A12",
+      "name": "小马",
+      "slug": "pony",
+      "preview": "A12-pony/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A12-pony/front.png",
+          "width": 632,
+          "height": 809,
+          "source_box": [
+            1,
+            0,
+            633,
+            809
+          ],
+          "sha256": "990ee200f0a9b8a45388eda6783d85697536360622530f7d5e44fbdc0fe006bb"
+        },
+        {
+          "view": "side",
+          "file": "A12-pony/side.png",
+          "width": 661,
+          "height": 809,
+          "source_box": [
+            640,
+            0,
+            1301,
+            809
+          ],
+          "sha256": "dda2f68ad03eda9dc8087cc269f05fb4f98954dd334941f883f348aa12dd7987"
+        },
+        {
+          "view": "back",
+          "file": "A12-pony/back.png",
+          "width": 634,
+          "height": 809,
+          "source_box": [
+            1308,
+            0,
+            1942,
+            809
+          ],
+          "sha256": "eb8b4aa8d96d32719211849a016cad922e374da39bc869f6253dd04c11dc96da"
+        }
+      ]
+    },
+    {
+      "id": "A13",
+      "name": "白鹅",
+      "slug": "goose",
+      "preview": "A13-goose/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A13-goose/front.png",
+          "width": 643,
+          "height": 809,
+          "source_box": [
+            1,
+            0,
+            644,
+            809
+          ],
+          "sha256": "3fb31860328d31f5f393410876bcd489aacaf56b92ab8a52ac7496317467611e"
+        },
+        {
+          "view": "side",
+          "file": "A13-goose/side.png",
+          "width": 640,
+          "height": 809,
+          "source_box": [
+            651,
+            0,
+            1291,
+            809
+          ],
+          "sha256": "bf3ae82dbab739438bcca2f5899256a3703babb3a43cd33340d96beb86e9510b"
+        },
+        {
+          "view": "back",
+          "file": "A13-goose/back.png",
+          "width": 644,
+          "height": 809,
+          "source_box": [
+            1298,
+            0,
+            1942,
+            809
+          ],
+          "sha256": "e7efd599e126ae2a3b569553e6390d732a53d986cf40ea60c34f023a3e7a0d09"
+        }
+      ]
+    },
+    {
+      "id": "A14",
+      "name": "山羊",
+      "slug": "goat",
+      "preview": "A14-goat/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A14-goat/front.png",
+          "width": 692,
+          "height": 753,
+          "source_box": [
+            1,
+            0,
+            693,
+            753
+          ],
+          "sha256": "4fe2ffafd401f73e11dfc8a721c9561952e5da76f4ab685ddddb42525e98eaed"
+        },
+        {
+          "view": "side",
+          "file": "A14-goat/side.png",
+          "width": 689,
+          "height": 753,
+          "source_box": [
+            700,
+            0,
+            1389,
+            753
+          ],
+          "sha256": "479d13f2621e83f7c15d97701570e053fd2cc85dd44a92431dbca1c6bcf0da07"
+        },
+        {
+          "view": "back",
+          "file": "A14-goat/back.png",
+          "width": 693,
+          "height": 753,
+          "source_box": [
+            1396,
+            0,
+            2089,
+            753
+          ],
+          "sha256": "bba2db2f4e1a8f96e7d6c1f2094bb19a9ad51fab1c7994a128c5a16b0db99473"
+        }
+      ]
+    },
+    {
+      "id": "A15",
+      "name": "小鹿",
+      "slug": "deer",
+      "preview": "A15-deer/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A15-deer/front.png",
+          "width": 641,
+          "height": 809,
+          "source_box": [
+            1,
+            0,
+            642,
+            809
+          ],
+          "sha256": "2cb68fe0cce74168e43c5b820f8271a135f47c2062c20c3ed0befd092f4d0b2d"
+        },
+        {
+          "view": "side",
+          "file": "A15-deer/side.png",
+          "width": 642,
+          "height": 809,
+          "source_box": [
+            650,
+            0,
+            1292,
+            809
+          ],
+          "sha256": "0e20f56d19182476448a32bfe241f488fae4e2eee9551dab7b1ca257936f7737"
+        },
+        {
+          "view": "back",
+          "file": "A15-deer/back.png",
+          "width": 642,
+          "height": 809,
+          "source_box": [
+            1300,
+            0,
+            1942,
+            809
+          ],
+          "sha256": "09574749f9923c03d85ba95c16a9eb282b941ff4dc60604681cc76049bc87a68"
+        }
+      ]
+    },
+    {
+      "id": "A16",
+      "name": "黑猪",
+      "slug": "black-pig",
+      "preview": "A16-black-pig/turnaround.png",
+      "views": [
+        {
+          "view": "front",
+          "file": "A16-black-pig/front.png",
+          "width": 720,
+          "height": 724,
+          "source_box": [
+            1,
+            0,
+            721,
+            724
+          ],
+          "sha256": "a7e65d7c9b408782600e26f1670a133a4101502943d91ce7caaa08d1a6672f71"
+        },
+        {
+          "view": "side",
+          "file": "A16-black-pig/side.png",
+          "width": 718,
+          "height": 724,
+          "source_box": [
+            727,
+            0,
+            1445,
+            724
+          ],
+          "sha256": "78b56fc04f1bec992c7da3cc2907184c18ef746adc174a799a9554d4ba8d26f5"
+        },
+        {
+          "view": "back",
+          "file": "A16-black-pig/back.png",
+          "width": 721,
+          "height": 724,
+          "source_box": [
+            1451,
+            0,
+            2172,
+            724
+          ],
+          "sha256": "2b7517323756d6d097345efb9317fdbf7f076d7f3c4ab5760bccba01d903bbe4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Lulu Studio · B02 建筑风格样板</title></head>
+<body>
+  <header><a href="/b01.html">← B01 美术基准</a><strong>Lulu Studio / B02</strong><span>r04 美术样板 · 用户已认可</span></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">BLENDER STUDY · FACADE & FENCE</p><h1>立面与围栏的风格样板</h1><p>S01 主屋立面样段，非完整主屋 · S05 围栏直段 · 实际 GLB</p></div><a id="download" download>下载当前 GLB ↓</a></div>
+    <div class="toolbar">
+      <label>资产 <select id="asset"><option value="facade">S01 主屋立面样段</option><option value="fence">S05 围栏直段</option></select></label>
+      <label>版本 <select id="revision"><option value="r04">r04 · 用户已认可</option><option value="r03">r03 · 几何清理前</option><option value="r02">r02 · 背面修正前</option><option value="r01">r01 · 首轮</option></select></label>
+      <label>场景 <select id="layout"><option value="single">单件近景</option><option value="three">围栏三段连续拼接</option><option value="scale">立面 / 围栏 / Lulu 比例</option><option value="farm">12 × 8 格 · 使用距离</option></select></label>
+      <label>显示 <select id="material"><option value="color">原始材质</option><option value="clay">中性灰模</option><option value="wire">线框</option></select></label>
+    </div>
+    <div class="views"><button data-view="quarter">3/4</button><button data-view="front">正面</button><button data-view="side">侧面</button><button data-view="back">背面</button><button data-view="top">俯视</button><button id="rotate">自动旋转</button><span id="comparison"></span></div>
+    <div class="canvas-scroll"><div id="stage"></div></div>
+    <div class="bottom"><strong id="status" role="status">正在载入实际 GLB…</strong><span id="dimensions"></span><a id="source" download>Blender 源文件 ↓</a></div>
+    <p class="note">拖动旋转 · 滚轮缩放 · 右键平移。固定画布 1280 × 720、DPR 1、sRGB、NoToneMapping；灯光沿用 B01 r03。资产保持 Blender 制作尺寸，Lulu 只读缩放至高 1.2 单位。12 × 8 田格是中性检查台。</p>
+    <details open><summary>本批范围与拼接规则 · r04 用户已认可</summary>
+      <p>S01 仅交付门、窗、墙面和屋檐的立面样段，用于检查进深、厚度、柔和倒角和 Lulu 比例。完整主屋属于后续 B14，本页不表示整栋主屋完成。</p>
+      <p>S05 重复段原点在左柱中心，跨距 1.20。三段实例位于 X = 0 / 1.20 / 2.40，末端柱位于 X = 3.60；单段末端柱位于 X = 1.20。每个重复段只含左柱和两根横档，末端柱独立，避免接头重复柱。预览只作整体居中，不缩放实例。</p>
+      <p>柱宽 0.22、深 0.24、高 0.94；横档长 0.98、深 0.11、高 0.15，X 范围 0.11–1.09，高度中心 Z = 0.32 / 0.67（Blender 坐标）。横档端面对接相邻柱表面，拼接采用原始单位。</p>
+      <p><a id="endcap-download" href="/models/farm-assets/B02/s05-fence-endcap-r04.glb" download>下载所选版本围栏末端柱 GLB</a> · <a href="/models/farm-assets/B02/manifest.json">B02 清单</a> · <a href="/@fs/Users/haowen/GameProject/farm-game/lulu-studio/review/farm-assets/B02/acceptance.json">B02 验收记录</a> · <a href="/b01.html?revision=r03">查看已认可 B01 r03</a></p>
+    </details>
+  </main>
+  <script type="module" src="/src/b02.ts"></script>
+</body>
+</html>

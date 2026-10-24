@@ -1,0 +1,2374 @@
+{
+  "utc": "2026-10-22T18:46:29.608783+00:00",
+  "registrySHA256": "ab7e1773ed2607314d37100e2fd5817c0b80e64c8c99465271262b88d47bf638",
+  "status": "staging_payload_pass",
+  "scope": "GLB-to-glTF conversion only; no Unity import, rendering, runtime or device acceptance",
+  "checks": {
+    "uniqueIds": true,
+    "deferredAbsent": true
+  },
+  "assets": [
+    {
+      "id": "cabbage-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "1dde977a59b8f11250d166d355e0db1b6d7ed10feb92e5f3227826151008326a",
+      "importSHA256": "a175aaa6fa5e73285ecfaa5567becef008c71a43f38705bf7ac2169e567d8c51",
+      "geometryAnimationBytes": 251840,
+      "imageSHA256": [
+        "95adcd6af0f09fd224b52a08f84ac90b776eb248a58a3d9e0db2cfd7025dd257",
+        "7830967b47c05bd365f2ec82a80925545b248ed6c8d3535d9e8a5bb7c2e2cd41"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cabbage-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "1dde977a59b8f11250d166d355e0db1b6d7ed10feb92e5f3227826151008326a",
+      "importSHA256": "bd9ff23e568a6fad019dd318abad160624218ac350ca7d65210385f81923d486",
+      "geometryAnimationBytes": 198336,
+      "imageSHA256": [
+        "70cacabd3e6d998f19fc027977c8376958c752ee0c607ac700c3c5c09e213fc0",
+        "50075f49d66654f7bddda0cf3cd224abb4e616deeda1a7fde568fc6bebabc97c"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "tomato-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "134e406a6258813404975a84b0794352bbb08b95a22e0aad964564b03fe2ec3a",
+      "importSHA256": "b410846ff3f1f999c0aa4b8f81737a3fe1a4d947362c202e80b54e542f778794",
+      "geometryAnimationBytes": 656384,
+      "imageSHA256": [
+        "41729fd4cd58949d03023f6605a96c7c5da3bcce6e9d2b08508f94051ab75c6d",
+        "1dc8d6a14042828d1c75bed5ee180c7d2447370ccd6c16cdd42f87d036b7b3fc"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "tomato-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "134e406a6258813404975a84b0794352bbb08b95a22e0aad964564b03fe2ec3a",
+      "importSHA256": "d82cbe3b97446e13032ad3c3853bd3d7f157e0eb923742de26414cf81e5d9edf",
+      "geometryAnimationBytes": 443280,
+      "imageSHA256": [
+        "b9961ee11e736228cbb8dc75d854e32773e235b3e0ce05d6f53723dd0a666a22",
+        "3074f0e4e89ac70a41ab37f5f1984798888b24babcbd6625c7a0a61199486cec"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "tomato-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "a8a8b2284dd38c01b10bb4989ce3336c082e20d5bb3a401111ece98b360b24d4",
+      "importSHA256": "ed09327f9449b65206e2f0643c3e500059fb27b17f66539f3e3363f7ccec7049",
+      "geometryAnimationBytes": 128936,
+      "imageSHA256": [
+        "261b573ab3c5c7e11936a190015fb49f90c76075d203bd0e661b09d742f2e689",
+        "c08c240cf7ac7be1acc522815cb8740419acd6babebbe98e7275dea3ba9e1932"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "tomato-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "a8a8b2284dd38c01b10bb4989ce3336c082e20d5bb3a401111ece98b360b24d4",
+      "importSHA256": "e2a3b4481ad652ce2ad0643ea1c8b0aed035243e904d454cf4c5d592e834ea33",
+      "geometryAnimationBytes": 84648,
+      "imageSHA256": [
+        "4bbc81c1d30281b9a4ce3313c0d2562497a22f5bdfc78591cfc0a24c34ec9ffc",
+        "99761570c37af25bc75df13bee096762b22ffad0565d898f01bd7fed2c251a1d"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "corn-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "93cf03eec72645bc3163328cde7e64cde9810c966c148aa558c92f67a1a80280",
+      "importSHA256": "6e1ef29f3d75f2440296e0059f20be31ea0d85b44dd51a9c2e537317a46e3e42",
+      "geometryAnimationBytes": 408640,
+      "imageSHA256": [
+        "7534d3e810745216bcb3da9a319041a6cc2c2451df26eeb8b4712e9937ff0cc1",
+        "b6394a6d1895bf97b5c72f1b5c4a5ad5db51a3cd4f41cde3a72f11be7d4f23d2"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "corn-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "93cf03eec72645bc3163328cde7e64cde9810c966c148aa558c92f67a1a80280",
+      "importSHA256": "30b8cd18048fe5d1cde172b1bf922f6617acfd0473ee90b80c45cb74f810fd00",
+      "geometryAnimationBytes": 277916,
+      "imageSHA256": [
+        "a175e59226e9b06f601d9fac055a2c23a68cfe2fef9bf7327d7e37292cea94d6",
+        "725f55fb3e0ccc0026e63a7c280294cba1f08b2a1efd14b1cc7b8ae76cce9029"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "corn-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "068afdfe6eccb82a1da5b1e73c21e8d556b84837d626cda89b518daa5e3f41c7",
+      "importSHA256": "a26fc26ab0038b4050fbfe356a7074a272602069ac14b82d2825cb80a7c62140",
+      "geometryAnimationBytes": 119176,
+      "imageSHA256": [
+        "da0203cdb931ec146870a1ba1ecb380c4efd3a530f44d0e41c3a54e3b8400cfa",
+        "48141accafdc39ac519cb667976133b98ee56d221420dbdb585b703e15962b6f"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "corn-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "068afdfe6eccb82a1da5b1e73c21e8d556b84837d626cda89b518daa5e3f41c7",
+      "importSHA256": "84e7962ed19a8cc3dd8ac7ff45017ec1e6bc3f0f20aaa97ff3994f794c0f9a71",
+      "geometryAnimationBytes": 86856,
+      "imageSHA256": [
+        "5334735e28c53a936d5ac8047d69d360335f9c23a206a49eab5a5bc56da97081",
+        "3724b9e18b9d725b8d12616e091d69cf04e4049792d110fed686894f33a37102"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S01",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "ab42ddfa342645b28b682481a197951f6cb9827030ec671c03d610218778dade",
+      "importSHA256": "fdee949130dd6794c5581f0d29e59125fe92cf46b331b9dbe489e2647739ebc8",
+      "geometryAnimationBytes": 2114320,
+      "imageSHA256": [
+        "2abc8efc7828100744c4a391793f064a463d2d76950b8f7ee7868cf9665f3737",
+        "9e5f0a215714d7a0bb0e5d05e95b1ad965c70c59914b999f6ed7eb48148bbeb8"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S01/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "ab42ddfa342645b28b682481a197951f6cb9827030ec671c03d610218778dade",
+      "importSHA256": "c84f5c5a8e2157d91780a53735db836c8755fc85b019b8a0196afd6332c49b29",
+      "geometryAnimationBytes": 1464080,
+      "imageSHA256": [
+        "b0085260d315ea3930f24d3b15e3c03be4ab278a3ef86491568fdfde26b3546c",
+        "b89ac52792bffbc876b0903612d8c9b7d6191c1af74d85c13257756e16ae1828"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S03",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "9f0a99eb510fb2631e47f5680c2d908d1efc54b11ca72f0af1eb2411100aa25b",
+      "importSHA256": "c43634f2c158497c6a9a3e9ea3b79e1735d0edd9048147f39c578b566385ae09",
+      "geometryAnimationBytes": 1253204,
+      "imageSHA256": [
+        "1132ac6dd8f8d10b4fe253da36bb10b7a98362eeddb92e02cb1219303d86a3e8",
+        "37c857b78db324cfe3d41c7098f435216f7e07d90fb648083efe02a3ac1693e0"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S03/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "9f0a99eb510fb2631e47f5680c2d908d1efc54b11ca72f0af1eb2411100aa25b",
+      "importSHA256": "db374962be35a96a6df1895f4e49bca2ddfd7bbf82faa31ae3cd2e0649e1f126",
+      "geometryAnimationBytes": 819060,
+      "imageSHA256": [
+        "177197ad54a8aacea3258c93b64dd7d59a1f0bd592c327dd9bfd489fdc649e1d",
+        "d9f32fc41bbce5897e0e91d9f0a0d79dab87b6adf0be54057421a377a068b20a"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E08",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r02",
+      "sourceSHA256": "74171be5f0c15b9312b0b0b1a89e6e27993eb2a9aada030d5cf62bcf499b6f8e",
+      "importSHA256": "20130074b6986f52a8dbfe8668c191845431983289402fa3b8c98581dc2cff66",
+      "geometryAnimationBytes": 182776,
+      "imageSHA256": [
+        "780a491412f35cb43db0098b3205483b833c8b19194a8229119bed54c49a0201",
+        "5dc98f0820321175cec91ff3f8c4cece04dbe84ed2840f9f6faa6e29445e66a7"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E08/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r02",
+      "sourceSHA256": "74171be5f0c15b9312b0b0b1a89e6e27993eb2a9aada030d5cf62bcf499b6f8e",
+      "importSHA256": "7fef1fdaffd6a27d9cd248fa8a2bbdc39b437e81fc7d8468d249cc7b0c71dfbf",
+      "geometryAnimationBytes": 100040,
+      "imageSHA256": [
+        "9278c852133beee55a2fa53d92d07c417b8266ef152a68ecf353ba1631a4701f",
+        "4a4772ad046303a6a6fdf6023f3841f79ff617cd9910dba55b4153bdb70f0d31"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S05",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "existing-input",
+      "sourceSHA256": "e2076a2c88fc06f42e6ff7ee645af73111d2e6e1206782c9ba4967e7831d1510",
+      "importSHA256": "e2076a2c88fc06f42e6ff7ee645af73111d2e6e1206782c9ba4967e7831d1510",
+      "geometryAnimationBytes": 81456,
+      "imageSHA256": [],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "historical_evidence_only",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S05-endcap",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "existing-input",
+      "sourceSHA256": "90f4b3bb60523b0f817c3c1a0fff30f0cded8ef9726a0df46fe7686dc53ac0bd",
+      "importSHA256": "90f4b3bb60523b0f817c3c1a0fff30f0cded8ef9726a0df46fe7686dc53ac0bd",
+      "geometryAnimationBytes": 55248,
+      "imageSHA256": [],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "historical_evidence_only",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E01",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "native-r01",
+      "sourceSHA256": "781fd514340df57dbd23bcb12b3ff63dd82094746a7f24ba1d1207730316f823",
+      "importSHA256": "edc0c573e1bdb54f2dad59c62afb8426a98f3ac4726beb12b6736be8c1ea7538",
+      "geometryAnimationBytes": 321408,
+      "imageSHA256": [],
+      "meshCount": 15,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E01/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "native-r01",
+      "sourceSHA256": "781fd514340df57dbd23bcb12b3ff63dd82094746a7f24ba1d1207730316f823",
+      "importSHA256": "1e380b846c6fa8c491969b06ef3c14706256246e34a5224c7247ac4977c9692a",
+      "geometryAnimationBytes": 189520,
+      "imageSHA256": [],
+      "meshCount": 15,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E05",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "native-r01",
+      "sourceSHA256": "9b67dcaa070a96b358c010dff2856ab625e50814b17d1cf123f48d49eab1f22e",
+      "importSHA256": "1c269d1ebf9461edc31780fed02ecebe65f5e4c34ba5f8eb627153b2a4f910bb",
+      "geometryAnimationBytes": 107436,
+      "imageSHA256": [],
+      "meshCount": 7,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E05/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "native-r01",
+      "sourceSHA256": "9b67dcaa070a96b358c010dff2856ab625e50814b17d1cf123f48d49eab1f22e",
+      "importSHA256": "31c48ab8c3c46cbc380e2fe73abb9ed362ed635c7293a48349b0d482ae2ea0f8",
+      "geometryAnimationBytes": 60392,
+      "imageSHA256": [],
+      "meshCount": 7,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E07",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "existing-input",
+      "sourceSHA256": "8fef04192e7ade7e18de21ceaf3989adeca1dc249db7e6c1004df05b4b233010",
+      "importSHA256": "8fef04192e7ade7e18de21ceaf3989adeca1dc249db7e6c1004df05b4b233010",
+      "geometryAnimationBytes": 7136,
+      "imageSHA256": [
+        "b2be80af0cec58fcec27a586dbe00b6413d3029cbbc7c772558d4a5808f2ae31"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "historical_evidence_only",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E13",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "native-r01",
+      "sourceSHA256": "4971a513fa3f377b6ca26ea8f838208a37776cac766f40f5845958d36917cbb8",
+      "importSHA256": "438b8249fefb99157463bf2a4371e66e6deaed658932ed214e4424e4efcfb418",
+      "geometryAnimationBytes": 69800,
+      "imageSHA256": [],
+      "meshCount": 3,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E13/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "native-r01",
+      "sourceSHA256": "4971a513fa3f377b6ca26ea8f838208a37776cac766f40f5845958d36917cbb8",
+      "importSHA256": "fd4e92e89eefafbcdc3d3c9e68f9b78c60a9daf3e1f5e76dd814ba573d73f264",
+      "geometryAnimationBytes": 30604,
+      "imageSHA256": [],
+      "meshCount": 3,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "Lulu",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "locomotion-r08",
+      "sourceSHA256": "38a474b3a9f75c05debda10fb29f50a84f668481373e8c16653a20a835007057",
+      "importSHA256": "68c991478ce2f3058fe3bb0a393d1730d5a9664d11f70323e6c32b50c9b5ea8b",
+      "geometryAnimationBytes": 3202596,
+      "imageSHA256": [
+        "710188fb26104b5062c7801610413ef0444b8d54ce5b651e335a33e9bacb9ce9",
+        "63bfcebaf07576f79fe300407adad1521f286c230ffc68021ad0e7d026d8f419",
+        "3214dcb002dc8a545b23f01bb0d888b48502fc8e07483d9ebf52665fd85f4999",
+        "b39d697df65e97f3457c13ebd4af933ed544fd295faf837faa27f5ddb1b68e1b",
+        "db4400b9c3594d0ff681055bf403d169111764287591e2d54ea0bee45e8d382c",
+        "7a885e1256645b2051c0f1323e0d8fe2cbaab69fd3569ade99b6236ea5f56ed1",
+        "fc787002dd8ece27795a3bdb2d7ddfe34038c2b0542152c70993af11b43c23b3",
+        "97c06ccc4cdaaa5ad75ef5f8660535800bfe45a5ee123c8e21e930693c27fff8"
+      ],
+      "meshCount": 8,
+      "skinCount": 1,
+      "animations": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "visual": "not_passed_seam_leg_top_defects_retained",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "Lulu/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "locomotion-r08",
+      "sourceSHA256": "38a474b3a9f75c05debda10fb29f50a84f668481373e8c16653a20a835007057",
+      "importSHA256": "e9044b23cf0164e762d15cf30606971d7e371eb337bf24b87e1411d68d83f090",
+      "geometryAnimationBytes": 1769108,
+      "imageSHA256": [
+        "e60cc0d59077ee7b44273f97d7c460828d3bb4a7510acdf48194982a1e9bdd08",
+        "101e9949696fb27ef80f9eeadbbf5fa61bf3a9850c8873a3884fca001e02aafe",
+        "08e90971c3bdde655d93506bcb8bb49cbc05cb1c4279ed3ca784da1ebd71fd8c",
+        "385c83b0c159da2b68a6ba6eea35192f0accd34357b27d4f723196509ac71f72",
+        "21555a9397e65e009fc6f622e8a571c9e6d2e095a106f51fdbb79f01fcb3ecb6",
+        "d70a9f0cfffffa28abd4d39f698a93e5f55f229db24a99bbee8dea14bd31ccfd",
+        "61681c29407e943562c1691a024cfaa6b7585f9e88573d0c46c15eb094029721",
+        "77ade16643947ac4c2bbe669afcbc48e24c40a36dbcde4fca0ed469627cd1bad"
+      ],
+      "meshCount": 8,
+      "skinCount": 1,
+      "animations": [
+        "Idle",
+        "Run",
+        "Walk"
+      ],
+      "visual": "not_passed_seam_leg_top_defects_retained",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S06",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "gate-game-r01",
+      "sourceSHA256": "fc4d10038c788ba262db873306fc933184392359c4c64f9af45379d0c62c39b7",
+      "importSHA256": "777fb61dd88dd4dd25be38d956e9474fa34b8183042a6af43606f867628bbc54",
+      "geometryAnimationBytes": 228836,
+      "imageSHA256": [
+        "83a49575e4d35b33a4d205cf3496e465a4fa6debc6304f793f333f817a6edd1f",
+        "cfa1a121cbe1ffca702cc608bf40ebc6dafafce448a12d877c2dc408be87940b",
+        "f1d1803be7607502316172144292137657e21b16c7878b2f5da9380c20c93bae",
+        "45c462b1552a589b8d4fd4dc20b27ae783dadc3d3133984e51bf08be3323f5e8",
+        "e8bc5f60a3909cd6f2bb02e27e0c9f1998a34acf05f6c4b53c903fabee948de9",
+        "66ea35a3e4c33c805477370ebd07f1f0267a8a7a9ae434d67c7221ad1247213e"
+      ],
+      "meshCount": 3,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S06/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "gate-game-r01",
+      "sourceSHA256": "fc4d10038c788ba262db873306fc933184392359c4c64f9af45379d0c62c39b7",
+      "importSHA256": "b26112df37beebe0052f1022719dc164b13126166d2aaae3dd0e8f069d69eda1",
+      "geometryAnimationBytes": 156972,
+      "imageSHA256": [
+        "1df950e1d46c736e6f9a8d508a3e42bfb28ffcc4bc566cd8a4b29e14125ad069",
+        "005d3a8af4ee8ab800e3e6b159802668466bb66a7bad834822ac54638328f926",
+        "429bda36443e3def25601553550b88bd7e937733d8880b98808bfa78e65596d1",
+        "32ec060317b4a74d9023bc1d53827832fe9c75e144cba2d2ee262f41a39b0160",
+        "f188f95e4ae342ebef157f5a838036de8f4f7c7117ca61eb6da7ef81cf5e56d1",
+        "e2cc427b974b3800e38e44a2a66af1203af8cb7ac14ae6bdb04a52d783264c6f"
+      ],
+      "meshCount": 3,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E05-corner",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "native-r01",
+      "sourceSHA256": "9b67dcaa070a96b358c010dff2856ab625e50814b17d1cf123f48d49eab1f22e",
+      "importSHA256": "1d17031e3aa5c69f043a1fbcda97f967a880cbe020d0d6949cb2e56fa20288db",
+      "geometryAnimationBytes": 107348,
+      "imageSHA256": [],
+      "meshCount": 7,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_five_views_pass_with_minor_stone_faceting",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E05-corner/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "native-r01",
+      "sourceSHA256": "9b67dcaa070a96b358c010dff2856ab625e50814b17d1cf123f48d49eab1f22e",
+      "importSHA256": "3197063b02d3f920a09a193015450e0fa917a93f8d54c19e93cc5efd1e1e8b5f",
+      "geometryAnimationBytes": 60436,
+      "imageSHA256": [],
+      "meshCount": 7,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_five_views_pass_with_minor_stone_faceting",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S05-rail-connector",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "interface-r01",
+      "sourceSHA256": "12db4f0b78f7e7c9b11be252ed80b33246e9147ecef7a80790e85759a83c8a65",
+      "importSHA256": "f8e1b5efe0f8023788d77cab76a5f7c8516a3e6b2b3389c0b517675b0ed72fb0",
+      "geometryAnimationBytes": 4296,
+      "imageSHA256": [],
+      "meshCount": 2,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cucumber-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "58321add3077859120a2e0af3b4fe76f174b9b6a3522f0ebbb737931c76440fe",
+      "importSHA256": "b66e793f204fb4e636e915dbd60e44c052cd33e58941a46ac63d663e2bcca749",
+      "geometryAnimationBytes": 499392,
+      "imageSHA256": [
+        "74b6d8232e1d63faa5214871c4b02286a2908d06ac55d2d4758256f398972f92",
+        "033a8132a8620d4ac3cdf4ec794ff09940be2849d944a3b1d200393351fe45b1"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cucumber-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "58321add3077859120a2e0af3b4fe76f174b9b6a3522f0ebbb737931c76440fe",
+      "importSHA256": "6a5a38711938a820644f6eaee7a0d552a45384c526704718ad280ab73f0be590",
+      "geometryAnimationBytes": 351568,
+      "imageSHA256": [
+        "0bf7aa3ae922f951aaa8109f4c2f82a08f664988dccc163f8a2c1a762a2f7703",
+        "d4e8b8a6f47a01cbae01218ed98c8048fb12fd97339048b24537bfd5a4b463e4"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cucumber-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "861dca20068ea6dd8ff96787208792f7d5eb4bdaa20b185abb325359d74f4771",
+      "importSHA256": "9589320852c0a7876353bc3f20281526b3dee8ac49ab49dc89b5615232aa4c1b",
+      "geometryAnimationBytes": 125480,
+      "imageSHA256": [
+        "6ae8375ba51b7fd3583612b8cd388fb1b6ce6d9d40178c0f71809c06ab0bf506",
+        "ec2a09d1a9cd4eb1f4a91ab90d5aa7a875667162da7b603cef8c15ac0dac585e"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cucumber-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "861dca20068ea6dd8ff96787208792f7d5eb4bdaa20b185abb325359d74f4771",
+      "importSHA256": "0f7c86dad000a4f57c85a1b98d7fc0fded7ee90d87a29191071569a40eef7ed6",
+      "geometryAnimationBytes": 86472,
+      "imageSHA256": [
+        "baf1b10bb9c5da8919bc7a49583ca4108e35eef55d62b5e6b75a0a48ade68d82",
+        "3e393e8435045bceb5b610eb84f32420abcefeef8835880a8ab05cea3214fa2c"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "pumpkin-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "surface-r01",
+      "sourceSHA256": "806f205681c1b7b8ac9d35b7cdbb4a20e949e3e816520400b99f4a55e5857f8d",
+      "importSHA256": "b7f0d4e78220511d24ccbe2deb0486f658a33c02aa7a82fc69ac1e610ce4283a",
+      "geometryAnimationBytes": 3465872,
+      "imageSHA256": [
+        "8bc0548e14b4b6d45f673eb4b9b9634764ff98a4f475eed362ec5b739f124912",
+        "2b3fafc60669f3f6d66ebd5dd1100bb1d150069a128ed9bb27b3ecae8d0ae19b"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "pumpkin-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "surface-r01",
+      "sourceSHA256": "806f205681c1b7b8ac9d35b7cdbb4a20e949e3e816520400b99f4a55e5857f8d",
+      "importSHA256": "c0f31ef0fc2f85bc25b0740f9dce65a3f95cfc2f9bf43705094179241cbc667c",
+      "geometryAnimationBytes": 3444664,
+      "imageSHA256": [
+        "09068ca99439b875ee70a52d319423c7afa3e284aa938325f531398a85be92b3",
+        "303e6bf014b476109ff1691a8b02086063c7de5c160a48aea558bbd6f9338bc6"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "pumpkin-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "b62322d415a46a66b9b2f4382f60d246d6028133d79c22ef03928a34e47da2ce",
+      "importSHA256": "657779d7da89cfb724b94cb5355f87684adfecef97a02db9db43412157644ae2",
+      "geometryAnimationBytes": 120296,
+      "imageSHA256": [
+        "6569952182433c565c46fd59386b53791a9b368efa59633ee5a691a12f4e83ac",
+        "cc2058d0899edf668768a8217bcf58bdddca34ca410ff6b91eb0a307c98857cb"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "pumpkin-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "b62322d415a46a66b9b2f4382f60d246d6028133d79c22ef03928a34e47da2ce",
+      "importSHA256": "5b63a6ee2f91c6ac7c3f964121d6dc853554e34ac09a5cbcc1b822d6afa43c07",
+      "geometryAnimationBytes": 84136,
+      "imageSHA256": [
+        "8608dea079e6228c82ff53e2f44b56d32e243203e3504c5c8d43dc341f92d0e7",
+        "ff5364087a0560f45e1118c9df8569731d5aa46c13e52380905f4996d1fcb43e"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "sunflower-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "db43a41ace65a24679e502cae87f69f1bb420bdbde33ecc1459889f1b06abd83",
+      "importSHA256": "551f80059f9d31142fa758e72a303bf8909fb259bb849b0c616c57b0a7cfb390",
+      "geometryAnimationBytes": 516224,
+      "imageSHA256": [
+        "c0ecba343e6119a8cc58a0f1d56eb344254c14a46ec461f9522a86d3a47d02ff",
+        "71a1a0f2851355b9cf7e2e5022a39d63c766b481cf035e4a99fbca5eecf8e904"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "sunflower-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "db43a41ace65a24679e502cae87f69f1bb420bdbde33ecc1459889f1b06abd83",
+      "importSHA256": "856bf5ee530c2e0476c9aaebdcfe412c95565a3e09e219c9930c6c05ca0ba1d9",
+      "geometryAnimationBytes": 350584,
+      "imageSHA256": [
+        "822cdf19dafacdbdb03b3b1ec16e3629aa571cdb0f0ec943755ad331690fe1f2",
+        "5e6a3e176258b032a4523f80437b52c8cb7980c9b9adcad4041365983eb0eae2"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "sunflower-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "298842a44d16a23937c4841abc850ae7daeb6d81b3124c015aeeeb762c1faa79",
+      "importSHA256": "13e47fe0af684dbcceeeca543597933bd8a5dc185a73d37349f49430a119cec7",
+      "geometryAnimationBytes": 121000,
+      "imageSHA256": [
+        "286d3ce20a530b25e0bb1c6abc77e774edbd1afd7f6a4e0d03b7e3fb09663c8a",
+        "56aecb0bed0ca8150c1e6b4553bbeb4c4108955960e4d6000ffe836cfffa6ed9"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "sunflower-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "298842a44d16a23937c4841abc850ae7daeb6d81b3124c015aeeeb762c1faa79",
+      "importSHA256": "897208028f146953dd6ddb2ee5b721f68c660213862a02b362646a5747e209d3",
+      "geometryAnimationBytes": 83688,
+      "imageSHA256": [
+        "f95eedd01fbd0f79eeaeb95437c1e0395a46ebd058cb98d27ed93e52dfd2c190",
+        "51288e3daa0c708081b720601f0aee460da62174521473db8271823768cd1a93"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "wheat-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "d8c5ac9e8b2c2c21ab91f7a8a6a36adc7d36cd557090182b5b1c55d69080b189",
+      "importSHA256": "923139f55817060c6b042959ea79104fd3eb87de0ffe541a35229f74ac716fa3",
+      "geometryAnimationBytes": 454496,
+      "imageSHA256": [
+        "8554d25c99617a68bbdbc167fbcc3b12e37b0ba830c7c4d7bd634a938f178867",
+        "222fc6ec9428ef6e7dea2427ed2361a4a89fe11088d9e908b453d599ae918f2f"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "wheat-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "d8c5ac9e8b2c2c21ab91f7a8a6a36adc7d36cd557090182b5b1c55d69080b189",
+      "importSHA256": "e8fc51a2c2016294976781a0eebbbbf1cdb1353550ec17b6878941ad787e00eb",
+      "geometryAnimationBytes": 311224,
+      "imageSHA256": [
+        "2d9613053c2d8bdb07ff0596f05388f36458f1f1e999e4539ec3d58d83bb66b9",
+        "afdbbc28a196d3138831bc29daa12b893864f7ab6ae8fe705dd50f3a7f2d59d3"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "wheat-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "5f46e93395b7bbcbdbdaee134b921845a25e17d4532e5b7c866da76c064b797c",
+      "importSHA256": "e60e1ca5bf9371829b67bb9273c1f2a622e9dc969c40cef057aae29bec38a38b",
+      "geometryAnimationBytes": 122024,
+      "imageSHA256": [
+        "84db3900083b9ae51581fa3777b1234cb5aba3262e84dedc11446925ed034f01",
+        "ebe7d9fe4395cac404ff9bee812145a304c08c86b0cbf9389165197da07ea08f"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "wheat-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "5f46e93395b7bbcbdbdaee134b921845a25e17d4532e5b7c866da76c064b797c",
+      "importSHA256": "221b0f47b7fc46aba63cb9ed44703a6e5a0f65eb1fa561e43bc581d9c6df7d78",
+      "geometryAnimationBytes": 87208,
+      "imageSHA256": [
+        "f06ded52d34d5fdfc74e7cf96a512ee1e88ae31607999e0464e658a123a054bc",
+        "c6d6d8ee82b4b3b000ebe74fd06d751e7c1e173c22a4e263f5fdec4cf970080a"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "bokchoy-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "7f1eca0e3560197b1aa23792bb484c3e21d77767c8754090a42401bbb49d001c",
+      "importSHA256": "438d467a79f784e8e1e5fefd9720b454ae39746ad662cabbb56ac35a3d9dee13",
+      "geometryAnimationBytes": 358432,
+      "imageSHA256": [
+        "7df09c86339a57f1de04f93e24c52526b582b51cd114d2b87e3502599fa3d8dc",
+        "99c876be2e21414d957672624908b9bbc7c0f50621db6aa61e67380d94e79893"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "bokchoy-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "7f1eca0e3560197b1aa23792bb484c3e21d77767c8754090a42401bbb49d001c",
+      "importSHA256": "e62986f709340acee619a00f1a60e827fc2d7287e1926bfc10749575ce0d5bcd",
+      "geometryAnimationBytes": 238648,
+      "imageSHA256": [
+        "694aa6de24a6e5553e10932b7474daec4b03f0c80596d12db7bdd08f52cad7ed",
+        "1db6059e029244323c5cfddae089229d3bb112e3df64a6199afdbcfbd558aca1"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "bokchoy-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "b4bb3fe6fcb4926984ccc91dcc215fbb5f7e271b7361c2dabb601bf221c52990",
+      "importSHA256": "b0e47483ab28a23e9beab699e8df9652a9bf12cac4c8f9853e1d4dad2b3709b7",
+      "geometryAnimationBytes": 264096,
+      "imageSHA256": [
+        "cbd5972b94a6cececeff6075d70e9d125806affd2592db0a53751162e71db7cb",
+        "1648987cd5731516ca0bd4f8be82fafc6d5e697d3704a8c8d0932b026e228165"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "bokchoy-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "b4bb3fe6fcb4926984ccc91dcc215fbb5f7e271b7361c2dabb601bf221c52990",
+      "importSHA256": "b28b1aa0e35341b39432b2a5d40171a452c9e9bc62dbf7bc64a3a90e2c02f654",
+      "geometryAnimationBytes": 204352,
+      "imageSHA256": [
+        "aa4e9c95e4452d814b85951162bc818e3b451689bff79316ea3a05c6a990b204",
+        "7f53eaf3196ce67fed4b1205093e562ac2104c4fa63b3b308a76bb76604f9788"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "rose-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-semantic-r06",
+      "sourceSHA256": "2cd8483d2f5cca2fda3b8969b642a718b0eda34b729f5b70b6d87f7dc5f96a91",
+      "importSHA256": "e94be1e839b29a41dc2cd24ff7776dede01ca2eae6c9700d01bfe5f3a13bbad8",
+      "geometryAnimationBytes": 996736,
+      "imageSHA256": [
+        "605cdaf5b55df5d9889a6a2b6a1fc1f5ec7c365c62b55174b69d4295b8355646",
+        "6fbfbee865009f2c16d7ecc56c6beabc5410fa0b22d63da48acd75c73e6b3934"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "rose-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-semantic-r06",
+      "sourceSHA256": "2cd8483d2f5cca2fda3b8969b642a718b0eda34b729f5b70b6d87f7dc5f96a91",
+      "importSHA256": "af6322c62d175d98399a02fe5ccdafd7ce76ba762c4e3d007618592893a40e45",
+      "geometryAnimationBytes": 723424,
+      "imageSHA256": [
+        "9f936134f62ac79818f40cd7cf7477875ad5fbffd6734b2d2e165d8aff7ed51c",
+        "68002690fc171afc39140628de991ec7d3e77cdcb77568093f84181d958c1997"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "rose-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "fa3719470cae764e3d6c54be0b042318263bcf43d645315770f801995c2e0809",
+      "importSHA256": "b50627b26d258a374b27504f7bde85c410c475e22f26f53a86c2989dc0eb6c23",
+      "geometryAnimationBytes": 125160,
+      "imageSHA256": [
+        "fa0e83998e479b9b248eab31fcfbd248fd3db9ef31d833519355f79fb40b5b05",
+        "44598a025707de747c617d9f853b095e485db13f8bba038e932fad97b589948a"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "rose-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "fa3719470cae764e3d6c54be0b042318263bcf43d645315770f801995c2e0809",
+      "importSHA256": "fe2e44a71c0e894eddc32990adca1e51605f2e6ff03ec913656b4f786c8abdb8",
+      "geometryAnimationBytes": 89544,
+      "imageSHA256": [
+        "5bdbf2982f580713588ffc655d357927641eeb5a8adee12c8d50b9ef91e8d51d",
+        "64b5235ac4a3d5730b9a4cc4ab2efe7ca04f0082c16fe78b893375607d137b35"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "strawberry-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "surface-r02",
+      "sourceSHA256": "191662fed6b975968d3a13dfe77ec18e0eca70410709fa66e6e9d0e91e9886d5",
+      "importSHA256": "561cb356a094f2b53f632ee8a05931a53290c7742dfb1ae928414e4934a139eb",
+      "geometryAnimationBytes": 13784240,
+      "imageSHA256": [
+        "e410149190ce947e84038c02dacf91bd02228688de7e3047d1c4d379ef5fd83e",
+        "99e6e64a4a0e5c2e36e99cd488a3c13e1ef218f9365c2660535b8e2bc2129725"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "strawberry-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "surface-r02",
+      "sourceSHA256": "191662fed6b975968d3a13dfe77ec18e0eca70410709fa66e6e9d0e91e9886d5",
+      "importSHA256": "df1d3d3d47ee0ff5de569f32a9bfa2599bed506735866ea212919b5b74f2198e",
+      "geometryAnimationBytes": 13784240,
+      "imageSHA256": [
+        "e2b1925d04165a81523c3a8b86f691e1e1773f16b18362645c93cec932cd9b5d",
+        "1239d0d3db5d6eccf328418167c9884fe5f40508db8c22e5c2216e6317cce6a3"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "strawberry-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "690811bab0ddd26e1d3b2748893ddf230f6eac06382886a9666f3495cde4a73f",
+      "importSHA256": "e9880ed1c4a3f0eba95c012608ca7aa0f68c0c19a35495321230e32de8ce0e3c",
+      "geometryAnimationBytes": 122792,
+      "imageSHA256": [
+        "8bb67d0f0ebb0f448017dd40cd990db43aadc008e390481c3381d0c06b3a549e",
+        "a4e8e470af44a8517cb5985ba51cf2f4eb09303f7fb5c1410617acc9042d450c"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "strawberry-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "690811bab0ddd26e1d3b2748893ddf230f6eac06382886a9666f3495cde4a73f",
+      "importSHA256": "602183a8afe30060e0308acb0e25a66890aec1744dd0afcbf6a0a518b2dc6d1b",
+      "geometryAnimationBytes": 86440,
+      "imageSHA256": [
+        "19f423e66a48b8c8a071ff28aee08afb1fdd5460545629aac44fe6b006cbcc05",
+        "740ad638a35749fd8918dbde70e4aeb2d17ba0704eb691039903a7a05df38621"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cauliflower-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-detail-r01",
+      "sourceSHA256": "4232cab6133a7984cc91ba6edd1b1a2abd70cfdf8c6032043fc7229419221095",
+      "importSHA256": "f0e8db71963e12612d4ad735ca9927c1d35aa103537538ba1798676fd16bc3f9",
+      "geometryAnimationBytes": 1156096,
+      "imageSHA256": [
+        "4bcee9242d4e5c10b582541ae32a89819ca1bcd52daed226bcf0722617bf55b3",
+        "f0a5df089d8155d5be621d7ed54c40521c258c5e6579fcf6561d5b4c2c5fcd45"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cauliflower-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-detail-r01",
+      "sourceSHA256": "4232cab6133a7984cc91ba6edd1b1a2abd70cfdf8c6032043fc7229419221095",
+      "importSHA256": "1892d2a24ce9a51445ed879291b6293665a71547f789d8af2eacef3995ea8961",
+      "geometryAnimationBytes": 782912,
+      "imageSHA256": [
+        "6474ec49216d9a922bba4374a51afd56de117685326bdb282631f1e2cea28d57",
+        "a2db3665900cd145d97cc6200ef9f3121142859481b4ded3589b181a94dbe923"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cauliflower-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "12dbe97ca11b854cfd0ac280171468564e23730b14519cf4014492045de7b037",
+      "importSHA256": "6194f85788682e3fd1797b1a5162cf1e9e862f63bb02765ff171017e658e7eb6",
+      "geometryAnimationBytes": 252096,
+      "imageSHA256": [
+        "3c34642b169e298a379427661a66c8bd1f252fe795fe43116db55e8fb6a0a336",
+        "47085fc002df182cb11044d812b5879d2fb7c65a87bfea9d0866d78ac53ac342"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cauliflower-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "12dbe97ca11b854cfd0ac280171468564e23730b14519cf4014492045de7b037",
+      "importSHA256": "f22cbd527907da5b00e25852f337140027a291bb6007e30f457e08daf46d4b15",
+      "geometryAnimationBytes": 193504,
+      "imageSHA256": [
+        "ec9c6e8cbfa5a32becfbd337b20d0a689504f8c3cb0edb52a36a49c49235c9d1",
+        "17b089b3c1a2cb9db8ea29f738cd4a2c7cea20f27e8c14c204658f53e1caf039"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "watermelon-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "26f661a9bfed53e6184f5fcc75dd68ef0463e7b69246d526a15617d42ecde4fb",
+      "importSHA256": "279e5dce8c537ba3f5d32100f1ac4027cbdac427245d82f28956250b0fbf586e",
+      "geometryAnimationBytes": 393248,
+      "imageSHA256": [
+        "9a21a28c9822fef8bf95f6cb7a7abf11e6fb12785836823ed3633ba640fa9fa5",
+        "a5d9ecb62a82f47ff753d794a018c3d956c07d0f5b294029bfcdb1eb9641536d"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "watermelon-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "26f661a9bfed53e6184f5fcc75dd68ef0463e7b69246d526a15617d42ecde4fb",
+      "importSHA256": "819e7a5f964acb0d0ac425d0d592d494c044c43f66db65f2d0484efb6aab9681",
+      "geometryAnimationBytes": 280888,
+      "imageSHA256": [
+        "a383ebe8323e197199384b5cc94b154e4d7b10e2d629dd7e387fde2eb3faa29f",
+        "3fcd19f143557cb5d5d61e287ab19fb965acb46d2ffc030f0e61858f23610a42"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "watermelon-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "ea3a07154bcfad42ddf87bf04a353b4ebd5d08ab882f4aefc72059ca58889174",
+      "importSHA256": "e5d1df4e189a15388e6e2db9540bf7c1fc17d54262175d05974fef29e4212389",
+      "geometryAnimationBytes": 123624,
+      "imageSHA256": [
+        "107023ff12ae335817ccd0d07d5d50b93a726bcdf23a5d07fed67a1ad648835a",
+        "631a2dff8a4615d805865d2d9ce31a61f980494d1e6313c9d8731f980cf3d75d"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "watermelon-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "ea3a07154bcfad42ddf87bf04a353b4ebd5d08ab882f4aefc72059ca58889174",
+      "importSHA256": "239e05c490fda587ffb9ec55fde9641e016ef158bd843500a7e165e873909b82",
+      "geometryAnimationBytes": 86984,
+      "imageSHA256": [
+        "9d8d2283730266815d0076f25646db3be34ebb55f8ceca096e2cd8be2707add9",
+        "6475ce9e5a0e1b75827c4ee58c5be7d01c4476f192d3e2226bf68c90fb016faa"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "tulip-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "83635f20d05a71ccafc5be22970082937d055b3daf5d3c649775aba09f4d2711",
+      "importSHA256": "b616cb4243b586a41a5a4ef9c200be104a74ec786e4ca61fd691f09bc5cf3a9e",
+      "geometryAnimationBytes": 294272,
+      "imageSHA256": [
+        "bda5449a99a64e9eb2b70204c8279a4d7bff02576d68de8218bb29f305af5df1",
+        "ee2cde91abb90a647c87916cc8400dd5fff0abfecce4e3f681c8a76ea6f053a6"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "tulip-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "83635f20d05a71ccafc5be22970082937d055b3daf5d3c649775aba09f4d2711",
+      "importSHA256": "c11977baa55dcfce1d1a05b4e5c0238e56a1ccb048708d9543260b34fd2c837e",
+      "geometryAnimationBytes": 199920,
+      "imageSHA256": [
+        "9f3824b9dae06ced780081c49bd01b688cd05e45af1e0560ad830e48f946a859",
+        "9e3eabfd45488ac3f5e14c850002ce86bf97584b9f959074a13d70d30847e74f"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "tulip-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "877af2515f95139ab6f08a36d47e621c2241d7830df43b7999d33985c48484b2",
+      "importSHA256": "c18bebfea6968f85950927b4aaa5056428137b3ede021c1937f75322a2bde210",
+      "geometryAnimationBytes": 106152,
+      "imageSHA256": [
+        "9d15b9ce472f7729f711dde2003c2b4ae83289a375f54790b6bbf061765fe567",
+        "f0fb6b83206116598146053e32cbcebcea28e8d289443d9ea28bd6dc5121f112"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "tulip-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "877af2515f95139ab6f08a36d47e621c2241d7830df43b7999d33985c48484b2",
+      "importSHA256": "9d0ecf2174d11c74bf88c67822724fd07566d510051467349eefdd5a31aef040",
+      "geometryAnimationBytes": 73384,
+      "imageSHA256": [
+        "1ef74d23a6de5ed5f9356f73a75e9ebd5efa0797ec7a1ec664059daae788c0da",
+        "01f5c028875bd3835903c221d48087d9a03e6b3ced9a01470b38aa9180a487ba"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "lettuce-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-detail-r01",
+      "sourceSHA256": "44b7cf3a7cd2fa5bc19a58f8eabfb825a0fb1f34ff991849cf286306ee5461ed",
+      "importSHA256": "c84871a10a31116a801585961a23fabc4a348a104f0e094c3be03a5542c0b20b",
+      "geometryAnimationBytes": 1157216,
+      "imageSHA256": [
+        "915e6dbe76f261e578ea56bbd0e78e1fbe1fc45e896a979e772939d81a54fdbd",
+        "ee57a5a4c4c18dba29b1437c4634e9566fdede4f47eea22621bf5a014cb6f646"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "lettuce-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-detail-r01",
+      "sourceSHA256": "44b7cf3a7cd2fa5bc19a58f8eabfb825a0fb1f34ff991849cf286306ee5461ed",
+      "importSHA256": "29c31b1ac680fc3dd1c5c08dd53d10453bc76e3b1b686040f09a44b51fa283c9",
+      "geometryAnimationBytes": 763872,
+      "imageSHA256": [
+        "7e46516c68bd33ef2c1a9ba4b8340a594b6445866b7d54575a19e45103c9916a",
+        "54fdef94537d916d647b16d10bd74c4a733eeec40afa2768aa9b99c65d8ad2db"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "lettuce-seedling",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "a9272ff8e9fb37452af7916d90112b8edc7c86cf276702cb773f2eb00b3edbc1",
+      "importSHA256": "d4f298759104bf3824634fe5ece84342ec7a497d98da165e7d14957201786f95",
+      "geometryAnimationBytes": 258752,
+      "imageSHA256": [
+        "68ad74353908a2505c6e14e574e514858701b06897f31ba7c2ae3a91f7d9e10a",
+        "ef261f1035842e4353c699ee9f9cd278fa4c03be27f57d745ffa641d9ce91c74"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "lettuce-seedling/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "a9272ff8e9fb37452af7916d90112b8edc7c86cf276702cb773f2eb00b3edbc1",
+      "importSHA256": "f6f1de13886302cddbec6881f0a67c67eadf0178770b257bce1f1bd7e32ecf1b",
+      "geometryAnimationBytes": 199936,
+      "imageSHA256": [
+        "d1653b02382d991625d78b1e8d118892aa819b2d8b5e32baa3de057d55565264",
+        "1737a95c855ff968b5637e13208df325571e15d83fa46884a5c4f870c4be97b5"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cow",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "3a09e330319317f8a0856792530f63e06d83e7b357bc3ffb344e7c89eb800b0b",
+      "importSHA256": "bc8f5997df2a85602a4827b64f6274eff647e7e3e6227f28a53166224fa2296e",
+      "geometryAnimationBytes": 571264,
+      "imageSHA256": [
+        "974ab208d600f568f1b7a25284ba0ae704cffa8c45bfe149e4a13b34fc40137b"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cow/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "3a09e330319317f8a0856792530f63e06d83e7b357bc3ffb344e7c89eb800b0b",
+      "importSHA256": "6d3fe826dd334b677fa49f4fac7a78f8034f4dba07562e2a0c2573618733e530",
+      "geometryAnimationBytes": 332176,
+      "imageSHA256": [
+        "4b0094c1fb134a0db6391c53a6b908e25ece290b440dcf9679aa7f9c0fb06b2e"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "sheep",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "708ed083f02797e11f1a7b5b5d1219e3272389ddbbc23b2022e92bcb65dc6679",
+      "importSHA256": "287e5586ddc03086c9a7cce42f964e08b32b8ed4519a72199c80aeba731f039b",
+      "geometryAnimationBytes": 723616,
+      "imageSHA256": [
+        "5323ef0b821f87341a4ce220eb5f5e89fee6447a59f0a486b309643319dd7ee5"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "sheep/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "708ed083f02797e11f1a7b5b5d1219e3272389ddbbc23b2022e92bcb65dc6679",
+      "importSHA256": "0a36b1de995331f12cfbee34eefb2616cc5ce987673b942f05e4c8b738197cb0",
+      "geometryAnimationBytes": 414304,
+      "imageSHA256": [
+        "37585606539ea497925bae6d09c8b7096b95887b384c8e673e98c6ae2776ad85"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "duck",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "4f7942c5cdaa13584220eb5f100f345f2fef8ca9205dad4d92d57a44f07fdb44",
+      "importSHA256": "09093ea4987765c4086aed7299f0b6a02ef7c673e2aad2675b7eeb1c8e2fa710",
+      "geometryAnimationBytes": 502048,
+      "imageSHA256": [
+        "e75e2ac20f73ef7e7e86e3dd92bc883a434f322e39c67a3151b9d8d21f49e5df"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "duck/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "4f7942c5cdaa13584220eb5f100f345f2fef8ca9205dad4d92d57a44f07fdb44",
+      "importSHA256": "7813643b50da3a396bfe7a01ea827151b342b1d6a438a420330df7104ad2bcc2",
+      "geometryAnimationBytes": 288864,
+      "imageSHA256": [
+        "dd6a4a814355005b8a9cf1eaf2aee16df075263e4e4f596a294c0a541e88a912"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "chicken",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "b970b39e6f77b8350ab49bbc3a8ffb2d8c27fcc7e5f54076b94e63da3b878b16",
+      "importSHA256": "ee812c02d99c57c4905c6e4e5ca7f0ab7b242db50f81b0a0f4055527d8a9070b",
+      "geometryAnimationBytes": 512448,
+      "imageSHA256": [
+        "f76c89a5b00c1b55827e6a58806d7300a316ffef78a731d700daa59b2279d446"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "chicken/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "b970b39e6f77b8350ab49bbc3a8ffb2d8c27fcc7e5f54076b94e63da3b878b16",
+      "importSHA256": "467f432875c5353eeb3d27912dff3165a3c8098b76ea84ad792529dd36dedfec",
+      "geometryAnimationBytes": 289568,
+      "imageSHA256": [
+        "53a67e9cc3f1405ae9add647970ef2546fb76f650e29343f78db0c8be55cf03a"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "pig",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "c85bf23b3df0450e5df72f9feee9df09dc6993e63e9c42773bf5b95666ea3bb4",
+      "importSHA256": "7101228cac8e624e34d6db355a2acab5477fb5f677c2690402f93ea8844a7bf1",
+      "geometryAnimationBytes": 485728,
+      "imageSHA256": [
+        "8d87854423ffa7c6afef0490166c5d2cc07dd287b53b14720e2b650d3179e9e1"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "pig/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "c85bf23b3df0450e5df72f9feee9df09dc6993e63e9c42773bf5b95666ea3bb4",
+      "importSHA256": "d761c7f9067f33059751aa1cfe36cbb7a919311f93071dc28b2bc3fc8c896a25",
+      "geometryAnimationBytes": 280768,
+      "imageSHA256": [
+        "e116d2d4867fdf7672c11b7e954448c2df963061042e06ab8211ee813712dda8"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "alpaca",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "9ed13a58a3373f24c17aba958c452f74332a6f7344dc39a52e0580687690d5b4",
+      "importSHA256": "a9919649040a774b6a1897ee1760cfe6fee4eb366806ab04ec4f2a678658ed1a",
+      "geometryAnimationBytes": 706624,
+      "imageSHA256": [
+        "c8703b24f4345312158596d125984067816c3e4c3671bb43feb97df8625d20b1"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "alpaca/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "9ed13a58a3373f24c17aba958c452f74332a6f7344dc39a52e0580687690d5b4",
+      "importSHA256": "ceb713da9fe0f144b9fac0a54e3904b1e6ab452f4ccff04ab13b22980150db08",
+      "geometryAnimationBytes": 405216,
+      "imageSHA256": [
+        "e2f595f1af4bead176a66c7929db9d267185e90a197dde55d9a9524fba8d2584"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "hamster",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "b34effc0a674bfc4768d41b2c1a506fd58737a67b6f7f65d80e076a2a99f5b7d",
+      "importSHA256": "8f07b0fdc751070d39a93469a661be6fc2d64b7e89467efd2cc08f8a08625533",
+      "geometryAnimationBytes": 499252,
+      "imageSHA256": [
+        "bd6dc266f25976f6c63dfac6920595fbcf2be55ef646a9d9ac4b99aa275b3a7a"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "hamster/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "b34effc0a674bfc4768d41b2c1a506fd58737a67b6f7f65d80e076a2a99f5b7d",
+      "importSHA256": "1c1bfc92050817876891af67cfb0f11b782d4ad2d053bb8b26e855bdd0759323",
+      "geometryAnimationBytes": 286848,
+      "imageSHA256": [
+        "b6f0c6956f8c09989608920e4eec1cc54acb3863cf93802dc11eee74b4a5d0a7"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "donkey",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "d8a43102a4840d15636ba33ad1f3a6e4c29868a08b6005da657b39dab807527e",
+      "importSHA256": "db391abec7ac2398c1187c6550e267c71104c18de7c0afbddfcaca6c114e937f",
+      "geometryAnimationBytes": 481056,
+      "imageSHA256": [
+        "3d6b31e70818800129663273c0d1219048a55dd671e87ab6006cc3095af3b0d2"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "donkey/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "d8a43102a4840d15636ba33ad1f3a6e4c29868a08b6005da657b39dab807527e",
+      "importSHA256": "8c4fffe65b140ff883bc866cac5b17cd0fbb041029d4ef09d5257f936ca04d63",
+      "geometryAnimationBytes": 276800,
+      "imageSHA256": [
+        "a8886bcedb13f7d9b22fd6902bd52813700b3040cfa9bd248a273e5332e91c63"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "capybara",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "916ca7391821c8c97a88e801d57f50e284aa55b7633389707d280cc480af40f4",
+      "importSHA256": "150487527a724526a3bb5007b0b1b8ff7b94d65771d9b62dd19d3db860f4b855",
+      "geometryAnimationBytes": 448160,
+      "imageSHA256": [
+        "b208debe80541d9e2f6d4dca4af8c5988ef688a8784a29d78fe05422236bc8bc"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "capybara/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "916ca7391821c8c97a88e801d57f50e284aa55b7633389707d280cc480af40f4",
+      "importSHA256": "79803b6002623c19c56ee85f5cd3f396c1d72cd8250d18e6ff549cd744dc33f4",
+      "geometryAnimationBytes": 264480,
+      "imageSHA256": [
+        "96b29f12e25328a9042903fb4b52528427163732ef810c403f243ed963fd8045"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "ostrich",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "cfb9d34b6217401f30588514d844df9a37015ba98c3f52a46007e8ebe3facd26",
+      "importSHA256": "bf499e272926bf312c85282a8d530a95c74a406abadf1737ed7511d03da93edc",
+      "geometryAnimationBytes": 574016,
+      "imageSHA256": [
+        "9bf8e5e9c13c4cf435d733ac938d6636fff175f7e9081f23a9a2a117249e131b"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "ostrich/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "cfb9d34b6217401f30588514d844df9a37015ba98c3f52a46007e8ebe3facd26",
+      "importSHA256": "7c50b6fb93e9c75cfd931b6b51db28bc34b5a31a91b0f317d141c0eb8f6eca0e",
+      "geometryAnimationBytes": 328456,
+      "imageSHA256": [
+        "93a13d5454d44a947f16320817a9d77452542324511de6d51ee4048305a59e57"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "pony",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "c3e7acc7dd2deae0d70191cdd28105820b019e6575bffb8382c87b0d4b0d1b9f",
+      "importSHA256": "b19ce38e1ae91c81fd557fa4e70744a4437b5345e102e7fb07a368551034c740",
+      "geometryAnimationBytes": 645856,
+      "imageSHA256": [
+        "f5c5c3aaef080166786578fba85432e18de30f0fc37c8a09292a7976d75d27ee"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "pony/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "c3e7acc7dd2deae0d70191cdd28105820b019e6575bffb8382c87b0d4b0d1b9f",
+      "importSHA256": "fe4a7179e8e8ec95eae87d67fe3c6fcdc1b8ac70dc306cbdba88ce76dc8c82f3",
+      "geometryAnimationBytes": 367568,
+      "imageSHA256": [
+        "a68891b0c3cbde7aa30161e53a7c99fc30bcfde99c3b9628020a304168aafc59"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "goat",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "da23daa5370388dd2f4fcad98ed7b24a973b0d2a0faadfc5d70cf4bd84e8b40e",
+      "importSHA256": "7cc72a14f83a8bf7a8e6fd221c9475ef1f9d7d40897ea48259ace24009821725",
+      "geometryAnimationBytes": 485812,
+      "imageSHA256": [
+        "2ca54d6dcafe4568aadb8def22ab2cf2ee752ed680ac412ac79aaabd71ca3092"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "goat/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "da23daa5370388dd2f4fcad98ed7b24a973b0d2a0faadfc5d70cf4bd84e8b40e",
+      "importSHA256": "e41e6b80a69bff5d37bcfd9ef9bd6f837296eb60c7d0adc1c75bcd863d9ca1da",
+      "geometryAnimationBytes": 282528,
+      "imageSHA256": [
+        "d566e0d76695d8b680c217a45c44cdef5b3bfc69e75a2e4b4159461266d06141"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "goose",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "a3163d51628791583db4b69a752f6229ddef03933a041c888d109e53852a6995",
+      "importSHA256": "00d2249b5d74578917c439d5df4c0b6dda562ae3f184711880ce7427ca5d5247",
+      "geometryAnimationBytes": 485856,
+      "imageSHA256": [
+        "f12870fc6151c2abd3cda2ffab58d4fce0e8d22e548d360be2faf52ab61306ab"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "goose/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "a3163d51628791583db4b69a752f6229ddef03933a041c888d109e53852a6995",
+      "importSHA256": "a1e489f4e728a02a3a4cf39c30d5abc34761981ed1f5ce0133530861a292649a",
+      "geometryAnimationBytes": 276256,
+      "imageSHA256": [
+        "b9283ae32b3c2f5df4ded31e9bd224221885c033b5472ed46fe294ecf8b184b0"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "black-pig",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "2c483917129c26355b6f5098ac2e3de84f6c5fa2771bf55c635989abf050cf63",
+      "importSHA256": "ab2aee23bf6a7d802195d01c44d054166d527aea630a2b5e38d73d21f57637ad",
+      "geometryAnimationBytes": 453792,
+      "imageSHA256": [
+        "cec9131125bfedd59ecf782ba647e97c0e619262853ba6b8c5f0af69c5e1fceb"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "black-pig/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "2c483917129c26355b6f5098ac2e3de84f6c5fa2771bf55c635989abf050cf63",
+      "importSHA256": "c3fe5cbc3dc35821f85cb6c9ff5a96c1e9993c05cb82f2a54d2f4b94100433b3",
+      "geometryAnimationBytes": 265984,
+      "imageSHA256": [
+        "5acaf09aa31bb84fe2f11011da5aea8f5ee6b625cfe00543f9277454dc8f2fe0"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "deer",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "e7edefb997c75a512d33067e2227d1cfb6a4445ba9ca9906e9f99b11f306df30",
+      "importSHA256": "5b636960c4ad2cca1bd87b3b0817485eee31213018189a96185371d0ef153898",
+      "geometryAnimationBytes": 493024,
+      "imageSHA256": [
+        "db0a72fda8bafb1e73267cbbfe671a28a08121f8ff1a6653db65050e63cbaf7c"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "deer/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "game-r04",
+      "sourceSHA256": "e7edefb997c75a512d33067e2227d1cfb6a4445ba9ca9906e9f99b11f306df30",
+      "importSHA256": "113825ba33fd33aba5543879aabbd9fcdf7a6dafdb58c20d57dd54a82207a18f",
+      "geometryAnimationBytes": 289544,
+      "imageSHA256": [
+        "a932b432ce206d954c4b62d22fec5922ccd14e23023e57230e8afd095be9d930"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "passed_candidate_with_inherited_details",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S04",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "2a01f89fdbd372e11fcd09efb41141c45f0fb03626b9bffc8124399460412ed5",
+      "importSHA256": "c001990c388bd2b82cedfb8658de46710c093bf65de4fde47f74b9b39c49f760",
+      "geometryAnimationBytes": 945728,
+      "imageSHA256": [
+        "e1587b18bb17b3323bc6e36caad07940b9d75cb6fb874199ef60f89a65c5d6b6",
+        "c1a50ed943c05d95c806c3157c4848850768c957ea9318d1dae3405917d53425"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S04/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "2a01f89fdbd372e11fcd09efb41141c45f0fb03626b9bffc8124399460412ed5",
+      "importSHA256": "05b8cb8ce92fe732a6d6795b69551335f62b89bf68364d51c88b2c143d9047d9",
+      "geometryAnimationBytes": 683840,
+      "imageSHA256": [
+        "4cf2a7a18a0a3b4ddffa3d787b62568d277b4204206a7a5da097d818b748916c",
+        "fb04c379d09a04f1f24a578132acd768c9c9c8329959df3d0bd1cfdd5d1daef5"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S07",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "f23274e03f3a4a51bf2fb8eac0adfa1bde3f737e5f0d86b37e758a8647073ace",
+      "importSHA256": "b7e4518805a00e751b0643697ca3d75266873fd70941da237da722e1cfee042e",
+      "geometryAnimationBytes": 416800,
+      "imageSHA256": [
+        "9d374afd47d8ef669bf66a9f595cae87867275b4f2bfa0bb4af3f790595db491",
+        "d4433e5123286c9537246e75a75fc19a5abc24184a5b64c8fb9255760a1aa8e0"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S07/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "f23274e03f3a4a51bf2fb8eac0adfa1bde3f737e5f0d86b37e758a8647073ace",
+      "importSHA256": "be79688d546fdbf67dad35027684674a7ca98c100dd2e0944c64379357be741c",
+      "geometryAnimationBytes": 230624,
+      "imageSHA256": [
+        "ce5a9c47f6dbc4219339a13ec47eb209e4921389fd3130b6124392af1511a5c9",
+        "fe9356d6b61c97188e7bbaa19306d0984ce3eae09f5d3ea41a0a7e1b05d020f0"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S08",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "c2df3b7d7ebea35c92e6ed3e3cd5dadb351917d858d42cb5b8f0efdaffd74ec3",
+      "importSHA256": "b1259703753b79f90043f28a4fcb0350e89877de9b2bd40f509db1728d454439",
+      "geometryAnimationBytes": 399840,
+      "imageSHA256": [
+        "816a1425c992f32a3d7b1c1e9b169dc560d099e235f9f442eef26101d7c82677",
+        "ecc3895f694bd3ae5f406bf783ddf45480d4015a05ced50840e6f068dca89378"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S08/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "c2df3b7d7ebea35c92e6ed3e3cd5dadb351917d858d42cb5b8f0efdaffd74ec3",
+      "importSHA256": "8695db229e30ae0334d296401b8af1b2318bd9514b4378161ac7eb2f8297c17d",
+      "geometryAnimationBytes": 229080,
+      "imageSHA256": [
+        "421fe3cf79c941f88b376b0a2439ac2fb5d793c0e57d1a01c88817d993becf12",
+        "33cb16c2dd6e0f98fa2f0b46874dc80d372f96c32a9460a6027e0bc00b33b540"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S09",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r02",
+      "sourceSHA256": "849892d06f64a37bc37df3861a7565df8f51de0f735f0c39af9e3affea3f81c2",
+      "importSHA256": "db12a788b3434db773cf364a72ca64920fb2bcdc18f98867692ece6a6944828d",
+      "geometryAnimationBytes": 258372,
+      "imageSHA256": [
+        "6ecd96c5424e3de500ba870fed22d7c550180bdd58e31e0bd38a76a14350e20c",
+        "e3d9128e7a448130802e994c7a435bb3eba5d14dddf6d3e3309e980f2e96566e"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S09/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r02",
+      "sourceSHA256": "849892d06f64a37bc37df3861a7565df8f51de0f735f0c39af9e3affea3f81c2",
+      "importSHA256": "cbe28f99fb0f8a2e473cd15c1427eacdd790ae7dc459ee723d3a8656f73ee040",
+      "geometryAnimationBytes": 162708,
+      "imageSHA256": [
+        "b6edb8b39ebb665522c19a0cffa51f352cbcc40816b6f99007ada8fd61ff593a",
+        "85f7705f8c2e304a1175755dd55dbcae80c77898b75b48c37d8926a168d149c1"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S10",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "f8d34b86785155a8e89a0d9abae7ac59faa96673135e3065193c11ef7520cd56",
+      "importSHA256": "88b28316fb71b65b2ceb18b524b03063038d9f6b37544e7976d1b62dcb299610",
+      "geometryAnimationBytes": 278016,
+      "imageSHA256": [
+        "eca385cc2590e8aa60faf849e9bd24af94d435138ab90695b5e6609829d69837",
+        "084ba56b3c2726334b22b2c623bdc8fd4a3b2976d9ad9f3f5d8fddd8ca7ec762"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S10/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "f8d34b86785155a8e89a0d9abae7ac59faa96673135e3065193c11ef7520cd56",
+      "importSHA256": "bc1c9cb08c34e33de37e6df591861cd5b303d23bdde8ddff962c296345ef69f5",
+      "geometryAnimationBytes": 150496,
+      "imageSHA256": [
+        "01da3563356ed45176c5c1516d1d89d40a59195cd81921553263152a55c6f715",
+        "78db876488b2046583e66f4956d3184825b64a405c4fc47396bdc6edc13cce2d"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S11",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "842ae1f7b39ac5eaeac25fe4ee6aa989b860e6f8a9f2d2171e34736f56ae18cb",
+      "importSHA256": "a915974c47424f7b852c146f4ee8ac57a9ed8ef436417155fd54a1734f9b9e0c",
+      "geometryAnimationBytes": 456672,
+      "imageSHA256": [
+        "b7028945edac5173077ff6206cea6b1d124c30fc6248a40314181cb43602a160",
+        "2e74e8f9cbfd4b8dd598f886a6ac9bf582e34f5ea8d30f927e7a268a194fe3ce"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S11/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "842ae1f7b39ac5eaeac25fe4ee6aa989b860e6f8a9f2d2171e34736f56ae18cb",
+      "importSHA256": "4fc49d39ce527715253cc8754f52c6cd87fe967948f071aa37497a2748b9016b",
+      "geometryAnimationBytes": 267512,
+      "imageSHA256": [
+        "9c847aeec506cff2233b7e5760870562665f73b675fb38dcd95f0db33902382f",
+        "38695416e7247cb62ea75cb5545aceee45d62eb8e5bb91ca5b527e9fdec55a18"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S12",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "6026e497a1f450e86433e42643f4d509fed470f26d7ebb992285278f8ba453b0",
+      "importSHA256": "155688fadcc2428a8bf0b22be2eb7aea238103a6dcb3b264741faa644051b539",
+      "geometryAnimationBytes": 217120,
+      "imageSHA256": [
+        "85567845b3f121fd7fac2cc351574150158044eee409216de01c9d07b2cc007e",
+        "e5acb3a8ce3a31a27c9486a727f3d96e2174c6220c0ae36a832f6615781b07db"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "S12/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "6026e497a1f450e86433e42643f4d509fed470f26d7ebb992285278f8ba453b0",
+      "importSHA256": "aff0443e44f64c6b7a772c6bc3ad16dd73b02a3e4e73f4e5235d4b6f732f3730",
+      "geometryAnimationBytes": 125968,
+      "imageSHA256": [
+        "f6f96ae4bc24adecdc7981615725fcfe6a19d296c6e926626ab0464a5d042512",
+        "a90283e89441bcc50a5cd41314999bda995e284f48cffff16b46693845be9ffc"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E03",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "b19254e6f5479d88ead8ee79bd25a187a68d4c07a035e51fa9092f0da6290921",
+      "importSHA256": "cfeb3f99db00e27de68b658850e0cdbb6ec41c0a1daeebd81287df3c54f06290",
+      "geometryAnimationBytes": 114064,
+      "imageSHA256": [
+        "af9efc5fd33b4325fca36ce944520e733a49cf5d53a9801173370c0ffcd26a14",
+        "be64f7df4cddd7fe86c76e2e6efa48266772b8e8d5b230035a662a37e9595c44"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E03/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "b19254e6f5479d88ead8ee79bd25a187a68d4c07a035e51fa9092f0da6290921",
+      "importSHA256": "11b138d1e5038c0e54fca741582dc9a860008add2c4123b46d7a0e33086dd0f7",
+      "geometryAnimationBytes": 73476,
+      "imageSHA256": [
+        "cb8adb2100e77020adfb246c2c50a7bae50c761ba3231f4460d16d9d0707016f",
+        "3cac829b7d9c6ab68b17c90d9910f0153503719b78c0b6c54750a8853cc39768"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E04",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "8792a194b79fe6cb073e48c865215e29fb3957654a3594ea96aba13018fab01b",
+      "importSHA256": "eaeafd521c46c72f4f140ac801827d16b37f616f6e22237ed457895423c4e6b1",
+      "geometryAnimationBytes": 75672,
+      "imageSHA256": [
+        "a4674ff3bfebc628e0cf5b56a3e2fcfae01db50067d34f520848c48afbb0f133",
+        "41c3dd63585be48c0d418ff2e85ed4699a4915744ad6522f2f50f773e8f4f6e7"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E04/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "8792a194b79fe6cb073e48c865215e29fb3957654a3594ea96aba13018fab01b",
+      "importSHA256": "9f74dd9680ae95fe94ac5de362254a9ac27f6588640096fb01ef56c2aff8ba60",
+      "geometryAnimationBytes": 47304,
+      "imageSHA256": [
+        "13a95816670404f00a289051aa6bd2a2d5f69ddf6e86308802debb458c080f85",
+        "14300881b06e4298bfe196578ff1da380f751fa3b29978496ba22c3ff437cf32"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E06",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "existing-input",
+      "sourceSHA256": "763e2e7bda7d81a138734d29594fd2e58a2d798aba84403a58ed1772b1011c5e",
+      "importSHA256": "763e2e7bda7d81a138734d29594fd2e58a2d798aba84403a58ed1772b1011c5e",
+      "geometryAnimationBytes": 4939296,
+      "imageSHA256": [
+        "4f013ae42b2264c25f5ebc033de9b1b8dd68c87e09c3587e56a642fff6a3e8db",
+        "379f40c7f0154662c189ea3a8c9badf9c62c3093391badf6e51e0b4ee58e6d48",
+        "c96d1ae40d441f01121b44072486c47aa6e70922b400ea5490705c9de0777a33"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "not_adopted_optional_source",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E09",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "6c29342cef0ddee4c91491251b4698e94d8cb41fcad9c89ba514c4bd7e2dec9f",
+      "importSHA256": "d38b077b90404eab834b1719327de63fb108831663c175b268263fe94dacbf5c",
+      "geometryAnimationBytes": 255168,
+      "imageSHA256": [
+        "5f7805d9edb8b26afd47d9d3e322039d30ed4678cd0270497a303ecc7eddb21d",
+        "911a559b56ec818f0a7c4be3c8639da120b41ea6d0597359f89f2e190221b56d"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E09/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "6c29342cef0ddee4c91491251b4698e94d8cb41fcad9c89ba514c4bd7e2dec9f",
+      "importSHA256": "328b4137656de771c7d4928ecfc109b3b3a1120971f1c3625f8ae393a47643f6",
+      "geometryAnimationBytes": 149944,
+      "imageSHA256": [
+        "906673a8620654f6b2467449e2bcaf1105906643ef662d4e5fe4982f699afc6c",
+        "918f59abf3f88e7e305d208f1c5c97d645829dd4abb4e24ce99c4977497336aa"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E10",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "d1a7ac94aa13521830a487b39f84c35c79be1bc73ed18ba7b1ab8786d19bcb61",
+      "importSHA256": "7dc3b3e4825af68422d20ce322851905c4ae0b982c7e1698871d5cfb8d4a3a25",
+      "geometryAnimationBytes": 151856,
+      "imageSHA256": [
+        "443d657330f25df07a0a189d8cf3588f53c24a211bf600ddb82fa5128ae42c71",
+        "cdd166d3ff0ac361f5d5b6b9445b35863c81a5f0ecdd86e9f3d3ea28116e2ec5"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E10/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "d1a7ac94aa13521830a487b39f84c35c79be1bc73ed18ba7b1ab8786d19bcb61",
+      "importSHA256": "8d3d42212ee3b9a8281479519a18371b76ae3d6aa7d24f74a868d8805ea2d30f",
+      "geometryAnimationBytes": 79864,
+      "imageSHA256": [
+        "33f02a09880895e8b14dc5278d5afc0aa08a376c736c9badb06678f150398168",
+        "a428dced3c7ad8540e28ac2b17930a3f02605e13b80fba45c47af06937a792c1"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E11",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "07ef99bb5c65ec81b69807052f59a744d8bb461d15489f58a5828b6c58e471d2",
+      "importSHA256": "8cbc3f1fc5ac3413c60c4336b033cd8335dcd34ce16b73b4dc63831a47e32452",
+      "geometryAnimationBytes": 251912,
+      "imageSHA256": [
+        "1df52492fbbeddab0d48736eee03e5f17cc3bc07e9ee278882afd6797198e179",
+        "de2635e37c7a83b215cfa04a60622b4aae062a30e2e668309e793fa4bf869fea"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E11/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "07ef99bb5c65ec81b69807052f59a744d8bb461d15489f58a5828b6c58e471d2",
+      "importSHA256": "f1a77e9f19bb7267a8172ce099a939673df97ed3fd66d3ecada5385cb8440e42",
+      "geometryAnimationBytes": 162808,
+      "imageSHA256": [
+        "3fd2b1094cb41e70474dcba7ae8d0bdc72877476fc26c030eff4d231f479777f",
+        "2b53b8088b57f31fb15a4db17ec61c3e5f3ff049abfe46f577e00e4f3a4b686e"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E12",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "0afb139fdc31b78582d787196baa36a965cc27fe162a66010060f1c451472042",
+      "importSHA256": "569f79edcf6791160c0d16fdc2386290b060aade95e1f9fd59ef3d3c42261042",
+      "geometryAnimationBytes": 182196,
+      "imageSHA256": [
+        "d38f711b10b07278535cdb2f8c996aab0a18bab69aa5b26292d200f8e193e139",
+        "cf4c34151a6241bcbd8b4459cffd058ffd97f86ba91225bbade8877c72c6f33b"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E12/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "0afb139fdc31b78582d787196baa36a965cc27fe162a66010060f1c451472042",
+      "importSHA256": "c82d0fbdd3d7c39a826e85f09de357cb031893373f5fa078f4dfcd1b87123711",
+      "geometryAnimationBytes": 115068,
+      "imageSHA256": [
+        "9cb40486b0130136fb3fd7783fe52ce0275f2ebc5213b0951c8f923017a4b4c9",
+        "77a8e9651d2fbdbe4194b8ebd0e06829c2e6750c663fdcda1bdbdc7cda4d03aa"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E14",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "53888fc327018a011b42fa47b46066364902aea90012fa9921193faa40c32d37",
+      "importSHA256": "6da4dfafafb106820a34d2d8edd743391189f759b0c5419b6e522fc21aca8fb8",
+      "geometryAnimationBytes": 153872,
+      "imageSHA256": [
+        "9d30b4a4b1abd2a4b60fd004a47e1922e4596d588d5f3c9024ff28fddc4a216f",
+        "68f4debddcfb0e21e6ef046a3b3da06e4894ec32bb27e903699ad143be0057e4"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E14/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "53888fc327018a011b42fa47b46066364902aea90012fa9921193faa40c32d37",
+      "importSHA256": "0159854b1a0f23207777a4c66d15f98d2b4a708d892613dd168199aebec1bcd7",
+      "geometryAnimationBytes": 88512,
+      "imageSHA256": [
+        "51b009f54c04f79d81d8470e2fdadb95fc7df4daa816293e80dd1eb2a785077c",
+        "5ba5c6f6b6283b238e08ae35462d4769efab33a6c2d05f9f16be5e7aa1d6bb36"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E15",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "55ea9358ff6529835b9a2f11473ace9d47a08b35716b720c3b37494d4bd4e6f9",
+      "importSHA256": "a2e80fc4782fa8e8a52154deac9a459b794658d2cef22c2bf3be9c88f6bc5b3b",
+      "geometryAnimationBytes": 208656,
+      "imageSHA256": [
+        "d8aae91ad33fe036b1a345293d97268f6453c9ecfeee8c9194dc53dc3be92af7",
+        "459fec2b011f543268590ccd969bd57803c5d28e3b76c33c3dceba5db19f12f2"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E15/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "bvh-r01",
+      "sourceSHA256": "55ea9358ff6529835b9a2f11473ace9d47a08b35716b720c3b37494d4bd4e6f9",
+      "importSHA256": "4e72a4cdfc05655715f7a313c671888830de56fe7f52e32b65ded5d98652d3c2",
+      "geometryAnimationBytes": 134992,
+      "imageSHA256": [
+        "626fc319d772f849ed1ba4dd12048ebdce61d7781e6eb3eef370055bdd3ca1ee",
+        "3fd23c9f32c242756a22a4a4b64cfd650fc6ddeeaa621879a7cc1b8528c4c26e"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E16",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "surface-r01",
+      "sourceSHA256": "b3044eacc519dbbdfd5bf107163d8a14c0c003fd9a094703193b3abeb851e016",
+      "importSHA256": "19993497208679dfddbb2de4580fbdc292b6b321d636e9a048fc05bfe8ad8aba",
+      "geometryAnimationBytes": 3775104,
+      "imageSHA256": [
+        "2ffd4a6116484add32eea61c08e1a8e4af46244c253cd27bf036e1e19af26442",
+        "856123b12c27acd19cbdd38ae856be8d2f16cb7c87effc97e2b81827a61bdfaa"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "E16/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "surface-r01",
+      "sourceSHA256": "b3044eacc519dbbdfd5bf107163d8a14c0c003fd9a094703193b3abeb851e016",
+      "importSHA256": "a64017a016eeeac03e16387a34f903936c3913157d85a0788a47e99ec1e5605e",
+      "geometryAnimationBytes": 2706820,
+      "imageSHA256": [
+        "0d31a048aaeb6b9d50038ec5e08c77f47b47bfbdfccc982ab44a924947854169",
+        "5a1485b158fa41e1200d9d4604adadc643daaab87f944e7e4f3434c589c9dfc2"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cabbage-mature",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "21fd0f3ea18cb34d1f84f6f90d36d35b17a4cbbc7a6d37e638593f374748b379",
+      "importSHA256": "cf2855fff21c5a0936ba227115baa50fbb7a8b1130f7df52a27b97d3208edcda",
+      "geometryAnimationBytes": 396096,
+      "imageSHA256": [
+        "c88580fb26573442538b50a1001c11c1cee385f1dadf03fbf68b670c15183909",
+        "7c8a1d70713c71e07806223b0094dd9f8c2ce5da2fac0b4626c4bd3397d7b449"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    },
+    {
+      "id": "cabbage-mature/LOD1",
+      "status": "exact_payload_preserved",
+      "selectedVersion": "atlas-r01",
+      "sourceSHA256": "21fd0f3ea18cb34d1f84f6f90d36d35b17a4cbbc7a6d37e638593f374748b379",
+      "importSHA256": "ab50be669b8390a970a4a7e2b617a8bf11e8dcec63a83031798b422e3664181d",
+      "geometryAnimationBytes": 273080,
+      "imageSHA256": [
+        "a500e68e5e78c6d19021f5d35dfa39ed2f834caab9c4999f6c5cd8de42de3bb0",
+        "29b8ddaa9b7b5402881e448796591de391b0046453d31e0c66c29d3cd4c7a035"
+      ],
+      "meshCount": 1,
+      "skinCount": 0,
+      "animations": [],
+      "visual": "initial_pass_with_reservations",
+      "unityImport": "not_verified_by_this_audit"
+    }
+  ]
+}

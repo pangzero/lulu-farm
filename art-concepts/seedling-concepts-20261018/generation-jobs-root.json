@@ -1,0 +1,72 @@
+[
+  {
+    "catalog_id": "C01",
+    "id": "cabbage",
+    "name": "卷心菜",
+    "batch": "B08",
+    "stage": "seedling",
+    "reference_image": "/Users/haowen/GameProject/farm-game/lulu-studio/review/crop-meshy-progress-20261018/cabbage-quarter.png",
+    "file": "B08/C01-cabbage-seedling.png",
+    "generation_prompt": "Use case: stylized-concept. Create ONE separate EARLY VEGETATIVE SEEDLING of the same crop as the attached MATURE PLANT reference. The input image is a STYLE AND SPECIES REFERENCE only, NOT an edit target and NOT an instruction to keep mature organs. Design a genuinely juvenile architecture, not a shrunken mature plant. Cozy farm-game 3D concept render, plump softly curved fleshy leaves, shallow integrated veins, rounded substantial edges, fresh gentle greens and softly matte material matching the reference. A short sturdy clean basal crown, believable connected petioles, front/side/back volume. Entire single plant fully visible, centred in a square with 12% safe white margins, 3/4 camera modestly above (about 25 degrees), soft diffuse studio light, pure white background, at most a faint contact shadow. NO soil, dirt clod, roots dangling below the crown, terrain, pot, pedestal, solid shadow object, text, labels, panel, sheet, multiple views, other plant species, detached pieces, flowers, buds, fruits, vegetables, grain heads or mature reproductive organs. Limit leaf count, keep open breathing space, avoid mature dense foliage, razor thin surfaces and needle tips. This is an individual art concept, NOT a comparison board. A juvenile cabbage seedling with TWO small softly kidney-shaped pale-green cotyledons low near the base, TWO larger broad rounded young true leaves of unequal heights above them, and one tiny emerging central leaf. The true leaves have gently cupped surfaces and restrained soft scalloping; very short clean light-green crown. No cabbage head, no enclosing ball, no ring-shaped mature outer-leaf bowl. Wide, low, compact silhouette."
+  },
+  {
+    "catalog_id": "C02",
+    "id": "tomato",
+    "name": "番茄",
+    "batch": "B08",
+    "stage": "seedling",
+    "reference_image": "/Users/haowen/GameProject/farm-game/lulu-studio/review/crop-meshy-progress-20261018/tomato-quarter.png",
+    "file": "B08/C02-tomato-seedling.png",
+    "generation_prompt": "Use case: stylized-concept. Create ONE separate EARLY VEGETATIVE SEEDLING of the same crop as the attached MATURE PLANT reference. The input image is a STYLE AND SPECIES REFERENCE only, NOT an edit target and NOT an instruction to keep mature organs. Design a genuinely juvenile architecture, not a shrunken mature plant. Cozy farm-game 3D concept render, plump softly curved fleshy leaves, shallow integrated veins, rounded substantial edges, fresh gentle greens and softly matte material matching the reference. A short sturdy clean basal crown, believable connected petioles, front/side/back volume. Entire single plant fully visible, centred in a square with 12% safe white margins, 3/4 camera modestly above (about 25 degrees), soft diffuse studio light, pure white background, at most a faint contact shadow. NO soil, dirt clod, roots dangling below the crown, terrain, pot, pedestal, solid shadow object, text, labels, panel, sheet, multiple views, other plant species, detached pieces, flowers, buds, fruits, vegetables, grain heads or mature reproductive organs. Limit leaf count, keep open breathing space, avoid mature dense foliage, razor thin surfaces and needle tips. This is an individual art concept, NOT a comparison board. A juvenile tomato seedling with one short upright sturdy green stem, TWO narrow smooth oval cotyledons low on the stem, and TWO to THREE small true leaves on short connected petioles above. True leaves have distinct shallow rounded lobes, different orientations and gentle folds, creating a slightly branching upright silhouette. Enough open stem to read the leaf hierarchy. Absolutely no yellow flower, red tomato, green fruit or fruit calyx."
+  },
+  {
+    "catalog_id": "C03",
+    "id": "corn",
+    "name": "玉米",
+    "batch": "B08",
+    "stage": "seedling",
+    "reference_image": "/Users/haowen/GameProject/farm-game/lulu-studio/review/crop-meshy-progress-20261018/corn-quarter.png",
+    "file": "B08/C03-corn-seedling.png",
+    "generation_prompt": "Use case: stylized-concept. Create ONE separate EARLY VEGETATIVE SEEDLING of the same crop as the attached MATURE PLANT reference. The input image is a STYLE AND SPECIES REFERENCE only, NOT an edit target and NOT an instruction to keep mature organs. Design a genuinely juvenile architecture, not a shrunken mature plant. Cozy farm-game 3D concept render, plump softly curved fleshy leaves, shallow integrated veins, rounded substantial edges, fresh gentle greens and softly matte material matching the reference. A short sturdy clean basal crown, believable connected petioles, front/side/back volume. Entire single plant fully visible, centred in a square with 12% safe white margins, 3/4 camera modestly above (about 25 degrees), soft diffuse studio light, pure white background, at most a faint contact shadow. NO soil, dirt clod, roots dangling below the crown, terrain, pot, pedestal, solid shadow object, text, labels, panel, sheet, multiple views, other plant species, detached pieces, flowers, buds, fruits, vegetables, grain heads or mature reproductive organs. Limit leaf count, keep open breathing space, avoid mature dense foliage, razor thin surfaces and needle tips. This is an individual art concept, NOT a comparison board. A young maize seedling of a MONOCOT. A compact green basal leaf sheath with TWO broad juvenile strap-like leaves arching in different directions and heights, plus ONE short upright partially rolled emerging leaf in the center. Leaves have a soft lengthwise folded trough and tapered but rounded ends, showing thickness and supple bends. Taller/narrower than the cabbage, broader and fewer leaves than wheat seedlings. NO pair of oval cotyledons, no cob, no kernels, no tassel, no bush of many mature leaves."
+  },
+  {
+    "catalog_id": "C04",
+    "id": "cucumber",
+    "name": "黄瓜",
+    "batch": "B08",
+    "stage": "seedling",
+    "reference_image": "/Users/haowen/GameProject/farm-game/lulu-studio/review/crop-meshy-progress-20261018/cucumber-quarter.png",
+    "file": "B08/C04-cucumber-seedling.png",
+    "generation_prompt": "Use case: stylized-concept. Create ONE separate EARLY VEGETATIVE SEEDLING of the same crop as the attached MATURE PLANT reference. The input image is a STYLE AND SPECIES REFERENCE only, NOT an edit target and NOT an instruction to keep mature organs. Design a genuinely juvenile architecture, not a shrunken mature plant. Cozy farm-game 3D concept render, plump softly curved fleshy leaves, shallow integrated veins, rounded substantial edges, fresh gentle greens and softly matte material matching the reference. A short sturdy clean basal crown, believable connected petioles, front/side/back volume. Entire single plant fully visible, centred in a square with 12% safe white margins, 3/4 camera modestly above (about 25 degrees), soft diffuse studio light, pure white background, at most a faint contact shadow. NO soil, dirt clod, roots dangling below the crown, terrain, pot, pedestal, solid shadow object, text, labels, panel, sheet, multiple views, other plant species, detached pieces, flowers, buds, fruits, vegetables, grain heads or mature reproductive organs. Limit leaf count, keep open breathing space, avoid mature dense foliage, razor thin surfaces and needle tips. This is an individual art concept, NOT a comparison board. A juvenile cucumber seedling with TWO small plump oblong cotyledons at the lower stem, ONE clear soft heart-shaped young true leaf with restrained shallow palmate veins above, and ONE smaller emerging heart leaf at a different depth. Short upright connected stem, light-green flexible young petioles. At most a tiny curved growing shoot, no long coiling vine. Clearly a simple early seedling, not a fruiting vine; no cucumber, yellow blossom or large tendril."
+  },
+  {
+    "catalog_id": "C05",
+    "id": "pumpkin",
+    "name": "南瓜",
+    "batch": "B08",
+    "stage": "seedling",
+    "reference_image": "/Users/haowen/GameProject/farm-game/lulu-studio/review/crop-meshy-progress-20261018/pumpkin-quarter.png",
+    "file": "B08/C05-pumpkin-seedling.png",
+    "generation_prompt": "Use case: stylized-concept. Create ONE separate EARLY VEGETATIVE SEEDLING of the same crop as the attached MATURE PLANT reference. The input image is a STYLE AND SPECIES REFERENCE only, NOT an edit target and NOT an instruction to keep mature organs. Design a genuinely juvenile architecture, not a shrunken mature plant. Cozy farm-game 3D concept render, plump softly curved fleshy leaves, shallow integrated veins, rounded substantial edges, fresh gentle greens and softly matte material matching the reference. A short sturdy clean basal crown, believable connected petioles, front/side/back volume. Entire single plant fully visible, centred in a square with 12% safe white margins, 3/4 camera modestly above (about 25 degrees), soft diffuse studio light, pure white background, at most a faint contact shadow. NO soil, dirt clod, roots dangling below the crown, terrain, pot, pedestal, solid shadow object, text, labels, panel, sheet, multiple views, other plant species, detached pieces, flowers, buds, fruits, vegetables, grain heads or mature reproductive organs. Limit leaf count, keep open breathing space, avoid mature dense foliage, razor thin surfaces and needle tips. This is an individual art concept, NOT a comparison board. A young pumpkin seedling with TWO thick rounded oval cotyledons open wide near a squat sturdy light-green stem, ONE broad softly lobed young true leaf that is wider than a cucumber seedling leaf, and ONE small partly unfolding young leaf. Compact low spreading leaf placement, fleshy softly curved petioles, broad shallow lobes rather than serrated cuts. No orange pumpkin, squash fruit, large trailing vine or flowers. No giant mature canopy."
+  },
+  {
+    "catalog_id": "C06",
+    "id": "sunflower",
+    "name": "向日葵",
+    "batch": "B08",
+    "stage": "seedling",
+    "reference_image": "/Users/haowen/GameProject/farm-game/lulu-studio/review/crop-meshy-progress-20261018/sunflower-quarter.png",
+    "file": "B08/C06-sunflower-seedling.png",
+    "generation_prompt": "Use case: stylized-concept. Create ONE separate EARLY VEGETATIVE SEEDLING of the same crop as the attached MATURE PLANT reference. The input image is a STYLE AND SPECIES REFERENCE only, NOT an edit target and NOT an instruction to keep mature organs. Design a genuinely juvenile architecture, not a shrunken mature plant. Cozy farm-game 3D concept render, plump softly curved fleshy leaves, shallow integrated veins, rounded substantial edges, fresh gentle greens and softly matte material matching the reference. A short sturdy clean basal crown, believable connected petioles, front/side/back volume. Entire single plant fully visible, centred in a square with 12% safe white margins, 3/4 camera modestly above (about 25 degrees), soft diffuse studio light, pure white background, at most a faint contact shadow. NO soil, dirt clod, roots dangling below the crown, terrain, pot, pedestal, solid shadow object, text, labels, panel, sheet, multiple views, other plant species, detached pieces, flowers, buds, fruits, vegetables, grain heads or mature reproductive organs. Limit leaf count, keep open breathing space, avoid mature dense foliage, razor thin surfaces and needle tips. This is an individual art concept, NOT a comparison board. A young sunflower seedling: TWO small oval cotyledons near the lower clean short stem and TWO larger opposite young heart-shaped green true leaves with shallow veins, plus ONE tiny central emerging leaf pair kept subtle. Short stout upright silhouette and broad soft leaf faces. Match the mature reference leaf style only; remove BOTH yellow flower heads completely. No flower, no brown disk, no bud, no seed head, no tall trunk."
+  },
+  {
+    "catalog_id": "C07",
+    "id": "wheat",
+    "name": "小麦",
+    "batch": "B08",
+    "stage": "seedling",
+    "reference_image": "/Users/haowen/GameProject/farm-game/lulu-studio/review/crop-meshy-progress-20261018/wheat-quarter.png",
+    "file": "B08/C07-wheat-seedling.png",
+    "generation_prompt": "Use case: stylized-concept. Create ONE separate EARLY VEGETATIVE SEEDLING of the same crop as the attached MATURE PLANT reference. The input image is a STYLE AND SPECIES REFERENCE only, NOT an edit target and NOT an instruction to keep mature organs. Design a genuinely juvenile architecture, not a shrunken mature plant. Cozy farm-game 3D concept render, plump softly curved fleshy leaves, shallow integrated veins, rounded substantial edges, fresh gentle greens and softly matte material matching the reference. A short sturdy clean basal crown, believable connected petioles, front/side/back volume. Entire single plant fully visible, centred in a square with 12% safe white margins, 3/4 camera modestly above (about 25 degrees), soft diffuse studio light, pure white background, at most a faint contact shadow. NO soil, dirt clod, roots dangling below the crown, terrain, pot, pedestal, solid shadow object, text, labels, panel, sheet, multiple views, other plant species, detached pieces, flowers, buds, fruits, vegetables, grain heads or mature reproductive organs. Limit leaf count, keep open breathing space, avoid mature dense foliage, razor thin surfaces and needle tips. This is an individual art concept, NOT a comparison board. One small early vegetative wheat clump with THREE short slender green shoots at unequal heights sharing one compact clean basal tuft, each carrying one or two narrow gently arching blade leaves. Leaves are supple curved ribbons with subtle central folds and real edge thickness, ends tapered softly. Fresh green, NOT golden straw. Fewer than eight total blades, airy small tuft, not a dense grass hedge. Clearly narrower and finer leaves than the maize seedling. No ears, grains, awns, hay bundle or mature culms."
+  }
+]

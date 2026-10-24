@@ -1,0 +1,396 @@
+{
+  "scope": "Read-only GLB geometric preflight using actual prefab adapter, not an executed Unity contact check.",
+  "asset": "S08",
+  "prefab": "/Users/haowen/IdeaProjects/farm-game/lulu-farm-unity/Assets/Farm/Prefabs/S08.prefab",
+  "adapter_scale": 0.8962987,
+  "adapter_offset": [
+    -0.00022138725,
+    0.30042514,
+    0.00077522936
+  ],
+  "normalized_height": 0.6,
+  "current_root_position": [
+    10.9,
+    -0.22,
+    -1.0
+  ],
+  "yaw_degrees": 25,
+  "water_world_y": -0.105,
+  "method": "Vertical triangle intersections on a 0.01-unit root-local XZ grid over visible inner hull. First surface is underside; second is inner floor; further hits can be seat planks. Both existing LODs use the same serialized adapter.",
+  "variants": [
+    {
+      "lod": "LOD0",
+      "source": "/Users/haowen/IdeaProjects/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/S08.glb",
+      "sha256": "b1259703753b79f90043f28a4fcb0350e89877de9b2bd40f509db1728d454439",
+      "root_local_bounds": [
+        [
+          -0.8526408553172288,
+          -1.0797084004643409e-08,
+          -0.4676348476330184
+        ],
+        [
+          0.8526408019055727,
+          0.6000000013265783,
+          0.46763490105498207
+        ]
+      ],
+      "floor_samples": 7137,
+      "minimum_sample": {
+        "root_local_xz": [
+          -0.0699999999999994,
+          -0.16999999999999987
+        ],
+        "outer_local_y": 8.946632564953136e-05,
+        "inner_local_y": 0.09226060049368566,
+        "world_inner_xyz": [
+          10.764713350411517,
+          -0.12773939950631436,
+          -1.1244890454743817
+        ],
+        "all_local_hits_y": [
+          8.946632564953136e-05,
+          0.09226060049368566
+        ]
+      },
+      "floor_local_y_percentiles": [
+        0.09226060049368566,
+        0.09825849332418109,
+        0.10246643708573262,
+        0.116932910026483,
+        0.16051977781764465,
+        0.2395165225584823
+      ],
+      "visible_floor_below_current_water_samples": 3354,
+      "floor_current_min_world_y": -0.12773939950631436,
+      "probes": [
+        {
+          "root_local_xz": [
+            -0.65,
+            0
+          ],
+          "local_hits_y": [
+            0.00013389084273371932,
+            0.1543888569760887
+          ],
+          "current_world_hits_y": [
+            -0.2198661091572663,
+            -0.0656111430239113
+          ]
+        },
+        {
+          "root_local_xz": [
+            -0.45,
+            0
+          ],
+          "local_hits_y": [
+            0.00013702165749435426,
+            0.1242491921308576
+          ],
+          "current_world_hits_y": [
+            -0.21986297834250565,
+            -0.0957508078691424
+          ]
+        },
+        {
+          "root_local_xz": [
+            -0.2,
+            0
+          ],
+          "local_hits_y": [
+            0.0001464698722032767,
+            0.10045345268829714,
+            0.25924262688596966,
+            0.3447118404584986
+          ],
+          "current_world_hits_y": [
+            -0.21985353012779674,
+            -0.11954654731170286,
+            0.03924262688596966,
+            0.12471184045849862
+          ]
+        },
+        {
+          "root_local_xz": [
+            0,
+            0
+          ],
+          "local_hits_y": [
+            0.0001057026171100505,
+            0.09958997664908954
+          ],
+          "current_world_hits_y": [
+            -0.21989429738288996,
+            -0.12041002335091046
+          ]
+        },
+        {
+          "root_local_xz": [
+            0.1,
+            0
+          ],
+          "local_hits_y": [
+            0.00010849575323995496,
+            0.10387214400402393
+          ],
+          "current_world_hits_y": [
+            -0.21989150424676004,
+            -0.11612785599597607
+          ]
+        },
+        {
+          "root_local_xz": [
+            0.25,
+            0
+          ],
+          "local_hits_y": [
+            5.2351218484779e-05,
+            0.11898781292980827,
+            0.21628153850592777,
+            0.30163151312591313
+          ],
+          "current_world_hits_y": [
+            -0.2199476487815152,
+            -0.10101218707019173,
+            -0.003718461494072234,
+            0.08163151312591313
+          ]
+        },
+        {
+          "root_local_xz": [
+            0.45,
+            0
+          ],
+          "local_hits_y": [
+            0.00012285467132452842,
+            0.15338512085698572
+          ],
+          "current_world_hits_y": [
+            -0.21987714532867547,
+            -0.06661487914301428
+          ]
+        },
+        {
+          "root_local_xz": [
+            0,
+            -0.2
+          ],
+          "local_hits_y": [
+            8.89013274987728e-05,
+            0.10397385150190143
+          ],
+          "current_world_hits_y": [
+            -0.21991109867250122,
+            -0.11602614849809857
+          ]
+        },
+        {
+          "root_local_xz": [
+            0,
+            0.2
+          ],
+          "local_hits_y": [
+            0.0001225039067213282,
+            0.10431994079237462
+          ],
+          "current_world_hits_y": [
+            -0.21987749609327867,
+            -0.11568005920762538
+          ]
+        }
+      ]
+    },
+    {
+      "lod": "LOD1",
+      "source": "/Users/haowen/IdeaProjects/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S08.glb",
+      "sha256": "8695db229e30ae0334d296401b8af1b2318bd9514b4378161ac7eb2f8297c17d",
+      "root_local_bounds": [
+        [
+          -0.8526408553172288,
+          3.484807948705981e-05,
+          -0.46795015351734387
+        ],
+        [
+          0.8523254425976815,
+          0.5990537898439907,
+          0.46687243992636573
+        ]
+      ],
+      "floor_samples": 7134,
+      "minimum_sample": {
+        "root_local_xz": [
+          -0.0699999999999994,
+          -0.16999999999999987
+        ],
+        "outer_local_y": 9.374171708165412e-05,
+        "inner_local_y": 0.09205325266932024,
+        "world_inner_xyz": [
+          10.764713350411517,
+          -0.12794674733067976,
+          -1.1244890454743817
+        ],
+        "all_local_hits_y": [
+          9.374171708165412e-05,
+          0.09205325266932024
+        ]
+      },
+      "floor_local_y_percentiles": [
+        0.09205325266932024,
+        0.09820974036036353,
+        0.10252550441837935,
+        0.11697231919844564,
+        0.16088324436584162,
+        0.2395290223257009
+      ],
+      "visible_floor_below_current_water_samples": 3338,
+      "floor_current_min_world_y": -0.12794674733067976,
+      "probes": [
+        {
+          "root_local_xz": [
+            -0.65,
+            0
+          ],
+          "local_hits_y": [
+            0.00011938507396515684,
+            0.15432133244567312
+          ],
+          "current_world_hits_y": [
+            -0.21988061492603483,
+            -0.06567866755432689
+          ]
+        },
+        {
+          "root_local_xz": [
+            -0.45,
+            0
+          ],
+          "local_hits_y": [
+            0.0001319154544669023,
+            0.12432321206233443
+          ],
+          "current_world_hits_y": [
+            -0.2198680845455331,
+            -0.09567678793766557
+          ]
+        },
+        {
+          "root_local_xz": [
+            -0.2,
+            0
+          ],
+          "local_hits_y": [
+            0.0001322757065223941,
+            0.09992923762181473,
+            0.2593468970284775,
+            0.3447922230227669
+          ],
+          "current_world_hits_y": [
+            -0.21986772429347762,
+            -0.12007076237818527,
+            0.03934689702847752,
+            0.12479222302276691
+          ]
+        },
+        {
+          "root_local_xz": [
+            0,
+            0
+          ],
+          "local_hits_y": [
+            0.0001116519744056495,
+            0.09934529562135792
+          ],
+          "current_world_hits_y": [
+            -0.21988834802559434,
+            -0.12065470437864208
+          ]
+        },
+        {
+          "root_local_xz": [
+            0.1,
+            0
+          ],
+          "local_hits_y": [
+            0.00011891367746183316,
+            0.10400060514042596
+          ],
+          "current_world_hits_y": [
+            -0.21988108632253817,
+            -0.11599939485957404
+          ]
+        },
+        {
+          "root_local_xz": [
+            0.25,
+            0
+          ],
+          "local_hits_y": [
+            0.0001235045133435403,
+            0.11897177022945732,
+            0.21585841879276546,
+            0.30167414676834003
+          ],
+          "current_world_hits_y": [
+            -0.21987649548665647,
+            -0.10102822977054268,
+            -0.00414158120723454,
+            0.08167414676834003
+          ]
+        },
+        {
+          "root_local_xz": [
+            0.45,
+            0
+          ],
+          "local_hits_y": [
+            0.00014516427554655458,
+            0.1533237547754785
+          ],
+          "current_world_hits_y": [
+            -0.21985483572445344,
+            -0.06667624522452151
+          ]
+        },
+        {
+          "root_local_xz": [
+            0,
+            -0.2
+          ],
+          "local_hits_y": [
+            9.656130948251202e-05,
+            0.10436089467351424
+          ],
+          "current_world_hits_y": [
+            -0.21990343869051748,
+            -0.11563910532648576
+          ]
+        },
+        {
+          "root_local_xz": [
+            0,
+            0.2
+          ],
+          "local_hits_y": [
+            0.00012674263932878696,
+            0.1044000233386687
+          ],
+          "current_world_hits_y": [
+            -0.2198732573606712,
+            -0.1155999766613313
+          ]
+        }
+      ]
+    }
+  ],
+  "minimum_root_y_to_clear_sampled_floor": -0.19705325266932022,
+  "recommended_root_y_with_6mm_clearance": -0.19105325266932022,
+  "recommended_lift_from_current": 0.028946747330679784,
+  "outer_bottom_world_y_after_recommended_lift": -0.19105326346640422,
+  "remaining_draft_after_recommended_lift": 0.08605326346640423,
+  "recommendation": "Raise only the S08 scene root to the stated Y, retain X/Z/yaw/scale/source geometry. Re-render identical dock and opposite-side views at both LODs; verify no water in hull and no floating underside. This small lift is preferable to a water mask if visual checks pass.",
+  "water_mask_fallback": "Only if preserving original draft is required, carve/mask the horizontal water plane within a measured hull cross-section at water height; use source hull footprint, not a large rectangle or a global water lowering. No mask is implemented here.",
+  "limitations": [
+    "Grid extrema are sampled, not an exact continuous global minimum proof. Six millimetres of positive clearance provides modest sampling/rendering margin.",
+    "Visual hull contact and both LODs still require actual Unity verification.",
+    "No source or scene is modified by this script."
+  ]
+}

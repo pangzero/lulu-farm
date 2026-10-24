@@ -1,0 +1,53 @@
+{
+  "created_on": "2026-10-18",
+  "entries": [
+    {
+      "catalog_id": "C06",
+      "id": "sunflower",
+      "name": "向日葵",
+      "batch": "B08",
+      "stage": "seedling",
+      "reference_image": "/Users/haowen/GameProject/farm-game/lulu-studio/review/crop-meshy-progress-20261018/sunflower-quarter.png",
+      "file": "/Users/haowen/GameProject/farm-game/art-concepts/seedling-concepts-20261018/B08/C06-sunflower-seedling.png",
+      "generation_prompt": "Use case: stylized-concept. Create ONE separate EARLY VEGETATIVE SEEDLING of the same crop as the attached MATURE PLANT reference. The input image is a STYLE AND SPECIES REFERENCE only, NOT an edit target and NOT an instruction to keep mature organs. Design a genuinely juvenile architecture, not a shrunken mature plant. Cozy farm-game 3D concept render, plump softly curved fleshy leaves, shallow integrated veins, rounded substantial edges, fresh gentle greens and softly matte material matching the reference. A short sturdy clean basal crown, believable connected petioles, front/side/back volume. Entire single plant fully visible, centred in a square with 12% safe white margins, 3/4 camera modestly above (about 25 degrees), soft diffuse studio light, pure white background, at most a faint contact shadow. NO soil, dirt clod, roots dangling below the crown, terrain, pot, pedestal, solid shadow object, text, labels, panel, sheet, multiple views, other plant species, detached pieces, flowers, buds, fruits, vegetables, grain heads or mature reproductive organs. Limit leaf count, keep open breathing space, avoid mature dense foliage, razor thin surfaces and needle tips. This is an individual art concept, NOT a comparison board. A young sunflower seedling: TWO small oval cotyledons near the lower clean short stem and TWO larger opposite young heart-shaped green true leaves with shallow veins, plus ONE tiny central emerging leaf pair kept subtle. Short stout upright silhouette and broad soft leaf faces. Match the mature reference leaf style only; remove BOTH yellow flower heads completely. No flower, no brown disk, no bud, no seed head, no tall trunk.",
+      "source": "/Users/haowen/.codex/generated_images/01a14d76-11ba-7a01-8b6b-b9ad86d668e7/exec-23a4d33b-66ce-49b2-9a37-708113538587.png",
+      "meshy_prompt": "根据向日葵幼苗单图制作一株完整游戏模型。短粗幼茎下方为两片小椭圆子叶，上方两片较大对生心形真叶，中央只保留极小的新叶对。叶片轻兜形且有厚度、简化浅叶脉，叶柄自然相连，背面完整，轮廓圆润哑光。不能有黄色花瓣、棕色花盘、花苞、种子盘或成熟高秆，也不能将开花植株缩小。全株新鲜绿色，无土块、外露根、花盆、底盘和标签。",
+      "blender_notes": "短Bezier茎转低边数圆截面网格，2小椭圆子叶+2较大心形真叶+极小中心叶对。心形叶用中心凹槽/兜形控制点建立厚度及叶背体积，轻圆边；与黄瓜幼苗的茎高度、对生心形叶轮廓作对照，保持向日葵短粗直立感觉。禁止花盘、花苞，先做低面数叶片再按需要细分。",
+      "generation_tool": "built-in image_gen",
+      "actual_visual_inspection": "已逐图实际查看：2椭圆子叶、2对生心形真叶、极小中心叶对，短粗茎；无黄色花瓣/棕盘/花苞/果实/土盘，叶尖和基部全貌完整，有安全留边。",
+      "status": "concept_only_not_model_or_user_accepted",
+      "meshy_status": "optional_fallback_not_user_selected",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "d127c13e1f8f044a1bd615c71e026d6578dfcec22b5beaca535931fdd1adb2a2",
+      "bytes": 1222245,
+      "prompt_file": "/Users/haowen/GameProject/farm-game/art-concepts/seedling-concepts-20261018/B08/C06-sunflower-seedling.txt"
+    },
+    {
+      "catalog_id": "C07",
+      "id": "wheat",
+      "name": "小麦",
+      "batch": "B08",
+      "stage": "seedling",
+      "reference_image": "/Users/haowen/GameProject/farm-game/lulu-studio/review/crop-meshy-progress-20261018/wheat-quarter.png",
+      "file": "/Users/haowen/GameProject/farm-game/art-concepts/seedling-concepts-20261018/B08/C07-wheat-seedling.png",
+      "generation_prompt": "Use case: stylized-concept. Create ONE separate EARLY VEGETATIVE SEEDLING of the same crop as the attached MATURE PLANT reference. The input image is a STYLE AND SPECIES REFERENCE only, NOT an edit target and NOT an instruction to keep mature organs. Design a genuinely juvenile architecture, not a shrunken mature plant. Cozy farm-game 3D concept render, plump softly curved fleshy leaves, shallow integrated veins, rounded substantial edges, fresh gentle greens and softly matte material matching the reference. A short sturdy clean basal crown, believable connected petioles, front/side/back volume. Entire single plant fully visible, centred in a square with 12% safe white margins, 3/4 camera modestly above (about 25 degrees), soft diffuse studio light, pure white background, at most a faint contact shadow. NO soil, dirt clod, roots dangling below the crown, terrain, pot, pedestal, solid shadow object, text, labels, panel, sheet, multiple views, other plant species, detached pieces, flowers, buds, fruits, vegetables, grain heads or mature reproductive organs. Limit leaf count, keep open breathing space, avoid mature dense foliage, razor thin surfaces and needle tips. This is an individual art concept, NOT a comparison board. One small early vegetative wheat clump with THREE short slender green shoots at unequal heights sharing one compact clean basal tuft, each carrying one or two narrow gently arching blade leaves. Leaves are supple curved ribbons with subtle central folds and real edge thickness, ends tapered softly. Fresh green, NOT golden straw. Fewer than eight total blades, airy small tuft, not a dense grass hedge. Clearly narrower and finer leaves than the maize seedling. No ears, grains, awns, hay bundle or mature culms.",
+      "source": "/Users/haowen/.codex/generated_images/01a14d76-11ba-7a01-8b6b-b9ad86d668e7/exec-00d89aa9-354c-43bc-8362-90f28635d9e6.png",
+      "meshy_prompt": "按小麦幼苗单图制作一簇完整早期幼株，三根高低不同的短绿色小芽从紧凑根冠生出，每芽只带一至两片窄长嫩叶，总体少于八片主叶。叶片呈柔软弯曲窄带，有浅中折线、真实厚度和圆钝收尖，比玉米幼苗更窄细，不能做成吸管、圆柱、针刺或密草墙。保持清新绿色和圆润哑光游戏风格，背面及根冠连接完整。禁止麦穗、谷粒、麦芒、金黄干草、土块、盆、底盘和标签。",
+      "blender_notes": "3根高低不一的短叶鞘/芽，每芽配1–2窄带弯叶。用少量纵向分段配3–5点横截面形成软浅V形，实厚叶缘及圆钝叶尖；避免细圆柱和尖刺。三个芽根冠汇合但不加底盘，保留少叶负空间。可让同拓扑叶略调长宽/弯曲，严格比玉米叶更窄细；无麦穗。图中嫩黄绿可向当前成熟模型绿色叶身取色调整，不能变成金黄干草。",
+      "generation_tool": "built-in image_gen",
+      "actual_visual_inspection": "已逐图实际查看：3根高低芽形成少量窄带叶簇、浅折叶槽和清楚弯曲，未出现圆管/针刺/麦穗/麦芒/金黄干草/土盘，完整留边。概念偏嫩黄绿，建模可向成熟叶身绿色取色微调。",
+      "status": "concept_only_not_model_or_user_accepted",
+      "meshy_status": "optional_fallback_not_user_selected",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "format": "PNG",
+      "sha256": "38475baf4ad66342c6875f04c893b7ae882885148223cda77c41fcb2633cefe9",
+      "bytes": 1203353,
+      "prompt_file": "/Users/haowen/GameProject/farm-game/art-concepts/seedling-concepts-20261018/B08/C07-wheat-seedling.txt"
+    }
+  ]
+}

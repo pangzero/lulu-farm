@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Lulu Studio · B14 中央主屋</title></head>
+<body>
+  <header><a href="/crops.html">← 资产预览</a><strong>Lulu Studio / B14</strong><span>中央主屋完整外观 · 待用户验收</span></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">CENTRAL FARMHOUSE · BLENDER EXTERIOR</p><h1>中央主屋</h1><p>沿用 B02 r04 建筑风格 · 一栋完整外观 · 门窗、屋顶与四面检查</p></div><a id="download" download aria-disabled="true">下载当前 GLB ↓</a></div>
+    <div class="toolbar">
+      <label>资产 <select id="asset"><option value="house">S01 完整中央主屋</option><option value="facade">B02 r04 已认可立面样段</option></select></label>
+      <label>版本 <select id="revision" disabled><option value="r01">读取清单中</option></select></label>
+      <label>模块 <select id="module"><option value="all">完整组装</option></select></label>
+      <label>场景 <select id="layout"><option value="single">单件检查</option><option value="scale">Lulu 比例</option><option value="farm">12 × 8 格 · 农场距离</option></select></label>
+      <label>显示 <select id="material"><option value="color">原始材质</option><option value="clay">中性灰模</option><option value="wire">线框</option></select></label>
+    </div>
+    <div class="views"><button data-view="quarter">3/4</button><button data-view="front">正面</button><button data-view="side">右侧</button><button data-view="left">左侧</button><button data-view="back">背面</button><button data-view="top">俯视</button><button data-view="door">入口特写</button><button data-view="roof">屋顶特写</button><button id="reset">重置视图</button><button id="rotate">自动旋转</button><button id="capture">保存画布</button></div>
+    <div class="canvas-scroll"><div id="stage"></div></div>
+    <div class="bottom"><strong id="status" role="status">正在读取 B14 交付清单…</strong><a id="source" download aria-disabled="true">当前 Blender 制作源 ↓</a></div>
+    <p id="dimensions"></p><p id="scene-note" class="note"></p><p id="module-note" class="note"></p>
+    <div class="checks"><span id="technical">技术：未验证</span><span id="visual">视觉初审：未验证</span><span id="user-art">用户美术：待验收</span><span>目标设备：未测试</span></div>
+    <details open><summary>范围、固定条件与验收资料</summary>
+      <p>B14 交付一栋中央主屋的完整外观和可编辑分件；不含室内、游戏功能或门的动画。B02 r04 是只读的已认可立面样段，仅用于风格与真实尺度对照。</p>
+      <p>建筑按制作尺寸显示，不因资产或模块切换放大到同高。Lulu 正式版 v1 为只读实例，展示高度 1.2 单位。12 × 8 格为间距 1.2 的中性检查台，不作为新的地块资产。</p>
+      <p>固定画布 1280 × 720、DPR 1、sRGB、NoToneMapping、曝光 1；灯光沿用 B01。拖动旋转、滚轮缩放后，可用视角按钮恢复固定相机。模块隔离仅隐藏其他分件，不改动源文件。</p>
+      <p><a href="/models/farm-assets/B14/manifest.json">B14 模型清单</a> · <a href="/@fs/Users/haowen/GameProject/farm-game/lulu-studio/review/farm-assets/B14/acceptance.json">验收记录</a> · <a href="/@fs/Users/haowen/GameProject/farm-game/lulu-studio/review/farm-assets/B14/README.md">交付说明</a> · <a href="/b02.html?asset=facade&revision=r04&layout=single&material=color&view=quarter">B02 r04 独立预览</a> · <a href="/b03.html">B03 地面与水岸</a></p>
+    </details>
+  </main>
+  <script type="module" src="/src/b14.ts"></script>
+</body>
+</html>

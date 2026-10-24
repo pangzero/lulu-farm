@@ -1,0 +1,31 @@
+{
+  "verified_utc": "2026-10-23T17:19:07.232786+00:00",
+  "scope": "handoff_document_and_existing_files_only_no_new_runtime_or_art_test",
+  "delivery_files": [
+    {
+      "file": "LuluFarm-macOS-r06.zip",
+      "bytes": 378701641,
+      "matches_delivery_manifest": true
+    },
+    {
+      "file": "LuluFarm-Unity-source-r06.zip",
+      "bytes": 1728186755,
+      "matches_delivery_manifest": true
+    },
+    {
+      "file": "LuluFarm-evidence-r06.zip",
+      "bytes": 40329606,
+      "matches_delivery_manifest": true
+    },
+    {
+      "file": "LuluFarm-walkthrough-r06.mp4",
+      "bytes": 164853213,
+      "matches_delivery_manifest": true
+    }
+  ],
+  "registry_matches_r06_snapshot": true,
+  "required_handoff_references_exist": true,
+  "native_assets_portable_zip": "not_created; separate upstream sources explicitly required for model editing on another machine",
+  "handoff_in_frozen_r06_zip": false,
+  "models_code_scene_modified": false
+}

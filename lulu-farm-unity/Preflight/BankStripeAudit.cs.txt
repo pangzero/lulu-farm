@@ -1,0 +1,121 @@
+// Copy into Assets/Farm/Editor only when Unity is idle. Open FarmWorld in Edit Mode.
+// Farm/Diagnostics/Render bank stripe isolation
+// Temporary renderer/LOD/light changes are restored in finally; no model or asset is saved.
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using UnityEditor;
+using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
+
+namespace LuluFarm.Editor
+{
+    public static class BankStripeAudit
+    {
+        [Serializable] sealed class RendererInfo
+        {
+            public string path, mesh, materials;
+            public bool enabled, active;
+            public Bounds bounds;
+            public int vertices;
+        }
+        [Serializable] sealed class Shot { public string mode, file, interpretation; }
+        [Serializable] sealed class Report
+        {
+            public string utc, scene, engine, status = "rendered_pending_actual_image_review";
+            public string scope = "Diagnostic same-camera renders only; does not modify or approve source art";
+            public bool allTemporaryStatesRestored;
+            public Vector3 cameraPosition = new Vector3(6.2f, 4, -5.1f), target = new Vector3(11, .1f, 1.7f);
+            public float fov = 52, near = .08f, far = 160;
+            public int width = 1600, height = 900;
+            public RendererInfo[] bankRenderers;
+            public Shot[] shots;
+        }
+        [MenuItem("Farm/Diagnostics/Render bank stripe isolation")]
+        public static void Run()
+        {
+            if (EditorApplication.isPlaying || EditorApplication.isCompiling || SceneManager.GetActiveScene().name != "FarmWorld")
+                throw new InvalidOperationException("Open saved FarmWorld in idle Edit Mode first; this tool does not open or save scenes.");
+            var scene = SceneManager.GetActiveScene();
+            var roots = scene.GetRootGameObjects();
+            var allRenderers = roots.SelectMany(r => r.GetComponentsInChildren<Renderer>(true)).ToArray();
+            var banks = roots.SelectMany(r => r.GetComponentsInChildren<LODGroup>(true))
+                .Where(g => g.name == "E05" || g.name == "E05-corner").ToArray();
+            if (banks.Length == 0) throw new InvalidOperationException("No E05 bank LOD groups in the active scene.");
+            var bankRenderers = banks.SelectMany(g => g.GetComponentsInChildren<Renderer>(true)).Distinct().ToArray();
+            var terrain = allRenderers.Where(r => r.name == "ContinuousGroundWithSoilAndPondOpenings" || r.name == "BankBacking").ToArray();
+            var lights = roots.SelectMany(r => r.GetComponentsInChildren<Light>(true)).ToArray();
+            var enabled = allRenderers.ToDictionary(r => r, r => r.enabled);
+            var groupEnabled = banks.ToDictionary(g => g, g => g.enabled);
+            var shadows = lights.ToDictionary(l => l, l => l.shadows);
+            bool async = EditorSettings.asyncShaderCompilation;
+            var report = new Report { utc = DateTime.UtcNow.ToString("o"), engine = Application.unityVersion, scene = scene.path };
+            report.bankRenderers = bankRenderers.Select(r => {
+                var mf = r.GetComponent<MeshFilter>(); var mesh = mf != null ? mf.sharedMesh : null;
+                return new RendererInfo { path = PathOf(r.transform), mesh = mesh != null ? mesh.name : "none",
+                    materials = string.Join(";", r.sharedMaterials.Select(m => m != null ? m.name + "/" + m.shader.name : "missing")),
+                    enabled = r.enabled, active = r.gameObject.activeInHierarchy, bounds = r.bounds, vertices = mesh != null ? mesh.vertexCount : 0 };
+            }).ToArray();
+            var folder = "Evidence/bank-stripe-isolation-" + DateTime.UtcNow.ToString("yyyyMMdd-HHmmss");
+            Directory.CreateDirectory(folder);
+            var shots = new List<Shot>();
+            var cameraGO = new GameObject("TemporaryBankStripeAuditCamera");
+            var camera = cameraGO.AddComponent<Camera>();
+            camera.enabled = false; camera.clearFlags = CameraClearFlags.Skybox;
+            camera.fieldOfView = report.fov; camera.nearClipPlane = report.near; camera.farClipPlane = report.far;
+            camera.aspect = (float)report.width / report.height;
+            camera.transform.position = report.cameraPosition; camera.transform.LookAt(report.target);
+            Action restore = () => {
+                foreach (var p in enabled) if (p.Key != null) p.Key.enabled = p.Value;
+                foreach (var p in groupEnabled) if (p.Key != null) p.Key.enabled = p.Value;
+                foreach (var p in shadows) if (p.Key != null) p.Key.shadows = p.Value;
+            };
+            try
+            {
+                EditorSettings.asyncShaderCompilation = false;
+                foreach (string mode in new[] { "baseline", "no_ground_or_backing", "bank_LOD0_only", "bank_LOD1_only", "no_realtime_shadows" })
+                {
+                    restore();
+                    if (mode == "no_ground_or_backing") foreach (var r in terrain) r.enabled = false;
+                    if (mode == "no_realtime_shadows") foreach (var light in lights) light.shadows = LightShadows.None;
+                    if (mode == "bank_LOD0_only" || mode == "bank_LOD1_only")
+                    {
+                        int level = mode == "bank_LOD0_only" ? 0 : 1;
+                        foreach (var group in banks)
+                        {
+                            group.enabled = false;
+                            foreach (var r in group.GetComponentsInChildren<Renderer>(true)) r.enabled = false;
+                            var lods = group.GetLODs();
+                            if (lods.Length <= level) throw new InvalidOperationException(group.name + " lacks requested LOD " + level);
+                            foreach (var r in lods[level].renderers) if (r != null) r.enabled = true;
+                        }
+                    }
+                    var rt = RenderTexture.GetTemporary(report.width, report.height, 24, RenderTextureFormat.ARGB32);
+                    var old = RenderTexture.active; Texture2D pixels = null;
+                    try
+                    {
+                        RenderPipeline.SubmitRenderRequest(camera, new UniversalRenderPipeline.SingleCameraRequest { destination = rt });
+                        RenderTexture.active = rt; pixels = new Texture2D(report.width, report.height, TextureFormat.RGB24, false);
+                        pixels.ReadPixels(new Rect(0, 0, report.width, report.height), 0, 0); pixels.Apply();
+                        string file = folder + "/" + mode + ".png"; File.WriteAllBytes(file, pixels.EncodeToPNG());
+                        shots.Add(new Shot { mode = mode, file = file, interpretation = "pending_actual_image_comparison" });
+                    }
+                    finally { RenderTexture.active = old; RenderTexture.ReleaseTemporary(rt); if (pixels != null) UnityEngine.Object.DestroyImmediate(pixels); }
+                }
+            }
+            finally
+            {
+                restore(); EditorSettings.asyncShaderCompilation = async;
+                UnityEngine.Object.DestroyImmediate(cameraGO);
+                report.allTemporaryStatesRestored = true; report.shots = shots.ToArray();
+                if (shots.Count != 5) report.status = "incomplete_render_sequence";
+                File.WriteAllText(folder + "/report.json", JsonUtility.ToJson(report, true));
+            }
+            Debug.Log("Bank stripe diagnostic images require actual inspection: " + Path.GetFullPath(folder));
+        }
+        static string PathOf(Transform t) => t.parent == null ? t.name : PathOf(t.parent) + "/" + t.name;
+    }
+}

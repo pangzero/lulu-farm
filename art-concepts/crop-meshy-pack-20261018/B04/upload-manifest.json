@@ -1,0 +1,87 @@
+{
+  "batch": "B04",
+  "stage": "mature",
+  "entries": [
+    {
+      "batch": "B04",
+      "catalog_id": "C08",
+      "id": "bokchoy",
+      "name": "小白菜",
+      "file": "B04/C08-bokchoy-mature.png",
+      "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-790e951c-ff5e-40aa-a3fc-35e991868b8f.png",
+      "reused_from": "/Users/haowen/GameProject/farm-game/art-concepts/B04-meshy-inputs-20261018/bokchoy-01.png",
+      "generation_tool": "built-in image_gen",
+      "generation_prompt": "Use case: stylized-concept. Asset type: a standalone image-to-3D source image for a cozy farm game. Input Image 1 is a STYLE AND SPECIES REFERENCE: the supplied 4x4 crop concept board, not an edit target. Generate ONE plant only, as a new clean square image. Match the board's rounded, plump, softly modeled stylized 3D look, warm soft diffuse studio illumination, matte surfaces and clear large structural forms. Three-quarter perspective from modestly above (about 25 degrees), entire plant visible including its short clean basal crown, centered and occupying about 80% of the image with safe white margins. Pure white background; minimal faint contact shadow only. Plant alone: NO soil, dirt clumps, terrain, pot, props, floating parts or other plants. No text, lettering, labels, panels, collage, grid, multiple views or watermark. All leaves must attach convincingly to the same crown. Keep broad primary veins shallow and integrated into leaf surfaces. Output a polished high-detail 1024x1024-style square render suitable for separately uploading to Meshy. Reference target: row 2 column 4, bok choy / pak choi. One mature plant with several clearly separated, fat, succulent ivory-white spoon-shaped petioles, gently tapering into broad oval green blades. Blades have rounded ends, continuous soft curved margins and cupped surfaces. Outer leaves fan upwards and outwards, inner leaves are more upright. Pale branching veins blend into leaf surfaces. Broad green fan above a compact plump ivory base. Fresh medium green and tender yellow-green tips. Variant 01: match the reference plant's compact, balanced silhouette closely. No pointed dagger leaves, serrated cut edges, cabbage ball, closed flower bud or ring-shaped leaf walls.",
+      "usage_note": "本计划主参考图；未确认用户实际Meshy生成时使用的是01/02/03中的哪张。",
+      "stage": "mature",
+      "stage_zh": "成熟",
+      "meshy_prompt": "根据所附单体图生成一株完整成熟小白菜，保持图中奶白色肥厚叶柄与鲜绿宽叶的比例，采用圆润饱满、柔和哑光的卡通农场游戏风格。叶柄呈宽厚匙形，自根冠向上逐渐展开，与宽椭圆绿叶连续相接，不能突然断成两段。叶尖圆钝，叶面柔和凹曲，浅色主叶脉贴合叶身。外叶向上向外舒展，内叶直立高低错落，前后有足够展开深度，避免扁平扇面、针刺或收紧花苞。只生成整株植物，不要离体菜叶、土块、地面、花盆、底座、文字、投影实体或悬浮部件。",
+      "sha256": "6ea09710b0b6dba77718487d0d793eb33e574b005732e3ca1bd6f5dda3d2744c",
+      "bytes": 1440967,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "visual_inspection": {
+        "passed_for_meshy_input": true,
+        "notes": "肥厚奶白叶柄和宽圆绿叶可见；二维图不证明模型背面深度。"
+      },
+      "status": "用户Meshy模型已提供；本图为计划主参考",
+      "prompt_file": "B04/C08-bokchoy-mature.txt"
+    },
+    {
+      "batch": "B04",
+      "catalog_id": "C15",
+      "id": "lettuce",
+      "name": "生菜",
+      "file": "B04/C15-lettuce-mature.png",
+      "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-df5f944c-508b-4723-ac5f-e636f7e6edce.png",
+      "reused_from": "/Users/haowen/GameProject/farm-game/art-concepts/B04-meshy-inputs-20261018/lettuce-01.png",
+      "generation_tool": "built-in image_gen",
+      "generation_prompt": "Use case: stylized-concept. Asset type: a standalone image-to-3D source image for a cozy farm game. Input Image 1 is a STYLE AND SPECIES REFERENCE: the supplied 4x4 crop concept board, not an edit target. Generate ONE plant only, as a new clean square image. Match the board's rounded, plump, softly modeled stylized 3D look, warm soft diffuse studio illumination, matte surfaces and clear large structural forms. Three-quarter perspective from modestly above (about 25 degrees), entire plant visible including its short clean basal crown, centered and occupying about 80% of the image with safe white margins. Pure white background; minimal faint contact shadow only. Plant alone: NO soil, dirt clumps, terrain, pot, props, floating parts or other plants. No text, lettering, labels, panels, collage, grid, multiple views or watermark. All leaves must attach convincingly to the same crown. Keep broad primary veins shallow and integrated into leaf surfaces. Output a polished high-detail 1024x1024-style square render suitable for separately uploading to Meshy. Reference target: row 4 column 3, loose-leaf lettuce. One mature full upright rosette of bright tender yellow-green leaves, broad soft leaf bodies with generous undulating folds and rounded ruffled curled margins. Many readable individual leaves with staggered heights and uneven overlapping orientations, giving a lush fluffy irregular rounded crown. Small shorter folded leaves naturally fill the center; outer leaves gently open while staying upright. Lime-green inner leaves, slightly deeper green outer leaves, a little pale green at the base. Variant 01: closest to the reference, lush upright loose lettuce. No concentric nested bowls, cylindrical walls, perfect central hole, dense spherical cabbage heart or flat radial flower.",
+      "usage_note": "本计划主参考图；未确认用户实际Meshy生成时使用的是01/02/03中的哪张。",
+      "stage": "mature",
+      "stage_zh": "成熟",
+      "meshy_prompt": "根据所附单体图生成一株完整成熟散叶生菜，保持嫩黄绿色、蓬松饱满的卷叶簇比例，采用圆润柔和、哑光的卡通农场游戏风格。每片宽叶从叶身开始自然弯折，叶缘柔软起伏并适度卷曲，叶子大小、高度、朝向错落；中心用短叶自然填起，外叶适度展开，整体轮廓有不规则波浪。叶片有真实厚度，浅叶脉贴合表面，全部连接同一短根冠，背面合理，避免同心套碗、规则中心孔或封闭卷心菜球。只生成植物，不要土块、地面、花盆、底座、文字、投影实体或悬浮部件。",
+      "sha256": "97567c93d9a02e6e38ae7159954a3d46d18b1fc13985c5d32b42fb0a5954f229",
+      "bytes": 1458286,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "visual_inspection": {
+        "passed_for_meshy_input": true,
+        "notes": "嫩绿色不规则卷叶和饱满中心清楚；不作同心套碗。"
+      },
+      "status": "用户Meshy模型已提供；本图为计划主参考",
+      "prompt_file": "B04/C15-lettuce-mature.txt"
+    },
+    {
+      "batch": "B04",
+      "catalog_id": "C11",
+      "id": "cauliflower",
+      "name": "花椰菜",
+      "file": "B04/C11-cauliflower-mature.png",
+      "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-4872a4ec-17bb-41ee-8fb6-e80f8f751adf.png",
+      "reused_from": "/Users/haowen/GameProject/farm-game/art-concepts/B04-meshy-inputs-20261018/cauliflower-01.png",
+      "generation_tool": "built-in image_gen",
+      "generation_prompt": "Use case: stylized-concept. Asset type: a standalone image-to-3D source image for a cozy farm game. Input Image 1 is a STYLE AND SPECIES REFERENCE: the supplied 4x4 crop concept board, not an edit target. Generate ONE plant only, as a new clean square image. Match the board's rounded, plump, softly modeled stylized 3D look, warm soft diffuse studio illumination, matte surfaces and clear large structural forms. Three-quarter perspective from modestly above (about 25 degrees), entire plant visible including its short clean basal crown, centered and occupying about 80% of the image with safe white margins. Pure white background; minimal faint contact shadow only. Plant alone: NO soil, dirt clumps, terrain, pot, props, floating parts or other plants. No text, lettering, labels, panels, collage, grid, multiple views or watermark. All leaves must attach convincingly to the same crown. Keep broad primary veins shallow and integrated into leaf surfaces. Output a polished high-detail 1024x1024-style square render suitable for separately uploading to Meshy. Reference target: row 3 column 3, cauliflower. One mature plant dominated by a full raised ivory-cream domed curd head, visibly built from many rounded cauliflower floret clusters at TWO scales: broad softly fused parent florets carrying smaller plump bead-like rounded curds, with shallow irregular grooves between clusters. Rounded soft cauliflower texture, cohesive continuous head with believable clustering, no sharp peaks. Thick broad green wrapper leaves curve upward from a compact basal crown and cradle the head, leaving most of its dome exposed; a broad low front leaf with soft branching veins. Variant 01: match the reference's full round dome and leafy cradle closely. No broccoli stalks, spiky lumps, smooth white egg, sparse knobs or flat white disk.",
+      "usage_note": "本计划主参考图；未确认用户实际Meshy生成时使用的是01/02/03中的哪张。",
+      "stage": "mature",
+      "stage_zh": "成熟",
+      "meshy_prompt": "根据所附单体图生成一株完整成熟花椰菜，保持奶油白花球隆起、宽厚绿叶包住下部的比例，采用圆润饱满、柔和哑光的卡通农场游戏风格。花球由大小不同的圆润主花簇组成，各主簇含更小的圆钝副簇，簇间有自然浅沟，整体连成饱满圆顶，避免光滑白球、尖瘤或散落小球。包叶从同一短根冠向上弯曲，叶柄与叶身连续，有厚度、自然起伏和贴合叶脉，充分露出主体花球，背面完整合理。只生成植物，不要离体花球、土块、地面、花盆、底座、文字或投影实体。",
+      "sha256": "5e8339acd2694a5f7b979836b1d0e885ef28bc168acc7aa41e99693f20f70b26",
+      "bytes": 1469172,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "visual_inspection": {
+        "passed_for_meshy_input": true,
+        "notes": "圆钝奶白主副花簇、浅沟和宽厚包叶清楚。"
+      },
+      "status": "用户Meshy模型已提供；本图为计划主参考",
+      "prompt_file": "B04/C11-cauliflower-mature.txt"
+    }
+  ]
+}

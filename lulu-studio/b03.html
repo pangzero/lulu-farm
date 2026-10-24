@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Lulu Studio · B03 平地与水岸</title></head>
+<body>
+<header><a href="/crops.html">← 资产工坊</a><strong>Lulu Studio / B03</strong><span>环境样板 · 待用户验收</span></header>
+<main>
+  <div class="intro"><div><p class="eyebrow">GROUND & WATER · BLENDER ASSET STUDY</p><h1>平整田地，柔和水岸</h1><p>四项独立资产 · r03 收尾复核 · 待用户验收</p></div><a id="download" download>下载当前单件 GLB ↓</a></div>
+  <div class="toolbar">
+    <label>资产 <select id="asset"><option value="e01">E01 空田格</option><option value="e05">E05 水岸直段</option><option value="e07">E07 水面格</option><option value="e13">E13 石头组</option></select></label>
+    <label>版本 <select id="revision"><option value="r01">r01 · 首轮候选</option></select></label>
+    <label>场景 <select id="layout"><option value="single">单件近景</option><option value="tiles">3 × 3 田格与作物</option><option value="shore">三段岸线与连续水面</option><option value="farm">12 × 8 格 · 农场镜头</option></select></label>
+    <label>显示 <select id="material"><option value="color">GLB 原始材质</option><option value="clay">中性灰模</option><option value="wire">线框</option></select></label>
+    <label>水面 <select id="water"><option value="static">GLB 静态材质</option><option value="animated">网页波纹 · 固定几何</option></select></label>
+  </div>
+  <div class="views"><button data-view="quarter">3/4</button><button data-view="front">正面</button><button data-view="side">侧面</button><button data-view="back">背面</button><button data-view="top">俯视</button><button id="rotate">自动旋转</button><button id="capture">保存当前 1280×720 画面</button></div>
+  <div id="stage"></div>
+  <div class="bottom"><strong id="status" role="status">正在读取候选清单…</strong><span id="dimensions"></span><a id="source" download>Blender 源文件 ↓</a></div>
+  <p id="scene-note" class="note"></p>
+  <section class="facts"><div><b>1.20 × 1.20</b><span>模块间距，不按单件归一化</span></div><div><b>0.000 / −0.105</b><span>Blender 田面 / 水面 Z</span></div><div><b>B01 r03 / Lulu 正式 v1</b><span>只读作物与人物比例参照</span></div><div><b>待用户验收</b><span>技术检查与美术采用分开</span></div></section>
+  <details open><summary>水面交付与拼接规则</summary>
+    <p>E07 是 1.2 单位的水平水面片，Z = −0.105；自带嵌入的无缝静态颜色贴图，无动画、无体积、无流体。网页波纹只改变表面明暗，使用统一世界坐标，不位移顶点；关闭后即可检查原始 GLB。当前水面为不透明风格样板，尚不提供水下鱼的可视效果。</p>
+    <p>E05 沿 X 轴每 1.2 单位拼接，草岸后侧地面 Z = 0。水面铺到岸体下方，由实体岸坡遮住；岸石单独可编辑。两端开口用于检查直段，本批没有制作岸角、封闭池塘或正式草地格。完整池塘接口在后续批次处理。</p>
+    <p>E01 保留参考板的浅木边与浅耕痕，底部完整方形相接。单格木边各自保留，连续铺设会形成较宽格线。检查底台和农场镜头中的平面只是检查设施。</p>
+    <p><a href="/models/farm-assets/B03/manifest.json">模型清单</a> · <a href="/@fs/Users/haowen/GameProject/farm-game/lulu-studio/review/farm-assets/B03/acceptance.json">逐项验收记录</a> · <a href="/@fs/Users/haowen/GameProject/farm-game/lulu-studio/review/farm-assets/B03/closeout-20261018/review-settings.json">固定检查设置</a> · <a href="/b01.html?revision=r03">已认可 B01</a></p>
+  </details>
+</main><script type="module" src="/src/b03.ts"></script></body></html>

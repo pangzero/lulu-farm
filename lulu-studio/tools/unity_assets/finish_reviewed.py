@@ -1,0 +1,13 @@
+import json
+from pathlib import Path
+R=Path(__file__).resolve().parents[2];P=R/'public/models/unity-integration/manifest.json';O=R/'review/unity-integration-20261018/assets';d=json.loads(P.read_text())
+fac='S01 S03 S04 S06 S07 S08 S10 S11 S12 E03 E04 E08 E09 E10 E11 E12 E14 E15'.split();crops=[x+'-mature' for x in 'cabbage tomato corn cucumber sunflower wheat bokchoy watermelon tulip lettuce cauliflower'.split()]
+for k in fac+crops:
+ o=O/k/'atlas-lod1-r01';m=json.loads((o/'metrics.json').read_text());assert all(x['boundary']==0 and x['nonmanifold']==0 and x['finite'] and x['zero_area']==0 for x in m['geometry']),k
+ a={'technical':'source_reopened_export_reimported_closed_finite','visual':'initial_distance_lod_pass_with_reservations','actual_inspection':['five material and five clay views opened','same-camera LOD0/source comparison'],'limitations':['Fine edges and surface detail soften at this distance LOD; transition threshold and Unity rendering still unverified.'],'user_art':'pending','device':'not_tested','outstanding':['Unity LOD transition visual check','Target-device performance']};(o/'acceptance.json').write_text(json.dumps(a,indent=2))
+ r=next(x for x in d['assets'] if x['id']==k);r['lods']=[x for x in r.get('lods',[]) if x.get('level')!=1]+[{'level':1,'model':m['file'],'triangles':m['actual_triangles'],'status':'fixed-view initial distance review; Unity pending','metrics':str(o/'metrics.json'),'editable_source':m['editable_source']}]
+for k in ['pumpkin-mature','E16']:
+ o=O/k/'atlas-local-r01';(o/'acceptance.json').write_text(json.dumps({'technical':'generated_not_accepted','visual':'failed_silhouette_collapse','method':'zero-weight vertex protection during global decimation','route_status':'stopped_after_repeated_core_failure','actual_inspection':['material/clay five-view board'],'action':'Do not stage. Independent local SourceUV transfer being tested.','user_art':'not_approved'},indent=2))
+for k,n in [('lettuce-mature','Rolled edges, thickness and gaps preserved at 30k; faint vein graininess remains in close view.'),('cauliflower-mature','Main floret hierarchy preserved at 32k; micro-granules softened; original small green spot on rear floret remains.')]:
+ r=next(x for x in d['assets'] if x['id']==k);r['notes']=[n,'Root independent review recorded in root-visual-review.json; Unity/device pending.'];o=O/k/r['selected_version'];a=json.loads((o/'acceptance.json').read_text());a['limitations'].append(n);a['independent_review']='review/unity-integration-20261018/root-visual-review.json';(o/'acceptance.json').write_text(json.dumps(a,indent=2))
+P.write_text(json.dumps(d,ensure_ascii=False,indent=2))

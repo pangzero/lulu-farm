@@ -1,0 +1,23 @@
+@import './crops.css';
+.meshy-workspace{grid-template-columns:260px minmax(0,1fr)}
+.meshy-workspace .crop-list{flex:1;align-content:start;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#cbd3bd transparent}
+.meshy-workspace .crop-card{padding:10px 5px;min-height:61px;align-items:flex-start;gap:6px}
+.meshy-workspace .crop-card strong{font-size:10px}
+.meshy-workspace .crop-card.pending{border:1px dashed #dce1d1}
+.meshy-workspace .crop-card small{line-height:1.5}
+.meshy-workspace .crop-card .pending-label{color:#a3804d}
+.meshy-workspace .crop-swatch{width:30px;height:36px;background:#fff;overflow:hidden}
+.meshy-workspace .crop-swatch img{width:100%;height:100%;object-fit:contain}
+.meshy-workspace .viewer-heading{padding-bottom:15px}
+.meshy-workspace .growth-controls{align-items:center;gap:7px}
+.art-status{font-size:10px;color:#899579;margin-left:8px}
+.model-note{font-size:10px;color:#929986;line-height:1.6;margin:9px 0 0}
+.meshy-workspace .file-row p{overflow-wrap:anywhere;white-space:normal;max-width:78%}
+.meshy-workspace .stats dd{font-size:14px}
+.meshy-workspace .stage{min-height:320px}
+.meshy-workspace .loading-state{padding:35px;text-align:center;line-height:1.8}
+.meshy-workspace .loading-state.empty .spinner{display:none}
+.meshy-workspace .crop-library .library-note p{line-height:1.8}
+.topbar .header-actions{gap:17px;flex-wrap:wrap;justify-content:flex-end}
+@media(max-width:1050px){.topbar{height:auto;min-height:84px;padding-top:13px;padding-bottom:13px}.topbar .header-actions{gap:8px 14px}.topbar .text-link{font-size:10px}.meshy-workspace{height:calc(100dvh - 119px)}.meshy-workspace .viewer{padding:22px 20px 0}.meshy-workspace .view-controls button{padding:8px 10px}}
+@media(max-width:680px){.topbar{align-items:flex-start}.topbar .header-actions{max-width:48%}.meshy-workspace{height:auto}.meshy-workspace .crop-list{flex-direction:row;overflow-x:auto;overflow-y:hidden}.meshy-workspace .crop-card{min-height:56px;flex-basis:91px;align-items:center;padding:7px 5px}.meshy-workspace .crop-card small{display:block;font-size:7px}.meshy-workspace .stage{min-height:320px;height:46dvh}.art-status{margin-left:2px;font-size:9px}.meshy-workspace .view-controls{gap:0;padding:4px}.meshy-workspace .view-controls button{padding:7px 8px;font-size:9px}.meshy-workspace .stats dd{font-size:11px}.meshy-workspace .file-row{align-items:flex-start;gap:8px}.meshy-workspace .file-row p{max-width:65%}.model-note{font-size:9px}.meshy-workspace .viewer-heading p{line-height:1.6}}

@@ -1,0 +1,56 @@
+{
+  "batch": "B06",
+  "stage": "mature",
+  "entries": [
+    {
+      "batch": "B06",
+      "catalog_id": "C10",
+      "id": "strawberry",
+      "name": "草莓",
+      "file": "B06/C10-strawberry-mature.png",
+      "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-27c7a8e1-4381-41c5-85e6-b46027e3e03b.png",
+      "generation_tool": "built-in image_gen",
+      "generation_prompt": "Use case: stylized-concept. Generate a SINGLE standalone mature crop plant as a clean image-to-3D reference for Meshy. Input image 1 is a style and species reference, a 4x4 farm crop board; it is NOT an edit target. Create one new isolated plant image only, NOT a board. Match the reference's plump, rounded, softly modeled cozy farm-game 3D appearance, fresh clear colors, matte surfaces, soft diffuse studio light. Camera: three-quarter view with modest elevation (about 25 degrees); show real depth, branching and leaves in front, side and rear planes. Entire plant visible, centered in a square, fills about 80% with safe margins. Pure white background, faint soft contact shadow only. Every leaf, flower and fruit attaches plausibly to one coherent crown/branch system. Thick curved leaves, shallow integrated veins, rounded edges. No soil, dirt clumps, ground tile, pot, pedestal, trellis, props, detached harvest produce, text, watermark, grid, multiple views or multiple species. This is a complete mature PLANT asset, not a fruit-only object. Reference row 3 column 2. One mature low strawberry plant, lush compact crown of broad three-part strawberry leaves with softly scalloped edges, two prominent plump red heart-shaped strawberries hanging at the front from clearly attached short green stems and five-point green calyxes. Tiny warm-yellow seeds sit shallowly embedded in the curved red fruit skin, not raised spike beads. One small white five-petal flower with a yellow center among the leaves. Staggered leaf heights and real crown depth. Full coherent plant, no fruit-only object. Warm ripe red, bright soft greens, white flower. No floating seeds, berries on ground separate from the crown or dirt.",
+      "stage": "mature",
+      "stage_zh": "成熟",
+      "meshy_prompt": "根据所附单体图生成一株完整成熟草莓，保持低矮饱满叶簇、可见红果与少量白色黄心花的比例，采用圆润柔和、哑光的卡通农场游戏风格。草莓果实上宽下窄、圆钝心形，表面少量金黄籽点贴合并轻嵌入果皮，不能悬浮成颗粒；绿色萼片和短果梗自然连接植株。叶子以三出复叶为主，边缘柔和浅锯齿，有厚度、起伏与叶脉，前后错落并适度露出果实，所有茎叶从紧凑根冠生长。只生成整株植物，不要离体果实、土块、地面、花盆、底座、文字或投影实体。",
+      "sha256": "745fed5c095b7ed52cfdfb462f066894e637f2e81177de04a69a6535e5c6be4e",
+      "bytes": 1445099,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "visual_inspection": {
+        "passed_for_meshy_input": true,
+        "notes": "三出叶、带萼红果、浅籽点及白花清楚；低矮紧凑完整植株。"
+      },
+      "status": "图片与提示词就绪，等待用户Meshy模型",
+      "prompt_file": "B06/C10-strawberry-mature.txt"
+    },
+    {
+      "batch": "B06",
+      "catalog_id": "C14",
+      "id": "tulip",
+      "name": "橙色郁金香",
+      "file": "B06/C14-tulip-mature.png",
+      "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-607df1f3-bb2b-4d76-a992-ab353270e2bf.png",
+      "generation_tool": "built-in image_gen",
+      "generation_prompt": "Use case: stylized-concept. Generate a SINGLE standalone mature crop plant as a clean image-to-3D reference for Meshy. Input image 1 is a style and species reference, a 4x4 farm crop board; it is NOT an edit target. Create one new isolated plant image only, NOT a board. Match the reference's plump, rounded, softly modeled cozy farm-game 3D appearance, fresh clear colors, matte surfaces, soft diffuse studio light. Camera: three-quarter view with modest elevation (about 25 degrees); show real depth, branching and leaves in front, side and rear planes. Entire plant visible, centered in a square, fills about 80% with safe margins. Pure white background, faint soft contact shadow only. Every leaf, flower and fruit attaches plausibly to one coherent crown/branch system. Thick curved leaves, shallow integrated veins, rounded edges. No soil, dirt clumps, ground tile, pot, pedestal, trellis, props, detached harvest produce, text, watermark, grid, multiple views or multiple species. This is a complete mature PLANT asset, not a fruit-only object. Reference row 4 column 2. One mature tulip clump with three orange cup-shaped tulip blossoms at staggered heights and slightly different opening angles, all attached to sturdy green stems in one short clean basal crown. Each blossom has a few broad thick smooth overlapping petals forming a rounded enclosed cup, softly curled petal tips; warm orange-to-golden inner gradients. Several long broad lance-shaped green leaves curve gracefully upward in S-shapes around the stems, with real front/back thickness and rounded tips. Match the reference's plump flower proportions. No rose-like many-petal spirals, paper petals, vase, pot or detached flower heads.",
+      "stage": "mature",
+      "stage_zh": "成熟",
+      "meshy_prompt": "根据所附单体图生成一小簇完整橙色郁金香，保持数朵高低错落的杯状花头、直立绿茎和修长叶片比例，采用圆润柔和、哑光的卡通农场游戏风格。橙黄花瓣宽厚光洁，围合成饱满杯状，顶部略张开并有柔和瓣尖，内外瓣交错包合，不能形成玫瑰螺旋或开放菊花。花头底部与连续花茎自然连接，披针形宽长叶从基部向上弯曲，有真实厚度和方向差异，前后结构合理，基部成簇。只生成植物，不要离体花朵、花束包装、土块、地面、花盆、底座、文字或投影实体。",
+      "sha256": "7402689120fae3f78357f9ba84587b033f6ee1c56b03b5a1a3f4cb15e1b841d8",
+      "bytes": 1258556,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "visual_inspection": {
+        "passed_for_meshy_input": true,
+        "notes": "三朵橙色杯状花、长披针叶及连续茎可见；与玫瑰花形不同。"
+      },
+      "status": "图片与提示词就绪，等待用户Meshy模型",
+      "prompt_file": "B06/C14-tulip-mature.txt"
+    }
+  ]
+}

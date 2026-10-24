@@ -1,0 +1,18 @@
+import bpy,bmesh,json,sys,math,hashlib,numpy as np,shutil
+from pathlib import Path
+R=Path(__file__).resolve().parents[2];aid=sys.argv[sys.argv.index('--')+1];variant=sys.argv[sys.argv.index('--')+2];OLD='game-r03';REV='game-r04';OUT=R/'public/models/unity-animals'/REV/aid;SRC=R/'assets-source/unity-animals'/REV/aid;REP=R/'review/unity-integration-20261018/animals'/REV/aid
+for p in [OUT,SRC,REP]:p.mkdir(parents=True,exist_ok=True)
+bpy.ops.wm.open_mainfile(filepath=str(R/'assets-source/unity-animals'/OLD/aid/'source-import.blend'));objects=[o for o in bpy.context.scene.objects if o.type=='MESH']
+if len(objects)>1:
+ for o in objects:o.select_set(True)
+ bpy.context.view_layer.objects.active=objects[0];bpy.ops.object.join()
+o=objects[0];bpy.context.view_layer.objects.active=o;bpy.ops.object.select_all(action='DESELECT');o.select_set(True);materials=[{'name':m.name,'specular':next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED').inputs['Specular IOR Level'].default_value} for m in o.data.materials];bm=bmesh.new();bm.from_mesh(o.data);bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=max(max(o.dimensions)*1e-6,1e-7));bm.to_mesh(o.data);bm.free();o.data.update();tris=sum(len(p.vertices)-2 for p in o.data.polygons);budget={'cow':20000,'sheep':24000,'alpaca':24000,'ostrich':18000,'pony':20000,'deer':18000}.get(aid,16000);budget=budget if variant=='lod0' else int(budget*.55);mod=o.modifiers.new('Semantic replay','DECIMATE');mod.ratio=min(1,budget/tris);bpy.ops.object.modifier_apply(modifier=mod.name);mi=[p.material_index for p in o.data.polygons];centers=np.array([p.center[:] for p in o.data.polygons]);bpy.ops.wm.open_mainfile(filepath=str(R/'assets-source/unity-animals'/OLD/aid/(variant+'.blend')));low=next(o for o in bpy.context.scene.objects if o.type=='MESH');actual=np.array([p.center[:] for p in low.data.polygons]);assert actual.shape==centers.shape;error=float(abs(actual-centers).max());assert error<1e-7,error
+for p,index in zip(low.data.polygons,mi):p.material_index=index
+for i,m in enumerate(low.data.materials):
+ if 'eye' in materials[i]['name'].lower():
+  bs=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=.24;bs.inputs['Specular IOR Level'].default_value=materials[i]['specular']
+bpy.ops.object.select_all(action='DESELECT');low.select_set(True);bpy.context.view_layer.objects.active=low;bpy.ops.file.pack_all();bpy.ops.wm.save_as_mainfile(filepath=str(SRC/(variant+'.blend')),compress=True);bpy.ops.export_scene.gltf(filepath=str(OUT/(variant+'.glb')),export_format='GLB',use_selection=True,export_animations=False,export_yup=True,export_apply=True)
+if not (SRC/'source-import.blend').exists():shutil.copy2(R/'assets-source/unity-animals'/OLD/aid/'source-import.blend',SRC/'source-import.blend')
+m=json.loads((R/'public/models/unity-animals'/OLD/aid/(variant+'-manifest.json')).read_text());m['revision']=REV
+for k in ['native','file','source_import']:m[k]=m[k].replace(OLD,REV)
+p=OUT/(variant+'.glb');m['bytes']=p.stat().st_size;m['sha256']=hashlib.sha256(p.read_bytes()).hexdigest();m['semantic_material_replay']={'maximum_face_center_error':error,'face_counts':{str(i):mi.count(i) for i in set(mi)},'source_materials':materials,'same_geometry_uv_texture_as':'game-r03','restored_face_material_indices':True};m['status']={'technical':'pending_r04_reimport','visual':'pending_actual_r04_check','user_art':'pending','optimization':'candidate','device':'unverified'};(OUT/(variant+'-manifest.json')).write_text(json.dumps(m,ensure_ascii=False,indent=2));(REP/(variant+'-metrics.json')).write_text(json.dumps(m,ensure_ascii=False,indent=2));print('RESTORED',aid,variant,m['semantic_material_replay'])

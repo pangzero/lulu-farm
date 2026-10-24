@@ -1,0 +1,119 @@
+[
+  {
+    "id": "bokchoy-01",
+    "label": "小白菜 01",
+    "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-790e951c-ff5e-40aa-a3fc-35e991868b8f.png",
+    "file": "bokchoy-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "6ea09710b0b6dba77718487d0d793eb33e574b005732e3ca1bd6f5dda3d2744c",
+    "bytes": 1440967
+  },
+  {
+    "id": "lettuce-01",
+    "label": "生菜 01",
+    "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-df5f944c-508b-4723-ac5f-e636f7e6edce.png",
+    "file": "lettuce-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "97567c93d9a02e6e38ae7159954a3d46d18b1fc13985c5d32b42fb0a5954f229",
+    "bytes": 1458286
+  },
+  {
+    "id": "cauliflower-01",
+    "label": "花椰菜 01",
+    "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-4872a4ec-17bb-41ee-8fb6-e80f8f751adf.png",
+    "file": "cauliflower-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "5e8339acd2694a5f7b979836b1d0e885ef28bc168acc7aa41e99693f20f70b26",
+    "bytes": 1469172
+  },
+  {
+    "id": "bokchoy-02",
+    "label": "小白菜 02",
+    "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-3ef3a76c-aedf-4eab-b1a1-90a868108694.png",
+    "file": "bokchoy-02.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "a5ba46e79444516fbdc4e5a7e6e43a05bca1e1a339204eb1f22fafe630c9d193",
+    "bytes": 1429711
+  },
+  {
+    "id": "lettuce-02",
+    "label": "生菜 02",
+    "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-8ebfbb04-8767-4aa3-ba34-2872c4f546ce.png",
+    "file": "lettuce-02.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "512f189e540db15d61652e3b093404670bbec8c58bdaf05ae4baf996ae82575d",
+    "bytes": 1523513
+  },
+  {
+    "id": "cauliflower-02",
+    "label": "花椰菜 02",
+    "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-f1d0a285-9a67-4e04-b423-a8e8c0a703f7.png",
+    "file": "cauliflower-02.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "c5a4a17c25282087be104844848d2f05c929f8702c0b4ea29bff90201003b99c",
+    "bytes": 1536978
+  },
+  {
+    "id": "bokchoy-03",
+    "label": "小白菜 03",
+    "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-7557bf1c-fd53-48a8-bd16-705cb0a75d6d.png",
+    "file": "bokchoy-03.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "805d1eb93e7a380623036b9a44817966a6cad44aa0dfc45785bfb1aabf4711a2",
+    "bytes": 1445202
+  },
+  {
+    "id": "lettuce-03",
+    "label": "生菜 03",
+    "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-1748dbcb-a83e-4ae7-954f-4203e8739523.png",
+    "file": "lettuce-03.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "100e7eb62b55c491c7299e955b926caedaa2035f33f37c0512c519a2e2ca3472",
+    "bytes": 1463399
+  },
+  {
+    "id": "cauliflower-03",
+    "label": "花椰菜 03",
+    "source": "/Users/haowen/.codex/generated_images/01a14aab-98ac-7b20-91b9-b0f1d4a2c10d/exec-8dbca09d-3d72-4bdb-a576-ba3536487060.png",
+    "file": "cauliflower-03.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "97abe0fb8404ba3364afb48ef955806811a7cc009a70cac61bdfa0b75b7700cc",
+    "bytes": 1484856
+  }
+]

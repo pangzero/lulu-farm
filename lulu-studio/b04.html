@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Lulu Studio · B04 叶菜成熟态评审</title></head>
+<body>
+<header><a href="/crops.html">← 作物库</a><strong>Lulu Studio / B04</strong><a href="/b04-meshy.html">Meshy 替代评估 ↗</a><span>r02 自检记录 · 含需返修资产</span></header>
+<main>
+  <div class="intro"><div><p class="eyebrow">BLENDER · B04 MATURE CROPS</p><h1>叶柄、卷叶与花球</h1><p>小白菜 / 生菜 / 花椰菜　·　真实 GLB　·　以 B01 r03 为美术基准</p></div><a id="download" download>下载当前 GLB ↓</a></div>
+  <div class="toolbar">
+    <label>作物 <select id="crop"><option value="bokchoy">小白菜</option><option value="lettuce">生菜</option><option value="cauliflower">花椰菜</option></select></label>
+    <label>版本 <select id="revision"><option value="r02">B04 r02 · 当前自检记录</option><option value="r01">B04 r01 · 首轮历史</option><option value="v1">初版 v1 · 历史对照</option></select></label>
+    <label>场景 <select id="layout"><option value="single">单株近景</option><option value="compare">初版 / 当前版本</option><option value="types">三种并排 · 无标签辨识</option><option value="field">3 × 3 同类种植</option><option value="farm">12 × 8 格 · Lulu 比例</option></select></label>
+    <label>显示 <select id="material"><option value="color">原始材质</option><option value="clay">中性灰模</option><option value="wire">线框</option></select></label>
+  </div>
+  <div class="views"><button data-view="quarter">3/4</button><button data-view="front">正面</button><button data-view="side">侧面</button><button data-view="back">背面</button><button data-view="top">俯视</button><button id="rotate">自动旋转</button><span id="comparison"></span></div>
+  <div class="canvas-scroll"><div id="stage"></div></div>
+  <div class="bottom"><strong id="status" role="status" aria-live="polite">正在载入…</strong><span id="dimensions"></span><a id="source" download>Blender 源文件 ↓</a></div>
+  <p class="note">拖动旋转 · 滚轮缩放 · 右键平移。实际画布固定 1280 × 720、DPR 1；田格为 1.2 单位。作物保持原始尺寸，Lulu 仅作只读比例参照。地台仅用于检查。</p>
+  <details open><summary>本批检查说明 · 仅三个成熟态，三项均需返修</summary><p id="review-note" class="review-warning">r02 小白菜、生菜与花椰菜均需返修。已停止当前建模做法，保留实际文件和失败证据供检查；三项均未获用户美术通过。</p><p>改进方向：小白菜需要圆润完整的上展叶身；生菜需要打破同心碗和规则中央孔，重新设计高低错落、叶身有卷曲的疏松叶簇；花椰菜需要圆钝花簇及清楚的主次层次。当前文件用于检查这些未解决问题。</p><p>三种并排模式不加物种文字标签，便于检查结构辨识；灰模保留真实几何并移除原始配色。初版与本批候选共用相机、灯光和世界尺度。</p><p>固定农场镜头使用 12 × 8 格、方位 45°、俯角 50°、正交高度 14.1；每种各 3 × 3 株。网页沿用 B01 的 sRGB、NoToneMapping 与灯光设置，目标设备性能未测试。</p><p><a href="/models/farm-assets/B04/manifest.json">本批清单</a> · <a href="/@fs/Users/haowen/GameProject/farm-game/lulu-studio/review/farm-assets/B04/acceptance.json">逐项验收记录</a> · <a href="/b01.html?crop=cabbage&revision=r03&layout=single&material=color">已认可 B01 r03 基准</a></p></details>
+</main>
+<script type="module" src="/src/b04.ts"></script>
+</body>
+</html>

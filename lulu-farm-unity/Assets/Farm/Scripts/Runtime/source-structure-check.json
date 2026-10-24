@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-18",
+  "checks": "Source structure only; not Unity compilation or runtime validation",
+  "unity_compile": "unverified_editor_unavailable",
+  "macos_player": "unverified",
+  "android_device": "unverified",
+  "cinemachine_api_reference": "Official Unity Cinemachine 3.1 API and release/3.1 source; exact resolved 3.1.5 compilation pending",
+  "files": [
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmAnimationBridge.cs",
+      "balanced_delimiters": true,
+      "line_count": 142,
+      "sha256": "fe5f9da325b43d9cd12f49e39de9200d51ed7b334c48f81ef915b247ed33a90e"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmCameraOccluder.cs",
+      "balanced_delimiters": true,
+      "line_count": 135,
+      "sha256": "dde879d1c1356bd85e68bced8162f53dd6eb3562e8da28ad7b47754bbb2d7c29"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmCropStage.cs",
+      "balanced_delimiters": true,
+      "line_count": 18,
+      "sha256": "9dcad6eeed2d9a69f0b060431da869a20eaa14a0116a1e440ad9e27a40b12820"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmHUD.cs",
+      "balanced_delimiters": true,
+      "line_count": 133,
+      "sha256": "e48ceb4993b785a8cafc0f56eedc2e569e8f6616b79852481c5cfd255941b246"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmInputRouter.cs",
+      "balanced_delimiters": true,
+      "line_count": 201,
+      "sha256": "25bf0d834be210fa1940d6a814520aa46c2b35e23feb00996c1448dac0b9f942"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmPlayerController.cs",
+      "balanced_delimiters": true,
+      "line_count": 80,
+      "sha256": "c4a4131457dd1022d06addc35fce875d4205c85cb02b41c5813655a7563a13f3"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs",
+      "balanced_delimiters": true,
+      "line_count": 282,
+      "sha256": "bcfb2eca7f22e49f53541cd0d79f2347fd0936a769145e7f7ef075e83def2fb2"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmRuntimeBootstrap.cs",
+      "balanced_delimiters": true,
+      "line_count": 162,
+      "sha256": "18db314032b64f893b8b5a5c685f13dc8ec4a0b5afb72d56111293565172752b"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmRuntimeDiagnostics.cs",
+      "balanced_delimiters": true,
+      "line_count": 188,
+      "sha256": "02f2e0db8898e340e1f4aa3023c26afb47c662913dfb1f9641b34936aef0b4dd"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmThirdPersonCamera.cs",
+      "balanced_delimiters": true,
+      "line_count": 194,
+      "sha256": "7de42b2fc7c8209cc0281fa9e9fda7ea4747b354ecab3ed953682623c6e75362"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmTouchJoystick.cs",
+      "balanced_delimiters": true,
+      "line_count": 31,
+      "sha256": "11c974d4cbac9b6578e43d61fba72d1046f0534294c3ec4d55b187011cf29085"
+    },
+    {
+      "file": "Assets/Farm/Scripts/Runtime/FarmWardrobe.cs",
+      "balanced_delimiters": true,
+      "line_count": 56,
+      "sha256": "f3bc5dd770752535fe542a1fb664566c2d9bb4e1c3d00c45fd9064f6c221e6f0"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmAcceptanceRunner.cs",
+      "balanced_delimiters": true,
+      "line_count": 548,
+      "sha256": "1f907f717e6865bd5c4580acf996fc0a42593d261e44f76c8e4fdfd398ff0004"
+    },
+    {
+      "file": "Assets/Farm/Editor/FarmOcclusionSetup.cs",
+      "balanced_delimiters": true,
+      "line_count": 134,
+      "sha256": "e3040079514fecdb60d47ad843bcb54a10841f9fef097fcb67c04ba9fa72d7ca"
+    }
+  ]
+}

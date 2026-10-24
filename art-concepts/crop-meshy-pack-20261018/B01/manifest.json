@@ -1,0 +1,69 @@
+{
+  "batch": "B01",
+  "date": "2026-10-18",
+  "purpose": "用户逐张上传Meshy制作成熟态作物；本包仅参考图和提示词，未创建新3D模型。",
+  "reference_board": "/Users/haowen/GameProject/farm-game/art-concepts/01-crops.png",
+  "image_policy": "每个作物一张完整单株独立图片；非拼板、非三视图；原始生成PNG原样复制。",
+  "entries": [
+    {
+      "id": "cabbage",
+      "name_zh": "卷心菜",
+      "stage": "mature",
+      "file": "cabbage-mature.png",
+      "original_generated_png": "/Users/haowen/.codex/generated_images/01a14b2f-8f9e-75e0-9e3e-a5287de60bc2/exec-75c555db-4589-4e9c-ab92-bf85cc3b6409.png",
+      "generation_mode": "built-in image_gen",
+      "generation_prompt": "Use case: stylized-concept. Asset type: a single independent reference image for Meshy image-to-3D, one plant species only. Input image 1 is a STYLE AND SPECIES REFERENCE BOARD, not an edit target; do not reproduce the board, do not include other species. Create a new clean isolated 3D-style render using the soft rounded toy-like farm-game style, bright harmonious greens, thick smooth organic forms, softly matte surfaces and restrained shallow veins from the reference. Scene: pure white background. Camera: three-quarter front view slightly from above, showing a full volumetric plant with believable depth and visible overlapping front and rear parts, centered with a generous clear margin on every side, entire subject uncropped. Soft diffuse studio lighting, no dramatic shadows. Exactly ONE complete plant. No soil clod, dirt, roots exposed below the plant, pot, ground plane geometry, pedestal, base, labels, text, watermark, collage, panels, turnarounds, additional views, loose detached pieces, paper-thin leaves, plastic shine, sharp needle tips or dark crevices. A tiny faint ambient contact shadow only may describe volume, but no solid shadow object.\nSubject: MATURE GREEN CABBAGE (reference board first row, first column). A compact light lime-green rounded cabbage head made from thick tightly overlapping inner leaves, embraced by six or seven substantial darker green outer leaves with naturally folded and gently scalloped edges. Outer leaves curl outward at different heights, visibly concave and broad, connected to one short hidden basal crown. Pale restrained branching veins follow the leaf surfaces, not floating tubes. Warm lime central head and rich green exterior. Keep the iconic nearly spherical full heart, cupped outer foliage and soft substantial stylized masses of the board, expand it as one convincing complete 3D plant with leaf surfaces continuing naturally around the back. Do not make lettuce frills, loose detached leaves or a featureless sphere.",
+      "meshy_prompt_zh": "根据参考图生成一株成熟卷心菜，圆润饱满的卡通农场游戏风格。浅黄绿色菜心近球形，由厚实内叶紧密交叠包合，深绿色宽外叶从同一短根冠向外翻卷，高低错落，保留柔和叶脉。准确保持图中轮廓、比例和配色；补全后方叶片，使单株具有前后体积，叶片有厚度，边缘圆钝，连接自然，材质柔和哑光。整株完整、底部居中，适合种植摆放。不要生成土块、地面、花盆、底座、投影实体、文字或悬浮叶片；避免做成散叶生菜、空心菜碗或光滑绿球。",
+      "visual_inspection": {
+        "passed_for_meshy_input": true,
+        "notes": "单张白底完整卷心菜；浅绿色包合球形菜心和较深翻折厚外叶明确，叶缘圆钝，轮廓完整无裁切，无土块、地台、文字或多视图。表面较细叶脉和柔和接触影存在；后方结构仍需Meshy生成后复核。"
+      },
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "87ccf6b97faf3c50d0caba6a8cc1c06335a573fd247e4568121901691d9b0cca",
+      "bytes": 1438727
+    },
+    {
+      "id": "tomato",
+      "name_zh": "番茄",
+      "stage": "mature",
+      "file": "tomato-mature.png",
+      "original_generated_png": "/Users/haowen/.codex/generated_images/01a14b2f-8f9e-75e0-9e3e-a5287de60bc2/exec-99b54c72-7bc5-4df0-99a6-044376ea5d93.png",
+      "generation_mode": "built-in image_gen",
+      "generation_prompt": "Use case: stylized-concept. Asset type: a single independent reference image for Meshy image-to-3D, one plant species only. Input image 1 is a STYLE AND SPECIES REFERENCE BOARD, not an edit target; do not reproduce the board, do not include other species. Create a new clean isolated 3D-style render using the soft rounded toy-like farm-game style, bright harmonious greens, thick smooth organic forms, softly matte surfaces and restrained shallow veins from the reference. Scene: pure white background. Camera: three-quarter front view slightly from above, showing a full volumetric plant with believable depth and visible overlapping front and rear parts, centered with a generous clear margin on every side, entire subject uncropped. Soft diffuse studio lighting, no dramatic shadows. Exactly ONE complete plant. No soil clod, dirt, roots exposed below the plant, pot, ground plane geometry, pedestal, base, labels, text, watermark, collage, panels, turnarounds, additional views, loose detached pieces, paper-thin leaves, plastic shine, sharp needle tips or dark crevices. A tiny faint ambient contact shadow only may describe volume, but no solid shadow object.\nSubject: MATURE TOMATO PLANT (reference board first row, second column). One short sturdy green main stem with branching stems and a generous full crown of thick broad gently lobed tomato leaves at staggered heights, including rear-facing leaves to create depth. Two large ripe plump red tomatoes, rounded slightly flattened at their crowns, hanging naturally on separate connected branches, each with a chunky green star calyx. One small five-petal yellow tomato blossom near the upper foliage. Warm bright red fruits, fresh medium green leaves and stems. The short main stem terminates cleanly as the plant base without dirt. Keep board proportions: the two bright red fruits are prominent and unobscured, while generous leaves frame them and make the plant read as a complete productive crop. No trellis, cage, stakes, wires, detached fruits, excessively long bare stems, fruit facial features or flat fan arrangement.",
+      "meshy_prompt_zh": "根据参考图生成一株成熟番茄，圆润饱满的卡通农场游戏风格。粗短绿主茎与枝条自然相连，两颗饱满红番茄各有厚实绿色星形萼片，上方有一朵小黄花。足量阔叶高低错落，叶身厚实、边缘圆钝、叶脉浅柔，保留果实清楚可见。保持图中轮廓、比例和配色，补全背面枝叶，形成前后体积，全部连接同一植株，果梗真实连接果实，柔和哑光。整株完整、底部居中。不要土块、地面、花盆、底座、投影实体、文字、支架或悬浮果实；避免薄片叶子和过长裸茎。",
+      "visual_inspection": {
+        "passed_for_meshy_input": true,
+        "notes": "单张白底完整番茄植株；两枚饱满红果、相连绿色果梗/萼片、充足阔叶和一朵黄花明确，无土台、文字或多视图。果实高光较明显但不是镜面，叶片前后交叠；后方枝叶完整性仍需导入模型后检查。"
+      },
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "fe55a5b8b3d678c0c008f3936b7a665dbae9d6babd67d314a884145565ea39f3",
+      "bytes": 1461750
+    },
+    {
+      "id": "corn",
+      "name_zh": "玉米",
+      "stage": "mature",
+      "file": "corn-mature.png",
+      "original_generated_png": "/Users/haowen/.codex/generated_images/01a14b2f-8f9e-75e0-9e3e-a5287de60bc2/exec-95f99d55-71f4-4478-a56e-575e2c733258.png",
+      "generation_mode": "built-in image_gen",
+      "generation_prompt": "Use case: stylized-concept. Asset type: a single independent reference image for Meshy image-to-3D, one plant species only. Input image 1 is a STYLE AND SPECIES REFERENCE BOARD, not an edit target; do not reproduce the board, do not include other species. Create a new clean isolated 3D-style render using the soft rounded toy-like farm-game style, bright harmonious greens, thick smooth organic forms, softly matte surfaces and restrained shallow veins from the reference. Scene: pure white background. Camera: three-quarter front view slightly from above, showing a full volumetric plant with believable depth and visible overlapping front and rear parts, centered with a generous clear margin on every side, entire subject uncropped. Soft diffuse studio lighting, no dramatic shadows. Exactly ONE complete plant. No soil clod, dirt, roots exposed below the plant, pot, ground plane geometry, pedestal, base, labels, text, watermark, collage, panels, turnarounds, additional views, loose detached pieces, paper-thin leaves, plastic shine, sharp needle tips or dark crevices. A tiny faint ambient contact shadow only may describe volume, but no solid shadow object.\nSubject: MATURE SWEETCORN PLANT (reference board first row, third column). One short sturdy green stalk with one prominent plump golden-yellow corn cob, slightly angled upward at the front-right, growing naturally from the stalk. Rounded distinct large kernels arranged in clear orderly rows around the entire cob; green husks cup the lower half and peel outward with thick smooth curved edges to reveal the golden upper kernels. Several long broad substantial green leaves, including rear leaves, naturally arch and bend at staggered heights around the stalk; soft rounded ends, strong central folds and organic depth. A short upper leaf shoot completes the silhouette. Keep the board's compact balanced readable corn crop proportions, a full single plant with one connected base ending cleanly, no soil. No separate harvested cob, yellow banana shapes, lattice texture in place of kernels, grass clump, tassel plume, wooden stakes or razor-thin long spikes.",
+      "meshy_prompt_zh": "根据参考图生成一株成熟玉米，圆润饱满的卡通农场游戏风格。粗短绿茎上连接一根金黄色饱满玉米穗，颗粒圆钝，沿穗体整齐环绕排列。厚实绿色苞叶包住下半穗并自然剥开，清楚露出上部穗粒；长而宽的绿叶高低错落，向两侧与前后自然弯垂，叶片有厚度和柔和中脉。保持图中比例、轮廓、配色及完整单株，补全背面叶片，连接同一基部，柔和哑光。不要土块、地面、花盆、底座、投影实体、文字或分离穗；避免把穗粒做成平面贴纸、香蕉形或针刺叶。",
+      "visual_inspection": {
+        "passed_for_meshy_input": true,
+        "notes": "单张白底完整玉米；金黄大颗粒穗、下半部包覆苞叶、前后错落长叶与同一主茎清楚，主体无裁切，无土块、底座、文字或多视图。叶末略尖但为自然宽叶收尾；薄叶厚度和穗背面颗粒需导入后检查。"
+      },
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "sha256": "12542508341eee66ddaa3c4469f1fcb2534733ff2a3d7131eb8bcf3aacd24a75",
+      "bytes": 1361671
+    }
+  ]
+}

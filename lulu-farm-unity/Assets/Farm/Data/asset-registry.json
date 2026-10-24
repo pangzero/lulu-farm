@@ -1,0 +1,2653 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "id": "cabbage-seedling",
+      "name": "卷心菜",
+      "type": "crop",
+      "species": "cabbage",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/cabbage-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B08/meshy-toon-r02/cabbage-seedling.glb",
+      "sourceSHA256": "1dde977a59b8f11250d166d355e0db1b6d7ed10feb92e5f3227826151008326a",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/cabbage-seedling.glb",
+      "importSHA256": "a175aaa6fa5e73285ecfaa5567becef008c71a43f38705bf7ac2169e567d8c51",
+      "version": "bvh-r01",
+      "worldHeight": 0.18000000715255737,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/cabbage-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/cabbage-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/cabbage-seedling.glb",
+          "importSHA256": "bd9ff23e568a6fad019dd318abad160624218ac350ca7d65210385f81923d486"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/cabbage-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "tomato-mature",
+      "name": "番茄",
+      "type": "crop",
+      "species": "tomato",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/tomato-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B01/game-r02/tomato-mature.glb",
+      "sourceSHA256": "134e406a6258813404975a84b0794352bbb08b95a22e0aad964564b03fe2ec3a",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/tomato-mature.glb",
+      "importSHA256": "b410846ff3f1f999c0aa4b8f81737a3fe1a4d947362c202e80b54e542f778794",
+      "version": "atlas-r01",
+      "worldHeight": 0.8943643569946289,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/tomato-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/tomato-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/tomato-mature.glb",
+          "importSHA256": "d82cbe3b97446e13032ad3c3853bd3d7f157e0eb923742de26414cf81e5d9edf"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/tomato-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "tomato-seedling",
+      "name": "番茄",
+      "type": "crop",
+      "species": "tomato",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/tomato-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B08/meshy-toon-r01/tomato-seedling.glb",
+      "sourceSHA256": "a8a8b2284dd38c01b10bb4989ce3336c082e20d5bb3a401111ece98b360b24d4",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/tomato-seedling.glb",
+      "importSHA256": "ed09327f9449b65206e2f0643c3e500059fb27b17f66539f3e3363f7ccec7049",
+      "version": "bvh-r01",
+      "worldHeight": 0.22996484701343434,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/tomato-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/tomato-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/tomato-seedling.glb",
+          "importSHA256": "e2a3b4481ad652ce2ad0643ea1c8b0aed035243e904d454cf4c5d592e834ea33"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/tomato-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "corn-mature",
+      "name": "玉米",
+      "type": "crop",
+      "species": "corn",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/corn-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B01/game-r02/corn-mature.glb",
+      "sourceSHA256": "93cf03eec72645bc3163328cde7e64cde9810c966c148aa558c92f67a1a80280",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/corn-mature.glb",
+      "importSHA256": "6e1ef29f3d75f2440296e0059f20be31ea0d85b44dd51a9c2e537317a46e3e42",
+      "version": "bvh-r01",
+      "worldHeight": 0.8946259617805481,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/corn-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/corn-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/corn-mature.glb",
+          "importSHA256": "30b8cd18048fe5d1cde172b1bf922f6617acfd0473ee90b80c45cb74f810fd00"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/corn-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "corn-seedling",
+      "name": "玉米",
+      "type": "crop",
+      "species": "corn",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/corn-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B08/meshy-toon-r01/corn-seedling.glb",
+      "sourceSHA256": "068afdfe6eccb82a1da5b1e73c21e8d556b84837d626cda89b518daa5e3f41c7",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/corn-seedling.glb",
+      "importSHA256": "a26fc26ab0038b4050fbfe356a7074a272602069ac14b82d2825cb80a7c62140",
+      "version": "bvh-r01",
+      "worldHeight": 0.2999801276346261,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/corn-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/corn-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/corn-seedling.glb",
+          "importSHA256": "84e7962ed19a8cc3dd8ac7ff45017ec1e6bc3f0f20aaa97ff3994f794c0f9a71"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/corn-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S01",
+      "name": "中央主屋",
+      "type": "facility",
+      "species": "S01",
+      "stage": "",
+      "path": "Assets/Farm/Art/S01/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/s01-central-house.glb",
+      "sourceSHA256": "ab42ddfa342645b28b682481a197951f6cb9827030ec671c03d610218778dade",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/S01.glb",
+      "importSHA256": "fdee949130dd6794c5581f0d29e59125fe92cf46b331b9dbe489e2647739ebc8",
+      "version": "atlas-r01",
+      "worldHeight": 4.9,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S01/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S01/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S01.glb",
+          "importSHA256": "c84f5c5a8e2157d91780a53735db836c8755fc85b019b8a0196afd6332c49b29"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S01/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S03",
+      "name": "农产摊位",
+      "type": "facility",
+      "species": "S03",
+      "stage": "",
+      "path": "Assets/Farm/Art/S03/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/s03-produce-stall.glb",
+      "sourceSHA256": "9f0a99eb510fb2631e47f5680c2d908d1efc54b11ca72f0af1eb2411100aa25b",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/S03.glb",
+      "importSHA256": "c43634f2c158497c6a9a3e9ea3b79e1735d0edd9048147f39c578b566385ae09",
+      "version": "atlas-r01",
+      "worldHeight": 2.25,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S03/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S03/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S03.glb",
+          "importSHA256": "db374962be35a96a6df1895f4e49bca2ddfd7bbf82faa31ae3cd2e0649e1f126"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S03/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E08",
+      "name": "圆树",
+      "type": "environment",
+      "species": "E08",
+      "stage": "",
+      "path": "Assets/Farm/Art/E08/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e08-round-tree.glb",
+      "sourceSHA256": "74171be5f0c15b9312b0b0b1a89e6e27993eb2a9aada030d5cf62bcf499b6f8e",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r02/E08.glb",
+      "importSHA256": "20130074b6986f52a8dbfe8668c191845431983289402fa3b8c98581dc2cff66",
+      "version": "bvh-r02",
+      "worldHeight": 3.2,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E08/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E08/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/E08.glb",
+          "importSHA256": "7fef1fdaffd6a27d9cd248fa8a2bbdc39b437e81fc7d8468d249cc7b0c71dfbf"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E08/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S05",
+      "name": "S05",
+      "type": "reused",
+      "species": "S05",
+      "stage": "",
+      "path": "Assets/Farm/Art/S05/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B02/s05-fence-repeat-r04.glb",
+      "sourceSHA256": "e2076a2c88fc06f42e6ff7ee645af73111d2e6e1206782c9ba4967e7831d1510",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B02/s05-fence-repeat-r04.glb",
+      "importSHA256": "e2076a2c88fc06f42e6ff7ee645af73111d2e6e1206782c9ba4967e7831d1510",
+      "version": "existing-input",
+      "worldHeight": 0,
+      "technical": "input_inventory_only",
+      "visual": "historical_evidence_only",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [],
+      "lodImports": [],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S05/model.gltf",
+      "sourceKind": "native_blender"
+    },
+    {
+      "id": "S05-endcap",
+      "name": "S05-endcap",
+      "type": "reused",
+      "species": "S05-endcap",
+      "stage": "",
+      "path": "Assets/Farm/Art/S05-endcap/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B02/s05-fence-endcap-r04.glb",
+      "sourceSHA256": "90f4b3bb60523b0f817c3c1a0fff30f0cded8ef9726a0df46fe7686dc53ac0bd",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B02/s05-fence-endcap-r04.glb",
+      "importSHA256": "90f4b3bb60523b0f817c3c1a0fff30f0cded8ef9726a0df46fe7686dc53ac0bd",
+      "version": "existing-input",
+      "worldHeight": 0,
+      "technical": "input_inventory_only",
+      "visual": "historical_evidence_only",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [],
+      "lodImports": [],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S05-endcap/model.gltf",
+      "sourceKind": "native_blender"
+    },
+    {
+      "id": "E01",
+      "name": "E01",
+      "type": "reused",
+      "species": "E01",
+      "stage": "",
+      "path": "Assets/Farm/Art/E01/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B03/e01-r03.glb",
+      "sourceSHA256": "781fd514340df57dbd23bcb12b3ff63dd82094746a7f24ba1d1207730316f823",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/native-r01/E01.glb",
+      "importSHA256": "edc0c573e1bdb54f2dad59c62afb8426a98f3ac4726beb12b6736be8c1ea7538",
+      "version": "native-r01",
+      "worldHeight": 0,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E01/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E01/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/native-lod1-r01/E01.glb",
+          "importSHA256": "1e380b846c6fa8c491969b06ef3c14706256246e34a5224c7247ac4977c9692a"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E01/model.gltf",
+      "sourceKind": "native_blender"
+    },
+    {
+      "id": "E05",
+      "name": "E05",
+      "type": "reused",
+      "species": "E05",
+      "stage": "",
+      "path": "Assets/Farm/Art/E05/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B03/e05-r03.glb",
+      "sourceSHA256": "9b67dcaa070a96b358c010dff2856ab625e50814b17d1cf123f48d49eab1f22e",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/native-r01/E05.glb",
+      "importSHA256": "1c269d1ebf9461edc31780fed02ecebe65f5e4c34ba5f8eb627153b2a4f910bb",
+      "version": "native-r01",
+      "worldHeight": 0,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E05/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E05/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/native-lod1-r01/E05.glb",
+          "importSHA256": "31c48ab8c3c46cbc380e2fe73abb9ed362ed635c7293a48349b0d482ae2ea0f8"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E05/model.gltf",
+      "sourceKind": "native_blender"
+    },
+    {
+      "id": "E07",
+      "name": "E07",
+      "type": "reused",
+      "species": "E07",
+      "stage": "",
+      "path": "Assets/Farm/Art/E07/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B03/e07-r03.glb",
+      "sourceSHA256": "8fef04192e7ade7e18de21ceaf3989adeca1dc249db7e6c1004df05b4b233010",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B03/e07-r03.glb",
+      "importSHA256": "8fef04192e7ade7e18de21ceaf3989adeca1dc249db7e6c1004df05b4b233010",
+      "version": "existing-input",
+      "worldHeight": 0,
+      "technical": "input_inventory_only",
+      "visual": "historical_evidence_only",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [],
+      "lodImports": [],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E07/model.gltf",
+      "sourceKind": "native_blender"
+    },
+    {
+      "id": "E13",
+      "name": "E13",
+      "type": "reused",
+      "species": "E13",
+      "stage": "",
+      "path": "Assets/Farm/Art/E13/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B03/e13-r03.glb",
+      "sourceSHA256": "4971a513fa3f377b6ca26ea8f838208a37776cac766f40f5845958d36917cbb8",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/native-r01/E13.glb",
+      "importSHA256": "438b8249fefb99157463bf2a4371e66e6deaed658932ed214e4424e4efcfb418",
+      "version": "native-r01",
+      "worldHeight": 0,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E13/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E13/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/native-lod1-r01/E13.glb",
+          "importSHA256": "fd4e92e89eefafbcdc3d3c9e68f9b78c60a9daf3e1f5e76dd814ba573d73f264"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E13/model.gltf",
+      "sourceKind": "native_blender"
+    },
+    {
+      "id": "Lulu",
+      "name": "Lulu",
+      "type": "player",
+      "species": "lulu",
+      "stage": "",
+      "path": "Assets/Farm/Art/Lulu/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/wardrobe-rig/full-r02/lulu-rig.glb",
+      "sourceSHA256": "38a474b3a9f75c05debda10fb29f50a84f668481373e8c16653a20a835007057",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-game-lod0.glb",
+      "importSHA256": "68c991478ce2f3058fe3bb0a393d1730d5a9664d11f70323e6c32b50c9b5ea8b",
+      "version": "locomotion-r08",
+      "worldHeight": 1.2,
+      "technical": "source_glb_fbx_lod0_and_glb_lod1_reopened_pass",
+      "visual": "not_passed_seam_leg_top_defects_retained",
+      "userArt": "not_approved",
+      "device": "not_tested",
+      "temporaryMotionAuthorized": true,
+      "beforePath": "Assets/Farm/Art/Comparisons/Lulu/model.gltf",
+      "lodPaths": [
+        "Assets/Farm/Art/Lulu/game-lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/Lulu/game-lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-lulu/locomotion-r08/lulu-game-lod1.glb",
+          "importSHA256": "e9044b23cf0164e762d15cf30606971d7e371eb337bf24b87e1411d68d83f090"
+        }
+      ],
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S06",
+      "name": "牧场入口门",
+      "type": "facility",
+      "species": "S06",
+      "stage": "",
+      "path": "Assets/Farm/Art/S06/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/interface-r04/S06-open-gate.glb",
+      "sourceSHA256": "fc4d10038c788ba262db873306fc933184392359c4c64f9af45379d0c62c39b7",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/gate-game-r01/S06.glb",
+      "importSHA256": "777fb61dd88dd4dd25be38d956e9474fa34b8183042a6af43606f867628bbc54",
+      "version": "gate-game-r01",
+      "worldHeight": 0.82,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S06/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S06/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S06.glb",
+          "importSHA256": "b26112df37beebe0052f1022719dc164b13126166d2aaae3dd0e8f069d69eda1"
+        }
+      ],
+      "adapterScale": 0.8481623743757415,
+      "adapterOffset": {
+        "x": -0.0004024384368192011,
+        "y": 0,
+        "z": -0.0027951158021363
+      },
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S06/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E05-corner",
+      "name": "E05-corner",
+      "type": "reused",
+      "species": "E05-corner",
+      "stage": "",
+      "path": "Assets/Farm/Art/E05-corner/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B03/e05-r03.glb",
+      "sourceSHA256": "9b67dcaa070a96b358c010dff2856ab625e50814b17d1cf123f48d49eab1f22e",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/native-r01/E05-corner.glb",
+      "importSHA256": "1d17031e3aa5c69f043a1fbcda97f967a880cbe020d0d6949cb2e56fa20288db",
+      "version": "native-r01",
+      "worldHeight": 0,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_five_views_pass_with_minor_stone_faceting",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E05-corner/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E05-corner/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/native-lod1-r01/E05-corner.glb",
+          "importSHA256": "3197063b02d3f920a09a193015450e0fa917a93f8d54c19e93cc5efd1e1e8b5f"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E05-corner/model.gltf",
+      "sourceKind": "native_blender"
+    },
+    {
+      "id": "S05-rail-connector",
+      "name": "S05-rail-connector",
+      "type": "reused",
+      "species": "S05-rail-connector",
+      "stage": "",
+      "path": "Assets/Farm/Art/S05-rail-connector/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/assets-source/farm-assets/B02/s05-fence-r04.blend",
+      "sourceSHA256": "12db4f0b78f7e7c9b11be252ed80b33246e9147ecef7a80790e85759a83c8a65",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/interface-r01/S05-rail-connector.glb",
+      "importSHA256": "f8e1b5efe0f8023788d77cab76a5f7c8516a3e6b2b3389c0b517675b0ed72fb0",
+      "version": "interface-r01",
+      "worldHeight": 0,
+      "technical": "source_reopened_export_reimported_closed",
+      "visual": "initial_pass",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [],
+      "lodImports": [],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "sourceKind": "native_blender"
+    },
+    {
+      "id": "cucumber-mature",
+      "name": "黄瓜",
+      "type": "crop",
+      "species": "cucumber",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/cucumber-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B05/game-r01/cucumber-mature.glb",
+      "sourceSHA256": "58321add3077859120a2e0af3b4fe76f174b9b6a3522f0ebbb737931c76440fe",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/cucumber-mature.glb",
+      "importSHA256": "b66e793f204fb4e636e915dbd60e44c052cd33e58941a46ac63d663e2bcca749",
+      "version": "atlas-r01",
+      "worldHeight": 0.8945112526416779,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/cucumber-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/cucumber-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/cucumber-mature.glb",
+          "importSHA256": "6a5a38711938a820644f6eaee7a0d552a45384c526704718ad280ab73f0be590"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/cucumber-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "cucumber-seedling",
+      "name": "黄瓜",
+      "type": "crop",
+      "species": "cucumber",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/cucumber-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B08/meshy-toon-r01/cucumber-seedling.glb",
+      "sourceSHA256": "861dca20068ea6dd8ff96787208792f7d5eb4bdaa20b185abb325359d74f4771",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/cucumber-seedling.glb",
+      "importSHA256": "9589320852c0a7876353bc3f20281526b3dee8ac49ab49dc89b5615232aa4c1b",
+      "version": "bvh-r01",
+      "worldHeight": 0.1799722421219485,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/cucumber-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/cucumber-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/cucumber-seedling.glb",
+          "importSHA256": "0f7c86dad000a4f57c85a1b98d7fc0fded7ee90d87a29191071569a40eef7ed6"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/cucumber-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "pumpkin-mature",
+      "name": "南瓜",
+      "type": "crop",
+      "species": "pumpkin",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/pumpkin-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B05/game-r01/pumpkin-mature.glb",
+      "sourceSHA256": "806f205681c1b7b8ac9d35b7cdbb4a20e949e3e816520400b99f4a55e5857f8d",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/surface-r01/pumpkin-mature.glb",
+      "importSHA256": "b7f0d4e78220511d24ccbe2deb0486f658a33c02aa7a82fc69ac1e610ce4283a",
+      "version": "surface-r01",
+      "worldHeight": 0.5670443773269653,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/pumpkin-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/pumpkin-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/surface-lod1-r01/pumpkin-mature.glb",
+          "importSHA256": "c0f31ef0fc2f85bc25b0740f9dce65a3f95cfc2f9bf43705094179241cbc667c"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/pumpkin-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "pumpkin-seedling",
+      "name": "南瓜",
+      "type": "crop",
+      "species": "pumpkin",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/pumpkin-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B08/meshy-toon-r01/pumpkin-seedling.glb",
+      "sourceSHA256": "b62322d415a46a66b9b2f4382f60d246d6028133d79c22ef03928a34e47da2ce",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/pumpkin-seedling.glb",
+      "importSHA256": "657779d7da89cfb724b94cb5355f87684adfecef97a02db9db43412157644ae2",
+      "version": "bvh-r01",
+      "worldHeight": 0.16997366751093068,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/pumpkin-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/pumpkin-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/pumpkin-seedling.glb",
+          "importSHA256": "5b63a6ee2f91c6ac7c3f964121d6dc853554e34ac09a5cbcc1b822d6afa43c07"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/pumpkin-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "sunflower-mature",
+      "name": "向日葵",
+      "type": "crop",
+      "species": "sunflower",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/sunflower-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B05/game-r01/sunflower-mature.glb",
+      "sourceSHA256": "db43a41ace65a24679e502cae87f69f1bb420bdbde33ecc1459889f1b06abd83",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/sunflower-mature.glb",
+      "importSHA256": "551f80059f9d31142fa758e72a303bf8909fb259bb849b0c616c57b0a7cfb390",
+      "version": "atlas-r01",
+      "worldHeight": 0.8943765163421631,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/sunflower-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/sunflower-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/sunflower-mature.glb",
+          "importSHA256": "856bf5ee530c2e0476c9aaebdcfe412c95565a3e09e219c9930c6c05ca0ba1d9"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/sunflower-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "sunflower-seedling",
+      "name": "向日葵",
+      "type": "crop",
+      "species": "sunflower",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/sunflower-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B08/meshy-toon-r01/sunflower-seedling.glb",
+      "sourceSHA256": "298842a44d16a23937c4841abc850ae7daeb6d81b3124c015aeeeb762c1faa79",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/sunflower-seedling.glb",
+      "importSHA256": "13e47fe0af684dbcceeeca543597933bd8a5dc185a73d37349f49430a119cec7",
+      "version": "bvh-r01",
+      "worldHeight": 0.2199661680533609,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/sunflower-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/sunflower-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/sunflower-seedling.glb",
+          "importSHA256": "897208028f146953dd6ddb2ee5b721f68c660213862a02b362646a5747e209d3"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/sunflower-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "wheat-mature",
+      "name": "小麦",
+      "type": "crop",
+      "species": "wheat",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/wheat-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B05/game-r01/wheat-mature.glb",
+      "sourceSHA256": "d8c5ac9e8b2c2c21ab91f7a8a6a36adc7d36cd557090182b5b1c55d69080b189",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/wheat-mature.glb",
+      "importSHA256": "923139f55817060c6b042959ea79104fd3eb87de0ffe541a35229f74ac716fa3",
+      "version": "atlas-r01",
+      "worldHeight": 0.8949408233165741,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/wheat-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/wheat-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/wheat-mature.glb",
+          "importSHA256": "e8fc51a2c2016294976781a0eebbbbf1cdb1353550ec17b6878941ad787e00eb"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/wheat-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "wheat-seedling",
+      "name": "小麦",
+      "type": "crop",
+      "species": "wheat",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/wheat-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B08/meshy-toon-r01/wheat-seedling.glb",
+      "sourceSHA256": "5f46e93395b7bbcbdbdaee134b921845a25e17d4532e5b7c866da76c064b797c",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/wheat-seedling.glb",
+      "importSHA256": "e60e1ca5bf9371829b67bb9273c1f2a622e9dc969c40cef057aae29bec38a38b",
+      "version": "bvh-r01",
+      "worldHeight": 0.21998549746240315,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/wheat-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/wheat-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/wheat-seedling.glb",
+          "importSHA256": "221b0f47b7fc46aba63cb9ed44703a6e5a0f65eb1fa561e43bc581d9c6df7d78"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/wheat-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "bokchoy-mature",
+      "name": "小白菜",
+      "type": "crop",
+      "species": "bokchoy",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/bokchoy-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B04/game-r01/bokchoy-mature.glb",
+      "sourceSHA256": "7f1eca0e3560197b1aa23792bb484c3e21d77767c8754090a42401bbb49d001c",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/bokchoy-mature.glb",
+      "importSHA256": "438d467a79f784e8e1e5fefd9720b454ae39746ad662cabbb56ac35a3d9dee13",
+      "version": "atlas-r01",
+      "worldHeight": 0.7440756559371948,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/bokchoy-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/bokchoy-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/bokchoy-mature.glb",
+          "importSHA256": "e62986f709340acee619a00f1a60e827fc2d7287e1926bfc10749575ce0d5bcd"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/bokchoy-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "bokchoy-seedling",
+      "name": "小白菜",
+      "type": "crop",
+      "species": "bokchoy",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/bokchoy-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B08/meshy-toon-r02/bokchoy-seedling.glb",
+      "sourceSHA256": "b4bb3fe6fcb4926984ccc91dcc215fbb5f7e271b7361c2dabb601bf221c52990",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/bokchoy-seedling.glb",
+      "importSHA256": "b0e47483ab28a23e9beab699e8df9652a9bf12cac4c8f9853e1d4dad2b3709b7",
+      "version": "bvh-r01",
+      "worldHeight": 0.1900000125169754,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/bokchoy-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/bokchoy-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/bokchoy-seedling.glb",
+          "importSHA256": "b28b1aa0e35341b39432b2a5d40171a452c9e9bc62dbf7bc64a3a90e2c02f654"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/bokchoy-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "rose-mature",
+      "name": "粉玫瑰",
+      "type": "crop",
+      "species": "rose",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/rose-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B05/meshy-r01/rose-mature.glb",
+      "sourceSHA256": "2cd8483d2f5cca2fda3b8969b642a718b0eda34b729f5b70b6d87f7dc5f96a91",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-semantic-r06/rose-mature.glb",
+      "importSHA256": "e94be1e839b29a41dc2cd24ff7776dede01ca2eae6c9700d01bfe5f3a13bbad8",
+      "version": "atlas-semantic-r06",
+      "worldHeight": 0.8944933712482452,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/rose-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/rose-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r04/rose-mature.glb",
+          "importSHA256": "af6322c62d175d98399a02fe5ccdafd7ce76ba762c4e3d007618592893a40e45"
+        }
+      ],
+      "sourceSpaceScale": 0.47,
+      "sourceSpaceOffset": {
+        "x": 0.0014276168076321483,
+        "y": 0.4475668966770172,
+        "z": 0.0016816634451970458
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/rose-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "rose-seedling",
+      "name": "粉玫瑰",
+      "type": "crop",
+      "species": "rose",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/rose-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B09/meshy-toon-r01/rose-seedling.glb",
+      "sourceSHA256": "fa3719470cae764e3d6c54be0b042318263bcf43d645315770f801995c2e0809",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/rose-seedling.glb",
+      "importSHA256": "b50627b26d258a374b27504f7bde85c410c475e22f26f53a86c2989dc0eb6c23",
+      "version": "bvh-r01",
+      "worldHeight": 0.19996936156621814,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/rose-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/rose-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/rose-seedling.glb",
+          "importSHA256": "fe2e44a71c0e894eddc32990adca1e51605f2e6ff03ec913656b4f786c8abdb8"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/rose-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "strawberry-mature",
+      "name": "草莓",
+      "type": "crop",
+      "species": "strawberry",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/strawberry-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B06/game-r01/strawberry-mature.glb",
+      "sourceSHA256": "191662fed6b975968d3a13dfe77ec18e0eca70410709fa66e6e9d0e91e9886d5",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/surface-r02/strawberry-mature.glb",
+      "importSHA256": "561cb356a094f2b53f632ee8a05931a53290c7742dfb1ae928414e4934a139eb",
+      "version": "surface-r02",
+      "worldHeight": 0.6336896121501923,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/strawberry-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/strawberry-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/surface-lod1-r01/strawberry-mature.glb",
+          "importSHA256": "df1d3d3d47ee0ff5de569f32a9bfa2599bed506735866ea212919b5b74f2198e"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/strawberry-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "strawberry-seedling",
+      "name": "草莓",
+      "type": "crop",
+      "species": "strawberry",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/strawberry-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B09/meshy-toon-r01/strawberry-seedling.glb",
+      "sourceSHA256": "690811bab0ddd26e1d3b2748893ddf230f6eac06382886a9666f3495cde4a73f",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/strawberry-seedling.glb",
+      "importSHA256": "e9880ed1c4a3f0eba95c012608ca7aa0f68c0c19a35495321230e32de8ce0e3c",
+      "version": "bvh-r01",
+      "worldHeight": 0.15997519718894182,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/strawberry-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/strawberry-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/strawberry-seedling.glb",
+          "importSHA256": "602183a8afe30060e0308acb0e25a66890aec1744dd0afcbf6a0a518b2dc6d1b"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/strawberry-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "cauliflower-mature",
+      "name": "花椰菜",
+      "type": "crop",
+      "species": "cauliflower",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/cauliflower-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B04/game-r01/cauliflower-mature.glb",
+      "sourceSHA256": "4232cab6133a7984cc91ba6edd1b1a2abd70cfdf8c6032043fc7229419221095",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-detail-r01/cauliflower-mature.glb",
+      "importSHA256": "f0e8db71963e12612d4ad735ca9927c1d35aa103537538ba1798676fd16bc3f9",
+      "version": "atlas-detail-r01",
+      "worldHeight": 0.5312629640102386,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/cauliflower-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/cauliflower-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/cauliflower-mature.glb",
+          "importSHA256": "1892d2a24ce9a51445ed879291b6293665a71547f789d8af2eacef3995ea8961"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/cauliflower-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "cauliflower-seedling",
+      "name": "花椰菜",
+      "type": "crop",
+      "species": "cauliflower",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/cauliflower-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B09/meshy-toon-r02/cauliflower-seedling.glb",
+      "sourceSHA256": "12dbe97ca11b854cfd0ac280171468564e23730b14519cf4014492045de7b037",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/cauliflower-seedling.glb",
+      "importSHA256": "6194f85788682e3fd1797b1a5162cf1e9e862f63bb02765ff171017e658e7eb6",
+      "version": "bvh-r01",
+      "worldHeight": 0.19999998807907104,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/cauliflower-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/cauliflower-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/cauliflower-seedling.glb",
+          "importSHA256": "f22cbd527907da5b00e25852f337140027a291bb6007e30f457e08daf46d4b15"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/cauliflower-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "watermelon-mature",
+      "name": "西瓜",
+      "type": "crop",
+      "species": "watermelon",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/watermelon-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B05/game-r01/watermelon-mature.glb",
+      "sourceSHA256": "26f661a9bfed53e6184f5fcc75dd68ef0463e7b69246d526a15617d42ecde4fb",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/watermelon-mature.glb",
+      "importSHA256": "279e5dce8c537ba3f5d32100f1ac4027cbdac427245d82f28956250b0fbf586e",
+      "version": "atlas-r01",
+      "worldHeight": 0.6523415744304657,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/watermelon-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/watermelon-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/watermelon-mature.glb",
+          "importSHA256": "819e7a5f964acb0d0ac425d0d592d494c044c43f66db65f2d0484efb6aab9681"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/watermelon-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "watermelon-seedling",
+      "name": "西瓜",
+      "type": "crop",
+      "species": "watermelon",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/watermelon-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B09/meshy-toon-r01/watermelon-seedling.glb",
+      "sourceSHA256": "ea3a07154bcfad42ddf87bf04a353b4ebd5d08ab882f4aefc72059ca58889174",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/watermelon-seedling.glb",
+      "importSHA256": "e5d1df4e189a15388e6e2db9540bf7c1fc17d54262175d05974fef29e4212389",
+      "version": "bvh-r01",
+      "worldHeight": 0.1599752418933349,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/watermelon-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/watermelon-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/watermelon-seedling.glb",
+          "importSHA256": "239e05c490fda587ffb9ec55fde9641e016ef158bd843500a7e165e873909b82"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/watermelon-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "tulip-mature",
+      "name": "橙色郁金香",
+      "type": "crop",
+      "species": "tulip",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/tulip-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B06/game-r01/tulip-mature.glb",
+      "sourceSHA256": "83635f20d05a71ccafc5be22970082937d055b3daf5d3c649775aba09f4d2711",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/tulip-mature.glb",
+      "importSHA256": "b616cb4243b586a41a5a4ef9c200be104a74ec786e4ca61fd691f09bc5cf3a9e",
+      "version": "bvh-r01",
+      "worldHeight": 0.8942184150218964,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/tulip-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/tulip-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/tulip-mature.glb",
+          "importSHA256": "c11977baa55dcfce1d1a05b4e5c0238e56a1ccb048708d9543260b34fd2c837e"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/tulip-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "tulip-seedling",
+      "name": "橙色郁金香",
+      "type": "crop",
+      "species": "tulip",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/tulip-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B09/meshy-toon-r01/tulip-seedling.glb",
+      "sourceSHA256": "877af2515f95139ab6f08a36d47e621c2241d7830df43b7999d33985c48484b2",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/tulip-seedling.glb",
+      "importSHA256": "c18bebfea6968f85950927b4aaa5056428137b3ede021c1937f75322a2bde210",
+      "version": "bvh-r01",
+      "worldHeight": 0.19999062701481307,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/tulip-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/tulip-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/tulip-seedling.glb",
+          "importSHA256": "9d0ecf2174d11c74bf88c67822724fd07566d510051467349eefdd5a31aef040"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/tulip-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "lettuce-mature",
+      "name": "生菜",
+      "type": "crop",
+      "species": "lettuce",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/lettuce-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B04/game-r01/lettuce-mature.glb",
+      "sourceSHA256": "44b7cf3a7cd2fa5bc19a58f8eabfb825a0fb1f34ff991849cf286306ee5461ed",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-detail-r01/lettuce-mature.glb",
+      "importSHA256": "c84871a10a31116a801585961a23fabc4a348a104f0e094c3be03a5542c0b20b",
+      "version": "atlas-detail-r01",
+      "worldHeight": 0.6292265951633453,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/lettuce-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/lettuce-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/lettuce-mature.glb",
+          "importSHA256": "29c31b1ac680fc3dd1c5c08dd53d10453bc76e3b1b686040f09a44b51fa283c9"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/lettuce-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "lettuce-seedling",
+      "name": "生菜",
+      "type": "crop",
+      "species": "lettuce",
+      "stage": "seedling",
+      "path": "Assets/Farm/Art/lettuce-seedling/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B09/meshy-toon-r02/lettuce-seedling.glb",
+      "sourceSHA256": "a9272ff8e9fb37452af7916d90112b8edc7c86cf276702cb773f2eb00b3edbc1",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/lettuce-seedling.glb",
+      "importSHA256": "d4f298759104bf3824634fe5ece84342ec7a497d98da165e7d14957201786f95",
+      "version": "bvh-r01",
+      "worldHeight": 0.1599999964237213,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/lettuce-seedling/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/lettuce-seedling/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/lod1-r01/lettuce-seedling.glb",
+          "importSHA256": "f6f1de13886302cddbec6881f0a67c67eadf0178770b257bce1f1bd7e32ecf1b"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/lettuce-seedling/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "cow",
+      "name": "牛",
+      "type": "animal",
+      "species": "cow",
+      "stage": "",
+      "path": "Assets/Farm/Art/cow/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animal-studies/cow-head-clean-v4.glb",
+      "sourceSHA256": "3a09e330319317f8a0856792530f63e06d83e7b357bc3ffb344e7c89eb800b0b",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/cow/lod0.glb",
+      "importSHA256": "bc8f5997df2a85602a4827b64f6274eff647e7e3e6227f28a53166224fa2296e",
+      "version": "game-r04",
+      "worldHeight": 1.02,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/cow/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/cow/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/cow/lod1.glb",
+          "importSHA256": "6d3fe826dd334b677fa49f4fac7a78f8034f4dba07562e2a0c2573618733e530"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/cow/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "sheep",
+      "name": "绵羊",
+      "type": "animal",
+      "species": "sheep",
+      "stage": "",
+      "path": "Assets/Farm/Art/sheep/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/sheep.glb",
+      "sourceSHA256": "708ed083f02797e11f1a7b5b5d1219e3272389ddbbc23b2022e92bcb65dc6679",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/sheep/lod0.glb",
+      "importSHA256": "287e5586ddc03086c9a7cce42f964e08b32b8ed4519a72199c80aeba731f039b",
+      "version": "game-r04",
+      "worldHeight": 0.72,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/sheep/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/sheep/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/sheep/lod1.glb",
+          "importSHA256": "0a36b1de995331f12cfbee34eefb2616cc5ce987673b942f05e4c8b738197cb0"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/sheep/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "duck",
+      "name": "小鸭",
+      "type": "animal",
+      "species": "duck",
+      "stage": "",
+      "path": "Assets/Farm/Art/duck/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/duck.glb",
+      "sourceSHA256": "4f7942c5cdaa13584220eb5f100f345f2fef8ca9205dad4d92d57a44f07fdb44",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/duck/lod0.glb",
+      "importSHA256": "09093ea4987765c4086aed7299f0b6a02ef7c673e2aad2675b7eeb1c8e2fa710",
+      "version": "game-r04",
+      "worldHeight": 0.48,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/duck/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/duck/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/duck/lod1.glb",
+          "importSHA256": "7813643b50da3a396bfe7a01ea827151b342b1d6a438a420330df7104ad2bcc2"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/duck/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "chicken",
+      "name": "鸡",
+      "type": "animal",
+      "species": "chicken",
+      "stage": "",
+      "path": "Assets/Farm/Art/chicken/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/chicken.glb",
+      "sourceSHA256": "b970b39e6f77b8350ab49bbc3a8ffb2d8c27fcc7e5f54076b94e63da3b878b16",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/chicken/lod0.glb",
+      "importSHA256": "ee812c02d99c57c4905c6e4e5ca7f0ab7b242db50f81b0a0f4055527d8a9070b",
+      "version": "game-r04",
+      "worldHeight": 0.5,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/chicken/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/chicken/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/chicken/lod1.glb",
+          "importSHA256": "467f432875c5353eeb3d27912dff3165a3c8098b76ea84ad792529dd36dedfec"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/chicken/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "pig",
+      "name": "粉猪",
+      "type": "animal",
+      "species": "pig",
+      "stage": "",
+      "path": "Assets/Farm/Art/pig/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/pig.glb",
+      "sourceSHA256": "c85bf23b3df0450e5df72f9feee9df09dc6993e63e9c42773bf5b95666ea3bb4",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/pig/lod0.glb",
+      "importSHA256": "7101228cac8e624e34d6db355a2acab5477fb5f677c2690402f93ea8844a7bf1",
+      "version": "game-r04",
+      "worldHeight": 0.66,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/pig/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/pig/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/pig/lod1.glb",
+          "importSHA256": "d761c7f9067f33059751aa1cfe36cbb7a919311f93071dc28b2bc3fc8c896a25"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/pig/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "alpaca",
+      "name": "羊驼",
+      "type": "animal",
+      "species": "alpaca",
+      "stage": "",
+      "path": "Assets/Farm/Art/alpaca/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/alpaca.glb",
+      "sourceSHA256": "9ed13a58a3373f24c17aba958c452f74332a6f7344dc39a52e0580687690d5b4",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/alpaca/lod0.glb",
+      "importSHA256": "a9919649040a774b6a1897ee1760cfe6fee4eb366806ab04ec4f2a678658ed1a",
+      "version": "game-r04",
+      "worldHeight": 1.15,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/alpaca/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/alpaca/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/alpaca/lod1.glb",
+          "importSHA256": "ceb713da9fe0f144b9fac0a54e3904b1e6ab452f4ccff04ab13b22980150db08"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/alpaca/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "hamster",
+      "name": "仓鼠",
+      "type": "animal",
+      "species": "hamster",
+      "stage": "",
+      "path": "Assets/Farm/Art/hamster/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/hamster.glb",
+      "sourceSHA256": "b34effc0a674bfc4768d41b2c1a506fd58737a67b6f7f65d80e076a2a99f5b7d",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/hamster/lod0.glb",
+      "importSHA256": "8f07b0fdc751070d39a93469a661be6fc2d64b7e89467efd2cc08f8a08625533",
+      "version": "game-r04",
+      "worldHeight": 0.34,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/hamster/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/hamster/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/hamster/lod1.glb",
+          "importSHA256": "1c1bfc92050817876891af67cfb0f11b782d4ad2d053bb8b26e855bdd0759323"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/hamster/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "donkey",
+      "name": "驴",
+      "type": "animal",
+      "species": "donkey",
+      "stage": "",
+      "path": "Assets/Farm/Art/donkey/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/donkey.glb",
+      "sourceSHA256": "d8a43102a4840d15636ba33ad1f3a6e4c29868a08b6005da657b39dab807527e",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/donkey/lod0.glb",
+      "importSHA256": "db391abec7ac2398c1187c6550e267c71104c18de7c0afbddfcaca6c114e937f",
+      "version": "game-r04",
+      "worldHeight": 1.05,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/donkey/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/donkey/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/donkey/lod1.glb",
+          "importSHA256": "8c4fffe65b140ff883bc866cac5b17cd0fbb041029d4ef09d5257f936ca04d63"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/donkey/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "capybara",
+      "name": "普通水豚",
+      "type": "animal",
+      "species": "capybara",
+      "stage": "",
+      "path": "Assets/Farm/Art/capybara/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/capybara.glb",
+      "sourceSHA256": "916ca7391821c8c97a88e801d57f50e284aa55b7633389707d280cc480af40f4",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/capybara/lod0.glb",
+      "importSHA256": "150487527a724526a3bb5007b0b1b8ff7b94d65771d9b62dd19d3db860f4b855",
+      "version": "game-r04",
+      "worldHeight": 0.64,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/capybara/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/capybara/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/capybara/lod1.glb",
+          "importSHA256": "79803b6002623c19c56ee85f5cd3f396c1d72cd8250d18e6ff549cd744dc33f4"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/capybara/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "ostrich",
+      "name": "鸵鸟",
+      "type": "animal",
+      "species": "ostrich",
+      "stage": "",
+      "path": "Assets/Farm/Art/ostrich/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/ostrich.glb",
+      "sourceSHA256": "cfb9d34b6217401f30588514d844df9a37015ba98c3f52a46007e8ebe3facd26",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/ostrich/lod0.glb",
+      "importSHA256": "bf499e272926bf312c85282a8d530a95c74a406abadf1737ed7511d03da93edc",
+      "version": "game-r04",
+      "worldHeight": 1.35,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/ostrich/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/ostrich/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/ostrich/lod1.glb",
+          "importSHA256": "7c50b6fb93e9c75cfd931b6b51db28bc34b5a31a91b0f317d141c0eb8f6eca0e"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/ostrich/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "pony",
+      "name": "小马",
+      "type": "animal",
+      "species": "pony",
+      "stage": "",
+      "path": "Assets/Farm/Art/pony/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/pony.glb",
+      "sourceSHA256": "c3e7acc7dd2deae0d70191cdd28105820b019e6575bffb8382c87b0d4b0d1b9f",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/pony/lod0.glb",
+      "importSHA256": "b19ce38e1ae91c81fd557fa4e70744a4437b5345e102e7fb07a368551034c740",
+      "version": "game-r04",
+      "worldHeight": 1.1,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/pony/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/pony/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/pony/lod1.glb",
+          "importSHA256": "fe4a7179e8e8ec95eae87d67fe3c6fcdc1b8ac70dc306cbdba88ce76dc8c82f3"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/pony/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "goat",
+      "name": "山羊",
+      "type": "animal",
+      "species": "goat",
+      "stage": "",
+      "path": "Assets/Farm/Art/goat/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/goat.glb",
+      "sourceSHA256": "da23daa5370388dd2f4fcad98ed7b24a973b0d2a0faadfc5d70cf4bd84e8b40e",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/goat/lod0.glb",
+      "importSHA256": "7cc72a14f83a8bf7a8e6fd221c9475ef1f9d7d40897ea48259ace24009821725",
+      "version": "game-r04",
+      "worldHeight": 0.85,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/goat/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/goat/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/goat/lod1.glb",
+          "importSHA256": "e41e6b80a69bff5d37bcfd9ef9bd6f837296eb60c7d0adc1c75bcd863d9ca1da"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/goat/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "goose",
+      "name": "白鹅",
+      "type": "animal",
+      "species": "goose",
+      "stage": "",
+      "path": "Assets/Farm/Art/goose/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/goose.glb",
+      "sourceSHA256": "a3163d51628791583db4b69a752f6229ddef03933a041c888d109e53852a6995",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/goose/lod0.glb",
+      "importSHA256": "00d2249b5d74578917c439d5df4c0b6dda562ae3f184711880ce7427ca5d5247",
+      "version": "game-r04",
+      "worldHeight": 0.68,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/goose/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/goose/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/goose/lod1.glb",
+          "importSHA256": "a1e489f4e728a02a3a4cf39c30d5abc34761981ed1f5ce0133530861a292649a"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/goose/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "black-pig",
+      "name": "黑猪",
+      "type": "animal",
+      "species": "black-pig",
+      "stage": "",
+      "path": "Assets/Farm/Art/black-pig/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/black-pig.glb",
+      "sourceSHA256": "2c483917129c26355b6f5098ac2e3de84f6c5fa2771bf55c635989abf050cf63",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/black-pig/lod0.glb",
+      "importSHA256": "ab2aee23bf6a7d802195d01c44d054166d527aea630a2b5e38d73d21f57637ad",
+      "version": "game-r04",
+      "worldHeight": 0.66,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/black-pig/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/black-pig/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/black-pig/lod1.glb",
+          "importSHA256": "c3fe5cbc3dc35821f85cb6c9ff5a96c1e9993c05cb82f2a54d2f4b94100433b3"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/black-pig/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "deer",
+      "name": "小鹿",
+      "type": "animal",
+      "species": "deer",
+      "stage": "",
+      "path": "Assets/Farm/Art/deer/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/animals-refined/v1/deer.glb",
+      "sourceSHA256": "e7edefb997c75a512d33067e2227d1cfb6a4445ba9ca9906e9f99b11f306df30",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/deer/lod0.glb",
+      "importSHA256": "5b636960c4ad2cca1bd87b3b0817485eee31213018189a96185371d0ef153898",
+      "version": "game-r04",
+      "worldHeight": 1.08,
+      "technical": "source_and_glb_reopened_pass",
+      "visual": "passed_candidate_with_inherited_details",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/deer/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/deer/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-animals/game-r04/deer/lod1.glb",
+          "importSHA256": "113825ba33fd33aba5543879aabbd9fcdf7a6dafdb58c20d57dd54a82207a18f"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/deer/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S04",
+      "name": "渔产摊位",
+      "type": "facility",
+      "species": "S04",
+      "stage": "",
+      "path": "Assets/Farm/Art/S04/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/s04-fish-stall.glb",
+      "sourceSHA256": "2a01f89fdbd372e11fcd09efb41141c45f0fb03626b9bffc8124399460412ed5",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/S04.glb",
+      "importSHA256": "c001990c388bd2b82cedfb8658de46710c093bf65de4fde47f74b9b39c49f760",
+      "version": "atlas-r01",
+      "worldHeight": 2.2,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S04/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S04/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S04.glb",
+          "importSHA256": "05b8cb8ce92fe732a6d6795b69551335f62b89bf68364d51c88b2c143d9047d9"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S04/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S07",
+      "name": "码头模块",
+      "type": "facility",
+      "species": "S07",
+      "stage": "",
+      "path": "Assets/Farm/Art/S07/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/s07-dock.glb",
+      "sourceSHA256": "f23274e03f3a4a51bf2fb8eac0adfa1bde3f737e5f0d86b37e758a8647073ace",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/S07.glb",
+      "importSHA256": "b7e4518805a00e751b0643697ca3d75266873fd70941da237da722e1cfee042e",
+      "version": "bvh-r01",
+      "worldHeight": 0.7,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S07/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S07/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S07.glb",
+          "importSHA256": "be79688d546fdbf67dad35027684674a7ca98c100dd2e0944c64379357be741c"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S07/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S08",
+      "name": "划艇",
+      "type": "facility",
+      "species": "S08",
+      "stage": "",
+      "path": "Assets/Farm/Art/S08/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/s08-rowboat.glb",
+      "sourceSHA256": "c2df3b7d7ebea35c92e6ed3e3cd5dadb351917d858d42cb5b8f0efdaffd74ec3",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/S08.glb",
+      "importSHA256": "b1259703753b79f90043f28a4fcb0350e89877de9b2bd40f509db1728d454439",
+      "version": "bvh-r01",
+      "worldHeight": 0.6,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S08/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S08/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S08.glb",
+          "importSHA256": "8695db229e30ae0334d296401b8af1b2318bd9514b4378161ac7eb2f8297c17d"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S08/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S09",
+      "name": "饲料槽",
+      "type": "facility",
+      "species": "S09",
+      "stage": "",
+      "path": "Assets/Farm/Art/S09/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/s09-feed-trough.glb",
+      "sourceSHA256": "849892d06f64a37bc37df3861a7565df8f51de0f735f0c39af9e3affea3f81c2",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r02/S09.glb",
+      "importSHA256": "db12a788b3434db773cf364a72ca64920fb2bcdc18f98867692ece6a6944828d",
+      "version": "bvh-r02",
+      "worldHeight": 0.52,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S09/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S09/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r02/S09.glb",
+          "importSHA256": "cbe28f99fb0f8a2e473cd15c1427eacdd790ae7dc459ee723d3a8656f73ee040"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S09/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S10",
+      "name": "路灯",
+      "type": "facility",
+      "species": "S10",
+      "stage": "",
+      "path": "Assets/Farm/Art/S10/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/s10-lantern-post.glb",
+      "sourceSHA256": "f8d34b86785155a8e89a0d9abae7ac59faa96673135e3065193c11ef7520cd56",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/S10.glb",
+      "importSHA256": "88b28316fb71b65b2ceb18b524b03063038d9f6b37544e7976d1b62dcb299610",
+      "version": "bvh-r01",
+      "worldHeight": 2.1,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S10/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S10/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S10.glb",
+          "importSHA256": "bc1c9cb08c34e33de37e6df591861cd5b303d23bdde8ddff962c296345ef69f5"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S10/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S11",
+      "name": "独立木箱",
+      "type": "facility",
+      "species": "S11",
+      "stage": "",
+      "path": "Assets/Farm/Art/S11/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/s11-wooden-crates.glb",
+      "sourceSHA256": "842ae1f7b39ac5eaeac25fe4ee6aa989b860e6f8a9f2d2171e34736f56ae18cb",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/S11.glb",
+      "importSHA256": "a915974c47424f7b852c146f4ee8ac57a9ed8ef436417155fd54a1734f9b9e0c",
+      "version": "atlas-r01",
+      "worldHeight": 0.6,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S11/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S11/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S11.glb",
+          "importSHA256": "4fc49d39ce527715253cc8754f52c6cd87fe967948f071aa37497a2748b9016b"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S11/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S12",
+      "name": "浇水壶",
+      "type": "facility",
+      "species": "S12",
+      "stage": "",
+      "path": "Assets/Farm/Art/S12/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/s12-watering-can.glb",
+      "sourceSHA256": "6026e497a1f450e86433e42643f4d509fed470f26d7ebb992285278f8ba453b0",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/S12.glb",
+      "importSHA256": "155688fadcc2428a8bf0b22be2eb7aea238103a6dcb3b264741faa644051b539",
+      "version": "bvh-r01",
+      "worldHeight": 0.43,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S12/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S12/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S12.glb",
+          "importSHA256": "aff0443e44f64c6b7a772c6bc3ad16dd73b02a3e4e73f4e5235d4b6f732f3730"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/S12/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E03",
+      "name": "草地格",
+      "type": "environment",
+      "species": "E03",
+      "stage": "",
+      "path": "Assets/Farm/Art/E03/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e03-grass-tile.glb",
+      "sourceSHA256": "b19254e6f5479d88ead8ee79bd25a187a68d4c07a035e51fa9092f0da6290921",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/E03.glb",
+      "importSHA256": "cfeb3f99db00e27de68b658850e0cdbb6ec41c0a1daeebd81287df3c54f06290",
+      "version": "bvh-r01",
+      "worldHeight": 0.18,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E03/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E03/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/E03.glb",
+          "importSHA256": "11b138d1e5038c0e54fca741582dc9a860008add2c4123b46d7a0e33086dd0f7"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E03/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E04",
+      "name": "路面格",
+      "type": "environment",
+      "species": "E04",
+      "stage": "",
+      "path": "Assets/Farm/Art/E04/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e04-path-tile-provisional.glb",
+      "sourceSHA256": "8792a194b79fe6cb073e48c865215e29fb3957654a3594ea96aba13018fab01b",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/E04.glb",
+      "importSHA256": "eaeafd521c46c72f4f140ac801827d16b37f616f6e22237ed457895423c4e6b1",
+      "version": "bvh-r01",
+      "worldHeight": 0.12,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E04/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E04/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/E04.glb",
+          "importSHA256": "9f74dd9680ae95fe94ac5de362254a9ac27f6588640096fb01ef56c2aff8ba60"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E04/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E06",
+      "name": "河岸弯角",
+      "type": "environment",
+      "species": "E06",
+      "stage": "",
+      "path": "Assets/Farm/Art/E06/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e06-shore-corner.glb",
+      "sourceSHA256": "763e2e7bda7d81a138734d29594fd2e58a2d798aba84403a58ed1772b1011c5e",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e06-shore-corner.glb",
+      "importSHA256": "763e2e7bda7d81a138734d29594fd2e58a2d798aba84403a58ed1772b1011c5e",
+      "version": "existing-input",
+      "worldHeight": 0.45,
+      "technical": "input_inventory_only",
+      "visual": "not_adopted_optional_source",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [],
+      "lodImports": [],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E06/model.gltf",
+      "sourceKind": "meshy_import"
+    },
+    {
+      "id": "E09",
+      "name": "梨树",
+      "type": "environment",
+      "species": "E09",
+      "stage": "",
+      "path": "Assets/Farm/Art/E09/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e09-pear-tree.glb",
+      "sourceSHA256": "6c29342cef0ddee4c91491251b4698e94d8cb41fcad9c89ba514c4bd7e2dec9f",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/E09.glb",
+      "importSHA256": "d38b077b90404eab834b1719327de63fb108831663c175b268263fe94dacbf5c",
+      "version": "bvh-r01",
+      "worldHeight": 3.4,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E09/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E09/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/E09.glb",
+          "importSHA256": "328b4137656de771c7d4928ecfc109b3b3a1120971f1c3625f8ae393a47643f6"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E09/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E10",
+      "name": "灌木",
+      "type": "environment",
+      "species": "E10",
+      "stage": "",
+      "path": "Assets/Farm/Art/E10/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e10-shrub.glb",
+      "sourceSHA256": "d1a7ac94aa13521830a487b39f84c35c79be1bc73ed18ba7b1ab8786d19bcb61",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/E10.glb",
+      "importSHA256": "7dc3b3e4825af68422d20ce322851905c4ae0b982c7e1698871d5cfb8d4a3a25",
+      "version": "bvh-r01",
+      "worldHeight": 0.75,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E10/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E10/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/E10.glb",
+          "importSHA256": "8d3d42212ee3b9a8281479519a18371b76ae3d6aa7d24f74a868d8805ea2d30f"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E10/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E11",
+      "name": "白花丛",
+      "type": "environment",
+      "species": "E11",
+      "stage": "",
+      "path": "Assets/Farm/Art/E11/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e11-white-flowers.glb",
+      "sourceSHA256": "07ef99bb5c65ec81b69807052f59a744d8bb461d15489f58a5828b6c58e471d2",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/E11.glb",
+      "importSHA256": "8cbc3f1fc5ac3413c60c4336b033cd8335dcd34ce16b73b4dc63831a47e32452",
+      "version": "bvh-r01",
+      "worldHeight": 0.45,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E11/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E11/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/E11.glb",
+          "importSHA256": "f1a77e9f19bb7267a8172ce099a939673df97ed3fd66d3ecada5385cb8440e42"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E11/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E12",
+      "name": "芦苇",
+      "type": "environment",
+      "species": "E12",
+      "stage": "",
+      "path": "Assets/Farm/Art/E12/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e12-reeds.glb",
+      "sourceSHA256": "0afb139fdc31b78582d787196baa36a965cc27fe162a66010060f1c451472042",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/E12.glb",
+      "importSHA256": "569f79edcf6791160c0d16fdc2386290b060aade95e1f9fd59ef3d3c42261042",
+      "version": "bvh-r01",
+      "worldHeight": 1.1,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E12/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E12/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/E12.glb",
+          "importSHA256": "c82d0fbdd3d7c39a826e85f09de357cb031893373f5fa078f4dfcd1b87123711"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E12/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E14",
+      "name": "睡莲",
+      "type": "environment",
+      "species": "E14",
+      "stage": "",
+      "path": "Assets/Farm/Art/E14/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e14-water-lily.glb",
+      "sourceSHA256": "53888fc327018a011b42fa47b46066364902aea90012fa9921193faa40c32d37",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/E14.glb",
+      "importSHA256": "6da4dfafafb106820a34d2d8edd743391189f759b0c5419b6e522fc21aca8fb8",
+      "version": "bvh-r01",
+      "worldHeight": 0.16,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E14/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E14/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/E14.glb",
+          "importSHA256": "0159854b1a0f23207777a4c66d15f98d2b4a708d892613dd168199aebec1bcd7"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E14/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E15",
+      "name": "草垛",
+      "type": "environment",
+      "species": "E15",
+      "stage": "",
+      "path": "Assets/Farm/Art/E15/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e15-hay-bale.glb",
+      "sourceSHA256": "55ea9358ff6529835b9a2f11473ace9d47a08b35716b720c3b37494d4bd4e6f9",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/bvh-r01/E15.glb",
+      "importSHA256": "a2e80fc4782fa8e8a52154deac9a459b794658d2cef22c2bf3be9c88f6bc5b3b",
+      "version": "bvh-r01",
+      "worldHeight": 0.65,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E15/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E15/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/E15.glb",
+          "importSHA256": "4e72a4cdfc05655715f7a313c671888830de56fe7f52e32b65ded5d98652d3c2"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E15/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "E16",
+      "name": "蓝鱼",
+      "type": "environment",
+      "species": "E16",
+      "stage": "",
+      "path": "Assets/Farm/Art/E16/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r01/e16-blue-fish.glb",
+      "sourceSHA256": "b3044eacc519dbbdfd5bf107163d8a14c0c003fd9a094703193b3abeb851e016",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/surface-r01/E16.glb",
+      "importSHA256": "19993497208679dfddbb2de4580fbdc292b6b321d636e9a048fc05bfe8ad8aba",
+      "version": "surface-r01",
+      "worldHeight": 0.3,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/E16/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/E16/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/surface-lod1-r01/E16.glb",
+          "importSHA256": "a64017a016eeeac03e16387a34f903936c3913157d85a0788a47e99ec1e5605e"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/E16/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "cabbage-mature",
+      "name": "卷心菜",
+      "type": "crop",
+      "species": "cabbage",
+      "stage": "mature",
+      "path": "Assets/Farm/Art/cabbage-mature/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/farm-assets/B01/game-r02/cabbage-mature.glb",
+      "sourceSHA256": "21fd0f3ea18cb34d1f84f6f90d36d35b17a4cbbc7a6d37e638593f374748b379",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/cabbage-mature.glb",
+      "importSHA256": "cf2855fff21c5a0936ba227115baa50fbb7a8b1130f7df52a27b97d3208edcda",
+      "version": "atlas-r01",
+      "worldHeight": 0.5572381317615509,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "initial_pass_with_reservations",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/cabbage-mature/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/cabbage-mature/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/cabbage-mature.glb",
+          "importSHA256": "ab50be669b8390a970a4a7e2b617a8bf11e8dcec63a83031798b422e3664181d"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "beforePath": "Assets/Farm/Art/Comparisons/cabbage-mature/model.gltf",
+      "sourceKind": "imported_edited_derivative"
+    },
+    {
+      "id": "S02",
+      "name": "牧场谷仓（含筒仓）",
+      "type": "facility",
+      "species": "S02",
+      "stage": "",
+      "path": "Assets/Farm/Art/S02/model.gltf",
+      "source": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/facilities-meshy/meshy-r02/s02-pasture-barn.glb",
+      "sourceSHA256": "d4299d1ea171c7970fbabd7266e2cd6af93f0b8726ff0e5c5003a6bf00a1b095",
+      "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-r01/S02.glb",
+      "importSHA256": "f38c4d057022e5ed5ee6731137735fe439773e17fca8b927b1f71e16ded0ec1d",
+      "sourceKind": "imported_edited_derivative",
+      "version": "atlas-r01",
+      "worldHeight": 3.0,
+      "technical": "source_reopened_export_reimported_closed_finite",
+      "visual": "pending_actual_inspection",
+      "userArt": "pending",
+      "device": "not_tested",
+      "lodPaths": [
+        "Assets/Farm/Art/S02/lod1/model.gltf"
+      ],
+      "lodImports": [
+        {
+          "path": "Assets/Farm/Art/S02/lod1/model.gltf",
+          "importSource": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/atlas-lod1-r01/S02.glb",
+          "importSHA256": "fb501baade520e98f3b53ccd7a23021ab01b91ef172aec5b08f05d2b1c5a0f58"
+        }
+      ],
+      "sourceSpaceScale": 1,
+      "sourceSpaceOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "unity_import": "not_verified_after_staging",
+  "luluLocomotion": [
+    {
+      "name": "Idle",
+      "frames": 90,
+      "duration": 3.0,
+      "source_speed": 0.0,
+      "world_speed_at_height_1_2": 0.0
+    },
+    {
+      "name": "Walk",
+      "frames": 18,
+      "duration": 0.6,
+      "source_speed": 0.8666666666666667,
+      "world_speed_at_height_1_2": 0.5471864095732367
+    },
+    {
+      "name": "Run",
+      "frames": 12,
+      "duration": 0.4,
+      "source_speed": 2.0238095238095237,
+      "world_speed_at_height_1_2": 1.277770461915525
+    }
+  ],
+  "sourceRegistry": "/Users/haowen/GameProject/farm-game/lulu-studio/public/models/unity-integration/manifest.json"
+}

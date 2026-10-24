@@ -1,0 +1,24 @@
+{
+  "source": "Original mathematical signal synthesis by this project script. No third-party recordings, copyrighted samples or downloaded audio.",
+  "permission": "Created for the user’s Lulu Farm project; no external attribution or third-party license terms apply. Commercial use is not conditioned on a third-party audio license.",
+  "review": "Playback and audible quality remain pending actual runtime review.",
+  "generator": "Scripts/r07-synthesize-audio.py",
+  "files": [
+    {
+      "file": "Assets/Farm/Audio/R07/bird-chirps.wav",
+      "sha256": "6c78c272047a1ff7dfdeb825328b05a6256d8d90f7d385b91be0f2594b4c9d88",
+      "seconds": 24,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peak": 0.22899652227860562
+    },
+    {
+      "file": "Assets/Farm/Audio/R07/soft-water.wav",
+      "sha256": "c16e3660c8665636685a532ac023734478f909aac1816884956024b4cf8471e2",
+      "seconds": 24,
+      "sampleRate": 24000,
+      "channels": 1,
+      "peak": 0.15259416607296694
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+# Machine tools and generated caches
+/.unity-install/
+**/node_modules/
+**/dist/
+**/__pycache__/
+*.pyc
+.DS_Store
+**/.DS_Store
+/lulu-farm-unity/Library/
+/lulu-farm-unity/Temp/
+/lulu-farm-unity/Obj/
+/lulu-farm-unity/Logs/
+/lulu-farm-unity/UserSettings/
+/lulu-farm-unity/Builds/
+/lulu-farm-unity/Delivery/
+/lulu-farm-unity/Evidence/
+/lulu-farm-unity/mono_crash*
+/lulu-farm-unity/MemoryCaptures/
+# Full local art archive and history; runtime Unity Assets ARE versioned.
+/lulu-studio/assets-source/
+/lulu-studio/public/
+/lulu-studio/review/
+/lulu-studio/reference-source/
+/lulu-studio/migration/
+/lulu-studio/assets-manifest.json
+/migration/
+# Credentials and per-machine configuration
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.key
+*.pem
+*.mobileprovision
+*.keystore
+*.jks
+.idea/
+.vscode/
+# Download and delivery archives
+*.zip
+*.tar
+*.tar.gz
+*.dmg
+*.pkg
+*.mp4
+*.mov
+*.data
+*.data.raw
+*.timeline.json.gz
+*.blend1

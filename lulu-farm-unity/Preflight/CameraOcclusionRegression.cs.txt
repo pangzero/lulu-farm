@@ -1,0 +1,229 @@
+// Copy to Assets/Farm/Editor/CameraOcclusionRegression.cs only while Unity is idle.
+// Enter Play Mode, then Farm/Diagnostics/Run camera occlusion regression.
+// Uses temporary remote fixtures and a separate Cinemachine channel; original scene assets,
+// Lulu, materials, input and transforms are not edited. Actual farm artwork still needs visual review.
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using UnityEditor;
+using UnityEngine;
+using UnityEngine.Rendering;
+using Unity.Cinemachine;
+
+namespace LuluFarm.Editor
+{
+    public static class CameraOcclusionRegression
+    {
+        [MenuItem("Farm/Diagnostics/Run camera occlusion regression")]
+        public static void Run()
+        {
+            if (!EditorApplication.isPlaying || EditorApplication.isCompiling)
+                throw new InvalidOperationException("Run after compilation, in Play Mode. This performs real Physics/Cinemachine frame updates.");
+            if (UnityEngine.Object.FindFirstObjectByType<CameraOcclusionRegressionRunner>() != null)
+                throw new InvalidOperationException("A camera regression is already running.");
+            var owner = new GameObject("TemporaryCameraOcclusionRegression");
+            owner.AddComponent<CameraOcclusionRegressionRunner>();
+        }
+    }
+
+    public sealed class CameraOcclusionRegressionRunner : MonoBehaviour
+    {
+        const int Layer = 27;
+        static readonly OutputChannels TestChannel = (OutputChannels)(1U << 30);
+        [Serializable] sealed class Sample
+        {
+            public string scenario, utc;
+            public int frame, fades;
+            public float actualDistance, requestedDistance, opacityA, opacityB;
+            public bool occludedA, occludedB, safeA, safeB, safetyOrbit, unresolved, targetInsideViewport, endpointInsideSolid, cinemachineLive;
+        }
+        [Serializable] sealed class Check { public string name, status, detail; }
+        [Serializable] sealed class Report
+        {
+            public string utc, unityVersion, platform, graphicsAPI, status = "running";
+            public string scope = "Executed temporary-fixture Physics and Cinemachine regression; does not certify real farm visuals or player animation";
+            public string visual = "not_viewed", fullFarm = "not_run", userArt = "pending", devicePerformance = "invalid_regression_allocations";
+            public bool originalAsyncShaderCompilation, cleanupComplete;
+            public Sample[] samples;
+            public Check[] checks;
+        }
+        readonly List<Sample> samples = new List<Sample>();
+        readonly List<Check> checks = new List<Check>();
+        readonly Dictionary<CinemachineBrain, OutputChannels> brainMasks = new Dictionary<CinemachineBrain, OutputChannels>();
+        readonly List<Material> materials = new List<Material>();
+        readonly Vector3 origin = new Vector3(3000, 0, 3000);
+        FarmThirdPersonCamera rig;
+        FarmCameraOccluder a, b;
+        GameObject solid;
+        Material original;
+        Report report;
+        string directory;
+        bool cleaned, previousAsync;
+
+        IEnumerator Start()
+        {
+            report = new Report { utc = DateTime.UtcNow.ToString("o"), unityVersion = Application.unityVersion,
+                platform = Application.platform.ToString(), graphicsAPI = SystemInfo.graphicsDeviceType.ToString() };
+            directory = Path.Combine("Evidence", "camera-occlusion-regression-" + DateTime.UtcNow.ToString("yyyyMMdd-HHmmss-fff"));
+            Directory.CreateDirectory(directory);
+            previousAsync = EditorSettings.asyncShaderCompilation;
+            report.originalAsyncShaderCompilation = previousAsync;
+            // Isolate shader compilation placeholders from the collision assertions; restore in all exit paths.
+            EditorSettings.asyncShaderCompilation = false;
+            foreach (var diagnostics in FindObjectsByType<FarmRuntimeDiagnostics>(FindObjectsSortMode.None))
+                diagnostics.NotifyCaptureOverhead("camera_regression_temporary_fixtures_not_a_performance_run");
+            foreach (var brain in FindObjectsByType<CinemachineBrain>(FindObjectsSortMode.None))
+            { brainMasks[brain] = brain.ChannelMask; brain.ChannelMask &= ~TestChannel; }
+            bool setupOK = false;
+            try { Setup(); setupOK = true; }
+            catch (Exception ex) { AddCheck("setup", false, ex.ToString()); }
+            if (!setupOK) { Finish(); yield break; }
+
+            yield return Frames("unobstructed", 2);
+            AddCheck("initial_framing", Last.actualDistance >= rig.minimumCharacterDistance && Last.cinemachineLive, "Independent Cinemachine rig has safe full framing.");
+
+            a.gameObject.SetActive(true);
+            yield return Frames("early_distant_owner", 1);
+            AddCheck("early_fade_before_character_closeup", Last.occludedA && Last.actualDistance >= rig.minimumCharacterDistance,
+                "Fade starts on the distant blocker, before the camera could reach the former 1.5 trigger.");
+            yield return Frames("distant_owner_settles", 12);
+
+            a.gameObject.SetActive(false);
+            yield return Frames("reset_for_sudden_blocker", 2);
+            a.transform.position = origin + new Vector3(0, .9f, -.2f);
+            a.transform.localScale = new Vector3(1, 1.8f, .2f);
+            a.gameObject.SetActive(true);
+            yield return Frames("sudden_near_owner_first_frame", 1);
+            AddCheck("sudden_owner_never_enters_character", Last.safeA && Last.actualDistance >= rig.minimumCharacterDistance && !Last.unresolved,
+                "The first measured end-of-frame after the new close blocker has safe opacity and framing; no .3-unit intermediate sample.");
+
+            b.gameObject.SetActive(true);
+            yield return Frames("two_simultaneous_near_owners", 1);
+            AddCheck("all_near_owners_fade", Last.safeA && Last.safeB && Last.fades >= 2 && Last.actualDistance >= rig.minimumCharacterDistance,
+                "Two owners must both release their own camera proxies; one owner cannot hide another solid blocker.");
+
+            a.gameObject.SetActive(false); b.gameObject.SetActive(false);
+            yield return Frames("reset_for_decoration", 2);
+            a.GetComponent<Collider>().enabled = false;
+            a.gameObject.SetActive(true);
+            yield return Frames("renderer_outside_physical_proxy", 1);
+            AddCheck("rendered_decoration_triggers_fade", Last.safeA && Last.actualDistance >= rig.minimumCharacterDistance,
+                "Visible decoration without a matching enabled wall proxy still triggers the prepared owner's fade.");
+
+            a.gameObject.SetActive(false); b.gameObject.SetActive(false);
+            solid.SetActive(true);
+            yield return Frames("non_fading_solid", 2);
+            AddCheck("solid_uses_safe_orbit_not_distance_clamp", Last.safetyOrbit && !Last.unresolved && !Last.endpointInsideSolid && Last.actualDistance >= rig.minimumCharacterDistance,
+                "A real solid obstacle is kept solid; a valid side orbit is chosen instead of clamping through it or entering the character.");
+
+            solid.SetActive(false);
+            a.GetComponent<Collider>().enabled = true;
+            a.gameObject.SetActive(true); b.gameObject.SetActive(true);
+            yield return Frames("owners_before_release", 2);
+            a.transform.position = origin + Vector3.right * 30;
+            b.transform.position = origin + Vector3.left * 30;
+            yield return Frames("owners_release_after_both_paths_clear", 20);
+            AddCheck("restores_both_original_materials", !a.IsOccluded && !b.IsOccluded && a.CurrentOpacity > .999f && b.CurrentOpacity > .999f
+                && a.targetRenderer.sharedMaterial == original && b.targetRenderer.sharedMaterial == original,
+                "Opaque arrays are restored only after requested and actual camera corridors clear.");
+            AddCheck("all_sampled_frames_keep_character_distance", samples.All(x => x.actualDistance >= rig.minimumCharacterDistance - .001f),
+                "Every captured end-of-frame camera distance remains at least the character framing minimum.");
+            Finish();
+        }
+
+        Sample Last => samples[samples.Count - 1];
+        IEnumerator Frames(string scenario, int count)
+        {
+            Physics.SyncTransforms();
+            for (int i = 0; i < count; i++)
+            {
+                yield return new WaitForEndOfFrame();
+                samples.Add(new Sample { scenario = scenario, utc = DateTime.UtcNow.ToString("o"), frame = Time.frameCount,
+                    actualDistance = rig.ActualDistance, requestedDistance = rig.RequestedDistance, fades = rig.ActiveFadeCount,
+                    opacityA = a.CurrentOpacity, opacityB = b.CurrentOpacity, occludedA = a.IsOccluded, occludedB = b.IsOccluded,
+                    safeA = a.AllowsCameraPassThrough, safeB = b.AllowsCameraPassThrough, safetyOrbit = rig.UsingSafetyOrbit,
+                    unresolved = rig.SafetyFallbackBlocked, targetInsideViewport = rig.TargetVisible, cinemachineLive = rig.CinemachineIsLive,
+                    endpointInsideSolid = solid.activeInHierarchy && Physics.OverlapSphere(rig.outputCamera.transform.position, rig.collisionRadius, 1 << Layer, QueryTriggerInteraction.Ignore)
+                        .Any(c => c.gameObject == solid) });
+            }
+        }
+        void AddCheck(string name, bool okay, string detail) { checks.Add(new Check { name = name, status = okay ? "passed" : "failed", detail = detail }); }
+
+        void Setup()
+        {
+            var shader = Shader.Find("Universal Render Pipeline/Lit");
+            if (shader == null) throw new InvalidOperationException("URP Lit unavailable.");
+            original = new Material(shader) { name = "Temporary camera test opaque" }; materials.Add(original);
+            original.SetColor("_BaseColor", new Color(.8f, .6f, .4f, 1));
+            var fade = new Material(original) { name = "Temporary camera test fade", renderQueue = (int)RenderQueue.Transparent }; materials.Add(fade);
+            fade.SetFloat("_Surface", 1); fade.SetFloat("_ZWrite", 0);
+            fade.SetFloat("_SrcBlend", (float)BlendMode.SrcAlpha); fade.SetFloat("_DstBlend", (float)BlendMode.OneMinusSrcAlpha);
+            fade.EnableKeyword("_SURFACE_TYPE_TRANSPARENT"); fade.SetOverrideTag("RenderType", "Transparent");
+            fade.SetShaderPassEnabled("ShadowCaster", false);
+            var cameraObject = new GameObject("TemporaryRegressionCamera", typeof(Camera)); cameraObject.transform.SetParent(transform);
+            var camera = cameraObject.GetComponent<Camera>(); camera.enabled = false; camera.aspect = 16f / 9f;
+            var target = new GameObject("TemporaryRegressionTarget"); target.transform.SetParent(transform); target.transform.position = origin;
+            rig = cameraObject.AddComponent<FarmThirdPersonCamera>(); rig.target = target.transform; rig.outputCamera = camera;
+            rig.obstructionLayers = 1 << Layer; rig.ConfigureCinemachine(transform);
+            rig.brain.ChannelMask = TestChannel; rig.virtualCamera.OutputChannel = TestChannel;
+            a = Owner("TemporaryFarOwner", origin + new Vector3(0, 2, -3), new Vector3(2, 3, .3f), fade);
+            b = Owner("TemporaryNearOwnerB", origin + new Vector3(0, 1, -.6f), new Vector3(1, 2, .2f), fade);
+            a.gameObject.SetActive(false); b.gameObject.SetActive(false);
+            solid = Cube("TemporarySolid", origin + new Vector3(0, 1, -.65f), new Vector3(1, 2, .2f)); solid.SetActive(false);
+        }
+        GameObject Cube(string name, Vector3 position, Vector3 size)
+        {
+            var cube = GameObject.CreatePrimitive(PrimitiveType.Cube); cube.name = name; cube.layer = Layer;
+            cube.transform.SetParent(transform); cube.transform.position = position; cube.transform.localScale = size;
+            cube.GetComponent<Renderer>().sharedMaterial = original;
+            return cube;
+        }
+        FarmCameraOccluder Owner(string name, Vector3 position, Vector3 size, Material fade)
+        {
+            var cube = Cube(name, position, size);
+            var owner = cube.AddComponent<FarmCameraOccluder>(); owner.targetRenderer = cube.GetComponent<Renderer>();
+            owner.opaqueMaterials = new[] { original }; owner.fadedMaterials = new[] { fade };
+            owner.occlusionColliders = new[] { cube.GetComponent<Collider>() };
+            return owner;
+        }
+        void Finish()
+        {
+            report.status = checks.Count >= 8 && checks.All(c => c.status == "passed") ? "technical_fixture_regression_passed_real_farm_visual_pending" : "technical_fixture_regression_failed_or_incomplete";
+            Cleanup(); Write();
+            Debug.Log("Camera regression: " + report.status + "; " + Path.GetFullPath(directory));
+            Destroy(gameObject);
+        }
+        void Cleanup()
+        {
+            if (cleaned || report == null) return;
+            cleaned = true;
+            if (rig != null)
+            {
+                rig.enabled = false;
+                if (rig.virtualCamera != null) rig.virtualCamera.enabled = false;
+                if (rig.brain != null) rig.brain.enabled = false;
+            }
+            if (a != null) a.enabled = false;
+            if (b != null) b.enabled = false;
+            foreach (var pair in brainMasks) if (pair.Key != null) pair.Key.ChannelMask = pair.Value;
+            EditorSettings.asyncShaderCompilation = previousAsync;
+            foreach (var material in materials) if (material != null) Destroy(material);
+            if (report != null) report.cleanupComplete = true;
+            foreach (var diagnostics in FindObjectsByType<FarmRuntimeDiagnostics>(FindObjectsSortMode.None))
+                diagnostics.NotifyCaptureOverhead("camera_regression_finished_not_a_performance_run");
+        }
+        void Write()
+        {
+            if (report == null || directory == null) return;
+            report.samples = samples.ToArray(); report.checks = checks.ToArray();
+            File.WriteAllText(Path.Combine(directory, "physics-cinemachine-regression.json"), JsonUtility.ToJson(report, true));
+        }
+        void OnDisable()
+        {
+            if (report != null && report.status == "running") report.status = "interrupted_incomplete";
+            Cleanup(); Write();
+        }
+    }
+}

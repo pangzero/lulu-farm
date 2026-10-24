@@ -1,0 +1,502 @@
+{
+  "date": "2026-10-18",
+  "method": "Original board cell crops only. No image generation, redraw, retouch, upscaling or removal of original accessories.",
+  "excluded_existing": [
+    "S05 围栏直段与末端柱",
+    "E01 空田格",
+    "E05 直河岸",
+    "E07 水面",
+    "E13 石头组"
+  ],
+  "composition_not_new": [
+    "E02 幼苗田格",
+    "B22 组合场景"
+  ],
+  "house": "S01 uses the ORIGINAL approved-direction concept board crop, not the interrupted newly generated house concept. Current B14 model remains unchanged.",
+  "assets": [
+    {
+      "id": "S01",
+      "name": "中央主屋",
+      "batch": "B14",
+      "file": "S01-central-house.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 1,
+      "column": 1,
+      "crop_box": [
+        2,
+        2,
+        360,
+        360
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "f1a6e5800de2730549ae9b4109c9362bab8271a186b8fe3b8a25d3db3dbbb39d",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S02",
+      "name": "牧场棚屋",
+      "batch": "B15",
+      "file": "S02-pasture-shelter.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 1,
+      "column": 2,
+      "crop_box": [
+        364,
+        2,
+        722,
+        360
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "aef06a69ae83ae9c3bfe306703e1cbb591a53b5db871c562e57e50d0e7a1277c",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S03",
+      "name": "农产摊位",
+      "batch": "B16",
+      "file": "S03-produce-stall.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 1,
+      "column": 3,
+      "crop_box": [
+        726,
+        2,
+        1084,
+        360
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "f5f18dc500aaab7c9795d4a0e62669ae5f72cef1f80d67c689af5fc23f84c810",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S04",
+      "name": "渔产摊位",
+      "batch": "B16",
+      "file": "S04-fish-stall.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 1,
+      "column": 4,
+      "crop_box": [
+        1088,
+        2,
+        1446,
+        360
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "3e58bb0a6364f641b7f8f9a07eaf946e47534089511dacad332da9436ffc494b",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S06",
+      "name": "牧场入口门",
+      "batch": "B15",
+      "file": "S06-pasture-gate.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 2,
+      "column": 2,
+      "crop_box": [
+        364,
+        364,
+        722,
+        722
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "85ab8e44dfe99e3dc5abaaa6f1e2da2dc37701b2db00f9dafaa32078734c2a1c",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S07",
+      "name": "码头模块",
+      "batch": "B17",
+      "file": "S07-dock.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 2,
+      "column": 3,
+      "crop_box": [
+        726,
+        364,
+        1084,
+        722
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "e5bab7585e52639a957952017019baec839c0a360852a26020f1f6a709a92c4a",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S08",
+      "name": "划艇",
+      "batch": "B17",
+      "file": "S08-rowboat.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 2,
+      "column": 4,
+      "crop_box": [
+        1088,
+        364,
+        1446,
+        722
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "ab55c87d31f2ee3d96c5d8c346a8a0e1c9591e9ad82f968e1cbff7d9559c1693",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S09",
+      "name": "饲料槽",
+      "batch": "B15",
+      "file": "S09-feed-trough.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 3,
+      "column": 1,
+      "crop_box": [
+        2,
+        726,
+        360,
+        1084
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "f51e24eab5c12037daefb8858acb95966ebb5dd99b1e04a60d31ad99f598f914",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S10",
+      "name": "路灯",
+      "batch": "B17",
+      "file": "S10-lantern-post.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 3,
+      "column": 2,
+      "crop_box": [
+        364,
+        726,
+        722,
+        1084
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "992878e27b92f547de3b51b9031918fba425128de403514312c8a27dc56457d8",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S11",
+      "name": "独立木箱",
+      "batch": "B16",
+      "file": "S11-wooden-crates.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 3,
+      "column": 3,
+      "crop_box": [
+        726,
+        726,
+        1084,
+        1084
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "f79d7e342ff88c52f07ed149b3ed5ddede1949f7c229b2fad018635178b2f298",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "S12",
+      "name": "浇水壶",
+      "batch": "B16",
+      "file": "S12-watering-can.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/03-structures.png",
+      "source_sha256": "2e7c3a8b7a82074337e51220bec28e2fce883e0b0cffbb562cde3b6a45ffba87",
+      "row": 3,
+      "column": 4,
+      "crop_box": [
+        1088,
+        726,
+        1446,
+        1084
+      ],
+      "size": [
+        358,
+        358
+      ],
+      "sha256": "4613d1d203aa5819d71c7b4569c68808ff0352e493257ef87a1a2a61247ad519",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E03",
+      "name": "草地格",
+      "batch": "B18",
+      "file": "E03-grass-tile.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 1,
+      "column": 3,
+      "crop_box": [
+        629,
+        2,
+        938,
+        312
+      ],
+      "size": [
+        309,
+        310
+      ],
+      "sha256": "3b0b4516bcf9fbf60fbc6d0ecb255b5686304e4282a97a777b53e7acaafb963e",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E04",
+      "name": "路面格",
+      "batch": "B18",
+      "file": "E04-path-tile.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 1,
+      "column": 4,
+      "crop_box": [
+        942,
+        2,
+        1252,
+        312
+      ],
+      "size": [
+        310,
+        310
+      ],
+      "sha256": "520a46237a61bad2d7a2ba5e4eb8c10d3a6fb29fc533a801ab03fa736dbbd0ed",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E06",
+      "name": "河岸弯角",
+      "batch": "B18",
+      "file": "E06-shore-corner.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 2,
+      "column": 2,
+      "crop_box": [
+        316,
+        316,
+        625,
+        625
+      ],
+      "size": [
+        309,
+        309
+      ],
+      "sha256": "845bcadfb8d18b0b1e347b825aaaab20bb43e0df132acb1ac35f8f570575ccbf",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E08",
+      "name": "圆树",
+      "batch": "B19",
+      "file": "E08-round-tree.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 2,
+      "column": 4,
+      "crop_box": [
+        942,
+        316,
+        1252,
+        625
+      ],
+      "size": [
+        310,
+        309
+      ],
+      "sha256": "2aa7bc95c628e5043e48703d3555faffccb4f10a1d08ea6b7b432a2a31004db5",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E09",
+      "name": "梨树",
+      "batch": "B19",
+      "file": "E09-pear-tree.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 3,
+      "column": 1,
+      "crop_box": [
+        2,
+        629,
+        312,
+        938
+      ],
+      "size": [
+        310,
+        309
+      ],
+      "sha256": "48be2b227b61f75ed01578d10c67dead7cf066e179c3de0b38f54e82c95fe483",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E10",
+      "name": "灌木",
+      "batch": "B19",
+      "file": "E10-shrub.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 3,
+      "column": 2,
+      "crop_box": [
+        316,
+        629,
+        625,
+        938
+      ],
+      "size": [
+        309,
+        309
+      ],
+      "sha256": "08bba2cea46b9a7049cff06a79d4e8b4c0209ac672fd1a2404eaae8578af7d9f",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E11",
+      "name": "白花丛",
+      "batch": "B20",
+      "file": "E11-white-flowers.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 3,
+      "column": 3,
+      "crop_box": [
+        629,
+        629,
+        938,
+        938
+      ],
+      "size": [
+        309,
+        309
+      ],
+      "sha256": "fc1e5d697c0f92e9eeb54cbbaac37aa330f1dcfa3227fd4a30173c6dab2e322d",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E12",
+      "name": "芦苇",
+      "batch": "B20",
+      "file": "E12-reeds.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 3,
+      "column": 4,
+      "crop_box": [
+        942,
+        629,
+        1252,
+        938
+      ],
+      "size": [
+        310,
+        309
+      ],
+      "sha256": "55554e6cade05b1c3f701c89b8901ca6ee12ff23d8d8be5df78ee7be962f4ee1",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E14",
+      "name": "睡莲",
+      "batch": "B20",
+      "file": "E14-water-lily.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 4,
+      "column": 2,
+      "crop_box": [
+        316,
+        942,
+        625,
+        1252
+      ],
+      "size": [
+        309,
+        310
+      ],
+      "sha256": "ccbcde916539d832f8602138f131dfed6d78efb372350043ed800bf1be4d3f57",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E15",
+      "name": "草垛",
+      "batch": "B21",
+      "file": "E15-hay-bale.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 4,
+      "column": 3,
+      "crop_box": [
+        629,
+        942,
+        938,
+        1252
+      ],
+      "size": [
+        309,
+        310
+      ],
+      "sha256": "6e0c832c662a4623b5d49664d92f2c452ccb77a383057a8d9c7d9a7464d3bea6",
+      "pixel_identity_to_source_crop": true
+    },
+    {
+      "id": "E16",
+      "name": "蓝鱼",
+      "batch": "B21",
+      "file": "E16-blue-fish.png",
+      "source": "/Users/haowen/GameProject/farm-game/art-concepts/04-environment.png",
+      "source_sha256": "c7b9817f6e57cbf670dca740ff77955b583da2288dff6645bc3ffbff0736c3d2",
+      "row": 4,
+      "column": 4,
+      "crop_box": [
+        942,
+        942,
+        1252,
+        1252
+      ],
+      "size": [
+        310,
+        310
+      ],
+      "sha256": "3284d2ae39ab78fcad30e41c6aa44e6d974265b25c7a5484e71fe7d7e0460f4a",
+      "pixel_identity_to_source_crop": true
+    }
+  ]
+}

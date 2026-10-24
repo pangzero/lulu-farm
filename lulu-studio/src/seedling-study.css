@@ -1,0 +1,37 @@
+@import './gallery.css';
+.study-workspace{max-width:1560px;margin:0 auto;padding:29px 34px 16px;min-height:calc(100dvh - 119px)}
+.study-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px}
+.study-heading h1{font-size:23px;font-weight:550;letter-spacing:-.5px;margin:0}
+.study-heading p{font-size:12px;color:#89927c;margin:10px 0 0;line-height:1.6}
+.study-badge{border:1px solid #dbe1cd;background:#eef1e5;border-radius:18px;padding:8px 14px;color:#7a8767;font-size:11px;white-space:nowrap}
+.study-selection{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.study-selection button{border:1px solid #dde3d1;background:#fafbf4;border-radius:9px;padding:10px 17px;color:#7a8869;font-size:12px}
+.study-selection button.active{background:#62774e;color:#fff;border-color:#62774e}
+.study-selection>span{font-size:10px;color:#9a9e8a;margin-left:8px}
+.study-panels{display:grid;grid-template-columns:minmax(250px,.75fr) minmax(430px,1.25fr);gap:24px;align-items:start}
+.concept-panel,.model-panel{min-width:0}
+.panel-heading{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:12px;min-height:45px}
+.panel-heading h2{font-size:14px;font-weight:550;margin:0}
+.panel-heading p{font-size:10px;color:#99a087;margin:6px 0 0}
+.panel-heading>span{font-size:10px;color:#8c987b}
+.panel-heading .text-link{font-size:10px}
+.concept-frame{border:1px solid #e4e7db;background:#fff;border-radius:16px;overflow:hidden;aspect-ratio:1;display:flex;align-items:center;justify-content:center}
+.concept-frame img{display:block;width:100%;height:100%;object-fit:contain}
+.concept-frame p{font-size:12px;color:#929c82;text-align:center;padding:20px;line-height:1.7}
+.panel-note{font-size:10px;color:#929a83;line-height:1.8;margin:10px 1px 0}
+.study-stage{position:relative;width:100%;height:clamp(360px,47dvh,580px);border:1px solid #e2e6d8;background:#f4f2e8;border-radius:16px;overflow:hidden}
+.study-stage canvas{display:block;width:100%;height:100%;touch-action:none}
+.study-stage .loading-state{padding:30px;text-align:center;line-height:1.7}
+.study-stage .view-controls{bottom:13px;gap:2px}
+.study-stage .view-controls button{padding:8px 13px}
+.display-controls{padding:12px 0}
+.study-stats{margin:0;padding:13px 0;border-top:1px solid #dfe4d4;display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.study-stats>div{padding-left:18px;border-left:1px solid #e1e4d8}
+.study-stats>div:first-child{padding:0;border:0}
+.study-stats dt{font-size:10px;color:#9b9f8f;margin-bottom:7px}
+.study-stats dd{font-size:14px;color:#677655;margin:0;font-variant-numeric:tabular-nums}
+.study-files{display:flex;align-items:center;gap:20px;flex-wrap:wrap;min-height:21px}
+.study-files .text-link{font-size:11px}
+.study-scope{font-size:10px;line-height:1.8;color:#969d89;padding-top:16px;border-top:1px solid #e1e5d7;margin:22px 0 0}
+@media(max-width:1000px){.study-workspace{padding:24px}.study-panels{gap:18px;grid-template-columns:minmax(210px,.7fr) minmax(350px,1.3fr)}.header-actions{gap:14px}.header-actions .text-link{font-size:10px}.study-stage .view-controls button{padding:7px 10px}.study-stats>div{padding-left:11px}.study-stats dd{font-size:12px}}
+@media(max-width:720px){.topbar{height:auto;min-height:76px;padding:15px 17px;gap:12px}.header-actions{display:flex;flex-direction:column;align-items:flex-end;gap:9px}.brand-subtitle{font-size:8px}.study-workspace{padding:22px 17px}.study-heading{align-items:flex-start;gap:10px;margin-bottom:16px}.study-heading h1{font-size:19px}.study-heading p{font-size:10px}.study-badge{font-size:9px;padding:7px 10px}.study-selection{gap:6px;margin-bottom:18px}.study-selection button{font-size:10px;padding:9px 12px}.study-selection>span{width:100%;margin:5px 0 0;font-size:9px}.study-panels{grid-template-columns:1fr;gap:24px}.concept-frame{max-height:340px;aspect-ratio:auto;height:340px}.panel-heading h2{font-size:13px}.study-stage{height:440px;min-height:330px}.study-stage .view-controls button{font-size:10px;padding:8px 12px}.study-scope{font-size:9px}.footer{font-size:8px;gap:12px}.study-files{gap:17px}.study-files .text-link{font-size:10px}.panel-note{font-size:9px}}

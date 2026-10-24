@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f5f5ee"><title>Lulu Studio · 最新作物模型</title></head>
+<body>
+<a href="/farm-planning.html" style="display:block;padding:12px 24px;background:#dce7ca;color:#354d2d;font-weight:600">新设施模型清单 · 农场整合与 Lulu 跟随视角试验 ↗</a>
+<a href="/crops-two-stage.html" style="display:block;padding:10px 24px;background:#e5ecd8;color:#395231">作物两阶段 · 幼苗映射／成熟卡通／优化对照与下载</a>
+  <header class="topbar"><a class="brand" href="/crops.html"><span class="brand-mark">L</span><div><strong>Lulu Studio</strong><span class="brand-subtitle">作物库 · MESHY</span></div></a><nav class="header-actions" aria-label="其他资产"><a class="text-link" href="/seedling-study.html" title="3 种 Blender 技术研究，待评审，非 B08 整批成品">幼苗 Blender 技术样例 ↗</a><a class="text-link" href="/b01.html?crop=cabbage&revision=r03&layout=single&material=color">B01 r03 美术基准 ↗</a><a class="text-link" href="/crops-legacy.html">历史作物样本 ↗</a><a class="text-link" href="/b14.html">B14 中央主屋 ↗</a><a class="text-link" href="/b03.html">B03 地块水岸 ↗</a><a class="text-link" href="/b02.html">B02 认可样段 ↗</a><a class="text-link" href="/gallery.html">农场伙伴 ↗</a></nav></header>
+  <main class="workspace crop-workspace meshy-workspace">
+    <aside class="library crop-library" aria-label="作物选择">
+      <div class="section-heading"><h1>最新模型</h1><span id="crop-count">正在读取清单</span></div>
+      <div id="crop-list" class="crop-list"></div>
+      <div class="library-note"><span class="note-title">幼苗 + 成熟 · 两阶段</span><p>选择一种查看实际 GLB。<br>14 种幼苗按用户 Meshy 来源映射和微调，入口进入两阶段预览；另两种暂缓。<br>此页为成熟 Meshy 原始高模；幼苗与成熟卡通候选见上方入口，待用户美术验收。</p></div>
+    </aside>
+    <section class="viewer">
+      <div class="viewer-heading"><div><div class="eyebrow">USER MESHY / LATEST</div><h2 id="crop-title">作物库</h2><p id="crop-subtitle">正在读取模型清单</p></div><span id="load-summary" class="load-summary" aria-live="polite">—</span></div>
+      <div class="growth-controls" role="group" aria-label="生长阶段"><button data-stage="mature" class="active" aria-pressed="true">成熟</button><button data-stage="seedling" aria-pressed="false">幼苗 · 映射与卡通候选 ↗</button><span id="art-status" class="art-status">待用户验收</span></div>
+      <div id="crop-stage" class="stage">
+        <div class="stage-hint">拖动旋转 · 滚轮缩放 · 右键平移</div>
+        <button id="expand-canvas" class="expand-canvas" aria-pressed="false">放大画布 ⤢</button>
+        <div id="loading-state" class="loading-state" role="status"><span class="spinner"></span><span id="loading-message">正在载入清单…</span><a id="view-seedling-concept" class="text-link" target="_blank" rel="noopener" hidden>查看本物种幼苗概念图 · AI 参考，非模型 ↗</a><a id="download-seedling-concept" class="text-link" download hidden>下载幼苗概念 PNG ↓</a><button id="retry-load" hidden>重试</button></div>
+        <div class="view-controls" role="group" aria-label="相机视角"><button data-view="quarter" class="active" aria-pressed="true">3/4</button><button data-view="front" aria-pressed="false">正面</button><button data-view="side" aria-pressed="false">侧面</button><button data-view="back" aria-pressed="false">背面</button><button data-view="top" aria-pressed="false">俯视</button><span class="control-divider"></span><button id="reset-view">重置</button></div>
+      </div>
+      <div class="display-controls"><div class="material-controls" role="group" aria-label="显示材质"><span class="control-label">显示</span><button data-material="original" class="active" aria-pressed="true">原始材质</button><button data-material="clay" aria-pressed="false">灰模</button><button data-material="wire" aria-pressed="false">线框</button></div><button id="auto-rotate" class="rotate-button" aria-pressed="false">↻ 自动旋转</button></div>
+      <div class="asset-info"><dl class="stats"><div><dt>实际三角面</dt><dd id="stat-triangles">—</dd></div><div><dt>版本</dt><dd id="stat-revision">—</dd></div><div><dt>原始 GLB</dt><dd id="stat-size">—</dd></div><div><dt>统一实例缩放</dt><dd id="stat-scale">—</dd></div></dl><div class="file-row"><p id="file-info">用户提供的 Meshy 模型</p><a id="download-crop" class="text-link" download hidden>下载当前成熟 GLB ↓</a></div><p id="model-note" class="model-note">仅显示当前选择的一株，切换后释放上一株资源。</p></div>
+    </section>
+  </main>
+  <footer class="footer"><span id="catalog-status">16 种作物 · 仅幼苗与成熟两阶段</span><span id="render-status">按需渲染 · 单株预览</span></footer>
+  <script type="module" src="/src/crops-meshy.ts"></script>
+</body>
+</html>

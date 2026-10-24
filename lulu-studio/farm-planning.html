@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lulu · 农场素材与视角讨论</title></head>
+<body>
+  <header class="topbar"><a class="brand" href="/crops.html">Lulu Studio <span>农场整合讨论</span></a><nav><a href="/crops-two-stage.html">作物两阶段</a><a href="/gallery.html">动物</a><a href="/wardrobe.html?rev=full-r02&pose=rest&outfit=original">组装 Lulu</a></nav></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">FARM / MATERIAL LIBRARY & CAMERA STUDY</p><h1>模型先归档，农场一起定。</h1><p>查看这次下载的实际模型，再试以 Lulu 为中心的第三人称镜头。</p></div><span class="intro-tag">方案讨论 · 原件保留</span></div>
+    <nav class="tabs" aria-label="预览内容"><button data-tab="assets" aria-pressed="true" class="active">① 素材清单与预览</button><button data-tab="camera" aria-pressed="false">② Lulu 跟随视角试验</button><button data-tab="plan" aria-pressed="false">③ 农场整合方案</button></nav>
+    <section id="assets-panel" class="mode-panel">
+      <div class="summary"><strong id="inventory-count">正在核对素材…</strong><span id="inventory-note">相同文件按 SHA256 合并，不重复计数。</span></div>
+      <div class="asset-workspace"><aside><h2>本次回传</h2><div id="asset-list" aria-label="设施与环境模型选择"></div><div class="reuse-note"><strong>沿用现有素材</strong><p>围栏、空田格、直河岸、水面、石头组，以及成熟作物、幼苗和动物。</p><a href="/b02.html?asset=fence&revision=r04">已认可围栏</a> · <a href="/b03.html">已有地块水岸</a></div></aside>
+      <article class="asset-viewer"><div class="viewer-title"><div><p class="eyebrow" id="asset-code">USER MESHY / ORIGINAL</p><h2 id="asset-title">正在读取清单</h2><label class="asset-picker">选择模型 <select id="asset-select" aria-label="选择当前模型"></select></label></div><a id="download-model" class="download" download hidden>下载当前原始 GLB ↓</a></div>
+        <div id="asset-stage" class="asset-stage"><div id="load-overlay" role="status">正在读取清单…</div><div class="stage-hint">拖动旋转 · 滚轮缩放 · 单件原始模型</div></div>
+        <div class="viewer-controls"><div aria-label="模型视角"><button data-view="quarter" class="active">3/4</button><button data-view="front">正面</button><button data-view="side">侧面</button><button data-view="back">背面</button><button data-view="top">俯视</button></div><label>显示 <select id="appearance" aria-label="显示材质"><option value="original">原始材质</option><option value="clay">中性灰模</option></select></label></div>
+        <p id="model-status" aria-live="polite">待载入</p><dl class="stats"><div><dt>三角面</dt><dd id="stat-triangles">—</dd></div><div><dt>原始文件</dt><dd id="stat-bytes">—</dd></div><div><dt>材质 / 贴图</dt><dd id="stat-materials">—</dd></div><div><dt>导入尺寸 宽×高×深</dt><dd id="stat-dimensions">—</dd></div></dl>
+        <p id="source-name" class="source-name"></p><p id="asset-notes" class="asset-notes"></p><div class="status-row"><span>模型已入库</span><span>场景比例待统一</span><span>美术待验收</span><span>游戏优化／设备待测</span></div>
+        <details><summary>本次记录与检查范围</summary><p>单件查看保留原始几何、材质和朝向，仅居中着地及调整取景。接收归档与首次查看，不等同于完成原计划各批的五视图、拼接和性能验收。</p><p id="resource-status">只加载当前选择，切换时释放上一件模型的资源。</p><a href="/models/facilities-meshy/manifest.json" target="_blank">来源、哈希与资源清单 ↗</a></details>
+      </article></div>
+    </section>
+    <section id="camera-panel" class="mode-panel" hidden>
+      <div class="camera-heading"><div><h2>Lulu 在中心，镜头跟着走。</h2><p>WASD / 方向键移动 · 拖动旋转镜头 · 滚轮调距离。先点击画面，再操作键盘。</p></div><button id="reset-camera">重置角色与镜头</button></div>
+      <div id="camera-stage" class="camera-stage"></div><p id="camera-status" role="status">选择此页后按需载入最新组装 Lulu。</p><div class="camera-foot"><span>主角：最新组装 full-r02 · 原版短裤</span><span>色块建筑与平地仅为视角试验布局</span><span>静态移动演示 · 走跑动作待制作与验收</span></div>
+      <p class="discussion">已确定：中等距离第三人称透视跟随，支持旋转；不加入俯视或正交游戏模式。完整农场按原总览图组织，建筑、池塘与通路逐区接入。</p>
+    </section>
+    <section id="plan-panel" class="mode-panel" hidden>
+      <div class="plan-heading"><p class="eyebrow">PROPOSED LAYOUT / NOT A FINISHED SCENE</p><h2>按原总览图，搭建可漫游的 3D 马卡龙农场。</h2><p>沿用原图：左侧农田、后方偏中主屋、中间偏前牧场、右侧池塘；道路串联各区，树木花丛点缀外缘。棚屋暂缓。</p></div>
+      <div class="plan-content"><figure class="reference-figure"><img src="/reference/farm-assembled-overview.png" alt="原农场资产组合总览图：左侧农田、中部牧场、后方主屋、右侧池塘"><figcaption>原总览图 · 布局、密度与画风基准；实际体验采用 Lulu 第三人称跟随镜头。</figcaption></figure>
+      <div class="plan-cards"><article><span>01</span><h3>先统一摆放规则</h3><p>保留原件，另记每件的世界比例、朝向、落地偏移和交互点。地面网格间距沿用 1.2，主角展示高先用 1.2。</p></article><article><span>02</span><h3>先验证镜头和通路</h3><p>透视镜头平滑跟随，拖动环绕、滚轮缩放；接近建筑时收近镜头。先完成主屋到田地、牧场和池塘的可行走路线。</p></article><article><span>03</span><h3>再加真实模型</h3><p>每区先放少量代表资产。土格与作物、水面与岸线分开；复用模型，逐区检查遮挡、尺寸、地面接触和接口。</p></article><article><span>04</span><h3>测量后定向优化</h3><p>原始高模作为来源；只对真实瓶颈另存减面、贴图或远景版本。大量作物与动物逐步加，按视区加载。</p></article></div></div>
+      <div class="discussion"><strong>已确定的方向</strong><p>3D 马卡龙动画画风；最新组装 Lulu 为中心的中等距离第三人称跟随，拖拽旋转，不切俯视。牧场先用围栏、入口门与饲料槽。</p><p>实施顺序：总图布局与尺度 → 角色和镜头 → 代表资产的渲染校准 → 全场填充 → 动作、资源开销与漫游检查。先校准代表路线，再完成全部既定分区。</p></div>
+    </section>
+  </main><footer>本页用于素材接收与整合讨论。模型可显示、技术检查、美术采用和游戏性能分别记录。</footer>
+  <script type="module" src="/src/farm-planning.ts"></script>
+</body></html>

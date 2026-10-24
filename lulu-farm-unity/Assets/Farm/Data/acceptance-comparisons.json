@@ -1,0 +1,364 @@
+{
+    "pairs": [
+        {
+            "id": "cabbage-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/cabbage-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/cabbage-seedling.prefab"
+        },
+        {
+            "id": "tomato-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/tomato-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/tomato-mature.prefab"
+        },
+        {
+            "id": "tomato-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/tomato-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/tomato-seedling.prefab"
+        },
+        {
+            "id": "corn-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/corn-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/corn-mature.prefab"
+        },
+        {
+            "id": "corn-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/corn-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/corn-seedling.prefab"
+        },
+        {
+            "id": "S01",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S01.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S01.prefab"
+        },
+        {
+            "id": "S03",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S03.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S03.prefab"
+        },
+        {
+            "id": "E08",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E08.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E08.prefab"
+        },
+        {
+            "id": "S05",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S05.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S05.prefab"
+        },
+        {
+            "id": "S05-endcap",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S05-endcap.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S05-endcap.prefab"
+        },
+        {
+            "id": "E01",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E01.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E01.prefab"
+        },
+        {
+            "id": "E05",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E05.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E05.prefab"
+        },
+        {
+            "id": "E07",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E07.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E07.prefab"
+        },
+        {
+            "id": "E13",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E13.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E13.prefab"
+        },
+        {
+            "id": "Lulu",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/Lulu.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/Lulu.prefab"
+        },
+        {
+            "id": "S06",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S06.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S06.prefab"
+        },
+        {
+            "id": "E05-corner",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E05-corner.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E05-corner.prefab"
+        },
+        {
+            "id": "cucumber-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/cucumber-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/cucumber-mature.prefab"
+        },
+        {
+            "id": "cucumber-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/cucumber-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/cucumber-seedling.prefab"
+        },
+        {
+            "id": "pumpkin-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/pumpkin-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/pumpkin-mature.prefab"
+        },
+        {
+            "id": "pumpkin-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/pumpkin-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/pumpkin-seedling.prefab"
+        },
+        {
+            "id": "sunflower-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/sunflower-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/sunflower-mature.prefab"
+        },
+        {
+            "id": "sunflower-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/sunflower-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/sunflower-seedling.prefab"
+        },
+        {
+            "id": "wheat-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/wheat-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/wheat-mature.prefab"
+        },
+        {
+            "id": "wheat-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/wheat-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/wheat-seedling.prefab"
+        },
+        {
+            "id": "bokchoy-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/bokchoy-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/bokchoy-mature.prefab"
+        },
+        {
+            "id": "bokchoy-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/bokchoy-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/bokchoy-seedling.prefab"
+        },
+        {
+            "id": "rose-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/rose-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/rose-mature.prefab"
+        },
+        {
+            "id": "rose-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/rose-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/rose-seedling.prefab"
+        },
+        {
+            "id": "strawberry-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/strawberry-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/strawberry-mature.prefab"
+        },
+        {
+            "id": "strawberry-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/strawberry-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/strawberry-seedling.prefab"
+        },
+        {
+            "id": "cauliflower-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/cauliflower-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/cauliflower-mature.prefab"
+        },
+        {
+            "id": "cauliflower-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/cauliflower-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/cauliflower-seedling.prefab"
+        },
+        {
+            "id": "watermelon-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/watermelon-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/watermelon-mature.prefab"
+        },
+        {
+            "id": "watermelon-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/watermelon-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/watermelon-seedling.prefab"
+        },
+        {
+            "id": "tulip-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/tulip-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/tulip-mature.prefab"
+        },
+        {
+            "id": "tulip-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/tulip-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/tulip-seedling.prefab"
+        },
+        {
+            "id": "lettuce-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/lettuce-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/lettuce-mature.prefab"
+        },
+        {
+            "id": "lettuce-seedling",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/lettuce-seedling.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/lettuce-seedling.prefab"
+        },
+        {
+            "id": "cow",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/cow.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/cow.prefab"
+        },
+        {
+            "id": "sheep",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/sheep.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/sheep.prefab"
+        },
+        {
+            "id": "duck",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/duck.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/duck.prefab"
+        },
+        {
+            "id": "chicken",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/chicken.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/chicken.prefab"
+        },
+        {
+            "id": "pig",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/pig.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/pig.prefab"
+        },
+        {
+            "id": "alpaca",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/alpaca.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/alpaca.prefab"
+        },
+        {
+            "id": "hamster",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/hamster.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/hamster.prefab"
+        },
+        {
+            "id": "donkey",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/donkey.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/donkey.prefab"
+        },
+        {
+            "id": "capybara",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/capybara.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/capybara.prefab"
+        },
+        {
+            "id": "ostrich",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/ostrich.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/ostrich.prefab"
+        },
+        {
+            "id": "pony",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/pony.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/pony.prefab"
+        },
+        {
+            "id": "goat",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/goat.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/goat.prefab"
+        },
+        {
+            "id": "goose",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/goose.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/goose.prefab"
+        },
+        {
+            "id": "black-pig",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/black-pig.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/black-pig.prefab"
+        },
+        {
+            "id": "deer",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/deer.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/deer.prefab"
+        },
+        {
+            "id": "S04",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S04.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S04.prefab"
+        },
+        {
+            "id": "S07",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S07.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S07.prefab"
+        },
+        {
+            "id": "S08",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S08.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S08.prefab"
+        },
+        {
+            "id": "S09",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S09.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S09.prefab"
+        },
+        {
+            "id": "S10",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S10.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S10.prefab"
+        },
+        {
+            "id": "S11",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S11.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S11.prefab"
+        },
+        {
+            "id": "S12",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/S12.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/S12.prefab"
+        },
+        {
+            "id": "E03",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E03.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E03.prefab"
+        },
+        {
+            "id": "E04",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E04.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E04.prefab"
+        },
+        {
+            "id": "E06",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E06.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E06.prefab"
+        },
+        {
+            "id": "E09",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E09.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E09.prefab"
+        },
+        {
+            "id": "E10",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E10.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E10.prefab"
+        },
+        {
+            "id": "E11",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E11.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E11.prefab"
+        },
+        {
+            "id": "E12",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E12.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E12.prefab"
+        },
+        {
+            "id": "E14",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E14.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E14.prefab"
+        },
+        {
+            "id": "E15",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E15.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E15.prefab"
+        },
+        {
+            "id": "E16",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/E16.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/E16.prefab"
+        },
+        {
+            "id": "cabbage-mature",
+            "beforePrefab": "Assets/Farm/Prefabs/Comparisons/cabbage-mature.prefab",
+            "afterPrefab": "Assets/Farm/Prefabs/cabbage-mature.prefab"
+        }
+    ]
+}

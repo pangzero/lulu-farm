@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f5f5ee"><title>Lulu Studio · 幼苗 Blender 技术样例</title></head>
+<body>
+  <header class="topbar"><a class="brand" href="/crops.html"><span class="brand-mark">L</span><div><strong>Lulu Studio</strong><span class="brand-subtitle">幼苗路线研究 · BLENDER STUDY</span></div></a><nav class="header-actions" aria-label="其他资产"><a class="text-link" href="/crops.html">最新成熟作物 ↗</a><a class="text-link" href="/b01.html?crop=cabbage&revision=r03&layout=single&material=color">B01 r03 美术基准 ↗</a></nav></header>
+  <main class="study-workspace">
+    <div class="study-heading"><div><div class="eyebrow">NATIVE BLENDER / R01</div><h1>三种幼苗 · 技术样例</h1><p>用于评估 Blender 制作路线；待评审，不代表 B08 整批完成。</p></div><span class="study-badge">研究候选 · 待评审</span></div>
+    <div class="study-selection" role="group" aria-label="幼苗种类"><button data-crop="cabbage" class="active" aria-pressed="true">C01 卷心菜</button><button data-crop="tomato" aria-pressed="false">C02 番茄</button><button data-crop="corn" aria-pressed="false">C03 玉米</button><span>仅幼苗 · 未替换成熟模型</span></div>
+    <div class="study-panels">
+      <section class="concept-panel" aria-labelledby="concept-heading"><div class="panel-heading"><div><h2 id="concept-heading">幼苗概念图</h2><p>AI 图片 · 造型参考</p></div><a id="download-concept" class="text-link" download hidden>下载图片 ↓</a></div><div id="concept-frame" class="concept-frame"><p id="concept-state">正在读取概念图…</p></div><p id="concept-note" class="panel-note">概念图用于对照造型；右侧单独显示实际 GLB。</p></section>
+      <section class="model-panel" aria-labelledby="model-heading"><div class="panel-heading"><div><h2 id="model-heading">实际 Blender 模型</h2><p id="model-subtitle">原生网格技术样例 · r01</p></div><span id="load-summary" aria-live="polite">正在读取</span></div><div id="study-stage" class="study-stage"><div class="stage-hint">拖动旋转 · 滚轮缩放 · 右键平移</div><div id="loading-state" class="loading-state" role="status"><span class="spinner"></span><span id="loading-message">正在载入真实模型…</span><button id="retry-load" hidden>重试模型</button></div><div class="view-controls" role="group" aria-label="相机视角"><button data-view="quarter" class="active" aria-pressed="true">3/4</button><button data-view="front" aria-pressed="false">正面</button><button data-view="side" aria-pressed="false">侧面</button><button data-view="back" aria-pressed="false">背面</button><button data-view="top" aria-pressed="false">俯视</button></div></div><div class="display-controls"><div class="material-controls" role="group" aria-label="显示材质"><span class="control-label">显示</span><button data-material="original" class="active" aria-pressed="true">原始材质</button><button data-material="clay" aria-pressed="false">灰模</button><button data-material="wire" aria-pressed="false">线框</button></div><button id="reset-view">重置视角</button></div><dl class="study-stats"><div><dt>三角面</dt><dd id="stat-triangles">—</dd></div><div><dt>GLB 体积</dt><dd id="stat-size">—</dd></div><div><dt>实际高度</dt><dd id="stat-height">—</dd></div><div><dt>实例缩放</dt><dd>1.00</dd></div></dl><div class="study-files"><a id="download-model" class="text-link" download hidden>下载当前研究 GLB ↓</a><a id="download-source" class="text-link" download hidden>原生 Blender 源文件 ↓</a></div><p id="scale-note" class="panel-note">三株使用相同世界尺度与相机画幅，保留高度差异。</p></section>
+    </div>
+    <p class="study-scope">这三个可编辑网格仅验证叶柄、厚度、卷叶与分枝结构。概念图就绪、技术小样、美术验收、整批交付和游戏性能是独立状态。</p>
+  </main>
+  <footer class="footer"><span>Blender 技术样例 · 非 B08 整批交付</span><span id="render-status">按需渲染 · 单株载入</span></footer>
+  <script type="module" src="/src/seedling-study.ts"></script>
+</body>
+</html>

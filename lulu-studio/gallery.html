@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5ee">
+  <title>Lulu Studio · 资产预览</title>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/gallery.html" aria-label="Lulu Studio 资产预览首页">
+      <span class="brand-mark" aria-hidden="true">L</span>
+      <div><strong>Lulu Studio</strong><span class="brand-subtitle">农场伙伴 · 模型预览</span></div>
+    </a>
+    <div class="header-actions"><a class="text-link" href="/crops.html">作物工坊 ↗</a><span class="local-badge"><i></i>本地资产库</span><a class="text-link" href="/">Lulu 三视图对照 <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main class="workspace">
+    <aside class="library" aria-label="选择模型">
+      <div class="section-heading"><h1>模型库</h1><span id="model-count"></span></div>
+      <button id="all-models" class="all-models" aria-pressed="false"><span class="grid-icon" aria-hidden="true">⊞</span><span>分组同屏</span><span class="count">4 / 组</span></button>
+      <div id="comparison-paging" class="comparison-paging" hidden><button id="previous-group" aria-label="上一组">←</button><span id="group-label"></span><button id="next-group" aria-label="下一组">→</button></div>
+      <div id="model-list" class="model-list"></div>
+      <div class="library-note"><span class="note-title">GLB 模型资产</span><p>原版与材质修订版均保留，可继续导入 Blender 编辑。</p><p id="library-summary"></p></div>
+    </aside>
+    <section class="viewer" aria-label="三维模型查看器">
+      <div class="viewer-heading">
+        <div><div class="eyebrow">ASSET VIEWER</div><h2 id="view-title">Lulu 与农场伙伴</h2><p id="view-subtitle">按相同显示高度排列，方便对照外形。</p></div>
+        <span id="load-summary" class="load-summary" aria-live="polite">正在载入模型</span>
+      </div>
+      <div id="eye-study-controls" class="eye-study-controls" hidden>
+        <span id="material-version-title">动物 · 材质对比</span>
+        <div role="group" aria-label="材质版本"><button data-eye-version="original" aria-pressed="false">原版</button><button data-eye-version="refined" aria-pressed="true">材质修订</button></div>
+        <div id="detail-controls" role="group" aria-label="模型取景"><button data-eye-detail="full" aria-pressed="true">全身</button><button data-eye-detail="head" aria-pressed="false">头部</button><button data-eye-detail="eyes" aria-pressed="false">眼部近景</button></div>
+      </div>
+      <div id="gallery-stage" class="stage">
+        <div id="loading-state" class="loading-state" role="status"><span class="spinner"></span><span id="loading-message">正在载入模型与贴图…</span><button id="retry-load" hidden>重新载入</button></div>
+        <div class="stage-hint">拖动旋转 · 滚轮缩放 · 右键平移</div>
+        <div class="view-controls" role="group" aria-label="相机视角">
+          <button data-view="front" class="active" aria-pressed="true">正面</button><button data-view="side" aria-pressed="false">侧面</button><button data-view="back" aria-pressed="false">背面</button><button data-view="quarter" aria-pressed="false">3/4</button>
+          <span class="control-divider"></span><button id="reset-view">重置</button>
+        </div>
+      </div>
+      <div class="display-controls">
+        <div class="material-controls" role="group" aria-label="显示材质"><span class="control-label">显示</span><button data-material="original" class="active" aria-pressed="true">原始材质</button><button data-material="clay" aria-pressed="false">灰模</button><button data-material="wire" aria-pressed="false">线框</button></div>
+        <button id="auto-rotate" class="rotate-button" aria-pressed="false"><span aria-hidden="true">↻</span> 自动旋转</button>
+      </div>
+      <div class="asset-info">
+        <dl class="stats"><div><dt>三角面</dt><dd id="stat-triangles">—</dd></div><div><dt>网格</dt><dd id="stat-meshes">—</dd></div><div><dt>材质 / 贴图</dt><dd id="stat-materials">—</dd></div><div><dt>骨骼 / 动画</dt><dd id="stat-animation">—</dd></div></dl>
+        <div class="file-row"><p id="file-info">原始 GLB · 仅在查看器中统一显示高度</p><a id="download-model" class="text-link" download hidden>下载 GLB <span aria-hidden="true">↓</span></a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><span id="footer-library">模型工作台</span><span id="render-status">WebGL · 交互式预览</span></footer>
+  <script type="module" src="/src/gallery.ts"></script>
+</body>
+</html>
