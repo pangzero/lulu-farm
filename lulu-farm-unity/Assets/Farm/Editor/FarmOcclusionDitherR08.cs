@@ -17,7 +17,9 @@ namespace LuluFarm.Editor
     {
         // O7 uses the r09 revision (noise + keyhole, 15 % coverage) in its own folder; O6 output is unchanged.
         static bool R09 => FarmProjectBuilder.R07Island;
-        static string Folder => R09 ? "Assets/Farm/GeneratedR09/OcclusionDither" : "Assets/Farm/GeneratedR08/OcclusionDither";
+        // O8 uses r10 (r09 + surfaces within 2–5 m of the camera hidden while faded) in GeneratedR11.
+        static bool R10 => FarmProjectBuilder.R07IslandR11;
+        static string Folder => R10 ? "Assets/Farm/GeneratedR11/OcclusionDither" : R09 ? "Assets/Farm/GeneratedR09/OcclusionDither" : "Assets/Farm/GeneratedR08/OcclusionDither";
         const string Living = "LuluFarm/LivingSurface-"; // r07 (D6) or r08 (O6 amplitude revision)
         public const float FadedCoverageR08 = .25f, FadedCoverageR09 = .15f;
         static float FadedCoverage => R09 ? FadedCoverageR09 : FadedCoverageR08;
@@ -30,7 +32,7 @@ namespace LuluFarm.Editor
 
         public static void Apply(Transform world)
         {
-            string shaderName = R09 ? "LuluFarm/OcclusionDither-r09" : "LuluFarm/OcclusionDither-r08";
+            string shaderName = R10 ? "LuluFarm/OcclusionDither-r10" : R09 ? "LuluFarm/OcclusionDither-r09" : "LuluFarm/OcclusionDither-r08";
             var shader = Shader.Find(shaderName);
             if (shader == null) throw new InvalidOperationException(shaderName + " shader missing");
             Directory.CreateDirectory(Folder); AssetDatabase.Refresh();
@@ -65,8 +67,8 @@ namespace LuluFarm.Editor
             }
             AssetDatabase.SaveAssets();
             string dir = "Evidence/r07/" + FarmProjectBuilder.R07Task; Directory.CreateDirectory(dir);
-            File.WriteAllText(dir + (R09 ? "/occlusion-dither-r09.json" : "/occlusion-dither-r08.json"), JsonUtility.ToJson(new Record { utc = DateTime.UtcNow.ToString("o"),
-                method = R09 ? "Opaque AlphaTest screen-door fade, interleaved gradient noise, clear keyhole around Lulu, ZWrite on, shadows kept; built from in-use materials" : "Opaque AlphaTest screen-door fade (4x4 ordered dither), ZWrite on, shadows kept; built from in-use materials",
+            File.WriteAllText(dir + (R10 ? "/occlusion-dither-r10.json" : R09 ? "/occlusion-dither-r09.json" : "/occlusion-dither-r08.json"), JsonUtility.ToJson(new Record { utc = DateTime.UtcNow.ToString("o"),
+                method = R09 ? "Opaque AlphaTest screen-door fade, interleaved gradient noise, clear keyhole around Lulu" + (R10 ? ", hidden within 2–5 m of the camera" : "") + ", ZWrite on, shadows kept; built from in-use materials" : "Opaque AlphaTest screen-door fade (4x4 ordered dither), ZWrite on, shadows kept; built from in-use materials",
                 shader = shaderName, fadedCoverage = FadedCoverage, occluders = occluders.Length, bindings = bindingCount, materials = entries.ToArray() }, true));
         }
 

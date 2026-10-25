@@ -280,10 +280,11 @@ namespace LuluFarm
             if (runtime == null || runtime.Diagnostics == null || string.IsNullOrEmpty(runtime.Diagnostics.OutputDirectory)) return;
             var result = new Result { utc = DateTime.UtcNow.ToString("o"), status = status, revision = runtime.sceneRevision,
                 mode = PerformanceMode ? "performance_simulated_input_loop_not_manual_acceptance" : "automated_input_events_not_manual_ui_or_device_acceptance",
-                reachedWaypoints = WaypointIndex, plannedWaypoints = waypoints.Length, completedLaps = CompletedLaps,
+                reachedWaypoints = WaypointIndex, plannedWaypoints = waypoints != null ? waypoints.Length : 0, completedLaps = CompletedLaps,
                 performanceMode = PerformanceMode, loopingWithoutTeleport = PerformanceMode, screenshotsSuppressed = PerformanceMode,
                 applicationFocused = Application.isFocused,
-                waypoints = waypoints, finalPosition = runtime.playerRoot.transform.position };
+                // At application quit (O7 attempt-01: route stopped by focus loss) the player can be destroyed first.
+                waypoints = waypoints, finalPosition = runtime.playerRoot != null ? runtime.playerRoot.transform.position : Vector3.zero };
 #if ENABLE_INPUT_SYSTEM
             result.virtualGamepadPresent = virtualGamepad != null && virtualGamepad.added;
             if (result.virtualGamepadPresent)

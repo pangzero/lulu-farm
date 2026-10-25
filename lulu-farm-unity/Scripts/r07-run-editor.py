@@ -2,7 +2,7 @@
 """Serial r07 editor invocations. Run with the project closed; preserves locked inputs."""
 import argparse, datetime, hashlib, json, pathlib, subprocess
 root=pathlib.Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser();parser.add_argument('task',choices=['D5','D2','D3','D4','D6','O6','O7']);parser.add_argument('steps',nargs='+',choices=['generate','development','release','export'])
+parser=argparse.ArgumentParser();parser.add_argument('task',choices=['D5','D2','D3','D4','D6','O6','O7','O8']);parser.add_argument('steps',nargs='+',choices=['generate','development','release','export'])
 parser.add_argument('--profiler-directory')
 args=parser.parse_args()
 editor=root.parent/'.unity-install/Editors/6000.3.16f1/Unity.app/Contents/MacOS/Unity'

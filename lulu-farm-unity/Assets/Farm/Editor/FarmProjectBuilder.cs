@@ -374,7 +374,8 @@ namespace LuluFarm.Editor
             cameraGO.transform.position=player.transform.position+new Vector3(0,3.6f,-4.5f);cameraGO.transform.LookAt(player.transform.position+Vector3.up*.7f);
             if(lulu!=null)
             {
-                var rt=FarmRuntimeBootstrap.Attach(player,orientation.transform,camera,new Bounds(Vector3.zero,new Vector3(33,20,23)));
+                var rt=FarmRuntimeBootstrap.Attach(player,orientation.transform,camera,new Bounds(Vector3.zero,R07IslandR11?new Vector3(52,20,42):new Vector3(33,20,23)));
+                if(R07IslandR11)OpusIslandEdgeCameraR11(rt);
                 rt.crops=crops.ToArray();rt.sceneRevision="integration-r07-"+R07Task;rt.assetRegistryRevision=RegistryHash();rt.uiFont=AssetDatabase.LoadAssetAtPath<Font>(Base+"Fonts/NotoSansCJKsc-Regular.otf");
                 rt.gameObject.AddComponent<FarmPresentationModeR07>().runtime=rt;
                 if(R07Rendering){var renderQuality=rt.gameObject.AddComponent<FarmRenderQualityR07>();renderQuality.runtime=rt;renderQuality.globalVolume=UnityEngine.Object.FindFirstObjectByType<Volume>();camera.allowHDR=true;camera.GetUniversalAdditionalCameraData().renderPostProcessing=true;}

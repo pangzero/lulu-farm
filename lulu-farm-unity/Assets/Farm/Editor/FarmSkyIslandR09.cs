@@ -18,7 +18,8 @@ namespace LuluFarm.Editor
     /// </summary>
     public static partial class FarmProjectBuilder
     {
-        const string IslandFolder = "Assets/Farm/GeneratedR09";
+        // O8 (r11) writes every island asset to its own folder so the O7 outputs stay as they were generated.
+        static string IslandFolder => R07IslandR11 ? "Assets/Farm/GeneratedR11" : "Assets/Farm/GeneratedR09";
         static readonly Vector2 IslandWalls = new Vector2(17, 12);    // existing invisible boundary half extents
         public const float WaterfallAngle = .089f;                    // east cove, in line with the pond's middle
         const int IslandSamples = 288;
@@ -30,7 +31,7 @@ namespace LuluFarm.Editor
             public string visual = "pending_actual_viewing", userArt = "not_reviewed";
             public Color sunColor; public float sunIntensity, sunPitch;
             public float marginMinimum, marginMaximum, rimMinimumFromWall = 1.5f;
-            public int outlineSamples, groundTriangles, cliffTriangles, cloudPuffs, cloudTriangles, towerTriangles, birds, rimBushes, rimFlowers, rimTrees, meadowFlowers, coveReeds, islets, isletProps;
+            public int edgeWallSegments, outlineSamples, groundTriangles, cliffTriangles, cloudPuffs, cloudTriangles, towerTriangles, birds, rimBushes, rimFlowers, rimTrees, meadowFlowers, coveReeds, islets, isletProps;
             public string[] removed;
             public string note = "Playable bounds, walls and route unchanged. Cliff is only visible from islets/overview; not user art acceptance.";
         }
@@ -70,6 +71,7 @@ namespace LuluFarm.Editor
         {
             Directory.CreateDirectory(IslandFolder + "/Meshes"); Directory.CreateDirectory(IslandFolder + "/Materials"); AssetDatabase.Refresh();
             var record = new IslandRecord(); var removed = new List<string>();
+            if (R07IslandR11) { record.revision = "sky-island-r11"; record.note = "O8: walls follow the island edge (.8 m inside the rim), runtime bounds 52x42; route unchanged. Not user art acceptance."; }
             var root = new GameObject("SkyIsland_r09").transform; root.SetParent(landscape, false);
             var angles = IslandAngles(); record.outlineSamples = angles.Count;
             record.marginMinimum = angles.Min(IslandMargin); record.marginMaximum = angles.Max(IslandMargin);
@@ -98,12 +100,14 @@ namespace LuluFarm.Editor
                 var rv = new List<Vector3>(); var rt = new List<int>(); var ruv = new List<Vector2>();
                 for (int i = 0; i < angles.Count; i++)
                 {
-                    float a = angles[i]; Vector2 outer = IslandPoint(a), inner = outer - outer.normalized * 1.8f;   // along the ray: IslandPoint(a, 1.8) collapses where the margin is < 1.8
+                    float a = angles[i]; Vector2 outer = IslandPoint(a), inner = outer - outer.normalized * (R07IslandR11 ? 2.4f : 1.8f);   // along the ray: IslandPoint(a, 1.8) collapses where the margin is < 1.8
                     rv.Add(new Vector3(inner.x, .004f, inner.y)); rv.Add(new Vector3(outer.x, .004f, outer.y)); ruv.Add(new Vector2(0, 0)); ruv.Add(new Vector2(0, 1));
                     int k = 2 * i, n = 2 * ((i + 1) % angles.Count);
                     rt.AddRange(new[] { k, n, n + 1, k, n + 1, k + 1 });   // faces up (inner→next inner→next outer)
                 }
-                var glow = MeshObject(root, "SunlitRim", IslandMesh("IslandRimLight-r10", rv, rt, true, ruv), IslandShaderMat("IslandRimLight-r10", "LuluFarm/IslandRimLight-r10"), false);
+                var glowMat = IslandShaderMat("IslandRimLight-r10", "LuluFarm/IslandRimLight-r10");
+                if (R07IslandR11) glowMat.SetColor("_Glow", new Color(.42f, .34f, .14f, 1));   // O7: not readable in the follow view
+                var glow = MeshObject(root, "SunlitRim", IslandMesh("IslandRimLight-r10", rv, rt, true, ruv), glowMat, false);
                 NoShadows(glow);
             }
 
@@ -114,7 +118,9 @@ namespace LuluFarm.Editor
             record.cliffTriangles = cliff.triangles.Length / 3;
 
             Vector2 lip = IslandPoint(WaterfallAngle), tangent = new Vector2(-Mathf.Sin(WaterfallAngle), Mathf.Cos(WaterfallAngle)), outward = lip.normalized;
-            var start = new Vector2(PondMaxX + .45f, lip.y);
+            // O7: a grass and stone band separated stream and pond. r11 starts the stream over the bank turf (y .014 is above
+            // the turf's flat outer band), so the bank stones stand in the stream mouth instead of between the two.
+            var start = new Vector2(R07IslandR11 ? PondMaxX - .15f : PondMaxX + .45f, lip.y);
             float StreamDistance(Vector2 p) { var d = lip - start; float u = Mathf.Clamp01(Vector2.Dot(p - start, d) / d.sqrMagnitude); return Vector2.Distance(p, start + d * u); }
 
             // 3. Remove everything that would now stand in the air, plus the old distant tree line and the even
@@ -153,6 +159,7 @@ namespace LuluFarm.Editor
                     var tree = Place(random.NextDouble() < .7 ? "E08" : "E09", new Vector3(p.x, 0, p.y), rim, Next(0, 360), Next(.8f, 1.05f));
                     if (tree == null) continue;
                     foreach (var c in tree.GetComponentsInChildren<Collider>(true)) Object.DestroyImmediate(c);
+                    if (R07IslandR11) Box(tree.transform, "TrunkCollision", new Vector3(0, .65f, 0), new Vector3(.42f, 1.3f, .42f));   // now within reach
                     FarmOcclusionSetup.Configure(tree, true); record.rimTrees++;
                 }
             }
@@ -183,12 +190,15 @@ namespace LuluFarm.Editor
             // 6. Cloud sea: puffs hugging the rim and a far field (one mesh), a bluish floor hiding the keels (r10:
             //    separate, darker than the puffs so the sea has depth), and towering cumulus on the horizon (r10).
             var cloudMat = IslandShaderMat("SkyCloud-r09", "LuluFarm/SkyCloud-r09");
+            // O7: puffs read grey and faceted in the follow view. r11: 14x8 segments within 60 m and a lighter, warmer shade.
+            if (R07IslandR11) { cloudMat.SetColor("_Lit", Hex("#FFFBF4")); cloudMat.SetColor("_Shade", Hex("#C9D6E6")); }
             var cv = new List<Vector3>(); var ct = new List<int>(); int puffs = 0;
             void Puff(Vector3 c, float size)
             {
+                bool near = new Vector2(c.x, c.z).magnitude < 60;   // r11 smooths the near puffs; the far field is fogged anyway
                 for (int i = 0, n = 3 + random.Next(3); i < n; i++)
                     Ellipsoid(cv, ct, c + new Vector3(Next(-1, 1) * size * .8f, Next(-.15f, .25f) * size, Next(-1, 1) * size * .8f),
-                        new Vector3(size * Next(.7f, 1.1f), size * Next(.45f, .6f), size * Next(.7f, 1.1f)));
+                        new Vector3(size * Next(.7f, 1.1f), size * Next(.45f, .6f), size * Next(.7f, 1.1f)), .45f, near ? CloudLon : 10, near ? CloudLat : 6);
                 puffs++;
             }
             for (float arc = 0; arc < 2 * Mathf.PI; arc += Next(.07f, .11f))
@@ -206,7 +216,7 @@ namespace LuluFarm.Editor
             for (int i = 0; i < FloorSides; i++) { float a = i * 2 * Mathf.PI / FloorSides; floorVerts.Add(new Vector3(Mathf.Cos(a) * 170, -9, Mathf.Sin(a) * 170)); }
             for (int i = 0; i < FloorSides; i++) floorTris.AddRange(new[] { 0, 1 + (i + 1) % FloorSides, 1 + i });
             var floorMat = IslandShaderMat("SkyCloudFloor-r10", "LuluFarm/SkyCloud-r09");
-            floorMat.SetColor("_Lit", Hex("#D3E4F1")); floorMat.SetColor("_Shade", Hex("#B4CCE2")); floorMat.SetFloat("_Drift", 0);
+            floorMat.SetColor("_Lit", Hex(R07IslandR11 ? "#E2EDF5" : "#D3E4F1")); floorMat.SetColor("_Shade", Hex(R07IslandR11 ? "#CADBEA" : "#B4CCE2")); floorMat.SetFloat("_Drift", 0);
             NoShadows(MeshObject(root, "CloudFloor", IslandMesh("IslandCloudFloor-r10", floorVerts, floorTris, true), floorMat, false));
             // Horizon towers 86–112 m out, 13 banks of three tiers; their own long fog keeps the shape (Unity fog ends at 80 m).
             var tv = new List<Vector3>(); var tt = new List<int>();
@@ -219,10 +229,11 @@ namespace LuluFarm.Editor
                     for (int j = 0, n = k < 2 || h > .75f ? tiers[k].n : 1; j < n; j++)
                     {
                         var q = c + side * Next(-1, 1) * (16 - k * 5); float size = Next(tiers[k].lo, tiers[k].hi);
-                        Ellipsoid(tv, tt, new Vector3(q.x, Next(tiers[k].y0, tiers[k].y1) * h, q.y), new Vector3(size, size * Next(.65f, .8f), size), .3f);
+                        Ellipsoid(tv, tt, new Vector3(q.x, Next(tiers[k].y0, tiers[k].y1) * h, q.y), new Vector3(size, size * Next(.65f, .8f), size), .3f, CloudLon, CloudLat);
                     }
             }
             var towerMat = IslandShaderMat("SkyCloudTowers-r10", "LuluFarm/SkyCloud-r09");
+            if (R07IslandR11) { towerMat.SetColor("_Lit", Hex("#FFFBF4")); towerMat.SetColor("_Shade", Hex("#C9D6E6")); }
             towerMat.SetFloat("_OwnFog", 1); towerMat.SetFloat("_OwnFogStart", 70); towerMat.SetFloat("_OwnFogEnd", 190); towerMat.SetColor("_OwnFogColor", Hex(IslandHorizon));
             NoShadows(MeshObject(root, "CloudTowers", IslandMesh("IslandCloudTowers-r10", tv, tt, false), towerMat, false));
             record.towerTriangles = tt.Count / 3;
@@ -282,6 +293,8 @@ namespace LuluFarm.Editor
                 if (reed != null) { foreach (var col in reed.GetComponentsInChildren<Collider>(true)) Object.DestroyImmediate(col); record.coveReeds++; }
             }
 
+            if (R07IslandR11) record.edgeWallSegments = BuildEdgeWalls(landscape, root, angles);
+
             AssetDatabase.SaveAssets();
             islandRecord = record;
         }
@@ -294,6 +307,8 @@ namespace LuluFarm.Editor
             // Sky and fog (r10): a deeper zenith, and a lighter horizon shared by fog, sky and tower fog so the cloud
             //    floor meets the sky without a seam. The farm itself sits inside the 32 m fog start and is unaffected.
             RenderSettings.fogColor = Hex(IslandHorizon);
+            // O7 overview read washed out: r11 starts the fog later; the cloud field still fades out before the 120 m far clip.
+            if (R07IslandR11) { RenderSettings.fogStartDistance = 40; RenderSettings.fogEndDistance = 110; }
             // Warm afternoon (user-approved direction 2026-10-24): a slightly lower, more golden sun and warmer fill.
             if (RenderSettings.sun != null)
             {
@@ -310,7 +325,7 @@ namespace LuluFarm.Editor
             }
             record.utc = DateTime.UtcNow.ToString("o");
             string dir = "Evidence/r07/" + R07Task; Directory.CreateDirectory(dir);
-            File.WriteAllText(dir + "/sky-island-r10.json", JsonUtility.ToJson(record, true));
+            File.WriteAllText(dir + (R07IslandR11 ? "/sky-island-r11.json" : "/sky-island-r10.json"), JsonUtility.ToJson(record, true));
         }
 
         static void BuildBirds(Transform root, System.Random random, IslandRecord record)
@@ -325,7 +340,7 @@ namespace LuluFarm.Editor
                 for (int b = 0; b < count; b++)
                 {
                     var orbit = new Vector4(radius + Next(-1.5f, 1.5f), height + Next(-.8f, .8f), speed * Next(.95f, 1.05f), lead - b * Next(.04f, .09f) * Mathf.Sign(speed));
-                    var centre = new Vector4(cx, cz, Next(.3f, .7f), Next(7, 9)); var size = new Vector4(Next(1.6f, 2.2f), 0, 0, 0);   // ~1 m span: 25–30 px at 26 m in the gameplay camera
+                    var centre = new Vector4(cx, cz, Next(.3f, .7f), Next(7, 9)); var size = new Vector4(R07IslandR11 ? Next(2.0f, 2.6f) : Next(1.6f, 2.2f), 0, 0, 0);   // ~1 m span: 25–30 px at 26 m in the gameplay camera
                     void Tri(Vector3 a, Vector3 c, Vector3 d, float flapA, float flapC, float flapD, float side)
                     {
                         int k = v.Count; v.AddRange(new[] { a, c, d }); t.AddRange(new[] { k, k + 1, k + 2 });
@@ -351,8 +366,36 @@ namespace LuluFarm.Editor
             mesh.bounds = new Bounds(Vector3.zero, new Vector3(140, 40, 140));   // positions are computed in the shader
             mesh = SaveIslandMesh(mesh);
             var birds = new GameObject("Birds", typeof(MeshFilter), typeof(MeshRenderer)); birds.transform.SetParent(root, false);
-            birds.GetComponent<MeshFilter>().sharedMesh = mesh; birds.GetComponent<MeshRenderer>().sharedMaterial = IslandShaderMat("SkyBirds-r10", "LuluFarm/SkyBirds-r10");
+            birds.GetComponent<MeshFilter>().sharedMesh = mesh; var birdMat = IslandShaderMat("SkyBirds-r10", "LuluFarm/SkyBirds-r10");
+            if (R07IslandR11) birdMat.SetColor("_Shade", Hex("#C8D2DE"));   // O7: read as small grey silhouettes
+            birds.GetComponent<MeshRenderer>().sharedMaterial = birdMat;
             NoShadows(birds);
+        }
+
+        // O8 (r11): O7's rectangular invisible walls stopped Lulu 1.5–4 m short of the edge ("撞空气"). The walls now follow
+        // the outline .8 m inside the rim, on Ignore Raycast so the follow camera can still swing out over the clouds.
+        static int BuildEdgeWalls(Transform landscape, Transform root, List<float> angles)
+        {
+            foreach (var name in new[] { "NorthBoundary", "SouthBoundary", "EastBoundary", "WestBoundary" })
+            { var old = landscape.Find(name); if (old != null) Object.DestroyImmediate(old.gameObject); }
+            var walls = new GameObject("IslandEdgeWalls").transform; walls.SetParent(root, false);
+            var ring = angles.Where((a, i) => i % 2 == 0).Select(a => IslandPoint(a, .8f)).ToList(); int count = 0;
+            for (int i = 0; i < ring.Count; i++)
+            {
+                Vector2 a = ring[i], b = ring[(i + 1) % ring.Count]; if ((b - a).sqrMagnitude < 1e-4f) continue;
+                var segment = new GameObject("EdgeWall_" + count++); segment.layer = 2; segment.transform.SetParent(walls, false);
+                var mid = (a + b) * .5f; segment.transform.localPosition = new Vector3(mid.x, 1, mid.y);
+                segment.transform.localRotation = Quaternion.LookRotation(new Vector3(b.x - a.x, 0, b.y - a.y));
+                segment.AddComponent<BoxCollider>().size = new Vector3(.2f, 2, (b - a).magnitude + .05f);
+            }
+            return count;
+        }
+        static void OpusIslandEdgeCameraR11(FarmRuntimeBootstrap runtime)
+        {
+            var rig = runtime.GetComponentInChildren<FarmThirdPersonCamera>(true);
+            if (rig == null) rig = Object.FindFirstObjectByType<FarmThirdPersonCamera>();
+            if (rig == null) throw new InvalidOperationException("O8 needs the follow camera to exclude the island edge walls");
+            rig.obstructionLayers &= ~(1 << 2); EditorUtility.SetDirty(rig);
         }
 
         static Mesh Cliff(string name, Vector2 center, float scale, List<float> angles, Material[] strata, Transform parent)
@@ -387,9 +430,11 @@ namespace LuluFarm.Editor
         }
 
         static void NoShadows(GameObject go) { var r = go.GetComponent<Renderer>(); r.shadowCastingMode = ShadowCastingMode.Off; r.receiveShadows = false; }
-        static void Ellipsoid(List<Vector3> v, List<int> t, Vector3 c, Vector3 r, float underside = .45f)
+        static int CloudLon => R07IslandR11 ? 14 : 10;
+        static int CloudLat => R07IslandR11 ? 8 : 6;
+        static void Ellipsoid(List<Vector3> v, List<int> t, Vector3 c, Vector3 r, float underside = .45f, int Lon = 10, int Lat = 6)
         {
-            const int Lon = 10, Lat = 6; int k = v.Count;
+            int k = v.Count;
             for (int i = 0; i <= Lat; i++) for (int j = 0; j < Lon; j++)
             {
                 float th = Mathf.PI * i / Lat, ph = 2 * Mathf.PI * j / Lon;
