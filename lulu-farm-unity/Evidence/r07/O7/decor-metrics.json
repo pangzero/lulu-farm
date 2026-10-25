@@ -1,0 +1,834 @@
+{
+    "utc": "2026-10-24T18:42:26.9316480Z",
+    "status": "authored_pending_route_and_Opus_review",
+    "rule": "Seed 240724; road center distance >= .9 + .4 + prop radius; fields/pasture/pond/building/dock exclusions + .4 + radius; existing placements retained",
+    "seed": 240724,
+    "requested": 183,
+    "rejected": 132,
+    "instances": 51,
+    "trees": 17,
+    "smallProps": 34,
+    "residentTriangles": 536380,
+    "peakLodTrianglesSum": 342200,
+    "uniqueMeshes": 14,
+    "uniqueMeshTriangles": 44940,
+    "geometry": "existing registered prefab mesh/material/LOD references; instance sums are not visible frame cost",
+    "placements": [
+        {
+            "id": "E11",
+            "role": "road_edge",
+            "position": {
+                "x": -13.666181564331055,
+                "y": 0.0,
+                "z": -10.452594757080079
+            },
+            "yaw": 237.3308868408203,
+            "scale": 0.9682550430297852,
+            "roadClearance": 0.7594218254089356,
+            "footprintRadius": 0.4931727945804596,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "road_edge",
+            "position": {
+                "x": -13.666181564331055,
+                "y": 0.0,
+                "z": -6.16043758392334
+            },
+            "yaw": 200.3544921875,
+            "scale": 1.1255083084106446,
+            "roadClearance": 0.6662941575050354,
+            "footprintRadius": 0.573268473148346,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E10",
+            "role": "road_edge",
+            "position": {
+                "x": -11.107128143310547,
+                "y": 0.0,
+                "z": -6.288689613342285
+            },
+            "yaw": 136.5016326904297,
+            "scale": 0.9095818996429443,
+            "roadClearance": 0.550822377204895,
+            "footprintRadius": 0.560488224029541,
+            "residentTriangles": 7500,
+            "peakLodTriangles": 5000,
+            "colliders": 0
+        },
+        {
+            "id": "E10",
+            "role": "road_edge",
+            "position": {
+                "x": -8.407781600952149,
+                "y": 0.0,
+                "z": -10.538991928100586
+            },
+            "yaw": 100.5239028930664,
+            "scale": 1.1333051919937134,
+            "roadClearance": 0.6406442523002625,
+            "footprintRadius": 0.6983475089073181,
+            "residentTriangles": 7500,
+            "peakLodTriangles": 5000,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "road_edge",
+            "position": {
+                "x": -8.407781600952149,
+                "y": 0.0,
+                "z": -6.142634391784668
+            },
+            "yaw": 40.7862434387207,
+            "scale": 0.8581937551498413,
+            "roadClearance": 0.8202518224716187,
+            "footprintRadius": 0.4371139705181122,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E10",
+            "role": "road_edge",
+            "position": {
+                "x": -3.248645782470703,
+                "y": 0.0,
+                "z": -10.382465362548829
+            },
+            "yaw": 180.88450622558595,
+            "scale": 1.0266317129135132,
+            "roadClearance": 0.549850344657898,
+            "footprintRadius": 0.6326148509979248,
+            "residentTriangles": 7500,
+            "peakLodTriangles": 5000,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "road_edge",
+            "position": {
+                "x": -0.6416263580322266,
+                "y": 0.0,
+                "z": -10.343765258789063
+            },
+            "yaw": 346.6009216308594,
+            "scale": 0.9281707406044006,
+            "roadClearance": 0.6710089445114136,
+            "footprintRadius": 0.47275617718696597,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "road_edge",
+            "position": {
+                "x": 1.951070785522461,
+                "y": 0.0,
+                "z": -10.223502159118653
+            },
+            "yaw": 160.2487030029297,
+            "scale": 1.0297434329986573,
+            "roadClearance": 0.4990105628967285,
+            "footprintRadius": 0.5244914293289185,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E10",
+            "role": "road_edge",
+            "position": {
+                "x": 4.839143753051758,
+                "y": 0.0,
+                "z": -10.461503028869629
+            },
+            "yaw": 256.4593200683594,
+            "scale": 1.0718016624450684,
+            "roadClearance": 0.6010541319847107,
+            "footprintRadius": 0.6604487299919128,
+            "residentTriangles": 7500,
+            "peakLodTriangles": 5000,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "road_edge",
+            "position": {
+                "x": 7.189182281494141,
+                "y": 0.0,
+                "z": -10.329113006591797
+            },
+            "yaw": 268.515869140625,
+            "scale": 0.8743813633918762,
+            "roadClearance": 0.6837538480758667,
+            "footprintRadius": 0.4453590214252472,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E10",
+            "role": "road_edge",
+            "position": {
+                "x": 9.657363891601563,
+                "y": 0.0,
+                "z": -10.410245895385743
+            },
+            "yaw": 356.2745361328125,
+            "scale": 1.0655180215835572,
+            "roadClearance": 0.5536689758300781,
+            "footprintRadius": 0.6565767526626587,
+            "residentTriangles": 7500,
+            "peakLodTriangles": 5000,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "road_edge",
+            "position": {
+                "x": 9.657363891601563,
+                "y": 0.0,
+                "z": -6.396188259124756
+            },
+            "yaw": 137.18943786621095,
+            "scale": 0.9506892561912537,
+            "roadClearance": 0.5195861458778381,
+            "footprintRadius": 0.4842258095741272,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E10",
+            "role": "road_edge",
+            "position": {
+                "x": 15.027673721313477,
+                "y": 0.0,
+                "z": -10.478261947631836
+            },
+            "yaw": 87.01774597167969,
+            "scale": 0.8906758427619934,
+            "roadClearance": 0.7294235229492188,
+            "footprintRadius": 0.5488382577896118,
+            "residentTriangles": 7500,
+            "peakLodTriangles": 5000,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "road_edge",
+            "position": {
+                "x": -6.896928787231445,
+                "y": 0.0,
+                "z": -5.150238990783691
+            },
+            "yaw": 98.44243621826172,
+            "scale": 0.9030879139900208,
+            "roadClearance": 0.5369483232498169,
+            "footprintRadius": 0.45998045802116396,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E10",
+            "role": "fence_outer",
+            "position": {
+                "x": -13.161808013916016,
+                "y": 0.0,
+                "z": -1.8386287689208985
+            },
+            "yaw": 315.5979919433594,
+            "scale": 1.0846794843673707,
+            "roadClearance": 4.892987251281738,
+            "footprintRadius": 0.6683841347694397,
+            "residentTriangles": 7500,
+            "peakLodTriangles": 5000,
+            "colliders": 0
+        },
+        {
+            "id": "E10",
+            "role": "fence_outer",
+            "position": {
+                "x": -13.056974411010743,
+                "y": 0.0,
+                "z": 1.1068166494369507
+            },
+            "yaw": 21.492395401000978,
+            "scale": 1.1361747980117798,
+            "roadClearance": 6.4568586349487309,
+            "footprintRadius": 0.7001157402992249,
+            "residentTriangles": 7500,
+            "peakLodTriangles": 5000,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "fence_outer",
+            "position": {
+                "x": -13.082788467407227,
+                "y": 0.0,
+                "z": 3.6263680458068849
+            },
+            "yaw": 193.90679931640626,
+            "scale": 0.9112265110015869,
+            "roadClearance": 6.72990083694458,
+            "footprintRadius": 0.46412578225135805,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "fence_outer",
+            "position": {
+                "x": -10.819939613342286,
+                "y": 0.0,
+                "z": 7.494013786315918
+            },
+            "yaw": 351.33428955078127,
+            "scale": 0.9190687537193298,
+            "roadClearance": 5.864462375640869,
+            "footprintRadius": 0.46812015771865847,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "fence_outer",
+            "position": {
+                "x": -8.02955436706543,
+                "y": 0.0,
+                "z": 7.348063945770264
+            },
+            "yaw": 209.98829650878907,
+            "scale": 1.126646876335144,
+            "roadClearance": 3.6627488136291506,
+            "footprintRadius": 0.5738483667373657,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E09",
+            "role": "outer_tree",
+            "position": {
+                "x": -17.614105224609376,
+                "y": 0.0,
+                "z": -13.50147533416748
+            },
+            "yaw": 241.18222045898438,
+            "scale": 1.1046139001846314,
+            "roadClearance": 3.265134334564209,
+            "footprintRadius": 2.1686718463897707,
+            "residentTriangles": 12500,
+            "peakLodTriangles": 8000,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": -9.912049293518067,
+                "y": 0.0,
+                "z": -13.547002792358399
+            },
+            "yaw": 106.57098388671875,
+            "scale": 0.9351655840873718,
+            "roadClearance": 2.432313919067383,
+            "footprintRadius": 1.9146888256072999,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": -1.9231839179992676,
+                "y": 0.0,
+                "z": -12.956639289855957
+            },
+            "yaw": 275.4979553222656,
+            "scale": 1.0157548189163209,
+            "roadClearance": 1.676949381828308,
+            "footprintRadius": 2.0796897411346437,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": 9.470440864562989,
+                "y": 0.0,
+                "z": -13.151803970336914
+            },
+            "yaw": 108.98294067382813,
+            "scale": 0.886566698551178,
+            "roadClearance": 2.136618137359619,
+            "footprintRadius": 1.815185785293579,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": 16.902448654174806,
+                "y": 0.0,
+                "z": -12.966104507446289
+            },
+            "yaw": 80.40343475341797,
+            "scale": 0.9884175062179565,
+            "roadClearance": 1.9485901594161988,
+            "footprintRadius": 2.0237185955047609,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": 18.302438735961915,
+                "y": 0.0,
+                "z": -3.880810022354126
+            },
+            "yaw": 249.04818725585938,
+            "scale": 1.0800554752349854,
+            "roadClearance": 2.1215267181396486,
+            "footprintRadius": 2.211341142654419,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": 18.37691307067871,
+                "y": 0.0,
+                "z": 1.1737821102142335
+            },
+            "yaw": 177.4185028076172,
+            "scale": 0.9957603216171265,
+            "roadClearance": 6.247168064117432,
+            "footprintRadius": 2.038752555847168,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": 17.94066047668457,
+                "y": 0.0,
+                "z": 13.460731506347657
+            },
+            "yaw": 68.88801574707031,
+            "scale": 0.9987627863883972,
+            "roadClearance": 10.912354469299317,
+            "footprintRadius": 2.0448997020721437,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": 10.437031745910645,
+                "y": 0.0,
+                "z": 13.209348678588868
+            },
+            "yaw": 287.5858154296875,
+            "scale": 1.0226187705993653,
+            "roadClearance": 5.282444477081299,
+            "footprintRadius": 2.093743324279785,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E09",
+            "role": "outer_tree",
+            "position": {
+                "x": 5.415195941925049,
+                "y": 0.0,
+                "z": 13.252702713012696
+            },
+            "yaw": 296.34027099609377,
+            "scale": 0.9049531817436218,
+            "roadClearance": 4.518947601318359,
+            "footprintRadius": 1.776680827140808,
+            "residentTriangles": 12500,
+            "peakLodTriangles": 8000,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": 1.166155457496643,
+                "y": 0.0,
+                "z": 13.30217456817627
+            },
+            "yaw": 359.91424560546877,
+            "scale": 0.9835866689682007,
+            "roadClearance": 5.767031669616699,
+            "footprintRadius": 2.0138278007507326,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": -6.867929935455322,
+                "y": 0.0,
+                "z": 13.423528671264649
+            },
+            "yaw": 211.6347198486328,
+            "scale": 0.9692873358726502,
+            "roadClearance": 7.508220672607422,
+            "footprintRadius": 1.9845508337020875,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E09",
+            "role": "outer_tree",
+            "position": {
+                "x": -13.837185859680176,
+                "y": 0.0,
+                "z": 13.327695846557618
+            },
+            "yaw": 288.173095703125,
+            "scale": 0.9215466976165772,
+            "roadClearance": 10.731948852539063,
+            "footprintRadius": 1.8092586994171143,
+            "residentTriangles": 12500,
+            "peakLodTriangles": 8000,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": -18.822237014770509,
+                "y": 0.0,
+                "z": 12.08657169342041
+            },
+            "yaw": 271.95941162109377,
+            "scale": 1.0634171962738038,
+            "roadClearance": 13.35517406463623,
+            "footprintRadius": 2.1772754192352297,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E09",
+            "role": "outer_tree",
+            "position": {
+                "x": -18.685291290283204,
+                "y": 0.0,
+                "z": 4.602767467498779
+            },
+            "yaw": 168.1317138671875,
+            "scale": 0.9734333753585815,
+            "roadClearance": 10.915976524353028,
+            "footprintRadius": 1.911126971244812,
+            "residentTriangles": 12500,
+            "peakLodTriangles": 8000,
+            "colliders": 2
+        },
+        {
+            "id": "E08",
+            "role": "outer_tree",
+            "position": {
+                "x": -18.48061180114746,
+                "y": 0.0,
+                "z": -0.332477331161499
+            },
+            "yaw": 242.89329528808595,
+            "scale": 0.8817580342292786,
+            "roadClearance": 6.4356279373168949,
+            "footprintRadius": 1.8053404092788697,
+            "residentTriangles": 10000,
+            "peakLodTriangles": 6500,
+            "colliders": 2
+        },
+        {
+            "id": "E09",
+            "role": "outer_tree",
+            "position": {
+                "x": -18.758316040039064,
+                "y": 0.0,
+                "z": -8.600847244262696
+            },
+            "yaw": 221.40257263183595,
+            "scale": 0.9654423594474793,
+            "roadClearance": 1.9723787307739258,
+            "footprintRadius": 1.895438313484192,
+            "residentTriangles": 12500,
+            "peakLodTriangles": 8000,
+            "colliders": 2
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": 2.9777774810791017,
+                "y": 0.0,
+                "z": -10.929821968078614
+            },
+            "yaw": 297.8710632324219,
+            "scale": 1.0962872505187989,
+            "roadClearance": 1.1714367866516114,
+            "footprintRadius": 0.5583849549293518,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": 14.35280990600586,
+                "y": 0.0,
+                "z": 10.87173843383789
+            },
+            "yaw": 324.9849853515625,
+            "scale": 0.9239594340324402,
+            "roadClearance": 8.07596492767334,
+            "footprintRadius": 0.47061118483543398,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": -12.983146667480469,
+                "y": 0.0,
+                "z": -4.017213821411133
+            },
+            "yaw": 31.541311264038087,
+            "scale": 1.125619649887085,
+            "roadClearance": 2.8094611167907717,
+            "footprintRadius": 0.5733251571655273,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": -11.416473388671875,
+                "y": 0.0,
+                "z": -5.04400110244751
+            },
+            "yaw": 189.8863067626953,
+            "scale": 1.0514272451400757,
+            "roadClearance": 1.8204631805419922,
+            "footprintRadius": 0.5355358719825745,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E13",
+            "role": "grass_scatter",
+            "position": {
+                "x": -5.7451629638671879,
+                "y": 0.0,
+                "z": 8.573098182678223
+            },
+            "yaw": 144.64866638183595,
+            "scale": 0.8518280982971191,
+            "roadClearance": 3.9765920639038088,
+            "footprintRadius": 0.5479313731193543,
+            "residentTriangles": 2940,
+            "peakLodTriangles": 2100,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": -14.36431884765625,
+                "y": 0.0,
+                "z": -4.503476142883301
+            },
+            "yaw": 8.430708885192871,
+            "scale": 0.9711817502975464,
+            "roadClearance": 2.4193005561828615,
+            "footprintRadius": 0.4946635067462921,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": 7.32319450378418,
+                "y": 0.0,
+                "z": 8.957260131835938
+            },
+            "yaw": 203.77658081054688,
+            "scale": 0.8784779906272888,
+            "roadClearance": 1.722652554512024,
+            "footprintRadius": 0.4474456012248993,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": -15.401061058044434,
+                "y": 0.0,
+                "z": -1.0235388278961182
+            },
+            "yaw": 105.7774429321289,
+            "scale": 1.1097854375839234,
+            "roadClearance": 5.944859027862549,
+            "footprintRadius": 0.5652601718902588,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": -15.131170272827149,
+                "y": 0.0,
+                "z": 5.00720739364624
+            },
+            "yaw": 277.8701477050781,
+            "scale": 1.1322370767593384,
+            "roadClearance": 8.814397811889649,
+            "footprintRadius": 0.5766957402229309,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E13",
+            "role": "grass_scatter",
+            "position": {
+                "x": 4.633159637451172,
+                "y": 0.0,
+                "z": 9.01697826385498
+            },
+            "yaw": 274.980224609375,
+            "scale": 0.9787592887878418,
+            "roadClearance": 1.7815768718719483,
+            "footprintRadius": 0.6295787692070007,
+            "residentTriangles": 2940,
+            "peakLodTriangles": 2100,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": -15.960016250610352,
+                "y": 0.0,
+                "z": 10.259868621826172
+            },
+            "yaw": 174.2711181640625,
+            "scale": 0.9469195008277893,
+            "roadClearance": 11.654706954956055,
+            "footprintRadius": 0.48230570554733279,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": -10.211620330810547,
+                "y": 0.0,
+                "z": -4.214425086975098
+            },
+            "yaw": 44.782535552978519,
+            "scale": 1.1376564502716065,
+            "roadClearance": 2.606119155883789,
+            "footprintRadius": 0.5794560313224793,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "grass_scatter",
+            "position": {
+                "x": -4.653542518615723,
+                "y": 0.0,
+                "z": -10.827778816223145
+            },
+            "yaw": 48.43028259277344,
+            "scale": 1.0679291486740113,
+            "roadClearance": 1.083837628364563,
+            "footprintRadius": 0.5439410209655762,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "house_flowers",
+            "position": {
+                "x": -2.3410274982452394,
+                "y": 0.0,
+                "z": 9.367188453674317
+            },
+            "yaw": 243.7447509765625,
+            "scale": 1.072176456451416,
+            "roadClearance": 3.7752997875213625,
+            "footprintRadius": 0.5461043119430542,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        },
+        {
+            "id": "E11",
+            "role": "house_flowers",
+            "position": {
+                "x": 1.324159860610962,
+                "y": 0.0,
+                "z": 9.488582611083985
+            },
+            "yaw": 198.8746337890625,
+            "scale": 0.8818798661231995,
+            "roadClearance": 3.6191134452819826,
+            "footprintRadius": 0.4491783082485199,
+            "residentTriangles": 12000,
+            "peakLodTriangles": 7500,
+            "colliders": 0
+        }
+    ]
+}

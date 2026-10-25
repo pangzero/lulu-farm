@@ -1,0 +1,251 @@
+{
+  "task": "O7 native video sampled visual observations",
+  "status": "已完成，待 Opus 验收",
+  "created_utc": "2026-10-25T07:59:48.737264+00:00",
+  "input_branch": "opus/r07-o7-sky-island",
+  "input_commit": "8da9197",
+  "source_video": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/east-stream-birds.mp4",
+    "sha256": "d5f11c1ae997acd11c7553acb23f1197ceaeb314dc4f988225b5e9aca3cb2b4a",
+    "bytes": 9314464
+  },
+  "source_recording": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190458-352/recording.json",
+    "sha256": "643ca73879df34af2653d1d5ff2884be173396388d6bdc8e5c658a0caab18f76",
+    "bytes": 751
+  },
+  "source_frame_timeline": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190458-352/frames.jsonl",
+    "sha256": "c21b4a365f41169e8a32cc2db909e58c61160324faea50a30293318b2f4157ac",
+    "bytes": 110151
+  },
+  "encoding_record": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/east-stream-birds.mp4.encoding.json",
+    "sha256": "4a1df4766e143db5aee726e4b63f375c591bd71b569058c335ad8fb9daaef6a1",
+    "bytes": 1872
+  },
+  "extraction_record": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/extraction.json",
+    "sha256": "b5b30d8fca51687571baa565a3fcfc0e528e306c3775075655f363e7ccc96201",
+    "bytes": 4203
+  },
+  "decode_log": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decode.log",
+    "sha256": "7dce0e22102176944f693923c0e16bf7a4820ac7b18718c07ba98b012700d0f4",
+    "bytes": 1131
+  },
+  "recording_metadata": {
+    "utc": "2026-10-24T19:05:29.6014890Z",
+    "status": "stopped_by_operator",
+    "engine": "6000.3.16f1",
+    "platform": "OSXPlayer",
+    "sceneRevision": "integration-r07-O7",
+    "assetRegistryRevision": "308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34",
+    "source": "actual_Unity_ScreenCapture_framebuffer_after_WaitForEndOfFrame",
+    "timing": "wall_clock_variable_frame_durations_no_Time_captureFramerate_no_synthetic_interpolation",
+    "performance": "capture_overhead_present_not_a_device_performance_run",
+    "manualReview": "not_automatically_verified",
+    "frames": 203,
+    "requestedFramesPerSecond": 10,
+    "width": 1280,
+    "height": 720,
+    "elapsedSeconds": 31.2481689453125,
+    "pngBytes": 131233446
+  },
+  "inspection_method": "Actual AVFoundation decode of encoded video at source elapsed PTS, followed by actual view_image open of every listed PNG. No continuous full-video playback claimed.",
+  "decoded_frames": [
+    {
+      "decoded_pts": 10.388366666666666,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000070.png",
+      "height": 720,
+      "requested_pts": 10.388366666666666,
+      "source_index": 70,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000070.png",
+      "sha256": "a1277c758f9d8162267794aa47110ecea4a630a1425eeeb6d2ffb2b4b03b186e",
+      "bytes": 608146,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 10.53845,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000071.png",
+      "height": 720,
+      "requested_pts": 10.53845,
+      "source_index": 71,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000071.png",
+      "sha256": "9c91b80b472d8a86508f40af3a77d544cc0a6d688f340490168a4802798741e8",
+      "bytes": 609269,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 10.680416666666666,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000072.png",
+      "height": 720,
+      "requested_pts": 10.680416666666666,
+      "source_index": 72,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000072.png",
+      "sha256": "f0024572df8106f4f23cbcc1ec698e8440471b33bc699ef65cbdeafed05cf3d4",
+      "bytes": 610051,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 10.822316666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000073.png",
+      "height": 720,
+      "requested_pts": 10.822316666666667,
+      "source_index": 73,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000073.png",
+      "sha256": "8cd9ed2f807728b0f3ed3575f8eca9c6d1c922160ac1d90770e64bb962906edc",
+      "bytes": 610284,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 10.9718,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000074.png",
+      "height": 720,
+      "requested_pts": 10.9718,
+      "source_index": 74,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000074.png",
+      "sha256": "dc99a262e2d6aa39546a15bb00c9037b3e4deec858173b605d7d3e6fb61beaf3",
+      "bytes": 611994,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 11.11345,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000075.png",
+      "height": 720,
+      "requested_pts": 11.11345,
+      "source_index": 75,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000075.png",
+      "sha256": "6c299c93e1e123df6c8a9c85c7d106712eb043669d9f9aece05bbfca26b87797",
+      "bytes": 612213,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 11.25505,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000076.png",
+      "height": 720,
+      "requested_pts": 11.25505,
+      "source_index": 76,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000076.png",
+      "sha256": "7964043dbc30aac83c2ec61e90ad41e495e38ffb3c9f1983e92efccbf1befe60",
+      "bytes": 612916,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 11.404716666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000077.png",
+      "height": 720,
+      "requested_pts": 11.404716666666667,
+      "source_index": 77,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000077.png",
+      "sha256": "0d21ebba1466d1d2da919583384ca18eeb2de5578f3dabbdc2be60643190c581",
+      "bytes": 613951,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 11.546616666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000078.png",
+      "height": 720,
+      "requested_pts": 11.546616666666667,
+      "source_index": 78,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000078.png",
+      "sha256": "61228ba3fe040b3ca303660000e6a95c5dd6e1a2e9bda67de3363be361408f33",
+      "bytes": 614892,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 11.688283333333333,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000079.png",
+      "height": 720,
+      "requested_pts": 11.688283333333333,
+      "source_index": 79,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000079.png",
+      "sha256": "063fb91d049c54ef3db9755c8782d89dd541038504ed1adf210274ed6594b68f",
+      "bytes": 615549,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 11.838133333333333,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000080.png",
+      "height": 720,
+      "requested_pts": 11.838133333333333,
+      "source_index": 80,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000080.png",
+      "sha256": "05d3bf7a344a8ad2cfe446644b4f03045fe8a7d511809081749cb64dcc9c6b95",
+      "bytes": 614299,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 11.9884,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000081.png",
+      "height": 720,
+      "requested_pts": 11.9884,
+      "source_index": 81,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-decoded/decoded-frame-000081.png",
+      "sha256": "420dffd9dbe412726c0e95fc2c329019c961e4019b02df313ab8664993920f5c",
+      "bytes": 614701,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    }
+  ],
+  "observations": [
+    {
+      "topic": "鸟与翅膀",
+      "frames": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "observation": "实际打开编码视频的 12 张连续原尺寸解码图；10.3884–11.9884 秒区间主要为 Lulu、蓝色溪面、草岸与浅色云。未能在这些帧中可靠辨认鸟身或成对翅膀，不能据此确认鸟翼运动，也不能量出鸟的画面尺寸。该结论只限定本次抽样，不能据此声称全片没有鸟。"
+    },
+    {
+      "topic": "水面和接口",
+      "frames": [
+        70,
+        74,
+        77,
+        81
+      ],
+      "observation": "蓝色溪面上的浅色亮斑位置随相邻帧有变化。前景池水与溪段之间仍可见连续石岸和一条浅绿地带；溪段远端止于云层前方，所抽视角没有看到垂直落水段。"
+    },
+    {
+      "topic": "限制",
+      "observation": "仅抽查 12 张连续解码帧，并未连续播放完整视频，未试听音频；未更改或放大图像来识别鸟。不下美术、性能或验收结论。"
+    }
+  ],
+  "art_acceptance": "not evaluated",
+  "device_performance": "not evaluated",
+  "scope": "Only new O7 visual-review evidence; no Unity, Player, source or historical evidence changes."
+}

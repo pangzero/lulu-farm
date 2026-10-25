@@ -1,0 +1,20 @@
+/Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:161:29: warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]
+159 |     // A successful encode alone is not a visual review or device benchmark.
+160 |     let asset = AVURLAsset(url: output)
+161 |     guard let track = asset.tracks(withMediaType: .video).first else {
+    |                             `- warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]
+162 |         throw EncodeError.invalid("Encoded output has no video track")
+163 |     }
+
+/Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:186:49: warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]
+184 |     let maxError = zip(pts, frames).map { abs($0 - ($1.elapsedSeconds - first.elapsedSeconds)) }.max()!
+185 |     try require(maxError <= 1.0 / Double(timeScale) + 0.000001, "VFR PTS mismatch: \(maxError)")
+186 |     let actualDuration = CMTimeGetSeconds(asset.duration)
+    |                                                 `- warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]
+187 |     try require(abs(actualDuration - duration) < 0.001, "Output duration differs from recorded interval")
+188 |     let audit: [String: Any] = [
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+encoded 1/203
+Wrote /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/east-stream-birds.mp4 (203 real frames, 31.24651666666667s VFR).
+Audit: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/east-stream-birds.mp4.encoding.json

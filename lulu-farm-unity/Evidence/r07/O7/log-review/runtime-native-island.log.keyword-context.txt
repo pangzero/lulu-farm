@@ -1,0 +1,45 @@
+SOURCE: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island.log
+SHA256: f3a3145223705096ed3c31bf5ebfc74ecabefb83997ac44830ea0b62f7f522ab
+READ UTC: 2026-10-24T19:07:24.900372+00:00
+Line numbers are one-based; overlapping +/-20-line windows are merged within each category.
+
+CATEGORY: Exception
+PATTERN: Exception
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Error
+PATTERN: Error
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Shader
+PATTERN: Shader
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: CS0108
+PATTERN: CS0108
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Warning
+PATTERN: warning|warn
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: negative-scale-collision
+PATTERN: negative.*scal|scal.*negative|collid|collision|convex|non.?convex
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: thread-finalization
+PATTERN: prematurely finalized
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: MemoryLeaks
+PATTERN: MemoryLeaks
+MATCH COUNT: 0
+NO MATCH
+

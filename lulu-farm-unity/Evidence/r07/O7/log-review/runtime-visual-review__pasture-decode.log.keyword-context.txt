@@ -1,0 +1,59 @@
+SOURCE: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decode.log
+SHA256: 38fe79c2547e35b12c2ee7cc9bb5d400391e20a460c6204cc28baa25d3933504
+READ UTC: 2026-10-24T19:07:24.900372+00:00
+Line numbers are one-based; overlapping +/-20-line windows are merged within each category.
+
+CATEGORY: Exception
+PATTERN: Exception
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Error
+PATTERN: Error
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Shader
+PATTERN: Shader
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: CS0108
+PATTERN: CS0108
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Warning
+PATTERN: warning|warn
+MATCH COUNT: 2
+1: Preflight/extract-encoded-vfr-frames.swift:33:35: warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]
+CLASSIFICATION: Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation.
+5:    |                                   `- warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]
+CLASSIFICATION: Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation.
+CONTEXT 1-10
+1: Preflight/extract-encoded-vfr-frames.swift:33:35: warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]
+2: 31 |         let target = CMTime(seconds: (rows[index]["elapsedSeconds"] as! Double) - first, preferredTimescale: 60000)
+3: 32 |         var actual = CMTime.zero
+4: 33 |         let image = try generator.copyCGImage(at: target, actualTime: &actual)
+5:    |                                   `- warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]
+6: 34 |         let path = dest.appendingPathComponent(String(format: "decoded-frame-%06d.png", index))
+7: 35 |         guard let writer = CGImageDestinationCreateWithURL(path as CFURL, UTType.png.identifier as CFString, 1, nil) else {
+8: 
+9: [#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+10: Decoded 25 actual video frames into /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded
+
+CATEGORY: negative-scale-collision
+PATTERN: negative.*scal|scal.*negative|collid|collision|convex|non.?convex
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: thread-finalization
+PATTERN: prematurely finalized
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: MemoryLeaks
+PATTERN: MemoryLeaks
+MATCH COUNT: 0
+NO MATCH
+

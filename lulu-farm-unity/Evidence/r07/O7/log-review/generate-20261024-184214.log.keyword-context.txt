@@ -1,0 +1,713 @@
+Source: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/generate-20261024-184214.log
+SHA256: dccc35014a7c1fb99ea1542beedb2c0554624d223bbf88fec9666c4c0baa276c
+Lines: 1266
+Complete read-only case-insensitive matching lines with +/-20 original context lines. Overlapping context blocks merged. No acceptance conclusion.
+
+CATEGORY Exception: 0 matched lines
+NO MATCH
+CATEGORY Error: 5 matched lines
+MATCH 79: [Licensing::Client] Error: HandshakeResponse reported an error:
+CLASSIFICATION: REAL_LICENSING_ERROR: Hub client handshake or missing token; following context records editor client connection, license update and initialization. Not a CSharp/Shader compilation error.
+MATCH 82: [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-haowen"
+CLASSIFICATION: REAL_LICENSING_ERROR: Hub client handshake or missing token; following context records editor client connection, license update and initialization. Not a CSharp/Shader compilation error.
+MATCH 99: [Licensing::Module] Error: Access token is unavailable; failed to update
+CLASSIFICATION: REAL_LICENSING_ERROR: Hub client handshake or missing token; following context records editor client connection, license update and initialization. Not a CSharp/Shader compilation error.
+MATCH 177: 			LogAssemblyErrors (0ms)
+CLASSIFICATION: NAME_MATCH: method/shader/source name such as LogAssemblyErrors or FallbackError; not an error diagnosis in this line.
+MATCH 371: 			LogAssemblyErrors (0ms)
+CLASSIFICATION: NAME_MATCH: method/shader/source name such as LogAssemblyErrors or FallbackError; not an error diagnosis in this line.
+--- CONTEXT Error, lines 59-119 ---
+59:     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+60:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+61:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+62:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+63:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+64:     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+65:     "memorysetup-temp-allocator-size-gfx=262144"
+66: Player connection [8318097600]  Target information:
+67: 
+68: Player connection [8318097600]  * "[IP] 192.168.3.56 [Port] 55504 [Flags] 2 [Guid] 2353591297 [EditorId] 2353591297 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+69: 
+70: Player connection [8318097600]  * "[IP] 2.0.0.1 [Port] 55504 [Flags] 2 [Guid] 2353591297 [EditorId] 2353591297 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+71: 
+72: Player connection [8318097600] Host joined multi-casting on [225.0.0.222:54997]...
+73: Player connection [8318097600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+74: Input System module state changed to: Initialized.
+75: [Physics::Module] Initialized fallback backend.
+76: [Physics::Module] Id: 0xdecafbad
+77: [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 950, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+78: [Licensing::Module] LicensingClient has failed validation; ignoring
+79: [Licensing::Client] Error: HandshakeResponse reported an error:
+80: 	ResponseCode: 505
+81: 	ResponseStatus: Unsupported protocol version '1.18.1'.
+82: [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-haowen"
+83: [Licensing::IpcConnector] LicenseClient-haowen channel disconnected successfully.
+84: [Licensing::IpcConnector] Channel LicenseClient-haowen-6000.3.16 doesn't exist
+85: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client
+86: [Licensing::Module] Successfully launched the LicensingClient (PId: 10515)
+87: [Package Manager] Connected to IPC stream "Upm-10489" after 0.2 seconds.
+88: [Licensing::Module] Licensing is not yet initialized.
+89: [Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16" at "2026-10-24T18:42:15.752056Z"
+90: [Licensing::Client] Handshaking with LicensingClient:
+91:   Version:                 1.18.1+9fbee8e
+92:   Session Id:              07186cfe45eb49ad971cc406700347de
+93:   Correlation Id:          bff558cdca9b923be1924999690cbf41
+94:   External correlation Id: 7502626029372884342
+95:   Machine Id:              /Nupwpvn+B6eSAVQ3yApaC/kimk=
+96: [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-haowen-6000.3.16" (connect: 0.25s, validation: 0.04s, handshake: 0.20s)
+97: [Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16-notifications" at "2026-10-24T18:42:15.98709Z"
+98: [Licensing::Module] Connected to LicensingClient (PId: 10515, launch time: 0.00, total connection time: 0.49s)
+99: [Licensing::Module] Error: Access token is unavailable; failed to update
+100: [Licensing::Client] Successfully resolved entitlement details
+101: [Licensing::Module] License group:
+102:   Id: F4-NVMZ-M74F-8H5W-26YW-XXXX
+103:   Product: Unity Personal
+104:   Type: ULF
+105:   Expiration: 2026-11-03T18:58:32Z
+106: [Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+107: [Licensing::Client] Successfully resolved entitlement details
+108: [Licensing::Module] Licensing Background thread has ended after 0.76s
+109: [Licensing::Module] Licensing is initialized (took 0.45s).
+110: [Licensing::Client] Successfully resolved entitlement details
+111: Library Redirect Path: Library/
+112: [Physics::Module] Selected backend.
+113: [Physics::Module] Name: PhysX
+114: [Physics::Module] Id: 0xf2b8ea05
+115: [Physics::Module] SDK Version: 4.1.2
+116: [Physics::Module] Integration Version: 1.0.0
+117: [Physics::Module] Threading Mode: Multi-Threaded
+118: Targeting platform: StandaloneOSX
+119: Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+--- CONTEXT Error, lines 157-197 ---
+157: 		ExecutionOrderSort (0ms)
+158: 		DisableScriptedObjects (0ms)
+159: 		BackupInstance (0ms)
+160: 		ReleaseScriptingObjects (0ms)
+161: 		CreateAndSetChildDomain (6ms)
+162: 	RebuildCommonClasses (21ms)
+163: 	RebuildNativeTypeToScriptingClass (6ms)
+164: 	initialDomainReloadingComplete (20ms)
+165: 	LoadAllAssembliesAndSetupDomain (81ms)
+166: 		LoadAssemblies (76ms)
+167: 		RebuildTransferFunctionScriptingTraits (0ms)
+168: 		AnalyzeDomain (79ms)
+169: 			TypeCache.Refresh (78ms)
+170: 				TypeCache.ScanAssembly (69ms)
+171: 			BuildScriptInfoCaches (0ms)
+172: 			ResolveRequiredComponents (0ms)
+173: 	FinalizeReload (167ms)
+174: 		ReleaseScriptCaches (0ms)
+175: 		RebuildScriptCaches (0ms)
+176: 		SetupLoadedEditorAssemblies (150ms)
+177: 			LogAssemblyErrors (0ms)
+178: 			InitializePlatformSupportModulesInManaged (19ms)
+179: 			SetLoadedEditorAssemblies (2ms)
+180: 			BeforeProcessingInitializeOnLoad (34ms)
+181: 			ProcessInitializeOnLoadAttributes (56ms)
+182: 			ProcessInitializeOnLoadMethodAttributes (39ms)
+183: 			AfterProcessingInitializeOnLoad (0ms)
+184: 			EditorAssembliesLoaded (0ms)
+185: 		ExecutionOrderSort2 (0ms)
+186: 		AwakeInstancesAfterBackupRestoration (0ms)
+187: [Licensing::Client] Successfully resolved entitlement details
+188: Application.AssetDatabase Initial Refresh Start
+189: [Package Manager] Restoring resolved packages state from cache
+190: [Licensing::Client] Successfully resolved entitlement details
+191: [Package Manager] Registered 30 packages:
+192:   Packages from [https://packages.unity.com]:
+193:     com.unity.cinemachine@3.1.5 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cinemachine@5342685532bb)
+194:     com.unity.inputsystem@1.14.2 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5)
+195:     com.unity.cloud.gltfast@6.20.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cloud.gltfast@11ddc2436f97)
+196:     com.unity.burst@1.8.30 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.burst@2f3d916873ea)
+197:     com.unity.collections@2.6.8 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.collections@84e8eb3fc12e)
+--- CONTEXT Error, lines 351-391 ---
+351: 		ExecutionOrderSort (0ms)
+352: 		DisableScriptedObjects (7ms)
+353: 		BackupInstance (0ms)
+354: 		ReleaseScriptingObjects (0ms)
+355: 		CreateAndSetChildDomain (31ms)
+356: 	RebuildCommonClasses (16ms)
+357: 	RebuildNativeTypeToScriptingClass (6ms)
+358: 	initialDomainReloadingComplete (9ms)
+359: 	LoadAllAssembliesAndSetupDomain (161ms)
+360: 		LoadAssemblies (127ms)
+361: 		RebuildTransferFunctionScriptingTraits (0ms)
+362: 		AnalyzeDomain (65ms)
+363: 			TypeCache.Refresh (48ms)
+364: 				TypeCache.ScanAssembly (42ms)
+365: 			BuildScriptInfoCaches (12ms)
+366: 			ResolveRequiredComponents (4ms)
+367: 	FinalizeReload (1238ms)
+368: 		ReleaseScriptCaches (0ms)
+369: 		RebuildScriptCaches (0ms)
+370: 		SetupLoadedEditorAssemblies (1123ms)
+371: 			LogAssemblyErrors (0ms)
+372: 			InitializePlatformSupportModulesInManaged (7ms)
+373: 			SetLoadedEditorAssemblies (1ms)
+374: 			BeforeProcessingInitializeOnLoad (55ms)
+375: 			ProcessInitializeOnLoadAttributes (959ms)
+376: 			ProcessInitializeOnLoadMethodAttributes (100ms)
+377: 			AfterProcessingInitializeOnLoad (1ms)
+378: 			EditorAssembliesLoaded (0ms)
+379: 		ExecutionOrderSort2 (0ms)
+380: 		AwakeInstancesAfterBackupRestoration (8ms)
+381: Start importing Assets/Farm/Shaders/Waterfall-r09.shader using Guid(e07692c1ad924e35a1037f6f95b6f798) (ShaderImporter)Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+382: Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+383:  -> (artifact id: '2ec5c19fd2a8a5dc47bd8f8f267f7e75') in 0.077919375 seconds
+384: Start importing Assets/Farm/Shaders/IslandRimLight-r10.shader using Guid(f4d0890c53a343d79713668fc1ab2b5d) (ShaderImporter) -> (artifact id: 'f084108106fc0f394568274116b2d175') in 0.003476833 seconds
+385: Start importing Assets/Farm/Shaders/SkyBirds-r10.shader using Guid(18a41fa34c8b46b0b327a9802548236b) (ShaderImporter) -> (artifact id: 'a20f650bcfae55e95cae8e6a1618ae60') in 0.011068625 seconds
+386: Start importing Assets/Farm/Shaders/FarmOcclusionDither-r09.shader using Guid(1959d4c0441c47458635a23be9709b1e) (ShaderImporter) -> (artifact id: 'f2f175b46abdb27a08e51c7dc882f8af') in 0.007215417 seconds
+387: Start importing Assets/Farm/Shaders/FarmLivingSurface-r10.shader using Guid(4f43c977356c4295beeece99b520f61a) (ShaderImporter) -> (artifact id: 'eebd8103e381ea197810bd25c3599e95') in 0.0066945 seconds
+388: Start importing Assets/Farm/Shaders/SkyCloud-r09.shader using Guid(9fdf03b2bdd6410cb5100fad45eee1ea) (ShaderImporter) -> (artifact id: '25d1eee7663351ae72de5f05c01475e8') in 0.004529667 seconds
+389: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+390: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+391: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+
+CATEGORY Shader: 26 matched lines
+MATCH 221:     com.unity.shadergraph@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.shadergraph@138213decc3c)
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 381: Start importing Assets/Farm/Shaders/Waterfall-r09.shader using Guid(e07692c1ad924e35a1037f6f95b6f798) (ShaderImporter)Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 382: Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 384: Start importing Assets/Farm/Shaders/IslandRimLight-r10.shader using Guid(f4d0890c53a343d79713668fc1ab2b5d) (ShaderImporter) -> (artifact id: 'f084108106fc0f394568274116b2d175') in 0.003476833 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 385: Start importing Assets/Farm/Shaders/SkyBirds-r10.shader using Guid(18a41fa34c8b46b0b327a9802548236b) (ShaderImporter) -> (artifact id: 'a20f650bcfae55e95cae8e6a1618ae60') in 0.011068625 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 386: Start importing Assets/Farm/Shaders/FarmOcclusionDither-r09.shader using Guid(1959d4c0441c47458635a23be9709b1e) (ShaderImporter) -> (artifact id: 'f2f175b46abdb27a08e51c7dc882f8af') in 0.007215417 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 387: Start importing Assets/Farm/Shaders/FarmLivingSurface-r10.shader using Guid(4f43c977356c4295beeece99b520f61a) (ShaderImporter) -> (artifact id: 'eebd8103e381ea197810bd25c3599e95') in 0.0066945 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 388: Start importing Assets/Farm/Shaders/SkyCloud-r09.shader using Guid(9fdf03b2bdd6410cb5100fad45eee1ea) (ShaderImporter) -> (artifact id: '25d1eee7663351ae72de5f05c01475e8') in 0.004529667 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 389: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 390: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 391: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 392: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 393: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 394: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 395: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 396: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 397: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 398: Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 399: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 400: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 401: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 402: Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 403: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 404: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 405: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+MATCH 406: Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+CLASSIFICATION: SHADER_INFORMATION: import, compile, serialization, resource/assembly list or stripping; not a Shader compile error.
+--- CONTEXT Shader, lines 201-241 ---
+201:     com.unity.test-framework.performance@3.4.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework.performance@aa81a99c4a75)
+202:     com.unity.settings-manager@2.1.1 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.settings-manager@0b8638c5ce86)
+203:     com.unity.searcher@4.9.4 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.searcher@d45a78918735)
+204:   Built-in packages:
+205:     com.unity.render-pipelines.universal@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal@97f77d4dda9a)
+206:     com.unity.ugui@2.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ugui@23e8d17bfaf9)
+207:     com.unity.test-framework@1.6.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework@aebcb98460c6)
+208:     com.unity.modules.animation@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.animation)
+209:     com.unity.modules.audio@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.audio)
+210:     com.unity.modules.imageconversion@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imageconversion)
+211:     com.unity.modules.jsonserialize@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.jsonserialize)
+212:     com.unity.modules.physics@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.physics)
+213:     com.unity.modules.screencapture@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.screencapture)
+214:     com.unity.modules.ui@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.ui)
+215:     com.unity.modules.uielements@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.uielements)
+216:     com.unity.modules.unitywebrequest@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.unitywebrequest)
+217:     com.unity.modules.imgui@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imgui)
+218:     com.unity.modules.hierarchycore@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.hierarchycore)
+219:     com.unity.ext.nunit@2.0.5 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ext.nunit@d8c07649098d)
+220:     com.unity.render-pipelines.core@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.core@648b47f96bf1)
+221:     com.unity.shadergraph@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.shadergraph@138213decc3c)
+222:     com.unity.render-pipelines.universal-config@17.0.3 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+223:     com.unity.modules.terrain@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.terrain)
+224: [Subsystems] No new subsystems found in resolved package list.
+225: [Package Manager] Done registering packages in 0.00 seconds
+226: Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+227: Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+228: [ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+229: [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+230:       Now listening on: http://unix:/tmp/ilpp.sock-280f456360f2067f991e0d554bccba31
+231: [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+232:       Application started. Press Ctrl+C to shut down.
+233: [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+234:       Hosting environment: Production
+235: [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+236:       Content root path: /Users/haowen/GameProject/farm-game/lulu-farm-unity/
+237: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+238:       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+239: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+240:       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+241: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+--- CONTEXT Shader, lines 361-426 ---
+361: 		RebuildTransferFunctionScriptingTraits (0ms)
+362: 		AnalyzeDomain (65ms)
+363: 			TypeCache.Refresh (48ms)
+364: 				TypeCache.ScanAssembly (42ms)
+365: 			BuildScriptInfoCaches (12ms)
+366: 			ResolveRequiredComponents (4ms)
+367: 	FinalizeReload (1238ms)
+368: 		ReleaseScriptCaches (0ms)
+369: 		RebuildScriptCaches (0ms)
+370: 		SetupLoadedEditorAssemblies (1123ms)
+371: 			LogAssemblyErrors (0ms)
+372: 			InitializePlatformSupportModulesInManaged (7ms)
+373: 			SetLoadedEditorAssemblies (1ms)
+374: 			BeforeProcessingInitializeOnLoad (55ms)
+375: 			ProcessInitializeOnLoadAttributes (959ms)
+376: 			ProcessInitializeOnLoadMethodAttributes (100ms)
+377: 			AfterProcessingInitializeOnLoad (1ms)
+378: 			EditorAssembliesLoaded (0ms)
+379: 		ExecutionOrderSort2 (0ms)
+380: 		AwakeInstancesAfterBackupRestoration (8ms)
+381: Start importing Assets/Farm/Shaders/Waterfall-r09.shader using Guid(e07692c1ad924e35a1037f6f95b6f798) (ShaderImporter)Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+382: Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+383:  -> (artifact id: '2ec5c19fd2a8a5dc47bd8f8f267f7e75') in 0.077919375 seconds
+384: Start importing Assets/Farm/Shaders/IslandRimLight-r10.shader using Guid(f4d0890c53a343d79713668fc1ab2b5d) (ShaderImporter) -> (artifact id: 'f084108106fc0f394568274116b2d175') in 0.003476833 seconds
+385: Start importing Assets/Farm/Shaders/SkyBirds-r10.shader using Guid(18a41fa34c8b46b0b327a9802548236b) (ShaderImporter) -> (artifact id: 'a20f650bcfae55e95cae8e6a1618ae60') in 0.011068625 seconds
+386: Start importing Assets/Farm/Shaders/FarmOcclusionDither-r09.shader using Guid(1959d4c0441c47458635a23be9709b1e) (ShaderImporter) -> (artifact id: 'f2f175b46abdb27a08e51c7dc882f8af') in 0.007215417 seconds
+387: Start importing Assets/Farm/Shaders/FarmLivingSurface-r10.shader using Guid(4f43c977356c4295beeece99b520f61a) (ShaderImporter) -> (artifact id: 'eebd8103e381ea197810bd25c3599e95') in 0.0066945 seconds
+388: Start importing Assets/Farm/Shaders/SkyCloud-r09.shader using Guid(9fdf03b2bdd6410cb5100fad45eee1ea) (ShaderImporter) -> (artifact id: '25d1eee7663351ae72de5f05c01475e8') in 0.004529667 seconds
+389: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+390: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+391: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+392: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+393: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+394: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+395: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+396: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+397: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+398: Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+399: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+400: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+401: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+402: Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+403: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+404: Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+405: Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+406: Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+407: Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+408: Preloading 0 native plugins for Editor in 0.00 ms.
+409: Asset Pipeline Refresh (id=dc82a0d901572449498f725490dca7e5): Total: 6.248 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+410: 	Summary:
+411: 		Imports: total=6 (actual=6, local cache=0, cache server=0)
+412: 		Asset DB Process Time: managed=1 ms, native=1706 ms
+413: 		Asset DB Callback time: managed=284 ms, native=93 ms
+414: 		Scripting: domain reloads=1, domain reload time=278 ms, compile time=3872 ms, other=11 ms
+415: 		Project Asset Count: scripts=1112, non-scripts=3064
+416: 		Asset File Changes: new=9, changed=14, moved=0, deleted=0
+417: 		Scan Filter Count: 1
+418: 	InvokeCustomDependenciesCallbacks: 0.000ms
+419: 	InvokePackagesCallback: 4.908ms
+420: 	ApplyChangesToAssetFolders: 0.098ms
+421: 	Scan: 222.250ms
+422: 	OnSourceAssetsModified: 1.092ms
+423: 	CategorizeAssetsWithTransientArtifact: 12.287ms
+424: 	ProcessAssetsWithTransientArtifactChanges: 20.924ms
+425: 	CategorizeAssets: 46.116ms
+426: 	ImportOutOfDateAssets: 1355.870ms (-2632.565ms without children)
+
+CATEGORY CS0108: 2 matched lines
+MATCH 318: Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+CLASSIFICATION: REAL_CSHARP_WARNING: FarmAmbientEvidenceR07.audio hides inherited Component.audio. Recorded, not fixed.
+MATCH 335: Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+CLASSIFICATION: REAL_CSHARP_WARNING: FarmAmbientEvidenceR07.audio hides inherited Component.audio. Recorded, not fixed.
+--- CONTEXT CS0108, lines 298-355 ---
+298: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+299:       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+300: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+301:       Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 131 defines and 313 references
+302: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+303:       processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+304: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+305:       running Unity.Jobs.CodeGen.JobsILPostProcessor
+306: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+307:       running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+308: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+309:       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+310: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+311:       Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 28.5890ms
+312: ExitCode: 0 Duration: 2s728ms
+313: Finished compiling graph: 701 nodes, 12637 flattened edges (10195 ToBuild, 114 ToUse), maximum node priority 869
+314: [375/698    0s] WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+315: [376/698    0s] WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.rsp
+316: [536/698    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+317: [690/698    1s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+318: Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+319: [691/698    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+320: Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 133 defines and 277 references
+321: processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+322: running Unity.Jobs.CodeGen.JobsILPostProcessor
+323: running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+324: [692/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+325: [693/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+326: [694/698    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+327: [695/698    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+328: Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 131 defines and 313 references
+329: processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+330: running Unity.Jobs.CodeGen.JobsILPostProcessor
+331: running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+332: [696/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+333: [697/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+334: *** Tundra build success (2.72 seconds), 11 items updated, 698 evaluated
+335: Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+336: AssetDatabase: script compilation time: 3.871648s
+337: Begin MonoManager ReloadAssembly
+338: Total cache size 149956216
+339: Total cache size after purge 149956216, took 00:00:00.0577684
+340: - Loaded All Assemblies, in  0.279 seconds
+341: 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+342: 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+343: Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+344: Native extension for OSXStandalone target not found
+345: Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+346: ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+347: Mono: successfully reloaded assembly
+348: - Finished resetting the current domain, in  1.237 seconds
+349: Domain Reload Profiling: 1516ms
+350: 	BeginReloadAssembly (86ms)
+351: 		ExecutionOrderSort (0ms)
+352: 		DisableScriptedObjects (7ms)
+353: 		BackupInstance (0ms)
+354: 		ReleaseScriptingObjects (0ms)
+355: 		CreateAndSetChildDomain (31ms)
+
+CATEGORY Warning: 4 matched lines
+MATCH 260: [40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+CLASSIFICATION: REAL_ILPP_WARNING_HEADER: duplicate assembly hint-path detail is on the next line.
+MATCH 262: [40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+CLASSIFICATION: REAL_ILPP_WARNING_HEADER: duplicate assembly hint-path detail is on the next line.
+MATCH 318: Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+CLASSIFICATION: REAL_CSHARP_WARNING: FarmAmbientEvidenceR07.audio hides inherited Component.audio. Recorded, not fixed.
+MATCH 335: Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+CLASSIFICATION: REAL_CSHARP_WARNING: FarmAmbientEvidenceR07.audio hides inherited Component.audio. Recorded, not fixed.
+--- CONTEXT Warning, lines 240-282 ---
+240:       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+241: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+242:       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+243: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+244:       Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 33.0048ms
+245: Starting: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+246: WorkingDir: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+247: DisplayProgressbar: Compiling Scripts
+248: ExitCode: 4 Duration: 0s93ms
+249: Rebuilding DAG because FileSignature timestamp changed: Library/Bee/200b0aE-inputdata.json
+250: *** Tundra requires additional run (0.08 seconds), 0 items updated, 380 evaluated
+251: Starting: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/netcorerun/netcorerun "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/ScriptCompilationBuildProgram.exe" "Library/Bee/200b0aE.dag.json" "Library/Bee/200b0aE-inputdata.json" "Library/Bee/buildprogram0.traceevents"
+252: WorkingDir: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+253: ExitCode: 0 Duration: 0s662ms
+254: Starting: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --dagfilejson="Library/Bee/200b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+255: WorkingDir: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+256: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+257:       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+258: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+259:       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+260: [40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+261:       Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+262: [40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+263:       Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+264: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+265:       Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+266: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+267:       Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+268: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+269:       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+270: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+271:       Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 13.4022ms
+272: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+273:       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+274: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+275:       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+276: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+277:       Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 133 defines and 277 references
+278: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+279:       processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+280: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+281:       running Unity.Jobs.CodeGen.JobsILPostProcessor
+282: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+--- CONTEXT Warning, lines 298-355 ---
+298: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+299:       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+300: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+301:       Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 131 defines and 313 references
+302: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+303:       processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+304: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+305:       running Unity.Jobs.CodeGen.JobsILPostProcessor
+306: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+307:       running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+308: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+309:       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+310: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+311:       Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 28.5890ms
+312: ExitCode: 0 Duration: 2s728ms
+313: Finished compiling graph: 701 nodes, 12637 flattened edges (10195 ToBuild, 114 ToUse), maximum node priority 869
+314: [375/698    0s] WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+315: [376/698    0s] WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.rsp
+316: [536/698    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+317: [690/698    1s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+318: Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+319: [691/698    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+320: Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 133 defines and 277 references
+321: processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+322: running Unity.Jobs.CodeGen.JobsILPostProcessor
+323: running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+324: [692/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+325: [693/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+326: [694/698    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+327: [695/698    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+328: Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 131 defines and 313 references
+329: processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+330: running Unity.Jobs.CodeGen.JobsILPostProcessor
+331: running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+332: [696/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+333: [697/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+334: *** Tundra build success (2.72 seconds), 11 items updated, 698 evaluated
+335: Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+336: AssetDatabase: script compilation time: 3.871648s
+337: Begin MonoManager ReloadAssembly
+338: Total cache size 149956216
+339: Total cache size after purge 149956216, took 00:00:00.0577684
+340: - Loaded All Assemblies, in  0.279 seconds
+341: 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+342: 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+343: Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+344: Native extension for OSXStandalone target not found
+345: Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+346: ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+347: Mono: successfully reloaded assembly
+348: - Finished resetting the current domain, in  1.237 seconds
+349: Domain Reload Profiling: 1516ms
+350: 	BeginReloadAssembly (86ms)
+351: 		ExecutionOrderSort (0ms)
+352: 		DisableScriptedObjects (7ms)
+353: 		BackupInstance (0ms)
+354: 		ReleaseScriptingObjects (0ms)
+355: 		CreateAndSetChildDomain (31ms)
+
+CATEGORY negative-scale-collision: 1 matched lines
+MATCH 478: Start importing Assets/Farm/Data/UpperBankWalkCollision.asset using Guid(1b1e56d4c0b0f4f23b7bf7823a1bb80f) (NativeFormatImporter) -> (artifact id: '44946cda1a1e54ea54675c1b9a23f1f7') in 0.000460208 seconds
+CLASSIFICATION: RESOURCE_OR_CLASS_NAME: asset import/build listing; not a negative-scale/collision warning.
+--- CONTEXT negative-scale-collision, lines 458-498 ---
+458: 2026-10-25 02:42:23.981 Unity[10489:9158337] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xaef938a00 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+459: Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+460: Unloading 2 unused Assets / (22.5 KB). Loaded Objects now: 5211.
+461: Memory consumption went from 212.1 MB to 212.1 MB.
+462: Total: 3.194209 ms (FindLiveObjects: 0.060459 ms CreateObjectMapping: 0.034750 ms MarkObjects: 3.090084 ms  DeleteObjects: 0.008667 ms)
+463: 
+464: Asset Pipeline Refresh (id=69c35ee166ae147f1a93f49828239fe4): Total: 0.093 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+465: Start importing ProjectSettings/QualitySettings.asset using Guid(00000000000000009000000000000000) (LibraryAssetImporter) -> (artifact id: 'd84099bcb0c383ef597f7f6b5113e4d4') in 0.000606875 seconds
+466: Start importing ProjectSettings/GraphicsSettings.asset using Guid(00000000000000006100000000000000) (LibraryAssetImporter) -> (artifact id: '06eb22b912fb7562fa90e7a3163c7c63') in 0.000312584 seconds
+467: Start importing Assets/Farm/Settings/FarmRenderer.asset using Guid(400db62e26c93446696f369a817f4872) (NativeFormatImporter) -> (artifact id: 'd07c7327fc4d4d5fc6b94aa6f03568cd') in 0.000445875 seconds
+468: Start importing Assets/Farm/Settings/FarmDesktopRenderer.asset using Guid(1524cc0f1da364d169bdd1f7374cd1a6) (NativeFormatImporter) -> (artifact id: 'e2b9f81cbca8966fc2c9bcc811ae10b5') in 0.000477083 seconds
+469: Start importing Assets/Farm/Data/GroundWithSoilAndPondOpenings.asset using Guid(75973a469004d4475b7870d03a92a5fc) (NativeFormatImporter) -> (artifact id: '143460ce5f40035a9264c796d7a7fc1c') in 0.000596583 seconds
+470: Start importing Assets/Farm/Data/RoadNetwork.asset using Guid(87f58620d4e26457d811938d59533f69) (NativeFormatImporter) -> (artifact id: '27b3ab7cd7972e4550a7ff4f8d49f6ba') in 0.0004035 seconds
+471: Start importing Assets/Farm/Settings/DesktopURP.asset using Guid(c9e41bd9296f145a0b3ba7f8aad6a41c) (NativeFormatImporter) -> (artifact id: '8ac221259ff67c08c6a7fb42a2cee68a') in 0.000366125 seconds
+472: Start importing Assets/Farm/Settings/MobileURP.asset using Guid(6b53708d841bb47498d2f91dc07f5879) (NativeFormatImporter) -> (artifact id: '2aa66c53284809b4c8e88d388a3865bf') in 0.000406875 seconds
+473: Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+474: Preloading 0 native plugins for Editor in 0.00 ms.
+475: Asset Pipeline Refresh (id=c0589883a45ef467faf1fb6606a1d4c1): Total: 0.014 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+476: Asset Pipeline Refresh (id=45af2d0593a3140c0b58989f2522f3a6): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+477: Start importing Assets/Farm/Data/PondSurface.asset using Guid(770750ca8e8134ff4a18a654d481bdec) (NativeFormatImporter) -> (artifact id: 'c777f5713e197f3259438f302bb67a70') in 0.000566625 seconds
+478: Start importing Assets/Farm/Data/UpperBankWalkCollision.asset using Guid(1b1e56d4c0b0f4f23b7bf7823a1bb80f) (NativeFormatImporter) -> (artifact id: '44946cda1a1e54ea54675c1b9a23f1f7') in 0.000460208 seconds
+479: Start importing Assets/Farm/Data/BankBacking.asset using Guid(9d33be82647c54528a1a52847399138f) (NativeFormatImporter) -> (artifact id: '89f6b8c2a8c96493ffb91cedb3d70cb6') in 0.0003725 seconds
+480: Refreshing native plugins compatible for Editor in 0.14 ms, found 0 plugins.
+481: Preloading 0 native plugins for Editor in 0.00 ms.
+482: Asset Pipeline Refresh (id=3ed3b0e4262214d2b9f1333ae8bfe5c0): Total: 0.010 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+483: Asset Pipeline Refresh (id=54e1311ae664f4a398b0106c346d7298): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+484: Asset Pipeline Refresh (id=060229df66f36414c96fa01fc9925c7a): Total: 0.037 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+485: Asset Pipeline Refresh (id=912e23367cbbd407db24a276c271a989): Total: 0.042 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+486: Asset Pipeline Refresh (id=1213ec91cfd374decac2d45911238a60): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+487: Asset Pipeline Refresh (id=1e46a2b23d6aa419e8d28ea80671dcd8): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+488: Asset Pipeline Refresh (id=a6b82caa530644a6183c8681bacd2ddf): Total: 0.042 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+489: Asset Pipeline Refresh (id=040cd69dbd5514aa084f8676e9e5ee48): Total: 0.044 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+490: Asset Pipeline Refresh (id=80af861b53fa84c4baab948f62f0c670): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+491: Asset Pipeline Refresh (id=af685607c6f12448eb1f1ae3d3262595): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+492: Asset Pipeline Refresh (id=fca1f408dbba64761ab16fe65b543221): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+493: Asset Pipeline Refresh (id=bea6fc2b5975a48beb182037a55ff724): Total: 0.042 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+494: Asset Pipeline Refresh (id=d49aef9d5f3b54135931372ecad85f97): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+495: Asset Pipeline Refresh (id=af538c348bfdb4b1c935da91648a265e): Total: 0.040 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+496: Start importing Assets/Farm/Materials/LandscapePolish/RoadEdgeMask-r03.png using Guid(cd6e00d9ab65d475caca3296d51d67f1) (TextureImporter) -> (artifact id: '7719202f05ecf86f9e8b83bf7f5dd4fd') in 0.02503525 seconds
+497: Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+498: Preloading 0 native plugins for Editor in 0.00 ms.
+
+CATEGORY ImporterNameMismatch: 6 matched lines
+MATCH 1014: Start importing Assets/Farm/GeneratedR09/OcclusionDither/cc5cca0e6db094d44a9b93d9f50768ab-2100000.mat using Guid(6526aeca385b84adcbcd7a27ffc76c11) (NativeFormatImporter)Main Object Name 'E08-8403be2f76de64eaeb17cec4afc8b121--5697061326574116905-r08 — dither fade r08' does not match filename 'cc5cca0e6db094d44a9b93d9f50768ab-2100000'
+CLASSIFICATION: REAL_IMPORTER_DIAGNOSTIC: generated OcclusionDither material main-object name differs from its hashed filename; original message and stack retained.
+MATCH 1025: Start importing Assets/Farm/GeneratedR09/OcclusionDither/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat using Guid(263113afb8f9a479b8d636f605376e66) (NativeFormatImporter)Main Object Name 'S01 baked matte surface — dither fade r08' does not match filename 'cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069'
+CLASSIFICATION: REAL_IMPORTER_DIAGNOSTIC: generated OcclusionDither material main-object name differs from its hashed filename; original message and stack retained.
+MATCH 1036: Start importing Assets/Farm/GeneratedR09/OcclusionDither/a3926582913fe4928b8e220305447b1f-2100000.mat using Guid(c7b6b70e53b2b49ba904900749b16f97) (NativeFormatImporter)Main Object Name 'E09-cc48e1406872f4a5f96d4b526b850aed-1966872565820863317-r08 — dither fade r08' does not match filename 'a3926582913fe4928b8e220305447b1f-2100000'
+CLASSIFICATION: REAL_IMPORTER_DIAGNOSTIC: generated OcclusionDither material main-object name differs from its hashed filename; original message and stack retained.
+MATCH 1047: Start importing Assets/Farm/GeneratedR09/OcclusionDither/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat using Guid(5904d2167a9124ff29cdad6ae6edd528) (NativeFormatImporter)Main Object Name 'S01 baked matte surface — dither fade r08' does not match filename '73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069'
+CLASSIFICATION: REAL_IMPORTER_DIAGNOSTIC: generated OcclusionDither material main-object name differs from its hashed filename; original message and stack retained.
+MATCH 1058: Start importing Assets/Farm/GeneratedR09/OcclusionDither/16c41184e4a4840c381af09f26e01350-2100000.mat using Guid(bb7c25178443c4a5fb998898757d391b) (NativeFormatImporter)Main Object Name 'E09-13224fa0a356247299adc90ff8420048-1966872565820863317-r08 — dither fade r08' does not match filename '16c41184e4a4840c381af09f26e01350-2100000'
+CLASSIFICATION: REAL_IMPORTER_DIAGNOSTIC: generated OcclusionDither material main-object name differs from its hashed filename; original message and stack retained.
+MATCH 1069: Start importing Assets/Farm/GeneratedR09/OcclusionDither/723c6050466a749668db0673016ece8b-2100000.mat using Guid(8fa38c3026b1544dda2b68e1fdca36ef) (NativeFormatImporter)Main Object Name 'E08-74ce7fbecc6d84a2883de5151921fe05--5697061326574116905-r08 — dither fade r08' does not match filename '723c6050466a749668db0673016ece8b-2100000'
+CLASSIFICATION: REAL_IMPORTER_DIAGNOSTIC: generated OcclusionDither material main-object name differs from its hashed filename; original message and stack retained.
+--- CONTEXT ImporterNameMismatch, lines 994-1089 ---
+994: Start importing Assets/Farm/GeneratedR09/OcclusionDither/cc5cca0e6db094d44a9b93d9f50768ab-2100000.mat using Guid(6526aeca385b84adcbcd7a27ffc76c11) (NativeFormatImporter) -> (artifact id: '7823616f049a4356327e28cfcd72534e') in 0.000615541 seconds
+995: Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+996: Preloading 0 native plugins for Editor in 0.00 ms.
+997: Asset Pipeline Refresh (id=580dd724d259f4342b99dc69fdce6c5e): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+998: Start importing Assets/Farm/GeneratedR09/OcclusionDither/a3926582913fe4928b8e220305447b1f-2100000.mat using Guid(c7b6b70e53b2b49ba904900749b16f97) (NativeFormatImporter) -> (artifact id: 'f6e648fdb5f0e149757a462e5bd928ba') in 0.000535 seconds
+999: Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+1000: Preloading 0 native plugins for Editor in 0.00 ms.
+1001: Asset Pipeline Refresh (id=baa17bb7ae53941d5a0afdf90d0c0914): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+1002: Start importing Assets/Farm/GeneratedR09/OcclusionDither/16c41184e4a4840c381af09f26e01350-2100000.mat using Guid(bb7c25178443c4a5fb998898757d391b) (NativeFormatImporter) -> (artifact id: '4ab7ed67557638ecf4d6742484db450e') in 0.000475917 seconds
+1003: Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+1004: Preloading 0 native plugins for Editor in 0.00 ms.
+1005: Asset Pipeline Refresh (id=7de928f1460c94a83b96ad4375bbb33f): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+1006: Start importing Assets/Farm/GeneratedR09/OcclusionDither/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat using Guid(5904d2167a9124ff29cdad6ae6edd528) (NativeFormatImporter) -> (artifact id: 'b8f874fddb8eccd3c2e09e91477a143f') in 0.000602834 seconds
+1007: Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+1008: Preloading 0 native plugins for Editor in 0.00 ms.
+1009: Asset Pipeline Refresh (id=43998345d65d342d2b024fdb9e963feb): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+1010: Start importing Assets/Farm/GeneratedR09/OcclusionDither/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat using Guid(263113afb8f9a479b8d636f605376e66) (NativeFormatImporter) -> (artifact id: '17c306a24550efb6a5a44b04d12107ba') in 0.0005665 seconds
+1011: Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+1012: Preloading 0 native plugins for Editor in 0.00 ms.
+1013: Asset Pipeline Refresh (id=df9fc1fb0568f4263bb480642676ab13): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+1014: Start importing Assets/Farm/GeneratedR09/OcclusionDither/cc5cca0e6db094d44a9b93d9f50768ab-2100000.mat using Guid(6526aeca385b84adcbcd7a27ffc76c11) (NativeFormatImporter)Main Object Name 'E08-8403be2f76de64eaeb17cec4afc8b121--5697061326574116905-r08 — dither fade r08' does not match filename 'cc5cca0e6db094d44a9b93d9f50768ab-2100000'
+1015: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+1016: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+1017: LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+1018: LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+1019: LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+1020: LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+1021: 
+1022: [Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+1023: 
+1024:  -> (artifact id: '5e1cb28cfa820a3587a692029a971f49') in 0.001099833 seconds
+1025: Start importing Assets/Farm/GeneratedR09/OcclusionDither/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat using Guid(263113afb8f9a479b8d636f605376e66) (NativeFormatImporter)Main Object Name 'S01 baked matte surface — dither fade r08' does not match filename 'cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069'
+1026: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+1027: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+1028: LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+1029: LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+1030: LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+1031: LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+1032: 
+1033: [Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+1034: 
+1035:  -> (artifact id: 'f5b90fb9d86a4120f66580fef52afe1d') in 0.001478792 seconds
+1036: Start importing Assets/Farm/GeneratedR09/OcclusionDither/a3926582913fe4928b8e220305447b1f-2100000.mat using Guid(c7b6b70e53b2b49ba904900749b16f97) (NativeFormatImporter)Main Object Name 'E09-cc48e1406872f4a5f96d4b526b850aed-1966872565820863317-r08 — dither fade r08' does not match filename 'a3926582913fe4928b8e220305447b1f-2100000'
+1037: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+1038: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+1039: LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+1040: LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+1041: LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+1042: LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+1043: 
+1044: [Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+1045: 
+1046:  -> (artifact id: '5dfc8c0cc6869756fbdae330f337d2c8') in 0.000417291 seconds
+1047: Start importing Assets/Farm/GeneratedR09/OcclusionDither/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat using Guid(5904d2167a9124ff29cdad6ae6edd528) (NativeFormatImporter)Main Object Name 'S01 baked matte surface — dither fade r08' does not match filename '73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069'
+1048: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+1049: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+1050: LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+1051: LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+1052: LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+1053: LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+1054: 
+1055: [Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+1056: 
+1057:  -> (artifact id: '8a8310c9d44de5ca671be0b96f23a97f') in 0.000527042 seconds
+1058: Start importing Assets/Farm/GeneratedR09/OcclusionDither/16c41184e4a4840c381af09f26e01350-2100000.mat using Guid(bb7c25178443c4a5fb998898757d391b) (NativeFormatImporter)Main Object Name 'E09-13224fa0a356247299adc90ff8420048-1966872565820863317-r08 — dither fade r08' does not match filename '16c41184e4a4840c381af09f26e01350-2100000'
+1059: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+1060: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+1061: LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+1062: LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+1063: LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+1064: LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+1065: 
+1066: [Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+1067: 
+1068:  -> (artifact id: '1422d064e82692a2bfe2edaff39584f9') in 0.000419375 seconds
+1069: Start importing Assets/Farm/GeneratedR09/OcclusionDither/723c6050466a749668db0673016ece8b-2100000.mat using Guid(8fa38c3026b1544dda2b68e1fdca36ef) (NativeFormatImporter)Main Object Name 'E08-74ce7fbecc6d84a2883de5151921fe05--5697061326574116905-r08 — dither fade r08' does not match filename '723c6050466a749668db0673016ece8b-2100000'
+1070: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+1071: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+1072: LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+1073: LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+1074: LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+1075: LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+1076: 
+1077: [Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+1078: 
+1079:  -> (artifact id: '56d4e3961d0fc92fd200165896d45a41') in 0.000388459 seconds
+1080: Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+1081: Preloading 0 native plugins for Editor in 0.00 ms.
+1082: Asset Pipeline Refresh (id=0ac4738403cca4f8a9953ff96f99b3af): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+1083: Start importing Assets/Farm/Scenes/FarmWorld.unity using Guid(c773f15021150444e93c815a8bcb7504) (DefaultImporter) -> (artifact id: 'e7eac79873447bf40ad89f8dae8c1a6c') in 0.000924084 seconds
+1084: Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+1085: Preloading 0 native plugins for Editor in 0.00 ms.
+1086: Asset Pipeline Refresh (id=35983bcd30da54f5882440dd9b82950b): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+1087: Opening scene 'Assets/Farm/Scenes/FarmWorld.unity'
+1088: Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+1089: Loaded scene 'Assets/Farm/Scenes/FarmWorld.unity'
+
+CATEGORY DuplicateHintPath: 2 matched lines
+MATCH 261:       Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+CLASSIFICATION: REAL_ILPP_WARNING_DETAIL: two assembly hints; log states which path was ignored in favor of another.
+MATCH 263:       Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+CLASSIFICATION: REAL_ILPP_WARNING_DETAIL: two assembly hints; log states which path was ignored in favor of another.
+--- CONTEXT DuplicateHintPath, lines 241-283 ---
+241: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+242:       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+243: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+244:       Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 33.0048ms
+245: Starting: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+246: WorkingDir: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+247: DisplayProgressbar: Compiling Scripts
+248: ExitCode: 4 Duration: 0s93ms
+249: Rebuilding DAG because FileSignature timestamp changed: Library/Bee/200b0aE-inputdata.json
+250: *** Tundra requires additional run (0.08 seconds), 0 items updated, 380 evaluated
+251: Starting: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/netcorerun/netcorerun "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/ScriptCompilationBuildProgram.exe" "Library/Bee/200b0aE.dag.json" "Library/Bee/200b0aE-inputdata.json" "Library/Bee/buildprogram0.traceevents"
+252: WorkingDir: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+253: ExitCode: 0 Duration: 0s662ms
+254: Starting: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --dagfilejson="Library/Bee/200b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+255: WorkingDir: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+256: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+257:       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+258: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+259:       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+260: [40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+261:       Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+262: [40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+263:       Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+264: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+265:       Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+266: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+267:       Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+268: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+269:       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+270: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+271:       Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 13.4022ms
+272: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+273:       Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+274: [40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+275:       Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+276: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+277:       Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 133 defines and 277 references
+278: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+279:       processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+280: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+281:       running Unity.Jobs.CodeGen.JobsILPostProcessor
+282: [40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+283:       Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library/Bee/artifacts/200b0aE.dag/Unity.Collections.dll
+

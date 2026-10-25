@@ -1,0 +1,1266 @@
+Unity Editor version:    6000.3.16f1 (a56f230f6470)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.4 (Build 25E246)
+Darwin version:          25.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        24576 MB
+Date:                    2026-10-24T18:42:15Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen" at "2026-10-24T18:42:15.233254Z"
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/MacOS/Unity
+-batchmode
+-quit
+-projectPath
+/Users/haowen/GameProject/farm-game/lulu-farm-unity
+-buildTarget
+StandaloneOSX
+-executeMethod
+LuluFarm.Editor.FarmProjectBuilder.R07GenerateReview
+--r07-task
+O7
+-logFile
+/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/generate-20261024-184214.log
+Successfully changed project path to: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+/Users/haowen/GameProject/farm-game/lulu-farm-unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8318097600]  Target information:
+
+Player connection [8318097600]  * "[IP] 192.168.3.56 [Port] 55504 [Flags] 2 [Guid] 2353591297 [EditorId] 2353591297 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8318097600]  * "[IP] 2.0.0.1 [Port] 55504 [Flags] 2 [Guid] 2353591297 [EditorId] 2353591297 [Version] 1048832 [Id] OSXEditor(0,haowendeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8318097600] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8318097600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 950, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-haowen"
+[Licensing::IpcConnector] LicenseClient-haowen channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-haowen-6000.3.16 doesn't exist
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client
+[Licensing::Module] Successfully launched the LicensingClient (PId: 10515)
+[Package Manager] Connected to IPC stream "Upm-10489" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16" at "2026-10-24T18:42:15.752056Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              07186cfe45eb49ad971cc406700347de
+  Correlation Id:          bff558cdca9b923be1924999690cbf41
+  External correlation Id: 7502626029372884342
+  Machine Id:              /Nupwpvn+B6eSAVQ3yApaC/kimk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-haowen-6000.3.16" (connect: 0.25s, validation: 0.04s, handshake: 0.20s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-haowen-6000.3.16-notifications" at "2026-10-24T18:42:15.98709Z"
+[Licensing::Module] Connected to LicensingClient (PId: 10515, launch time: 0.00, total connection time: 0.49s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-NVMZ-M74F-8H5W-26YW-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-11-03T18:58:32Z
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.76s
+[Licensing::Module] Licensing is initialized (took 0.45s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Targeting platform: StandaloneOSX
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.16f1 (a56f230f6470)
+[Subsystems] Discovering subsystems at path /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M5 (high power)
+Metal devices available: 1
+0: Apple M5 (high power)
+Using device Apple M5 (high power)
+Initializing Metal device caps: Apple M5
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56489
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000522 seconds.
+- Loaded All Assemblies, in  0.210 seconds
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.167 seconds
+Domain Reload Profiling: 377ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (76ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (69ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (167ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (56ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 30 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.cinemachine@3.1.5 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cinemachine@5342685532bb)
+    com.unity.inputsystem@1.14.2 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5)
+    com.unity.cloud.gltfast@6.20.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.cloud.gltfast@11ddc2436f97)
+    com.unity.burst@1.8.30 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.burst@2f3d916873ea)
+    com.unity.collections@2.6.8 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.collections@84e8eb3fc12e)
+    com.unity.mathematics@1.3.3 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.mathematics@19a9377c4ffa)
+    com.unity.splines@2.8.4 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.splines@9b00833aca09)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.4.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework.performance@aa81a99c4a75)
+    com.unity.settings-manager@2.1.1 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.settings-manager@0b8638c5ce86)
+    com.unity.searcher@4.9.4 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.searcher@d45a78918735)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal@97f77d4dda9a)
+    com.unity.ugui@2.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ugui@23e8d17bfaf9)
+    com.unity.test-framework@1.6.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.test-framework@aebcb98460c6)
+    com.unity.modules.animation@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.audio@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.physics@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.ui@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.imgui@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.hierarchycore@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.core@648b47f96bf1)
+    com.unity.shadergraph@17.3.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.shadergraph@138213decc3c)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+    com.unity.modules.terrain@1.0.0 (location: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Library/PackageCache/com.unity.modules.terrain)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://unix:/tmp/ilpp.sock-280f456360f2067f991e0d554bccba31
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/haowen/GameProject/farm-game/lulu-farm-unity/
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 33.0048ms
+Starting: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 0s93ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/200b0aE-inputdata.json
+*** Tundra requires additional run (0.08 seconds), 0 items updated, 380 evaluated
+Starting: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/netcorerun/netcorerun "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/ScriptCompilationBuildProgram.exe" "Library/Bee/200b0aE.dag.json" "Library/Bee/200b0aE-inputdata.json" "Library/Bee/buildprogram0.traceevents"
+WorkingDir: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+ExitCode: 0 Duration: 0s662ms
+Starting: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --dagfilejson="Library/Bee/200b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: /Users/haowen/GameProject/farm-game/lulu-farm-unity
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+[40m[1m[33mwarn[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors application/grpc - - 200 - application/grpc 13.4022ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 133 defines and 277 references
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library/Bee/artifacts/200b0aE.dag/Unity.Collections.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.CoreModule.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.CoreModule.dll
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@2f3d916873ea/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 202.1795ms
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc -
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 131 defines and 313 references
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+[40m[32minfo[39m[22m[49m: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly application/grpc - - 200 - application/grpc 28.5890ms
+ExitCode: 0 Duration: 2s728ms
+Finished compiling graph: 701 nodes, 12637 flattened edges (10195 ToBuild, 114 ToUse), maximum node priority 869
+[375/698    0s] WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+[376/698    0s] WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.rsp
+[536/698    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[690/698    1s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+[691/698    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 133 defines and 277 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[692/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[693/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[694/698    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[695/698    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 131 defines and 313 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[696/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[697/698    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (2.72 seconds), 11 items updated, 698 evaluated
+Assets/Farm/Scripts/Runtime/FarmAmbientEvidenceR07.cs(13,26): warning CS0108: 'FarmAmbientEvidenceR07.audio' hides inherited member 'Component.audio'. Use the new keyword if hiding was intended.
+AssetDatabase: script compilation time: 3.871648s
+Begin MonoManager ReloadAssembly
+Total cache size 149956216
+Total cache size after purge 149956216, took 00:00:00.0577684
+- Loaded All Assemblies, in  0.279 seconds
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.237 seconds
+Domain Reload Profiling: 1516ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (65ms)
+			TypeCache.Refresh (48ms)
+				TypeCache.ScanAssembly (42ms)
+			BuildScriptInfoCaches (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1238ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1123ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (959ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Start importing Assets/Farm/Shaders/Waterfall-r09.shader using Guid(e07692c1ad924e35a1037f6f95b6f798) (ShaderImporter)Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+ -> (artifact id: '2ec5c19fd2a8a5dc47bd8f8f267f7e75') in 0.077919375 seconds
+Start importing Assets/Farm/Shaders/IslandRimLight-r10.shader using Guid(f4d0890c53a343d79713668fc1ab2b5d) (ShaderImporter) -> (artifact id: 'f084108106fc0f394568274116b2d175') in 0.003476833 seconds
+Start importing Assets/Farm/Shaders/SkyBirds-r10.shader using Guid(18a41fa34c8b46b0b327a9802548236b) (ShaderImporter) -> (artifact id: 'a20f650bcfae55e95cae8e6a1618ae60') in 0.011068625 seconds
+Start importing Assets/Farm/Shaders/FarmOcclusionDither-r09.shader using Guid(1959d4c0441c47458635a23be9709b1e) (ShaderImporter) -> (artifact id: 'f2f175b46abdb27a08e51c7dc882f8af') in 0.007215417 seconds
+Start importing Assets/Farm/Shaders/FarmLivingSurface-r10.shader using Guid(4f43c977356c4295beeece99b520f61a) (ShaderImporter) -> (artifact id: 'eebd8103e381ea197810bd25c3599e95') in 0.0066945 seconds
+Start importing Assets/Farm/Shaders/SkyCloud-r09.shader using Guid(9fdf03b2bdd6410cb5100fad45eee1ea) (ShaderImporter) -> (artifact id: '25d1eee7663351ae72de5f05c01475e8') in 0.004529667 seconds
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launching external process: /Users/haowen/GameProject/farm-game/.unity-install/Editors/6000.3.16f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=dc82a0d901572449498f725490dca7e5): Total: 6.248 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=6 (actual=6, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=1706 ms
+		Asset DB Callback time: managed=284 ms, native=93 ms
+		Scripting: domain reloads=1, domain reload time=278 ms, compile time=3872 ms, other=11 ms
+		Project Asset Count: scripts=1112, non-scripts=3064
+		Asset File Changes: new=9, changed=14, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 4.908ms
+	ApplyChangesToAssetFolders: 0.098ms
+	Scan: 222.250ms
+	OnSourceAssetsModified: 1.092ms
+	CategorizeAssetsWithTransientArtifact: 12.287ms
+	ProcessAssetsWithTransientArtifactChanges: 20.924ms
+	CategorizeAssets: 46.116ms
+	ImportOutOfDateAssets: 1355.870ms (-2632.565ms without children)
+		ImportManagerImport: 115.131ms (0.578ms without children)
+			ImportInProcess: 114.192ms
+			UpdateCategorizedAssets: 0.361ms
+		CompileScripts: 3872.218ms
+		ReloadNativeAssets: 0.015ms
+		UnloadImportedAssets: 0.357ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.304ms
+		InitializingProgressBar: 0.003ms
+		OnDemandSchedulerStart: 0.407ms
+	PostProcessAllAssets: 369.885ms
+	Hotreload: 1.907ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 1.053ms
+	PersistCurrentRevisions: 0.108ms
+	UnloadStreamsEnd: 0.000ms
+	GenerateScriptTypeHashes: 1.128ms
+	Untracked: 4211.733ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 0.029ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-噜噜农场
+2026-10-25 02:42:23.953 Unity[10489:9158337] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xaef939ea0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4328 unused Assets / (5.0 MB). Loaded Objects now: 5203.
+Memory consumption went from 223.9 MB to 219.0 MB.
+Total: 4.387791 ms (FindLiveObjects: 0.137375 ms CreateObjectMapping: 0.069166 ms MarkObjects: 3.243833 ms  DeleteObjects: 0.937208 ms)
+
+2026-10-25 02:42:23.981 Unity[10489:9158337] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xaef938a00 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (22.5 KB). Loaded Objects now: 5211.
+Memory consumption went from 212.1 MB to 212.1 MB.
+Total: 3.194209 ms (FindLiveObjects: 0.060459 ms CreateObjectMapping: 0.034750 ms MarkObjects: 3.090084 ms  DeleteObjects: 0.008667 ms)
+
+Asset Pipeline Refresh (id=69c35ee166ae147f1a93f49828239fe4): Total: 0.093 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing ProjectSettings/QualitySettings.asset using Guid(00000000000000009000000000000000) (LibraryAssetImporter) -> (artifact id: 'd84099bcb0c383ef597f7f6b5113e4d4') in 0.000606875 seconds
+Start importing ProjectSettings/GraphicsSettings.asset using Guid(00000000000000006100000000000000) (LibraryAssetImporter) -> (artifact id: '06eb22b912fb7562fa90e7a3163c7c63') in 0.000312584 seconds
+Start importing Assets/Farm/Settings/FarmRenderer.asset using Guid(400db62e26c93446696f369a817f4872) (NativeFormatImporter) -> (artifact id: 'd07c7327fc4d4d5fc6b94aa6f03568cd') in 0.000445875 seconds
+Start importing Assets/Farm/Settings/FarmDesktopRenderer.asset using Guid(1524cc0f1da364d169bdd1f7374cd1a6) (NativeFormatImporter) -> (artifact id: 'e2b9f81cbca8966fc2c9bcc811ae10b5') in 0.000477083 seconds
+Start importing Assets/Farm/Data/GroundWithSoilAndPondOpenings.asset using Guid(75973a469004d4475b7870d03a92a5fc) (NativeFormatImporter) -> (artifact id: '143460ce5f40035a9264c796d7a7fc1c') in 0.000596583 seconds
+Start importing Assets/Farm/Data/RoadNetwork.asset using Guid(87f58620d4e26457d811938d59533f69) (NativeFormatImporter) -> (artifact id: '27b3ab7cd7972e4550a7ff4f8d49f6ba') in 0.0004035 seconds
+Start importing Assets/Farm/Settings/DesktopURP.asset using Guid(c9e41bd9296f145a0b3ba7f8aad6a41c) (NativeFormatImporter) -> (artifact id: '8ac221259ff67c08c6a7fb42a2cee68a') in 0.000366125 seconds
+Start importing Assets/Farm/Settings/MobileURP.asset using Guid(6b53708d841bb47498d2f91dc07f5879) (NativeFormatImporter) -> (artifact id: '2aa66c53284809b4c8e88d388a3865bf') in 0.000406875 seconds
+Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c0589883a45ef467faf1fb6606a1d4c1): Total: 0.014 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=45af2d0593a3140c0b58989f2522f3a6): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Data/PondSurface.asset using Guid(770750ca8e8134ff4a18a654d481bdec) (NativeFormatImporter) -> (artifact id: 'c777f5713e197f3259438f302bb67a70') in 0.000566625 seconds
+Start importing Assets/Farm/Data/UpperBankWalkCollision.asset using Guid(1b1e56d4c0b0f4f23b7bf7823a1bb80f) (NativeFormatImporter) -> (artifact id: '44946cda1a1e54ea54675c1b9a23f1f7') in 0.000460208 seconds
+Start importing Assets/Farm/Data/BankBacking.asset using Guid(9d33be82647c54528a1a52847399138f) (NativeFormatImporter) -> (artifact id: '89f6b8c2a8c96493ffb91cedb3d70cb6') in 0.0003725 seconds
+Refreshing native plugins compatible for Editor in 0.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3ed3b0e4262214d2b9f1333ae8bfe5c0): Total: 0.010 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=54e1311ae664f4a398b0106c346d7298): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=060229df66f36414c96fa01fc9925c7a): Total: 0.037 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=912e23367cbbd407db24a276c271a989): Total: 0.042 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=1213ec91cfd374decac2d45911238a60): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=1e46a2b23d6aa419e8d28ea80671dcd8): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=a6b82caa530644a6183c8681bacd2ddf): Total: 0.042 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=040cd69dbd5514aa084f8676e9e5ee48): Total: 0.044 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=80af861b53fa84c4baab948f62f0c670): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=af685607c6f12448eb1f1ae3d3262595): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=fca1f408dbba64761ab16fe65b543221): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=bea6fc2b5975a48beb182037a55ff724): Total: 0.042 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=d49aef9d5f3b54135931372ecad85f97): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=af538c348bfdb4b1c935da91648a265e): Total: 0.040 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/LandscapePolish/RoadEdgeMask-r03.png using Guid(cd6e00d9ab65d475caca3296d51d67f1) (TextureImporter) -> (artifact id: '7719202f05ecf86f9e8b83bf7f5dd4fd') in 0.02503525 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=eec5934dddc04458ba19c1c8ac2b4567): Total: 0.035 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/LandscapePolish/RoadEdgeMask-r03.png using Guid(cd6e00d9ab65d475caca3296d51d67f1) (TextureImporter) -> (artifact id: '7719202f05ecf86f9e8b83bf7f5dd4fd') in 0.018610459 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=0e7f9f8d7f58b440fafc9f5a6f1c132f): Total: 0.025 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Landscape polish authored: 39 instances, 180500 summed peak triangles (not measured visibility). Actual scene review pending.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LuluFarm.Editor.FarmProjectBuilder:PolishLandscape (UnityEngine.Transform) (at Assets/Farm/Editor/FarmLandscapePolish.cs:127)
+LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:362)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+
+(Filename: Assets/Farm/Editor/FarmLandscapePolish.cs Line: 127)
+
+Asset Pipeline Refresh (id=14ad5ee1cd217426489bf8adb44682c2): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=494c1046b8b404d109a6012e8cf0e90d): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Materials/LandscapePolish/Ground-polish-r03.mat using Guid(913a6eeab1f914ced84d6594f3415b57) (NativeFormatImporter) -> (artifact id: '9db0e12d79d774bdc602638c452cd6af') in 0.000595958 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/Ground-polish-r04.mat using Guid(c3f8445ec13b54284925b5fd724cecf4) (NativeFormatImporter) -> (artifact id: '8dd13f97991f53b112e244ab6135bda9') in 0.000641458 seconds
+Start importing Assets/Farm/Materials/FarmSky-r01.mat using Guid(77cce56b3d989482db753d9510f382e2) (NativeFormatImporter) -> (artifact id: 'e4f5c1f8b3504418e4cdbe629e6ced6b') in 0.000472 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8e05f0117c14b4afc828c33d092ebf0f): Total: 0.008 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=796e68cb3ace24b1584765c60c6ee859): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=bea6e9966d1e84fb7beb7c6d1b02cbdb): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=61ad2c605ccf84b86899371bb9db4dbb): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=1fbc81ec9fbf14fd0ac6939274a536f4): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=78f5b8e29a43a4166867ffecab27f4b8): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=2ca11712c0d3f4d0b9cbd89bf565362c): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=dcd238e91697d4d898c6a22ea9ebdb80): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=f1bbd3caae26e4087b389be46a79d52e): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=af2b060cbc28741f3b816a62cda3a24a): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4576bab8a3d4d47888b0cbc99752fe10): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=957bef278012242f284d77db83d7d01e): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=c7534744cfb71468aab3a98364177c12): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=3aecea705359f4c65b49bd793295ab35): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=c8ffb52ed3fab49168a1dbda6cfe3971): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4dd433b6c7f0f433cae12af4fd804c49): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=de25c3d563a084569bee58776ff74ebf): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09 using Guid(6994368ef130b4f849bca6f39decc3e5) (DefaultImporter) -> (artifact id: 'd83251b4306dca234ee60b83209e17b0') in 0.000494833 seconds
+Start importing Assets/Farm/GeneratedR09/Materials using Guid(f320c459ec4644412993379b459c7aa2) (DefaultImporter) -> (artifact id: 'c2d412ab517b7410c05a15fc97d26ab2') in 0.000477167 seconds
+Start importing Assets/Farm/GeneratedR09/Meshes using Guid(0d775c08ca0f4402298ff8c1c3367b92) (DefaultImporter) -> (artifact id: '29fa7b700a563ebf39517515ff44aaf4') in 0.000240125 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=41f392661a2b046cc8cdca45779efaf4): Total: 0.050 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IslandGround-r09.asset using Guid(eeb2e72effcb2406daeed3849919d37b) (NativeFormatImporter) -> (artifact id: 'd31af7375e16870d0c6329c1f307ef20') in 0.000640791 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f0805546e90064bc188633cc4dbb6d93): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IslandRimLight-r10.asset using Guid(9c223bd00ec924de3b36e68e0ebeb54c) (NativeFormatImporter) -> (artifact id: 'f984cf749835d3175523d38b3f227517') in 0.000503291 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a908559e4f41e4ea3a01fdf647cc412b): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/IslandRimLight-r10.mat using Guid(0fab70ae722b345b680af4c8404a773a) (NativeFormatImporter) -> (artifact id: '706583dd503320a1957fe52ed298b85a') in 0.000415083 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=1a3f97258b31043ae89f57b0a2c2f73e): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/IslandSoil-r09.mat using Guid(70e1991bd471042988f866e8ffa2c668) (NativeFormatImporter) -> (artifact id: 'e7b5a6f23270eb16039f51c69fa9e921') in 0.0003955 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6851e38233a0e4259903bf55a3ac1303): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/IslandCream-r09.mat using Guid(0c9a7267d45b243bc9c0f890de3a4bc3) (NativeFormatImporter) -> (artifact id: 'ee692850e11f8ad88df3146db3e4ff3b') in 0.000437125 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=925a930bf610f409893b884e65f1babe): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/IslandClay-r09.mat using Guid(69f754a170c1a4f049fa202ed1ca2de2) (NativeFormatImporter) -> (artifact id: '934c18df816e1294159c50e381cf288f') in 0.000427916 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2157dfa96e2294c28a2c830b4fb87ed9): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/IslandKeel-r09.mat using Guid(089d22b1767574a95a91649bcfed9f82) (NativeFormatImporter) -> (artifact id: '80b0c14dec46e150f07f7de0303f3cc2') in 0.000450583 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=04cf6df37fc6a44c1889a42ba29d4fd7): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IslandCliff-r09.asset using Guid(32b3ff746e3844d4b99f23eb4b831193) (NativeFormatImporter) -> (artifact id: '4ddbd1a1151b1e2789072503f1dfb593') in 0.001329667 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a1aa3dfbcc39a48f9a0feb45c00ad051): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=64dfd33f864c742e9bd84d00d8faec10): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/IslandSoil-r09.mat using Guid(70e1991bd471042988f866e8ffa2c668) (NativeFormatImporter) -> (artifact id: '13cf416294e97935f5c43fbe9751940e') in 0.000601708 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/IslandKeel-r09.mat using Guid(089d22b1767574a95a91649bcfed9f82) (NativeFormatImporter) -> (artifact id: 'fe8139c4ea3c8b6620c3066619e5a208') in 0.000415667 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/IslandClay-r09.mat using Guid(69f754a170c1a4f049fa202ed1ca2de2) (NativeFormatImporter) -> (artifact id: '1a4f980431924c9dcda5a07353f868f8') in 0.000253042 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/IslandCream-r09.mat using Guid(0c9a7267d45b243bc9c0f890de3a4bc3) (NativeFormatImporter) -> (artifact id: 'fb95a71fdbb26feafdab418f774f17aa') in 0.000387375 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/IslandRimLight-r10.mat using Guid(0fab70ae722b345b680af4c8404a773a) (NativeFormatImporter) -> (artifact id: '7e7018164f4d4d894596099406163a90') in 0.00023925 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e3c71d83e0d444761b4955f9a1d6bdad): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=0f9c2c69214d44ab79946719c0019e82): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=44c1fa5f9717a4e95820fd184337d622): Total: 0.038 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=ab84ca1ab886f4115ba70b3b8ec021fc): Total: 0.038 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e029f6c6b991f4ceab50dad9b005d8bc): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IslandStream-r09.asset using Guid(c886c1b547cc04846a291056d7c97cc3) (NativeFormatImporter) -> (artifact id: '2512efe57b6b1c63ea6036b80241900f') in 0.000601333 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=d011151473b1946e1a9674e525ad9225): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IslandWaterfall-r09.asset using Guid(2a3a43f3390c84737bc381758f0db9a4) (NativeFormatImporter) -> (artifact id: '6db781a830bacaa4f0ef516bc2bbe66c') in 0.00054425 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=0e4d88f615f804244994681d57ceefaa): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/Waterfall-r09.mat using Guid(8deb5ad0ac181446bb4a371f3271a53c) (NativeFormatImporter) -> (artifact id: '173ca256233ac533ee09b17788ab56ba') in 0.0007055 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7209e65a12af941cca93082501fb4837): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/SkyCloud-r09.mat using Guid(ef2d7bafc1e55425396388f739495771) (NativeFormatImporter) -> (artifact id: 'e9a3b850bedd176f7c38dcb9507728b7') in 0.000463958 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3909cd88ab548471da275435729ba50d): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/SkyCloudFloor-r10.mat using Guid(4e92b0832230244d6a6a38df7a15df29) (NativeFormatImporter) -> (artifact id: 'f4864a3de743832d5ae8ef11c6c26e11') in 0.000524709 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=aabcc59fdd073487d9e6ab11a797951d): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IslandCloudFloor-r10.asset using Guid(831e2501d09224205ac4adb76187c491) (NativeFormatImporter) -> (artifact id: '94f24a4e3e600834403527d245990f10') in 0.00055375 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b97e1bca0aaa6457e9acaf4f1da7a22e): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/SkyCloudTowers-r10.mat using Guid(f3c79fa6afbf44d5d912c91a719deb33) (NativeFormatImporter) -> (artifact id: 'fdd95e49131cb4bd75b89a168dcd8769') in 0.00059075 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9ef8669076f2946bc8daef3a1c73a204): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IslandCloudTowers-r10.asset using Guid(a6262d3f4c4b5407886aea36589a1e7e) (NativeFormatImporter) -> (artifact id: '9995adf0230143f3d1d5f1703f3de521') in 0.001836125 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=064189fd11ebf4049ab634cab09d60e8): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-0.asset using Guid(a0d4bb5a1c0914d1e99ae15e76b712b9) (NativeFormatImporter) -> (artifact id: '8428a158d6ce312d7a0ed61949989e83') in 0.000684125 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b6a3e253d6d6d4c66bf7496ea8fe42c0): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-0.asset using Guid(54f902f08a9b34d2992690a9c745ce97) (NativeFormatImporter) -> (artifact id: '5153cce246e08e462b4458f4abae0648') in 0.00094825 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=493fa8b6629004b049cb00c184ef97ac): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-1.asset using Guid(901d97777979248608f780cbaa5ef8b5) (NativeFormatImporter) -> (artifact id: '93cdf0bc0b6130b8a3ec3287e5f4c624') in 0.0005555 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2a9770f9134d44110ba68263f61f1e25): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-1.asset using Guid(3c0ba6d79e1e349e39250eb570ad5687) (NativeFormatImporter) -> (artifact id: '8164589e7d3a83c12189b5e2168ec776') in 0.00074425 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3a479f6fd1a104a55a7ae37557d51bcb): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-2.asset using Guid(cd1fbaa1e6c4e41c4bc6170ad00c9a92) (NativeFormatImporter) -> (artifact id: '306939741e51809ea6d3e3073188f707') in 0.00054725 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=1413c6370a99f41ddb31fffaf4b2e5b4): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-2.asset using Guid(87073c7581fa9445389aa150ff2e9a6e) (NativeFormatImporter) -> (artifact id: 'cc41c6806aa4c5c7d4a1e94409091f57') in 0.0006415 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=d05259b68afde43b1882b9bab0fec751): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-3.asset using Guid(d12f4633eac6a4f74a656707db7a4f94) (NativeFormatImporter) -> (artifact id: 'fb824b52b845fb8acfd1e25053641e5b') in 0.00052675 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9277b13f17613438fa09b5f925c7e9ec): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-3.asset using Guid(d2ab873260dbe43a497b07805232d165) (NativeFormatImporter) -> (artifact id: '5224a5c281eea24bfe8f647b3e5c1054') in 0.000774292 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=179e1a13831fa4d6d817e091ba279915): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-4.asset using Guid(7ab155c0c7fd8400a8605173b19f42ab) (NativeFormatImporter) -> (artifact id: '2444ee54420c63779c9dbfdbec40b2ca') in 0.000535458 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c2d85a9825c3d4402a8196777b498094): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-4.asset using Guid(645e251c07edf4f69afddee70d1f3a76) (NativeFormatImporter) -> (artifact id: 'ad5fc8ca406a145199337c91a058bea4') in 0.000722875 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2817d8ac7a7ae40f1a70149582365bf9): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-5.asset using Guid(25a463db4293f41f4b8c892c79a8ae9b) (NativeFormatImporter) -> (artifact id: 'bf41006245c93f89cb51ec5ec9f6676a') in 0.000500292 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2f7e90a0762c347ea82e520401654d9c): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-5.asset using Guid(7323f183ad4f44b10bd68a9d5b54e545) (NativeFormatImporter) -> (artifact id: '176f2ae8dc5aa0642a37937404aab598') in 0.000693125 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4ef7a5220abf0429ba109070506d924f): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-6.asset using Guid(c6521c86762f54cc69199d12e5f11b5e) (NativeFormatImporter) -> (artifact id: '50cf9d6281af603b1fd91a0cdba9a7dd') in 0.000461167 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2679899a72b3f4032b765448d8e57234): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-6.asset using Guid(40e6e3613239c485383f54c48386a205) (NativeFormatImporter) -> (artifact id: '15bf4182be7bdf62eaaa360969403a9c') in 0.00080325 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=266e5455817ad46ad9e7606ea756ff91): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-7.asset using Guid(437596763e4d6481e99a6ec573f31855) (NativeFormatImporter) -> (artifact id: 'c98658caed58daee2754a95ffe6d8e69') in 0.000436208 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5aa74f2c4415142789baf23f8ce1736f): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-7.asset using Guid(6e6a5abcb25e74496a7e9b91299f931d) (NativeFormatImporter) -> (artifact id: 'dcae7bb83fcecc487073064fb93dbdf1') in 0.000862167 seconds
+Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=eda3084ae47a948ada6fa829f4ce72c9): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-8.asset using Guid(e75c3762009304a95bf5c65fa50ccca3) (NativeFormatImporter) -> (artifact id: 'e2e645615759e9c399271c04d47a4e9b') in 0.000629541 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3822c46621dde451f8e3eeb865aa92cc): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-8.asset using Guid(0c87c799e6d4d45acb7af45e4d4a03bf) (NativeFormatImporter) -> (artifact id: '1130e29b0295605893767b1855a3cd4d') in 0.000662875 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=63b1be2eef28e4e59bb707185b632775): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-9.asset using Guid(062530b5a379146458bea4c09c24d964) (NativeFormatImporter) -> (artifact id: '136af473728e518201dff09183ef2104') in 0.000565209 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=62fe5ed043c504c6bb8977f17c36792c): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-9.asset using Guid(74a368bbdeca14fd88863a9e1bc33c31) (NativeFormatImporter) -> (artifact id: 'cf39c49acb0540ae2cee3996c3cfc445') in 0.000846292 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=d566bda9d09ee4b04976b06d4132bc5f): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletTop-r10-10.asset using Guid(b827e765acb634eae887bcb7ce6526f7) (NativeFormatImporter) -> (artifact id: '6cea7174aec1dc7d5934a6b3f397be20') in 0.000393042 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=77e268d620b244cf5af753da6b37b3b3): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IsletCliff-r10-10.asset using Guid(784456dbe4fe74da68d2e1deba0e8ef1) (NativeFormatImporter) -> (artifact id: '6cce0af5fc8d80917248501cd20d25c3') in 0.000602791 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=fe30b22eb24b14167a9b8893c0ee46bb): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IslandClouds-r09.asset using Guid(24b33443df37443f2b76c8eb61ec7ca8) (NativeFormatImporter) -> (artifact id: '27e7f07aef912989a4807d55ee666f0e') in 0.01083375 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8449ba3725a0b4ab6b9682a4468384d4): Total: 0.027 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Meshes/IslandBirds-r10.asset using Guid(cb7b9601eda0c4e6cbb8d6b0194e61b7) (NativeFormatImporter) -> (artifact id: '24fbf153f7bd9be60d851afa73710cc5') in 0.000760708 seconds
+Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=db683497f92b749c8a7b8bc7e1e8e328): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/SkyBirds-r10.mat using Guid(3d9e7a6fa06e54b11a2bb45cad504ce8) (NativeFormatImporter) -> (artifact id: '2e531f96d9a319829ed7920efbce3bcc') in 0.000367375 seconds
+Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=d329a779649ba4d19a0ca0eb50a4e856): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/Materials/SkyCloudTowers-r10.mat using Guid(f3c79fa6afbf44d5d912c91a719deb33) (NativeFormatImporter) -> (artifact id: '209b24f71926cd870bec138f52945e53') in 0.000560875 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/SkyBirds-r10.mat using Guid(3d9e7a6fa06e54b11a2bb45cad504ce8) (NativeFormatImporter) -> (artifact id: 'f0c8e4a72d521ec2465e0a7359c4f33d') in 0.000461958 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/Waterfall-r09.mat using Guid(8deb5ad0ac181446bb4a371f3271a53c) (NativeFormatImporter) -> (artifact id: '321e099e86abc6b9ebddd2af38e10f4f') in 0.000358375 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/SkyCloudFloor-r10.mat using Guid(4e92b0832230244d6a6a38df7a15df29) (NativeFormatImporter) -> (artifact id: '34043bf72c57d9c0ec5f8fa9774c6d01') in 0.00025125 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/SkyCloud-r09.mat using Guid(ef2d7bafc1e55425396388f739495771) (NativeFormatImporter) -> (artifact id: '5a952ea1e5ba5a785a95ccaae808f855') in 0.00032425 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2dad464b8cb744cd18768fdaf15cdb1d): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=60e6ca68d8ce04983ac9a939d8e4c808): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9c3afa82dccbf41f2a8c975d5985c023): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/FarmSky-r10.mat using Guid(aa99092a179424506985007fa125c0b8) (NativeFormatImporter) -> (artifact id: 'c09e53829e6bb444aedbffcf93dceada') in 0.000656916 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=73eaace3a553e4f50aa2f8c1b36d0257): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=c9a1d5d9630c64effb448e152e6ea82d): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR07/Ambient/chicken-939da1be848b347b78ad1aaa7a558538--4590802230340785185.mat using Guid(408b569f7ff024d08a55827bed144185) (NativeFormatImporter) -> (artifact id: '17fd745fc806a6be4efb324e0845f0e6') in 0.000806459 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/Butterfly_0.mat using Guid(e0a6494139bb844469c221a8cf8a8efe) (NativeFormatImporter) -> (artifact id: 'af02d08a3270269a3e9c7493080b4524') in 0.000569208 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E09-13224fa0a356247299adc90ff8420048-1966872565820863317.mat using Guid(01729814f69fb46ac8aece6c378ff82b) (NativeFormatImporter) -> (artifact id: 'c697d13e5093dc62c12419d88245cad5') in 0.000391917 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E10-a4dd1d96188d343e5b8d4c5b66c84acb-4797550335513968313.mat using Guid(211f2927d7e8a4a09920c6c7724cdd5c) (NativeFormatImporter) -> (artifact id: 'b1ca4eb341827c94d93c80744d147bf9') in 0.000337417 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/duck-a7e3b054ffbea409f986567bf850466e--5402444432533554046.mat using Guid(221d58b1ab2074c18906bba7579e8abc) (NativeFormatImporter) -> (artifact id: '8728489d1a6fa6d36b7db3ae37bbbf18') in 0.00044075 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/cow-398857732b1cf41228818d420e0c76cd-1917265764123730628.mat using Guid(9205d23876ed744778943a70a7ef3588) (NativeFormatImporter) -> (artifact id: '54bee33f1231565f5218b38c07988a39') in 0.0004005 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E11-3a4730c076d724fa384eb03a1ca54f43-4291540115698530152.mat using Guid(934bc7227e32c44aebbf53ad7b26f178) (NativeFormatImporter) -> (artifact id: '40367c41aa18cf106aa853b7413c63dd') in 0.000298583 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E12-9000efc517ad640b8a28e308876ddf5b-7673121673746883117.mat using Guid(04377e46392ec4566b70f62405ec5e96) (NativeFormatImporter) -> (artifact id: '1448dba2b39b47506a7c51093ed3b65f') in 0.000329083 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/chicken-0a46fbb224914408cbf3b1329facbf63--5294847220729325008.mat using Guid(0408dfe0671924fec9cae4dca90d5ef5) (NativeFormatImporter) -> (artifact id: '6c619aaf0a092a7aeb36522209355931') in 0.000347292 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/Butterfly_1.mat using Guid(94dfa4535054643598f5306cc0ca49d4) (NativeFormatImporter) -> (artifact id: '7e68d616e3153b39d7c3342ecfca6890') in 0.000327459 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-3250658316546735122.mat using Guid(c420ae4ea0d5948b4a15886ebc2c8695) (NativeFormatImporter) -> (artifact id: 'a17e5b7d2e0a982db0bd32afaffae48f') in 0.000398208 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E08-74ce7fbecc6d84a2883de5151921fe05--5697061326574116905.mat using Guid(65794602f8d1a41d79d8231b97206ed9) (NativeFormatImporter) -> (artifact id: '47a8c61de11a17323c88cbbb7455f939') in 0.000330167 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/pig-da88bb05c88684ecba95444ff4fc2a15-2683991794064962121.mat using Guid(b5d876aa22958456fa205e42c579b905) (NativeFormatImporter) -> (artifact id: '9cb4c336fa4f476f3fe1802a6f67c392') in 0.000329667 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/cow-055ad5dd9aa3d48e49475f950c07e56c-4156454276907913278.mat using Guid(e596acaa8338c488fba0bd7c1241ee9d) (NativeFormatImporter) -> (artifact id: '5f1467b3224326637eb148b100fd4e25') in 0.000324708 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/sheep-8e7fd5577a47546659b1e36137fd833c-282075598463810040.mat using Guid(067264e524ef84fbaaea80ad763e82b5) (NativeFormatImporter) -> (artifact id: 'cdd5cca99c457aa214c93b48bdae2db6') in 0.000313792 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/cow-398857732b1cf41228818d420e0c76cd-6004639175844578710.mat using Guid(26774f9a4b6c14f118e02fdcbcf6b7a8) (NativeFormatImporter) -> (artifact id: '21e9cb5dafcb3cda7a7bd62905754696') in 0.000303333 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/duck-306e2f7dced204d8f8f10a386c127268--2750781780128890884.mat using Guid(2688afc82cd834277a8cf555265ada9d) (NativeFormatImporter) -> (artifact id: 'bdba04267f3c4ece6b7730d5c69612c1') in 0.000304667 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/pig-0fa41d531d0bd40a4b947e2cadd2227a-3925320162787337200.mat using Guid(b6f20f2cba8c240b2be520875def3682) (NativeFormatImporter) -> (artifact id: '6eb87e86e756f91e2014232bb38fea3b') in 0.000323792 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/duck-306e2f7dced204d8f8f10a386c127268-402979158967242270.mat using Guid(d7a33ab17e10e43df8dc68ead6ee3bc5) (NativeFormatImporter) -> (artifact id: '5ee9196f1c46519f9fb40e6c48ac50f1') in 0.00030125 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/SoftWaterRing.mat using Guid(28b4cc8d156984935b683fac3e455684) (NativeFormatImporter) -> (artifact id: 'dda2355d4d3a7b8e0ded59a3bb15059d') in 0.0002915 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/cow-055ad5dd9aa3d48e49475f950c07e56c-7812879823591200411.mat using Guid(493012b9010d84107be6f583dec961b3) (NativeFormatImporter) -> (artifact id: '8ece1d2bbaf614fb9f24e5255e5ae42e') in 0.000282917 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/chicken-939da1be848b347b78ad1aaa7a558538-130322820583838218.mat using Guid(4970c931c36694ee1a85c46aaa75d1f6) (NativeFormatImporter) -> (artifact id: 'a478117c4aec6ce529c47362b6b303de') in 0.000291875 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/cow-398857732b1cf41228818d420e0c76cd--5660369277443133323.mat using Guid(b91da8cce334f4bfa96e37c0a26e02ba) (NativeFormatImporter) -> (artifact id: 'bef9b66b4448aef7f1d9a4540271ebb0') in 0.000304834 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/chicken-0a46fbb224914408cbf3b1329facbf63-9067459898399497607.mat using Guid(2a04e35e1f01446598a7494b0c2750ba) (NativeFormatImporter) -> (artifact id: '55ca4b03c16d6ff3c8c964609ec594e3') in 0.000293208 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/pig-0fa41d531d0bd40a4b947e2cadd2227a--1059805551187397979.mat using Guid(8a81228bd42bb4ae4bdf2af1a72acad2) (NativeFormatImporter) -> (artifact id: '001e64df4c68c0f055fa6f494f5389bb') in 0.0003005 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/FarmSky-r10.mat using Guid(aa99092a179424506985007fa125c0b8) (NativeFormatImporter) -> (artifact id: '32a2db56852ad558393e36199b812ddd') in 0.000254416 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/cow-055ad5dd9aa3d48e49475f950c07e56c-4547091758117064556.mat using Guid(0b81f9ec571d447f2a966d127cdf667c) (NativeFormatImporter) -> (artifact id: 'ba14dc7f0ee709cb54093c449142233a') in 0.000281209 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E10-e5657a105d0bc483b88163c7ca0babf4-4797550335513968313.mat using Guid(1b0a58b7ed9cf4b32aafc9a01e552f93) (NativeFormatImporter) -> (artifact id: '3ef7121206b9a8200a42066b7dce8552') in 0.000303542 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-2051146946026651743.mat using Guid(2bf4165e801864b3f9ad40e11c19d23f) (NativeFormatImporter) -> (artifact id: 'db12fcdb0712c23b820a2e76588c1ee3') in 0.000301708 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/ButterflyBody.mat using Guid(4b65eb6b18ba04193a78f17ecc845628) (NativeFormatImporter) -> (artifact id: '1147222b4a0b52f36a4428436fce60d3') in 0.000298041 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E12-121e6922a02204740908ef9e9e5bdd52-7673121673746883117.mat using Guid(5b7a5d1f95d2a4cbc98a11c0a47cd55d) (NativeFormatImporter) -> (artifact id: 'e68385550d4b3a6bd7deca690ed5ef8d') in 0.000314167 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E09-cc48e1406872f4a5f96d4b526b850aed-1966872565820863317.mat using Guid(5b0caddcc16ce4abeab8f4661924515f) (NativeFormatImporter) -> (artifact id: '7a49f2ef0a73471fdc5f06ee47bcdebe') in 0.000261875 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E11-435add5f76a084dacba286fe636711f4-4291540115698530152.mat using Guid(8bc2d420afa0543899b5b03e17bf9ffe) (NativeFormatImporter) -> (artifact id: 'ffd3768f3e0c1e28b490bc0a309563f4') in 0.000280666 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/Butterfly_2.mat using Guid(dba7f4d67c46c46a4b676bcf7ac41efa) (NativeFormatImporter) -> (artifact id: 'd1bdb62a2801643ad9439a0313465a56') in 0.000298625 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/pig-da88bb05c88684ecba95444ff4fc2a15-3234776088310061174.mat using Guid(0ce240e8ecff14b548cf6f8d3e85e578) (NativeFormatImporter) -> (artifact id: 'e155a7438e1750848909a1c6a2acf5e8') in 0.000311667 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/duck-a7e3b054ffbea409f986567bf850466e--6601293727016772069.mat using Guid(5cee482b6db674a4fb671cf57b12fde9) (NativeFormatImporter) -> (artifact id: '4d5b021bd94994a9f1fce191b74f6f76') in 0.000389916 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/FarmSky-r08.mat using Guid(0e9ef5da4a3e746a8839a75265ddb5fc) (NativeFormatImporter) -> (artifact id: '88fa56aca77437539b911886faf47474') in 0.000389292 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/sheep-8e7fd5577a47546659b1e36137fd833c-4022378295979664319.mat using Guid(7e6fa40beac074b908158c884a02f697) (NativeFormatImporter) -> (artifact id: 'bdae26e3e513ee3ca01c1431d3f25cf8') in 0.0003425 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/E08-8403be2f76de64eaeb17cec4afc8b121--5697061326574116905.mat using Guid(8e12c043c5c6e4c20b08a95939bcb260) (NativeFormatImporter) -> (artifact id: '116ee22776e5810029ade3cd13f8d7a3') in 0.000342917 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/Butterfly_3.mat using Guid(ae2730670cf7a4187b79f84784141bc0) (NativeFormatImporter) -> (artifact id: '1102f94796f7660e411e6f99238f8b10') in 0.0003615 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/WaterRippleRing.asset using Guid(91ccd0bcf5eae4a14aa681a34b208d90) (NativeFormatImporter) -> (artifact id: 'b83bfad71f1fe9bb2886e60613860636') in 0.000332 seconds
+Start importing Assets/Farm/Settings/FarmGlobalVolume-r03.asset using Guid(8424a72e9759d4eb6af407a5ed317508) (NativeFormatImporter) -> (artifact id: 'edca583542fb17f4f707456b7c667849') in 0.000412792 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/ButterflyWing.asset using Guid(e78683c16c9e94b1796850551b6f4e31) (NativeFormatImporter) -> (artifact id: '85782af70e1ccd8a771f40ddd16afb95') in 0.000324083 seconds
+Start importing Assets/Farm/GeneratedR07/Ambient/ButterflyBody.asset using Guid(7d5757fa4eeef4ec6ac5d3230a7d8e1b) (NativeFormatImporter) -> (artifact id: '3cf7ee3a5fdb3efc6cde1dbdf0c14637') in 0.000343084 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ce1ebe49abd4644f9b78569b7bececaf): Total: 0.041 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=7800217345044483db3bf3b743aab19d): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9b9c1926fb45a433a8c167262b96875a): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e3051faa30f28481aaef038ad4b2f754): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=647f3b7b88da34c23a5a01425fed5d97): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=770cfd0852b5f47909f8ba2a64db0405): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=42e9750f6b3744ad8bbe2becf8aae226): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=76bf3443efdac4d4183b5d13aa715068): Total: 0.037 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9cbe0c4c6de0449239282a550758c303): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=bb7f433f0ad0348f0ba186a2f259fd9c): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=15b95279c7ee1438aa9fedbe86215653): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=2f287eb4e6f4a4f12bd2914e5381543f): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=707ba2b68d1b543d89bcacbe886e5750): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=267ba10a50b6b4f02856431d457a7e91): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4eb312480e8294b52bab636cc50907d0): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=d71e127455c244a4f86bf47433c1911c): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=c3abb0da8c3bb403a806b461b086b1d8): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=ab99955bf21524cc994b2e76264d1451): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=6acf1c8ffa31e47bfa30f6aed60e40ea): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=82a8e1b2b54ea4832bcefaa5fd463735): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=54309824d4bb348e2b2e77e96c67c9b2): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=65c4d45614f624f57a1266f16883143a): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=1125c9656c5cc4a2aaa6d56e656775fc): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e8088af6d79ba4bf5841d6be591d4f4b): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=c59ae7cc32bea48e8bdd9553cb8a0677): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=cc33f82e2828f4c5682c9acbf397d600): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9da4c9bdd2b9645669f3707da1109029): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=539da684de47449298aab424cb07b524): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9a3a0da58f19548d68d80d86289e8bd1): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=b0f6bd4000efa43f69890bd94c7ea527): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=014a8ea8e0a8045cc8227c80bd2eb323): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=1c1593b6b16064c56bc7a7ea26c7470d): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=5ab60e79e85164eabbecb0d0c2ae42fe): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=a97047c6feb764df483adaf8412942e1): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/cow-055ad5dd9aa3d48e49475f950c07e56c-7812879823591200411-r08-r10.mat using Guid(641975cd03500420b968f2ea5dc3b377) (NativeFormatImporter) -> (artifact id: '480c34e9510058b36e8b86d214915faa') in 0.000724125 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=73cc1ba77396549d2a06792837773bba): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=91a2364a1ccf8420f8e05b98322181bb): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/cow-055ad5dd9aa3d48e49475f950c07e56c-4156454276907913278-r08-r10.mat using Guid(6f033091b371a4043b1949adffcd4c9a) (NativeFormatImporter) -> (artifact id: '71469013483cbdc7c42e3e24f8d1a488') in 0.000649208 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=85267edc692db4fdba68ca6e089d16b9): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=cf23e8a808d644cdf98085b6511cf30a): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/cow-055ad5dd9aa3d48e49475f950c07e56c-4547091758117064556-r08-r10.mat using Guid(4e9fb2d46b5634df496ce48f556936dd) (NativeFormatImporter) -> (artifact id: '431645cb07bf8c67402e30176c957123') in 0.000513542 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f171ec89ff3b24bb29fba9d2f8f0d311): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=01aee756758c341e3a0a5ae31e88d032): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/cow-398857732b1cf41228818d420e0c76cd-1917265764123730628-r08-r10.mat using Guid(1a021958ebaa743a9a88fcb2e40530ec) (NativeFormatImporter) -> (artifact id: 'fa5eef8426ae38edad2235bebc0a1238') in 0.00051 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6d4b43c93b95e49df9bb6eab35987d7f): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9fa9dac6210c64462b89effcff432e08): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/cow-398857732b1cf41228818d420e0c76cd--5660369277443133323-r08-r10.mat using Guid(3b3e1f033e86d476ba36c7cfe29cc55d) (NativeFormatImporter) -> (artifact id: '53da90e023d2005caebc6d4d029eb812') in 0.000470208 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=1bd9e3668bfb541459dd6cc7207c9309): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=48333ad2fb2a848058938ef109c56fb0): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/cow-398857732b1cf41228818d420e0c76cd-6004639175844578710-r08-r10.mat using Guid(dfe7ff95ac6114315841933a5b3e3e74) (NativeFormatImporter) -> (artifact id: 'd30d2cbbc4f57edf61d9950a3d80a7b4') in 0.000471375 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=1745e2c44290c488d8e2a2abac69c8dc): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=bcede63e2e71b426ea599e12f0868ed5): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-3250658316546735122-r08-r10.mat using Guid(e87736c120ddd444f9d2d6a525b08810) (NativeFormatImporter) -> (artifact id: '1e110832bd74c364ecffb9e22ed9d937') in 0.000468042 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2e2da987439ac4b1da2e3a406344b6d3): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=dd2d0025f8ba14afc92e4f04861b0453): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-2051146946026651743-r08-r10.mat using Guid(af2a2cfc6ac674df1b7af4b2840b6bae) (NativeFormatImporter) -> (artifact id: '2d1685909e512cd6a82631ae61327cb3') in 0.000484209 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=36c46b8813360410780e33ea21562e84): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=2b94b840e497e42eeaec8ec186983bfd): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-8e7fd5577a47546659b1e36137fd833c-4022378295979664319-r08-r10.mat using Guid(ee8c41aea0af04c4293474b3880c3b95) (NativeFormatImporter) -> (artifact id: '7fdb7992806f3f05deb400d3369ba6f2') in 0.00046375 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a075bcf0605ff43878ffd81e4c59850d): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=0195419814fde4072a1b31fa74a3c376): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-8e7fd5577a47546659b1e36137fd833c-282075598463810040-r08-r10.mat using Guid(0b9b7e9d5ba2a4299ab86f900e459f4e) (NativeFormatImporter) -> (artifact id: '31d7e68ef83cb1c1020d73fa7dc054c1') in 0.000633791 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4c58b56af00764550ab929fa011d5b36): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=2972a4036ba294f62809eb4b2ab51efa): Total: 0.035 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-0a46fbb224914408cbf3b1329facbf63-9067459898399497607-r08-r10.mat using Guid(fb0f5e695040e47ca89b28d6d3151039) (NativeFormatImporter) -> (artifact id: 'fb521ee6065413fe743be45e2c47a7d3') in 0.000676292 seconds
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a4be067e15b064435a2784c52c219efa): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=f78fc9ef91ee84383afbc76bcb365ec7): Total: 0.091 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-0a46fbb224914408cbf3b1329facbf63--5294847220729325008-r08-r10.mat using Guid(c95354298e06c407bb33051af071f22d) (NativeFormatImporter) -> (artifact id: 'bc2a701193b7bf6918f3eca5d30a9f7c') in 0.001164958 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=178446c0c20744d3982724679d58a960): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=139891912ebe445068f3db0f41f17fc4): Total: 0.093 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-939da1be848b347b78ad1aaa7a558538--4590802230340785185-r08-r10.mat using Guid(d6e24f5c468d54cd98f9526cef96957a) (NativeFormatImporter) -> (artifact id: 'c3921d5cffce8b8c454f7e1380dcd40d') in 0.000847208 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ecc848806dc6b4931be157de8d86e8dd): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e69792b1ecef6402f9ffdce9b367cf2e): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-939da1be848b347b78ad1aaa7a558538-130322820583838218-r08-r10.mat using Guid(ab8d5ceca5c214bca9ebb662728d06f3) (NativeFormatImporter) -> (artifact id: '5b645bac607a3c97b1c25579878eb6ea') in 0.000627708 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=41847c8e810404f87b0d7d42ed82d8d2): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=b3513fc182341406cbc28cff140cbcbe): Total: 0.040 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/pig-0fa41d531d0bd40a4b947e2cadd2227a-3925320162787337200-r08-r10.mat using Guid(e769c4b75bf904c29a1b6bce44e7592b) (NativeFormatImporter) -> (artifact id: 'f30bee354f20111da0561633786e05c6') in 0.000610083 seconds
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5b05cb0aa3a56477fa6e31cc170bb7f1): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=2fce0297bec3646f6a7af1fe346458c0): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/pig-0fa41d531d0bd40a4b947e2cadd2227a--1059805551187397979-r08-r10.mat using Guid(26a4af5c4ae494d8aa2e33d18e8a0906) (NativeFormatImporter) -> (artifact id: '04417e99348c11d429d838bc2bba4579') in 0.000657333 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=488ee5bc023b34644bd202802aba4928): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=91014616ac6be4ca1a4e2fdc39c97fb3): Total: 0.041 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/pig-da88bb05c88684ecba95444ff4fc2a15-3234776088310061174-r08-r10.mat using Guid(bb025ac72aedb4572a477609a5b1aeb9) (NativeFormatImporter) -> (artifact id: '534fff7fede2f00899df52615000ee5b') in 0.000635875 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7cceb0fac91af48d19e2dff04130a809): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=00cc0fa8ef9944a5cbc0b4e0b5e517e2): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/pig-da88bb05c88684ecba95444ff4fc2a15-2683991794064962121-r08-r10.mat using Guid(41b6a50620585406684b99825c7f2eb8) (NativeFormatImporter) -> (artifact id: '106a959c5eef3f4567f276099e1ac6be') in 0.000717333 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f0cd0146f1a0c4fe8a12d979b073d129): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=2bc8e1efaaff74e92b52af42b9dd9202): Total: 0.045 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/duck-a7e3b054ffbea409f986567bf850466e--6601293727016772069-r08-r10.mat using Guid(392e92351ecc0406abd0bade7f7c7401) (NativeFormatImporter) -> (artifact id: 'b9c5a1ba32d10d5deef00917f6c122f7') in 0.000725208 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e9e01d63793094b619485e54070576be): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=cbca13e69b44a499a8e38698fbc98a75): Total: 0.038 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/duck-a7e3b054ffbea409f986567bf850466e--5402444432533554046-r08-r10.mat using Guid(f54caf6ae906a450293f33738924f134) (NativeFormatImporter) -> (artifact id: '27f2137caef3713c0711cd9295f701cb') in 0.000753417 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4a613d472d45e4928bdf06cfdd9a587b): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=56b9e9aab1e654e02b9718c2ccacd522): Total: 0.036 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/duck-306e2f7dced204d8f8f10a386c127268-402979158967242270-r08-r10.mat using Guid(5ee751dbd1bf9444a922685b2b20d76b) (NativeFormatImporter) -> (artifact id: '4aaace77dc5c5da5087cfae8a1e114a9') in 0.000601 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=16ff60509a94e4ede9da7c1886abe650): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=03f3e75f155754e67bc66cd1bcffea1e): Total: 0.037 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/duck-306e2f7dced204d8f8f10a386c127268--2750781780128890884-r08-r10.mat using Guid(c92becca83f3a474fbdf81955ba19b1e) (NativeFormatImporter) -> (artifact id: '8213fc289da1f4b9dcdc9e5222dd2fae') in 0.000513625 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f6741b8d24644482987c358f3650acbb): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR08/Materials/duck-306e2f7dced204d8f8f10a386c127268-402979158967242270-r08.mat using Guid(60edb65e237fe483b80757df93560138) (NativeFormatImporter) -> (artifact id: 'c9c55a1c2165a034e94911367ef48fa0') in 0.000804375 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-0a46fbb224914408cbf3b1329facbf63--5294847220729325008-r08.mat using Guid(3166f28d717394d1abb05ddf78051413) (NativeFormatImporter) -> (artifact id: '8ec46d75fdfa2de235641ef061b62347') in 0.0004885 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/pig-da88bb05c88684ecba95444ff4fc2a15-2683991794064962121-r08-r10.mat using Guid(41b6a50620585406684b99825c7f2eb8) (NativeFormatImporter) -> (artifact id: '6accd631ac30725309a899b25e16c4e0') in 0.000374833 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/pig-da88bb05c88684ecba95444ff4fc2a15-3234776088310061174-r08.mat using Guid(a1742afa9e1f743548f7084f84ca4556) (NativeFormatImporter) -> (artifact id: '71432283ce91248cc5fc97372d960e53') in 0.000357708 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E08-74ce7fbecc6d84a2883de5151921fe05--5697061326574116905-r08.mat using Guid(723c6050466a749668db0673016ece8b) (NativeFormatImporter) -> (artifact id: '46a716aa1547c3b0d424a4828a12908c') in 0.00034975 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/pig-0fa41d531d0bd40a4b947e2cadd2227a--1059805551187397979-r08.mat using Guid(f208a63b656214b4f8d0fcefb7fdea57) (NativeFormatImporter) -> (artifact id: '75b5b6bc10d314770066cdaa9b965821') in 0.000334834 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/duck-a7e3b054ffbea409f986567bf850466e--6601293727016772069-r08.mat using Guid(23e8163e14bd44a8d94817ea0b0f3bcf) (NativeFormatImporter) -> (artifact id: 'b3d9e7383e6a68f46936385f73844ec2') in 0.000411125 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E12-9000efc517ad640b8a28e308876ddf5b-7673121673746883117-r08.mat using Guid(535d22cf46c82491985a1db461804eb2) (NativeFormatImporter) -> (artifact id: '1c8ee723d88f29ab29f50ed71fc81725') in 0.000416875 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E09-cc48e1406872f4a5f96d4b526b850aed-1966872565820863317-r08.mat using Guid(a3926582913fe4928b8e220305447b1f) (NativeFormatImporter) -> (artifact id: '78b00677167e3fd2177c4993f00db9b0') in 0.000477667 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-055ad5dd9aa3d48e49475f950c07e56c-7812879823591200411-r08-r10.mat using Guid(641975cd03500420b968f2ea5dc3b377) (NativeFormatImporter) -> (artifact id: 'bdfb837842d6acce6560d161bfb729ff') in 0.000261416 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-2051146946026651743-r08.mat using Guid(9400d6fca7638495e8c942bbf1b83eb8) (NativeFormatImporter) -> (artifact id: '36ee95e92ff4c9be2a7f178dfbb9e970') in 0.000468166 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-939da1be848b347b78ad1aaa7a558538--4590802230340785185-r08.mat using Guid(94505beee9ce34eb8adf77f81795db42) (NativeFormatImporter) -> (artifact id: '38a466129d10bdace90eff671f3b0184') in 0.000378334 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-055ad5dd9aa3d48e49475f950c07e56c-7812879823591200411-r08.mat using Guid(b429b825fd03140c49d71f5b0732adef) (NativeFormatImporter) -> (artifact id: '3f00ae044fad335dcf34ee628429122b') in 0.00046925 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/duck-306e2f7dced204d8f8f10a386c127268--2750781780128890884-r08.mat using Guid(855c0fe67c38f4ddc8db281ce7665494) (NativeFormatImporter) -> (artifact id: '4cff960460b4a17104b1e429e0a80c07') in 0.000412166 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/pig-0fa41d531d0bd40a4b947e2cadd2227a-3925320162787337200-r08.mat using Guid(b52dbc68bb3904fb994df5172021c078) (NativeFormatImporter) -> (artifact id: '57cc4516554eaeda68e702bf6f076741') in 0.000409417 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/duck-a7e3b054ffbea409f986567bf850466e--5402444432533554046-r08-r10.mat using Guid(f54caf6ae906a450293f33738924f134) (NativeFormatImporter) -> (artifact id: 'a99d3edb7392a0fbf3ae29c401ebe084') in 0.000256333 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-8e7fd5577a47546659b1e36137fd833c-282075598463810040-r08.mat using Guid(16f14cb7507dd47f5b9d318847da1263) (NativeFormatImporter) -> (artifact id: '24e7ed8812744b8fdd4a3d17f1045d20') in 0.000409666 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E09-13224fa0a356247299adc90ff8420048-1966872565820863317-r08.mat using Guid(16c41184e4a4840c381af09f26e01350) (NativeFormatImporter) -> (artifact id: 'bdcf738a6ea824e36402747b86c19842') in 0.000310292 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/pig-0fa41d531d0bd40a4b947e2cadd2227a--1059805551187397979-r08-r10.mat using Guid(26a4af5c4ae494d8aa2e33d18e8a0906) (NativeFormatImporter) -> (artifact id: '23cb74dbe8317247f1ee03bc719ec5c9') in 0.00024625 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-398857732b1cf41228818d420e0c76cd-1917265764123730628-r08.mat using Guid(5648760ff1aa641f9946574b56b6fb9b) (NativeFormatImporter) -> (artifact id: '7511e7599d27dea4c86214688444a60f') in 0.000406916 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-939da1be848b347b78ad1aaa7a558538--4590802230340785185-r08-r10.mat using Guid(d6e24f5c468d54cd98f9526cef96957a) (NativeFormatImporter) -> (artifact id: '4091ab13b029069f45f0ae85867be0a2') in 0.000406792 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/pig-da88bb05c88684ecba95444ff4fc2a15-2683991794064962121-r08.mat using Guid(d65f54ae693bf4e3b9e1995e86f71527) (NativeFormatImporter) -> (artifact id: '1d434c45b0609f4093111d87c55a63a9') in 0.000302292 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E11-435add5f76a084dacba286fe636711f4-4291540115698530152-r08.mat using Guid(477bf352c203045af8289e376bb97c52) (NativeFormatImporter) -> (artifact id: '6c5e4f9fe776f7c995b989b55661e997') in 0.000332166 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-939da1be848b347b78ad1aaa7a558538-130322820583838218-r08.mat using Guid(c7763062830bd4266b89d1a794c1a3ac) (NativeFormatImporter) -> (artifact id: '050cbde27b25766984be1a0c08f9856c') in 0.0004015 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-398857732b1cf41228818d420e0c76cd--5660369277443133323-r08.mat using Guid(d76893584ae6540209115541f64ac93d) (NativeFormatImporter) -> (artifact id: 'ba51797cdd536974482b593d7e218cb6') in 0.000309458 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/pig-0fa41d531d0bd40a4b947e2cadd2227a-3925320162787337200-r08-r10.mat using Guid(e769c4b75bf904c29a1b6bce44e7592b) (NativeFormatImporter) -> (artifact id: 'f93e164e252782e78616576eef854588') in 0.00034325 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E10-e5657a105d0bc483b88163c7ca0babf4-4797550335513968313-r08.mat using Guid(7820263c0f6c34e37ac47f6a997d4afe) (NativeFormatImporter) -> (artifact id: '77e44faf2ce56d8b8fef7378d66d55ca') in 0.00038325 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-8e7fd5577a47546659b1e36137fd833c-4022378295979664319-r08.mat using Guid(98ea12f7ffebf42719c19057348b622c) (NativeFormatImporter) -> (artifact id: '8f1b4b6b9ec6f0703de84c5cea7c9002') in 0.00044525 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-3250658316546735122-r08-r10.mat using Guid(e87736c120ddd444f9d2d6a525b08810) (NativeFormatImporter) -> (artifact id: 'ea4368d509df115aecc084415252e58f') in 0.000356166 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/duck-a7e3b054ffbea409f986567bf850466e--6601293727016772069-r08-r10.mat using Guid(392e92351ecc0406abd0bade7f7c7401) (NativeFormatImporter) -> (artifact id: 'dae355d55f915580439af89a81218e6c') in 0.000365834 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-0a46fbb224914408cbf3b1329facbf63--5294847220729325008-r08-r10.mat using Guid(c95354298e06c407bb33051af071f22d) (NativeFormatImporter) -> (artifact id: 'a7d045ab46c4b77f51093fe61af40e22') in 0.000230333 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/duck-306e2f7dced204d8f8f10a386c127268--2750781780128890884-r08-r10.mat using Guid(c92becca83f3a474fbdf81955ba19b1e) (NativeFormatImporter) -> (artifact id: 'd76fe4f3a1505d7139fd5eb41046d8f1') in 0.000284916 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E10-a4dd1d96188d343e5b8d4c5b66c84acb-4797550335513968313-r08.mat using Guid(d9838ac9a28dc4a898e63ae11f3caea2) (NativeFormatImporter) -> (artifact id: '3b3e7c471d623bc0734d992f82ece8d0') in 0.000309167 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-398857732b1cf41228818d420e0c76cd-1917265764123730628-r08-r10.mat using Guid(1a021958ebaa743a9a88fcb2e40530ec) (NativeFormatImporter) -> (artifact id: 'd493cc30eec08b471e9a3545c3c61189') in 0.000208208 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E12-121e6922a02204740908ef9e9e5bdd52-7673121673746883117-r08.mat using Guid(4a9a8e32fb61a4f0abae7a1e29376264) (NativeFormatImporter) -> (artifact id: 'f5212fa57ed4651df7f5adeeb8252570') in 0.000290125 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-8e7fd5577a47546659b1e36137fd833c-282075598463810040-r08-r10.mat using Guid(0b9b7e9d5ba2a4299ab86f900e459f4e) (NativeFormatImporter) -> (artifact id: '424c18f7dcfb9c375f3ea8c453d9d6f1') in 0.000222916 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-398857732b1cf41228818d420e0c76cd--5660369277443133323-r08-r10.mat using Guid(3b3e1f033e86d476ba36c7cfe29cc55d) (NativeFormatImporter) -> (artifact id: 'd58acb8fe4d5991c8464283d3d2d27fe') in 0.000288209 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E11-3a4730c076d724fa384eb03a1ca54f43-4291540115698530152-r08.mat using Guid(5b8fdb6975af54e6c977e974a834fccf) (NativeFormatImporter) -> (artifact id: 'b814aa0f3b60a604f876a681a9d98e6e') in 0.000282709 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-939da1be848b347b78ad1aaa7a558538-130322820583838218-r08-r10.mat using Guid(ab8d5ceca5c214bca9ebb662728d06f3) (NativeFormatImporter) -> (artifact id: 'dc74bbb7cdd2b41b770705088b070654') in 0.000239875 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/pig-da88bb05c88684ecba95444ff4fc2a15-3234776088310061174-r08-r10.mat using Guid(bb025ac72aedb4572a477609a5b1aeb9) (NativeFormatImporter) -> (artifact id: '591c32b463db65dc2cdf77be5e124bd4') in 0.000269583 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-0a46fbb224914408cbf3b1329facbf63-9067459898399497607-r08-r10.mat using Guid(fb0f5e695040e47ca89b28d6d3151039) (NativeFormatImporter) -> (artifact id: '4e37bf24a8f71e5bed52c95dd2b30c26') in 0.000279292 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/duck-a7e3b054ffbea409f986567bf850466e--5402444432533554046-r08.mat using Guid(8ce4b32120cda4f8fa19f66b63f4b2bd) (NativeFormatImporter) -> (artifact id: 'c26237ff036afe1ea338cf90d3020823') in 0.00032425 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-398857732b1cf41228818d420e0c76cd-6004639175844578710-r08.mat using Guid(9c70f261e59514c229ab3025ddc9b070) (NativeFormatImporter) -> (artifact id: '6c71a32f11732eb1f15271f568e99376') in 0.000314791 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/E08-8403be2f76de64eaeb17cec4afc8b121--5697061326574116905-r08.mat using Guid(cc5cca0e6db094d44a9b93d9f50768ab) (NativeFormatImporter) -> (artifact id: '4205872daa89f856bf1f6fdf19969195') in 0.000309333 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/chicken-0a46fbb224914408cbf3b1329facbf63-9067459898399497607-r08.mat using Guid(ad95ac7b2c40044c3af59d71b1f1b20e) (NativeFormatImporter) -> (artifact id: '2af8a059d92c925ed0b886f026853cef') in 0.000295416 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-055ad5dd9aa3d48e49475f950c07e56c-4547091758117064556-r08.mat using Guid(ad5f6f184e6134956910c0d7690fe545) (NativeFormatImporter) -> (artifact id: '98c86d81e7cd65e499e8a674830c0a6e') in 0.00033 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-055ad5dd9aa3d48e49475f950c07e56c-4547091758117064556-r08-r10.mat using Guid(4e9fb2d46b5634df496ce48f556936dd) (NativeFormatImporter) -> (artifact id: '2235af6d451ec038cca736a7ee577519') in 0.000202208 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/duck-306e2f7dced204d8f8f10a386c127268-402979158967242270-r08-r10.mat using Guid(5ee751dbd1bf9444a922685b2b20d76b) (NativeFormatImporter) -> (artifact id: '866474f4a8322a3bc64a5746ea7774b7') in 0.000217042 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-8e7fd5577a47546659b1e36137fd833c-4022378295979664319-r08-r10.mat using Guid(ee8c41aea0af04c4293474b3880c3b95) (NativeFormatImporter) -> (artifact id: '5107f220ef1911fe931d4c083dc160e7') in 0.000226291 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-3250658316546735122-r08.mat using Guid(5f87121224c5046c7940bc0c72753195) (NativeFormatImporter) -> (artifact id: '0294351b2e8115820aab3f2f03a2218c') in 0.000403041 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-055ad5dd9aa3d48e49475f950c07e56c-4156454276907913278-r08-r10.mat using Guid(6f033091b371a4043b1949adffcd4c9a) (NativeFormatImporter) -> (artifact id: '2e2403c6b18188e1d7a22e936c1d4190') in 0.000217875 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/sheep-72743bd3c3cb84c5285cfd7fbb7e3798-2051146946026651743-r08-r10.mat using Guid(af2a2cfc6ac674df1b7af4b2840b6bae) (NativeFormatImporter) -> (artifact id: 'b451d6c4a5fd467be107dec43abec025') in 0.0002175 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-055ad5dd9aa3d48e49475f950c07e56c-4156454276907913278-r08.mat using Guid(affdcd57441004e7a95fb113616c39d0) (NativeFormatImporter) -> (artifact id: '010d7fe2590ef822fb8167806f113cf8') in 0.000317917 seconds
+Start importing Assets/Farm/GeneratedR08/Materials/cow-398857732b1cf41228818d420e0c76cd-6004639175844578710-r08-r10.mat using Guid(dfe7ff95ac6114315841933a5b3e3e74) (NativeFormatImporter) -> (artifact id: '783467db5750ef57f58d502eef99f628') in 0.000206166 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=999d83056ba3c47028cd32ddcc585438): Total: 0.049 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/OcclusionDither using Guid(9ec1cbd6c16cf4ecc9fb6ec01313d0ff) (DefaultImporter) -> (artifact id: 'd7b4d9fa8df37202636545cafb308910') in 0.000565125 seconds
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a69192f8166e94937ad6a07b37a954c5): Total: 0.052 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/723c6050466a749668db0673016ece8b-2100000.mat using Guid(8fa38c3026b1544dda2b68e1fdca36ef) (NativeFormatImporter) -> (artifact id: '3e57b7057483bc6f7b1610df8a211ff5') in 0.001753083 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e5e6801f56f0f493ea869f68e9e4cb7d): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/cc5cca0e6db094d44a9b93d9f50768ab-2100000.mat using Guid(6526aeca385b84adcbcd7a27ffc76c11) (NativeFormatImporter) -> (artifact id: '7823616f049a4356327e28cfcd72534e') in 0.000615541 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=580dd724d259f4342b99dc69fdce6c5e): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/a3926582913fe4928b8e220305447b1f-2100000.mat using Guid(c7b6b70e53b2b49ba904900749b16f97) (NativeFormatImporter) -> (artifact id: 'f6e648fdb5f0e149757a462e5bd928ba') in 0.000535 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=baa17bb7ae53941d5a0afdf90d0c0914): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/16c41184e4a4840c381af09f26e01350-2100000.mat using Guid(bb7c25178443c4a5fb998898757d391b) (NativeFormatImporter) -> (artifact id: '4ab7ed67557638ecf4d6742484db450e') in 0.000475917 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7de928f1460c94a83b96ad4375bbb33f): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat using Guid(5904d2167a9124ff29cdad6ae6edd528) (NativeFormatImporter) -> (artifact id: 'b8f874fddb8eccd3c2e09e91477a143f') in 0.000602834 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=43998345d65d342d2b024fdb9e963feb): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat using Guid(263113afb8f9a479b8d636f605376e66) (NativeFormatImporter) -> (artifact id: '17c306a24550efb6a5a44b04d12107ba') in 0.0005665 seconds
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=df9fc1fb0568f4263bb480642676ab13): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/cc5cca0e6db094d44a9b93d9f50768ab-2100000.mat using Guid(6526aeca385b84adcbcd7a27ffc76c11) (NativeFormatImporter)Main Object Name 'E08-8403be2f76de64eaeb17cec4afc8b121--5697061326574116905-r08 — dither fade r08' does not match filename 'cc5cca0e6db094d44a9b93d9f50768ab-2100000'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+
+[Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+
+ -> (artifact id: '5e1cb28cfa820a3587a692029a971f49') in 0.001099833 seconds
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069.mat using Guid(263113afb8f9a479b8d636f605376e66) (NativeFormatImporter)Main Object Name 'S01 baked matte surface — dither fade r08' does not match filename 'cf6c92dbd67434d94b0f623cf3f02a47-8609241982257565069'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+
+[Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+
+ -> (artifact id: 'f5b90fb9d86a4120f66580fef52afe1d') in 0.001478792 seconds
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/a3926582913fe4928b8e220305447b1f-2100000.mat using Guid(c7b6b70e53b2b49ba904900749b16f97) (NativeFormatImporter)Main Object Name 'E09-cc48e1406872f4a5f96d4b526b850aed-1966872565820863317-r08 — dither fade r08' does not match filename 'a3926582913fe4928b8e220305447b1f-2100000'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+
+[Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+
+ -> (artifact id: '5dfc8c0cc6869756fbdae330f337d2c8') in 0.000417291 seconds
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069.mat using Guid(5904d2167a9124ff29cdad6ae6edd528) (NativeFormatImporter)Main Object Name 'S01 baked matte surface — dither fade r08' does not match filename '73284d9ef4dd2402f8173a2120ea24b5-8609241982257565069'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+
+[Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+
+ -> (artifact id: '8a8310c9d44de5ca671be0b96f23a97f') in 0.000527042 seconds
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/16c41184e4a4840c381af09f26e01350-2100000.mat using Guid(bb7c25178443c4a5fb998898757d391b) (NativeFormatImporter)Main Object Name 'E09-13224fa0a356247299adc90ff8420048-1966872565820863317-r08 — dither fade r08' does not match filename '16c41184e4a4840c381af09f26e01350-2100000'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+
+[Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+
+ -> (artifact id: '1422d064e82692a2bfe2edaff39584f9') in 0.000419375 seconds
+Start importing Assets/Farm/GeneratedR09/OcclusionDither/723c6050466a749668db0673016ece8b-2100000.mat using Guid(8fa38c3026b1544dda2b68e1fdca36ef) (NativeFormatImporter)Main Object Name 'E08-74ce7fbecc6d84a2883de5151921fe05--5697061326574116905-r08 — dither fade r08' does not match filename '723c6050466a749668db0673016ece8b-2100000'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+LuluFarm.Editor.FarmOcclusionDitherR08:Apply (UnityEngine.Transform) (at Assets/Farm/Editor/FarmOcclusionDitherR08.cs:66)
+LuluFarm.Editor.FarmProjectBuilder:BuildFarm () (at Assets/Farm/Editor/FarmProjectBuilder.cs:390)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:18)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+
+[Assets/Farm/Editor/FarmProjectBuilder.cs line 390]
+
+ -> (artifact id: '56d4e3961d0fc92fd200165896d45a41') in 0.000388459 seconds
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=0ac4738403cca4f8a9953ff96f99b3af): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Farm/Scenes/FarmWorld.unity using Guid(c773f15021150444e93c815a8bcb7504) (DefaultImporter) -> (artifact id: 'e7eac79873447bf40ad89f8dae8c1a6c') in 0.000924084 seconds
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=35983bcd30da54f5882440dd9b82950b): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Farm/Scenes/FarmWorld.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Farm/Scenes/FarmWorld.unity'
+	Deserialize:            16.208 ms
+	Integration:            88.350 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.053 ms
+	Total Operation Time:   104.616 ms
+Unloading 267 unused Assets / (216.3 KB). Loaded Objects now: 17297.
+Memory consumption went from 407.4 MB to 407.1 MB.
+Total: 4.494458 ms (FindLiveObjects: 0.376667 ms CreateObjectMapping: 0.117458 ms MarkObjects: 3.781666 ms  DeleteObjects: 0.218375 ms)
+
+Unloading 103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (29.7 KB). Loaded Objects now: 17517.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 6.147709 ms (FindLiveObjects: 0.877125 ms CreateObjectMapping: 0.122042 ms MarkObjects: 5.092083 ms  DeleteObjects: 0.056000 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 17543.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 4.334916 ms (FindLiveObjects: 0.439333 ms CreateObjectMapping: 0.116625 ms MarkObjects: 3.751000 ms  DeleteObjects: 0.027750 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (39.5 KB). Loaded Objects now: 17647.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 4.262750 ms (FindLiveObjects: 0.372125 ms CreateObjectMapping: 0.111292 ms MarkObjects: 3.747417 ms  DeleteObjects: 0.031625 ms)
+
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (43.8 KB). Loaded Objects now: 17691.
+Memory consumption went from 0.54 GB to 0.54 GB.
+Total: 4.409875 ms (FindLiveObjects: 0.444250 ms CreateObjectMapping: 0.109250 ms MarkObjects: 3.686583 ms  DeleteObjects: 0.169583 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.7 KB). Loaded Objects now: 17749.
+Memory consumption went from 0.54 GB to 0.54 GB.
+Total: 4.416083 ms (FindLiveObjects: 0.447042 ms CreateObjectMapping: 0.113708 ms MarkObjects: 3.830708 ms  DeleteObjects: 0.024292 ms)
+
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 17779.
+Memory consumption went from 0.56 GB to 0.55 GB.
+Total: 7.521792 ms (FindLiveObjects: 0.451125 ms CreateObjectMapping: 0.109750 ms MarkObjects: 6.928458 ms  DeleteObjects: 0.032125 ms)
+
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.7 KB). Loaded Objects now: 17809.
+Memory consumption went from 0.57 GB to 0.57 GB.
+Total: 4.181708 ms (FindLiveObjects: 0.413917 ms CreateObjectMapping: 0.107875 ms MarkObjects: 3.637458 ms  DeleteObjects: 0.022291 ms)
+
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 17841.
+Memory consumption went from 0.60 GB to 0.60 GB.
+Total: 4.297709 ms (FindLiveObjects: 0.445000 ms CreateObjectMapping: 0.109625 ms MarkObjects: 3.718125 ms  DeleteObjects: 0.024834 ms)
+
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 17873.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 4.394333 ms (FindLiveObjects: 0.449292 ms CreateObjectMapping: 0.116208 ms MarkObjects: 3.805250 ms  DeleteObjects: 0.023458 ms)
+
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.6 KB). Loaded Objects now: 17903.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 4.178291 ms (FindLiveObjects: 0.451416 ms CreateObjectMapping: 0.108833 ms MarkObjects: 3.596750 ms  DeleteObjects: 0.020916 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (13.6 KB). Loaded Objects now: 17923.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 3.678667 ms (FindLiveObjects: 0.302042 ms CreateObjectMapping: 0.100542 ms MarkObjects: 3.263291 ms  DeleteObjects: 0.012625 ms)
+
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (73.3 KB). Loaded Objects now: 17934.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 4.617959 ms (FindLiveObjects: 0.435583 ms CreateObjectMapping: 0.104084 ms MarkObjects: 3.732583 ms  DeleteObjects: 0.345625 ms)
+
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 119 unused Assets / (116.4 KB). Loaded Objects now: 17934.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 4.895959 ms (FindLiveObjects: 0.463084 ms CreateObjectMapping: 0.114875 ms MarkObjects: 3.663500 ms  DeleteObjects: 0.654292 ms)
+
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (73.4 KB). Loaded Objects now: 17945.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 4.492833 ms (FindLiveObjects: 0.441375 ms CreateObjectMapping: 0.111416 ms MarkObjects: 3.598584 ms  DeleteObjects: 0.341291 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.7 KB). Loaded Objects now: 17971.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 3.999958 ms (FindLiveObjects: 0.374083 ms CreateObjectMapping: 0.100334 ms MarkObjects: 3.505417 ms  DeleteObjects: 0.019875 ms)
+
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (61.4 KB). Loaded Objects now: 17985.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 4.386042 ms (FindLiveObjects: 0.447916 ms CreateObjectMapping: 0.122417 ms MarkObjects: 3.575292 ms  DeleteObjects: 0.240167 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (38.9 KB). Loaded Objects now: 18000.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 4.569791 ms (FindLiveObjects: 0.443542 ms CreateObjectMapping: 0.106083 ms MarkObjects: 3.598083 ms  DeleteObjects: 0.421917 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11 unused Assets / (29.7 KB). Loaded Objects now: 18026.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 4.188125 ms (FindLiveObjects: 0.428583 ms CreateObjectMapping: 0.106333 ms MarkObjects: 3.629750 ms  DeleteObjects: 0.023250 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (22.7 KB). Loaded Objects now: 18038.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 4.269541 ms (FindLiveObjects: 0.419375 ms CreateObjectMapping: 0.105375 ms MarkObjects: 3.718250 ms  DeleteObjects: 0.026375 ms)
+
+Farm static validation written: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/acceptance/20261024-184232-877 (static_checks_pass_runtime_and_visual_pending)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LuluFarm.Editor.FarmAcceptanceRunner:ValidateSceneAndAssets () (at Assets/Farm/Editor/FarmAcceptanceRunner.cs:220)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:20)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+
+(Filename: Assets/Farm/Editor/FarmAcceptanceRunner.cs Line: 220)
+
+Scene contact audit: technical_probes_pass_manual_visual_pending
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LuluFarm.Editor.FarmSceneContactAudit:Run () (at Assets/Farm/Editor/FarmSceneContactAudit.cs:94)
+LuluFarm.Editor.FarmWorldReview:GenerateAndReview () (at Assets/Farm/Editor/FarmWorldReview.cs:21)
+LuluFarm.Editor.FarmProjectBuilder:R07GenerateReview () (at Assets/Farm/Editor/FarmR07Execution.cs:27)
+
+(Filename: Assets/Farm/Editor/FarmSceneContactAudit.cs Line: 94)
+
+Opening scene 'Assets/Farm/Scenes/FarmWorld.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Farm/Scenes/FarmWorld.unity'
+	Deserialize:            13.673 ms
+	Integration:            151.840 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   165.519 ms
+Unloading 1 unused Assets / (0.5 KB). Loaded Objects now: 17996.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 4.337666 ms (FindLiveObjects: 0.400167 ms CreateObjectMapping: 0.135666 ms MarkObjects: 3.785709 ms  DeleteObjects: 0.016041 ms)
+
+Batchmode quit successfully invoked - shutting down!
+Start importing ProjectSettings/EditorSettings.asset using Guid(0000000000000000c000000000000000) (LibraryAssetImporter) -> (artifact id: '88a81b0cd41f2e6791b296dbea0c2761') in 0.000897167 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/IslandSoil-r09.mat using Guid(70e1991bd471042988f866e8ffa2c668) (NativeFormatImporter) -> (artifact id: '1bd42a7bf06aed56e516b29e48406bc0') in 0.000416709 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/IslandKeel-r09.mat using Guid(089d22b1767574a95a91649bcfed9f82) (NativeFormatImporter) -> (artifact id: '6324e8e220f52b47d7c3e67225e8a32a') in 0.00027425 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/IslandClay-r09.mat using Guid(69f754a170c1a4f049fa202ed1ca2de2) (NativeFormatImporter) -> (artifact id: '8de31397b56072211b33f8788745b766') in 0.000248 seconds
+Start importing Assets/Farm/GeneratedR09/Materials/IslandCream-r09.mat using Guid(0c9a7267d45b243bc9c0f890de3a4bc3) (NativeFormatImporter) -> (artifact id: '7645867c10ac54f9d9e33c6fba1b108e') in 0.000265 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=59078c36b2db54d56bb1ff6bb14eb359): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Thread 0x16fcf3000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-haowen-6000.3.16-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-haowen-6000.3.16 channel disconnected successfully.
+Thread 0x170a9f000 may have been prematurely finalized
+Thread 0x170bb7000 may have been prematurely finalized
+Thread 0x170b2b000 may have been prematurely finalized
+Thread 0x170c43000 may have been prematurely finalized
+Thread 0x170ccf000 may have been prematurely finalized
+Thread 0x170d5b000 may have been prematurely finalized
+Thread 0x170de7000 may have been prematurely finalized
+Thread 0x170e73000 may have been prematurely finalized
+Thread 0x170eff000 may have been prematurely finalized
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[40m[32minfo[39m[22m[49m: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      ALC ILPP context 1 is unloading
+debugger-agent: Unable to listen on 43
+Exiting batchmode successfully now!
+[Package Manager] Server process was shutdown

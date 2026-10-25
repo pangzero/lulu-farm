@@ -1,0 +1,4 @@
+{
+  "reason": "First route reached 1/31 then stopped progressing; persisted result shows applicationFocused=false. Player exited0 at requested timeout; wrapper exit2. Native Raise attempted late. This attempt is not treated as completed.",
+  "next": "Repeat same unmodified route command with foreground activation during initial startup."
+}

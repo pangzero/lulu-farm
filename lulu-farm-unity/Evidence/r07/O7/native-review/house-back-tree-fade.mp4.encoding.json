@@ -1,0 +1,38 @@
+{
+  "device_performance" : "not_a_benchmark_capture_overhead_present",
+  "empty_container_control_samples_excluded" : 4,
+  "encoded_dimensions" : [
+    1280,
+    720
+  ],
+  "encoded_duration_seconds" : 92.227099999999993,
+  "encoded_sample_count" : 624,
+  "expected_duration_seconds" : 92.22711181640625,
+  "input_directory" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O7\/native-island\/20261024-185356-663\/walkthrough-190911-430",
+  "maximum_sample_pts_error_seconds" : 1.6634114583524706e-05,
+  "original_frames_modified" : false,
+  "output" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O7\/native-review\/house-back-tree-fade.mp4",
+  "output_sha256" : "045d0e727a6483035520997fc2f82a0cc121b25398d63d6d1d90c898df178b9b",
+  "sample_duration_range_seconds" : [
+    0.14043333333333333,
+    0.16583333333333333
+  ],
+  "scene_revision" : "integration-r07-O7",
+  "source_dimensions" : [
+    1280,
+    720
+  ],
+  "source_first_elapsed_seconds" : 0.001708984375,
+  "source_frame_count" : 624,
+  "source_frame_sha256_checks" : 624,
+  "source_frames_jsonl_sha256" : "c5946282465b099abca8af76deaed6ec1aef4af456913ddf079e628d515ed8f8",
+  "source_platform" : "OSXPlayer",
+  "source_recording_sha256" : "70291c1d48cf6a0bea8b8f7a94b02688e57372e06932e99b643d5cd2387e5ce4",
+  "spatial_transformation" : "Native pixel size; pad at right\/bottom to even dimensions; no resize\/crop",
+  "technical_readback" : "passed_count_every_timestamp_and_duration",
+  "temporal_transformation" : "Subtract first captured timestamp; retain every relative wall-clock PTS; no duplication\/interpolation",
+  "timing_mode" : "VFR",
+  "tool" : "macOS system AVFoundation\/VideoToolbox; encode-vfr-recording.swift",
+  "video_codec" : "H264 High, 8Mbps minimum, no frame reordering",
+  "visual_review" : "pending_actual_video_frame_inspection"
+}

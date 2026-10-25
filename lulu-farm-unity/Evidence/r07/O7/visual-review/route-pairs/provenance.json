@@ -1,0 +1,743 @@
+{
+  "utc": "2026-10-24T18:53:00.339441+00:00",
+  "method": "Original decoded RGB pixels, O6 left and O7 right, no resizing, crop, labels, color correction or overlays. Each half decoded-pixel-verified against source. PNG metadata/compression may differ.",
+  "pairs": [
+    {
+      "event": "015-auto-orbit-dock-90",
+      "O6": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/015-auto-orbit-dock-90.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/015-auto-orbit-dock-90.png",
+        "sha256": "3111a451a6f1b958e789005ecc94a3f80b337ede592c30a4a6b9b04cb2c7a0be"
+      },
+      "O7": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/015-auto-orbit-dock-90.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/015-auto-orbit-dock-90.png",
+        "sha256": "93aa2c584807b619c861d37fac693c89ae1818bd4498bcdb2f30258eeaff9822"
+      },
+      "O6Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/015-auto-orbit-dock-90.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/015-auto-orbit-dock-90.json",
+        "sha256": "8405b95b93b58cc15f84d4814fd3fe56fcfe1cbbcea1d545023dc966339cd652"
+      },
+      "O7Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/015-auto-orbit-dock-90.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/015-auto-orbit-dock-90.json",
+        "sha256": "dfcabd1cbd2730316ed12752f9de4fea0f7c6c80994cd34b69f4b03543f763f5"
+      },
+      "pair": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/015-auto-orbit-dock-90-O6-left-O7-right.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/015-auto-orbit-dock-90-O6-left-O7-right.png",
+        "sha256": "e4dda63dfc109b7c083c0af86b600c9f2dcebe6e68da8c2ae9e2a02554c32b4d"
+      },
+      "actualViewedOriginals": true,
+      "pairPixelsVerifiedEqualToOriginalDecodedRgb": true,
+      "cameraFields": {
+        "width": {
+          "O6": 1280,
+          "O7": 1280,
+          "equal": true
+        },
+        "height": {
+          "O6": 720,
+          "O7": 720,
+          "equal": true
+        },
+        "cameraYaw": {
+          "O6": 90.93196868896484,
+          "O7": 90.9486083984375,
+          "equal": false
+        },
+        "cameraPitch": {
+          "O6": 34.999996185302734,
+          "O7": 35.0,
+          "equal": false
+        },
+        "cameraRequestedDistance": {
+          "O6": 5.099999904632568,
+          "O7": 5.099999904632568,
+          "equal": true
+        },
+        "cameraActualDistance": {
+          "O6": 5.099999904632568,
+          "O7": 5.099999904632568,
+          "equal": true
+        },
+        "cameraPosition": {
+          "O6": {
+            "x": 4.179596424102783,
+            "y": 3.745239496231079,
+            "z": 0.5008071660995483
+          },
+          "O7": {
+            "x": 4.176382064819336,
+            "y": 3.745239734649658,
+            "z": 0.5005963444709778
+          },
+          "equal": false
+        },
+        "playerPosition": {
+          "O6": {
+            "x": 8.356720924377441,
+            "y": 0.09999983012676239,
+            "z": 0.4328565001487732
+          },
+          "O7": {
+            "x": 8.353487014770508,
+            "y": 0.09999988973140717,
+            "z": 0.4314322769641876
+          },
+          "equal": false
+        },
+        "currentQuality": {
+          "O6": "电脑",
+          "O7": "电脑",
+          "equal": true
+        },
+        "currentStage": {
+          "O6": "mixed",
+          "O7": "mixed",
+          "equal": true
+        },
+        "wardrobe": {
+          "O6": "原版短裤",
+          "O7": "原版短裤",
+          "equal": true
+        },
+        "obstruction": {
+          "O6": "",
+          "O7": "",
+          "equal": true
+        },
+        "targetInsideViewport": {
+          "O6": true,
+          "O7": true,
+          "equal": true
+        }
+      },
+      "cameraPositionDistanceDeltaUnits": 0.003221265499613495,
+      "playerPositionDistanceDeltaUnits": 0.003533635950247446,
+      "cameraYawDeltaDegreesO7MinusO6": 0.01663970947265625,
+      "cameraPitchDeltaDegreesO7MinusO6": 3.814697265625e-06,
+      "strictIdenticalCamera": false,
+      "observations": [
+        "两版 Lulu 在码头中部背对相机，无遮挡淡出覆盖或规则网格。O7 画面上沿新增蓝色溪流，起点与池塘之间仍能看到岸石和草带。",
+        "O7 木面与角色略偏暖，水纹/涟漪位置不同；不是同一时刻。此图未显示岛崖或瀑布下落段。"
+      ]
+    },
+    {
+      "event": "016-auto-orbit-dock-180",
+      "O6": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/016-auto-orbit-dock-180.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/016-auto-orbit-dock-180.png",
+        "sha256": "0455cd2a9f2bdd57c3419bd1bcc429a581bdfd761e778a419087191d367a555f"
+      },
+      "O7": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/016-auto-orbit-dock-180.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/016-auto-orbit-dock-180.png",
+        "sha256": "8ab9336a42e81c7d7c37a640b8cc8331509e66861708ebdfd5de9dffa0d8668f"
+      },
+      "O6Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/016-auto-orbit-dock-180.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/016-auto-orbit-dock-180.json",
+        "sha256": "8424fdd3ad402b7449e5e248062cf2e8e1991ae3bc2d160222ba0fc0a82036de"
+      },
+      "O7Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/016-auto-orbit-dock-180.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/016-auto-orbit-dock-180.json",
+        "sha256": "917f43fc7a07f7fe56d07a4cacfdd7a3747b3cd196663ac0a1f3b1c2e222aff6"
+      },
+      "pair": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/016-auto-orbit-dock-180-O6-left-O7-right.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/016-auto-orbit-dock-180-O6-left-O7-right.png",
+        "sha256": "9ac8cfec0de57814c1889fec0ec540aa6676733947f07170f5cb2410c22981d7"
+      },
+      "actualViewedOriginals": true,
+      "pairPixelsVerifiedEqualToOriginalDecodedRgb": true,
+      "cameraFields": {
+        "width": {
+          "O6": 1280,
+          "O7": 1280,
+          "equal": true
+        },
+        "height": {
+          "O6": 720,
+          "O7": 720,
+          "equal": true
+        },
+        "cameraYaw": {
+          "O6": 181.17701721191406,
+          "O7": 181.1802215576172,
+          "equal": false
+        },
+        "cameraPitch": {
+          "O6": 35.00000762939453,
+          "O7": 35.00000762939453,
+          "equal": true
+        },
+        "cameraRequestedDistance": {
+          "O6": 5.099999904632568,
+          "O7": 5.099999904632568,
+          "equal": true
+        },
+        "cameraActualDistance": {
+          "O6": 5.099999904632568,
+          "O7": 5.099999904632568,
+          "equal": true
+        },
+        "cameraPosition": {
+          "O6": {
+            "x": 8.442534446716309,
+            "y": 3.7452399730682373,
+            "z": 4.609651565551758
+          },
+          "O7": {
+            "x": 8.439535140991211,
+            "y": 3.7452399730682373,
+            "z": 4.608221530914307
+          },
+          "equal": false
+        },
+        "playerPosition": {
+          "O6": {
+            "x": 8.356720924377441,
+            "y": 0.09999983012676239,
+            "z": 0.4328565001487732
+          },
+          "O7": {
+            "x": 8.353487014770508,
+            "y": 0.09999988973140717,
+            "z": 0.4314322769641876
+          },
+          "equal": false
+        },
+        "currentQuality": {
+          "O6": "电脑",
+          "O7": "电脑",
+          "equal": true
+        },
+        "currentStage": {
+          "O6": "mixed",
+          "O7": "mixed",
+          "equal": true
+        },
+        "wardrobe": {
+          "O6": "原版短裤",
+          "O7": "原版短裤",
+          "equal": true
+        },
+        "obstruction": {
+          "O6": "",
+          "O7": "",
+          "equal": true
+        },
+        "targetInsideViewport": {
+          "O6": true,
+          "O7": true,
+          "equal": true
+        }
+      },
+      "cameraPositionDistanceDeltaUnits": 0.0033227750295368604,
+      "playerPositionDistanceDeltaUnits": 0.003533635950247446,
+      "cameraYawDeltaDegreesO7MinusO6": 0.003204345703125,
+      "cameraPitchDeltaDegreesO7MinusO6": 0.0,
+      "strictIdenticalCamera": false,
+      "observations": [
+        "两版码头侧视、Lulu 和鱼摊清楚，无大片淡出颗粒或网格。O7 牧场鸭子不在 O6 原位置；单张不能推断动物走路质量。",
+        "O7 水纹和阴影边界不同。此局部低俯视图没有展示完整天空岛轮廓。"
+      ]
+    },
+    {
+      "event": "021-auto-orbit-house-back-90",
+      "O6": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/021-auto-orbit-house-back-90.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/021-auto-orbit-house-back-90.png",
+        "sha256": "75fd07e6a2acbe1dbc2c1bb3a38ffa102eaed5cc82de5784c32850f3b005748f"
+      },
+      "O7": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/021-auto-orbit-house-back-90.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/021-auto-orbit-house-back-90.png",
+        "sha256": "b2430544e41ec2d44ea01b513f6ff41d3ff0c5ac7680931340896e1030a289d6"
+      },
+      "O6Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/021-auto-orbit-house-back-90.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/021-auto-orbit-house-back-90.json",
+        "sha256": "5ff83db716ff7e95a09f5728e46d13a45912140860f0ee9627a8701c99e82c9a"
+      },
+      "O7Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/021-auto-orbit-house-back-90.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/021-auto-orbit-house-back-90.json",
+        "sha256": "ee81adce1bc90dade422500df3a1380f4792e4d03aeaefafb084c0c1f174e704"
+      },
+      "pair": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/021-auto-orbit-house-back-90-O6-left-O7-right.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/021-auto-orbit-house-back-90-O6-left-O7-right.png",
+        "sha256": "f01ca451dfc00f39f5e08351ad6afc150d637f7d34cb4919d428ac295b204323"
+      },
+      "actualViewedOriginals": true,
+      "pairPixelsVerifiedEqualToOriginalDecodedRgb": true,
+      "cameraFields": {
+        "width": {
+          "O6": 1280,
+          "O7": 1280,
+          "equal": true
+        },
+        "height": {
+          "O6": 720,
+          "O7": 720,
+          "equal": true
+        },
+        "cameraYaw": {
+          "O6": 92.2432861328125,
+          "O7": 91.86207580566406,
+          "equal": false
+        },
+        "cameraPitch": {
+          "O6": 35.0,
+          "O7": 35.0,
+          "equal": true
+        },
+        "cameraRequestedDistance": {
+          "O6": 5.099999904632568,
+          "O7": 5.099999904632568,
+          "equal": true
+        },
+        "cameraActualDistance": {
+          "O6": 4.846024036407471,
+          "O7": 4.822061538696289,
+          "equal": false
+        },
+        "cameraPosition": {
+          "O6": {
+            "x": -3.896151065826416,
+            "y": 3.5245652198791504,
+            "z": 9.421377182006836
+          },
+          "O7": {
+            "x": -3.8931221961975098,
+            "y": 3.5108208656311035,
+            "z": 9.38933277130127
+          },
+          "equal": false
+        },
+        "playerPosition": {
+          "O6": {
+            "x": 0.07043760269880295,
+            "y": 0.024999842047691345,
+            "z": 9.265995979309082
+          },
+          "O7": {
+            "x": 0.054793570190668106,
+            "y": 0.02499990165233612,
+            "z": 9.260984420776367
+          },
+          "equal": false
+        },
+        "currentQuality": {
+          "O6": "电脑",
+          "O7": "电脑",
+          "equal": true
+        },
+        "currentStage": {
+          "O6": "mixed",
+          "O7": "mixed",
+          "equal": true
+        },
+        "wardrobe": {
+          "O6": "原版短裤",
+          "O7": "原版短裤",
+          "equal": true
+        },
+        "obstruction": {
+          "O6": "",
+          "O7": "",
+          "equal": true
+        },
+        "targetInsideViewport": {
+          "O6": true,
+          "O7": true,
+          "equal": true
+        }
+      },
+      "cameraPositionDistanceDeltaUnits": 0.034998936875164276,
+      "playerPositionDistanceDeltaUnits": 0.01642715654171346,
+      "cameraYawDeltaDegreesO7MinusO6": -0.3812103271484375,
+      "cameraPitchDeltaDegreesO7MinusO6": 0.0,
+      "strictIdenticalCamera": false,
+      "observations": [
+        "两版主屋墙和屋檐为不透明，Lulu 清楚，没有整屏网格。",
+        "O7 左侧地面在曲线边缘直接终止，边外可见云团，O6 左侧仍是树和延伸草地。O7 左侧新增成簇白花和灌木。",
+        "O7 屋面偏橙暖，影子边界不同；相机数值略有差异。"
+      ]
+    },
+    {
+      "event": "022-auto-orbit-house-back-180",
+      "O6": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/022-auto-orbit-house-back-180.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/022-auto-orbit-house-back-180.png",
+        "sha256": "45eda7f7b65dc6a415d9c632250ed23a2c94491c0ff6c05c31db88a508d5533b"
+      },
+      "O7": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/022-auto-orbit-house-back-180.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/022-auto-orbit-house-back-180.png",
+        "sha256": "4090aa357bddde795c0b1efadee51bdab0cedc265e246201e05e53ea78b96f54"
+      },
+      "O6Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/022-auto-orbit-house-back-180.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/022-auto-orbit-house-back-180.json",
+        "sha256": "985b71b099cf4c916227224d4b9e8fdc4e7a888ccb4c875bccb5229de57b2257"
+      },
+      "O7Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/022-auto-orbit-house-back-180.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/022-auto-orbit-house-back-180.json",
+        "sha256": "d582838be747a48dcfa9eb1c38277843482ae385db683b630bf2afe57eaff3e7"
+      },
+      "pair": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/022-auto-orbit-house-back-180-O6-left-O7-right.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/022-auto-orbit-house-back-180-O6-left-O7-right.png",
+        "sha256": "72ca824b1f2c22e805fa83444063b41bcc12ba677b457bee7401d640b9993959"
+      },
+      "actualViewedOriginals": true,
+      "pairPixelsVerifiedEqualToOriginalDecodedRgb": true,
+      "cameraFields": {
+        "width": {
+          "O6": 1280,
+          "O7": 1280,
+          "equal": true
+        },
+        "height": {
+          "O6": 720,
+          "O7": 720,
+          "equal": true
+        },
+        "cameraYaw": {
+          "O6": 182.47857666015625,
+          "O7": 182.75570678710938,
+          "equal": false
+        },
+        "cameraPitch": {
+          "O6": 35.0,
+          "O7": 35.0000114440918,
+          "equal": false
+        },
+        "cameraRequestedDistance": {
+          "O6": 5.099999904632568,
+          "O7": 5.099999904632568,
+          "equal": true
+        },
+        "cameraActualDistance": {
+          "O6": 3.4788691997528076,
+          "O7": 5.0999908447265625,
+          "equal": false
+        },
+        "cameraPosition": {
+          "O6": {
+            "x": 0.19367599487304688,
+            "y": 2.7403974533081055,
+            "z": 12.113052368164062
+          },
+          "O7": {
+            "x": 0.25564536452293396,
+            "y": 3.670234441757202,
+            "z": 13.433820724487305
+          },
+          "equal": false
+        },
+        "playerPosition": {
+          "O6": {
+            "x": 0.07043760269880295,
+            "y": 0.024999842047691345,
+            "z": 9.265995979309082
+          },
+          "O7": {
+            "x": 0.054793570190668106,
+            "y": 0.02499990165233612,
+            "z": 9.260984420776367
+          },
+          "equal": false
+        },
+        "currentQuality": {
+          "O6": "电脑",
+          "O7": "电脑",
+          "equal": true
+        },
+        "currentStage": {
+          "O6": "mixed",
+          "O7": "mixed",
+          "equal": true
+        },
+        "wardrobe": {
+          "O6": "原版短裤",
+          "O7": "原版短裤",
+          "equal": true
+        },
+        "obstruction": {
+          "O6": "",
+          "O7": "",
+          "equal": true
+        },
+        "targetInsideViewport": {
+          "O6": true,
+          "O7": true,
+          "equal": true
+        }
+      },
+      "cameraPositionDistanceDeltaUnits": 1.6164362279185926,
+      "playerPositionDistanceDeltaUnits": 0.01642715654171346,
+      "cameraYawDeltaDegreesO7MinusO6": 0.277130126953125,
+      "cameraPitchDeltaDegreesO7MinusO6": 1.1444091796875e-05,
+      "strictIdenticalCamera": false,
+      "observations": [
+        "两版主屋背墙不透明，Lulu 正面可见，无淡出颗粒。",
+        "O7 Lulu 和房体在图中明显更小，左右看到更多树。相机实际距离由 O6 约3.479变为 O7约5.100，位置差约1.616米，不是严格同机位对比。",
+        "垂直墙面明暗痕两版仍可见。"
+      ]
+    },
+    {
+      "event": "023-auto-orbit-house-back-270",
+      "O6": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/023-auto-orbit-house-back-270.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/023-auto-orbit-house-back-270.png",
+        "sha256": "04ed4b01fe8dbf84ad99ce9629229a912bd8a658fbc2f5673233f7c7627f303a"
+      },
+      "O7": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/023-auto-orbit-house-back-270.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/023-auto-orbit-house-back-270.png",
+        "sha256": "d3fc14525960e5eaaa563b531c9fbe9e3f68dbca9640797dd9c33ad944999ff7"
+      },
+      "O6Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/023-auto-orbit-house-back-270.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/023-auto-orbit-house-back-270.json",
+        "sha256": "c79c093fdaaf420a3d6c002571d48850984859ea731f4887c444c6dd7529965a"
+      },
+      "O7Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/023-auto-orbit-house-back-270.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/023-auto-orbit-house-back-270.json",
+        "sha256": "aab13c055631913b1ec18ef0049199e227fe1a48ee3aaf89745437a94c45ebc3"
+      },
+      "pair": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/023-auto-orbit-house-back-270-O6-left-O7-right.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/023-auto-orbit-house-back-270-O6-left-O7-right.png",
+        "sha256": "05d6947fbf919af2c423a46edeafb546760bda280a1c46a3f6a24799f024fc81"
+      },
+      "actualViewedOriginals": true,
+      "pairPixelsVerifiedEqualToOriginalDecodedRgb": true,
+      "cameraFields": {
+        "width": {
+          "O6": 1280,
+          "O7": 1280,
+          "equal": true
+        },
+        "height": {
+          "O6": 720,
+          "O7": 720,
+          "equal": true
+        },
+        "cameraYaw": {
+          "O6": 272.7132263183594,
+          "O7": 272.33734130859375,
+          "equal": false
+        },
+        "cameraPitch": {
+          "O6": 35.0,
+          "O7": 34.999996185302734,
+          "equal": false
+        },
+        "cameraRequestedDistance": {
+          "O6": 5.099999904632568,
+          "O7": 5.099999904632568,
+          "equal": true
+        },
+        "cameraActualDistance": {
+          "O6": 5.0903239250183105,
+          "O7": 5.0906758308410645,
+          "equal": false
+        },
+        "cameraPosition": {
+          "O6": {
+            "x": 4.235512733459473,
+            "y": 3.664689779281616,
+            "z": 9.068612098693848
+          },
+          "O7": {
+            "x": 4.2213616371154785,
+            "y": 3.664891242980957,
+            "z": 9.090916633605957
+          },
+          "equal": false
+        },
+        "playerPosition": {
+          "O6": {
+            "x": 0.07043760269880295,
+            "y": 0.024999842047691345,
+            "z": 9.265995979309082
+          },
+          "O7": {
+            "x": 0.054793570190668106,
+            "y": 0.024999842047691345,
+            "z": 9.260984420776367
+          },
+          "equal": false
+        },
+        "currentQuality": {
+          "O6": "电脑",
+          "O7": "电脑",
+          "equal": true
+        },
+        "currentStage": {
+          "O6": "mixed",
+          "O7": "mixed",
+          "equal": true
+        },
+        "wardrobe": {
+          "O6": "原版短裤",
+          "O7": "原版短裤",
+          "equal": true
+        },
+        "obstruction": {
+          "O6": "",
+          "O7": "",
+          "equal": true
+        },
+        "targetInsideViewport": {
+          "O6": true,
+          "O7": true,
+          "equal": true
+        }
+      },
+      "cameraPositionDistanceDeltaUnits": 0.026415646745909183,
+      "playerPositionDistanceDeltaUnits": 0.016427156541605325,
+      "cameraYawDeltaDegreesO7MinusO6": -0.375885009765625,
+      "cameraPitchDeltaDegreesO7MinusO6": -3.814697265625e-06,
+      "strictIdenticalCamera": false,
+      "observations": [
+        "O6 右下前景存在细密规则网格。O7 相应右下区域仍有可见细密颗粒/重复点纹理，边界较清楚；这张中心 Lulu 本来不被淡出几何覆盖，不能单凭此图确认钥匙孔作用。",
+        "O7 右上草地在弧形岛缘终止，云团可见，外缘有白花和灌木。O6 此处是树与延伸草地。",
+        "主屋和周围草地存在明暗差异，未将其归因于某一代码修改。"
+      ]
+    },
+    {
+      "event": "024-auto-orbit-house-back-360",
+      "O6": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/024-auto-orbit-house-back-360.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/024-auto-orbit-house-back-360.png",
+        "sha256": "04377eee5e416815d6cbd7084d9b041b9e3e1930a5e09c831aa0ea33170767b9"
+      },
+      "O7": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/024-auto-orbit-house-back-360.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/024-auto-orbit-house-back-360.png",
+        "sha256": "8ac975fc642348bf79e1a4756a988a6f2e637640fb7752ca274b64ac16cd1c4b"
+      },
+      "O6Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/024-auto-orbit-house-back-360.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O6/route/20261024-170546-385/024-auto-orbit-house-back-360.json",
+        "sha256": "fe15ce782d31265f888f1a008caa747f8c2a21748779bbd77133469260e4dee2"
+      },
+      "O7Metadata": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/024-auto-orbit-house-back-360.json",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/024-auto-orbit-house-back-360.json",
+        "sha256": "5de6513b8802d49afded45acf92c3d4feb725469d50c18968555444f5bc071f0"
+      },
+      "pair": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/024-auto-orbit-house-back-360-O6-left-O7-right.png",
+        "relativePath": "lulu-farm-unity/Evidence/r07/O7/visual-review/route-pairs/024-auto-orbit-house-back-360-O6-left-O7-right.png",
+        "sha256": "0b58399d7facb7e9c4e61eb2dd233a15ab873509a82ae075f1343bb87d6c667f"
+      },
+      "actualViewedOriginals": true,
+      "pairPixelsVerifiedEqualToOriginalDecodedRgb": true,
+      "cameraFields": {
+        "width": {
+          "O6": 1280,
+          "O7": 1280,
+          "equal": true
+        },
+        "height": {
+          "O6": 720,
+          "O7": 720,
+          "equal": true
+        },
+        "cameraYaw": {
+          "O6": 2.153204917907715,
+          "O7": 1.8510382175445557,
+          "equal": false
+        },
+        "cameraPitch": {
+          "O6": 35.00000762939453,
+          "O7": 35.00000762939453,
+          "equal": true
+        },
+        "cameraRequestedDistance": {
+          "O6": 5.099999904632568,
+          "O7": 5.099999904632568,
+          "equal": true
+        },
+        "cameraActualDistance": {
+          "O6": 5.0970611572265625,
+          "O7": 5.096768379211426,
+          "equal": false
+        },
+        "cameraPosition": {
+          "O6": {
+            "x": -0.08643420040607452,
+            "y": 3.6685545444488525,
+            "z": 5.093675136566162
+          },
+          "O7": {
+            "x": -0.08006439357995987,
+            "y": 3.668386459350586,
+            "z": 5.088133811950684
+          },
+          "equal": false
+        },
+        "playerPosition": {
+          "O6": {
+            "x": 0.07043760269880295,
+            "y": 0.024999842047691345,
+            "z": 9.265995979309082
+          },
+          "O7": {
+            "x": 0.054793570190668106,
+            "y": 0.024999842047691345,
+            "z": 9.260984420776367
+          },
+          "equal": false
+        },
+        "currentQuality": {
+          "O6": "电脑",
+          "O7": "电脑",
+          "equal": true
+        },
+        "currentStage": {
+          "O6": "mixed",
+          "O7": "mixed",
+          "equal": true
+        },
+        "wardrobe": {
+          "O6": "原版短裤",
+          "O7": "原版短裤",
+          "equal": true
+        },
+        "obstruction": {
+          "O6": "",
+          "O7": "",
+          "equal": true
+        },
+        "targetInsideViewport": {
+          "O6": true,
+          "O7": true,
+          "equal": true
+        }
+      },
+      "cameraPositionDistanceDeltaUnits": 0.008444463872643677,
+      "playerPositionDistanceDeltaUnits": 0.016427156541605325,
+      "cameraYawDeltaDegreesO7MinusO6": -0.3021667003631592,
+      "cameraPitchDeltaDegreesO7MinusO6": 0.0,
+      "strictIdenticalCamera": false,
+      "observations": [
+        "O6 除UI外几乎整个3D区域被密集规则网格覆盖，伴随明显斜向黄绿/亮暗条带。",
+        "O7 Lulu 及周围中心圆/钥匙孔状区域清楚，无同样密集的点覆盖；边界向外围逐步出现点，清晰区外围仍覆盖大面积重复颗粒，右下等处仍有斜向亮暗/色带。",
+        "因此不能描述为整屏规则颗粒问题已经消失；能直接观察的是中心角色的覆盖明显不同、外围颗粒仍明显。",
+        "O7 上部主岛草地边缘和边外浅色云可见。此单帧不能判断噪点时序闪烁、钥匙孔移动稳定性或动态淡出质量。"
+      ]
+    }
+  ]
+}

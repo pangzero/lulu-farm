@@ -1,0 +1,38 @@
+{
+  "device_performance" : "not_a_benchmark_capture_overhead_present",
+  "empty_container_control_samples_excluded" : 4,
+  "encoded_dimensions" : [
+    1280,
+    720
+  ],
+  "encoded_duration_seconds" : 82.914299999999997,
+  "encoded_sample_count" : 578,
+  "expected_duration_seconds" : 82.914306640625,
+  "input_directory" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O7\/native-island\/20261024-185356-663\/walkthrough-190222-315",
+  "maximum_sample_pts_error_seconds" : 1.6634114579971992e-05,
+  "original_frames_modified" : false,
+  "output" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O7\/native-review\/pasture-continuous-75s.mp4",
+  "output_sha256" : "8e1a99196f1102374054707c6920913c15c63a57869272d7769be3f800470163",
+  "sample_duration_range_seconds" : [
+    0.13996666666666666,
+    0.16911666666666667
+  ],
+  "scene_revision" : "integration-r07-O7",
+  "source_dimensions" : [
+    1280,
+    720
+  ],
+  "source_first_elapsed_seconds" : 0.0013427734375,
+  "source_frame_count" : 578,
+  "source_frame_sha256_checks" : 578,
+  "source_frames_jsonl_sha256" : "b7e1cdde686e81425bf08ceef2b8aff0b0f04959ef2352146a174519e1f97a83",
+  "source_platform" : "OSXPlayer",
+  "source_recording_sha256" : "335e03a28ae76f367c58f6cc5185614540ad4578d8806d8248aa66e8a9226f04",
+  "spatial_transformation" : "Native pixel size; pad at right\/bottom to even dimensions; no resize\/crop",
+  "technical_readback" : "passed_count_every_timestamp_and_duration",
+  "temporal_transformation" : "Subtract first captured timestamp; retain every relative wall-clock PTS; no duplication\/interpolation",
+  "timing_mode" : "VFR",
+  "tool" : "macOS system AVFoundation\/VideoToolbox; encode-vfr-recording.swift",
+  "video_codec" : "H264 High, 8Mbps minimum, no frame reordering",
+  "visual_review" : "pending_actual_video_frame_inspection"
+}

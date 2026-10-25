@@ -1,0 +1,313 @@
+{
+  "utc": "2026-10-24T18:58:51.096954+00:00",
+  "status": "已完成，待 Opus 验收",
+  "scope": "20 decoded real video sample frames actually opened; not continuous playback, not a performance run or art acceptance.",
+  "video": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient/o7-ambient.mp4",
+    "sha256": "4cb17dbbf58c0bc9a1dd5b707e882bc6391547b4b82b5d5f26863e1fceacf4fc",
+    "bytes": 22442613
+  },
+  "recording": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient/20261024-185207-564/walkthrough-185211-106/recording.json",
+    "sha256": "5a270f86b7674661fb36d5877b5cdb60fc22082211ca6e1839d5cec4726632bd",
+    "bytes": 770
+  },
+  "recordingMetadata": {
+    "utc": "2026-10-24T18:53:07.1921680Z",
+    "status": "ambient_diagnostic_sequence_finished",
+    "engine": "6000.3.16f1",
+    "platform": "OSXPlayer",
+    "sceneRevision": "integration-r07-O7",
+    "assetRegistryRevision": "308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34",
+    "source": "actual_Unity_ScreenCapture_framebuffer_after_WaitForEndOfFrame",
+    "timing": "wall_clock_variable_frame_durations_no_Time_captureFramerate_no_synthetic_interpolation",
+    "performance": "capture_overhead_present_not_a_device_performance_run",
+    "manualReview": "not_automatically_verified",
+    "frames": 373,
+    "requestedFramesPerSecond": 10,
+    "width": 1280,
+    "height": 720,
+    "elapsedSeconds": 56.084617614746094,
+    "pngBytes": 256953058
+  },
+  "extraction": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/extraction.json",
+    "sha256": "e45ac1837cbfcad97a5c6b9be4171bbab07545381abdf243d62ba963d5757ef0",
+    "bytes": 6813
+  },
+  "decodeLog": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decode.log",
+    "sha256": "57c8cf28e5946da57104f993543e22a81e2af42224f540b6081db74e4ba3116d",
+    "bytes": 1133
+  },
+  "method": "AVAssetImageGenerator exact timestamps derived from original frames.jsonl, using Preflight/extract-encoded-vfr-frames.swift; fresh module cache /private/tmp/lulu-o7-ambient-inspection-cache; source video and original Unity PNGs untouched.",
+  "frames": [
+    {
+      "decoded_pts": 4.90725,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000033.png",
+      "height": 720,
+      "requested_pts": 4.90725,
+      "source_index": 33,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "d4544f59f054febd28b8304452d8fed1558d69b96857e67e0b1fd4b1f6b60a36"
+    },
+    {
+      "decoded_pts": 9.981533333333333,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000067.png",
+      "height": 720,
+      "requested_pts": 9.981533333333333,
+      "source_index": 67,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "178247bfddad40832ba3a4f5356c337c178f040cfa48db383cafbc6bfbe10fef"
+    },
+    {
+      "decoded_pts": 14.02065,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000094.png",
+      "height": 720,
+      "requested_pts": 14.02065,
+      "source_index": 94,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "0cd811870529e5853fdcd7a849f8f00cb42b374df7272b59bded521af61684e0"
+    },
+    {
+      "decoded_pts": 15.024316666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000101.png",
+      "height": 720,
+      "requested_pts": 15.024316666666667,
+      "source_index": 101,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "834ab1a2d9c365e893d7b4227671928ddd447caef1a928f472fe4d635da9dbd1"
+    },
+    {
+      "decoded_pts": 16.0099,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000108.png",
+      "height": 720,
+      "requested_pts": 16.0099,
+      "source_index": 108,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "a39377a772a52a8e8dbce89332c266136e4dcd4c07b14aa5a50edfde399f67c2"
+    },
+    {
+      "decoded_pts": 17.00185,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000115.png",
+      "height": 720,
+      "requested_pts": 17.00185,
+      "source_index": 115,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "025b35c0069b94d5922efe2c3aa0ba0ac58f7a3ee773b45e5dd4dcf262764b17"
+    },
+    {
+      "decoded_pts": 18.00186666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000122.png",
+      "height": 720,
+      "requested_pts": 18.00186666666667,
+      "source_index": 122,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "dc511ccbc6b25f07356187b99f63ce2893b48cba60d52da240956d85a2ff646c"
+    },
+    {
+      "decoded_pts": 18.985733333333332,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000129.png",
+      "height": 720,
+      "requested_pts": 18.985733333333332,
+      "source_index": 129,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "baea55c2350a7c439c9e9e598a6f71bb1f4d46c5810ce511415ceff55f9a5208"
+    },
+    {
+      "decoded_pts": 19.96985,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000136.png",
+      "height": 720,
+      "requested_pts": 19.96985,
+      "source_index": 136,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "6b14232887e44b09154d1d23540b2653309fa92dd2e9c409445cb5587c8ff33a"
+    },
+    {
+      "decoded_pts": 20.961516666666668,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000143.png",
+      "height": 720,
+      "requested_pts": 20.961516666666668,
+      "source_index": 143,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "f93fcd8d8474f4e68537d0876e4d25b17d7119a72c946cda0766b5bbeba57859"
+    },
+    {
+      "decoded_pts": 21.951666666666668,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000150.png",
+      "height": 720,
+      "requested_pts": 21.951666666666668,
+      "source_index": 150,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "c7554f7880ac7e2f23dbf551ca88708667a2e62fcab2b24a5e4d24ab43ab2d8b"
+    },
+    {
+      "decoded_pts": 22.943483333333333,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000157.png",
+      "height": 720,
+      "requested_pts": 22.943483333333333,
+      "source_index": 157,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "0b37ecd0729365e2bb72a431d14ee252d43e254ef8be4d844c4e07fc7f245825"
+    },
+    {
+      "decoded_pts": 23.926766666666666,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000164.png",
+      "height": 720,
+      "requested_pts": 23.926766666666666,
+      "source_index": 164,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "1dc7e54f548c11decda002384c271b143ec71a099fe22fcc6a5514073277ee1b"
+    },
+    {
+      "decoded_pts": 24.918383333333335,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000171.png",
+      "height": 720,
+      "requested_pts": 24.918383333333335,
+      "source_index": 171,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "08c36120500d679ef717b3ad60f1ddc9b4cea55b84c84689c0a3dd01b0c7c3c9"
+    },
+    {
+      "decoded_pts": 30.035016666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000206.png",
+      "height": 720,
+      "requested_pts": 30.035016666666667,
+      "source_index": 206,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "573ad937643a43457e66759a160f4b95637b790b8f51489a2eb1102f5d10d324"
+    },
+    {
+      "decoded_pts": 34.89371666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000237.png",
+      "height": 720,
+      "requested_pts": 34.89371666666667,
+      "source_index": 237,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "bffd71ee0bda2646a87e98e7aee8f63a82a433e78d7976b5bdc19909927167b5"
+    },
+    {
+      "decoded_pts": 40.025083333333335,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000258.png",
+      "height": 720,
+      "requested_pts": 40.025083333333335,
+      "source_index": 258,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "798fb915ab7f74d7c587ec13b78011ce67cc5af4ddd11d51b9eadeb6fc3d950e"
+    },
+    {
+      "decoded_pts": 44.9099,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000292.png",
+      "height": 720,
+      "requested_pts": 44.9099,
+      "source_index": 292,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "2ce9bdc5c2dec00855e20fcb7a46dcda1498c55e948f2d57963327cdc0286e5a"
+    },
+    {
+      "decoded_pts": 50.0275,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000329.png",
+      "height": 720,
+      "requested_pts": 50.0275,
+      "source_index": 329,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "46aec8b22f7cf50c6ff4f4cba89ec077369c406fb26d04c630683933840a73a9"
+    },
+    {
+      "decoded_pts": 54.91911666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decoded/decoded-frame-000364.png",
+      "height": 720,
+      "requested_pts": 54.91911666666667,
+      "source_index": 364,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "b46c888853ecf3d583a5877820a15daf3d19098643c98b721edd2c184a1351df"
+    }
+  ],
+  "observations": [
+    {
+      "frames": [
+        33,
+        67
+      ],
+      "subject": "牧场侧视",
+      "notes": [
+        "牛在相同机位下从草垛旁向画面右侧移位并改变朝向，鸡进入右下画面；牛腿与身体投影位置改变。",
+        "两张相隔约5秒的帧不能确认接地脚是否固定，也不能据此认定无滑步。"
+      ]
+    },
+    {
+      "frames": [
+        94,
+        101,
+        108,
+        115,
+        122,
+        129,
+        136,
+        143,
+        150,
+        157,
+        164,
+        171
+      ],
+      "subject": "牧场中部",
+      "notes": [
+        "羊由画面中部逐步移到右侧，约23秒后转背；牛从草垛前向左后侧移动，鸡转正并向前接近，猪转向镜头后向画面左侧移动。",
+        "牛羊的短腿轮廓在样帧间有相对变化，但大量腿部被身体遮挡，约1秒采样不足以判定完整步态和脚底滑动。",
+        "这些样帧中未看到动物穿过后方围栏或直接穿过草垛；羊与牛一度在画面投影上重叠，二维遮挡不能证明三维互穿。",
+        "鸭子没有进入这组机位的可见区域，左右摇摆未验证；饲料槽及谷仓碰撞未覆盖。"
+      ]
+    },
+    {
+      "frames": [
+        206,
+        237,
+        258
+      ],
+      "subject": "主屋/灯柱与灌木",
+      "notes": [
+        "灌木上方一个小浅色飞行物在不同帧的位置和翅形有变化，外形像蝴蝶；不能将其当成新增远景飞鸟的扇翅证据。",
+        "本机位天空很少，没有清楚展示成群飞鸟。"
+      ]
+    },
+    {
+      "frames": [
+        292,
+        329,
+        364
+      ],
+      "subject": "池塘",
+      "notes": [
+        "同机位水面亮纹位置变化，45秒样帧有大圆涟漪，50秒该处未见同样涟漪，55秒上沿另有圆纹。",
+        "荷叶与右侧鱼可见；本机位没有溪流落水或瀑布竖向部分，水流下落/水雾动画未验证。"
+      ]
+    }
+  ],
+  "limits": [
+    "These are sparse decoded samples, not a claim to have watched the full continuous movie.",
+    "The whole ambient movie lasts about 56 seconds and changes among four cameras, so it does not satisfy the required continuous >=60 second pasture recording.",
+    "Sky-bird wing flapping, waterfall flow, duck sway, foot sliding and full obstacle/collision coverage remain unverified by this subtask.",
+    "Audio was not auditioned."
+  ],
+  "nextEvidence": "Separate native pasture recording and native island-wall checks owned by parent task."
+}

@@ -1,0 +1,18 @@
+{
+    "utc": "2026-10-24T19:08:33.4634750Z",
+    "status": "stopped_by_operator",
+    "engine": "6000.3.16f1",
+    "platform": "OSXPlayer",
+    "sceneRevision": "integration-r07-O7",
+    "assetRegistryRevision": "308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34",
+    "source": "actual_Unity_ScreenCapture_framebuffer_after_WaitForEndOfFrame",
+    "timing": "wall_clock_variable_frame_durations_no_Time_captureFramerate_no_synthetic_interpolation",
+    "performance": "capture_overhead_present_not_a_device_performance_run",
+    "manualReview": "not_automatically_verified",
+    "frames": 683,
+    "requestedFramesPerSecond": 10,
+    "width": 1280,
+    "height": 720,
+    "elapsedSeconds": 97.82464599609375,
+    "pngBytes": 484285850
+}

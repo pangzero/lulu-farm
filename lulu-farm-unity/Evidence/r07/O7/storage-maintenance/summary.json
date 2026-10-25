@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-24T18:50:16.208935+00:00",
+  "authorization": "Existing user authorization: lossless local historical Profiler compression; verify decompressed SHA256 before releasing uncompressed duplicate",
+  "archiveRoot": "/Users/haowen/GameProject/local-evidence-archives/r07-profiler-20261025-o7-space",
+  "files": 177,
+  "removedUncompressedDuplicates": 177,
+  "originalBytes": 29596231713,
+  "archiveBytes": 8156332221,
+  "allVerified": true,
+  "freeBytesAfter": 32219353088,
+  "scope": "Historical O6 and D6 raw .data; old reports, compressed timelines, videos and assets unchanged. Restore original paths with archive ledger."
+}

@@ -1,0 +1,110 @@
+{
+  "utc": "2026-10-25T07:37:04.064918+00:00",
+  "comparisonLimit": "r06 had no binary Profiler; r07 captures include CPU Profiler and ten-second rotation flush overhead. Same M5, 1280x720, Desktop and 20 mature plots, but profiler overhead is not subtracted. D6 final route moves two west-house intermediate points 0.6m east to avoid the inherited fence endpoint; the 31 points and key stops remain, but this is not an identical-path A/B comparison. No causal or acceptance conclusion.",
+  "rows": [
+    {
+      "name": "r06 baseline",
+      "source": "Evidence/mac-player-performance-r06/20261023-030818-971/performance/summary.json",
+      "profilerEnabled": false,
+      "measurementSeconds": 917.6840209960938,
+      "laps": 7,
+      "frames": 109241,
+      "meanMs": 8.392597829765041,
+      "p95Ms": 8.367163129150867,
+      "maxMs": 1859.2705726623535,
+      "configurationUnchanged": true,
+      "acceptance": "Opus_analysis_pending"
+    },
+    {
+      "name": "D5",
+      "source": "Evidence/r07/D5/performance-r02/20261024-001055-043/performance/summary.json",
+      "profilerEnabled": true,
+      "measurementSeconds": 912.7228393554688,
+      "laps": 7,
+      "frames": 102399,
+      "meanMs": 8.701022135845767,
+      "p95Ms": 8.509998209774494,
+      "maxMs": 19762.544631958008,
+      "configurationUnchanged": true,
+      "acceptance": "Opus_analysis_pending"
+    },
+    {
+      "name": "D2",
+      "source": "Evidence/r07/D2/performance/20261024-003339-040/performance/summary.json",
+      "profilerEnabled": true,
+      "measurementSeconds": 912.7251586914062,
+      "laps": 7,
+      "frames": 103695,
+      "meanMs": 8.801283817484123,
+      "p95Ms": 8.856002241373062,
+      "maxMs": 19056.659698486328,
+      "configurationUnchanged": true,
+      "acceptance": "Opus_analysis_pending"
+    },
+    {
+      "name": "D3",
+      "source": "Evidence/r07/D3/performance/20261024-015305-476/performance/summary.json",
+      "profilerEnabled": true,
+      "measurementSeconds": 312.6911315917969,
+      "laps": 2,
+      "frames": 36132,
+      "meanMs": 8.653873424001407,
+      "p95Ms": 9.069040417671204,
+      "maxMs": 225.71450471878052,
+      "configurationUnchanged": true,
+      "acceptance": "Opus_analysis_pending"
+    },
+    {
+      "name": "D4",
+      "source": "Evidence/r07/D4/performance/20261024-020609-525/performance/summary.json",
+      "profilerEnabled": true,
+      "measurementSeconds": 912.7387084960938,
+      "laps": 8,
+      "frames": 105841,
+      "meanMs": 8.6175374160355,
+      "p95Ms": 8.982503786683083,
+      "maxMs": 2658.143997192383,
+      "configurationUnchanged": true,
+      "acceptance": "Opus_analysis_pending"
+    },
+    {
+      "name": "D6",
+      "source": "Evidence/r07/D6/performance/20261024-030222-642/performance/summary.json",
+      "profilerEnabled": true,
+      "measurementSeconds": 912.75048828125,
+      "laps": 8,
+      "frames": 99359,
+      "meanMs": 9.123222989305411,
+      "p95Ms": 13.004464097321033,
+      "maxMs": 5273.077964782715,
+      "configurationUnchanged": true,
+      "acceptance": "Opus_analysis_pending"
+    },
+    {
+      "name": "O6",
+      "source": "Evidence/r07/O6/performance/20261024-172514-590/performance/summary.json",
+      "profilerEnabled": true,
+      "measurementSeconds": 912.6931762695312,
+      "laps": 8,
+      "frames": 106807,
+      "meanMs": 8.544973611811269,
+      "p95Ms": 9.437499567866325,
+      "maxMs": 90.65558761358261,
+      "configurationUnchanged": true,
+      "acceptance": "Opus_analysis_pending"
+    },
+    {
+      "name": "O7",
+      "source": "Evidence/r07/O7/performance/20261025-071859-163/performance/summary.json",
+      "profilerEnabled": true,
+      "measurementSeconds": 912.7116088867188,
+      "laps": 8,
+      "frames": 107340,
+      "meanMs": 8.443742765578158,
+      "p95Ms": 8.915582671761513,
+      "maxMs": 2964.817762374878,
+      "configurationUnchanged": true,
+      "acceptance": "Opus_analysis_pending"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+SOURCE: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance.log
+SHA256: 38c44a5febd1e1029605387a2e7c61f735793b052c7644d1c65b91a9b9568ae6
+READ UTC: 2026-10-25T07:37:07.605100+00:00
+All lines read. One-based line numbers; merged +/-20-line windows per category.
+
+CATEGORY: Exception
+PATTERN: Exception
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Error
+PATTERN: Error
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Shader
+PATTERN: Shader
+MATCH COUNT: 1
+57: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792913657322,"processId":91947,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+CLASSIFICATION: Unity shutdown telemetry; Shader is a memory-label key. No memory-leak or performance conclusion.
+CONTEXT 37-57
+37: [Physics::Module] Threading Mode: Multi-Threaded
+38: UnloadTime: 4.650334 ms
+39: Releasing render texture that is set to be RenderTexture.active!
+40: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+41: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+42: LuluFarm.FarmProfilerCaptureR07:NextChunk () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:49)
+43: LuluFarm.FarmProfilerCaptureR07:Update () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:42)
+44: 
+45: [/Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs line 49]
+46: 
+47: Thread 0x171cbb000 may have been prematurely finalized
+48: [Physics::Module] Cleanup current backend.
+49: [Physics::Module] Id: 0xf2b8ea05
+50: Input System module state changed to: ShutdownInProgress.
+51: Input System polling thread exited.
+52: Input System module state changed to: Shutdown.
+53: Thread 0x1708bf000 may have been prematurely finalized
+54: Thread 0x170a63000 may have been prematurely finalized
+55: Thread 0x1709d7000 may have been prematurely finalized
+56: Thread 0x17094b000 may have been prematurely finalized
+57: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792913657322,"processId":91947,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+
+CATEGORY: CS0108
+PATTERN: CS0108
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Warning
+PATTERN: warning|warn
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: negative-scale-collision
+PATTERN: negative.*scal|scal.*negative|collid|collision|convex|non.?convex
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: thread-finalization
+PATTERN: prematurely finalized
+MATCH COUNT: 5
+47: Thread 0x171cbb000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without assigning a cause.
+53: Thread 0x1708bf000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without assigning a cause.
+54: Thread 0x170a63000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without assigning a cause.
+55: Thread 0x1709d7000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without assigning a cause.
+56: Thread 0x17094b000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without assigning a cause.
+CONTEXT 27-57
+27: Has Float Filtering: 1
+28: ReadWrite Texture Tier: 2
+29: Begin MonoManager ReloadAssembly
+30: - Loaded All Assemblies, in  0.104 seconds
+31: - Finished resetting the current domain, in  0.002 seconds
+32: [Physics::Module] Selected backend.
+33: [Physics::Module] Name: PhysX
+34: [Physics::Module] Id: 0xf2b8ea05
+35: [Physics::Module] SDK Version: 4.1.2
+36: [Physics::Module] Integration Version: 1.0.0
+37: [Physics::Module] Threading Mode: Multi-Threaded
+38: UnloadTime: 4.650334 ms
+39: Releasing render texture that is set to be RenderTexture.active!
+40: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+41: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+42: LuluFarm.FarmProfilerCaptureR07:NextChunk () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:49)
+43: LuluFarm.FarmProfilerCaptureR07:Update () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:42)
+44: 
+45: [/Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs line 49]
+46: 
+47: Thread 0x171cbb000 may have been prematurely finalized
+48: [Physics::Module] Cleanup current backend.
+49: [Physics::Module] Id: 0xf2b8ea05
+50: Input System module state changed to: ShutdownInProgress.
+51: Input System polling thread exited.
+52: Input System module state changed to: Shutdown.
+53: Thread 0x1708bf000 may have been prematurely finalized
+54: Thread 0x170a63000 may have been prematurely finalized
+55: Thread 0x1709d7000 may have been prematurely finalized
+56: Thread 0x17094b000 may have been prematurely finalized
+57: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792913657322,"processId":91947,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+
+CATEGORY: MemoryLeaks
+PATTERN: MemoryLeaks
+MATCH COUNT: 1
+57: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792913657322,"processId":91947,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+CLASSIFICATION: Unity shutdown telemetry; Shader is a memory-label key. No memory-leak or performance conclusion.
+CONTEXT 37-57
+37: [Physics::Module] Threading Mode: Multi-Threaded
+38: UnloadTime: 4.650334 ms
+39: Releasing render texture that is set to be RenderTexture.active!
+40: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+41: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+42: LuluFarm.FarmProfilerCaptureR07:NextChunk () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:49)
+43: LuluFarm.FarmProfilerCaptureR07:Update () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:42)
+44: 
+45: [/Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs line 49]
+46: 
+47: Thread 0x171cbb000 may have been prematurely finalized
+48: [Physics::Module] Cleanup current backend.
+49: [Physics::Module] Id: 0xf2b8ea05
+50: Input System module state changed to: ShutdownInProgress.
+51: Input System polling thread exited.
+52: Input System module state changed to: Shutdown.
+53: Thread 0x1708bf000 may have been prematurely finalized
+54: Thread 0x170a63000 may have been prematurely finalized
+55: Thread 0x1709d7000 may have been prematurely finalized
+56: Thread 0x17094b000 may have been prematurely finalized
+57: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792913657322,"processId":91947,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+
+CATEGORY: RenderTexture-active-release
+PATTERN: Releasing render texture|RenderTexture\.active
+MATCH COUNT: 1
+39: Releasing render texture that is set to be RenderTexture.active!
+CLASSIFICATION: Actual render-texture release diagnostic. Stack points to FarmProfilerCaptureR07.NextChunk:49 and Update:42. It does not include the literal words Error or Warning.
+CONTEXT 19-57
+19: Metal devices available: 1
+20: 0: Apple M5 (high power)
+21: Using device Apple M5 (high power)
+22: Initializing Metal device caps: Apple M5
+23: Mac GPU Family: 2
+24: Apple GPU Family: 9
+25: MSL Version: 3.0
+26: Has Float MSAA: 1
+27: Has Float Filtering: 1
+28: ReadWrite Texture Tier: 2
+29: Begin MonoManager ReloadAssembly
+30: - Loaded All Assemblies, in  0.104 seconds
+31: - Finished resetting the current domain, in  0.002 seconds
+32: [Physics::Module] Selected backend.
+33: [Physics::Module] Name: PhysX
+34: [Physics::Module] Id: 0xf2b8ea05
+35: [Physics::Module] SDK Version: 4.1.2
+36: [Physics::Module] Integration Version: 1.0.0
+37: [Physics::Module] Threading Mode: Multi-Threaded
+38: UnloadTime: 4.650334 ms
+39: Releasing render texture that is set to be RenderTexture.active!
+40: UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+41: UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+42: LuluFarm.FarmProfilerCaptureR07:NextChunk () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:49)
+43: LuluFarm.FarmProfilerCaptureR07:Update () (at /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs:42)
+44: 
+45: [/Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmProfilerCaptureR07.cs line 49]
+46: 
+47: Thread 0x171cbb000 may have been prematurely finalized
+48: [Physics::Module] Cleanup current backend.
+49: [Physics::Module] Id: 0xf2b8ea05
+50: Input System module state changed to: ShutdownInProgress.
+51: Input System polling thread exited.
+52: Input System module state changed to: Shutdown.
+53: Thread 0x1708bf000 may have been prematurely finalized
+54: Thread 0x170a63000 may have been prematurely finalized
+55: Thread 0x1709d7000 may have been prematurely finalized
+56: Thread 0x17094b000 may have been prematurely finalized
+57: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792913657322,"processId":91947,"allocatedMemory":2385464,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15119},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+
+CATEGORY: Licensing
+PATTERN: Licens
+MATCH COUNT: 0
+NO MATCH
+

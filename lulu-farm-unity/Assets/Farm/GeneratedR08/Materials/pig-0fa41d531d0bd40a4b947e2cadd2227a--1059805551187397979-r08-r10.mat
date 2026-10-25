@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pig-0fa41d531d0bd40a4b947e2cadd2227a--1059805551187397979-r08-r10
+  m_Shader: {fileID: 4800000, guid: 4f43c977356c4295beeece99b520f61a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 1b26a921226714d3eb3a2ec7b2c74c2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Amplitude: 0.012
+    - _BreathAmp: 0.01
+    - _Cull: 0
+    - _FloorY: -0.6198808
+    - _GaitAmount: 0
+    - _GaitBiped: 0
+    - _GaitBob: 0.01
+    - _GaitLift: 0.05
+    - _GaitMidZ: 0.11
+    - _GaitPhase: 0
+    - _GaitRoll: 0
+    - _GaitStride: -0.09
+    - _GaitTop0: 0.05
+    - _GaitTop1: 0.15
+    - _MotionMode: 2
+    - _NormalScale: 0
+    - _Phase: 0.5128389
+    - _Smoothness: 0.76
+    - _SpecularFactor: 0.4
+    - _TurnAmp: 0.1
+    - _WindStart: 0.07
+    - _WindTop: 0.7
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HeadLimits: {r: 0.05, g: 0.5, b: -0.15, a: 0.15}
+    - _HeadPivot: {r: 0, g: 0.05, b: 0.25, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

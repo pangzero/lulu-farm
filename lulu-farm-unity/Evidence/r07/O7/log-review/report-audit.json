@@ -1,0 +1,304 @@
+{
+  "utc": "2026-10-25T07:57:15.263768+00:00",
+  "status": "Completed; awaiting Opus review",
+  "acceptanceConclusion": null,
+  "scope": "Lightweight text/JSON/JSONL audit of O7 REPORT and linked evidence. No Opus source files read or changed; no Unity/Player, encoding, compression, video/image inspection or heavy raw scans. SHA values below cover small evidence/metadata only, not a fresh rehash of large assets/raw Profiler/video. REPORT was not edited.",
+  "report": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/REPORT.md",
+    "bytes": 12193,
+    "sha256": "05d3411976d8412ec18db8da186f1d90b8f2577105bace814bdba985cb9fa0be"
+  },
+  "findings": [
+    {
+      "kind": "recording_vs_encoded_duration",
+      "line": 58,
+      "text": "- 另有四机位ambient录制56.0846秒（编码视频56.0443秒，减去首帧PTS）；不能替代上述连续长片。实际打开20张ambient与25张长片解码样帧，长片包含约0.14–0.15秒间隔连续帧。审阅方式是解码样帧，不声称连续播放看完每帧或试听。",
+      "detail": "The recorder elapsedSeconds is 56.084617614746094, while ambient/o7-ambient.mp4.encoding.json encoded_duration_seconds is 56.04431666666667. If describing the MP4, use the encoded duration or name both clocks. First source elapsed is 0.04029655456542969; encoding subtracts it.",
+      "sources": [
+        {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient/20261024-185207-564/walkthrough-185211-106/recording.json",
+          "bytes": 770,
+          "sha256": "5a270f86b7674661fb36d5877b5cdb60fc22082211ca6e1839d5cec4726632bd"
+        },
+        {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient/o7-ambient.mp4.encoding.json",
+          "bytes": 1856,
+          "sha256": "8c5b105bb7b659643b12e3023389291696f385ed67c221ab54e8c03936a92f07"
+        }
+      ]
+    },
+    {
+      "kind": "additional_shutdown_diagnostic",
+      "detail": "export-20261025-073508.log:381 contains debugger-agent: Unable to listen on 43. Line 382 says Exiting batchmode successfully now. It is retained in export-summary.json but not specifically listed in REPORT diagnostic bullets; consider adding this factual diagnostic without attributing cause/severity.",
+      "source": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/export-20261025-073508.log",
+        "bytes": 26092,
+        "sha256": "b1c070e0cec7dbcd5d7d8bf6c245da6785cd9f12934f77738770c78c9b55a5b5"
+      }
+    }
+  ],
+  "checkedFacts": {
+    "snapshotCount": 61,
+    "protectedCount": 403,
+    "fixedComparisons": 30,
+    "allReportedFixedCamerasEqual": true,
+    "profilerRawCount": 92,
+    "profilerRawBytes": 16618085561,
+    "framePngCountFromInventory": 3108,
+    "exportCount": 92,
+    "exportEventCount": 13589570,
+    "allGzipCrcFlags": true,
+    "performanceWindowCount": 910,
+    "allPerformanceWindowsFocused": true,
+    "performanceTableQuotedVerbatim": true,
+    "RenderTextureContextFileExists": true
+  },
+  "pathChecks": [
+    {
+      "reference": "snapshot-verification.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/snapshot-verification.json",
+      "exists": true
+    },
+    {
+      "reference": "final-integrity.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/final-integrity.json",
+      "exists": true
+    },
+    {
+      "reference": "build-development.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/build-development.json",
+      "exists": true
+    },
+    {
+      "reference": "sky-island-r10.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/sky-island-r10.json",
+      "exists": true
+    },
+    {
+      "reference": "animal-walk-r10.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/animal-walk-r10.json",
+      "exists": true
+    },
+    {
+      "reference": "occlusion-dither-r09.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/occlusion-dither-r09.json",
+      "exists": true
+    },
+    {
+      "reference": "log-review/final-runtime-performance.log.keyword-context.txt",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/final-runtime-performance.log.keyword-context.txt",
+      "exists": true
+    },
+    {
+      "reference": "visual-review/fixed-observations.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/fixed-observations.json",
+      "exists": true
+    },
+    {
+      "reference": "visual-review/route-observations.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/route-observations.json",
+      "exists": true
+    },
+    {
+      "reference": "native-review/pasture-continuous-75s.mp4",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/pasture-continuous-75s.mp4",
+      "exists": true
+    },
+    {
+      "reference": "native-review/house-back-tree-fade.mp4",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/house-back-tree-fade.mp4",
+      "exists": true
+    },
+    {
+      "reference": "native-review/wall-west.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/wall-west.json",
+      "exists": true
+    },
+    {
+      "reference": "native-review/wall-south.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/wall-south.json",
+      "exists": true
+    },
+    {
+      "reference": "native-review/wall-east.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/wall-east.json",
+      "exists": true
+    },
+    {
+      "reference": "native-review/wall-north.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/wall-north.json",
+      "exists": true
+    },
+    {
+      "reference": "native-review/stream-bank.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/stream-bank.json",
+      "exists": true
+    },
+    {
+      "reference": "performance-table.md",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance-table.md",
+      "exists": true
+    },
+    {
+      "reference": "local-raw-inventory.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/local-raw-inventory.json",
+      "exists": true
+    },
+    {
+      "reference": "profiler/export-index.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/profiler/export-index.json",
+      "exists": true
+    },
+    {
+      "reference": "profiler/export-verification.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/profiler/export-verification.json",
+      "exists": true
+    },
+    {
+      "reference": "storage-maintenance/summary.json",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/storage-maintenance/summary.json",
+      "exists": true
+    },
+    {
+      "reference": "storage-maintenance/archive-ledger.jsonl",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/storage-maintenance/archive-ledger.jsonl",
+      "exists": true
+    },
+    {
+      "reference": "Builds/r07/O7/development/LuluFarm.app",
+      "absolutePath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Builds/r07/O7/development/LuluFarm.app",
+      "exists": true
+    }
+  ],
+  "pendingVisualAgentFiles": [
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/birds-observations.json",
+      "existsAtAudit": false,
+      "classification": "Expected later from visual agent per parent; not treated as a final broken reference at this in-progress audit."
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-observations.json",
+      "existsAtAudit": false,
+      "classification": "Expected later from visual agent per parent; not treated as a final broken reference at this in-progress audit."
+    }
+  ],
+  "checkedSourceFiles": [
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/snapshot-verification.json",
+      "bytes": 88,
+      "sha256": "88bba406f5c233448083f7959161f01effabf8130b063d71d24c9cf44f372556"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/final-integrity.json",
+      "bytes": 143617,
+      "sha256": "f46786c233372b323f81e51280a21569e95e6bab7ad9081ef5b6ff2be445d126"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/metrics.json",
+      "bytes": 9191,
+      "sha256": "ec7a47c2cae97dd83ef9712111068c13419e073830439b6e56dc5440e9901ce7"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/build-development.json",
+      "bytes": 298,
+      "sha256": "8b388a09397800649977b71d33b4cec17da3c6cd6804bf436fae470336e7eb5c"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/generate-20261024-184214-execution.json",
+      "bytes": 181,
+      "sha256": "00ba7f83970c0956483f58a57dd0b0346f586714b957941c8da65d6d31648242"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/development-20261024-184234-execution.json",
+      "bytes": 187,
+      "sha256": "f0423fdeea6f33f18785af3085bd03ec49535db685623a91a080cf315deb141a"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/export-20261025-073508-execution.json",
+      "bytes": 177,
+      "sha256": "6b0fcbfc32fb121a9298cd78d13ed23ce708d55fdae76ed167fb5c2c6e2c4f9b"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route-execution.json",
+      "bytes": 971,
+      "sha256": "0908abdc8d0affbc62de843e21eff7c5d6d4817599c4b423778738b1dc939d5f"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance-execution.json",
+      "bytes": 1297,
+      "sha256": "3f032c451df39318f6aa8520c45623a6f302a3e24d0141f12b018c996dd29d88"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island-execution.json",
+      "bytes": 797,
+      "sha256": "48bee78c2a00e7c1dc78568af83e41b45976bdff12df3665e922f01fa60e8297"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/profiler/export-verification.json",
+      "bytes": 29837,
+      "sha256": "a96dd85bcb83cc6e2004c0635234a0dc5143ad1eb90071c7ea971ad7d5d5dee9"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance/20261025-071859-163/performance/summary.json",
+      "bytes": 4367,
+      "sha256": "f2dd3c78ec709d870aee0834ad0209ffb2126584a342eee69ae8e870bee3d26d"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance/20261025-071859-163/performance/configuration.json",
+      "bytes": 3091,
+      "sha256": "9e3b699067f925b1dbd2a5147c1f259cbc426e61587fbc6553034378fb72ef80"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance/20261025-071859-163/performance/samples.jsonl",
+      "bytes": 2338056,
+      "sha256": "2f453ce532c19eea434206687e07443d915d4e3231e84f50df70a5ddd24698af"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/local-raw-inventory.json",
+      "bytes": 19612,
+      "sha256": "d18f68072dfd0585f4efaa4d391b9725dbe2ce2ebc0faf4863a7f508a3c378a5"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/storage-maintenance/summary.json",
+      "bytes": 643,
+      "sha256": "4ecb19de5891426c4cc86b0ae67de5f8725ac0645d0307c3e50e5e4bfafface6"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/fixed-observations.json",
+      "bytes": 33727,
+      "sha256": "7c21be3364b7a58914ce8143784dd51ae502fb0af033320f411f227da2f1c8e0"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/route-observations.json",
+      "bytes": 29692,
+      "sha256": "34a578bdc3a640c7b7591d3859c62cd722aaf9efeb342152257d0820d4ca96c4"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/editor-summary.json",
+      "bytes": 265743,
+      "sha256": "c270ec9b0d29716a46e378a9a0fe4fc4ff7796c03dc860326d46657b87b33e77"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-summary.json",
+      "bytes": 68875,
+      "sha256": "2348a40efd8ed69cd99c99b7dac6980b233bd4ee7871b5fcc8986a1297dd7f5d"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/final-runtime-summary.json",
+      "bytes": 24474,
+      "sha256": "3e9f404a99d6564c50bfa23299df204eb561301cc147eaf317acc250d96fbdb8"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/export-summary.json",
+      "bytes": 1929,
+      "sha256": "9a015c32432c09fba9f4215df1adc6b3a752ff2248292854c6eb872585bec4ad"
+    }
+  ],
+  "observations": [
+    "Core reported snapshot/protection/build/route/performance/raw/archive/export counts matched referenced metadata. Four wall coordinates matched frame JSON to reported precision. Fixed-camera and route-022 caveats matched visual observation metadata.",
+    "The RenderTexture context filename in REPORT is exact and exists. The real first-route NullReferenceException and recovered Editor licensing errors are described, not hidden.",
+    "The report distinguishes compiler/build summaries from runtime or art acceptance, preserves battery/background workload limits, audio not listened, and manual camera limitations. No additional acceptance overclaim identified in the text checked.",
+    "Visual claims were checked against existing observation records, not independently re-viewed in this text-only audit. Birds/native fade records remain outside the completed scope until written.",
+    "Package/asset/source non-modification statements rely on linked integrity metadata and the parent execution; this audit did not independently rehash those large inputs or inspect Opus code."
+  ]
+}

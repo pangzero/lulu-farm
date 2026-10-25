@@ -1,0 +1,1566 @@
+{
+  "schema": "o7-runtime-log-review-v1",
+  "createdUtc": "2026-10-24T19:07:24.900372+00:00",
+  "status": "Completed; awaiting Opus review",
+  "acceptanceConclusion": null,
+  "scope": "Lightweight text-only snapshot of all non-editor .log files present under O7 at the read time, plus both automated route records. No Unity, Player, image rendering, encoding, compression or performance sampling was started by this audit. Existing editor-summary.json remains unchanged. No project code or previous evidence modified.",
+  "editorAuditReference": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/editor-summary.json",
+  "files": [
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient-encode.log",
+      "sha256": "af4c40e5132311665e6b622569f7048520865c0dcae265534dc3611d1dc3ec82",
+      "bytes": 1866,
+      "lineCount": 21,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T18:53:42.831930+00:00",
+      "scope": "Entire file bytes at this read; excludes later additions.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 3,
+        "Shader": 0,
+        "CS0108": 0,
+        "Warning": 4,
+        "negative-scale-collision": 0,
+        "thread-finalization": 0,
+        "MemoryLeaks": 0
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [
+          {
+            "line": 6,
+            "text": "162 |         throw EncodeError.invalid(\"Encoded output has no video track\")",
+            "classification": "Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed."
+          },
+          {
+            "line": 10,
+            "text": "184 |     let maxError = zip(pts, frames).map { abs($0 - ($1.elapsedSeconds - first.elapsedSeconds)) }.max()!",
+            "classification": "Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed."
+          },
+          {
+            "line": 11,
+            "text": "185 |     try require(maxError <= 1.0 / Double(timeScale) + 0.000001, \"VFR PTS mismatch: \\(maxError)\")",
+            "classification": "Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed."
+          }
+        ],
+        "Shader": [],
+        "CS0108": [],
+        "Warning": [
+          {
+            "line": 1,
+            "text": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:161:29: warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 5,
+            "text": "    |                             `- warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 9,
+            "text": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:186:49: warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 13,
+            "text": "    |                                                 `- warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          }
+        ],
+        "negative-scale-collision": [],
+        "thread-finalization": [],
+        "MemoryLeaks": []
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-ambient-encode.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient.log",
+      "sha256": "b59b5b697bd4ae5354be03035399a2a5312955e6f7274c50d8089b34a1ee648b",
+      "bytes": 4023,
+      "lineCount": 51,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T18:53:17.595372+00:00",
+      "scope": "Entire file bytes at this read; excludes later additions.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 1,
+        "CS0108": 0,
+        "Warning": 0,
+        "negative-scale-collision": 0,
+        "thread-finalization": 7,
+        "MemoryLeaks": 1
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [
+          {
+            "line": 51,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792867997595,\"processId\":14597,\"allocatedMemory\":2385591,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15119},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3255},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry (Shader is a memory-label key); recorded without a memory-leak or performance conclusion."
+          }
+        ],
+        "CS0108": [],
+        "Warning": [],
+        "negative-scale-collision": [],
+        "thread-finalization": [
+          {
+            "line": 39,
+            "text": "Thread 0x16cfc3000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 40,
+            "text": "Thread 0x16cd47000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 46,
+            "text": "Thread 0x16bcdf000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 47,
+            "text": "Thread 0x16bc53000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 48,
+            "text": "Thread 0x16bd6b000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 49,
+            "text": "Thread 0x16be83000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 50,
+            "text": "Thread 0x16bdf7000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          }
+        ],
+        "MemoryLeaks": [
+          {
+            "line": 51,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792867997595,\"processId\":14597,\"allocatedMemory\":2385591,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15119},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3255},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry (Shader is a memory-label key); recorded without a memory-leak or performance conclusion."
+          }
+        ]
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-ambient.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/attempt-01/route-unfocused/route.log",
+      "sha256": "90e4c4737401e0f499618069bcd59ea6e22d513be68528ddd157de82ddbfc197",
+      "bytes": 4981,
+      "lineCount": 59,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T18:46:55.435874+00:00",
+      "scope": "Entire file bytes at this read; excludes later additions.",
+      "keywordCounts": {
+        "Exception": 2,
+        "Error": 0,
+        "Shader": 1,
+        "CS0108": 0,
+        "Warning": 0,
+        "negative-scale-collision": 0,
+        "thread-finalization": 6,
+        "MemoryLeaks": 1
+      },
+      "keywordMatches": {
+        "Exception": [
+          {
+            "line": 40,
+            "text": "NullReferenceException: Object reference not set to an instance of an object.",
+            "classification": "Actual runtime exception header; first unfocused route teardown stack is preserved."
+          },
+          {
+            "line": 41,
+            "text": "  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:62 ",
+            "classification": "Stack frame for actual runtime exception."
+          }
+        ],
+        "Error": [],
+        "Shader": [
+          {
+            "line": 59,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792867615435,\"processId\":11320,\"allocatedMemory\":2385416,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15071},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry (Shader is a memory-label key); recorded without a memory-leak or performance conclusion."
+          }
+        ],
+        "CS0108": [],
+        "Warning": [],
+        "negative-scale-collision": [],
+        "thread-finalization": [
+          {
+            "line": 39,
+            "text": "Thread 0x16fa37000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 54,
+            "text": "Thread 0x16e86b000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 55,
+            "text": "Thread 0x16e7df000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 56,
+            "text": "Thread 0x16e753000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 57,
+            "text": "Thread 0x16e8f7000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 58,
+            "text": "Thread 0x16e983000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          }
+        ],
+        "MemoryLeaks": [
+          {
+            "line": 59,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792867615435,\"processId\":11320,\"allocatedMemory\":2385416,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15071},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry (Shader is a memory-label key); recorded without a memory-leak or performance conclusion."
+          }
+        ]
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [
+          {
+            "line": 40,
+            "text": "NullReferenceException: Object reference not set to an instance of an object."
+          }
+        ],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-attempt-01__route-unfocused__route.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island.log",
+      "sha256": "f3a3145223705096ed3c31bf5ebfc74ecabefb83997ac44830ea0b62f7f522ab",
+      "bytes": 2066,
+      "lineCount": 38,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T18:53:56.570576+00:00",
+      "scope": "Entire file bytes at this read; native-island.log belongs to an ongoing parent-controlled native session and may grow after this snapshot.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 0,
+        "CS0108": 0,
+        "Warning": 0,
+        "negative-scale-collision": 0,
+        "thread-finalization": 0,
+        "MemoryLeaks": 0
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [],
+        "CS0108": [],
+        "Warning": [],
+        "negative-scale-collision": [],
+        "thread-finalization": [],
+        "MemoryLeaks": []
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-native-island.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/pasture-75s-encode.log",
+      "sha256": "393076b7e08799f68e61351f6f25fbe5bc3df18a0d8a5b2392be27d3bb8495b5",
+      "bytes": 1908,
+      "lineCount": 22,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T19:04:27.970531+00:00",
+      "scope": "Entire file bytes at this read; excludes later additions.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 3,
+        "Shader": 0,
+        "CS0108": 0,
+        "Warning": 4,
+        "negative-scale-collision": 0,
+        "thread-finalization": 0,
+        "MemoryLeaks": 0
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [
+          {
+            "line": 6,
+            "text": "162 |         throw EncodeError.invalid(\"Encoded output has no video track\")",
+            "classification": "Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed."
+          },
+          {
+            "line": 10,
+            "text": "184 |     let maxError = zip(pts, frames).map { abs($0 - ($1.elapsedSeconds - first.elapsedSeconds)) }.max()!",
+            "classification": "Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed."
+          },
+          {
+            "line": 11,
+            "text": "185 |     try require(maxError <= 1.0 / Double(timeScale) + 0.000001, \"VFR PTS mismatch: \\(maxError)\")",
+            "classification": "Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed."
+          }
+        ],
+        "Shader": [],
+        "CS0108": [],
+        "Warning": [
+          {
+            "line": 1,
+            "text": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:161:29: warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 5,
+            "text": "    |                             `- warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 9,
+            "text": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:186:49: warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 13,
+            "text": "    |                                                 `- warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          }
+        ],
+        "negative-scale-collision": [],
+        "thread-finalization": [],
+        "MemoryLeaks": []
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-native-review__pasture-75s-encode.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/pasture-encode.log",
+      "sha256": "07751a5f837c3f5e687a353700b2dbd3960657d22650955cc0cfed3522c05cf9",
+      "bytes": 1884,
+      "lineCount": 21,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T19:02:21.207565+00:00",
+      "scope": "Entire file bytes at this read; excludes later additions.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 3,
+        "Shader": 0,
+        "CS0108": 0,
+        "Warning": 4,
+        "negative-scale-collision": 0,
+        "thread-finalization": 0,
+        "MemoryLeaks": 0
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [
+          {
+            "line": 6,
+            "text": "162 |         throw EncodeError.invalid(\"Encoded output has no video track\")",
+            "classification": "Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed."
+          },
+          {
+            "line": 10,
+            "text": "184 |     let maxError = zip(pts, frames).map { abs($0 - ($1.elapsedSeconds - first.elapsedSeconds)) }.max()!",
+            "classification": "Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed."
+          },
+          {
+            "line": 11,
+            "text": "185 |     try require(maxError <= 1.0 / Double(timeScale) + 0.000001, \"VFR PTS mismatch: \\(maxError)\")",
+            "classification": "Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed."
+          }
+        ],
+        "Shader": [],
+        "CS0108": [],
+        "Warning": [
+          {
+            "line": 1,
+            "text": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:161:29: warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 5,
+            "text": "    |                             `- warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 9,
+            "text": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:186:49: warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 13,
+            "text": "    |                                                 `- warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          }
+        ],
+        "negative-scale-collision": [],
+        "thread-finalization": [],
+        "MemoryLeaks": []
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-native-review__pasture-encode.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route.log",
+      "sha256": "b6c0b435a48a30e200f3ea755d4460eac7a3b65144a6ae068a45375bee188929",
+      "bytes": 3911,
+      "lineCount": 49,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T18:51:43.258853+00:00",
+      "scope": "Entire file bytes at this read; excludes later additions.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 1,
+        "CS0108": 0,
+        "Warning": 0,
+        "negative-scale-collision": 0,
+        "thread-finalization": 5,
+        "MemoryLeaks": 1
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [
+          {
+            "line": 49,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792867903258,\"processId\":13243,\"allocatedMemory\":2385464,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15119},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry (Shader is a memory-label key); recorded without a memory-leak or performance conclusion."
+          }
+        ],
+        "CS0108": [],
+        "Warning": [],
+        "negative-scale-collision": [],
+        "thread-finalization": [
+          {
+            "line": 39,
+            "text": "Thread 0x16d5cb000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 45,
+            "text": "Thread 0x16c48b000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 46,
+            "text": "Thread 0x16c373000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 47,
+            "text": "Thread 0x16c2e7000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          },
+          {
+            "line": 48,
+            "text": "Thread 0x16c3ff000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without attributing a cause."
+          }
+        ],
+        "MemoryLeaks": [
+          {
+            "line": 49,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792867903258,\"processId\":13243,\"allocatedMemory\":2385464,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15119},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry (Shader is a memory-label key); recorded without a memory-leak or performance conclusion."
+          }
+        ]
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-route.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/storage-maintenance/archive.log",
+      "sha256": "5ace3d79429b696a7688855dc002ef6efe2d7c793feff9f8f58d07700718c75c",
+      "bytes": 20411,
+      "lineCount": 178,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T18:48:49.720492+00:00",
+      "scope": "Entire file bytes at this read; excludes later additions.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 0,
+        "CS0108": 0,
+        "Warning": 0,
+        "negative-scale-collision": 0,
+        "thread-finalization": 0,
+        "MemoryLeaks": 0
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [],
+        "CS0108": [],
+        "Warning": [],
+        "negative-scale-collision": [],
+        "thread-finalization": [],
+        "MemoryLeaks": []
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-storage-maintenance__archive.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/ambient-decode.log",
+      "sha256": "57c8cf28e5946da57104f993543e22a81e2af42224f540b6081db74e4ba3116d",
+      "bytes": 1133,
+      "lineCount": 10,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T18:57:48.166801+00:00",
+      "scope": "Entire file bytes at this read; excludes later additions.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 0,
+        "CS0108": 0,
+        "Warning": 2,
+        "negative-scale-collision": 0,
+        "thread-finalization": 0,
+        "MemoryLeaks": 0
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [],
+        "CS0108": [],
+        "Warning": [
+          {
+            "line": 1,
+            "text": "Preflight/extract-encoded-vfr-frames.swift:33:35: warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 5,
+            "text": "   |                                   `- warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          }
+        ],
+        "negative-scale-collision": [],
+        "thread-finalization": [],
+        "MemoryLeaks": []
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-visual-review__ambient-decode.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decode.log",
+      "sha256": "38fe79c2547e35b12c2ee7cc9bb5d400391e20a460c6204cc28baa25d3933504",
+      "bytes": 1133,
+      "lineCount": 10,
+      "readUtc": "2026-10-24T19:07:24.900372+00:00",
+      "sourceMtimeUtc": "2026-10-24T19:05:35.235334+00:00",
+      "scope": "Entire file bytes at this read; excludes later additions.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 0,
+        "CS0108": 0,
+        "Warning": 2,
+        "negative-scale-collision": 0,
+        "thread-finalization": 0,
+        "MemoryLeaks": 0
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [],
+        "CS0108": [],
+        "Warning": [
+          {
+            "line": 1,
+            "text": "Preflight/extract-encoded-vfr-frames.swift:33:35: warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          },
+          {
+            "line": 5,
+            "text": "   |                                   `- warning: 'copyCGImage(at:actualTime:)' was deprecated in macOS 15.0: Use generateCGImageAsynchronouslyForTime:completionHandler: instead [#DeprecatedDeclaration]",
+            "classification": "Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation."
+          }
+        ],
+        "negative-scale-collision": [],
+        "thread-finalization": [],
+        "MemoryLeaks": []
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": [],
+        "LicensingError": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-visual-review__pasture-decode.log.keyword-context.txt"
+    }
+  ],
+  "routeComparison": {
+    "sessions": [
+      {
+        "name": "first-unfocused",
+        "sources": [
+          {
+            "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/attempt-01/route-unfocused/route/20261024-184402-392/automated-route.json",
+            "sha256": "232b45e937d7bef411121c2a0d35a350c7aea64801162bacaa50eace8958cec3",
+            "bytes": 8581
+          },
+          {
+            "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/attempt-01/route-unfocused/route/20261024-184402-392/events.jsonl",
+            "sha256": "27f173c354374cf05466eab8cd26c3b9b125fb875a7b16990117f4c5c049ed70",
+            "bytes": 6748
+          },
+          {
+            "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/attempt-01/route-unfocused/route/20261024-184402-392/route-samples.jsonl",
+            "sha256": "3c6f652bcb5286afc9ac665b6cf293f5fec4a211970ed917f046c074f05d116a",
+            "bytes": 4323
+          },
+          {
+            "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/attempt-01/route-unfocused/route-execution.json",
+            "sha256": "21291ed26428f99ba1692b73a15e1de58759b61166ab24d66adbf1293e8a4053",
+            "bytes": 973
+          }
+        ],
+        "result": {
+          "utc": "2026-10-24T18:44:06.4537560Z",
+          "status": "running_simulated_input",
+          "mode": "automated_input_events_not_manual_ui_or_device_acceptance",
+          "revision": "integration-r07-O7",
+          "reachedWaypoints": 1,
+          "plannedWaypoints": 31,
+          "completedLaps": 0,
+          "performanceMode": false,
+          "loopingWithoutTeleport": false,
+          "screenshotsSuppressed": false,
+          "applicationFocused": false,
+          "virtualGamepadPresent": true,
+          "virtualGamepadEnabled": true,
+          "virtualGamepadCanRunInBackground": true,
+          "finalPosition": {
+            "x": 0.0,
+            "y": 0.02499990537762642,
+            "z": 3.1500000953674316
+          },
+          "waypoints": [
+            {
+              "name": "house-front",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.1500000953674316
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "field-approach",
+              "position": {
+                "x": -5.5,
+                "y": 0.0,
+                "z": 3.1500000953674316
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "fields",
+              "position": {
+                "x": -6.0,
+                "y": 0.0,
+                "z": 2.0
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "field-lane",
+              "position": {
+                "x": -5.199999809265137,
+                "y": 0.0,
+                "z": 2.0
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "south-west-path",
+              "position": {
+                "x": -5.199999809265137,
+                "y": 0.0,
+                "z": -8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "gate-approach",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "pasture-gate",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -7.199999809265137
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "inside-gate",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -5.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "trough",
+              "position": {
+                "x": 3.9000000953674316,
+                "y": 0.0,
+                "z": -3.5
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "exit-pasture",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -5.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "outside-gate",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "east-path",
+              "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "shore-approach",
+              "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -3.799999952316284
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "shore",
+              "position": {
+                "x": 6.699999809265137,
+                "y": 0.0,
+                "z": 0.4639437794685364
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "dock",
+              "position": {
+                "x": 8.600000381469727,
+                "y": 0.0,
+                "z": 0.4639437794685364
+              },
+              "screenshot": true,
+              "orbit": true
+            },
+            {
+              "name": "leave-dock",
+              "position": {
+                "x": 6.699999809265137,
+                "y": 0.0,
+                "z": 0.4639437794685364
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "fish-path",
+              "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -4.300000190734863
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "fish-front-approach",
+              "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -5.699999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "fish-stall",
+              "position": {
+                "x": 10.0,
+                "y": 0.0,
+                "z": -5.699999809265137
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "fish-front-exit",
+              "position": {
+                "x": 12.0,
+                "y": 0.0,
+                "z": -5.699999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "pond-east-approach",
+              "position": {
+                "x": 16.100000381469727,
+                "y": 0.0,
+                "z": -4.5
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "pond-east-path",
+              "position": {
+                "x": 16.100000381469727,
+                "y": 0.0,
+                "z": 7.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "north-landscape",
+              "position": {
+                "x": 11.0,
+                "y": 0.0,
+                "z": 8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "north-house-approach",
+              "position": {
+                "x": 4.5,
+                "y": 0.0,
+                "z": 8.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-back-approach",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 8.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-back",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 9.5
+              },
+              "screenshot": true,
+              "orbit": true
+            },
+            {
+              "name": "house-back-exit",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 8.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-west-back",
+              "position": {
+                "x": -4.900000095367432,
+                "y": 0.0,
+                "z": 8.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-west-path",
+              "position": {
+                "x": -4.900000095367432,
+                "y": 0.0,
+                "z": 5.400000095367432
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-front-return",
+              "position": {
+                "x": -3.5999999046325684,
+                "y": 0.0,
+                "z": 3.1500000953674316
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "returned",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.1500000953674316
+              },
+              "screenshot": true,
+              "orbit": false
+            }
+          ]
+        },
+        "execution": {
+          "startedUtc": "2026-10-24T18:43:54.171999+00:00",
+          "finishedUtc": "2026-10-24T18:46:55.460772+00:00",
+          "command": [
+            "/usr/bin/caffeinate",
+            "-di",
+            "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Builds/r07/O7/development/LuluFarm.app/Contents/MacOS/噜噜农场",
+            "-screen-width",
+            "1280",
+            "-screen-height",
+            "720",
+            "-screen-fullscreen",
+            "0",
+            "--farm-evidence",
+            "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route",
+            "--farm-quit-after",
+            "175",
+            "-logFile",
+            "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route.log",
+            "--farm-route"
+          ],
+          "exitCode": 0,
+          "completionChecks": {
+            "routeResultPresent": true,
+            "planned31": true,
+            "reached31": false,
+            "completedStatus": false
+          },
+          "captureIntent": "actual visible player; caffeinate only for this process lifetime; profiler capture overhead is recorded separately from r06 no-profiler baseline"
+        },
+        "sessionSecondsAtCompletionEvent": null,
+        "completionEvents": [],
+        "waypointEventCount": 1,
+        "eventLineCount": 36,
+        "sampleLineCount": 2,
+        "pngCount": 9,
+        "pngNames": [
+          "001-auto-route-start.png",
+          "002-auto-api-stage-seedling.png",
+          "003-auto-api-stage-mature.png",
+          "004-auto-api-wardrobe-0.png",
+          "005-auto-api-wardrobe-1.png",
+          "006-auto-api-wardrobe-2.png",
+          "007-auto-api-quality-0.png",
+          "008-auto-api-quality-1.png",
+          "009-auto-0-house-front.png"
+        ],
+        "lastEvent": {
+          "utc": "2026-10-24T18:44:06.4958400Z",
+          "action": "screenshot_written_009-auto-0-house-front.png",
+          "sessionSeconds": 4.056266784667969,
+          "position": {
+            "x": 0.0,
+            "y": 0.02499990537762642,
+            "z": 3.1500000953674316
+          }
+        },
+        "sampleFocusCounts": {
+          "true": 1,
+          "false": 1
+        },
+        "screenshotObservation": "Only file names/counts checked in this task; pixels were not viewed."
+      },
+      {
+        "name": "retry-foreground",
+        "sources": [
+          {
+            "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/automated-route.json",
+            "sha256": "ff286038f6442f07d1f2aecb3078ef7b0d8f832fc76ebb651cb03a87b5eb9f46",
+            "bytes": 8624
+          },
+          {
+            "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/events.jsonl",
+            "sha256": "9a4f8fc04ba87e2e0f4c06375b28d093147f72cd5490aeb62a96cff99cbe1cc9",
+            "bytes": 20012
+          },
+          {
+            "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route/20261024-184850-149/route-samples.jsonl",
+            "sha256": "c19533560c90859bfafaf451a8d54d3aa53168348ba19b58f5fbbf4fe99cf3f0",
+            "bytes": 857515
+          },
+          {
+            "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route-execution.json",
+            "sha256": "0908abdc8d0affbc62de843e21eff7c5d6d4817599c4b423778738b1dc939d5f",
+            "bytes": 971
+          }
+        ],
+        "result": {
+          "utc": "2026-10-24T18:50:52.2966000Z",
+          "status": "completed_input_route_visual_and_manual_ui_pending",
+          "mode": "automated_input_events_not_manual_ui_or_device_acceptance",
+          "revision": "integration-r07-O7",
+          "reachedWaypoints": 31,
+          "plannedWaypoints": 31,
+          "completedLaps": 1,
+          "performanceMode": false,
+          "loopingWithoutTeleport": false,
+          "screenshotsSuppressed": false,
+          "applicationFocused": true,
+          "virtualGamepadPresent": true,
+          "virtualGamepadEnabled": true,
+          "virtualGamepadCanRunInBackground": true,
+          "finalPosition": {
+            "x": -0.24736718833446503,
+            "y": 0.024999842047691345,
+            "z": 3.16461181640625
+          },
+          "waypoints": [
+            {
+              "name": "house-front",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.1500000953674316
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "field-approach",
+              "position": {
+                "x": -5.5,
+                "y": 0.0,
+                "z": 3.1500000953674316
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "fields",
+              "position": {
+                "x": -6.0,
+                "y": 0.0,
+                "z": 2.0
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "field-lane",
+              "position": {
+                "x": -5.199999809265137,
+                "y": 0.0,
+                "z": 2.0
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "south-west-path",
+              "position": {
+                "x": -5.199999809265137,
+                "y": 0.0,
+                "z": -8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "gate-approach",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "pasture-gate",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -7.199999809265137
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "inside-gate",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -5.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "trough",
+              "position": {
+                "x": 3.9000000953674316,
+                "y": 0.0,
+                "z": -3.5
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "exit-pasture",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -5.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "outside-gate",
+              "position": {
+                "x": 2.4000000953674316,
+                "y": 0.0,
+                "z": -8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "east-path",
+              "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "shore-approach",
+              "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -3.799999952316284
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "shore",
+              "position": {
+                "x": 6.699999809265137,
+                "y": 0.0,
+                "z": 0.4639437794685364
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "dock",
+              "position": {
+                "x": 8.600000381469727,
+                "y": 0.0,
+                "z": 0.4639437794685364
+              },
+              "screenshot": true,
+              "orbit": true
+            },
+            {
+              "name": "leave-dock",
+              "position": {
+                "x": 6.699999809265137,
+                "y": 0.0,
+                "z": 0.4639437794685364
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "fish-path",
+              "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -4.300000190734863
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "fish-front-approach",
+              "position": {
+                "x": 6.5,
+                "y": 0.0,
+                "z": -5.699999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "fish-stall",
+              "position": {
+                "x": 10.0,
+                "y": 0.0,
+                "z": -5.699999809265137
+              },
+              "screenshot": true,
+              "orbit": false
+            },
+            {
+              "name": "fish-front-exit",
+              "position": {
+                "x": 12.0,
+                "y": 0.0,
+                "z": -5.699999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "pond-east-approach",
+              "position": {
+                "x": 16.100000381469727,
+                "y": 0.0,
+                "z": -4.5
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "pond-east-path",
+              "position": {
+                "x": 16.100000381469727,
+                "y": 0.0,
+                "z": 7.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "north-landscape",
+              "position": {
+                "x": 11.0,
+                "y": 0.0,
+                "z": 8.199999809265137
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "north-house-approach",
+              "position": {
+                "x": 4.5,
+                "y": 0.0,
+                "z": 8.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-back-approach",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 8.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-back",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 9.5
+              },
+              "screenshot": true,
+              "orbit": true
+            },
+            {
+              "name": "house-back-exit",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 8.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-west-back",
+              "position": {
+                "x": -4.900000095367432,
+                "y": 0.0,
+                "z": 8.399999618530273
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-west-path",
+              "position": {
+                "x": -4.900000095367432,
+                "y": 0.0,
+                "z": 5.400000095367432
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "house-front-return",
+              "position": {
+                "x": -3.5999999046325684,
+                "y": 0.0,
+                "z": 3.1500000953674316
+              },
+              "screenshot": false,
+              "orbit": false
+            },
+            {
+              "name": "returned",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 3.1500000953674316
+              },
+              "screenshot": true,
+              "orbit": false
+            }
+          ]
+        },
+        "execution": {
+          "startedUtc": "2026-10-24T18:48:47.195649+00:00",
+          "finishedUtc": "2026-10-24T18:51:43.289494+00:00",
+          "command": [
+            "/usr/bin/caffeinate",
+            "-di",
+            "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Builds/r07/O7/development/LuluFarm.app/Contents/MacOS/噜噜农场",
+            "-screen-width",
+            "1280",
+            "-screen-height",
+            "720",
+            "-screen-fullscreen",
+            "0",
+            "--farm-evidence",
+            "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route",
+            "--farm-quit-after",
+            "175",
+            "-logFile",
+            "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/route.log",
+            "--farm-route"
+          ],
+          "exitCode": 0,
+          "completionChecks": {
+            "routeResultPresent": true,
+            "planned31": true,
+            "reached31": true,
+            "completedStatus": true
+          },
+          "captureIntent": "actual visible player; caffeinate only for this process lifetime; profiler capture overhead is recorded separately from r06 no-profiler baseline"
+        },
+        "sessionSecondsAtCompletionEvent": 122.14070129394531,
+        "completionEvents": [
+          {
+            "utc": "2026-10-24T18:50:52.3009580Z",
+            "action": "automated_route_completed_input_route_visual_and_manual_ui_pending",
+            "sessionSeconds": 122.14070129394531,
+            "position": {
+              "x": -0.24736718833446503,
+              "y": 0.024999842047691345,
+              "z": 3.16461181640625
+            }
+          }
+        ],
+        "waypointEventCount": 31,
+        "eventLineCount": 100,
+        "sampleLineCount": 342,
+        "pngCount": 25,
+        "pngNames": [
+          "001-auto-route-start.png",
+          "002-auto-api-stage-seedling.png",
+          "003-auto-api-stage-mature.png",
+          "004-auto-api-wardrobe-0.png",
+          "005-auto-api-wardrobe-1.png",
+          "006-auto-api-wardrobe-2.png",
+          "007-auto-api-quality-0.png",
+          "008-auto-api-quality-1.png",
+          "009-auto-0-house-front.png",
+          "010-auto-2-fields.png",
+          "011-auto-6-pasture-gate.png",
+          "012-auto-8-trough.png",
+          "013-auto-13-shore.png",
+          "014-auto-14-dock.png",
+          "015-auto-orbit-dock-90.png",
+          "016-auto-orbit-dock-180.png",
+          "017-auto-orbit-dock-270.png",
+          "018-auto-orbit-dock-360.png",
+          "019-auto-18-fish-stall.png",
+          "020-auto-25-house-back.png",
+          "021-auto-orbit-house-back-90.png",
+          "022-auto-orbit-house-back-180.png",
+          "023-auto-orbit-house-back-270.png",
+          "024-auto-orbit-house-back-360.png",
+          "025-auto-30-returned.png"
+        ],
+        "lastEvent": {
+          "utc": "2026-10-24T18:50:52.3009580Z",
+          "action": "automated_route_completed_input_route_visual_and_manual_ui_pending",
+          "sessionSeconds": 122.14070129394531,
+          "position": {
+            "x": -0.24736718833446503,
+            "y": 0.024999842047691345,
+            "z": 3.16461181640625
+          }
+        },
+        "sampleFocusCounts": {
+          "true": 342,
+          "false": 0
+        },
+        "screenshotObservation": "Only file names/counts checked in this task; pixels were not viewed."
+      }
+    ],
+    "sameCommandArray": true,
+    "sameWaypointArray": true,
+    "firstAttemptNote": {
+      "source": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/attempt-01/route-unfocused/NOTE.json",
+        "sha256": "e97e18cb37e2a0f312efca27ce56af71f3f397f8768d7ba6f4669e73f35271b0",
+        "bytes": 342
+      },
+      "content": {
+        "reason": "First route reached 1/31 then stopped progressing; persisted result shows applicationFocused=false. Player exited0 at requested timeout; wrapper exit2. Native Raise attempted late. This attempt is not treated as completed.",
+        "next": "Repeat same unmodified route command with foreground activation during initial startup."
+      }
+    },
+    "observations": [
+      "First attempt result records 1/31, running_simulated_input, applicationFocused=false; exitCode is 0, reached31 and completedStatus checks are false. NOTE.json, not execution JSON, reports wrapper exit 2.",
+      "First attempt runtime log lines 40-47 contain an actual NullReferenceException at FarmRoutePlayback.SaveResult:281 -> Stop:252 -> OnDisable:297, immediately before shutdown/cleanup messages. This is an exception during shutdown, not a C# compilation or shader compilation error. No code was changed.",
+      "Retry records 31/31, one completed lap, applicationFocused=true, exitCode 0 and four true completion checks. Completion event sessionSeconds is 122.14070129394531. It has 25 screenshot files compared with 9 for the first attempt.",
+      "Route command and waypoint arrays are identical; foreground activation is documented in the first-attempt note and parent execution, not inferred from screenshots.",
+      "Both routes deliberately perform quality/stage/wardrobe API switches; they are not clean device-performance sessions. This task does not conclude native UI, visual, device or art acceptance."
+    ]
+  },
+  "observations": [
+    "No explicit C# compiler error, shader compiler error, negative-scale warning, collision warning or Licensing Error pattern matched these runtime/tool log snapshots. The separate editor audit contains real Licensing Error diagnostics and recovery and is not superseded.",
+    "Actual NullReferenceException is present in the first unfocused route shutdown. The completed retry and ambient logs contain no Exception keyword occurrence.",
+    "route.log, ambient.log and first-attempt route.log include prematurely-finalized thread messages and MemoryLeaks telemetry; all are retained. No memory-leak or performance conclusion is drawn.",
+    "Encoding/decoding logs contain AVFoundation deprecation warnings. EncodeError and maxError occurrences are printed source excerpts alongside warnings, not a reported execution failure.",
+    "native-island.log is a live snapshot, currently no shutdown trailer; final native-session and future performance/export logs are outside this snapshot."
+  ]
+}

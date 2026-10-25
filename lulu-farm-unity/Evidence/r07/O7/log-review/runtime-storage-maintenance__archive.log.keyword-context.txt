@@ -1,0 +1,45 @@
+SOURCE: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/storage-maintenance/archive.log
+SHA256: 5ace3d79429b696a7688855dc002ef6efe2d7c793feff9f8f58d07700718c75c
+READ UTC: 2026-10-24T19:07:24.900372+00:00
+Line numbers are one-based; overlapping +/-20-line windows are merged within each category.
+
+CATEGORY: Exception
+PATTERN: Exception
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Error
+PATTERN: Error
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Shader
+PATTERN: Shader
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: CS0108
+PATTERN: CS0108
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Warning
+PATTERN: warning|warn
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: negative-scale-collision
+PATTERN: negative.*scal|scal.*negative|collid|collision|convex|non.?convex
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: thread-finalization
+PATTERN: prematurely finalized
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: MemoryLeaks
+PATTERN: MemoryLeaks
+MATCH COUNT: 0
+NO MATCH
+

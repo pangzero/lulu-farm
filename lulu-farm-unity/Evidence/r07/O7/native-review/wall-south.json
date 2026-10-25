@@ -1,0 +1,32 @@
+{
+  "source": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-185953-189/frame-000015.png",
+  "capture": "actual framebuffer, manual CUA keyboard + R; raw pixel copy",
+  "frame": {
+    "index": 15,
+    "unityFrame": 42211,
+    "width": 1280,
+    "height": 720,
+    "elapsedSeconds": 2.1668701171875,
+    "file": "frame-000015.png",
+    "sha256": "29aa71c5f80eb13d85fd7b9da195e556cabd45a879b0c9b58b94b4ff7886620d",
+    "motion": "Idle",
+    "inputSource": "keyboard_or_gamepad",
+    "inputAutomation": "not_started",
+    "quality": "电脑",
+    "playerPosition": {
+      "x": -16.219999313354492,
+      "y": 0.024999842047691345,
+      "z": -11.220000267028809
+    },
+    "cameraPosition": {
+      "x": -16.21999740600586,
+      "y": 3.670239210128784,
+      "z": -7.042324542999268
+    },
+    "yaw": 180.0,
+    "pitch": 34.999996185302734,
+    "distance": 5.09999942779541
+  },
+  "actuallyOpenedForVisualInspection": true,
+  "imageSha256": "29aa71c5f80eb13d85fd7b9da195e556cabd45a879b0c9b58b94b4ff7886620d"
+}

@@ -1,0 +1,959 @@
+{
+  "utc": "2026-10-24T18:46:49.506972+00:00",
+  "status": "已完成，待 Opus 验收",
+  "scope": "Read-only fixed-image observations; no Unity, source edits, performance, video playback, or acceptance judgment.",
+  "inputBranch": "opus/r07-o7-sky-island",
+  "inputCommit": "8da9197",
+  "actualOriginalPngCount": 24,
+  "currentFixedImagesViewed": 12,
+  "currentPpOnImagesViewed": 6,
+  "o6PpOnImagesViewed": 6,
+  "cameraComparison": [
+    {
+      "group": "fixed",
+      "O6": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/before/fixed/review-settings.json",
+        "sha256": "35e58a4f02d51a327070c4e4d2a153df97fd9f557d063fac2208e36578c91f9a"
+      },
+      "O7": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/review-settings.json",
+        "sha256": "eb8d158bbd903db9e8f60f7a4f705a024e92dd14bae4d6736101c0e99c3d1b74"
+      },
+      "topLevelDifferencesIgnoringUtcAndShots": {},
+      "shots": [
+        {
+          "name": "overview",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 24.0,
+              "y": 24.0,
+              "z": -30.0
+            },
+            "target": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "overview-close-diagnostic",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 8.0,
+              "y": 15.0,
+              "z": -16.0
+            },
+            "target": {
+              "x": 1.5,
+              "y": 0.0,
+              "z": 0.5
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "spawn",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 0.0,
+              "y": 3.6500000953674316,
+              "z": -1.0299999713897705
+            },
+            "target": {
+              "x": 0.0,
+              "y": 0.7450000047683716,
+              "z": 3.1500000953674316
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "fields",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -5.0,
+              "y": 4.0,
+              "z": -6.0
+            },
+            "target": {
+              "x": -8.0,
+              "y": 0.5,
+              "z": 1.7000000476837158
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "pasture",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 2.4000000953674316,
+              "y": 3.6500000953674316,
+              "z": -10.800000190734863
+            },
+            "target": {
+              "x": 1.2000000476837158,
+              "y": 0.699999988079071,
+              "z": -2.5
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "pond",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 6.199999809265137,
+              "y": 4.0,
+              "z": -5.099999904632568
+            },
+            "target": {
+              "x": 11.0,
+              "y": 0.10000000149011612,
+              "z": 1.7000000476837158
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "house-front",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -4.400000095367432,
+              "y": 3.700000047683716,
+              "z": -0.20000000298023224
+            },
+            "target": {
+              "x": 0.0,
+              "y": 1.899999976158142,
+              "z": 6.300000190734863
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "house-back",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 4.400000095367432,
+              "y": 4.0,
+              "z": 12.0
+            },
+            "target": {
+              "x": 0.0,
+              "y": 1.899999976158142,
+              "z": 6.300000190734863
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "pond-east",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 19.0,
+              "y": 3.700000047683716,
+              "z": 4.0
+            },
+            "target": {
+              "x": 10.0,
+              "y": 0.5,
+              "z": 1.0
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "field-fence",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -14.0,
+              "y": 2.5999999046325684,
+              "z": -4.0
+            },
+            "target": {
+              "x": -8.0,
+              "y": 0.5,
+              "z": 2.0
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "dock",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 6.699999809265137,
+              "y": 2.799999952316284,
+              "z": -3.0
+            },
+            "target": {
+              "x": 9.0,
+              "y": 0.4000000059604645,
+              "z": 0.5
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "landscape-back",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -8.0,
+              "y": 4.0,
+              "z": 13.0
+            },
+            "target": {
+              "x": 0.0,
+              "y": 0.5,
+              "z": 1.0
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        }
+      ]
+    },
+    {
+      "group": "fixed-pp-on",
+      "O6": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/review-settings.json",
+        "sha256": "808b69d62066b1c4840381aba9d8b13ce42a7498424355bb9f4d9c4d42c344ce"
+      },
+      "O7": {
+        "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/review-settings.json",
+        "sha256": "73491cb750b6218d5a2b611ddd70f22b3bd2c9e99e7a966565178382f6995ff6"
+      },
+      "topLevelDifferencesIgnoringUtcAndShots": {},
+      "shots": [
+        {
+          "name": "overview",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 24.0,
+              "y": 24.0,
+              "z": -30.0
+            },
+            "target": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1.0
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "overview-close-diagnostic",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 8.0,
+              "y": 15.0,
+              "z": -16.0
+            },
+            "target": {
+              "x": 1.5,
+              "y": 0.0,
+              "z": 0.5
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "spawn",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 0.0,
+              "y": 3.6500000953674316,
+              "z": -1.0299999713897705
+            },
+            "target": {
+              "x": 0.0,
+              "y": 0.7450000047683716,
+              "z": 3.1500000953674316
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "fields",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -5.0,
+              "y": 4.0,
+              "z": -6.0
+            },
+            "target": {
+              "x": -8.0,
+              "y": 0.5,
+              "z": 1.7000000476837158
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "pasture",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 2.4000000953674316,
+              "y": 3.6500000953674316,
+              "z": -10.800000190734863
+            },
+            "target": {
+              "x": 1.2000000476837158,
+              "y": 0.699999988079071,
+              "z": -2.5
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "pond",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 6.199999809265137,
+              "y": 4.0,
+              "z": -5.099999904632568
+            },
+            "target": {
+              "x": 11.0,
+              "y": 0.10000000149011612,
+              "z": 1.7000000476837158
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "house-front",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -4.400000095367432,
+              "y": 3.700000047683716,
+              "z": -0.20000000298023224
+            },
+            "target": {
+              "x": 0.0,
+              "y": 1.899999976158142,
+              "z": 6.300000190734863
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "house-back",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 4.400000095367432,
+              "y": 4.0,
+              "z": 12.0
+            },
+            "target": {
+              "x": 0.0,
+              "y": 1.899999976158142,
+              "z": 6.300000190734863
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "pond-east",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 19.0,
+              "y": 3.700000047683716,
+              "z": 4.0
+            },
+            "target": {
+              "x": 10.0,
+              "y": 0.5,
+              "z": 1.0
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "field-fence",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -14.0,
+              "y": 2.5999999046325684,
+              "z": -4.0
+            },
+            "target": {
+              "x": -8.0,
+              "y": 0.5,
+              "z": 2.0
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "dock",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 6.699999809265137,
+              "y": 2.799999952316284,
+              "z": -3.0
+            },
+            "target": {
+              "x": 9.0,
+              "y": 0.4000000059604645,
+              "z": 0.5
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "landscape-back",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -8.0,
+              "y": 4.0,
+              "z": 13.0
+            },
+            "target": {
+              "x": 0.0,
+              "y": 0.5,
+              "z": 1.0
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "close-house-road",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -1.899999976158142,
+              "y": 1.5,
+              "z": 2.200000047683716
+            },
+            "target": {
+              "x": 0.20000000298023224,
+              "y": 0.0,
+              "z": 3.299999952316284
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "close-pasture-gate",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 3.5,
+              "y": 1.5,
+              "z": -9.300000190734863
+            },
+            "target": {
+              "x": 2.4000000953674316,
+              "y": 0.0,
+              "z": -6.599999904632568
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "close-pond-road",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 6.0,
+              "y": 1.5,
+              "z": -2.200000047683716
+            },
+            "target": {
+              "x": 6.900000095367432,
+              "y": 0.0,
+              "z": 0.30000001192092896
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "close-house-shadow",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": 2.799999952316284,
+              "y": 2.799999952316284,
+              "z": 10.399999618530273
+            },
+            "target": {
+              "x": 0.4000000059604645,
+              "y": 1.2000000476837158,
+              "z": 7.599999904632568
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "close-tree-shadow",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -2.5999999046325684,
+              "y": 2.0,
+              "z": -0.4000000059604645
+            },
+            "target": {
+              "x": -4.0,
+              "y": 0.0,
+              "z": 1.2000000476837158
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        },
+        {
+          "name": "close-field-shadow",
+          "cameraFieldsEqual": true,
+          "differences": {},
+          "camera": {
+            "position": {
+              "x": -6.5,
+              "y": 1.600000023841858,
+              "z": 1.0
+            },
+            "target": {
+              "x": -8.199999809265137,
+              "y": 0.20000000298023224,
+              "z": 1.7000000476837158
+            },
+            "width": 1600,
+            "height": 900,
+            "fov": 52.0
+          }
+        }
+      ]
+    }
+  ],
+  "comparisonLimits": [
+    "Camera position, target, FOV and dimensions match exactly for all recorded pairs. PP-on vignette, bloom, exposure, tonemapping records match. Scene lighting and content intentionally changed in O7; this is not identical-light geometry comparison.",
+    "Fixed images are actual Unity offscreen diagnostic renders, not manual gameplay.",
+    "No wall-side native input, route fade comparison or 60-second animal video inspected in this subtask.",
+    "Audio not auditioned. Static birds do not verify wing flapping. Static animals do not verify gait, sliding, overlap or blocking.",
+    "No shadow length measurements or performance conclusions."
+  ],
+  "images": [
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/overview.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/overview.png",
+      "sha256": "a5962953ed150891ac307b3143a29d348700c4cf00259f3e89ad0b4855b2716f",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "主岛外围草地在曲折轮廓处终止，前方及右侧有棕色、奶油色分层崖壁。",
+        "岛外浅蓝云底、云团、远近浮岛和浮石可见；远处受雾影响较淡。",
+        "右侧溪流蓝带尽头有一小段亮色落水；不能代表墙内可见瀑布。",
+        "右侧天空有细小鸟形。未见整块洋红或无材质纯黑区域；云团有平直/多边形边缘。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/overview-close-diagnostic.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/overview-close-diagnostic.png",
+      "sha256": "5b142678978c08cca85bcfedd5501c83e68cde7692de9ad585b379cbbc1245db",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "主屋、田地、牧场、池塘可见，外缘为云团背景。",
+        "池塘右侧溪流与池塘之间可见连续岸石和浅绿岸带。",
+        "树和围栏在地面投下清楚阴影。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/spawn.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/spawn.png",
+      "sha256": "eea6fd28c11409cc1d25b8156a69844f09b45342cf485893b28ae2a29b8db51c",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "Lulu、房门、围栏、草垛、谷仓一角可见。",
+        "墙面和路面偏奶油/橙黄，门前有角色和栏杆阴影。",
+        "无整屏网格，但此静态机位未触发主屋淡出。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/fields.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/fields.png",
+      "sha256": "7c393ebe7c1d9fabe11a2a8f98de3524d0cd28fcd0b482739da0e36bc9bd1d1d",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "幼苗和成熟作物同场，田格和围栏有厚度。",
+        "背景云团和浮岛清楚，顶部裁切的近浮岛暗褐底部可见。",
+        "未见大块纯黑替代材质；不能据此判定底部穿帮已排除。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/pasture.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/pasture.png",
+      "sha256": "21b8f06d0bbd395f1f2271875c6c1e64dffb88eeb846284c6b8958900c41467f",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "牛、羊、猪、鸡、鸭在固定初始位置分开可见；谷仓、饲料槽、草垛、入口可见。",
+        "左上近浮岛有分层边和暗底；云有平底和分层形。",
+        "静态图不能评价迈腿、滑步、鸭摇摆或碰撞。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/pond.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/pond.png",
+      "sha256": "c67f2fc0dbd98ff143f9d69561f70fa40cbac680383fe7a2015f463ca436f56f",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "水、荷叶、码头和船可见。",
+        "右后方蓝色溪流起点被连续岸石/浅绿岸带与池水分隔，像岸外另起一段。",
+        "右侧岛缘分层土壁和后景浮石可见。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/house-front.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/house-front.png",
+      "sha256": "32f648eb4e3936679274a1267f780452d65363e52c8b9da3e7f89e2ca6cefd7e",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "橙红屋顶、奶油墙和蓝窗可见，屋顶分块接缝和部分硬折面可见。",
+        "右上天空有细小白色鸟形，不能由静态图观察扇翅。",
+        "前景树和梨遮住左下，未触发淡出。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/house-back.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/house-back.png",
+      "sha256": "4a5e4927ad8c0d1cc4d91d461c40990ab0e79c425cc3a6a5614da024e27313fc",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "整片背墙及垂直明暗痕可见，屋顶下和树影清楚。",
+        "无整屏网格，未淡出主屋不能替代路线/原生检查。",
+        "背景云和远浮岛在屋顶两侧可见。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/pond-east.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/pond-east.png",
+      "sha256": "458f06ae08ad62fccf850596999ee3582fd8637e56c263efb41ed99c3e050c46",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "池塘、船、码头、牧场和主屋可见。",
+        "下缘蓝色溪流顶端是平直边，与池塘间隔着浅绿岸带和一排岸石，未呈现连续水路。",
+        "远景树圈换为云团/浮岛，右上有被裁切浮岛边。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/field-fence.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/field-fence.png",
+      "sha256": "856adcd29af32cc795de5d96a2cada4bec225dca5976a0c74fdcf9ea8e7dbca5",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "围栏、田格、作物清楚，栏影向前景延伸。",
+        "屋顶上方和右侧天空有细小鸟形，单图不能判断扇翅与合适翼展。",
+        "云团有大块平底、分层边，未见贯穿画面的单条天空硬接缝。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/dock.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/dock.png",
+      "sha256": "86110e3961114d339519bbcf832488f5fd8f5433ec14a2593c983487025120f7",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "码头木面、栏绳、船内座板、水面、荷叶可见。",
+        "右上岸外溪流与池塘之间仍有石岸/草带。",
+        "瀑布竖向下落段不在主体画面内，不能验证动画。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed/landscape-back.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed/landscape-back.png",
+      "sha256": "dcac26aacd36e8d14e9e35d61c4f527d1a6d577974fe1cd7db0deb55a1320cc6",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "主屋侧背、树、牧场动物背侧、田地可见。",
+        "背景为积云和左上远浮岛；左上大亮云/天色渐变边柔软，未见贯穿全幅的硬水平接缝。",
+        "屋后树和房体阴影覆盖前景草地，未见洋红/纯黑替代材质。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/overview.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/overview.png",
+      "sha256": "05216be109d8912c02693a80c060fed355e15555b4afa987bb19eec581c80ae3",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "O6 延伸草地/树圈变为 O7 主岛崖壁、云海、浮岛。",
+        "两张俯瞰均有雾和远处低对比；O7 背景偏浅蓝灰，云团和云底有亮暗层次。",
+        "前方岛缘连续黄绿亮带可见，不能推定原生墙边效果。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/overview.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/overview.png",
+      "sha256": "87900067b3512c666813770768a040f1d69cf697caf4c1c2f92772f940335351",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "O6 延伸草地/树圈变为 O7 主岛崖壁、云海、浮岛。",
+        "两张俯瞰均有雾和远处低对比；O7 背景偏浅蓝灰，云团和云底有亮暗层次。",
+        "前方岛缘连续黄绿亮带可见，不能推定原生墙边效果。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/pond-east.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/pond-east.png",
+      "sha256": "38721bdbf5f9128fb8d91bafc45b466b36a2ac74c29d1149116e53e7ef597fe9",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "远景树林/地平面换为分层云团，左下原先遮池塘的树冠不再存在。",
+        "O7 房顶/木构略更橙暖；水仍蓝色。",
+        "O7 下缘溪流被石岸/草带隔开，不能声称水路接通。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/pond-east.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/pond-east.png",
+      "sha256": "378cc1ef9ca0d4de0ee478ecb03a73e1a6bb3c2e85d7a62832d30825758a4570",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "远景树林/地平面换为分层云团，左下原先遮池塘的树冠不再存在。",
+        "O7 房顶/木构略更橙暖；水仍蓝色。",
+        "O7 下缘溪流被石岸/草带隔开，不能声称水路接通。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/landscape-back.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/landscape-back.png",
+      "sha256": "62ce7826dcdbf10e4c38d95d922b6b8f38404082f7b53d8b922fb4ef97557a97",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "后景地面/树列换为云/浮岛。",
+        "O7 奶油墙和屋顶略偏暖，屋后投影边界有变化。",
+        "未量化阴影长度或给出光照质量结论。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/landscape-back.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/landscape-back.png",
+      "sha256": "a40428961ac4f100980495e4ac795a2bebe0bd4b008ae9d73d7fede2880de2a8",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "后景地面/树列换为云/浮岛。",
+        "O7 奶油墙和屋顶略偏暖，屋后投影边界有变化。",
+        "未量化阴影长度或给出光照质量结论。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/pasture.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/pasture.png",
+      "sha256": "3d12bfd6008ab482ff474f29c2baaac71eb8c1d48dee1da80666aacffee0a2f1",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "动物固定位置和姿态近似一致，不能证明会走路。",
+        "O7 主屋和谷仓暖橙/奶油感略明显，背景增加云/浮岛。",
+        "入口门/栏杆影可见，不能代替60秒录像。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/pasture.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/pasture.png",
+      "sha256": "302e1ef832026b182fff0f9a62018b9a6a78bfb03d700906e64fe0e440146a04",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "动物固定位置和姿态近似一致，不能证明会走路。",
+        "O7 主屋和谷仓暖橙/奶油感略明显，背景增加云/浮岛。",
+        "入口门/栏杆影可见，不能代替60秒录像。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/close-tree-shadow.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/close-tree-shadow.png",
+      "sha256": "c095ae8223c439bbffc4e189c2e2eca129e26b28c78ff8fec05668696fb33904",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "O7 路面/栏杆略偏橙暖，树梨形体近似。",
+        "栏杆阴影边界位置改变；树遮住大部分树影，未作长度测量。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/close-tree-shadow.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/close-tree-shadow.png",
+      "sha256": "e23f5cdce9b89b675ee4ed43688fd644e11c445d2728ba234b629156975b75ac",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "O7 路面/栏杆略偏橙暖，树梨形体近似。",
+        "栏杆阴影边界位置改变；树遮住大部分树影，未作长度测量。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/close-house-shadow.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/before/fixed-pp-on/close-house-shadow.png",
+      "sha256": "92e581b83e602c56c33d9c590894dff3f457dc386b4445d7cc1eaf069024cf9d",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "两图背墙垂直明暗痕均可见；O7 墙略暖、后景为云。",
+        "树/地面投影边界变化，未量化长度或推断成因。"
+      ]
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/close-house-shadow.png",
+      "relativePath": "lulu-farm-unity/Evidence/r07/O7/fixed-pp-on/close-house-shadow.png",
+      "sha256": "df1a78afda27a0d62f3a0653aed1c2dc7d55bef7cb9a4744d2ca03847d383d65",
+      "width": 1600,
+      "height": 900,
+      "actualViewing": "Original PNG opened with view_image high detail; no edited substitute.",
+      "observations": [
+        "两图背墙垂直明暗痕均可见；O7 墙略暖、后景为云。",
+        "树/地面投影边界变化，未量化长度或推断成因。"
+      ]
+    }
+  ]
+}

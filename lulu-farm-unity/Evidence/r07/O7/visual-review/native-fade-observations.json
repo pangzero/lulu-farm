@@ -1,0 +1,141 @@
+{
+  "task": "O7 native video sampled visual observations",
+  "status": "已完成，待 Opus 验收",
+  "created_utc": "2026-10-25T07:59:48.747021+00:00",
+  "input_branch": "opus/r07-o7-sky-island",
+  "input_commit": "8da9197",
+  "source_video": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/house-back-tree-fade.mp4",
+    "sha256": "045d0e727a6483035520997fc2f82a0cc121b25398d63d6d1d90c898df178b9b",
+    "bytes": 127403572
+  },
+  "source_recording": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190911-430/recording.json",
+    "sha256": "70291c1d48cf6a0bea8b8f7a94b02688e57372e06932e99b643d5cd2387e5ce4",
+    "bytes": 749
+  },
+  "source_frame_timeline": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190911-430/frames.jsonl",
+    "sha256": "c5946282465b099abca8af76deaed6ec1aef4af456913ddf079e628d515ed8f8",
+    "bytes": 343298
+  },
+  "encoding_record": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/house-back-tree-fade.mp4.encoding.json",
+    "sha256": "22b684d6826ea0811ed0414fae137490ad653fb18b5ae65bc621229b316ffef3",
+    "bytes": 1874
+  },
+  "extraction_record": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decoded/extraction.json",
+    "sha256": "1df656c747ca6d3b7a7279870af74986f5fd9bb42c3ab7b0e5ddeea4fc5a106d",
+    "bytes": 1746
+  },
+  "decode_log": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decode.log",
+    "sha256": "4c55031ad56b3aefae43d7a811f325fab1af6a0b077072a0190343451a7c606b",
+    "bytes": 1136
+  },
+  "recording_metadata": {
+    "utc": "2026-10-24T19:10:43.6608130Z",
+    "status": "application_quit",
+    "engine": "6000.3.16f1",
+    "platform": "OSXPlayer",
+    "sceneRevision": "integration-r07-O7",
+    "assetRegistryRevision": "308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34",
+    "source": "actual_Unity_ScreenCapture_framebuffer_after_WaitForEndOfFrame",
+    "timing": "wall_clock_variable_frame_durations_no_Time_captureFramerate_no_synthetic_interpolation",
+    "performance": "capture_overhead_present_not_a_device_performance_run",
+    "manualReview": "not_automatically_verified",
+    "frames": 624,
+    "requestedFramesPerSecond": 10,
+    "width": 1280,
+    "height": 720,
+    "elapsedSeconds": 92.22882080078125,
+    "pngBytes": 609297355
+  },
+  "inspection_method": "Actual AVFoundation decode of encoded video at source elapsed PTS, followed by actual view_image open of every listed PNG. No continuous full-video playback claimed.",
+  "decoded_frames": [
+    {
+      "decoded_pts": 50.064566666666664,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decoded/decoded-frame-000344.png",
+      "height": 720,
+      "requested_pts": 50.064566666666664,
+      "source_index": 344,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decoded/decoded-frame-000344.png",
+      "sha256": "48fd31fb0e9e9373605bb2375a8fa54a86a57cd3be84c8e023230d0ef455eae7",
+      "bytes": 934666,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 65.29771666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decoded/decoded-frame-000446.png",
+      "height": 720,
+      "requested_pts": 65.29771666666667,
+      "source_index": 446,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decoded/decoded-frame-000446.png",
+      "sha256": "395fdc99b21bdaf8a33d70ffdc861f6049769d4833ca4956fdbabec2f021e534",
+      "bytes": 1216420,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 80.49835,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decoded/decoded-frame-000547.png",
+      "height": 720,
+      "requested_pts": 80.49835,
+      "source_index": 547,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decoded/decoded-frame-000547.png",
+      "sha256": "fa82e76d6843baa608cf4cd6a9d028de3a3efa39d249349c9fffd0b762079440",
+      "bytes": 1172425,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    },
+    {
+      "decoded_pts": 92.10601666666666,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decoded/decoded-frame-000623.png",
+      "height": 720,
+      "requested_pts": 92.10601666666666,
+      "source_index": 623,
+      "width": 1280,
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/native-fade-decoded/decoded-frame-000623.png",
+      "sha256": "35d13935870f23634f590bff6680239eea9dc81ebaf4a3e18cc166d60584c02e",
+      "bytes": 2004614,
+      "actually_opened_with_view_image": true,
+      "inspection_resolution": "1280x720; no crop or rescale of stored evidence"
+    }
+  ],
+  "observations": [
+    {
+      "topic": "主屋侧后和树下局部淡出",
+      "frames": [
+        344
+      ],
+      "observation": "50.0646 秒帧中，左侧橙顶、白墙和部分树形位置呈密集红绿点状半透明轮廓，Lulu 与右侧草地仍清晰。右缘可见草地截面和云层。"
+    },
+    {
+      "topic": "主屋与前景树的淡出范围",
+      "frames": [
+        446,
+        547
+      ],
+      "observation": "65.2977 与 80.4984 秒帧中，左侧建筑墙面和近树位置仍呈密集点阵，中心 Lulu 清晰，后方可透见牧场围栏与动物；点阵在相隔约 15 秒的两张图中都可见。两张图不能单独描述完整进入／退出过渡。"
+    },
+    {
+      "topic": "主屋背面最终视角",
+      "frames": [
+        623
+      ],
+      "observation": "92.1060 秒末帧中，Lulu 周围保留一个边缘较柔的清晰圆区，圆区之外的大部分三维画面覆盖密集红绿色点阵，点阵可见于树、草地以及右上浅色墙面／背景范围。UI 顶栏不受该点阵覆盖。并未观察到整帧变为纯洋红或纯黑，但大范围点阵仍明显可见。"
+    },
+    {
+      "topic": "限制",
+      "observation": "只实际打开四张编码视频解码帧；未连续播放整段，也未试听音频。画面中位置描述依据可见内容，精确世界坐标和手动输入以主线程操作记录为准。未将不同时间或角度声称为严格同机位对照，不下验收结论。"
+    }
+  ],
+  "art_acceptance": "not evaluated",
+  "device_performance": "not evaluated",
+  "scope": "Only new O7 visual-review evidence; no Unity, Player, source or historical evidence changes."
+}

@@ -1,0 +1,101 @@
+SOURCE: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient-encode.log
+SHA256: af4c40e5132311665e6b622569f7048520865c0dcae265534dc3611d1dc3ec82
+READ UTC: 2026-10-24T19:07:24.900372+00:00
+Line numbers are one-based; overlapping +/-20-line windows are merged within each category.
+
+CATEGORY: Exception
+PATTERN: Exception
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Error
+PATTERN: Error
+MATCH COUNT: 3
+6: 162 |         throw EncodeError.invalid("Encoded output has no video track")
+CLASSIFICATION: Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed.
+10: 184 |     let maxError = zip(pts, frames).map { abs($0 - ($1.elapsedSeconds - first.elapsedSeconds)) }.max()!
+CLASSIFICATION: Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed.
+11: 185 |     try require(maxError <= 1.0 / Double(timeScale) + 0.000001, "VFR PTS mismatch: \(maxError)")
+CLASSIFICATION: Swift source excerpt printed with a deprecation warning; not evidence that this throw or require executed.
+CONTEXT 1-21
+1: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:161:29: warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]
+2: 159 |     // A successful encode alone is not a visual review or device benchmark.
+3: 160 |     let asset = AVURLAsset(url: output)
+4: 161 |     guard let track = asset.tracks(withMediaType: .video).first else {
+5:     |                             `- warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]
+6: 162 |         throw EncodeError.invalid("Encoded output has no video track")
+7: 163 |     }
+8: 
+9: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:186:49: warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]
+10: 184 |     let maxError = zip(pts, frames).map { abs($0 - ($1.elapsedSeconds - first.elapsedSeconds)) }.max()!
+11: 185 |     try require(maxError <= 1.0 / Double(timeScale) + 0.000001, "VFR PTS mismatch: \(maxError)")
+12: 186 |     let actualDuration = CMTimeGetSeconds(asset.duration)
+13:     |                                                 `- warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]
+14: 187 |     try require(abs(actualDuration - duration) < 0.001, "Output duration differs from recorded interval")
+15: 188 |     let audit: [String: Any] = [
+16: 
+17: [#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+18: encoded 1/373
+19: encoded 251/373
+20: Wrote /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient/o7-ambient.mp4 (373 real frames, 56.04431666666667s VFR).
+21: Audit: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient/o7-ambient.mp4.encoding.json
+
+CATEGORY: Shader
+PATTERN: Shader
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: CS0108
+PATTERN: CS0108
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Warning
+PATTERN: warning|warn
+MATCH COUNT: 4
+1: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:161:29: warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]
+CLASSIFICATION: Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation.
+5:     |                             `- warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]
+CLASSIFICATION: Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation.
+9: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:186:49: warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]
+CLASSIFICATION: Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation.
+13:     |                                                 `- warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]
+CLASSIFICATION: Swift/AVFoundation deprecation diagnostic from encoding or decoding tool, outside Unity C#/Shader compilation.
+CONTEXT 1-21
+1: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:161:29: warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]
+2: 159 |     // A successful encode alone is not a visual review or device benchmark.
+3: 160 |     let asset = AVURLAsset(url: output)
+4: 161 |     guard let track = asset.tracks(withMediaType: .video).first else {
+5:     |                             `- warning: 'tracks(withMediaType:)' was deprecated in macOS 13.0: Use loadTracks(withMediaType:) instead [#DeprecatedDeclaration]
+6: 162 |         throw EncodeError.invalid("Encoded output has no video track")
+7: 163 |     }
+8: 
+9: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Preflight/encode-vfr-recording.swift:186:49: warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]
+10: 184 |     let maxError = zip(pts, frames).map { abs($0 - ($1.elapsedSeconds - first.elapsedSeconds)) }.max()!
+11: 185 |     try require(maxError <= 1.0 / Double(timeScale) + 0.000001, "VFR PTS mismatch: \(maxError)")
+12: 186 |     let actualDuration = CMTimeGetSeconds(asset.duration)
+13:     |                                                 `- warning: 'duration' was deprecated in macOS 13.0: Use load(.duration) instead [#DeprecatedDeclaration]
+14: 187 |     try require(abs(actualDuration - duration) < 0.001, "Output duration differs from recorded interval")
+15: 188 |     let audit: [String: Any] = [
+16: 
+17: [#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+18: encoded 1/373
+19: encoded 251/373
+20: Wrote /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient/o7-ambient.mp4 (373 real frames, 56.04431666666667s VFR).
+21: Audit: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/ambient/o7-ambient.mp4.encoding.json
+
+CATEGORY: negative-scale-collision
+PATTERN: negative.*scal|scal.*negative|collid|collision|convex|non.?convex
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: thread-finalization
+PATTERN: prematurely finalized
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: MemoryLeaks
+PATTERN: MemoryLeaks
+MATCH COUNT: 0
+NO MATCH
+

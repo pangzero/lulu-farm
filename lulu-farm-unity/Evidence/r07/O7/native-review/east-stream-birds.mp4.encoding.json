@@ -1,0 +1,38 @@
+{
+  "device_performance" : "not_a_benchmark_capture_overhead_present",
+  "empty_container_control_samples_excluded" : 4,
+  "encoded_dimensions" : [
+    1280,
+    720
+  ],
+  "encoded_duration_seconds" : 31.246516666666668,
+  "encoded_sample_count" : 203,
+  "expected_duration_seconds" : 31.24652099609375,
+  "input_directory" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O7\/native-island\/20261024-185356-663\/walkthrough-190458-352",
+  "maximum_sample_pts_error_seconds" : 1.6536458333327175e-05,
+  "original_frames_modified" : false,
+  "output" : "\/Users\/haowen\/GameProject\/farm-game\/lulu-farm-unity\/Evidence\/r07\/O7\/native-review\/east-stream-birds.mp4",
+  "output_sha256" : "d5f11c1ae997acd11c7553acb23f1197ceaeb314dc4f988225b5e9aca3cb2b4a",
+  "sample_duration_range_seconds" : [
+    0.13958333333333334,
+    1.1422166666666667
+  ],
+  "scene_revision" : "integration-r07-O7",
+  "source_dimensions" : [
+    1280,
+    720
+  ],
+  "source_first_elapsed_seconds" : 0.00164794921875,
+  "source_frame_count" : 203,
+  "source_frame_sha256_checks" : 203,
+  "source_frames_jsonl_sha256" : "c21b4a365f41169e8a32cc2db909e58c61160324faea50a30293318b2f4157ac",
+  "source_platform" : "OSXPlayer",
+  "source_recording_sha256" : "643ca73879df34af2653d1d5ff2884be173396388d6bdc8e5c658a0caab18f76",
+  "spatial_transformation" : "Native pixel size; pad at right\/bottom to even dimensions; no resize\/crop",
+  "technical_readback" : "passed_count_every_timestamp_and_duration",
+  "temporal_transformation" : "Subtract first captured timestamp; retain every relative wall-clock PTS; no duplication\/interpolation",
+  "timing_mode" : "VFR",
+  "tool" : "macOS system AVFoundation\/VideoToolbox; encode-vfr-recording.swift",
+  "video_codec" : "H264 High, 8Mbps minimum, no frame reordering",
+  "visual_review" : "pending_actual_video_frame_inspection"
+}

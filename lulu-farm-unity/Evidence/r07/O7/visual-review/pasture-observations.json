@@ -1,0 +1,405 @@
+{
+  "utc": "2026-10-24T19:06:55.713441+00:00",
+  "status": "已完成，待 Opus 验收",
+  "scope": "25 actual decoded video frames visually inspected, including 2 consecutive 9-frame bursts and start/end samples; not a claim of continuous full-video playback.",
+  "video": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/pasture-continuous-75s.mp4",
+    "sha256": "8e1a99196f1102374054707c6920913c15c63a57869272d7769be3f800470163",
+    "bytes": 27962474
+  },
+  "encoding": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/pasture-continuous-75s.mp4.encoding.json",
+    "sha256": "fc56ec3c3e6f2507684ac72e0db072ac8719b455629f5b6d50848c099cee9017",
+    "bytes": 1875
+  },
+  "encodingMetadata": {
+    "device_performance": "not_a_benchmark_capture_overhead_present",
+    "empty_container_control_samples_excluded": 4,
+    "encoded_dimensions": [
+      1280,
+      720
+    ],
+    "encoded_duration_seconds": 82.9143,
+    "encoded_sample_count": 578,
+    "expected_duration_seconds": 82.914306640625,
+    "input_directory": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190222-315",
+    "maximum_sample_pts_error_seconds": 1.6634114579971992e-05,
+    "original_frames_modified": false,
+    "output": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/pasture-continuous-75s.mp4",
+    "output_sha256": "8e1a99196f1102374054707c6920913c15c63a57869272d7769be3f800470163",
+    "sample_duration_range_seconds": [
+      0.13996666666666666,
+      0.16911666666666667
+    ],
+    "scene_revision": "integration-r07-O7",
+    "source_dimensions": [
+      1280,
+      720
+    ],
+    "source_first_elapsed_seconds": 0.0013427734375,
+    "source_frame_count": 578,
+    "source_frame_sha256_checks": 578,
+    "source_frames_jsonl_sha256": "b7e1cdde686e81425bf08ceef2b8aff0b0f04959ef2352146a174519e1f97a83",
+    "source_platform": "OSXPlayer",
+    "source_recording_sha256": "335e03a28ae76f367c58f6cc5185614540ad4578d8806d8248aa66e8a9226f04",
+    "spatial_transformation": "Native pixel size; pad at right/bottom to even dimensions; no resize/crop",
+    "technical_readback": "passed_count_every_timestamp_and_duration",
+    "temporal_transformation": "Subtract first captured timestamp; retain every relative wall-clock PTS; no duplication/interpolation",
+    "timing_mode": "VFR",
+    "tool": "macOS system AVFoundation/VideoToolbox; encode-vfr-recording.swift",
+    "video_codec": "H264 High, 8Mbps minimum, no frame reordering",
+    "visual_review": "pending_actual_video_frame_inspection"
+  },
+  "recording": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190222-315/recording.json",
+    "sha256": "335e03a28ae76f367c58f6cc5185614540ad4578d8806d8248aa66e8a9226f04",
+    "bytes": 751
+  },
+  "recordingMetadata": {
+    "utc": "2026-10-24T19:03:45.2175100Z",
+    "status": "stopped_by_operator",
+    "engine": "6000.3.16f1",
+    "platform": "OSXPlayer",
+    "sceneRevision": "integration-r07-O7",
+    "assetRegistryRevision": "308cbb262c6c8ffd343154fc7c71a3bad0919d6dddb7796caeaf0a4a47a12a34",
+    "source": "actual_Unity_ScreenCapture_framebuffer_after_WaitForEndOfFrame",
+    "timing": "wall_clock_variable_frame_durations_no_Time_captureFramerate_no_synthetic_interpolation",
+    "performance": "capture_overhead_present_not_a_device_performance_run",
+    "manualReview": "not_automatically_verified",
+    "frames": 578,
+    "requestedFramesPerSecond": 10,
+    "width": 1280,
+    "height": 720,
+    "elapsedSeconds": 82.9156494140625,
+    "pngBytes": 445471377
+  },
+  "actualDurationNote": "Recording reports 82.9156494140625 seconds; encoded video 82.9143 seconds. Filename says 75s but measured duration is greater. This is the later long recording, not the earlier 59.71s recording.",
+  "extraction": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/extraction.json",
+    "sha256": "70e7f67ad4a0d852dbd2e0fec347a64bef67b97e46bae9ed4c4337ee4b00fb9c",
+    "bytes": 8371
+  },
+  "decodeLog": {
+    "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decode.log",
+    "sha256": "38fe79c2547e35b12c2ee7cc9bb5d400391e20a460c6204cc28baa25d3933504",
+    "bytes": 1133
+  },
+  "frames": [
+    {
+      "decoded_pts": 0,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000000.png",
+      "height": 720,
+      "requested_pts": 0,
+      "source_index": 0,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "7e71acb48a22ac0fac200d09da5c65c9041bb0aa63cc1654c01fd9448c6c6948"
+    },
+    {
+      "decoded_pts": 10.04045,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000070.png",
+      "height": 720,
+      "requested_pts": 10.04045,
+      "source_index": 70,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "5bf6f3c7addb56f2f7fd0cfdff9d20d5b4ca560b4789b63b9ce8f9f38f374a6a"
+    },
+    {
+      "decoded_pts": 14.315366666666666,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000100.png",
+      "height": 720,
+      "requested_pts": 14.315366666666666,
+      "source_index": 100,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "b1f251baa44113d2cc060148a6e727c7fa8eaf5c51b51474a3b4bb65cbbf0bcb"
+    },
+    {
+      "decoded_pts": 14.456966666666666,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000101.png",
+      "height": 720,
+      "requested_pts": 14.456966666666666,
+      "source_index": 101,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "a60772089abbeec6f654d383fbb6cc5327a26f3012515127dc1e4164ad65d1fe"
+    },
+    {
+      "decoded_pts": 14.598433333333332,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000102.png",
+      "height": 720,
+      "requested_pts": 14.598433333333332,
+      "source_index": 102,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "cf6b6a434b2643d76d5529457b315da58d69940420b5ee5d247232cec17401db"
+    },
+    {
+      "decoded_pts": 14.7401,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000103.png",
+      "height": 720,
+      "requested_pts": 14.7401,
+      "source_index": 103,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "64f64a8c0addc7f4fd1d645293b14e358b5d547c7f5c82f54637b754f3cfffe4"
+    },
+    {
+      "decoded_pts": 14.881833333333333,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000104.png",
+      "height": 720,
+      "requested_pts": 14.881833333333333,
+      "source_index": 104,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "ee8537ea2d6c2a00936c1219627d4698b4c863576ccda87db34db41ad9c544cd"
+    },
+    {
+      "decoded_pts": 15.023433333333333,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000105.png",
+      "height": 720,
+      "requested_pts": 15.023433333333333,
+      "source_index": 105,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "198d5ab16df6c3d0d757826de937d4414a5aef23fefbedd62b407c1d09ff1bdf"
+    },
+    {
+      "decoded_pts": 15.16545,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000106.png",
+      "height": 720,
+      "requested_pts": 15.16545,
+      "source_index": 106,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "6e92b12aa79d89e2a06fbc16b26033873229c117cd25a53be5f63bad703f25d1"
+    },
+    {
+      "decoded_pts": 15.306816666666666,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000107.png",
+      "height": 720,
+      "requested_pts": 15.306816666666666,
+      "source_index": 107,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "7adc2240461b166a66edc3ad0c495210955e5eadf440f965f9984491871d4d33"
+    },
+    {
+      "decoded_pts": 15.448416666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000108.png",
+      "height": 720,
+      "requested_pts": 15.448416666666667,
+      "source_index": 108,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "19e33ae7379a3a3713cfa7ef5f516be7b231c5c4fade180d7d053d4d00f8c21d"
+    },
+    {
+      "decoded_pts": 29.981683333333333,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000210.png",
+      "height": 720,
+      "requested_pts": 29.981683333333333,
+      "source_index": 210,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "345aacd54dd3b6106537665a6ba9a1153f6f74c97ddafc5cb36365e8f9159edf"
+    },
+    {
+      "decoded_pts": 40.09008333333333,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000280.png",
+      "height": 720,
+      "requested_pts": 40.09008333333333,
+      "source_index": 280,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "5e4f253d9ed5cb2c300fc7061168ed4f3cb897c81f729670af60ba0bf1f0ba16"
+    },
+    {
+      "decoded_pts": 50.18181666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000350.png",
+      "height": 720,
+      "requested_pts": 50.18181666666667,
+      "source_index": 350,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "8385a1b197a92bc882d49aa0b9813655267f3106d6eba50d88d138a0066444e0"
+    },
+    {
+      "decoded_pts": 50.32366666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000351.png",
+      "height": 720,
+      "requested_pts": 50.32366666666667,
+      "source_index": 351,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "945ebcd69da61813193ea66fb6e9a81ccbb3d9bc3b5a625b35ad46dddfc169c7"
+    },
+    {
+      "decoded_pts": 50.46783333333333,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000352.png",
+      "height": 720,
+      "requested_pts": 50.46783333333333,
+      "source_index": 352,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "f04a19c0e87866b143f1eddbf4ea21737d00bb7c00f5409f7fa8483ba69eb50a"
+    },
+    {
+      "decoded_pts": 50.614916666666666,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000353.png",
+      "height": 720,
+      "requested_pts": 50.614916666666666,
+      "source_index": 353,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "8ddff65568b57e93527cd5bbccaed213134deabe93a57ce158dd52903f9f9626"
+    },
+    {
+      "decoded_pts": 50.75665,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000354.png",
+      "height": 720,
+      "requested_pts": 50.75665,
+      "source_index": 354,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "50883c7cf7613c5afa8a8b5e57ad910b14ffa4a6879caa93860edffb40bb62ec"
+    },
+    {
+      "decoded_pts": 50.8983,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000355.png",
+      "height": 720,
+      "requested_pts": 50.8983,
+      "source_index": 355,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "51e25f1ecf3117d211b7df47249ab40c40a37397828d3c3b3556795bb2563141"
+    },
+    {
+      "decoded_pts": 51.03991666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000356.png",
+      "height": 720,
+      "requested_pts": 51.03991666666667,
+      "source_index": 356,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "68b816af9ba7bbc765e009962a67c6e53c37a61c0dd3b4e5b37faa02bb8c4c41"
+    },
+    {
+      "decoded_pts": 51.19,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000357.png",
+      "height": 720,
+      "requested_pts": 51.19,
+      "source_index": 357,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "1f4d3e202c45e1e86853930c5f16a7e05d423b6bdb66100c86773484fad28cbb"
+    },
+    {
+      "decoded_pts": 51.3316,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000358.png",
+      "height": 720,
+      "requested_pts": 51.3316,
+      "source_index": 358,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "b116194938ec8af90e3576610b218aca5be34ef3a8c3b4ada845fc194e0d427f"
+    },
+    {
+      "decoded_pts": 59.95665,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000418.png",
+      "height": 720,
+      "requested_pts": 59.95665,
+      "source_index": 418,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "2c1784dbcaa9a8945cc5f762f6c853fee3035afd16b8f50d6361243275973259"
+    },
+    {
+      "decoded_pts": 70.04351666666666,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000488.png",
+      "height": 720,
+      "requested_pts": 70.04351666666666,
+      "source_index": 488,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "dbcd1d9455658a748e6189b1646df13e2e49c211388397b72cb00649aee6892c"
+    },
+    {
+      "decoded_pts": 82.86516666666667,
+      "file": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/visual-review/pasture-decoded/decoded-frame-000577.png",
+      "height": 720,
+      "requested_pts": 82.86516666666667,
+      "source_index": 577,
+      "width": 1280,
+      "actualOpened": true,
+      "sha256": "90d27e5ab5e7decc5d87738ce1a57ddaac1789ddc6f22b583af4a9fffd013d10"
+    }
+  ],
+  "observations": [
+    {
+      "frames": [
+        0,
+        70,
+        210,
+        280,
+        418,
+        488,
+        577
+      ],
+      "subject": "跨首尾牧场位置",
+      "notes": [
+        "Lulu停在入口外，画面持续朝向牧场。牛羊猪鸡鸭在不同样帧中改变位置和朝向，非整个片段静止摆放。",
+        "牛从入口附近移到谷仓前，随后移向草垛/牧场中部；羊沿左侧及前方围栏内侧移动，猪和禽类在内部移动。",
+        "猪和羊、后段牛和猪在二维投影上发生部分遮挡，无法单凭此视角证明三维穿插。",
+        "样帧中没有明确看到动物走出围栏，谷仓前、饲料槽旁及草垛前仍有可见空间；并未逐帧排除全片穿模。",
+        "前方围栏挡住羊/猪部分腿脚；牧场后方动物较小，脚底仅少量像素，难以判定滑步。"
+      ]
+    },
+    {
+      "frames": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "subject": "约14.32至15.45秒连续相位",
+      "notes": [
+        "此短组牛、猪、羊基本停在相同位置，鸡有轻微位移，鸭的头/身体方向稍有变化。",
+        "动物处于停顿或低幅变化的这一组不足以判断完整行走周期，未把停顿误记成走路。"
+      ]
+    },
+    {
+      "frames": [
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358
+      ],
+      "subject": "约50.18至51.33秒连续相位",
+      "notes": [
+        "牛向画面左侧小幅前进，黑色蹄部轮廓相对身体的位置发生细小变化；鸡也向左侧移动。",
+        "鸭在相近位置有轻微左右姿态变化，但身体在画面中只有约30像素高，不能稳妥判断摇摆是否与迈步同步。",
+        "此距离不能确定接地脚固定程度，也不能宣称没有滑步；建议 Opus 在原片中查看步态及近景需求。"
+      ]
+    }
+  ],
+  "limits": [
+    "Video duration exceeds 60s, but this subtask inspected decoded samples rather than continuous playback.",
+    "Small on-screen feet, body and fence occlusion limit foot sliding, precise gait and collision judgment.",
+    "Visible two-dimensional overlapping silhouettes are not automatically three-dimensional intersection.",
+    "No performance conclusion; capture overhead present.",
+    "Audio not auditioned.",
+    "No Unity source, model, or original recording changed."
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "utc": "2026-10-25T07:39:05.174590+00:00",
+  "scope": "local only, raw Profiler + full frame PNGs not uploaded; frame hashes retained in frames.jsonl",
+  "profiler": [
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0000.data",
+      "bytes": 233183549,
+      "sha256": "cc921adce2252ca9309c9e77c8d78a4a87859302dd47304f8d819180069a5932"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0001.data",
+      "bytes": 236795697,
+      "sha256": "631aa8b2a8d1f053bb137d430578787104b943bee36c94d1696c2d5f81017a6e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0002.data",
+      "bytes": 220295320,
+      "sha256": "2ee04cb9cfc387ea5bf9a820fbc907e07d1a0e229d491496fc5797cc96070b88"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0003.data",
+      "bytes": 193712633,
+      "sha256": "ee6c346dc2fdc63179b340c3ecb373fab892982e198938716b20926e3b55dd72"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0004.data",
+      "bytes": 195315571,
+      "sha256": "0fbd8c21ab1c82cd6228a6f129ceb06e0395d527a132a4fe9e3210307df876aa"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0005.data",
+      "bytes": 175694336,
+      "sha256": "a92bb79a7faeee1c99f9a21a60250cc2bcf6f467fb5ee0cdf7bdb9fd48f40235"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0006.data",
+      "bytes": 143047314,
+      "sha256": "0179eb595b93f00fe45eb37a2149e43ee3f0aa65983152e91e149b42801ccd9e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0007.data",
+      "bytes": 152256387,
+      "sha256": "d292deb4da6171700c0173df8dd7650e7695a233ec9aa99fc994385d2367d5f9"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0008.data",
+      "bytes": 174363554,
+      "sha256": "9beb4b216355b656ea3a6020ef337c2feb0c92c60463747e17fd9a692665b634"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0009.data",
+      "bytes": 200263877,
+      "sha256": "e0b1ea226bf3765b77b2e5103c964156156e76eae34a04fe2b87baabbd3baacd"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0010.data",
+      "bytes": 203408135,
+      "sha256": "1da34cc4915436f079999c2a94a7bf2da0cede05dde650876143bd66cc970538"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0011.data",
+      "bytes": 202312033,
+      "sha256": "c915f24c77a555f77bb7a6b7d35e527e554fb99921ade111f2b7ada7c5aaeb31"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0012.data",
+      "bytes": 207859008,
+      "sha256": "d57ecf43f90333068798ddbc0acd7619fdf066d9d50a5dc0f883707638cffdb2"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0013.data",
+      "bytes": 220422129,
+      "sha256": "86c2b06a38c3c7ec984c646105c1c4d2e518945c438f0570fbebd4122b2c8a23"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0014.data",
+      "bytes": 201567575,
+      "sha256": "d2ebe8b49976688d63e85c6079117627f2fed7206b60a42b83184de0b84a1673"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0015.data",
+      "bytes": 185597960,
+      "sha256": "10505a35e080118313a23874040415145fd1974da3f64f6916732c3040780136"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0016.data",
+      "bytes": 180457069,
+      "sha256": "544f485da68755b9663a502b8f3da95b57762ea441f32f7960aa81325a62d8d0"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0017.data",
+      "bytes": 145318453,
+      "sha256": "8f69a886ec779f8a2d2b6dfbbd31adf38403ea725eb4010d4b8055defa66e20e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0018.data",
+      "bytes": 145597594,
+      "sha256": "05b0f3552552ae069d1de443a7f8a7261c2739b1d72b2c8965236551627bb9b2"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0019.data",
+      "bytes": 171533440,
+      "sha256": "b41e9defa6af7181dbbf4d5611f2b9ef949f7637264a22b29e19986973735632"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0020.data",
+      "bytes": 166787287,
+      "sha256": "e23ca1bb0e179bc6bd4ab481f1fb01d8d2a8c9980e53be2193b32e79306c4b7f"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0021.data",
+      "bytes": 160626301,
+      "sha256": "cd4a36af09692941460b04761e5bbc897c84861e811bf5ec190c0771ff7e8204"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0022.data",
+      "bytes": 241697297,
+      "sha256": "9f4b7837a050c2d01479440ec9fb6641d744fc5c9ac425ced2087297c54d44db"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0023.data",
+      "bytes": 234569962,
+      "sha256": "94dc6cc00bcaf691353c9f8251e2a12a764a063a7fd309c9eada9df8fa729bc6"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0024.data",
+      "bytes": 218171424,
+      "sha256": "d7c694cd57bd7e07ee218d655d673aff056ddd89bce14c44c8fc7a5472a22e0d"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0025.data",
+      "bytes": 184118641,
+      "sha256": "0a9ea23de8e633dd672849a2fbdd2c159838b82c309b29ce952faf6af60df97c"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0026.data",
+      "bytes": 192757799,
+      "sha256": "2597d36b3bdcf84cb3b8d246d09ecc16ab83ab01de0a67ca267146b07a9d7c04"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0027.data",
+      "bytes": 160736971,
+      "sha256": "920b3ab19a78bc8edac811f559235295b391da0eda824590fd6b8009d2c0c9da"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0028.data",
+      "bytes": 139269027,
+      "sha256": "1fa085ad5146919dd21f35b998c570c4218e45bf10d147c2aea2526bc0794ba3"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0029.data",
+      "bytes": 149353047,
+      "sha256": "f0015d2339a37ba3decef81c6abc504c4e3594686642e427ef2d6b346001ab2d"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0030.data",
+      "bytes": 179627670,
+      "sha256": "dcfc378a3087a4b97150730ed9253d30ea44946c8f9b093c5479eb02f105b437"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0031.data",
+      "bytes": 202879116,
+      "sha256": "66665e36bb9256dc8c9be01cb8421c877ddc4fe3cb68d11d052b71927fbd115c"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0032.data",
+      "bytes": 236268581,
+      "sha256": "341dd9878604f909d935d19a7566704cd03afe4a4431122ac8406ca5d4b7ae5b"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0033.data",
+      "bytes": 237394109,
+      "sha256": "384f0b273ec2921148681d5e342804b83479f135d649f0420022189ea96f7c2f"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0034.data",
+      "bytes": 215916067,
+      "sha256": "54f549ba28fe1d6476125875ef738969dc8ee774cf200e4308d607c1d977dd3e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0035.data",
+      "bytes": 178270930,
+      "sha256": "152e940881279b1f3145b6b4be1bace697afe880f1e616797bf0340ad631fe4e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0036.data",
+      "bytes": 192900124,
+      "sha256": "8d3f30a855ac3c3bc3c2ae30f3257b85556974458d0ae271e5c0cd9ec40cf9a5"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0037.data",
+      "bytes": 163948970,
+      "sha256": "09127c73144836a76386f776338b1d208c4c5cfbe6d88b50f29d22459605ce9a"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0038.data",
+      "bytes": 139299500,
+      "sha256": "db16dce6ce4ad946fd53d7aca1a69cb528173d940349990f4c3f770590d36611"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0039.data",
+      "bytes": 146421399,
+      "sha256": "d93a48d073f3cb13dc1560b0b045b9d4966069102f35b9d8ef7b2bd2be44df56"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0040.data",
+      "bytes": 171191950,
+      "sha256": "614f53e3d358895177bf0fc8b73088efe72402dc549d4e5aaf4a0139027ba390"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0041.data",
+      "bytes": 197547295,
+      "sha256": "3b7a1daaa75f28bfc3a529c433aaf5c460e1f6cfb1b7a3270e18883f3f0608b3"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0042.data",
+      "bytes": 230151985,
+      "sha256": "f95c805e77b8350931c67333b624d0473f8c8c52cc61cde7518cf412742dc477"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0043.data",
+      "bytes": 240241577,
+      "sha256": "0872e0731bf5f58fc1dc944e6112ae00ecd4913d4c83c3a43d251f4832bf68fb"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0044.data",
+      "bytes": 215520298,
+      "sha256": "7dc3c49efe12d8417dee3d7ae67bec88aef420a51e8509133b26c2ab7a2f8bac"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0045.data",
+      "bytes": 183670797,
+      "sha256": "b6c28135237906c3513e6d25510f5cf07e75183dc505fc769037f1962c6c0ad5"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0046.data",
+      "bytes": 178964869,
+      "sha256": "0793ced87262c8a947264bf95c267284f0f913b2a3bb7c53ff919323e72c0def"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0047.data",
+      "bytes": 166827871,
+      "sha256": "6fa052827f5f5d1bd14e4bd58f1a4b48eb4b23bcaef5268cc16c9b6949824fbe"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0048.data",
+      "bytes": 139574703,
+      "sha256": "daaf19efe6482490a6524865a07b219cdf4e343106b2fa8cab363a424f643203"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0049.data",
+      "bytes": 139009157,
+      "sha256": "94db7ef1ff348dfe873eeb859179c15baa533e81c58c531ddca6916ed35c763c"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0050.data",
+      "bytes": 165989279,
+      "sha256": "5a99bcbfaaae5de845f4de8d487d0feb10a553ce0b8159ab9961f5b4f658c49a"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0051.data",
+      "bytes": 191929552,
+      "sha256": "5da3d2b729d88e2618a0e11ebe9c50e653e0b93400893eddaac56abd26a2971a"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0052.data",
+      "bytes": 223031616,
+      "sha256": "65a2090cdd366b9deb7b98b2a79cc7622f2908ec056eab47d3c4ca0bfe6787dc"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0053.data",
+      "bytes": 244224681,
+      "sha256": "a305bfcb39a7fa07079b6d68272650e75c419506911bfe7ea703fa588e74330b"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0054.data",
+      "bytes": 216561763,
+      "sha256": "a50c65e3eeb5e15e3796055946263b511f9699fbd2414838368dec448ebb612d"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0055.data",
+      "bytes": 182662959,
+      "sha256": "f199bc9f482881a642c0f70acc124b11325f373d748c4899c81379f25615119c"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0056.data",
+      "bytes": 171562121,
+      "sha256": "06ab188c45e3ab3c8adcecc62d678a5b521cdfd56967d1c096b199445021a80e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0057.data",
+      "bytes": 169443555,
+      "sha256": "73cdc195f4377f11fe91f6491eb63a45c70f93026601717bd28fe8fcd9b2e445"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0058.data",
+      "bytes": 139475248,
+      "sha256": "3385c21bea09c01c3eb5660cd9d40d1b819308cd73172212c4853fae4471f9e6"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0059.data",
+      "bytes": 132900097,
+      "sha256": "f0e23b59c8cd58b0838d05ad484322f94ae0c8221872db51277f671cf3e9b675"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0060.data",
+      "bytes": 159659310,
+      "sha256": "87503d32a8782f2cf49a36f79da49924531f6af02a7ef9956cb68afb42950d5e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0061.data",
+      "bytes": 186124876,
+      "sha256": "726a35e3fd629e95b0f2da3391cfb1fd0fd634c78bcbfbba17e1ba729a24e56e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0062.data",
+      "bytes": 214680338,
+      "sha256": "281613252004e658181f979a54594e0e21b6a9ad77c3655662cd90825f29673e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0063.data",
+      "bytes": 246948089,
+      "sha256": "2664950fb7362b7376e1c31e33d360503edae04abd84fff5bafb86ab69dee169"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0064.data",
+      "bytes": 212636401,
+      "sha256": "2eb141a45c52c7376eb38606097d468e731ff045b7958b7626ae432a6b092e38"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0065.data",
+      "bytes": 184442233,
+      "sha256": "c57663971f0fbcca179b08fe7be34f5471112621bea358b7cbe67a41d776d583"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0066.data",
+      "bytes": 168104491,
+      "sha256": "574a3f6ca882fb9f3a2fad940f3798e80a4bb106f3de295ce9a5d7910f162c06"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0067.data",
+      "bytes": 170132540,
+      "sha256": "7673868b556195ba08bf867d9fb953de2cbae4543e9afd7ddb19e0729343e674"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0068.data",
+      "bytes": 140109067,
+      "sha256": "70c272e2ec964bc6df9d55971d050b92d0ccfb3230322d4a96fea83771d74c2f"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0069.data",
+      "bytes": 115893174,
+      "sha256": "b3a203bcba91478f972d2ae1f934a4cb547ba21e6f2f6814ef84d59373831434"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0070.data",
+      "bytes": 133446209,
+      "sha256": "a2db9354999d0ca4bc1130da08061520b9743625636b294971522f5ef67c5359"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0071.data",
+      "bytes": 159887981,
+      "sha256": "53fc8af336ef9a0ac52379d795ce4eb703380f1484981ce5fdbe2241ac81a8f2"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0072.data",
+      "bytes": 186127761,
+      "sha256": "6c039974765b3d83c61c707951175d4fbc0a24d6088848b9dd07ec8b32cc8598"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0073.data",
+      "bytes": 190127539,
+      "sha256": "cab8935c08f95ec1b4dae401a23217250b58255b918087c67a6708ce20269d3e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0074.data",
+      "bytes": 214963714,
+      "sha256": "b5917d0185dc1e19d2caf158f8e8e588b34e5292453e1c13fdadb851a2fbc49c"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0075.data",
+      "bytes": 203497317,
+      "sha256": "63eb65f5ca4026f0b4907ed81e77465443fbc63c5ebe9618e23157e7ecb705fd"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0076.data",
+      "bytes": 178405034,
+      "sha256": "0fe7c3447af865fe2818de1848cfb7d2f7541ca17b27adc3de6372ee925ba94c"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0077.data",
+      "bytes": 165742520,
+      "sha256": "65138d9b437df1f0f44a77180d3e42638b65ec06b76f2cb4e6ccd090788fda21"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0078.data",
+      "bytes": 167093868,
+      "sha256": "29f93371d1051ea9922100898a4246c2819be38852eec1f20347c0256fbc74aa"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0079.data",
+      "bytes": 136279604,
+      "sha256": "335fed9a32703e7f315430c401df3e66bf40f7aad85d2d7ebde1945ed8ee65c3"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0080.data",
+      "bytes": 126899165,
+      "sha256": "cd0f6fb649f8bdd5c534e9d6d3cdf41ba23972c38572558bb82b4910a882a475"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0081.data",
+      "bytes": 149816544,
+      "sha256": "05547a3c5da69bc0358b221d86495a077c9918e30abd8f4e6ea1a027e105858e"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0082.data",
+      "bytes": 166199273,
+      "sha256": "5e7b79f29f2879a986012ff86904b447c836439c45926864a79ae3aefe722fc1"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0083.data",
+      "bytes": 182104921,
+      "sha256": "12a0c746264fe31d17678420f16b6a5937783aec3a18e402e53b53ecc327b653"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0084.data",
+      "bytes": 202375343,
+      "sha256": "2b3791dfdbeba8084b09068248141e04d2c96e31b7595657fe326545160cd16b"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0085.data",
+      "bytes": 205639794,
+      "sha256": "9d35bf18bdcddaa5c22b5754f2209c8a31610a92378e9e89975496ae5eec6174"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0086.data",
+      "bytes": 185101584,
+      "sha256": "9888af0a12dfdaf4ec27e837ec71b094a1511b5ef42da472b193f73a222480e8"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0087.data",
+      "bytes": 167601185,
+      "sha256": "2a3f216024edc985d4a7b11d89156d0b47747e055dbd36d74a525529983e17b2"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0088.data",
+      "bytes": 167550445,
+      "sha256": "572ea5e0b2714c352ca0d7deb4ae177cfcea09fd6679628f7a89b276c7562a69"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0089.data",
+      "bytes": 146851446,
+      "sha256": "e2b498ec0713e0158db95f6b637f428b99c4bace2bb7fa1595e8342d82d24f72"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0090.data",
+      "bytes": 124176908,
+      "sha256": "a4ee29dbdb76fb38461eda23e73d2be500b9cbef2e09397b8de37b93d5d2cc7b"
+    },
+    {
+      "file": "Evidence/r07/O7/profiler/cpu-0091.data",
+      "bytes": 28969658,
+      "sha256": "a6d9ffc89b6851444095019398298a56cd6058ed78ca71606a4167f9ed915aef"
+    }
+  ],
+  "frameSequences": [
+    {
+      "directory": "Evidence/r07/O7/ambient/20261024-185207-564/walkthrough-185211-106",
+      "frames": 373,
+      "bytes": 256953058,
+      "missing": [],
+      "frameHashSource": "Evidence/r07/O7/ambient/20261024-185207-564/walkthrough-185211-106/frames.jsonl",
+      "metadataSha256": "8e8a60205a6885f386d4bb02896ca8eae6319e9047a9fb2053f1a9ca15f4dce8"
+    },
+    {
+      "directory": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-185851-185",
+      "frames": 127,
+      "bytes": 111720937,
+      "missing": [],
+      "frameHashSource": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-185851-185/frames.jsonl",
+      "metadataSha256": "7e326c0aeccd7f2cce5cf5e4c04fdf8985c5bd01ec4e68f0ac789b97f677d43c"
+    },
+    {
+      "directory": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-185953-189",
+      "frames": 122,
+      "bytes": 80164341,
+      "missing": [],
+      "frameHashSource": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-185953-189/frames.jsonl",
+      "metadataSha256": "7d67a1d5ff628830c135b51d256396d0ac9db5d0c53285d40725d5fee3121269"
+    },
+    {
+      "directory": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190104-059",
+      "frames": 398,
+      "bytes": 308477464,
+      "missing": [],
+      "frameHashSource": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190104-059/frames.jsonl",
+      "metadataSha256": "d9370832284d874ef2adbde348b6ac2f0b551a6751f27704540c77c0ba62b506"
+    },
+    {
+      "directory": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190222-315",
+      "frames": 578,
+      "bytes": 445471377,
+      "missing": [],
+      "frameHashSource": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190222-315/frames.jsonl",
+      "metadataSha256": "b7e1cdde686e81425bf08ceef2b8aff0b0f04959ef2352146a174519e1f97a83"
+    },
+    {
+      "directory": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190458-352",
+      "frames": 203,
+      "bytes": 131233446,
+      "missing": [],
+      "frameHashSource": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190458-352/frames.jsonl",
+      "metadataSha256": "c21b4a365f41169e8a32cc2db909e58c61160324faea50a30293318b2f4157ac"
+    },
+    {
+      "directory": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190655-638",
+      "frames": 683,
+      "bytes": 484285850,
+      "missing": [],
+      "frameHashSource": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190655-638/frames.jsonl",
+      "metadataSha256": "a411fc03d9c0766a9389bf0f97a111431fb8cf025f7384684fcb2a3fab770320"
+    },
+    {
+      "directory": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190911-430",
+      "frames": 624,
+      "bytes": 609297355,
+      "missing": [],
+      "frameHashSource": "Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190911-430/frames.jsonl",
+      "metadataSha256": "c5946282465b099abca8af76deaed6ec1aef4af456913ddf079e628d515ed8f8"
+    }
+  ]
+}

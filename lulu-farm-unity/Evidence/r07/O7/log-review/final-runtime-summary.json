@@ -1,0 +1,385 @@
+{
+  "schema": "o7-final-runtime-log-review-v1",
+  "createdUtc": "2026-10-25T07:37:07.605100+00:00",
+  "status": "Completed; awaiting Opus review",
+  "acceptanceConclusion": null,
+  "scope": "Text-only final native/player performance log review; no Unity/Player launched, no rendering/encoding/compression, no performance sampling, no changes to Opus code or prior evidence. Export logs are outside scope.",
+  "priorRuntimeSnapshot": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/runtime-summary.json",
+  "editorAuditReference": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/editor-summary.json",
+  "files": [
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island.log",
+      "sha256": "0ad2360d577380ae62861af50562bdf06a28a326172325286548afb949a5bf13",
+      "bytes": 3913,
+      "lineCount": 49,
+      "readUtc": "2026-10-25T07:37:07.605100+00:00",
+      "scope": "Full completed file at this read, including shutdown trailer.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 1,
+        "CS0108": 0,
+        "Warning": 0,
+        "negative-scale-collision": 0,
+        "thread-finalization": 5,
+        "MemoryLeaks": 1,
+        "RenderTexture-active-release": 0,
+        "Licensing": 0
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [
+          {
+            "line": 49,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792869043809,\"processId\":15338,\"allocatedMemory\":2385464,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15119},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry; Shader is a memory-label key. No memory-leak or performance conclusion."
+          }
+        ],
+        "CS0108": [],
+        "Warning": [],
+        "negative-scale-collision": [],
+        "thread-finalization": [
+          {
+            "line": 39,
+            "text": "Thread 0x16d023000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          },
+          {
+            "line": 45,
+            "text": "Thread 0x16bd3f000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          },
+          {
+            "line": 46,
+            "text": "Thread 0x16bdcb000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          },
+          {
+            "line": 47,
+            "text": "Thread 0x16be57000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          },
+          {
+            "line": 48,
+            "text": "Thread 0x16bee3000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          }
+        ],
+        "MemoryLeaks": [
+          {
+            "line": 49,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792869043809,\"processId\":15338,\"allocatedMemory\":2385464,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15119},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry; Shader is a memory-label key. No memory-leak or performance conclusion."
+          }
+        ],
+        "RenderTexture-active-release": [],
+        "Licensing": []
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/final-runtime-native-island.log.keyword-context.txt"
+    },
+    {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance.log",
+      "sha256": "38c44a5febd1e1029605387a2e7c61f735793b052c7644d1c65b91a9b9568ae6",
+      "bytes": 4610,
+      "lineCount": 57,
+      "readUtc": "2026-10-25T07:37:07.605100+00:00",
+      "scope": "Full completed file at this read, including shutdown trailer.",
+      "keywordCounts": {
+        "Exception": 0,
+        "Error": 0,
+        "Shader": 1,
+        "CS0108": 0,
+        "Warning": 0,
+        "negative-scale-collision": 0,
+        "thread-finalization": 5,
+        "MemoryLeaks": 1,
+        "RenderTexture-active-release": 1,
+        "Licensing": 0
+      },
+      "keywordMatches": {
+        "Exception": [],
+        "Error": [],
+        "Shader": [
+          {
+            "line": 57,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792913657322,\"processId\":91947,\"allocatedMemory\":2385464,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15119},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry; Shader is a memory-label key. No memory-leak or performance conclusion."
+          }
+        ],
+        "CS0108": [],
+        "Warning": [],
+        "negative-scale-collision": [],
+        "thread-finalization": [
+          {
+            "line": 47,
+            "text": "Thread 0x171cbb000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          },
+          {
+            "line": 53,
+            "text": "Thread 0x1708bf000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          },
+          {
+            "line": 54,
+            "text": "Thread 0x170a63000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          },
+          {
+            "line": 55,
+            "text": "Thread 0x1709d7000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          },
+          {
+            "line": 56,
+            "text": "Thread 0x17094b000 may have been prematurely finalized",
+            "classification": "Unity/Mono shutdown thread-finalization message, preserved without assigning a cause."
+          }
+        ],
+        "MemoryLeaks": [
+          {
+            "line": 57,
+            "text": "PlayerConnection::Cleanup##utp:{\"type\":\"MemoryLeaks\",\"version\":2,\"phase\":\"Immediate\",\"time\":1792913657322,\"processId\":91947,\"allocatedMemory\":2385464,\"memoryLabels\":[{\"Default\":14161},{\"Permanent\":1520},{\"Thread\":39352},{\"Manager\":15119},{\"VertexData\":8},{\"Geometry\":408},{\"Texture\":16},{\"Shader\":78377},{\"Material\":24},{\"GfxDevice\":38720},{\"GfxThread\":400},{\"Animation\":328},{\"Audio\":3040},{\"FreeType\":8},{\"FontEngine\":736},{\"Physics\":2120},{\"Physics2D\":16},{\"Serialization\":624},{\"Input\":10056},{\"JobScheduler\":33216},{\"TextLib\":216},{\"Mono\":32},{\"ScriptingNativeRuntime\":128},{\"BaseObject\":1609216},{\"Resource\":496},{\"Renderer\":3528},{\"Transform\":6485},{\"File\":852},{\"WebCam\":32},{\"Culling\":32},{\"Terrain\":11250},{\"Wind\":24},{\"String\":3128},{\"DynamicArray\":31512},{\"HashMap\":10240},{\"Utility\":299264},{\"PoolAlloc\":1560},{\"AI\":40},{\"TypeTree\":5064},{\"ScriptManager\":64},{\"RuntimeInitializeOnLoadManager\":64},{\"SpriteAtlas\":112},{\"GI\":7176},{\"Director\":8152},{\"CloudService\":144},{\"WebRequest\":776},{\"VR\":47442},{\"SceneManager\":360},{\"Video\":2080},{\"LazyScriptCache\":32},{\"NativeArray\":648},{\"Camera\":9},{\"Secure\":241},{\"SerializationCache\":1576},{\"APIUpdating\":10320},{\"Subsystems\":336},{\"VirtualTexturing\":57496},{\"Baselib\":16},{\"Hierarchy\":992},{\"CoreStats\":13032},{\"Identifiers\":12960},{\"Gui\":40},{\"CoreBusinessMetrics\":120},{\"AssetReference\":32}]}",
+            "classification": "Unity shutdown telemetry; Shader is a memory-label key. No memory-leak or performance conclusion."
+          }
+        ],
+        "RenderTexture-active-release": [
+          {
+            "line": 39,
+            "text": "Releasing render texture that is set to be RenderTexture.active!",
+            "classification": "Actual render-texture release diagnostic. Stack points to FarmProfilerCaptureR07.NextChunk:49 and Update:42. It does not include the literal words Error or Warning."
+          }
+        ],
+        "Licensing": []
+      },
+      "explicitDiagnosticMatches": {
+        "CSharpCompilerError": [],
+        "ShaderCompilerError": [],
+        "ThrownExceptionMessage": [],
+        "NegativeScaleWarning": [],
+        "CollisionWarning": []
+      },
+      "contextPath": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/log-review/final-runtime-performance.log.keyword-context.txt"
+    }
+  ],
+  "performanceExecution": {
+    "source": {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance-execution.json",
+      "sha256": "3f032c451df39318f6aa8520c45623a6f302a3e24d0141f12b018c996dd29d88",
+      "bytes": 1297
+    },
+    "record": {
+      "startedUtc": "2026-10-25T07:18:56.331123+00:00",
+      "finishedUtc": "2026-10-25T07:34:17.389502+00:00",
+      "command": [
+        "/usr/bin/caffeinate",
+        "-di",
+        "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Builds/r07/O7/development/LuluFarm.app/Contents/MacOS/噜噜农场",
+        "-screen-width",
+        "1280",
+        "-screen-height",
+        "720",
+        "-screen-fullscreen",
+        "0",
+        "--farm-evidence",
+        "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance",
+        "--farm-quit-after",
+        "920",
+        "-logFile",
+        "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance.log",
+        "--farm-performance-route",
+        "--farm-performance-stage",
+        "mature",
+        "--farm-performance-quality",
+        "desktop",
+        "--farm-performance-warmup",
+        "5",
+        "--r07-profiler-directory",
+        "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/profiler"
+      ],
+      "exitCode": 0,
+      "completionChecks": {
+        "summaryPresent": true,
+        "requiredDuration": true,
+        "configurationUnchanged": true,
+        "loopRunningAtStop": true,
+        "allWindowsFocused": true
+      },
+      "captureIntent": "actual visible player; caffeinate only for this process lifetime; profiler capture overhead is recorded separately from r06 no-profiler baseline"
+    },
+    "wallClockSeconds": 921.058379,
+    "scope": "Completion booleans are reproduced as recorded by the wrapper; no new benchmark or acceptance conclusion."
+  },
+  "performanceSummary": {
+    "source": {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/performance/20261025-071859-163/performance/summary.json",
+      "sha256": "f2dd3c78ec709d870aee0834ad0209ffb2126584a342eee69ae8e870bee3d26d",
+      "bytes": 4367
+    },
+    "measuredFields": {
+      "stoppedBecause": "application_quit",
+      "routeStatus": "running_performance_route",
+      "elapsedSeconds": 917.7116088867188,
+      "warmupSeconds": 5.0,
+      "measurementSeconds": 912.7116088867188,
+      "completedLaps": 8,
+      "lastWaypoint": 23,
+      "routeLoopRunningAtStop": true,
+      "configurationUnchanged": true
+    },
+    "scope": "Data recorded only; no performance assessment. Detailed frame/counter data remain in original summary."
+  },
+  "nativeActionRecordingCheck": {
+    "source": {
+      "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/native-actions.md",
+      "sha256": "82a7026924b02203ee5178f5719f93c80e5feccc35291694ceaf919a167bf13e",
+      "bytes": 2711
+    },
+    "records": [
+      {
+        "recording": {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190104-059/recording.json",
+          "sha256": "93a115eb8959263d1d415b49f8288f942e427794501173510020d4699039922b",
+          "bytes": 753
+        },
+        "encodingAudit": {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/pasture-continuous.mp4.encoding.json",
+          "sha256": "2f92f47a0bda58d1148b0b7a114d3c48657f3529fe0ba367588ad37a5093263d",
+          "bytes": 1836
+        },
+        "framesJsonl": {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190104-059/frames.jsonl",
+          "sha256": "d9370832284d874ef2adbde348b6ac2f0b551a6751f27704540c77c0ba62b506",
+          "bytes": 223464
+        },
+        "recordingFrameCount": 398,
+        "framesJsonlLineCount": 398,
+        "sourceFrameCountInEncodingAudit": 398,
+        "encodedSampleCount": 398,
+        "declaredFrameCountInNativeActions": null,
+        "allRecordedFrameCountsEqual": true,
+        "frameCountClaimMatches": null,
+        "nativeActionsMention": [
+          {
+            "line": 9,
+            "text": "- 第一次牧场片 walkthrough-190104-059 实测59.7116秒，不计入至少60秒要求；原件和视频保留。正在重新录制。"
+          }
+        ],
+        "nativeActionsElapsedSeconds": 59.7116,
+        "recordingElapsedSeconds": 59.711578369140625,
+        "claimedMinusRecordingSeconds": 2.1630859372123723e-05,
+        "matchesRoundedRecording": true,
+        "encodedDurationSeconds": 59.7102,
+        "sourceFirstElapsedSeconds": 0.001373291015625,
+        "recordingMinusEncodedSeconds": 0.0013783691406246135,
+        "expectedDurationSecondsInEncodingAudit": 59.710205078125,
+        "encodingAuditMatchesRecordingSHA": true,
+        "encodingAuditMatchesFramesJsonlSHA": true,
+        "scope": "Compared small JSON/JSONL metadata; did not re-encode, decode, view video or hash PNG/video payloads."
+      },
+      {
+        "recording": {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190222-315/recording.json",
+          "sha256": "335e03a28ae76f367c58f6cc5185614540ad4578d8806d8248aa66e8a9226f04",
+          "bytes": 751
+        },
+        "encodingAudit": {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/pasture-continuous-75s.mp4.encoding.json",
+          "sha256": "fc56ec3c3e6f2507684ac72e0db072ac8719b455629f5b6d50848c099cee9017",
+          "bytes": 1875
+        },
+        "framesJsonl": {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190222-315/frames.jsonl",
+          "sha256": "b7e1cdde686e81425bf08ceef2b8aff0b0f04959ef2352146a174519e1f97a83",
+          "bytes": 324109
+        },
+        "recordingFrameCount": 578,
+        "framesJsonlLineCount": 578,
+        "sourceFrameCountInEncodingAudit": 578,
+        "encodedSampleCount": 578,
+        "declaredFrameCountInNativeActions": 578,
+        "allRecordedFrameCountsEqual": true,
+        "frameCountClaimMatches": true,
+        "nativeActionsMention": [
+          {
+            "line": 12,
+            "text": "- 补录 walkthrough-190222-315 最终82.915649秒、578帧（以recording.json为准），单机位牧场，不使用前一段59.71秒冒充。"
+          }
+        ],
+        "nativeActionsElapsedSeconds": 82.915649,
+        "recordingElapsedSeconds": 82.9156494140625,
+        "claimedMinusRecordingSeconds": -4.1406249806641426e-07,
+        "matchesRoundedRecording": true,
+        "encodedDurationSeconds": 82.9143,
+        "sourceFirstElapsedSeconds": 0.0013427734375,
+        "recordingMinusEncodedSeconds": 0.001349414062502774,
+        "expectedDurationSecondsInEncodingAudit": 82.914306640625,
+        "encodingAuditMatchesRecordingSHA": true,
+        "encodingAuditMatchesFramesJsonlSHA": true,
+        "scope": "Compared small JSON/JSONL metadata; did not re-encode, decode, view video or hash PNG/video payloads."
+      },
+      {
+        "recording": {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190458-352/recording.json",
+          "sha256": "643ca73879df34af2653d1d5ff2884be173396388d6bdc8e5c658a0caab18f76",
+          "bytes": 751
+        },
+        "encodingAudit": {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-review/east-stream-birds.mp4.encoding.json",
+          "sha256": "4a1df4766e143db5aee726e4b63f375c591bd71b569058c335ad8fb9daaef6a1",
+          "bytes": 1872
+        },
+        "framesJsonl": {
+          "path": "/Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/native-island/20261024-185356-663/walkthrough-190458-352/frames.jsonl",
+          "sha256": "c21b4a365f41169e8a32cc2db909e58c61160324faea50a30293318b2f4157ac",
+          "bytes": 110151
+        },
+        "recordingFrameCount": 203,
+        "framesJsonlLineCount": 203,
+        "sourceFrameCountInEncodingAudit": 203,
+        "encodedSampleCount": 203,
+        "declaredFrameCountInNativeActions": null,
+        "allRecordedFrameCountsEqual": true,
+        "frameCountClaimMatches": null,
+        "nativeActionsMention": [
+          {
+            "line": 14,
+            "text": "- 东侧短片 walkthrough-190458-352 31.248秒；当前视角只看溪流末端及一小段下落水线，未看到完整瀑布落差/明确水雾。"
+          }
+        ],
+        "nativeActionsElapsedSeconds": 31.248,
+        "recordingElapsedSeconds": 31.2481689453125,
+        "claimedMinusRecordingSeconds": -0.00016894531249889155,
+        "matchesRoundedRecording": true,
+        "encodedDurationSeconds": 31.24651666666667,
+        "sourceFirstElapsedSeconds": 0.00164794921875,
+        "recordingMinusEncodedSeconds": 0.0016522786458317285,
+        "expectedDurationSecondsInEncodingAudit": 31.24652099609375,
+        "encodingAuditMatchesRecordingSHA": true,
+        "encodingAuditMatchesFramesJsonlSHA": true,
+        "scope": "Compared small JSON/JSONL metadata; did not re-encode, decode, view video or hash PNG/video payloads."
+      }
+    ],
+    "notes": [
+      "The three elapsed-time claims match recording.json rounded to the documented precision. The stated 578 frames match recording.json, frames.jsonl line count, encoding source count and encoded sample count.",
+      "Native-actions uses recorder elapsedSeconds. Encoded VFR durations are slightly shorter because the first captured PTS is subtracted and output time is quantized; these are separate clocks, not exact-identical fields.",
+      "The heading still says execution in progress and the earlier first-pasture bullet says re-recording is underway, while later bullets document completion. These are stale narrative status phrases; do not describe the entire native session as still running based on that heading.",
+      "This audit checks numeric text/metadata only, not the stated camera, subject, visibility or input observations."
+    ]
+  },
+  "observations": [
+    "native-island.log is now 49 lines (previous runtime snapshot was 38). Final shutdown and MemoryLeaks trailer are retained.",
+    "No Exception/Error/CSharp compiler error/Shader compiler error/Licensing/negative-scale/collision warning pattern occurs in these two complete log snapshots. Shader appears only as a shutdown memory-label key. This does not erase the actual first-route exception or editor Licensing Error records in prior audits.",
+    "performance.log:39 contains Releasing render texture that is set to be RenderTexture.active!, with stack NextChunk:49 -> Update:42 at lines 40-45. This actual diagnostic is explicitly preserved even though ordinary Error/Warning keyword searches do not match it.",
+    "Both logs contain five prematurely-finalized thread messages and one MemoryLeaks telemetry record. No causal or performance conclusion is assigned.",
+    "performance-execution.json records exitCode 0 and five true checks. Original performance summary records 912.7116088867188 measured seconds, 8 completed laps, stoppedBecause application_quit. These are observations only."
+  ]
+}

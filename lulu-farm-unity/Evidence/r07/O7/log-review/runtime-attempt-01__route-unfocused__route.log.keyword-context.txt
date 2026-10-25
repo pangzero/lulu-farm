@@ -1,0 +1,188 @@
+SOURCE: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Evidence/r07/O7/attempt-01/route-unfocused/route.log
+SHA256: 90e4c4737401e0f499618069bcd59ea6e22d513be68528ddd157de82ddbfc197
+READ UTC: 2026-10-24T19:07:24.900372+00:00
+Line numbers are one-based; overlapping +/-20-line windows are merged within each category.
+
+CATEGORY: Exception
+PATTERN: Exception
+MATCH COUNT: 2
+40: NullReferenceException: Object reference not set to an instance of an object.
+CLASSIFICATION: Actual runtime exception header; first unfocused route teardown stack is preserved.
+41:   at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:62 
+CLASSIFICATION: Stack frame for actual runtime exception.
+CONTEXT 20-59
+20: 0: Apple M5 (high power)
+21: Using device Apple M5 (high power)
+22: Initializing Metal device caps: Apple M5
+23: Mac GPU Family: 2
+24: Apple GPU Family: 9
+25: MSL Version: 3.0
+26: Has Float MSAA: 1
+27: Has Float Filtering: 1
+28: ReadWrite Texture Tier: 2
+29: Begin MonoManager ReloadAssembly
+30: - Loaded All Assemblies, in  0.057 seconds
+31: - Finished resetting the current domain, in  0.001 seconds
+32: [Physics::Module] Selected backend.
+33: [Physics::Module] Name: PhysX
+34: [Physics::Module] Id: 0xf2b8ea05
+35: [Physics::Module] SDK Version: 4.1.2
+36: [Physics::Module] Integration Version: 1.0.0
+37: [Physics::Module] Threading Mode: Multi-Threaded
+38: UnloadTime: 0.494500 ms
+39: Thread 0x16fa37000 may have been prematurely finalized
+40: NullReferenceException: Object reference not set to an instance of an object.
+41:   at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:62 
+42:   at UnityEngine.GameObject.get_transform () [0x00006] in <18bba4fa74434c85ad9db47879052dea>:0 
+43:   at LuluFarm.FarmRoutePlayback.SaveResult (System.String status) [0x00043] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:281 
+44:   at LuluFarm.FarmRoutePlayback.Stop (System.String reason) [0x00044] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:252 
+45:   at LuluFarm.FarmRoutePlayback.OnDisable () [0x00001] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:297 
+46: 
+47: (Filename: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs Line: 281)
+48: 
+49: [Physics::Module] Cleanup current backend.
+50: [Physics::Module] Id: 0xf2b8ea05
+51: Input System module state changed to: ShutdownInProgress.
+52: Input System polling thread exited.
+53: Input System module state changed to: Shutdown.
+54: Thread 0x16e86b000 may have been prematurely finalized
+55: Thread 0x16e7df000 may have been prematurely finalized
+56: Thread 0x16e753000 may have been prematurely finalized
+57: Thread 0x16e8f7000 may have been prematurely finalized
+58: Thread 0x16e983000 may have been prematurely finalized
+59: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792867615435,"processId":11320,"allocatedMemory":2385416,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15071},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+
+CATEGORY: Error
+PATTERN: Error
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Shader
+PATTERN: Shader
+MATCH COUNT: 1
+59: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792867615435,"processId":11320,"allocatedMemory":2385416,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15071},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+CLASSIFICATION: Unity shutdown telemetry (Shader is a memory-label key); recorded without a memory-leak or performance conclusion.
+CONTEXT 39-59
+39: Thread 0x16fa37000 may have been prematurely finalized
+40: NullReferenceException: Object reference not set to an instance of an object.
+41:   at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:62 
+42:   at UnityEngine.GameObject.get_transform () [0x00006] in <18bba4fa74434c85ad9db47879052dea>:0 
+43:   at LuluFarm.FarmRoutePlayback.SaveResult (System.String status) [0x00043] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:281 
+44:   at LuluFarm.FarmRoutePlayback.Stop (System.String reason) [0x00044] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:252 
+45:   at LuluFarm.FarmRoutePlayback.OnDisable () [0x00001] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:297 
+46: 
+47: (Filename: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs Line: 281)
+48: 
+49: [Physics::Module] Cleanup current backend.
+50: [Physics::Module] Id: 0xf2b8ea05
+51: Input System module state changed to: ShutdownInProgress.
+52: Input System polling thread exited.
+53: Input System module state changed to: Shutdown.
+54: Thread 0x16e86b000 may have been prematurely finalized
+55: Thread 0x16e7df000 may have been prematurely finalized
+56: Thread 0x16e753000 may have been prematurely finalized
+57: Thread 0x16e8f7000 may have been prematurely finalized
+58: Thread 0x16e983000 may have been prematurely finalized
+59: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792867615435,"processId":11320,"allocatedMemory":2385416,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15071},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+
+CATEGORY: CS0108
+PATTERN: CS0108
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: Warning
+PATTERN: warning|warn
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: negative-scale-collision
+PATTERN: negative.*scal|scal.*negative|collid|collision|convex|non.?convex
+MATCH COUNT: 0
+NO MATCH
+
+CATEGORY: thread-finalization
+PATTERN: prematurely finalized
+MATCH COUNT: 6
+39: Thread 0x16fa37000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without attributing a cause.
+54: Thread 0x16e86b000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without attributing a cause.
+55: Thread 0x16e7df000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without attributing a cause.
+56: Thread 0x16e753000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without attributing a cause.
+57: Thread 0x16e8f7000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without attributing a cause.
+58: Thread 0x16e983000 may have been prematurely finalized
+CLASSIFICATION: Unity/Mono shutdown thread-finalization message, preserved without attributing a cause.
+CONTEXT 19-59
+19: Metal devices available: 1
+20: 0: Apple M5 (high power)
+21: Using device Apple M5 (high power)
+22: Initializing Metal device caps: Apple M5
+23: Mac GPU Family: 2
+24: Apple GPU Family: 9
+25: MSL Version: 3.0
+26: Has Float MSAA: 1
+27: Has Float Filtering: 1
+28: ReadWrite Texture Tier: 2
+29: Begin MonoManager ReloadAssembly
+30: - Loaded All Assemblies, in  0.057 seconds
+31: - Finished resetting the current domain, in  0.001 seconds
+32: [Physics::Module] Selected backend.
+33: [Physics::Module] Name: PhysX
+34: [Physics::Module] Id: 0xf2b8ea05
+35: [Physics::Module] SDK Version: 4.1.2
+36: [Physics::Module] Integration Version: 1.0.0
+37: [Physics::Module] Threading Mode: Multi-Threaded
+38: UnloadTime: 0.494500 ms
+39: Thread 0x16fa37000 may have been prematurely finalized
+40: NullReferenceException: Object reference not set to an instance of an object.
+41:   at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:62 
+42:   at UnityEngine.GameObject.get_transform () [0x00006] in <18bba4fa74434c85ad9db47879052dea>:0 
+43:   at LuluFarm.FarmRoutePlayback.SaveResult (System.String status) [0x00043] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:281 
+44:   at LuluFarm.FarmRoutePlayback.Stop (System.String reason) [0x00044] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:252 
+45:   at LuluFarm.FarmRoutePlayback.OnDisable () [0x00001] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:297 
+46: 
+47: (Filename: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs Line: 281)
+48: 
+49: [Physics::Module] Cleanup current backend.
+50: [Physics::Module] Id: 0xf2b8ea05
+51: Input System module state changed to: ShutdownInProgress.
+52: Input System polling thread exited.
+53: Input System module state changed to: Shutdown.
+54: Thread 0x16e86b000 may have been prematurely finalized
+55: Thread 0x16e7df000 may have been prematurely finalized
+56: Thread 0x16e753000 may have been prematurely finalized
+57: Thread 0x16e8f7000 may have been prematurely finalized
+58: Thread 0x16e983000 may have been prematurely finalized
+59: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792867615435,"processId":11320,"allocatedMemory":2385416,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15071},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+
+CATEGORY: MemoryLeaks
+PATTERN: MemoryLeaks
+MATCH COUNT: 1
+59: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792867615435,"processId":11320,"allocatedMemory":2385416,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15071},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+CLASSIFICATION: Unity shutdown telemetry (Shader is a memory-label key); recorded without a memory-leak or performance conclusion.
+CONTEXT 39-59
+39: Thread 0x16fa37000 may have been prematurely finalized
+40: NullReferenceException: Object reference not set to an instance of an object.
+41:   at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:62 
+42:   at UnityEngine.GameObject.get_transform () [0x00006] in <18bba4fa74434c85ad9db47879052dea>:0 
+43:   at LuluFarm.FarmRoutePlayback.SaveResult (System.String status) [0x00043] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:281 
+44:   at LuluFarm.FarmRoutePlayback.Stop (System.String reason) [0x00044] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:252 
+45:   at LuluFarm.FarmRoutePlayback.OnDisable () [0x00001] in /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs:297 
+46: 
+47: (Filename: /Users/haowen/GameProject/farm-game/lulu-farm-unity/Assets/Farm/Scripts/Runtime/FarmRoutePlayback.cs Line: 281)
+48: 
+49: [Physics::Module] Cleanup current backend.
+50: [Physics::Module] Id: 0xf2b8ea05
+51: Input System module state changed to: ShutdownInProgress.
+52: Input System polling thread exited.
+53: Input System module state changed to: Shutdown.
+54: Thread 0x16e86b000 may have been prematurely finalized
+55: Thread 0x16e7df000 may have been prematurely finalized
+56: Thread 0x16e753000 may have been prematurely finalized
+57: Thread 0x16e8f7000 may have been prematurely finalized
+58: Thread 0x16e983000 may have been prematurely finalized
+59: PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792867615435,"processId":11320,"allocatedMemory":2385416,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":15071},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38720},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2120},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":216},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":852},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":3128},{"DynamicArray":31512},{"HashMap":10240},{"Utility":299264},{"PoolAlloc":1560},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":776},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"NativeArray":648},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13032},{"Identifiers":12960},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}
+

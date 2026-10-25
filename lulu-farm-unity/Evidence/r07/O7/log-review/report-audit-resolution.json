@@ -1,0 +1,5 @@
+{
+  "source": "report-audit.json",
+  "resolved": ["REPORT separates ambient recorder 56.0846s from MP4 56.0443s", "REPORT explicitly retains export debugger-agent Unable to listen on 43"],
+  "note": "Original audit retained unchanged; no acceptance verdict"
+}
