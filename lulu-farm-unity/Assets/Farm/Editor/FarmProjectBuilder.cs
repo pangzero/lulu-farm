@@ -368,7 +368,7 @@ namespace LuluFarm.Editor
             if(R07Island)OpusSkyIslandSkyR10();
             var player=new GameObject("LuluPlayer");player.transform.position=new Vector3(0,.05f,3.15f);
             var orientation=new GameObject("PlayerOrientation");orientation.transform.SetParent(player.transform,false);
-            var lulu=Place("Lulu",Vector3.zero,orientation.transform,0);
+            var lulu=R07NewLulu?OpusNewLuluR12(orientation.transform):Place("Lulu",Vector3.zero,orientation.transform,0);
             var cameraGO=new GameObject("Main Camera",typeof(Camera),typeof(AudioListener));cameraGO.tag="MainCamera";
             Camera camera=cameraGO.GetComponent<Camera>();camera.fieldOfView=52;camera.nearClipPlane=.1f;camera.farClipPlane=120;camera.clearFlags=CameraClearFlags.Skybox;camera.backgroundColor=new Color(.58f,.80f,.91f);
             cameraGO.transform.position=player.transform.position+new Vector3(0,3.6f,-4.5f);cameraGO.transform.LookAt(player.transform.position+Vector3.up*.7f);
@@ -380,7 +380,7 @@ namespace LuluFarm.Editor
                 rt.gameObject.AddComponent<FarmPresentationModeR07>().runtime=rt;
                 if(R07Rendering){var renderQuality=rt.gameObject.AddComponent<FarmRenderQualityR07>();renderQuality.runtime=rt;renderQuality.globalVolume=UnityEngine.Object.FindFirstObjectByType<Volume>();camera.allowHDR=true;camera.GetUniversalAdditionalCameraData().renderPostProcessing=true;}
                 rt.mobilePipeline=AssetDatabase.LoadAssetAtPath<UniversalRenderPipelineAsset>(Base+"Settings/MobileURP.asset");rt.desktopPipeline=AssetDatabase.LoadAssetAtPath<UniversalRenderPipelineAsset>(Base+"Settings/DesktopURP.asset");
-                var clips=AssetDatabase.LoadAllAssetsAtPath(Record("Lulu").path).OfType<AnimationClip>().ToArray();
+                var clips=R07NewLulu?NewLuluClips():AssetDatabase.LoadAllAssetsAtPath(Record("Lulu").path).OfType<AnimationClip>().ToArray();
                 rt.idleClip=clips.FirstOrDefault(c=>c.name.Contains("Idle"));rt.walkClip=clips.FirstOrDefault(c=>c.name.Contains("Walk"));rt.runClip=clips.FirstOrDefault(c=>c.name.Contains("Run"));
                 if(rt.idleClip==null||rt.walkClip==null||rt.runClip==null)issues.Add("Full farm needs actual imported Idle/Walk/Run clips.");
                 SetupWardrobe(lulu,rt);

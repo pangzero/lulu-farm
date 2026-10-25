@@ -6,7 +6,7 @@ sources=[('r06 baseline',root/'Evidence/mac-player-performance-r06/20261023-0308
 import sys
 target=sys.argv[1] if len(sys.argv)>1 else 'D7'
 # Writing to D7 reproduces the delivered table; any other target (e.g. O6) also lists that stage's sessions.
-for stage in ['D5','D2','D3','D4','D6']+(['O6'] if target=='O7' else ['O6','O7'] if target=='O8' else [])+([target] if target!='D7' else []):
+for stage in ['D5','D2','D3','D4','D6']+(['O6'] if target=='O7' else ['O6','O7'] if target=='O8' else ['O6','O7','O8'] if target=='O9' else [])+([target] if target!='D7' else []):
     folder=root/'Evidence/r07'/stage/('performance-r02' if stage=='D5' else 'performance')
     files=list(folder.glob('*/performance/summary.json'))
     if files:sources.append((stage,sorted(files)[-1],True))
